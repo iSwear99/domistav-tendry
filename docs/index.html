@@ -26,6 +26,12 @@
 
 <div class="wrap" id="error-banner" hidden></div>
 
+<nav class="wrap tabs" aria-label="Záložky">
+  <button class="tab on" id="tab-tenders" aria-selected="true">Zakázky</button>
+  <button class="tab" id="tab-comp" aria-selected="false">Konkurence</button>
+</nav>
+
+<div id="panel-tenders">
 <section class="wrap stats" id="stats" aria-label="Souhrn">
   <div class="stat"><b id="st-active">–</b><span>aktivních</span></div>
   <div class="stat"><b id="st-new">–</b><span>nových od poslední návštěvy</span></div>
@@ -64,6 +70,28 @@
   <ol class="list" id="list"></ol>
   <p class="empty" id="empty" hidden>Žádná zakázka neodpovídá filtrům.</p>
 </main>
+</div>
+
+<div id="panel-comp" hidden>
+<section class="wrap filters comp-filters" aria-label="Filtry konkurence">
+  <input type="search" id="c-q" placeholder="Hledat vítěze / zakázku / zadavatele…" autocomplete="off">
+  <label class="slider">vzdálenost do <b id="c-dist-val">15</b> km
+    <input type="range" id="c-dist" min="1" max="50" step="1" value="15"></label>
+  <label class="slider">cena od <b id="c-min-val">5</b> mil.
+    <input type="range" id="c-min" min="0" max="100" step="1" value="5"></label>
+  <label class="slider">do <b id="c-max-val">100</b> mil.
+    <input type="range" id="c-max" min="5" max="200" step="5" value="100"></label>
+  <label class="chk" title="Zakázky, u nichž se nepodařilo určit místo plnění"><input type="checkbox" id="c-unknown" checked> vč. polohy neurčené</label>
+  <span class="comp-count" id="c-count"></span>
+</section>
+<main class="wrap">
+  <ol class="list" id="comp-list"></ol>
+  <p class="empty" id="comp-empty" hidden>Žádná zadaná zakázka v rozpětí.</p>
+  <p class="foot-note">Konkurence: zadané zakázky v okruhu 50 km za posledních 12 měsíců
+  (dle data uzavření smlouvy), bez cenového stropu. Uhrazené ceny doplňují zadavatelé
+  se zpožděním — procento růstu (vícepráce) se dopočítává, jakmile jsou k dispozici.</p>
+</main>
+</div>
 
 <footer class="wrap foot">
   <p>Zdroje: ISVZ Open Data (Registr veřejných zakázek, MMR), XML profily zadavatelů a NEN.

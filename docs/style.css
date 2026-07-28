@@ -70,6 +70,34 @@ body {
   font-size: 13.5px;
 }
 
+/* ── záložky ── */
+.tabs { display: flex; gap: 6px; margin: 14px auto 0; }
+.tab {
+  border: 1px solid var(--line); border-bottom: none; cursor: pointer;
+  background: var(--bg); color: var(--muted); font: 600 15px var(--fd);
+  text-transform: uppercase; letter-spacing: .04em;
+  padding: 8px 18px; border-radius: 4px 4px 0 0;
+}
+.tab.on { background: var(--surface); color: var(--ink);
+  border-bottom: 2px solid var(--accent); }
+.tab:hover { color: var(--accent-ink); }
+
+/* ── konkurence ── */
+.slider { display: flex; gap: 6px; align-items: center; font-size: 13.5px;
+  color: var(--muted); white-space: nowrap; }
+.slider b { color: var(--ink); min-width: 2ch; text-align: right; }
+.slider input[type="range"] { width: 110px; accent-color: var(--accent); }
+.comp-count { font-size: 13px; color: var(--muted); margin-left: auto; }
+.winner { font-size: 14px; margin-top: 2px; font-weight: 600; }
+.winner small { font-weight: 400; color: var(--muted); }
+.paid { display: block; font-size: 13px; color: var(--muted); margin-top: 4px; }
+.tag.growth.up { background: #fdeeea; border-color: #f0c4b5; color: #b34a1f;
+  text-transform: none; font-variant-numeric: tabular-nums; }
+.tag.growth.down { background: #eef6ee; border-color: #bcd9bf; color: var(--ok);
+  text-transform: none; font-variant-numeric: tabular-nums; }
+.foot-note { color: var(--muted); font-size: 12.5px; margin: -8px 0 32px; }
+#panel-comp .row { grid-template-columns: 1fr auto auto; }
+
 /* ── statistiky ── */
 .stats {
   display: grid; grid-template-columns: repeat(6, 1fr);

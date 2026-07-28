@@ -120,13 +120,15 @@ function irrelevance(t) {
 
 async function load() {
   try {
-    const [tenders, meta, changes] = await Promise.all([
+    const [tenders, meta, changes, comp] = await Promise.all([
       fetch("data/tenders.json").then((r) => r.json()),
       fetch("data/meta.json").then((r) => r.json()),
       fetch("data/changes.json").then((r) => r.json()).catch(() => ({})),
+      fetch("data/competition.json").then((r) => r.json()).catch(() => []),
     ]);
     state.tenders = tenders;
     state.changes = changes || {};
+    state.comp = comp || [];
     buildDf();
     buildModel();
     renderMeta(meta);
@@ -136,6 +138,7 @@ async function load() {
     return;
   }
   render();
+  renderComp();
   localStorage.setItem(LS_SEEN, todayISO); // až po vykreslení badge „nové"
 }
 
@@ -297,6 +300,89 @@ function render() {
   $("st-hidden").textContent =
     state.tenders.filter((t) => irrelevance(t)).length;
 }
+
+/* ── Konkurence ─────────────────────────────────────────────────────────── */
+
+function compPasses(c) {
+  const q = $("c-q").value.trim().toLowerCase();
+  if (q && !(c.title + " " + c.winner + " " + c.authority)
+    .toLowerCase().includes(q)) return false;
+
+  if (c.loc_unknown) {
+    if (!$("c-unknown").checked) return false;
+  } else if (c.dist_km == null || c.dist_km > +$("c-dist").value) {
+    return false;
+  }
+
+  // cenové rozpětí v mil.; horní slider na maximu = bez stropu;
+  // zakázky bez ceny se nezahazují — zobrazují se se štítkem
+  if (c.price_contracted != null) {
+    const m = c.price_contracted / 1e6;
+    if (m < +$("c-min").value) return false;
+    const max = +$("c-max").value;
+    if (max < +$("c-max").max && m > max) return false;
+  }
+  return true;
+}
+
+function compRowHTML(c) {
+  const price = c.price_contracted != null
+    ? `<span class="val">${fmtKc.format(c.price_contracted)}<small>${c.estimated ? "předpokládaná (odhad)" : "vysoutěžená"} Kč bez DPH</small></span>`
+    : `<span class="val">—<small>cena neuvedena</small></span>`;
+  const growth = c.growth_pct != null
+    ? `<span class="tag growth ${c.growth_pct > 0 ? "up" : "down"}" title="Uhrazeno vs. vysoutěženo (vícepráce/méněpráce, dle vykázaných plateb)">${c.growth_pct > 0 ? "+" : ""}${c.growth_pct} %</span>`
+    : "";
+  const paid = c.price_paid != null
+    ? `<span class="paid">uhrazeno ${fmtKc.format(c.price_paid)} Kč ${growth}</span>`
+    : "";
+  const title = c.url
+    ? `<a href="${c.url}" target="_blank" rel="noopener">${esc(c.title)}</a>`
+    : esc(c.title);
+  return `<li class="row">
+    <div class="head">
+      <h2>${title}</h2>
+      <div class="auth">${esc(c.authority)}</div>
+      <div class="winner">${c.winner
+        ? "🏆 " + esc(c.winner) + (c.winner_ico ? ` <small>IČO ${esc(c.winner_ico)}</small>` : "")
+        : "vítěz v datech neuveden"}</div>
+      <div class="tags">
+        <span class="tag ${c.kind === "VZ" ? "vz" : "vzmr"}">${c.kind}</span>
+        ${c.dist_km != null ? `<span class="tag dist">~${c.dist_km} km</span>` : ""}
+        ${c.loc_unknown ? '<span class="tag">poloha neurčena</span>' : ""}
+        ${(c.cpv || []).slice(0, 1).map((x) => `<span class="tag">CPV ${esc(x)}</span>`).join("")}
+        ${c.kw_match ? '<span class="tag kw">dle názvu</span>' : ""}
+      </div>
+      ${paid}
+    </div>
+    ${price}
+    <span class="due">${esc((c.awarded || "").split("-").reverse().join("."))}<small>zadáno</small></span>
+  </li>`;
+}
+
+function renderComp() {
+  if (!$("comp-list")) return;
+  $("c-dist-val").textContent = $("c-dist").value;
+  $("c-min-val").textContent = $("c-min").value;
+  $("c-max-val").textContent =
+    +$("c-max").value >= +$("c-max").max ? "∞" : $("c-max").value;
+  const shown = (state.comp || []).filter(compPasses);
+  $("comp-list").innerHTML = shown.map(compRowHTML).join("");
+  $("comp-empty").hidden = shown.length > 0;
+  $("c-count").textContent = `${shown.length} z ${(state.comp || []).length}`;
+}
+
+function switchTab(comp) {
+  $("panel-tenders").hidden = comp;
+  $("panel-comp").hidden = !comp;
+  $("tab-tenders").classList.toggle("on", !comp);
+  $("tab-comp").classList.toggle("on", comp);
+  $("tab-tenders").setAttribute("aria-selected", String(!comp));
+  $("tab-comp").setAttribute("aria-selected", String(comp));
+}
+$("tab-tenders").addEventListener("click", () => switchTab(false));
+$("tab-comp").addEventListener("click", () => switchTab(true));
+["c-q", "c-dist", "c-min", "c-max", "c-unknown"].forEach((id) =>
+  $(id).addEventListener("input", renderComp));
 
 document.addEventListener("click", (e) => {
   const star = e.target.closest(".star");
