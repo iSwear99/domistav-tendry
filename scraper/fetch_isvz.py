@@ -30,7 +30,9 @@ def _get(url: str) -> bytes | None:
             req = urllib.request.Request(
                 url, headers={"User-Agent": config.USER_AGENT}
             )
-            with urllib.request.urlopen(req, timeout=config.TIMEOUT) as r:
+            with urllib.request.urlopen(
+                req, timeout=config.ISVZ_TIMEOUT
+            ) as r:
                 return r.read()
         except urllib.error.HTTPError as exc:
             if exc.code == 404:

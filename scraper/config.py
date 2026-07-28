@@ -66,6 +66,9 @@ USER_AGENT = (
 )
 TIMEOUT = 60
 RETRIES = 3
+# ISVZ ZIPy (~34 MB) jdou z GitHub runnerů výrazně pomaleji než z ČR —
+# první nasazený běh s TIMEOUT=60 vytimeoutoval na všech souborech.
+ISVZ_TIMEOUT = 600
 
 # ── Zdroj 1: ISVZ Open Data ─────────────────────────────────────────────────
 # OVĚŘENO 2026-07-28 proti VZ-06-2026.zip a dokumentaci 2.9.0 (swagger.json):
