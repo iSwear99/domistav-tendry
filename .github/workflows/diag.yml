@@ -7,14 +7,10 @@ jobs:
       - name: Test alternatives
         run: |
           echo "http port 80:"
-          curl -s -o /dev/null -w "%{http_code}
-" --connect-timeout 12 -m 30 -I "http://isvz.nipez.cz/opendata" || echo FAIL
+          curl -s -o /dev/null -w "%{http_code}\n" --connect-timeout 12 -m 30 -I "http://isvz.nipez.cz/opendata" || echo FAIL
           echo "corsproxy.io:"
-          curl -s -o /dev/null -w "%{http_code}
-" --connect-timeout 12 -m 60 "https://corsproxy.io/?url=https%3A%2F%2Fisvz.nipez.cz%2Fopendata" || echo FAIL
+          curl -s -o /dev/null -w "%{http_code}\n" --connect-timeout 12 -m 60 "https://corsproxy.io/?url=https%3A%2F%2Fisvz.nipez.cz%2Fopendata" || echo FAIL
           echo "allorigins raw:"
-          curl -s -o /dev/null -w "%{http_code}
-" --connect-timeout 12 -m 60 "https://api.allorigins.win/raw?url=https%3A%2F%2Fisvz.nipez.cz%2Fopendata" || echo FAIL
-          echo "allorigins zip HEAD (34MB test start):"
-          curl -s -o /dev/null -w "%{http_code} %{size_download}
-" --connect-timeout 12 -m 120 -r 0-1000000 "https://api.allorigins.win/raw?url=https%3A%2F%2Fisvz.nipez.cz%2Fsites%2Fdefault%2Ffiles%2Fcontent%2Fopendata-rvz%2FVZ-06-2026.zip" || echo FAIL
+          curl -s -o /dev/null -w "%{http_code}\n" --connect-timeout 12 -m 60 "https://api.allorigins.win/raw?url=https%3A%2F%2Fisvz.nipez.cz%2Fopendata" || echo FAIL
+          echo "allorigins zip range 1MB:"
+          curl -s -o /dev/null -w "%{http_code} %{size_download}\n" --connect-timeout 12 -m 120 -r 0-1000000 "https://api.allorigins.win/raw?url=https%3A%2F%2Fisvz.nipez.cz%2Fsites%2Fdefault%2Ffiles%2Fcontent%2Fopendata-rvz%2FVZ-06-2026.zip" || echo FAIL
