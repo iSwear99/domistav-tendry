@@ -24,15 +24,6 @@
    "new": "3"
   }
  ],
- "rvz:RVZ2400192761": [
-  {
-   "date": "2026-07-28",
-   "field": "clarifications",
-   "label": "vysvětlení ZD",
-   "old": "0",
-   "new": "7"
-  }
- ],
  "rvz:RVZ2500000270": [
   {
    "date": "2026-07-28",
@@ -56,15 +47,6 @@
    "label": "vysvětlení ZD",
    "old": "0",
    "new": "1"
-  }
- ],
- "rvz:RVZ2500053513": [
-  {
-   "date": "2026-07-28",
-   "field": "value",
-   "label": "hodnota",
-   "old": "—",
-   "new": "7 743 843 Kč"
   }
  ],
  "rvz:RVZ2500214997": [
@@ -126,15 +108,6 @@
    "label": "lhůta",
    "old": "—",
    "new": "2026-04-22 17:00"
-  }
- ],
- "rvz:RVZ2600074641": [
-  {
-   "date": "2026-07-28",
-   "field": "clarifications",
-   "label": "vysvětlení ZD",
-   "old": "0",
-   "new": "1"
   }
  ],
  "rvz:RVZ2600099758": [
