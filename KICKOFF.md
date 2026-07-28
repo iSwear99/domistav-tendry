@@ -10,12 +10,21 @@ v plném znění; tento úvodní blok zachycuje stav plnění k 28. 7. 2026.
 | 0 Audit projektu | ✅ 28. 7. 2026 — žádné ruční úpravy nenalezeny, odchylky nasazení schváleny (viz CLAUDE.md) |
 | 1 ISVZ Open Data | ✅ hotovo (měsíční ZIPy, parser dle dokumentace 2.9.0) |
 | 2 Profily zadavatelů | ✅ hotovo (35 profilů, XML živě ověřeno) |
-| 3 Konkurence | 🔄 v práci (pole výsledků, backfill 12 měsíců, competition.json) |
-| 4 Geo (sídlo firmy + obce.csv) | 🔄 obce.csv ✅ (celá ČR z RÚIAN — schválená odchylka); GEO_CENTER na Pražská třída 901/145 v práci |
+| 3 Konkurence | ✅ hotovo (competition.json, backfill 12 měsíců, UI se slidery a TOP firem) |
+| 4 Geo (sídlo firmy + obce.csv) | ✅ hotovo (obce.csv celá ČR z RÚIAN — schválená odchylka; GEO_CENTER = adresní místo Pražská třída 901/145 z RÚIAN) |
 | 5 NEN API podklady | ✅ postup předán (komerční certifikát → referenční prostředí spravcenen@mmr.cz → produkce); modul neaktivní |
 | 6 Dry-run test | ✅ pro Zakázky; pro Konkurenci proběhne po implementaci |
 | 7 Nasazení | ✅ repo iSwear99/domistav-tendry, Pages běží, workflow na self-hosted runneru `domistav-pc` (ISVZ blokuje IP GitHub runnerů — schválená odchylka) |
 | 8 Akceptace | ✅ Zakázky; Konkurence po dokončení úkolu 3 |
+
+**Rozšíření 28. 7. 2026 — Registr smluv:** modul `fetch_smlouvy.py`
+(zadání „Integrace modulu Registr smluv" — soubory modulu v projektu
+nebyly, po schválení napsán od nuly; názvosloví ponecháno
+competition.json/awarded). Plně automatický životní cyklus, párování
+high/low, dodatky; workflow `update-smlouvy.yml` (měsíční + týdenní
+pojistka). Zapracována zpětná vazba z testování: slidery i v Zakázkách,
+proklik fallbacky, srovnání firem s grafem, učení relevance 👎 i pro
+Konkurenci; lhůty VVZ záznamů = známé omezení (viz CLAUDE.md).
 
 Schválené odchylky od původní specifikace (audit 28. 7. 2026, detaily
 v CLAUDE.md): self-hosted runner, stdlib urllib místo requests,

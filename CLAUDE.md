@@ -39,7 +39,28 @@ neobsahuje žádná firemní data, proto smí běžet v public GitHub repozitá�
 3. **NEN veřejné API** — obohacení detailů (prohlídka místa plnění,
    vysvětlení ZD) k aktivním VZ; autentizace certifikátem přes GitHub
    secrets, modul `fetch_nen.py` (neaktivní do zřízení přístupu).
-4. (v2) TED API pro nadlimitní, e-mailový souhrn.
+4. **Registr smluv** (zákon č. 340/2015 Sb.) — dodatky ke smlouvám
+   a verifikace vysoutěžených cen pro záložku Konkurence. OVĚŘENO
+   2026-07-28: měsíční dumpy `https://data.smlouvy.gov.cz/dump_RRRR_MM.xml`
+   (XML bez komprese, ~110–150 MB, namespace ISRS/1.2; dump běžícího
+   měsíce existuje a denně roste). Vazba dodatku: `navazanyZaznam` =
+   idSmlouvy mateřské smlouvy. Modul `fetch_smlouvy.py`, workflow
+   `update-smlouvy.yml` (měsíční cron + týdenní pojistka, self-hosted).
+   **Životní cyklus je PLNĚ AUTOMATICKÝ — žádný ruční krok:** prázdná
+   Konkurence ⇒ klidný exit 0; naplněná Konkurence + prázdné
+   smlouvy.json ⇒ běh sám provede backfill 13 měsíců; jinak přírůstkově
+   aktuální + minulý měsíc. Toto chování při úpravách zachovat!
+   Párování: IČO zadavatele + IČO vítěze + okno data uzavření
+   (−30/+120 dní od zadání); shoda ceny ±15 % ⇒ „high", jinak „low";
+   „high" se nikdy nesnižuje; u „low" smí smlouva vázat jen jednu
+   zakázku. Surové dumpy se NIKDY necommitují.
+   Výstup `docs/data/smlouvy.json`:
+   `{"meta": {updated, months, linked, high, low, errors},
+     "links": {<competition_id>: {contract_id, url, date, price,
+     confidence, amendments: [{id, date, value, url}],
+     amendments_count, amendments_total}}}`.
+5. (v2) TED API pro nadlimitní, e-mailový souhrn; obohacení lhůt
+   VVZ záznamů (ISVZ open data u nich lhůty nenesou — viz níže).
 
 ## ⚠️ POVINNÉ ÚVODNÍ ÚKOLY — ✅ SPLNĚNO 28. 7. 2026 (kromě úkolu 4)
 
@@ -175,6 +196,23 @@ workflow spouští best-effort, reálný start může být o minuty až desítky
 minut opožděn.
 
 `docs/data/meta.json`: `{"updated": ISO, "counts": {...}, "errors": [...]}`.
+
+**Konkurence** (`docs/data/competition.json`): zadané zakázky v oboru
+a okruhu, klouzavých 12 měsíců dle data uzavření smlouvy, BEZ cenového
+stropu; pole `winner`, `winner_ico`, `awarded`, `price_contracted`
+(+`estimated`), `price_paid`, `growth_pct`, `dist_km`. Archiv se slučuje
+s předchozím během; mimo okno se maže (jediné povolené mazání).
+Frontend počítá cenu vč. dodatků z Registru smluv (slidery, TOP firmy);
+% nárůstu s prioritou: uhrazeno, jinak vysoutěženo + dodatky.
+
+**Známé omezení lhůt:** záznamy ze zdroje VVZ nemají v ISVZ open datech
+lhůty, stav ani odkaz (ověřeno na dokumentaci 2.9.0 i datech — pole jsou
+null, historie_lhut prázdná). Lhůty se dotahují z profilů zadavatelů
+při dedupu a z historie_lhut; proklik má řetěz fallbacků (odkaz na
+profil → NEN detail z NEN id → adresa profilu zadavatele → profil dle
+IČO z konfigurace i z jiných záznamů v běhu). Zbylé VVZ záznamy bez
+lhůty nesou v UI štítek „lhůta neuvedena"; plné doplnění vyžaduje
+VVZ API (v2 — vvz.nipez.cz je SPA, veřejné API nebylo dosud ověřeno).
 
 ## Verze 2 (zatím NEIMPLEMENTOVAT)
 
