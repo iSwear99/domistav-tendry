@@ -96,7 +96,31 @@ body {
 .tag.growth.down { background: #eef6ee; border-color: #bcd9bf; color: var(--ok);
   text-transform: none; font-variant-numeric: tabular-nums; }
 .foot-note { color: var(--muted); font-size: 12.5px; margin: -8px 0 32px; }
-#panel-comp .row { grid-template-columns: 1fr auto auto; }
+#panel-comp .row { grid-template-columns: 1fr auto auto auto; }
+.tag.amend { background: #fff3e8; border-color: #f0c9a8; color: #9a5a1f;
+  text-transform: none; text-decoration: none; cursor: pointer; }
+.tag.amend:hover, .tag.warn:hover { filter: brightness(.93); }
+.tag.warn { background: #fdf6dd; border-color: #e5d48a; color: #7a6410;
+  text-transform: none; text-decoration: none; cursor: pointer; }
+.top-firms { background: var(--surface); border: 1px solid var(--line);
+  border-radius: 4px; padding: 12px 16px; margin: 4px 0 32px; }
+.top-firms h3 { margin: 0 0 10px; font: 700 18px var(--fd);
+  text-transform: uppercase; letter-spacing: .04em; }
+.top-firms h3 small { display: block; font: 400 12.5px var(--fs, inherit);
+  color: var(--muted); text-transform: none; letter-spacing: 0; margin-top: 2px; }
+.top-firms ol { list-style: none; margin: 0; padding: 0;
+  display: grid; gap: 6px; }
+.top-firms li { display: grid; grid-template-columns: minmax(180px, 1fr) 2fr auto;
+  gap: 10px; align-items: center; font-size: 14px; }
+.top-firms .tf-bar { background: var(--bg); border: 1px solid var(--line);
+  border-radius: 3px; height: 14px; overflow: hidden; }
+.top-firms .tf-bar i { display: block; height: 100%;
+  background: var(--accent); }
+.top-firms li small { color: var(--muted); white-space: nowrap;
+  font-variant-numeric: tabular-nums; }
+@media (max-width: 720px) {
+  .top-firms li { grid-template-columns: 1fr; gap: 2px; }
+}
 
 /* ── statistiky ── */
 .stats {

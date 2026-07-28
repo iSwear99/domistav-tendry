@@ -120,15 +120,20 @@ function irrelevance(t) {
 
 async function load() {
   try {
-    const [tenders, meta, changes, comp] = await Promise.all([
-      fetch("data/tenders.json").then((r) => r.json()),
-      fetch("data/meta.json").then((r) => r.json()),
-      fetch("data/changes.json").then((r) => r.json()).catch(() => ({})),
-      fetch("data/competition.json").then((r) => r.json()).catch(() => []),
+    // no-cache = vždy revalidace přes ETag (na Pages levné 304); bez ní
+    // prohlížeč heuristicky drží starý JSON i po denní aktualizaci
+    const j = (url) => fetch(url, { cache: "no-cache" }).then((r) => r.json());
+    const [tenders, meta, changes, comp, smlouvy] = await Promise.all([
+      j("data/tenders.json"),
+      j("data/meta.json"),
+      j("data/changes.json").catch(() => ({})),
+      j("data/competition.json").catch(() => []),
+      j("data/smlouvy.json").catch(() => ({})),
     ]);
     state.tenders = tenders;
     state.changes = changes || {};
     state.comp = comp || [];
+    state.smlouvy = (smlouvy && smlouvy.links) || {};
     buildDf();
     buildModel();
     renderMeta(meta);
@@ -188,13 +193,21 @@ function passes(t) {
   const kind = $("f-kind").value;
   if (kind && t.kind !== kind) return false;
 
-  const region = $("f-region").value;
-  if (region === "unknown") { if (!t.loc_unknown) return false; }
-  else if (region && !(t.dist_km != null && t.dist_km <= +region)) return false;
+  // vzdálenost sliderem; poloha neurčena dle checkboxu (nezahazovat tiše)
+  if (t.loc_unknown) {
+    if (!$("t-unknown").checked) return false;
+  } else if (!(t.dist_km != null && t.dist_km <= +$("t-dist").value)) {
+    return false;
+  }
 
-  const fv = $("f-value").value;
-  if (fv === "novalue") { if (!t.no_value) return false; }
-  else if (fv && !(t.value != null && t.value >= +fv)) return false;
+  // cenové rozpětí v mil.; horní slider na maximu = bez stropu;
+  // zakázky bez hodnoty se zobrazují vždy (štítek „hodnota neuvedena")
+  if (t.value != null) {
+    const m = t.value / 1e6;
+    if (m < +$("t-min").value) return false;
+    const max = +$("t-max").value;
+    if (max < +$("t-max").max && m > max) return false;
+  }
 
   if ($("f-active").checked && t.expired) return false;
   if ($("f-watch").checked && !state.watch.has(t.id)) return false;
@@ -283,6 +296,10 @@ function esc(s) {
 }
 
 function render() {
+  $("t-dist-val").textContent = $("t-dist").value;
+  $("t-min-val").textContent = $("t-min").value;
+  $("t-max-val").textContent =
+    +$("t-max").value >= +$("t-max").max ? "∞" : $("t-max").value;
   const shown = state.tenders.filter(passes);
   $("list").innerHTML = shown.map(rowHTML).join("");
   $("empty").hidden = shown.length > 0;
@@ -303,10 +320,41 @@ function render() {
 
 /* ── Konkurence ─────────────────────────────────────────────────────────── */
 
+// Vazba na Registr smluv (data/smlouvy.json) — dodatky a verifikace cen.
+function linkOf(c) {
+  return (state.smlouvy || {})[c.id];
+}
+
+// Cena včetně dodatků — používají ji slidery i agregace TOP firem.
+function effPrice(c) {
+  if (c.price_contracted == null) return null;
+  const l = linkOf(c);
+  return c.price_contracted + (l && l.amendments_total ? l.amendments_total : 0);
+}
+
+// % nárůstu: priorita price_paid, jinak vysoutěženo + dodatky,
+// vždy proti price_contracted.
+function effGrowth(c) {
+  const base = c.price_contracted;
+  if (!base) return null;
+  const l = linkOf(c);
+  const current = c.price_paid != null
+    ? c.price_paid
+    : (l && l.amendments_total ? base + l.amendments_total : null);
+  if (current == null) return null;
+  return Math.round((current / base - 1) * 1000) / 10;
+}
+
 function compPasses(c) {
   const q = $("c-q").value.trim().toLowerCase();
   if (q && !(c.title + " " + c.winner + " " + c.authority)
     .toLowerCase().includes(q)) return false;
+
+  // relevance dtto Zakázky: odmítnuté a odhadem nerelevantní se skrývají,
+  // filtr „jen odmítnuté 👎" je naopak zobrazí ke kontrole
+  const irr = irrelevance(c);
+  if ($("c-disliked").checked) return !!irr;
+  if (irr) return false;
 
   if (c.loc_unknown) {
     if (!$("c-unknown").checked) return false;
@@ -314,10 +362,11 @@ function compPasses(c) {
     return false;
   }
 
-  // cenové rozpětí v mil.; horní slider na maximu = bez stropu;
-  // zakázky bez ceny se nezahazují — zobrazují se se štítkem
-  if (c.price_contracted != null) {
-    const m = c.price_contracted / 1e6;
+  // cenové rozpětí v mil. POČÍTÁ S CENOU VČETNĚ DODATKŮ; horní slider
+  // na maximu = bez stropu; zakázky bez ceny se nezahazují (štítek)
+  const ep = effPrice(c);
+  if (ep != null) {
+    const m = ep / 1e6;
     if (m < +$("c-min").value) return false;
     const max = +$("c-max").value;
     if (max < +$("c-max").max && m > max) return false;
@@ -326,19 +375,40 @@ function compPasses(c) {
 }
 
 function compRowHTML(c) {
+  const l = linkOf(c);
+  const g = effGrowth(c);
   const price = c.price_contracted != null
     ? `<span class="val">${fmtKc.format(c.price_contracted)}<small>${c.estimated ? "předpokládaná (odhad)" : "vysoutěžená"} Kč bez DPH</small></span>`
     : `<span class="val">—<small>cena neuvedena</small></span>`;
-  const growth = c.growth_pct != null
-    ? `<span class="tag growth ${c.growth_pct > 0 ? "up" : "down"}" title="Uhrazeno vs. vysoutěženo (vícepráce/méněpráce, dle vykázaných plateb)">${c.growth_pct > 0 ? "+" : ""}${c.growth_pct} %</span>`
+  const growth = g != null
+    ? `<span class="tag growth ${g > 0 ? "up" : "down"}" title="Aktuální cena (uhrazeno, jinak vysoutěženo + dodatky) vs. vysoutěženo">${g > 0 ? "+" : ""}${g} %</span>`
     : "";
-  const paid = c.price_paid != null
-    ? `<span class="paid">uhrazeno ${fmtKc.format(c.price_paid)} Kč ${growth}</span>`
+  // cenový řetězec: vysoutěženo → + dodatky → uhrazeno/aktuální
+  const chainParts = [];
+  if (l && l.amendments_count) {
+    chainParts.push(
+      `<a class="tag amend" href="${esc(l.url)}" target="_blank" rel="noopener"
+        title="Dodatky ke smlouvě v Registru smluv — pozor, hodnota dodatku může být i nová celková cena">dodatky: ${l.amendments_count}×${l.amendments_total ? " (+" + fmtKc.format(l.amendments_total) + " Kč)" : ""}</a>`);
+  }
+  if (l && l.confidence === "low") {
+    chainParts.push(
+      `<a class="tag warn" href="${esc(l.url)}" target="_blank" rel="noopener"
+        title="Párování na Registr smluv podle IČO a data — cena smlouvy neodpovídá přesně, ověřte ručně">⚠ ověřit párování</a>`);
+  }
+  const current = c.price_paid != null
+    ? `uhrazeno ${fmtKc.format(c.price_paid)} Kč`
+    : (l && l.amendments_total && c.price_contracted != null
+        ? `aktuálně ${fmtKc.format(effPrice(c))} Kč`
+        : "");
+  const paid = (current || chainParts.length || growth)
+    ? `<span class="paid">${current} ${growth} ${chainParts.join(" ")}</span>`
     : "";
   const title = c.url
     ? `<a href="${c.url}" target="_blank" rel="noopener">${esc(c.title)}</a>`
     : esc(c.title);
-  return `<li class="row">
+  const irrBadge = $("c-disliked").checked
+    ? `<span class="tag irr">${esc(irrelevance(c) || "")}</span>` : "";
+  return `<li class="row" data-id="${esc(c.id)}">
     <div class="head">
       <h2>${title}</h2>
       <div class="auth">${esc(c.authority)}</div>
@@ -351,12 +421,41 @@ function compRowHTML(c) {
         ${c.loc_unknown ? '<span class="tag">poloha neurčena</span>' : ""}
         ${(c.cpv || []).slice(0, 1).map((x) => `<span class="tag">CPV ${esc(x)}</span>`).join("")}
         ${c.kw_match ? '<span class="tag kw">dle názvu</span>' : ""}
+        ${irrBadge}
       </div>
       ${paid}
     </div>
     ${price}
     <span class="due">${esc((c.awarded || "").split("-").reverse().join("."))}<small>zadáno</small></span>
+    <button class="thumb${state.dislikes[c.id] ? " on" : ""}" title="Označit jako nerelevantní — promítne se i do Zakázek" aria-pressed="${!!state.dislikes[c.id]}">👎</button>
   </li>`;
+}
+
+function renderTopFirms(shown) {
+  const agg = new Map();
+  let total = 0;
+  for (const c of shown) {
+    if (!c.winner) continue;
+    const p = effPrice(c) || 0;   // cena včetně dodatků
+    total += p;
+    const a = agg.get(c.winner) || { n: 0, sum: 0 };
+    a.n += 1;
+    a.sum += p;
+    agg.set(c.winner, a);
+  }
+  const top = [...agg.entries()].sort((a, b) => b[1].sum - a[1].sum).slice(0, 10);
+  const maxSum = top.length ? top[0][1].sum : 1;
+  $("c-top-total").textContent = total
+    ? `— celkový objem vyhraných zakázek v aktuálním filtru: ${fmtKc.format(total)} Kč bez DPH`
+    : "";
+  $("c-top-list").innerHTML = top.map(([name, a], i) =>
+    `<li>
+      <span class="tf-name"><b>${i + 1}.</b> ${esc(name)}</span>
+      <span class="tf-bar"><i style="width:${Math.max(2, Math.round(a.sum / maxSum * 100))}%"></i></span>
+      <small>${a.n}× · ${fmtKc.format(a.sum)} Kč</small>
+    </li>`
+  ).join("");
+  $("c-top").hidden = top.length === 0;
 }
 
 function renderComp() {
@@ -369,6 +468,7 @@ function renderComp() {
   $("comp-list").innerHTML = shown.map(compRowHTML).join("");
   $("comp-empty").hidden = shown.length > 0;
   $("c-count").textContent = `${shown.length} z ${(state.comp || []).length}`;
+  renderTopFirms(shown);
 }
 
 function switchTab(comp) {
@@ -381,7 +481,7 @@ function switchTab(comp) {
 }
 $("tab-tenders").addEventListener("click", () => switchTab(false));
 $("tab-comp").addEventListener("click", () => switchTab(true));
-["c-q", "c-dist", "c-min", "c-max", "c-unknown"].forEach((id) =>
+["c-q", "c-dist", "c-min", "c-max", "c-unknown", "c-disliked"].forEach((id) =>
   $(id).addEventListener("input", renderComp));
 
 document.addEventListener("click", (e) => {
@@ -397,16 +497,19 @@ document.addEventListener("click", (e) => {
     if (state.dislikes[id]) {
       delete state.dislikes[id];
     } else {
-      const t = state.tenders.find((x) => x.id === id);
+      const t = state.tenders.find((x) => x.id === id)
+        || (state.comp || []).find((x) => x.id === id);
       if (t) state.dislikes[id] = fingerprint(t);
     }
     saveDislikes();
     buildModel();
   }
   render();
+  renderComp();
 });
 
-["f-q", "f-kind", "f-region", "f-value", "f-active", "f-watch", "f-changed",
- "f-disliked"].forEach((id) => $(id).addEventListener("input", render));
+["f-q", "f-kind", "t-dist", "t-min", "t-max", "t-unknown", "f-active",
+ "f-watch", "f-changed", "f-disliked"].forEach((id) =>
+  $(id).addEventListener("input", render));
 
 load();

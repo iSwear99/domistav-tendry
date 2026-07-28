@@ -48,18 +48,13 @@
     <option value="VZ">Zákonné VZ</option>
     <option value="VZMR">Malý rozsah</option>
   </select>
-  <select id="f-region">
-    <option value="">Vzdálenost: vše (≤ 50 km)</option>
-    <option value="25">do 25 km</option>
-    <option value="unknown">poloha neurčena</option>
-  </select>
-  <select id="f-value">
-    <option value="">Hodnota: vše</option>
-    <option value="2000000">od 2 mil.</option>
-    <option value="10000000">od 10 mil.</option>
-    <option value="50000000">od 50 mil.</option>
-    <option value="novalue">bez uvedené hodnoty</option>
-  </select>
+  <label class="slider">vzdálenost do <b id="t-dist-val">50</b> km
+    <input type="range" id="t-dist" min="1" max="50" step="1" value="50"></label>
+  <label class="slider">cena od <b id="t-min-val">0</b> mil.
+    <input type="range" id="t-min" min="0" max="100" step="1" value="0"></label>
+  <label class="slider">do <b id="t-max-val">∞</b> mil.
+    <input type="range" id="t-max" min="5" max="200" step="5" value="200"></label>
+  <label class="chk" title="Zakázky, u nichž se nepodařilo určit místo plnění"><input type="checkbox" id="t-unknown" checked> vč. polohy neurčené</label>
   <label class="chk"><input type="checkbox" id="f-active" checked> jen aktivní</label>
   <label class="chk"><input type="checkbox" id="f-watch"> jen sledované ★</label>
   <label class="chk"><input type="checkbox" id="f-changed"> jen se změnou ZD</label>
@@ -82,11 +77,16 @@
   <label class="slider">do <b id="c-max-val">100</b> mil.
     <input type="range" id="c-max" min="5" max="200" step="5" value="100"></label>
   <label class="chk" title="Zakázky, u nichž se nepodařilo určit místo plnění"><input type="checkbox" id="c-unknown" checked> vč. polohy neurčené</label>
+  <label class="chk" title="Odmítnuté a odhadem nerelevantní — kontrola párování relevance"><input type="checkbox" id="c-disliked"> jen odmítnuté 👎</label>
   <span class="comp-count" id="c-count"></span>
 </section>
 <main class="wrap">
   <ol class="list" id="comp-list"></ol>
   <p class="empty" id="comp-empty" hidden>Žádná zadaná zakázka v rozpětí.</p>
+  <section class="top-firms" id="c-top" hidden aria-label="Srovnání vítězných firem">
+    <h3>Srovnání vítězných firem <small id="c-top-total"></small></h3>
+    <ol id="c-top-list"></ol>
+  </section>
   <p class="foot-note">Konkurence: zadané zakázky v okruhu 50 km za posledních 12 měsíců
   (dle data uzavření smlouvy), bez cenového stropu. Uhrazené ceny doplňují zadavatelé
   se zpožděním — procento růstu (vícepráce) se dopočítává, jakmile jsou k dispozici.</p>
