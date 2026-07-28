@@ -6,6 +6,15 @@
 
 # ── Filtrace ────────────────────────────────────────────────────────────────
 CPV_PREFIXES = ["45"]                 # stavební práce
+# Vyřazené podskupiny CPV 45 (pokyn zadavatele 28. 7. 2026): dopravní
+# infrastruktura není obor firmy. Zakázka, jejíž CPV spadá jen sem,
+# může projít už jen přes klíčová slova — „chodník"/„parkoviště" tak
+# přežijí, „oprava silnice II/315" ne (negativní slova níže).
+CPV_NEGATIVE_PREFIXES = [
+    "45221",   # mosty, tunely, estakády, nadjezdy
+    "45233",   # silnice, dálnice (výstavba, povrchy, údržba)
+    "45234",   # železnice a lanové dráhy
+]
 # NUTS je jen HRUBÝ PŘEDFILTR (kraje, jejichž část leží v okruhu) —
 # finální výběr dělá okruh GEO_RADIUS_KM od Hradce Králové (geo.py).
 NUTS_ALLOWED = ["CZ052", "CZ053", "CZ020", "CZ051", "CZ063"]
@@ -59,6 +68,13 @@ KEYWORDS_NEGATIVE = [
     " ict", "vozidl", "automobil", "vozovy park", "vozový park",
     "nabytk", "nábytk", "uklidove sluzby", "úklidové služby",
     "secen", "sečen", "udrzba zelene", "údržba zeleně",
+    # dopravní infrastruktura a drážní/vozový park (pokyn 28. 7. 2026)
+    "silnic", "dalnic", "dálnic", "vozovk", "komunikac",
+    "mostu", "mostů", "mostni", "mostní", "lavk", "lávk",
+    "tunel", "estakad", "nadjezd", "podjezd", "propustk",
+    "zeleznic", "železnic", "kolejov", "kolejnic", "vleck", "vlečk",
+    "lokomotiv", "vagon", "drazni", "drážní",
+    "vozu", "vozů", "autobus", "trolejbus", "tramvaj",
 ]
 
 # ── HTTP ────────────────────────────────────────────────────────────────────

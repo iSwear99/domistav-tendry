@@ -62,7 +62,13 @@ def _sector_ok(t: dict) -> bool:
     Nastavuje t["kw_match"]."""
     from_profile = t["source"].startswith("profil:")
     cpv = t.get("cpv") or []
-    cpv_ok = any(c.startswith(p) for c in cpv for p in config.CPV_PREFIXES)
+    # CPV 45 platí, jen pokud kód nespadá do vyřazených podskupin
+    # (dopravní infrastruktura) — takové zakázky rozhodují klíčová slova
+    cpv_ok = any(
+        c.startswith(tuple(config.CPV_PREFIXES))
+        and not c.startswith(tuple(config.CPV_NEGATIVE_PREFIXES))
+        for c in cpv
+    )
     t["kw_match"] = False
     if cpv_ok:
         return True
@@ -209,8 +215,10 @@ def build_competition(all_t: list[dict], today: str) -> list[dict]:
             "url": t.get("url") or "",
         }
 
+    # dřívější záznamy archivu se znovu prohánějí oborovým filtrem —
+    # zpřísnění konfigurace (např. vyřazení silnic) tak pročistí i okno
     merged = {c["id"]: c for c in _load_json(config.OUT_COMPETITION, [])
-              if c.get("awarded", "") >= cutoff}
+              if c.get("awarded", "") >= cutoff and _sector_ok(c)}
     for t in located:
         merged[t["id"]] = flat(t)
     return sorted(merged.values(), key=lambda c: c["awarded"], reverse=True)
