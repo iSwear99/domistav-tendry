@@ -221,13 +221,32 @@ def run(dry_run: bool = False) -> int:
     all_t: list[dict] = []
     errors: list[str] = []
 
+    source_counts: dict[str, int] = {}
     for name, mod in (("isvz", fetch_isvz), ("profily", fetch_profily)):
         try:
             t, e = mod.fetch()
             all_t.extend(t)
             errors.extend(e)
+            source_counts[name] = len(t)
         except Exception as exc:  # noqa: BLE001
             errors.append(f"{name}: neočekávaná chyba: {exc}")
+            source_counts[name] = 0
+
+    # Výpadek celého zdroje (např. ISVZ blokuje IP GitHub runnerů) nesmí
+    # smazat jeho dřívější záznamy — převezmou se z předchozího snapshotu.
+    prev_snapshot = _load_json(config.OUT_TENDERS, [])
+    for name, prefix in (("isvz", ("isvz",)), ("profily", ("profil:",))):
+        if source_counts.get(name) == 0:
+            retained = [
+                t for t in prev_snapshot
+                if t.get("source", "").startswith(prefix)
+            ]
+            if retained:
+                all_t.extend(retained)
+                errors.append(
+                    f"{name}: zdroj nedostupný — ponecháno {len(retained)} "
+                    "záznamů z předchozího běhu."
+                )
 
     # filtrace + dedup dle ID. NIPEZ id (rvz:…) sdílí ISVZ i NEN profily —
     # při kolizi vyhrává úplnější záznam z ISVZ, u shodného zdroje poslední

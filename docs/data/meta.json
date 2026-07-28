@@ -1,17 +1,12 @@
 {
- "updated": "2026-07-28T17:14:49+00:00",
+ "updated": "2026-07-28T17:55:49+00:00",
  "counts": {
-  "total": 326,
-  "vz": 145,
-  "vzmr": 181,
-  "active": 28,
-  "changed": 0,
-  "previous": 0
+  "total": 5101,
+  "vz": 2052,
+  "vzmr": 3049,
+  "active": 244,
+  "changed": 14,
+  "previous": 326
  },
- "errors": [
-  "ISVZ: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-04-2026.zip: Stažení selhalo: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-04-2026.zip: <urlopen error timed out>",
-  "ISVZ: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-05-2026.zip: Stažení selhalo: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-05-2026.zip: <urlopen error timed out>",
-  "ISVZ: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-06-2026.zip: Stažení selhalo: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-06-2026.zip: <urlopen error timed out>",
-  "ISVZ: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-07-2026.zip: Stažení selhalo: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-07-2026.zip: <urlopen error timed out>"
- ]
+ "errors": []
 }
