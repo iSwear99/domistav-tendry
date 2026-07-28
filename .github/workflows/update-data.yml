@@ -18,20 +18,20 @@ jobs:
     # Self-hosted runner na PC v ČR — isvz.nipez.cz blokuje mimoevropské
     # IP adresy (GitHub-hosted runnery v USA se k němu nepřipojí).
     # Je-li PC vypnuté, běh čeká ve frontě až 24 h a pak propadne —
-    # data doplní další denní běh.
+    # data doplní další denní běh. Kroky jsou v PowerShellu (Windows).
     runs-on: self-hosted
     defaults:
       run:
-        shell: bash
+        shell: powershell
     steps:
       - name: Guard – běžet jen v 8:00 pražského času
         if: github.event_name == 'schedule'
         run: |
-          HOUR=$(TZ=Europe/Prague date +%H)
-          if [ "$HOUR" != "08" ]; then
-            echo "Pražský čas ${HOUR}h ≠ 8h — druhý cron, končím."
-            echo "SKIP=1" >> "$GITHUB_ENV"
-          fi
+          $hour = [System.TimeZoneInfo]::ConvertTimeBySystemTimeZoneId([DateTime]::UtcNow, "Central Europe Standard Time").Hour
+          if ($hour -ne 8) {
+            Write-Host "Prazsky cas ${hour}h != 8h - druhy cron, koncim."
+            "SKIP=1" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
+          }
 
       - uses: actions/checkout@v4
         if: env.SKIP != '1'
@@ -53,11 +53,13 @@ jobs:
           git config user.name "domistav-tendry-bot"
           git config user.email "actions@users.noreply.github.com"
           git add docs/data/
-          if git diff --cached --quiet; then
-            echo "Beze změn."
-          else
-            git commit -m "data: $(date -u +%F)"
+          git diff --cached --quiet
+          if ($LASTEXITCODE -ne 0) {
+            $d = [DateTime]::UtcNow.ToString("yyyy-MM-dd")
+            git commit -m "data: $d"
             # mezitím mohl přibýt commit (kód) — rebase, data soubory jsou naše
             git pull --rebase origin main
             git push
-          fi
+          } else {
+            Write-Host "Beze zmen."
+          }
