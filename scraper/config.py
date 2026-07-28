@@ -48,7 +48,7 @@ KEYWORDS_POSITIVE = [
 KEYWORDS_NEGATIVE = [
     # projekční a dozorová činnost (není realizace)
     "projektova dokumentac", "projektová dokumentac", "projektove prac",
-    "projektové prác", "zpracovani pd", "zpracování pd", "studie",
+    "projektové prác", "zpracovani pd", "zpracování pd", "pd ", "studie",
     "technicky dozor", "technický dozor", "autorsky dozor", "autorský dozor",
     "koordinator bozp", "koordinátor bozp", "inzenyrska cinnost",
     "inženýrská činnost", "administrace", "energeticky audit", "energetický audit",

@@ -39,12 +39,16 @@ _KW_NEG = None
 
 
 def _kw_match(title: str) -> bool:
-    """Pozitivní klíčové slovo v názvu a žádné negativní."""
+    """Pozitivní klíčové slovo v názvu a žádné negativní.
+
+    Porovnává se na začátku slova (před klíčovým slovem musí být hranice) —
+    jinak by kmen „oprav" chytil i „dopravce/doprava" apod."""
     global _KW_POS, _KW_NEG
     if _KW_POS is None:
-        _KW_POS = sorted({_norm(k) for k in config.KEYWORDS_POSITIVE})
-        _KW_NEG = sorted({_norm(k) for k in config.KEYWORDS_NEGATIVE})
-    t = _norm(title)
+        _KW_POS = sorted({" " + _norm(k).lstrip() for k in config.KEYWORDS_POSITIVE})
+        _KW_NEG = sorted({" " + _norm(k).lstrip() for k in config.KEYWORDS_NEGATIVE})
+    # interpunkce → mezery, aby hranici slova tvořila i závorka či pomlčka
+    t = " " + "".join(c if c.isalnum() else " " for c in _norm(title)) + " "
     if any(k in t for k in _KW_NEG):
         return False
     return any(k in t for k in _KW_POS)
