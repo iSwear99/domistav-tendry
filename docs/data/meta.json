@@ -1,1 +1,17 @@
-{"updated": null, "counts": {"total": 0, "vz": 0, "vzmr": 0, "active": 0, "changed": 0, "previous": 0}, "errors": ["První běh scraperu zatím neproběhl."]}
+{
+ "updated": "2026-07-28T17:14:49+00:00",
+ "counts": {
+  "total": 326,
+  "vz": 145,
+  "vzmr": 181,
+  "active": 28,
+  "changed": 0,
+  "previous": 0
+ },
+ "errors": [
+  "ISVZ: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-04-2026.zip: Stažení selhalo: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-04-2026.zip: <urlopen error timed out>",
+  "ISVZ: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-05-2026.zip: Stažení selhalo: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-05-2026.zip: <urlopen error timed out>",
+  "ISVZ: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-06-2026.zip: Stažení selhalo: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-06-2026.zip: <urlopen error timed out>",
+  "ISVZ: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-07-2026.zip: Stažení selhalo: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-07-2026.zip: <urlopen error timed out>"
+ ]
+}
