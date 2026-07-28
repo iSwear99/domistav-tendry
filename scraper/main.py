@@ -330,9 +330,29 @@ def run(dry_run: bool = False) -> int:
             winner, loser = (t, cur) if rank(t) >= rank(cur) else (cur, t)
             if loser["source"].startswith("profil:") and loser.get("url"):
                 winner.setdefault("profile_url", loser["url"])
+            # doplnění chybějících polí z duplikátu (profil XML mívá lhůtu
+            # a odkaz i tam, kde je ISVZ zatím nemá) + přepočet expirace
+            for f in ("deadline", "url", "published", "place"):
+                if not winner.get(f) and loser.get(f):
+                    winner[f] = loser[f]
+            winner = _mark_expired(winner, today)
             filtered[t["id"]] = winner
         else:
             filtered[t["id"]] = t
+    # poslední záchrana prokliku: profil zadavatele dle IČO — z konfigurace
+    # a z adres profilů viděných u JINÝCH záznamů téhož zadavatele v běhu
+    # (VVZ záznamy v open datech často nemají odkaz ani adresu profilu)
+    ico_to_profile = {
+        m["ico"]: m["profile_url"] for m in config.PROFILY_ZADAVATELU.values()
+    }
+    for t in all_t:
+        ico, prof = t.get("authority_ico"), t.get("authority_profile")
+        if ico and prof:
+            ico_to_profile.setdefault(ico, prof)
+    for t in filtered.values():
+        if not t.get("url"):
+            t["url"] = ico_to_profile.get(t.get("authority_ico") or "", "")
+
     # dedup napříč zdroji (ISVZ vs. profil) — IČO + normalizovaný název
     deduped = dedup_cross_source(list(filtered.values()))
     # geografický okruh od HK — nad limit se zahazuje, neurčené se značí

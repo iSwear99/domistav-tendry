@@ -55,10 +55,10 @@ def _uniq(seq: list[str]) -> list[str]:
     return out
 
 
-def _authority(vz: dict) -> tuple[str, str, str]:
-    """(název, IČO, sídlo) zadavatele — preferuje se ten, kdo postup zadává.
-    Sídlo (např. „Chrudimská 1882, Čáslav 28601") slouží jako poslední
-    vodítko pro geo lokalizaci, když chybí místo plnění i obec v názvu."""
+def _authority(vz: dict) -> tuple[str, str, str, str]:
+    """(název, IČO, sídlo, adresa profilu) zadavatele — preferuje se ten,
+    kdo postup zadává. Sídlo slouží jako poslední vodítko geo lokalizace,
+    adresa profilu jako záložní proklik, když chybí odkaz na detail VZ."""
     for zp in vz.get("zadavaci_postupy") or []:
         zzp = zp.get("zadavatel_zadavaciho_postupu") or {}
         zadavatele = zzp.get("zadavatele") or []
@@ -72,8 +72,9 @@ def _authority(vz: dict) -> tuple[str, str, str]:
                 str(subj.get("nazev_subjektu") or "").strip(),
                 str(subj.get("ico") or "").strip(),
                 str(subj.get("sidlo") or "").strip(),
+                str(chosen.get("adresa_profilu") or "").strip(),
             )
-    return "", "", ""
+    return "", "", "", ""
 
 
 def _predmet_fields(vz: dict) -> tuple[list[str], list[str], str]:
@@ -206,6 +207,21 @@ def _deadline(zps: list[dict]) -> str:
     return ""
 
 
+def _deadline_from_history(rec: dict) -> str:
+    """Fallback lhůty z historie_lhut na úrovni záznamu — VVZ formuláře
+    často nemají lhůty v zadávacím postupu, ale v historii ano."""
+    for kind in config.ISVZ_DEADLINE_KINDS:
+        ends = [
+            str(z.get("datum_a_cas_konce_lhuty") or "")
+            for h in rec.get("historie_lhut") or []
+            for z in h.get("zaznamy") or []
+            if z.get("druh_lhuty") == kind and z.get("datum_a_cas_konce_lhuty")
+        ]
+        if ends:
+            return max(ends)[:19]
+    return ""
+
+
 def normalize(rec: dict) -> dict | None:
     """Převede záznam ISVZ na interní model; None = nevalidní záznam."""
     vz = rec.get("verejna_zakazka") or {}
@@ -214,7 +230,7 @@ def normalize(rec: dict) -> dict | None:
     if not rid or not title:
         return None
     cpv, nuts, place = _predmet_fields(vz)
-    authority, ico, seat = _authority(vz)
+    authority, ico, seat, profile = _authority(vz)
     zps = _part_zps(vz)
     published = min(
         (str(z.get("datum_zahajeni_zadavaciho_postupu") or "")[:10]
@@ -237,6 +253,13 @@ def normalize(rec: dict) -> dict | None:
          if i.get("kod_nastroje") == "NEN"),
         "",
     )
+    # proklik: odkaz na detail VZ → detail v NEN (z NEN id) → profil zadavatele
+    if not url and nen_id and "/" in nen_id:
+        url = ("https://nen.nipez.cz/verejne-zakazky/detail-zakazky/"
+               + nen_id.replace("/", "-"))
+    if not url:
+        url = profile
+    deadline = _deadline(zps) or _deadline_from_history(rec)
     return {
         # NIPEZ id sdílí i XML NEN profilů (id_nipez) ⇒ prefix rvz: dává
         # stejné stabilní ID záznamu z obou zdrojů a dedup je přesný.
@@ -250,10 +273,11 @@ def normalize(rec: dict) -> dict | None:
         "nuts": nuts,
         "value": _value(vz),
         "published": published,
-        "deadline": _deadline(zps),
+        "deadline": deadline,
         "url": url,
         "place": place,
         "authority_seat": seat,
+        "authority_profile": profile,
         "state": state,
         "site_visit": "",       # v open datech není (viz config.py)
         "clarifications": clar,
