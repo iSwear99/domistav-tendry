@@ -4,17 +4,17 @@ jobs:
   diag:
     runs-on: ubuntu-latest
     steps:
-      - name: Test reachability
+      - name: Test alternatives
         run: |
-          for url in \
-            "https://isvz.nipez.cz/opendata" \
-            "https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-06-2026.zip" \
-            "https://vvz.nipez.cz/" \
-            "https://nen.nipez.cz/" \
-            "https://www.tenderarena.cz/" \
-            "https://zakazky.cenakhk.cz/" ; do
-            code=$(curl -s -o /dev/null -w "%{http_code}" --connect-timeout 12 -m 25 -I "$url" || echo "FAIL")
-            echo "$url -> $code"
-          done
-          echo "--- IP runneru:"
-          curl -s --connect-timeout 10 https://api.ipify.org || true
+          echo "http port 80:"
+          curl -s -o /dev/null -w "%{http_code}
+" --connect-timeout 12 -m 30 -I "http://isvz.nipez.cz/opendata" || echo FAIL
+          echo "corsproxy.io:"
+          curl -s -o /dev/null -w "%{http_code}
+" --connect-timeout 12 -m 60 "https://corsproxy.io/?url=https%3A%2F%2Fisvz.nipez.cz%2Fopendata" || echo FAIL
+          echo "allorigins raw:"
+          curl -s -o /dev/null -w "%{http_code}
+" --connect-timeout 12 -m 60 "https://api.allorigins.win/raw?url=https%3A%2F%2Fisvz.nipez.cz%2Fopendata" || echo FAIL
+          echo "allorigins zip HEAD (34MB test start):"
+          curl -s -o /dev/null -w "%{http_code} %{size_download}
+" --connect-timeout 12 -m 120 -r 0-1000000 "https://api.allorigins.win/raw?url=https%3A%2F%2Fisvz.nipez.cz%2Fsites%2Fdefault%2Ffiles%2Fcontent%2Fopendata-rvz%2FVZ-06-2026.zip" || echo FAIL
