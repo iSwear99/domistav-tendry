@@ -9,6 +9,10 @@ neobsahuje žádná firemní data, proto smí běžet v public GitHub repozitá�
 - **Bez serveru.** GitHub Actions (cron 1× denně) spouští Python scraper,
   výsledné JSON commitne do `docs/data/`. Frontend = statický web na GitHub Pages
   (vanilla JS/HTML/CSS, žádné build frameworky — stejný princip jako domistav-app).
+  **Runner je self-hosted na PC uživatele** (`domistav-pc`, autostart po
+  přihlášení ze složky Po spuštění): isvz.nipez.cz blokuje mimoevropské IP,
+  GitHub-hosted runnery (USA) se k němu nepřipojí. Při vypnutém PC běh čeká
+  ve frontě (≤24 h); výpadek zdroje kryje retence záznamů v `main.py`.
 - **Watchlist a poznámky** ukládá frontend pouze do `localStorage` prohlížeče.
   Nikdy neposílat žádná uživatelská data na server.
 - Python: pouze stdlib + `requests`. Žádné těžké závislosti.
@@ -37,7 +41,17 @@ neobsahuje žádná firemní data, proto smí běžet v public GitHub repozitá�
    secrets, modul `fetch_nen.py` (neaktivní do zřízení přístupu).
 4. (v2) TED API pro nadlimitní, e-mailový souhrn.
 
-## ⚠️ POVINNÉ ÚVODNÍ ÚKOLY — před prvním nasazením
+## ⚠️ POVINNÉ ÚVODNÍ ÚKOLY — ✅ SPLNĚNO 28. 7. 2026 (kromě úkolu 4)
+
+Stav: úkoly 1–3 a 5–8 hotové, v1 nasazena a ověřena (workflow běží na
+self-hosted runneru, dashboard živý). Klíčové odchylky zjištěné z reality:
+ISVZ exporty jsou měsíční ZIPy publikované ~1.–5. dne následujícího měsíce
+(čerstvá data dodávají profily), mapování polí je přímo ve fetch_isvz.py,
+`obce.csv` pokrývá celou ČR (nutné pro vylučování vzdálených zakázek;
+geo.py navíc zvládá skloňované tvary a sídlo zadavatele), scraper běží na
+stdlib urllib (requests má na PC uživatele rozbité TLS). Úkol 4 (NEN API)
+zůstává otevřený — čeká na podání žádosti uživatelem; nasazení na něm
+nezávisí. Původní znění úkolů níže ponecháno pro kontext:
 
 Kód je napsán defenzivně s mapovacími konstantami, které NEBYLO možné
 ověřit proti reálným datům z vývojového prostředí (portály blokují
