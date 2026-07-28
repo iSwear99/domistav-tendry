@@ -1,18 +1,12 @@
 {
- "updated": "2026-07-28T18:25:44+00:00",
+ "updated": "2026-07-28T18:33:47+00:00",
  "counts": {
-  "total": 5102,
-  "vz": 2053,
+  "total": 5101,
+  "vz": 2052,
   "vzmr": 3049,
   "active": 244,
   "changed": 15,
-  "previous": 5101
+  "previous": 5102
  },
- "errors": [
-  "ISVZ: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-04-2026.zip: Stažení selhalo: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-04-2026.zip: <urlopen error [Errno 110] Connection timed out>",
-  "ISVZ: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-05-2026.zip: Stažení selhalo: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-05-2026.zip: <urlopen error [Errno 110] Connection timed out>",
-  "ISVZ: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-06-2026.zip: Stažení selhalo: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-06-2026.zip: <urlopen error [Errno 110] Connection timed out>",
-  "ISVZ: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-07-2026.zip: Stažení selhalo: https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-07-2026.zip: <urlopen error [Errno 110] Connection timed out>",
-  "isvz: zdroj nedostupný — ponecháno 4919 záznamů z předchozího běhu."
- ]
+ "errors": []
 }
