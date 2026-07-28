@@ -1,0 +1,20 @@
+name: Diag network
+on: workflow_dispatch
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test reachability
+        run: |
+          for url in \
+            "https://isvz.nipez.cz/opendata" \
+            "https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-06-2026.zip" \
+            "https://vvz.nipez.cz/" \
+            "https://nen.nipez.cz/" \
+            "https://www.tenderarena.cz/" \
+            "https://zakazky.cenakhk.cz/" ; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" --connect-timeout 12 -m 25 -I "$url" || echo "FAIL")
+            echo "$url -> $code"
+          done
+          echo "--- IP runneru:"
+          curl -s --connect-timeout 10 https://api.ipify.org || true

@@ -55,5 +55,7 @@ jobs:
             echo "Beze změn."
           else
             git commit -m "data: $(date -u +%F)"
+            # mezitím mohl přibýt commit (kód) — rebase, data soubory jsou naše
+            git pull --rebase origin main
             git push
           fi
