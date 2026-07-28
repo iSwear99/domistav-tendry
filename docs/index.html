@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DOMISTAV Tendry — veřejné zakázky HK + Pce</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="./" aria-label="DOMISTAV Tendry">
+      <img src="logo.png" alt="DOMISTAV" class="brand-logo"
+           onerror="this.hidden=true;document.querySelector('.brand-fallback').hidden=false">
+      <span class="brand-fallback" hidden>DOMISTAV</span>
+      <span class="brand-suffix">TENDRY <small>v1</small></span>
+    </a>
+    <p class="meta" id="meta-line">Načítám data…</p>
+  </div>
+</header>
+
+<div class="wrap" id="error-banner" hidden></div>
+
+<section class="wrap stats" id="stats" aria-label="Souhrn">
+  <div class="stat"><b id="st-active">–</b><span>aktivních</span></div>
+  <div class="stat"><b id="st-new">–</b><span>nových od poslední návštěvy</span></div>
+  <div class="stat"><b id="st-watch">–</b><span>sledovaných</span></div>
+  <div class="stat"><b id="st-week">–</b><span>lhůta do 7 dnů</span></div>
+  <div class="stat"><b id="st-changed">–</b><span>změny ZD (7 dní)</span></div>
+</section>
+
+<section class="wrap filters" aria-label="Filtry">
+  <input type="search" id="f-q" placeholder="Hledat v názvu / zadavateli…" autocomplete="off">
+  <select id="f-kind">
+    <option value="">Druh: vše</option>
+    <option value="VZ">Zákonné VZ</option>
+    <option value="VZMR">Malý rozsah</option>
+  </select>
+  <select id="f-region">
+    <option value="">Vzdálenost: vše (≤ 50 km)</option>
+    <option value="25">do 25 km</option>
+    <option value="unknown">poloha neurčena</option>
+  </select>
+  <select id="f-value">
+    <option value="">Hodnota: vše</option>
+    <option value="2000000">od 2 mil.</option>
+    <option value="10000000">od 10 mil.</option>
+    <option value="50000000">od 50 mil.</option>
+    <option value="novalue">bez uvedené hodnoty</option>
+  </select>
+  <label class="chk"><input type="checkbox" id="f-active" checked> jen aktivní</label>
+  <label class="chk"><input type="checkbox" id="f-watch"> jen sledované ★</label>
+  <label class="chk"><input type="checkbox" id="f-changed"> jen se změnou ZD</label>
+</section>
+
+<main class="wrap">
+  <ol class="list" id="list"></ol>
+  <p class="empty" id="empty" hidden>Žádná zakázka neodpovídá filtrům.</p>
+</main>
+
+<footer class="wrap foot">
+  <p>Zdroje: ISVZ Open Data (Registr veřejných zakázek, MMR), XML profily zadavatelů a NEN.
+  Interní nástroj DOMISTAV HK s.r.o. — poznámky a sledování se ukládají pouze ve vašem prohlížeči.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

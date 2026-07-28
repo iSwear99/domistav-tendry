@@ -1,0 +1,211 @@
+/* DOMISTAV Tendry — vizuální jazyk staveniště:
+   beton, ocel, bezpečnostní oranžová. Signatura: výstražný pruh. */
+
+:root {
+  --ink: #20262e;          /* grafit */
+  --muted: #5c6672;
+  --bg: #eef0f2;           /* beton */
+  --surface: #ffffff;
+  --line: #d6dade;
+  --accent: #f87840;       /* firemní oranžová (z loga DOMISTAV) */
+  --accent-ink: #c85a20;
+  --steel: #33566e;        /* ocelová modř — štítky VZ */
+  --ok: #2e7d4f;
+  /* Firemní identita DOMISTAV: bílá lišta, černé logo, oranžová z loga */
+  --brand-bg: #ffffff;
+  --brand-fg: #0d0d0d;
+  --brand-accent: #f87840;
+  --hazard: repeating-linear-gradient(
+    -45deg, var(--brand-accent) 0 10px, var(--brand-fg) 10px 20px);
+  --fd: "Barlow Condensed", sans-serif;
+  --fb: "Barlow", system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 400 15px/1.45 var(--fb);
+}
+.wrap { max-width: 1060px; margin: 0 auto; padding: 0 16px; }
+
+/* ── hlavička s výstražným pruhem ── */
+.topbar {
+  background: var(--brand-bg); color: var(--brand-fg);
+  border-bottom: 6px solid transparent;
+  border-image: var(--hazard) 1;
+  position: sticky; top: 0; z-index: 10;
+  box-shadow: 0 1px 0 var(--line);
+}
+.topbar-inner {
+  display: flex; align-items: center; gap: 16px;
+  padding-top: 8px; padding-bottom: 8px; flex-wrap: wrap;
+}
+.brand {
+  display: flex; align-items: center; gap: 12px;
+  color: inherit; text-decoration: none;
+}
+.brand-logo { height: 34px; width: auto; display: block; }
+.brand-fallback {
+  font: 700 26px/1 var(--fd); letter-spacing: .04em;
+  text-transform: uppercase;
+}
+.brand-suffix {
+  font: 700 24px/1 var(--fd); letter-spacing: .06em;
+  color: var(--brand-accent); text-transform: uppercase;
+  border-left: 1px solid color-mix(in srgb, var(--brand-fg) 30%, transparent);
+  padding-left: 12px;
+}
+.brand-suffix small {
+  font: 600 13px/1 var(--fb); letter-spacing: .08em;
+  color: var(--brand-fg); opacity: .75; vertical-align: 6px; margin-left: 3px;
+}
+.topbar .meta { margin: 0; color: color-mix(in srgb, var(--brand-fg) 70%, var(--brand-bg)); font-size: 13px; }
+
+/* ── chybový pruh ── */
+#error-banner {
+  margin-top: 12px; padding: 10px 14px;
+  background: #fdeee2; border: 1px solid var(--accent);
+  border-left: 6px solid var(--accent); border-radius: 4px;
+  font-size: 13.5px;
+}
+
+/* ── statistiky ── */
+.stats {
+  display: grid; grid-template-columns: repeat(5, 1fr);
+  gap: 10px; margin: 14px auto;
+}
+.stat {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: 4px; padding: 8px 12px;
+}
+.stat b {
+  display: block; font: 700 30px/1 var(--fd);
+  font-variant-numeric: tabular-nums;
+}
+.stat span {
+  font-size: 12px; color: var(--muted);
+  text-transform: uppercase; letter-spacing: .05em;
+}
+
+/* ── filtry ── */
+.filters {
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+  margin-bottom: 12px;
+}
+.filters input[type="search"] {
+  flex: 1 1 240px; min-width: 180px;
+}
+.filters input[type="search"], .filters select {
+  padding: 8px 10px; border: 1px solid var(--line); border-radius: 4px;
+  background: var(--surface); font: inherit; color: var(--ink);
+}
+.filters :focus-visible, .row :focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 1px;
+}
+.chk { display: flex; gap: 6px; align-items: center; font-size: 14px;
+  color: var(--muted); white-space: nowrap; }
+.chk input { accent-color: var(--accent); }
+
+/* ── seznam zakázek ── */
+.list { list-style: none; margin: 0 0 32px; padding: 0;
+  display: grid; gap: 8px; }
+.row {
+  display: grid; gap: 4px 14px; align-items: center;
+  grid-template-columns: 1fr auto auto auto;
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: 4px; padding: 10px 14px;
+}
+.row.expired { opacity: .55; }
+.row .head { grid-column: 1; min-width: 0; }
+.row h2 {
+  margin: 0; font: 600 16.5px/1.25 var(--fb);
+}
+.row h2 a { color: inherit; text-decoration: none; }
+.row h2 a:hover { color: var(--accent-ink); text-decoration: underline; }
+.row .auth { color: var(--muted); font-size: 13px; margin-top: 2px; }
+.badge-new {
+  display: inline-block; margin-left: 6px; padding: 1px 7px;
+  background: var(--accent); color: #fff; border-radius: 10px;
+  font: 600 11px/1.6 var(--fb); text-transform: uppercase;
+  letter-spacing: .05em; vertical-align: 2px;
+}
+.tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 4px; }
+.tag {
+  font: 600 11px/1.7 var(--fb); letter-spacing: .04em;
+  padding: 0 8px; border-radius: 3px; text-transform: uppercase;
+  background: var(--bg); color: var(--muted); border: 1px solid var(--line);
+}
+.tag.vz   { background: var(--steel); border-color: var(--steel); color: #fff; }
+.tag.vzmr { background: #e7edf2; border-color: #c4d2dc; color: var(--steel); }
+.tag.visit { background: #fff6ee; border-color: #f0c39e; color: var(--accent-ink); text-transform: none; }
+.tag.clar  { background: #f2eefc; border-color: #d4c8ef; color: #5b3fa8; text-transform: none; }
+
+.badge-chg {
+  display: inline-block; margin-left: 6px; padding: 1px 7px;
+  background: #fff; color: var(--accent-ink);
+  border: 1.5px solid var(--accent); border-radius: 10px;
+  font: 600 11px/1.5 var(--fb); text-transform: uppercase;
+  letter-spacing: .05em; vertical-align: 2px;
+}
+
+.hist { margin-top: 6px; font-size: 13px; }
+.hist summary {
+  cursor: pointer; color: var(--muted); width: fit-content;
+  text-decoration: underline dotted;
+}
+.hist ul { margin: 6px 0 2px; padding-left: 18px; color: var(--ink); }
+.hist li { margin: 2px 0; }
+.hist s { color: var(--muted); }
+
+.val {
+  font: 600 16px/1.2 var(--fd); font-variant-numeric: tabular-nums;
+  text-align: right; white-space: nowrap;
+}
+.val small { display: block; font: 400 11px/1.4 var(--fb);
+  color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+
+/* lhůta — dny do konce; <7 dnů dostává výstražný pruh */
+.due {
+  min-width: 92px; text-align: center; padding: 5px 10px 6px;
+  border: 1px solid var(--line); border-radius: 4px;
+  font: 700 15px/1.1 var(--fd); font-variant-numeric: tabular-nums;
+}
+.due small { display: block; font: 400 10.5px/1.5 var(--fb);
+  color: var(--muted); letter-spacing: .04em; text-transform: uppercase; }
+.due.soon {
+  border: none; color: #fff; background: var(--ink); position: relative;
+}
+.due.soon::before {
+  content: ""; position: absolute; inset: auto 0 0 0; height: 5px;
+  background: var(--hazard); border-radius: 0 0 4px 4px;
+}
+.due.gone { color: var(--muted); background: var(--bg); }
+
+.star {
+  border: none; background: none; cursor: pointer;
+  font-size: 22px; line-height: 1; color: var(--line); padding: 4px;
+}
+.star.on { color: var(--accent); }
+.star:hover { color: var(--accent-ink); }
+
+.empty { color: var(--muted); text-align: center; margin: 40px 0; }
+.foot { color: var(--muted); font-size: 12px; margin: 24px auto 32px;
+  border-top: 1px solid var(--line); padding-top: 12px; }
+
+@media (max-width: 720px) {
+  .stats { grid-template-columns: repeat(2, 1fr); }
+  .stats .stat:last-child { grid-column: 1 / -1; }
+  .row { grid-template-columns: 1fr auto; }
+  .row .head { grid-column: 1 / -1; }
+  .val { text-align: left; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .row { transition: border-color .15s; }
+  .row:hover { border-color: var(--steel); }
+}
+
+.tag.kw { background: #eef6ee; border-color: #bcd9bf; color: var(--ok); text-transform: none; }
+
+.tag.dist { background: var(--steel); border-color: var(--steel); color: #fff;
+  text-transform: none; font-variant-numeric: tabular-nums; }
