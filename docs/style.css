@@ -72,7 +72,7 @@ body {
 
 /* ── statistiky ── */
 .stats {
-  display: grid; grid-template-columns: repeat(5, 1fr);
+  display: grid; grid-template-columns: repeat(6, 1fr);
   gap: 10px; margin: 14px auto;
 }
 .stat {
@@ -182,12 +182,21 @@ body {
 }
 .due.gone { color: var(--muted); background: var(--bg); }
 
+.acts { display: flex; align-items: center; gap: 2px; }
 .star {
   border: none; background: none; cursor: pointer;
   font-size: 22px; line-height: 1; color: var(--line); padding: 4px;
 }
 .star.on { color: var(--accent); }
 .star:hover { color: var(--accent-ink); }
+.thumb {
+  border: none; background: none; cursor: pointer;
+  font-size: 16px; line-height: 1; padding: 4px;
+  filter: grayscale(1); opacity: .45;
+}
+.thumb.on, .thumb:hover { filter: none; opacity: 1; }
+.tag.irr { background: #fbeeee; border-color: #e3bcbc; color: #a33;
+  text-transform: none; }
 
 .empty { color: var(--muted); text-align: center; margin: 40px 0; }
 .foot { color: var(--muted); font-size: 12px; margin: 24px auto 32px;
@@ -195,7 +204,6 @@ body {
 
 @media (max-width: 720px) {
   .stats { grid-template-columns: repeat(2, 1fr); }
-  .stats .stat:last-child { grid-column: 1 / -1; }
   .row { grid-template-columns: 1fr auto; }
   .row .head { grid-column: 1 / -1; }
   .val { text-align: left; }

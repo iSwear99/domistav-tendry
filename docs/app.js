@@ -4,12 +4,18 @@
 
 const LS_WATCH = "dt.watchlist";
 const LS_SEEN = "dt.lastVisit";
+const LS_DISLIKE = "dt.dislikes";
 
 const $ = (id) => document.getElementById(id);
 const state = {
   tenders: [],
   changes: {},   // centrální archiv změn (docs/data/changes.json, git)
   watch: new Set(JSON.parse(localStorage.getItem(LS_WATCH) || "[]")),
+  // 👎 odmítnuté: id → otisk zakázky {cpv, ico, toks, title} uložený
+  // v okamžiku odmítnutí (přežije i zmizení zakázky z dat)
+  dislikes: JSON.parse(localStorage.getItem(LS_DISLIKE) || "{}"),
+  df: new Map(),      // dokumentová četnost tokenů v aktuálních datech
+  model: null,        // agregát odmítnutí (počty CPV skupin / IČO / tokenů)
   lastVisit: localStorage.getItem(LS_SEEN) || "",
 };
 // úklid úložiště starší klientské detekce změn
@@ -29,6 +35,89 @@ function saveWatch() {
   localStorage.setItem(LS_WATCH, JSON.stringify([...state.watch]));
 }
 
+/* ── učení relevance z odmítnutých (vše jen v prohlížeči) ────────────────
+   Odmítnutí uloží otisk zakázky; z otisků se počítají četnosti CPV skupin,
+   zadavatelů a výrazných slov názvu. Opakují-li se, podobné zakázky se
+   skrývají (sledované ★ nikdy). Filtr „jen odmítnuté 👎" vše zpřístupní. */
+
+function saveDislikes() {
+  localStorage.setItem(LS_DISLIKE, JSON.stringify(state.dislikes));
+}
+
+const STOP = new Set(("oprava opravy oprav rekonstrukce stavebni prace praci " +
+  "stavba stavby vystavba modernizace udrzba dodavka dodavky dodani sluzby " +
+  "zajisteni provedeni provadeni budovy budova objektu objekt mesto mesta " +
+  "obec obce kraj kraje etapa cast casti projekt zhotovitel verejna zakazka " +
+  "zakazky ulice namesti areal system zarizeni vymena snizeni zvyseni nova " +
+  "novy nove pro nad pod").split(" "));
+
+function norm(s) {
+  return String(s || "").normalize("NFKD")
+    .replace(/[̀-ͯ]/g, "")
+    .toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+// výrazná slova názvu: dost dlouhá, mimo stopslova a mimo slova
+// běžná napříč aktuálními zakázkami (df filtr vyřadí obecné výrazy)
+function titleTokens(title) {
+  const limit = Math.max(4, Math.round(state.tenders.length * 0.01));
+  return [...new Set(norm(title).split(" "))].filter((w) =>
+    w.length >= 4 && !STOP.has(w) &&
+    (state.df.get(w) || 0) <= limit);
+}
+
+function fingerprint(t) {
+  return {
+    cpv: [...new Set((t.cpv || []).map((c) => String(c).slice(0, 4)))],
+    ico: t.authority_ico || "",
+    toks: titleTokens(t.title),
+    title: t.title,
+  };
+}
+
+function buildDf() {
+  state.df = new Map();
+  for (const t of state.tenders) {
+    for (const w of new Set(norm(t.title).split(" "))) {
+      if (w.length >= 4) state.df.set(w, (state.df.get(w) || 0) + 1);
+    }
+  }
+}
+
+function buildModel() {
+  const m = { cpv: new Map(), ico: new Map(), tok: new Map() };
+  const inc = (map, k) => k && map.set(k, (map.get(k) || 0) + 1);
+  for (const fp of Object.values(state.dislikes)) {
+    (fp.cpv || []).forEach((g) => inc(m.cpv, g));
+    inc(m.ico, fp.ico);
+    (fp.toks || []).forEach((w) => inc(m.tok, w));
+  }
+  state.model = m;
+}
+
+// Důvod skrytí: přímé odmítnutí, nebo odhad podle opakovaných odmítnutí.
+// Prahy jsou záměrně konzervativní; sledované ★ se odhadem nikdy neskryjí.
+function irrelevance(t) {
+  if (state.dislikes[t.id]) return "odmítnuto 👎";
+  if (state.watch.has(t.id) || !state.model) return null;
+  const m = state.model;
+  // CPV 45* = stavební práce, jádro oboru — takové zakázky se odhadem
+  // podle CPV/zadavatele NIKDY neskrývají (jen přímo, či shodou názvu)
+  const has45 = (t.cpv || []).some((c) => String(c).startsWith("45"));
+  if (!has45) {
+    for (const g of new Set((t.cpv || []).map((c) => String(c).slice(0, 4)))) {
+      if (!g.startsWith("45") && (m.cpv.get(g) || 0) >= 2) {
+        return `odhad: CPV ${g}* odmítnuto ${m.cpv.get(g)}×`;
+      }
+    }
+    const icoN = m.ico.get(t.authority_ico || "") || 0;
+    if (icoN >= 3) return `odhad: zadavatel odmítnut ${icoN}×`;
+  }
+  const hits = titleTokens(t.title).filter((w) => (m.tok.get(w) || 0) >= 2);
+  if (hits.length >= 2) return `odhad: název podobný odmítnutým (${hits.join(", ")})`;
+  return null;
+}
+
 async function load() {
   try {
     const [tenders, meta, changes] = await Promise.all([
@@ -38,6 +127,8 @@ async function load() {
     ]);
     state.tenders = tenders;
     state.changes = changes || {};
+    buildDf();
+    buildModel();
     renderMeta(meta);
   } catch (e) {
     $("meta-line").textContent = "Data se nepodařilo načíst.";
@@ -105,7 +196,12 @@ function passes(t) {
   if ($("f-active").checked && t.expired) return false;
   if ($("f-watch").checked && !state.watch.has(t.id)) return false;
   if ($("f-changed").checked && !changedRecently(t)) return false;
-  return true;
+
+  // relevance: běžný pohled skrývá odmítnuté i odhadem nerelevantní;
+  // filtr „jen odmítnuté 👎" zobrazí právě je (kontrola, že nic neuteklo)
+  const irr = irrelevance(t);
+  if ($("f-disliked").checked) return !!irr;
+  return !irr;
 }
 
 function rowHTML(t) {
@@ -142,6 +238,10 @@ function rowHTML(t) {
   const clar = t.clarifications
     ? `<span class="tag clar">Vysvětlení ZD: ${t.clarifications}×</span>` : "";
 
+  const disliked = !!state.dislikes[t.id];
+  const irrBadge = $("f-disliked").checked
+    ? `<span class="tag irr">${esc(irrelevance(t) || "")}</span>` : "";
+
   const chs = changesOf(t);
   const history = chs.length
     ? `<details class="hist"${changed ? " open" : ""}>
@@ -161,13 +261,16 @@ function rowHTML(t) {
         ${nuts}${noNuts}
         ${t.kw_match ? '<span class="tag kw" title="Zachyceno podle názvu, CPV neodpovídá stavebním pracím">dle názvu</span>' : ""}
         ${(t.cpv || []).slice(0, 2).map((c) => `<span class="tag">CPV ${esc(c)}</span>`).join("")}
-        ${visit}${clar}
+        ${visit}${clar}${irrBadge}
       </div>
       ${history}
     </div>
     ${val}
     ${due}
-    <button class="${star}" title="Sledovat" aria-pressed="${state.watch.has(t.id)}">★</button>
+    <span class="acts">
+      <button class="${star}" title="Sledovat" aria-pressed="${state.watch.has(t.id)}">★</button>
+      <button class="thumb${disliked ? " on" : ""}" title="Označit jako nerelevantní — podobné zakázky se přestanou zobrazovat" aria-pressed="${disliked}">👎</button>
+    </span>
   </li>`;
 }
 
@@ -191,18 +294,33 @@ function render() {
     return d != null && d >= 0 && d <= 7;
   }).length;
   $("st-changed").textContent = state.tenders.filter(changedRecently).length;
+  $("st-hidden").textContent =
+    state.tenders.filter((t) => irrelevance(t)).length;
 }
 
 document.addEventListener("click", (e) => {
-  const btn = e.target.closest(".star");
-  if (!btn) return;
-  const id = btn.closest(".row").dataset.id;
-  state.watch.has(id) ? state.watch.delete(id) : state.watch.add(id);
-  saveWatch();
+  const star = e.target.closest(".star");
+  const thumb = e.target.closest(".thumb");
+  if (!star && !thumb) return;
+  const row = (star || thumb).closest(".row");
+  const id = row.dataset.id;
+  if (star) {
+    state.watch.has(id) ? state.watch.delete(id) : state.watch.add(id);
+    saveWatch();
+  } else {
+    if (state.dislikes[id]) {
+      delete state.dislikes[id];
+    } else {
+      const t = state.tenders.find((x) => x.id === id);
+      if (t) state.dislikes[id] = fingerprint(t);
+    }
+    saveDislikes();
+    buildModel();
+  }
   render();
 });
 
-["f-q", "f-kind", "f-region", "f-value", "f-active", "f-watch", "f-changed"].forEach((id) =>
-  $(id).addEventListener("input", render));
+["f-q", "f-kind", "f-region", "f-value", "f-active", "f-watch", "f-changed",
+ "f-disliked"].forEach((id) => $(id).addEventListener("input", render));
 
 load();
