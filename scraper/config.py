@@ -14,7 +14,9 @@ MIN_VALUE_CZK = 2_000_000             # bez DPH
 KEEP_MISSING_VALUE = True             # bez hodnoty ponechat s příznakem no_value
 
 # ── Geografický okruh ───────────────────────────────────────────────────────
-GEO_CENTER = (50.2092, 15.8328)       # Hradec Králové
+# Sídlo firmy: Pražská třída 901/145, Kukleny, 500 04 Hradec Králové —
+# souřadnice adresního místa z RÚIAN (ČÚZK, ověřeno 2026-07-28).
+GEO_CENTER = (50.201829, 15.780675)
 GEO_RADIUS_KM = 50                    # zakázky dál se zahazují
 GEO_KEEP_UNKNOWN = True               # neurčitelná poloha: ponechat + příznak
 
@@ -213,9 +215,38 @@ PLATFORMY_PROFILU = {
 NEN_API_BASE = "TODO-OVERIT"     # po schválení žádosti doplnit URL API
 NEN_MAX_DETAILS_PER_RUN = 50     # šetrnost: obohacuje se max. N aktivních VZ/běh
 
+# ── Konkurence ──────────────────────────────────────────────────────────────
+# Zadané zakázky v celém okruhu BEZ cenového stropu, klouzavých 12 měsíců
+# dle data uzavření smlouvy. Rozpětí vzdálenosti/ceny filtruje uživatel
+# slidery v UI (výchozí 15 km, 5–100 mil.). Archiv docs/data/competition.json
+# se slučuje s předchozím během (novější data vyhrávají — uhrazené ceny
+# přibývají průběžně); mimo okno se záznamy odmazávají.
+COMPETITION_WINDOW_DAYS = 365
+
+# ── Zdroj 4: Registr smluv (zákon č. 340/2015 Sb.) ──────────────────────────
+# OVĚŘENO 2026-07-28 proti dump_2026_06.xml: měsíční XML dumpy (bez komprese,
+# ~110–150 MB) na https://data.smlouvy.gov.cz/dump_RRRR_MM.xml; dump běžícího
+# měsíce existuje a denně roste. Namespace ISRS/1.2, elementy: zaznam >
+# identifikator/{idSmlouvy,idVerze}, odkaz, platnyZaznam, smlouva/{subjekt/
+# ico (zveřejňující), smluvniStrana*/ico, predmet, datumUzavreni,
+# hodnotaBezDph, navazanyZaznam (= idSmlouvy mateřské smlouvy u dodatků)}.
+# Párování na Konkurenci: IČO zadavatele + IČO vítěze + okno data uzavření
+# vůči datu zadání; shoda ceny ⇒ confidence "high", jinak "low".
+# Životní cyklus je PLNĚ AUTOMATICKÝ (viz fetch_smlouvy.py): prázdná
+# Konkurence ⇒ klidný exit; naplněná Konkurence + prázdné smlouvy.json ⇒
+# běh sám provede backfill; dále přírůstkově aktuální + minulý měsíc.
+SMLOUVY_DUMP_URL = "https://data.smlouvy.gov.cz/dump_{year}_{month:02d}.xml"
+SMLOUVY_BACKFILL_MONTHS = 13     # 12M okno konkurence + 1 měsíc předstih
+SMLOUVY_DATE_BEFORE_DAYS = 30    # smlouva smí předcházet datu zadání (evidence)
+SMLOUVY_DATE_AFTER_DAYS = 120    # …nebo následovat (podpis po rozhodnutí)
+SMLOUVY_PRICE_TOLERANCE = 0.15   # ±15 % vůči vysoutěžené ceně ⇒ "high"
+SMLOUVY_MAX_AMENDMENTS = 30      # strop uložených dodatků na smlouvu
+
 # ── Výstup a pojistky ───────────────────────────────────────────────────────
 OUT_DIR = "docs/data"
 OUT_TENDERS = f"{OUT_DIR}/tenders.json"
 OUT_CHANGES = f"{OUT_DIR}/changes.json"
+OUT_COMPETITION = f"{OUT_DIR}/competition.json"
+OUT_SMLOUVY = f"{OUT_DIR}/smlouvy.json"
 OUT_META = f"{OUT_DIR}/meta.json"
 MIN_RESULT_RATIO = 0.2   # nový výsledek < 20 % předchozího ⇒ selhat, nepřepisovat

@@ -128,6 +128,66 @@ def _part_zps(vz: dict) -> list[dict]:
     return out
 
 
+def _award(zps: list[dict]) -> dict | None:
+    """Výsledek řízení ze smluv všech částí → podklad pro Konkurenci.
+
+    Ceny se sčítají přes smlouvy (části VZ), uhrazená cena přes kalendářní
+    roky plnění (skutecne_uhrazene_ceny). Jiná měna než CZK se přeskakuje.
+    """
+    vysledky = [zp.get("vysledek") or {} for zp in zps]
+    smlouvy = [s for v in vysledky for s in v.get("smlouva") or []]
+    # vítěz může být uveden i jen v rozhodnutí o výběru (před podpisem)
+    vybrani = [d for v in vysledky
+               for d in v.get("vybrani_dodavatele_zadavaciho_postupu") or []]
+    if not smlouvy:
+        return None
+    winners: list[str] = []
+    icos: list[str] = []
+    dates: list[str] = []
+    contracted = 0.0
+    paid = 0.0
+    has_contracted = has_paid = False
+    for s in smlouvy:
+        if s.get("hodnota_smluvni_ceny_mena") in (None, "CZK"):
+            v = s.get("hodnota_smluvni_ceny_bez_DPH")
+            if v is not None:
+                contracted += float(v)
+                has_contracted = True
+        for u in s.get("skutecne_uhrazene_ceny") or []:
+            if u.get("mena") in (None, "CZK"):
+                hv = u.get("hodnota_skutecne_uhrazene_ceny_bez_DPH")
+                if hv is not None:
+                    paid += float(hv)
+                    has_paid = True
+        d = str(s.get("datum_uzavreni_smlouvy") or "")[:10]
+        if d:
+            dates.append(d)
+        for dd in s.get("dodavatele_se_kterymi_byla_uzavrena_smlouva") or []:
+            subj = dd.get("subjekt") or {}
+            n = str(subj.get("nazev_subjektu") or "").strip()
+            i = str(subj.get("ico") or "").strip()
+            if n and n not in winners:
+                winners.append(n)
+            if i and i not in icos:
+                icos.append(i)
+    if not winners:
+        for dd in vybrani:
+            subj = dd.get("subjekt") or {}
+            n = str(subj.get("nazev_subjektu") or "").strip()
+            i = str(subj.get("ico") or "").strip()
+            if n and n not in winners:
+                winners.append(n)
+            if i and i not in icos:
+                icos.append(i)
+    return {
+        "date": max(dates) if dates else "",
+        "winner": "; ".join(winners),
+        "winner_ico": "; ".join(icos),
+        "price_contracted": contracted if has_contracted else None,
+        "price_paid": paid if has_paid else None,
+    }
+
+
 def _deadline(zps: list[dict]) -> str:
     """Lhůta pro podání dle priority druhů; preferuje aktivní záznam,
     při více částech se bere nejpozdější konec."""
@@ -198,6 +258,7 @@ def normalize(rec: dict) -> dict | None:
         "site_visit": "",       # v open datech není (viz config.py)
         "clarifications": clar,
         "kind": "VZMR" if vzmr else "VZ",
+        "award": _award(zps),   # výsledek řízení (Konkurence); None = nezadáno
     }
 
 

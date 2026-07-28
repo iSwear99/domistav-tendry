@@ -54,32 +54,43 @@ def _kw_match(title: str) -> bool:
     return any(k in t for k in _KW_POS)
 
 
-def _passes_filters(t: dict) -> bool:
-    # Obor: (a) CPV prefix 45 — autoritativní, negativní slova nepřebíjí;
-    #       (b) záchytná síť: klíčová slova v názvu (příznak kw_match);
-    #       (c) záznam Z PROFILU bez CPV — zdroj je předvybraný, ponechat
-    #           (ISVZ pokrývá celou ČR, tam bez CPV rozhodují jen klíčová
-    #           slova — jinak by prošly celostátní VZMR mimo obor).
+def _sector_ok(t: dict) -> bool:
+    """Obor: (a) CPV prefix 45 — autoritativní, negativní slova nepřebíjí;
+    (b) záchytná síť: klíčová slova v názvu (příznak kw_match);
+    (c) záznam Z PROFILU bez CPV — zdroj je předvybraný, ponechat
+    (ISVZ pokrývá celou ČR, tam bez CPV rozhodují jen klíčová slova).
+    Nastavuje t["kw_match"]."""
     from_profile = t["source"].startswith("profil:")
     cpv = t.get("cpv") or []
     cpv_ok = any(c.startswith(p) for c in cpv for p in config.CPV_PREFIXES)
     t["kw_match"] = False
-    if not cpv_ok:
-        if _kw_match(t.get("title", "")):
-            t["kw_match"] = True
-        elif not (from_profile and not cpv):
-            return False
-    # NUTS
+    if cpv_ok:
+        return True
+    if _kw_match(t.get("title", "")):
+        t["kw_match"] = True
+        return True
+    return from_profile and not cpv
+
+
+def _nuts_ok(t: dict) -> bool:
+    """Hrubý předfiltr krajů; nastavuje t["no_nuts"]."""
+    from_profile = t["source"].startswith("profil:")
     nuts = t.get("nuts") or []
     if nuts:
         if not any(n[:5] in config.NUTS_ALLOWED for n in nuts):
             return False
         t["no_nuts"] = False
-    else:
-        if not from_profile and not config.KEEP_MISSING_NUTS:
-            return False
-        t["no_nuts"] = not from_profile
-    # hodnota
+        return True
+    if not from_profile and not config.KEEP_MISSING_NUTS:
+        return False
+    t["no_nuts"] = not from_profile
+    return True
+
+
+def _passes_filters(t: dict) -> bool:
+    if not _sector_ok(t) or not _nuts_ok(t):
+        return False
+    # hodnota (jen záložka Zakázky — Konkurence cenový strop nemá)
     val = t.get("value")
     if val is None:
         if not config.KEEP_MISSING_VALUE:
@@ -147,6 +158,62 @@ def dedup_cross_source(tenders: list[dict]) -> list[dict]:
                 winner.setdefault("profile_url", loser["url"])
             best[k] = winner
     return list(best.values()) + keyless
+
+
+def build_competition(all_t: list[dict], today: str) -> list[dict]:
+    """Konkurence: zadané zakázky v oboru a okruhu, klouzavých 12 měsíců
+    dle data uzavření smlouvy, BEZ cenového stropu.
+
+    Sloučí se s předchozím competition.json — starší měsíce už v ISVZ
+    exportech nejsou (stahují se ~4 zpět), archiv je drží; novější běh
+    záznam přepíše (uhrazené ceny přibývají průběžně). Mimo okno se
+    záznamy odmazávají (jediné povolené mazání — klouzavé okno dle
+    zadání). Sporné polohy se ponechávají s příznakem loc_unknown."""
+    cutoff = (dt.date.fromisoformat(today)
+              - dt.timedelta(days=config.COMPETITION_WINDOW_DAYS)).isoformat()
+
+    fresh: dict[str, dict] = {}
+    for t in all_t:
+        aw = t.get("award")
+        if not aw or not aw.get("date") or aw["date"] < cutoff:
+            continue
+        t = dict(t)
+        if not _sector_ok(t) or not _nuts_ok(t):
+            continue
+        fresh[t["id"]] = t
+
+    located = geo.apply_radius(list(fresh.values()))
+
+    def flat(t: dict) -> dict:
+        aw = t["award"]
+        contracted = aw.get("price_contracted")
+        estimated = False
+        if contracted is None and t.get("value") is not None:
+            contracted = t["value"]     # fallback: předpokládaná hodnota
+            estimated = True
+        paid = aw.get("price_paid")
+        growth = (round((paid / contracted - 1) * 100, 1)
+                  if paid and contracted else None)
+        return {
+            "id": t["id"], "source": t["source"],
+            "title": t["title"], "authority": t["authority"],
+            "authority_ico": t["authority_ico"],
+            "winner": aw.get("winner") or "",
+            "winner_ico": aw.get("winner_ico") or "",
+            "awarded": aw["date"],
+            "price_contracted": contracted, "estimated": estimated,
+            "price_paid": paid, "growth_pct": growth,
+            "dist_km": t.get("dist_km"), "loc_unknown": t.get("loc_unknown"),
+            "cpv": t.get("cpv") or [], "kind": t["kind"],
+            "kw_match": t.get("kw_match", False),
+            "url": t.get("url") or "",
+        }
+
+    merged = {c["id"]: c for c in _load_json(config.OUT_COMPETITION, [])
+              if c.get("awarded", "") >= cutoff}
+    for t in located:
+        merged[t["id"]] = flat(t)
+    return sorted(merged.values(), key=lambda c: c["awarded"], reverse=True)
 
 
 def _prev_count() -> int:
@@ -279,6 +346,11 @@ def run(dry_run: bool = False) -> int:
     errors.extend(fetch_nen.enrich(result))
     # diff proti předchozímu snapshotu — PŘED přepsáním tenders.json
     changes = compute_changes(result, today)
+    # Konkurence: z KOMPLETNÍHO all_t (bez cenového stropu), vlastní archiv
+    competition = build_competition(all_t, today)
+    # award patří do competition.json — v tenders.json by jen duplikoval
+    for t in result:
+        t.pop("award", None)
 
     out_tenders = ROOT / config.OUT_TENDERS
 
@@ -290,6 +362,7 @@ def run(dry_run: bool = False) -> int:
             "vzmr": sum(1 for t in result if t["kind"] == "VZMR"),
             "active": sum(1 for t in result if not t["expired"]),
             "changed": len(changes),
+            "competition": len(competition),
             "previous": prev_count,
         },
         "errors": errors,
@@ -315,6 +388,9 @@ def run(dry_run: bool = False) -> int:
     )
     (ROOT / config.OUT_CHANGES).write_text(
         json.dumps(changes, ensure_ascii=False, indent=1), "utf-8"
+    )
+    (ROOT / config.OUT_COMPETITION).write_text(
+        json.dumps(competition, ensure_ascii=False, indent=1), "utf-8"
     )
     (ROOT / config.OUT_META).write_text(
         json.dumps(meta, ensure_ascii=False, indent=1), "utf-8"
