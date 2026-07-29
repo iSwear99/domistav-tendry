@@ -204,6 +204,9 @@ PROFILY_ZADAVATELU = {
     # zakázce „Energetické úspory objektu Kalendova č.p. 747" (E-ZAK
     # profily nejsou v ISVZ ani v PVU RSS — slepé místo pokrytí)
     "john-nell-baby":     {"lat": 50.210, "lon": 15.832, "nazev": "John Nell baby s.r.o.", "ico": "28776941", "profile_url": "https://zakazky.navigaassistance.cz"},
+    # doplněno 29. 7. 2026 po zmeškané VZMR „Stavební úpravy prodejny
+    # č.p. 64, Lodín" (zveřejněna před nasazením PVU RSS)
+    "lodin":              {"lat": 50.2675, "lon": 15.6077, "nazev": "Obec Lodín", "ico": "00269051", "profile_url": "https://www.vhodne-uverejneni.cz/profil/obec-lodin"},
 }
 PROFILY_DAYS_BACK = 90
 
