@@ -36,6 +36,14 @@ neobsahuje žádná firemní data, proto smí běžet v public GitHub repozitá�
    v sekci nápovědy („Nová Open Data – dokumentace JSON").
 2. **Profily zadavatelů** — strojově čitelné XML dle vyhlášky č. 168/2016 Sb.
    Endpoint: `{URL profilu}/XMLdataVZ?od=...&do=...`. Zdroj VZMR.
+   **2b. PVU RSS** (`vhodne-uverejneni.cz/rss/zakazky`, ověřeno 2026-07-29):
+   čerstvé zakázky celé ČR (~25 položek/den, okno ~24 h) od zadavatelů
+   MIMO konfigurované profily (církve, spolky, dotovaní zadavatelé) —
+   zaceluje díru běžícího měsíce, než vyjde měsíční ISVZ export. Modul
+   `fetch_pvu.py`: RSS → detail (IČO, profil, sídlo) → XMLdataVZ profilu.
+   PVU záznamy NEdostávají profilovou benevolenci filtrů (celostátní,
+   víceoborové) a jednou zachycené se přenášejí z předchozího snapshotu
+   VŽDY (RSS je pomíjivé). Co RSS přeteče, dožene ISVZ export zpětně.
 3. **NEN veřejné API** — obohacení detailů (prohlídka místa plnění,
    vysvětlení ZD) k aktivním VZ; autentizace certifikátem přes GitHub
    secrets, modul `fetch_nen.py` (neaktivní do zřízení přístupu).
@@ -147,6 +155,14 @@ Poté v nastavení repa:
 
 - Data se **nemažou** — zakázky po lhůtě se označí `expired`, ale zůstávají
   v historii (git historie = denní snapshoty).
+- **Mrtvé odkazy:** denní běh kontroluje URL aktivních zakázek; POUZE
+  tvrdé HTTP 404/410 ve DVOU bězích po sobě ⇒ `expired` + `link_dead`
+  (štítek „odkaz nedostupný"). SPA portály (NEN/VVZ vracejí 200 na vše)
+  ani síťové chyby vyřadit nic nemohou — záměrně konzervativní.
+- **★/👎 synchronizace:** volitelně přes PRIVÁTNÍ GitHub Gist uživatele
+  (fine-grained PAT jen se scope gist, vkládá se na každém zařízení;
+  dialog ⇅ v hlavičce). Sloučení dle časových značek, historie odznačení
+  se drží. Do veřejného repozitáře se zájmy uživatele NIKDY nezapisují.
 - **Deduplikace napříč zdroji**: tatáž zakázka z ISVZ i profilu zadavatele
   se slučuje podle IČO + normalizovaného názvu (bez diakritiky/interpunkce);
   přednost má záznam z ISVZ, URL profilu se zachová v poli `profile_url`.

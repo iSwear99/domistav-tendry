@@ -2559,7 +2559,7 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "www.kutnahora.cz"
+  "url": "https://www.kutnahora.cz"
  },
  {
   "id": "rvz:RVZ2600100632",
@@ -3574,7 +3574,7 @@
   ],
   "kind": "VZ",
   "kw_match": true,
-  "url": "www.mu.kutnahora.cz"
+  "url": "https://www.mu.kutnahora.cz"
  },
  {
   "id": "rvz:RVZ2600070985",
@@ -4672,7 +4672,7 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "www.vhodne-uverejneni.cz/profil/00235326"
+  "url": "https://www.vhodne-uverejneni.cz/profil/00235326"
  },
  {
   "id": "rvz:RVZ2600085414",
@@ -26892,128 +26892,5 @@
   "kind": "VZ",
   "kw_match": false,
   "url": ""
- },
- {
-  "id": "rvz:RVZ2500132437",
-  "source": "isvz",
-  "title": "Rekonstrukce fasády OBECNÍ ÚŘAD KOUTY čp. 19",
-  "authority": "Obec Kouty",
-  "authority_ico": "00579891",
-  "winner": "Jiří Benda",
-  "winner_ico": "87842432",
-  "awarded": "2025-07-28",
-  "price_contracted": 900000.0,
-  "estimated": false,
-  "price_paid": 1200000.0,
-  "growth_pct": 33.3,
-  "dist_km": 45,
-  "loc_unknown": false,
-  "cpv": [
-   "45000000"
-  ],
-  "kind": "VZMR",
-  "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00033072"
- },
- {
-  "id": "rvz:RVZ2500083812",
-  "source": "isvz",
-  "title": "Rámcová dohoda na realizaci oprav a investic na silnicích II. a III. tříd v Kraji Vysočina 2025-2027",
-  "authority": "Krajská správa a údržba silnic Vysočiny, příspěvková organizace",
-  "authority_ico": "00090450",
-  "winner": "Skanska a.s.; MI Roads a.s.; COLAS CZ, a.s.; Inženýrské stavby Brno, spol. s r.o.; EUROVIA CZ a.s.; M - SILNICE a.s.; PORR a.s.; SWIETELSKY stavební s.r.o.; STRABAG a.s.; SILNICE ČÁSLAV, s.r.o.; IMOS Brno, a.s.; FIRESTA-Fišer, rekonstrukce, stavby a.s.; OHLA ŽS, a.s.",
-  "winner_ico": "26271303; 17331099; 26177005; 41601645; 45274924; 42196868; 43005560; 48035599; 60838744; 28447085; 25322257; 25317628; 46342796",
-  "awarded": "2025-07-28",
-  "price_contracted": 750000000.0,
-  "estimated": false,
-  "price_paid": null,
-  "growth_pct": null,
-  "dist_km": 47,
-  "loc_unknown": false,
-  "cpv": [
-   "45000000",
-   "45110000",
-   "45112400",
-   "45221100",
-   "45221220",
-   "45233100",
-   "45233142",
-   "45233160",
-   "45233220",
-   "45233223",
-   "45233228",
-   "45233290",
-   "45332000",
-   "34928110",
-   "44212120",
-   "77211400"
-  ],
-  "kind": "VZ",
-  "kw_match": false,
-  "url": ""
- },
- {
-  "id": "rvz:RVZ2500176192",
-  "source": "isvz",
-  "title": "ZÁMEK ŽĎÁR z.s. - Kulturně kreativní centrum Vysočina – akustická opatření – II.",
-  "authority": "ZÁMEK ŽĎÁR z.s.",
-  "authority_ico": "26537516",
-  "winner": "AVETON s.r.o.",
-  "winner_ico": "02436647",
-  "awarded": "2025-07-28",
-  "price_contracted": 14637334.0,
-  "estimated": false,
-  "price_paid": null,
-  "growth_pct": null,
-  "dist_km": 47,
-  "loc_unknown": false,
-  "cpv": [
-   "45000000"
-  ],
-  "kind": "VZ",
-  "kw_match": false,
-  "url": "https://tenderarena.cz/dodavatel/zakazka/799879"
- },
- {
-  "id": "rvz:RVZ2500103739",
-  "source": "isvz",
-  "title": "Hořice – novostavba objektu „Dětská skupina město Hořice“",
-  "authority": "Město Hořice",
-  "authority_ico": "00271560",
-  "winner": "",
-  "winner_ico": "",
-  "awarded": "2025-07-28",
-  "price_contracted": 16480222.0,
-  "estimated": false,
-  "price_paid": null,
-  "growth_pct": null,
-  "dist_km": 22,
-  "loc_unknown": false,
-  "cpv": [
-   "45000000"
-  ],
-  "kind": "VZ",
-  "kw_match": false,
-  "url": ""
- },
- {
-  "id": "rvz:RVZ2600054349",
-  "source": "isvz",
-  "title": "Oprava vodovodního přivaděče k vodojemu  Park v Trutnově, městská část Vnitřní Město",
-  "authority": "Vodovody a kanalizace Trutnov, a.s.",
-  "authority_ico": "60108711",
-  "winner": "B M H spol. s r.o.",
-  "winner_ico": "42869668",
-  "awarded": "2025-07-28",
-  "price_contracted": 2622840.0,
-  "estimated": false,
-  "price_paid": null,
-  "growth_pct": null,
-  "dist_km": 43,
-  "loc_unknown": false,
-  "cpv": [],
-  "kind": "VZ",
-  "kw_match": true,
-  "url": "https://tenderarena.cz/dodavatel/zakazka/816180"
  }
 ]
