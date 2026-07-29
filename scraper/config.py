@@ -200,6 +200,10 @@ PROFILY_ZADAVATELU = {
     "lazne-bohdanec":     {"lat": 50.076, "lon": 15.680, "nazev": "Město Lázně Bohdaneč", "ico": "00273350", "profile_url": "https://www.tenderarena.cz/profily/LazneBohdanec"},
     "skutec":             {"lat": 49.843, "lon": 15.996, "nazev": "Město Skuteč",   "ico": "00270903", "profile_url": "https://nen.nipez.cz/profil/LEOPOSMEST1"},
     "hlinsko":            {"lat": 49.762, "lon": 15.907, "nazev": "Město Hlinsko",  "ico": "00270059", "profile_url": "https://nen.nipez.cz/profil/mestohlinsko"},
+    # dotovaný zadavatel na E-ZAK — doplněno 29. 7. 2026 po zmeškané
+    # zakázce „Energetické úspory objektu Kalendova č.p. 747" (E-ZAK
+    # profily nejsou v ISVZ ani v PVU RSS — slepé místo pokrytí)
+    "john-nell-baby":     {"lat": 50.210, "lon": 15.832, "nazev": "John Nell baby s.r.o.", "ico": "28776941", "profile_url": "https://zakazky.navigaassistance.cz"},
 }
 PROFILY_DAYS_BACK = 90
 

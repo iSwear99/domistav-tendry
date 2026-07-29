@@ -87,8 +87,11 @@ body {
 .slider { display: flex; gap: 10px; align-items: center; font-size: 13.5px;
   color: var(--muted); white-space: nowrap;
   flex: 0 0 auto; width: 420px; max-width: 100%; }
-.slider b { color: var(--ink); min-width: 2ch; text-align: right; }
-.slider input[type="range"] { flex: 1; width: 100%;
+/* pevná šířka popisku ⇒ dráhy všech sliderů začínají i končí stejně */
+.sl-label { flex: 0 0 150px; text-align: right; }
+.slider b { color: var(--ink); min-width: 2ch; text-align: right;
+  display: inline; }
+.slider input[type="range"] { flex: 1; width: 100%; margin: 0;
   accent-color: var(--accent); }
 /* dvojitý slider: dva jezdce (od–do) na společné dráze */
 .dual { position: relative; flex: 1; height: 22px; }

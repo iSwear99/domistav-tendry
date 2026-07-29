@@ -109,6 +109,70 @@ def _xml_url(meta: dict, od: dt.date, do: dt.date) -> str:
     return f"{base}/XMLdataVZ?od={od:%d%m%Y}&do={do:%d%m%Y}"
 
 
+# ── záložní čtení E-ZAK profilů z HTML ──────────────────────────────────────
+# Některé E-ZAK profily mají XMLdataVZ rozbité („Zadavatel nemá vyplněn
+# evidenční číslo profilu ve VVZ…“) — zjištěno 29. 7. 2026 na
+# zakazky.navigaassistance.cz. Markup detailu je napříč E-ZAK stejný:
+# „Datum zahájení: <b>30.06.2026</b>“, „Nabídku podat do: <b>…</b>“ atd.
+_EZAK_LINK_RE = re.compile(r'href="/?(contract_display_\d+\.html)"')
+# název zakázky je v drobečkové navigaci jako odkaz sám na sebe
+_EZAK_FIELD_RE = re.compile(
+    r"(Předpokládaná hodnota|Datum zahájení|Nabídku podat do"
+    r"|Systémové číslo):?\s*(?:</th>\s*<td[^>]*>)?\s*<b>\s*(.*?)\s*</b>",
+    re.S)
+
+
+def _ezak_date(s: str) -> str:
+    m = re.match(r"(\d{2})\.(\d{2})\.(\d{4})(?:\s+(\d{2}):(\d{2}))?", s)
+    if not m:
+        return ""
+    d, mo, y, h, mi = m.groups()
+    return f"{y}-{mo}-{d}" + (f"T{h}:{mi}:00" if h else "")
+
+
+def _fetch_profile_ezak_html(key: str, meta: dict) -> list[dict]:
+    base = meta["profile_url"].rstrip("/")
+    listing = _get(base + "/").decode("utf-8", "replace")
+    tenders: list[dict] = []
+    for rel in dict.fromkeys(_EZAK_LINK_RE.findall(listing)):
+        try:
+            page = _get(f"{base}/{rel}").decode("utf-8", "replace")
+        except Exception:  # noqa: BLE001
+            continue
+        f = {k: re.sub(r"<[^>]+>", "", v).strip()
+             for k, v in _EZAK_FIELD_RE.findall(page)}
+        title_m = re.search(
+            rf'<a href="/?{re.escape(rel)}">([^<]{{3,160}})</a>', page)
+        rid = f.get("Systémové číslo") or rel
+        if not title_m:
+            continue
+        hodnota = None
+        if f.get("Předpokládaná hodnota"):
+            digits = re.sub(r"[^\d]", "",
+                            f["Předpokládaná hodnota"].split("Kč")[0])
+            hodnota = float(digits) if digits else None
+        vzmr = bool(re.search(r"malého rozsahu|VZMR", page))
+        tenders.append({
+            "id": f"profil:{key}:{rid}",
+            "source": f"profil:{key}",
+            "title": title_m.group(1),
+            "authority": meta["nazev"],
+            "authority_ico": meta["ico"],
+            "cpv": [],
+            "nuts": [],
+            "value": hodnota,
+            "published": _ezak_date(f.get("Datum zahájení", ""))[:10],
+            "deadline": _ezak_date(f.get("Nabídku podat do", "")),
+            "url": f"{base}/{rel}",
+            "place": "",
+            "state": "",
+            "site_visit": "",
+            "clarifications": 0,
+            "kind": "VZMR" if vzmr else "VZ",
+        })
+    return tenders
+
+
 def _fetch_profile(key: str, meta: dict) -> tuple[list[dict], list[str]]:
     do = dt.date.today()
     od = do - dt.timedelta(days=config.PROFILY_DAYS_BACK)
@@ -116,6 +180,13 @@ def _fetch_profile(key: str, meta: dict) -> tuple[list[dict], list[str]]:
     try:
         root = ET.fromstring(_get(url))
     except Exception as exc:  # noqa: BLE001
+        # rozbité XML na E-ZAK ⇒ zkusit HTML výpis profilu
+        try:
+            tenders = _fetch_profile_ezak_html(key, meta)
+            if tenders:
+                return tenders, []
+        except Exception:  # noqa: BLE001
+            pass
         return [], [f"profil:{key}: {exc}"]
 
     tenders: list[dict] = []
