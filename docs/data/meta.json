@@ -1,19 +1,13 @@
 {
- "updated": "2026-07-29T16:32:46+00:00",
+ "updated": "2026-07-29T18:35:35+00:00",
  "counts": {
   "total": 7360,
-  "vz": 4376,
-  "vzmr": 2984,
+  "vz": 4373,
+  "vzmr": 2987,
   "active": 236,
   "changed": 11,
   "competition": 1179,
   "previous": 7360
  },
- "errors": [
-  "profil:hradec-kralove: Stažení selhalo: https://www.tenderarena.cz/profily/hradeckralove/XMLdataVZ?od=30042026&do=29072026: HTTP Error 429: Too Many Requests",
-  "profil:nove-mesto-nm: Stažení selhalo: https://www.egordion.cz/nabidkaGORDION/profilNmnm/XMLdataVZ?od=30042026&do=29072026: HTTP Error 429: Too Many Requests",
-  "profil:horice: Stažení selhalo: https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0000671/XMLdataVZ?od=30042026&do=29072026: HTTP Error 429: Too Many Requests",
-  "profil:upice: Stažení selhalo: https://tenderarena.cz/profily/00278386/XMLdataVZ?od=30042026&do=29072026: HTTP Error 429: Too Many Requests",
-  "profil:lazne-bohdanec: Stažení selhalo: https://www.tenderarena.cz/profily/LazneBohdanec/XMLdataVZ?od=30042026&do=29072026: HTTP Error 429: Too Many Requests"
- ]
+ "errors": []
 }
