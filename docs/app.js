@@ -715,11 +715,17 @@ function renderComp() {
 function renderAI() {
   if (!$("ai-list")) return;
   const withNejisto = $("a-nejisto").checked;
+  const withNoDeadline = $("a-nodeadline").checked;
   const shown = state.tenders.filter((t) => {
     if (t.expired) return false;
+    if (state.watch.has(t.id)) return true;   // sledované ★ vždy
     const v = (state.ai || {})[t.id];
-    return v && (v.verdikt === "ano"
-      || (withNejisto && v.verdikt === "nejisto"));
+    if (!v || !(v.verdikt === "ano"
+      || (withNejisto && v.verdikt === "nejisto"))) return false;
+    // bez lhůty = většinou zastaralé záznamy se špatným zatříděním
+    // od zadavatele — standardně jen aktuálně soutěžené (lhůta běží)
+    if (!withNoDeadline && !t.deadline) return false;
+    return true;
   });
   $("ai-list").innerHTML = shown.map(rowHTML).join("");
   $("ai-empty").hidden = shown.length > 0
@@ -740,6 +746,7 @@ $("tab-tenders").addEventListener("click", () => switchTab("tenders"));
 $("tab-ai").addEventListener("click", () => switchTab("ai"));
 $("tab-comp").addEventListener("click", () => switchTab("comp"));
 $("a-nejisto").addEventListener("input", renderAI);
+$("a-nodeadline").addEventListener("input", renderAI);
 $("c-min").addEventListener("input", (e) =>
   dualSync($("c-min"), $("c-max"), $("c-fill"), e.target));
 $("c-max").addEventListener("input", (e) =>

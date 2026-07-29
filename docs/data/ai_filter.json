@@ -7,7 +7,7 @@
   "counts": {
    "ano": 124,
    "ne": 57,
-   "nejisto": 54
+   "nejisto": 0
   },
   "errors": []
  },
@@ -36,10 +36,6 @@
    "verdikt": "ano",
    "duvod": "Rozšíření kapacity základní školy"
   },
-  "rvz:RVZ2600110273": {
-   "verdikt": "nejisto",
-   "duvod": "Požární systém budovy, rozsah stavebních prací nejasný"
-  },
   "rvz:RVZ2600111238": {
    "verdikt": "ne",
    "duvod": "Dodávka herních a sportovních prvků"
@@ -52,10 +48,6 @@
    "verdikt": "ne",
    "duvod": "Opravy vozidel"
   },
-  "rvz:RVZ2600105516": {
-   "verdikt": "nejisto",
-   "duvod": "Výstavba přístřešků, CPV však značí projektové služby"
-  },
   "profil:kr-pardubicky:VZ-6283": {
    "verdikt": "ano",
    "duvod": "Venkovní sportoviště, zpevněné plochy a stavební práce"
@@ -67,10 +59,6 @@
   "profil:pvu:46496491:P26V00004795": {
    "verdikt": "ano",
    "duvod": "Komunitní centrum, pozemní stavba"
-  },
-  "profil:kr-kralovehradecky:VZ-12970": {
-   "verdikt": "nejisto",
-   "duvod": "Oprava teplovodních rozvodů, spíše technologie"
   },
   "profil:kr-kralovehradecky:VZ-13041": {
    "verdikt": "ano",
@@ -112,14 +100,6 @@
    "verdikt": "ano",
    "duvod": "Novostavba informačního centra, pozemní stavba"
   },
-  "rvz:RVZ2500082275": {
-   "verdikt": "nejisto",
-   "duvod": "Velká pozemní stavba kampusu, možná nad kapacitu"
-  },
-  "rvz:RVZ2500090258": {
-   "verdikt": "nejisto",
-   "duvod": "Rekonstrukce budovy, ale zadavatel dráhy"
-  },
   "rvz:RVZ2500086618": {
    "verdikt": "ano",
    "duvod": "Rozšíření mateřské školy, typická zakázka"
@@ -144,29 +124,13 @@
    "verdikt": "ne",
    "duvod": "Oprava nástavby stroje, nikoli stavba"
   },
-  "rvz:RVZ2600079526": {
-   "verdikt": "nejisto",
-   "duvod": "Parkoviště, firma dělá zpevněné plochy"
-  },
-  "rvz:RVZ2600080540": {
-   "verdikt": "nejisto",
-   "duvod": "Hřiště, spíše sportovní plochy než budovy"
-  },
   "rvz:RVZ2500090052": {
    "verdikt": "ne",
    "duvod": "Železniční traťová stavba"
   },
-  "rvz:RVZ2600081723": {
-   "verdikt": "nejisto",
-   "duvod": "Sportovní zóna, převážně venkovní plochy"
-  },
   "rvz:RVZ2500121822": {
    "verdikt": "ano",
    "duvod": "Vestavba učeben, stavební úpravy školy"
-  },
-  "rvz:RVZ2600082815": {
-   "verdikt": "nejisto",
-   "duvod": "Rozsáhlá kanalizace, hraniční inženýrská stavba"
   },
   "rvz:RVZ2500114159": {
    "verdikt": "ne",
@@ -196,18 +160,6 @@
    "verdikt": "ne",
    "duvod": "Silniční stavba"
   },
-  "rvz:RVZ2600077314": {
-   "verdikt": "nejisto",
-   "duvod": "Technická infrastruktura pro RD, sítě a komunikace"
-  },
-  "rvz:RVZ2500090320": {
-   "verdikt": "nejisto",
-   "duvod": "Průmyslová zóna, převažuje dopravní infrastruktura"
-  },
-  "rvz:RVZ2600076453": {
-   "verdikt": "nejisto",
-   "duvod": "Volnočasový areál, nejasný podíl budov"
-  },
   "rvz:RVZ2500085635": {
    "verdikt": "ano",
    "duvod": "Energeticky úsporná opatření budovy obce"
@@ -215,10 +167,6 @@
   "rvz:RVZ2600076420": {
    "verdikt": "ano",
    "duvod": "Oprava plochých střech budov nemocnice"
-  },
-  "rvz:RVZ2600080577": {
-   "verdikt": "nejisto",
-   "duvod": "Infrastruktura pro RD, rozsah nejasný"
   },
   "rvz:RVZ2500219663": {
    "verdikt": "ano",
@@ -244,14 +192,6 @@
    "verdikt": "ne",
    "duvod": "Opravy místních komunikací"
   },
-  "rvz:RVZ2500091042": {
-   "verdikt": "nejisto",
-   "duvod": "Kanalizace, větší inženýrská stavba"
-  },
-  "rvz:RVZ2600080400": {
-   "verdikt": "nejisto",
-   "duvod": "Domovní ČOV a kanalizace"
-  },
   "rvz:RVZ2600076075": {
    "verdikt": "ano",
    "duvod": "Oprava krovu a stropu budovy"
@@ -264,10 +204,6 @@
    "verdikt": "ano",
    "duvod": "Stavební úpravy a přístavba mateřské školy"
   },
-  "rvz:RVZ2500066746": {
-   "verdikt": "nejisto",
-   "duvod": "Rozsáhlá vodohospodářská infrastruktura v ulici"
-  },
   "rvz:RVZ2600078426": {
    "verdikt": "ne",
    "duvod": "Oprava důlního těžního zařízení"
@@ -276,25 +212,9 @@
    "verdikt": "ano",
    "duvod": "Vestavba a úpravy domova pro seniory"
   },
-  "rvz:RVZ2600077327": {
-   "verdikt": "nejisto",
-   "duvod": "Podzemní kontejnery, převážně dodávka technologie"
-  },
   "rvz:RVZ2500076417": {
    "verdikt": "ano",
    "duvod": "Rekonstrukce sokolovny, obdoba realizovaných zakázek"
-  },
-  "rvz:RVZ2500058728": {
-   "verdikt": "nejisto",
-   "duvod": "Velká nemocniční stavba, rozsah nejasný"
-  },
-  "rvz:RVZ2600078986": {
-   "verdikt": "nejisto",
-   "duvod": "Heliport a vytápění, specifická technologie"
-  },
-  "rvz:RVZ2600080512": {
-   "verdikt": "nejisto",
-   "duvod": "Vodovodní propojení, inženýrská stavba"
   },
   "rvz:RVZ2600082847": {
    "verdikt": "ano",
@@ -340,10 +260,6 @@
    "verdikt": "ano",
    "duvod": "Stavební úpravy objektu, pozemní stavitelství"
   },
-  "rvz:RVZ2500135927": {
-   "verdikt": "nejisto",
-   "duvod": "Revitalizace náměstí, převažují zpevněné plochy"
-  },
   "rvz:RVZ2600083531": {
    "verdikt": "ano",
    "duvod": "Rekonstrukce sociálního zařízení domova mládeže"
@@ -351,10 +267,6 @@
   "rvz:RVZ2500086686": {
    "verdikt": "ano",
    "duvod": "Snížení energetické náročnosti školní budovy"
-  },
-  "rvz:RVZ2600077591": {
-   "verdikt": "nejisto",
-   "duvod": "Rekonstrukce ulice, pravděpodobně komunikace"
   },
   "rvz:RVZ2600076961": {
    "verdikt": "ano",
@@ -400,14 +312,6 @@
    "verdikt": "ano",
    "duvod": "Stavební úpravy objektu"
   },
-  "rvz:RVZ2600086443": {
-   "verdikt": "nejisto",
-   "duvod": "Separační dvůr, zpevněné plochy i objekty"
-  },
-  "rvz:RVZ2600086484": {
-   "verdikt": "nejisto",
-   "duvod": "Infrastruktura lokality, komunikace a sítě"
-  },
   "rvz:RVZ2600098010": {
    "verdikt": "ano",
    "duvod": "Energetické úspory budovy, okna, tepelná čerpadla"
@@ -423,10 +327,6 @@
   "rvz:RVZ2600084768": {
    "verdikt": "ano",
    "duvod": "Stavební úpravy administrativní budovy"
-  },
-  "rvz:RVZ2600088552": {
-   "verdikt": "nejisto",
-   "duvod": "Opěrná zeď a schodiště, nejednoznačné zaměření"
   },
   "rvz:RVZ2600084816": {
    "verdikt": "ne",
@@ -480,17 +380,9 @@
    "verdikt": "ano",
    "duvod": "Vestavba klubovny, pozemní stavitelství"
   },
-  "rvz:RVZ2600086851": {
-   "verdikt": "nejisto",
-   "duvod": "Lávka, ale v areálu ZOO, Design&Build"
-  },
   "rvz:RVZ2500118453": {
    "verdikt": "ano",
    "duvod": "Rekonstrukce a rozšíření školní kuchyně"
-  },
-  "rvz:RVZ2600083836": {
-   "verdikt": "nejisto",
-   "duvod": "Nejasné, možná místní komunikace u garáží"
   },
   "rvz:RVZ2600084886": {
    "verdikt": "ne",
@@ -508,21 +400,9 @@
    "verdikt": "ano",
    "duvod": "Stavební úpravy školního gastroprovozu"
   },
-  "rvz:RVZ2600096679": {
-   "verdikt": "nejisto",
-   "duvod": "Otopná soustava ve škole, převážně TZB"
-  },
   "rvz:RVZ2600085268": {
    "verdikt": "ne",
    "duvod": "Rekonstrukce místní komunikace"
-  },
-  "rvz:RVZ2600088364": {
-   "verdikt": "nejisto",
-   "duvod": "Víceúčelové hřiště, sportovní plocha"
-  },
-  "rvz:RVZ2600097273": {
-   "verdikt": "nejisto",
-   "duvod": "Revitalizace náměstí, zpevněné plochy i zeleň"
   },
   "rvz:RVZ2600085414": {
    "verdikt": "ano",
@@ -567,10 +447,6 @@
   "rvz:RVZ2600085437": {
    "verdikt": "ne",
    "duvod": "Opravy lesních cest"
-  },
-  "rvz:RVZ2600085014": {
-   "verdikt": "nejisto",
-   "duvod": "Revitalizace parku, zeleň a plochy"
   },
   "rvz:RVZ2500111996": {
    "verdikt": "ano",
@@ -632,10 +508,6 @@
    "verdikt": "ano",
    "duvod": "Chodník, zpevněné plochy"
   },
-  "rvz:RVZ2500121323": {
-   "verdikt": "nejisto",
-   "duvod": "Dodatek ke stávající smlouvě, nikoli nová soutěž"
-  },
   "rvz:RVZ2600104098": {
    "verdikt": "ano",
    "duvod": "Rekonstrukce budovy polikliniky, elektroinstalace"
@@ -651,10 +523,6 @@
   "rvz:RVZ2500092038": {
    "verdikt": "ano",
    "duvod": "Rekonstrukce objektu pro dětskou skupinu"
-  },
-  "rvz:RVZ2600107037": {
-   "verdikt": "nejisto",
-   "duvod": "Veřejné prostranství, zeleň a mobiliář"
   },
   "rvz:RVZ2600098503": {
    "verdikt": "ano",
@@ -696,14 +564,6 @@
    "verdikt": "ano",
    "duvod": "Modernizace sportovní haly školy"
   },
-  "rvz:RVZ2500087130": {
-   "verdikt": "nejisto",
-   "duvod": "Kanalizace a vodovod s komunikací a zdí"
-  },
-  "rvz:RVZ2600105449": {
-   "verdikt": "nejisto",
-   "duvod": "Fotovoltaika, převážně technologická dodávka"
-  },
   "rvz:RVZ2500069914": {
    "verdikt": "ano",
    "duvod": "Rekonstrukce vily pro pečovatelskou službu"
@@ -712,37 +572,13 @@
    "verdikt": "ne",
    "duvod": "Opravy techniky, nikoliv stavební práce"
   },
-  "rvz:RVZ2600100893": {
-   "verdikt": "nejisto",
-   "duvod": "Převážně dodávka výtahové technologie"
-  },
-  "rvz:RVZ2600103343": {
-   "verdikt": "nejisto",
-   "duvod": "Rozsáhlá kanalizace a vodovod, hraniční obor"
-  },
   "rvz:RVZ2600100770": {
    "verdikt": "ne",
    "duvod": "Rekonstrukce komunikace, silniční stavba"
   },
-  "rvz:RVZ2500097073": {
-   "verdikt": "nejisto",
-   "duvod": "Dešťová kanalizace většího rozsahu"
-  },
-  "rvz:RVZ2600050946": {
-   "verdikt": "nejisto",
-   "duvod": "Veřejné prostranství, zpevněné plochy i zeleň"
-  },
   "rvz:RVZ2500101937": {
    "verdikt": "ne",
    "duvod": "Silniční propustky, mimo obor"
-  },
-  "rvz:RVZ2600098344": {
-   "verdikt": "nejisto",
-   "duvod": "Vodojem, vodohospodářská stavba"
-  },
-  "rvz:RVZ2600103501": {
-   "verdikt": "nejisto",
-   "duvod": "Revitalizace hřbitova, restaurátorské práce"
   },
   "rvz:RVZ2500080489": {
    "verdikt": "ano",
@@ -755,10 +591,6 @@
   "rvz:RVZ2600105071": {
    "verdikt": "ano",
    "duvod": "Snížení energetické náročnosti budovy"
-  },
-  "rvz:RVZ2600100778": {
-   "verdikt": "nejisto",
-   "duvod": "Intenzifikace ČOV, převážně technologie"
   },
   "rvz:RVZ2500092073": {
    "verdikt": "ne",
@@ -776,17 +608,9 @@
    "verdikt": "ano",
    "duvod": "Rekonstrukce střech školy a haly"
   },
-  "rvz:RVZ2500090042": {
-   "verdikt": "nejisto",
-   "duvod": "Rekonstrukce sila, možná technologická část"
-  },
   "rvz:RVZ2500084907": {
    "verdikt": "ano",
    "duvod": "Stavební úpravy učeben školy"
-  },
-  "rvz:RVZ2600100539": {
-   "verdikt": "nejisto",
-   "duvod": "Výměna rozvodů topení, převážně TZB"
   },
   "rvz:RVZ2500145690": {
    "verdikt": "ano",
@@ -799,10 +623,6 @@
   "rvz:RVZ2600099385": {
    "verdikt": "ano",
    "duvod": "Rekonstrukce budovy domu hrázného"
-  },
-  "rvz:RVZ2600106587": {
-   "verdikt": "nejisto",
-   "duvod": "Nová výstavba areálu, rozsah nejasný"
   },
   "rvz:RVZ2600100216": {
    "verdikt": "ne",
@@ -820,25 +640,9 @@
    "verdikt": "ano",
    "duvod": "Stavební úpravy nemocničního pavilonu"
   },
-  "rvz:RVZ2600105063": {
-   "verdikt": "nejisto",
-   "duvod": "Naučná stezka u rybníka, převážně terénní práce"
-  },
-  "rvz:RVZ2600105797": {
-   "verdikt": "nejisto",
-   "duvod": "Chodník podél silnice, hraniční typ zakázky"
-  },
   "rvz:RVZ2600101717": {
    "verdikt": "ne",
    "duvod": "Protihluková stěna na dálnici"
-  },
-  "rvz:RVZ2600104516": {
-   "verdikt": "nejisto",
-   "duvod": "Chodníky v obci, hraniční komunikační stavba"
-  },
-  "rvz:RVZ2600106154": {
-   "verdikt": "nejisto",
-   "duvod": "ČOV a kanalizace, firma dělá menší inženýrské stavby"
   },
   "rvz:RVZ2500092455": {
    "verdikt": "ano",
@@ -847,10 +651,6 @@
   "rvz:RVZ2500139000": {
    "verdikt": "ano",
    "duvod": "Rekonstrukce budovy včetně fasády"
-  },
-  "rvz:RVZ2600080159": {
-   "verdikt": "nejisto",
-   "duvod": "Parkoviště a zpevněné plochy, možná relevantní"
   },
   "rvz:RVZ2500067861": {
    "verdikt": "ano",
@@ -888,14 +688,6 @@
    "verdikt": "ano",
    "duvod": "Provizorní třídy MŠ a přístavba schodiště"
   },
-  "rvz:RVZ2500075198": {
-   "verdikt": "nejisto",
-   "duvod": "Sportovní areál se zázemím, částečně pozemní stavba"
-  },
-  "rvz:RVZ2600086398": {
-   "verdikt": "nejisto",
-   "duvod": "ČOV/kanalizace obce, hraniční inženýrská stavba"
-  },
   "rvz:RVZ2500086074": {
    "verdikt": "ano",
    "duvod": "Novostavba hasičské zbrojnice"
@@ -916,17 +708,9 @@
    "verdikt": "ano",
    "duvod": "Rekonstrukce sportovního objektu"
   },
-  "rvz:RVZ2600106600": {
-   "verdikt": "nejisto",
-   "duvod": "Revitalizace centra, možné zpevněné plochy i sítě"
-  },
   "rvz:RVZ2500128433": {
    "verdikt": "ne",
    "duvod": "Strojně technologická část, železniční cisterny"
-  },
-  "rvz:RVZ2500085827": {
-   "verdikt": "nejisto",
-   "duvod": "Technická vybavenost, sítě a komunikace"
   },
   "rvz:RVZ2600105415": {
    "verdikt": "ano",

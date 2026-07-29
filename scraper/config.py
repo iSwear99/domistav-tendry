@@ -296,6 +296,8 @@ zeleně, veřejné osvětlení bez stavební části.
 Ke každé zakázce vrať verdikt: "ano" (relevantní), "ne" (nerelevantní), \
 "nejisto" (z dostupných údajů nelze rozhodnout), a stručný důvod česky \
 (max 10 slov). Rozhoduj podle názvu, zadavatele, CPV kódů a hodnoty. \
+NEPOSUZUJ velikost zakázky ani kapacitu firmy — velké pozemní stavby \
+(i za stovky milionů) jsou relevantní; hodnoť výhradně obor. \
 V pochybnostech vždy "nejisto", nikdy ne "ne" — skrytí relevantní \
 zakázky je horší chyba než ponechání nerelevantní."""
 AI_EXTRA = ""            # místo pro dodatečná pravidla zadavatele (česky)
