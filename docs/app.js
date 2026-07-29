@@ -357,6 +357,9 @@ function passes(t) {
   const kind = $("f-kind").value;
   if (kind && t.kind !== kind) return false;
 
+  // rychlý filtr klikem na kartu „nových" v horní statistice
+  if (state.quickNew && !isNew(t)) return false;
+
   // AI filtr: verdikt „ne" se skrývá (sledované ★ nikdy); přepínač
   // „vč. AI-vyřazených" vše zobrazí — data se nemažou, jen skrývají
   const ai = (state.ai || {})[t.id];
@@ -487,6 +490,11 @@ function esc(s) {
 }
 
 function render() {
+  // zvýraznění aktivních rychlých filtrů na kartách statistik
+  $("stat-new").classList.toggle("on", !!state.quickNew);
+  $("stat-watch").classList.toggle("on", $("f-watch").checked);
+  $("stat-changed").classList.toggle("on", $("f-changed").checked);
+  $("stat-hidden").classList.toggle("on", $("f-disliked").checked);
   $("t-dist-val").textContent = $("t-dist").value;
   $("t-min-val").textContent = $("t-min").value;
   $("t-max-val").textContent =
@@ -540,6 +548,11 @@ function compPasses(c) {
   const q = $("c-q").value.trim().toLowerCase();
   if (q && !(c.title + " " + c.winner + " " + c.authority)
     .toLowerCase().includes(q)) return false;
+
+  // datum zadání od–do (prázdné = bez omezení)
+  const from = $("c-from").value, to = $("c-to").value;
+  if (from && (c.awarded || "") < from) return false;
+  if (to && (c.awarded || "") > to) return false;
 
   // relevance dtto Zakázky: odmítnuté a odhadem nerelevantní se skrývají,
   // filtr „jen odmítnuté 👎" je naopak zobrazí ke kontrole
@@ -701,8 +714,26 @@ $("tab-tenders").addEventListener("click", () => switchTab("tenders"));
 $("tab-ai").addEventListener("click", () => switchTab("ai"));
 $("tab-comp").addEventListener("click", () => switchTab("comp"));
 $("a-nejisto").addEventListener("input", renderAI);
-["c-q", "c-dist", "c-min", "c-max", "c-unknown", "c-disliked"].forEach((id) =>
-  $(id).addEventListener("input", renderComp));
+["c-q", "c-dist", "c-min", "c-max", "c-unknown", "c-disliked", "c-from",
+ "c-to"].forEach((id) => $(id).addEventListener("input", renderComp));
+
+/* ── klikací statistiky: rychlé filtry (pokyn 29. 7. 2026) ── */
+$("stat-new").addEventListener("click", () => {
+  state.quickNew = !state.quickNew;
+  render();
+});
+$("stat-watch").addEventListener("click", () => {
+  $("f-watch").checked = !$("f-watch").checked;
+  render();
+});
+$("stat-changed").addEventListener("click", () => {
+  $("f-changed").checked = !$("f-changed").checked;
+  render();
+});
+$("stat-hidden").addEventListener("click", () => {
+  $("f-disliked").checked = !$("f-disliked").checked;
+  render();
+});
 
 document.addEventListener("click", (e) => {
   const star = e.target.closest(".star");

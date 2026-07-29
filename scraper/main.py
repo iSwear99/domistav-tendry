@@ -277,10 +277,12 @@ def build_competition(all_t: list[dict], today: str) -> list[dict]:
             "url": t.get("url") or "",
         }
 
-    # dřívější záznamy archivu se znovu prohánějí oborovým filtrem —
-    # zpřísnění konfigurace (např. vyřazení silnic) tak pročistí i okno
+    # Dřívější záznamy archivu se znovu prohánějí oborovým filtrem —
+    # zpřísnění konfigurace (např. vyřazení silnic) pročistí i historii.
+    # Od 29. 7. 2026 se okno NEMAŽE (trvalá retence jako u zakázek) —
+    # historie konkurence se hromadí a UI ji řeže filtrem od–do.
     merged = {c["id"]: c for c in _load_json(config.OUT_COMPETITION, [])
-              if c.get("awarded", "") >= cutoff and _sector_ok(c)}
+              if _sector_ok(c)}
     for t in located:
         merged[t["id"]] = flat(t)
     return sorted(merged.values(), key=lambda c: c["awarded"], reverse=True)

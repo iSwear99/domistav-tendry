@@ -58,11 +58,11 @@
 <div id="panel-tenders">
 <section class="wrap stats" id="stats" aria-label="Souhrn">
   <div class="stat"><b id="st-active">–</b><span>aktivních</span></div>
-  <div class="stat"><b id="st-new">–</b><span>nových od poslední návštěvy</span></div>
-  <div class="stat"><b id="st-watch">–</b><span>sledovaných</span></div>
+  <div class="stat clickable" id="stat-new" title="Kliknutím vyfiltrovat jen nové zakázky"><b id="st-new">–</b><span>nových od poslední návštěvy</span></div>
+  <div class="stat clickable" id="stat-watch" title="Kliknutím vyfiltrovat jen sledované"><b id="st-watch">–</b><span>sledovaných</span></div>
   <div class="stat"><b id="st-week">–</b><span>lhůta do 7 dnů</span></div>
-  <div class="stat"><b id="st-changed">–</b><span>změny ZD (7 dní)</span></div>
-  <div class="stat"><b id="st-hidden">–</b><span>skryto jako nerelevantní</span></div>
+  <div class="stat clickable" id="stat-changed" title="Kliknutím vyfiltrovat jen zakázky se změnou ZD"><b id="st-changed">–</b><span>změny ZD (7 dní)</span></div>
+  <div class="stat clickable" id="stat-hidden" title="Kliknutím zobrazit skryté (odmítnuté a nerelevantní)"><b id="st-hidden">–</b><span>skryto jako nerelevantní</span></div>
 </section>
 
 <section class="wrap filters" aria-label="Filtry">
@@ -118,6 +118,10 @@
     <input type="range" id="c-max" min="5" max="200" step="5" value="100"></label>
   <label class="chk" title="Zakázky, u nichž se nepodařilo určit místo plnění"><input type="checkbox" id="c-unknown" checked> vč. polohy neurčené</label>
   <label class="chk" title="Odmítnuté a odhadem nerelevantní — kontrola párování relevance"><input type="checkbox" id="c-disliked"> jen odmítnuté 👎</label>
+  <label class="chk" title="Datum zadání (uzavření smlouvy) od">zadáno od
+    <input type="date" id="c-from"></label>
+  <label class="chk" title="Datum zadání (uzavření smlouvy) do">do
+    <input type="date" id="c-to"></label>
   <span class="comp-count" id="c-count"></span>
 </section>
 <main class="wrap">
