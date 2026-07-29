@@ -279,17 +279,20 @@ async function load() {
     // no-cache = vždy revalidace přes ETag (na Pages levné 304); bez ní
     // prohlížeč heuristicky drží starý JSON i po denní aktualizaci
     const j = (url) => fetch(url, { cache: "no-cache" }).then((r) => r.json());
-    const [tenders, meta, changes, comp, smlouvy] = await Promise.all([
+    const [tenders, meta, changes, comp, smlouvy, dok] = await Promise.all([
       j("data/tenders.json"),
       j("data/meta.json"),
       j("data/changes.json").catch(() => ({})),
       j("data/competition.json").catch(() => []),
       j("data/smlouvy.json").catch(() => ({})),
+      j("data/dokumenty.json").catch(() => ({})),
     ]);
     state.tenders = tenders;
     state.changes = changes || {};
     state.comp = comp || [];
     state.smlouvy = (smlouvy && smlouvy.links) || {};
+    state.zd = (dok && dok.zd) || {};
+    state.zpravy = (dok && dok.zpravy) || {};
     buildDf();
     buildModel();
     renderMeta(meta);
@@ -436,6 +439,7 @@ function rowHTML(t) {
         ${(t.cpv || []).slice(0, 2).map((c) => `<span class="tag">CPV ${esc(c)}</span>`).join("")}
         ${visit}${clar}${irrBadge}
       </div>
+      ${zdLine(t)}
       ${history}
     </div>
     ${val}
@@ -445,6 +449,18 @@ function rowHTML(t) {
       <button class="thumb${disliked ? " on" : ""}" title="Označit jako nerelevantní — podobné zakázky se přestanou zobrazovat" aria-pressed="${disliked}">👎</button>
     </span>
   </li>`;
+}
+
+// Řádek s poli vytěženými ze zadávací dokumentace (data/dokumenty.json).
+function zdLine(t) {
+  const zd = (state.zd || {})[t.id];
+  if (!zd || !zd.doc_url) return "";
+  const parts = [];
+  if (zd.misto) parts.push("místo: " + esc(zd.misto));
+  if (zd.termin) parts.push("termín: " + esc(zd.termin));
+  if (zd.hodnota) parts.push("hodnota: " + fmtKc.format(zd.hodnota) + " Kč");
+  return `<div class="zd" title="Automaticky vytěženo ze zadávací dokumentace — orientační, ověřte v dokumentu">
+    <a href="${esc(zd.doc_url)}" target="_blank" rel="noopener">📄 zadávací dokumentace</a>${parts.length ? " · " + parts.join(" · ") : ""}</div>`;
 }
 
 function esc(s) {
@@ -551,6 +567,15 @@ function compRowHTML(c) {
     chainParts.push(
       `<a class="tag warn" href="${esc(l.url)}" target="_blank" rel="noopener"
         title="Párování na Registr smluv podle IČO a data — cena smlouvy neodpovídá přesně, ověřte ručně">⚠ ověřit párování</a>`);
+  }
+  const zp = (state.zpravy || {})[c.id];
+  if (zp && zp.doc_url) {
+    const zpParts = [];
+    if (zp.vitez && !c.winner) zpParts.push(esc(zp.vitez));
+    if (zp.cena) zpParts.push(fmtKc.format(zp.cena) + " Kč");
+    chainParts.push(
+      `<a class="tag amend" href="${esc(zp.doc_url)}" target="_blank" rel="noopener"
+        title="Písemná zpráva zadavatele — vytěženo automaticky, orientační">zpráva zadavatele${zpParts.length ? ": " + zpParts.join(" · ") : ""}</a>`);
   }
   const current = c.price_paid != null
     ? `uhrazeno ${fmtKc.format(c.price_paid)} Kč`

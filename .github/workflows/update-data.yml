@@ -47,6 +47,11 @@ jobs:
           NEN_KEY_PEM: ${{ secrets.NEN_KEY_PEM }}
         run: python -X utf8 scraper/main.py
 
+      - name: Read documents (ZD + písemné zprávy)
+        if: env.SKIP != '1'
+        continue-on-error: true   # čtení dokumentů nesmí shodit denní data
+        run: python -X utf8 scraper/fetch_dokumenty.py
+
       - name: Commit data
         if: env.SKIP != '1'
         run: |

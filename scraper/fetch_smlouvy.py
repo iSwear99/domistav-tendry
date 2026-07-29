@@ -87,10 +87,8 @@ def iter_zaznamy(path: pathlib.Path):
                 el.clear()
                 continue
             subjekt = sml.find(NS + "subjekt")
-            strany = [
-                (_text(s, "ico") or "").strip()
-                for s in sml.findall(NS + "smluvniStrana")
-            ]
+            strany_el = sml.findall(NS + "smluvniStrana")
+            strany = [(_text(s, "ico") or "").strip() for s in strany_el]
             try:
                 hodnota = float(_text(sml, "hodnotaBezDph") or "nan")
             except ValueError:
@@ -102,6 +100,8 @@ def iter_zaznamy(path: pathlib.Path):
                 "platny": _text(el, "platnyZaznam") != "0",
                 "ico_zadavatel": _text(subjekt, "ico") if subjekt is not None else "",
                 "ico_strany": [i for i in strany if i],
+                "nazvy_stran": [n for n in
+                                (_text(s, "nazev") for s in strany_el) if n],
                 "predmet": _text(sml, "predmet"),
                 "datum": _text(sml, "datumUzavreni"),
                 "hodnota": None if hodnota != hodnota else hodnota,

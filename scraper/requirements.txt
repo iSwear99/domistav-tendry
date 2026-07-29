@@ -1,1 +1,4 @@
 requests>=2.31
+# Čtení PDF (zadávací dokumentace, písemné zprávy) — čistě pythonní,
+# schválená výjimka ze zásady „pouze stdlib" (fetch_dokumenty.py).
+pypdf>=5
