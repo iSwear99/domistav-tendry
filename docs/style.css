@@ -83,12 +83,33 @@ body {
 .tab:hover { color: var(--accent-ink); }
 
 /* ── konkurence ── */
-/* slidery nad sebou, každý přes celou šířku (pokyn 29. 7. 2026) */
+/* slidery nad sebou, jednotná fixní šířka (pokyn 29. 7. 2026) */
 .slider { display: flex; gap: 10px; align-items: center; font-size: 13.5px;
-  color: var(--muted); white-space: nowrap; flex: 1 1 100%; width: 100%; }
+  color: var(--muted); white-space: nowrap;
+  flex: 0 0 auto; width: 420px; max-width: 100%; }
 .slider b { color: var(--ink); min-width: 2ch; text-align: right; }
 .slider input[type="range"] { flex: 1; width: 100%;
   accent-color: var(--accent); }
+/* dvojitý slider: dva jezdce (od–do) na společné dráze */
+.dual { position: relative; flex: 1; height: 22px; }
+.dual::before { content: ""; position: absolute; top: 50%; left: 0; right: 0;
+  height: 4px; transform: translateY(-50%); background: var(--line);
+  border-radius: 2px; }
+.dual-fill { position: absolute; top: 50%; height: 4px;
+  transform: translateY(-50%); background: var(--accent); border-radius: 2px; }
+.dual input[type="range"] { position: absolute; inset: 0; width: 100%;
+  height: 22px; margin: 0; -webkit-appearance: none; appearance: none;
+  background: transparent; pointer-events: none; }
+.dual input[type="range"]::-webkit-slider-runnable-track {
+  background: transparent; height: 22px; }
+.dual input[type="range"]::-moz-range-track { background: transparent; }
+.dual input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none;
+  appearance: none; pointer-events: auto; width: 16px; height: 16px;
+  margin-top: 3px; border-radius: 50%; background: var(--accent);
+  border: 2px solid #fff; box-shadow: 0 0 0 1px var(--line); cursor: pointer; }
+.dual input[type="range"]::-moz-range-thumb { pointer-events: auto;
+  width: 13px; height: 13px; border-radius: 50%; background: var(--accent);
+  border: 2px solid #fff; cursor: pointer; }
 .comp-count { font-size: 13px; color: var(--muted); margin-left: auto; }
 .winner { font-size: 14px; margin-top: 2px; font-weight: 600; }
 .winner small { font-weight: 400; color: var(--muted); }

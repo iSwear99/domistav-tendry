@@ -74,10 +74,12 @@
   </select>
   <label class="slider">vzdálenost do <b id="t-dist-val">50</b> km
     <input type="range" id="t-dist" min="1" max="50" step="1" value="50"></label>
-  <label class="slider">cena od <b id="t-min-val">0</b> mil.
-    <input type="range" id="t-min" min="0" max="100" step="1" value="0"></label>
-  <label class="slider">do <b id="t-max-val">∞</b> mil.
-    <input type="range" id="t-max" min="5" max="200" step="5" value="200"></label>
+  <label class="slider">cena <b id="t-min-val">0</b>–<b id="t-max-val">∞</b> mil.
+    <span class="dual">
+      <span class="dual-fill" id="t-fill"></span>
+      <input type="range" id="t-min" min="0" max="200" step="5" value="0">
+      <input type="range" id="t-max" min="0" max="200" step="5" value="200">
+    </span></label>
   <label class="chk" title="Zakázky, u nichž se nepodařilo určit místo plnění"><input type="checkbox" id="t-unknown" checked> vč. polohy neurčené</label>
   <label class="chk" title="Zobrazit i zakázky, které AI filtr označil jako nerelevantní"><input type="checkbox" id="f-ai"> vč. AI-vyřazených</label>
   <label class="chk"><input type="checkbox" id="f-active" checked> jen aktivní</label>
@@ -112,10 +114,12 @@
   <input type="search" id="c-q" placeholder="Hledat vítěze / zakázku / zadavatele…" autocomplete="off">
   <label class="slider">vzdálenost do <b id="c-dist-val">15</b> km
     <input type="range" id="c-dist" min="1" max="50" step="1" value="15"></label>
-  <label class="slider">cena od <b id="c-min-val">5</b> mil.
-    <input type="range" id="c-min" min="0" max="100" step="1" value="5"></label>
-  <label class="slider">do <b id="c-max-val">100</b> mil.
-    <input type="range" id="c-max" min="5" max="200" step="5" value="100"></label>
+  <label class="slider">cena <b id="c-min-val">5</b>–<b id="c-max-val">100</b> mil.
+    <span class="dual">
+      <span class="dual-fill" id="c-fill"></span>
+      <input type="range" id="c-min" min="0" max="200" step="5" value="5">
+      <input type="range" id="c-max" min="0" max="200" step="5" value="100">
+    </span></label>
   <label class="chk" title="Zakázky, u nichž se nepodařilo určit místo plnění"><input type="checkbox" id="c-unknown" checked> vč. polohy neurčené</label>
   <label class="chk" title="Odmítnuté a odhadem nerelevantní — kontrola párování relevance"><input type="checkbox" id="c-disliked"> jen odmítnuté 👎</label>
   <label class="chk" title="Datum zadání (uzavření smlouvy) od">zadáno od

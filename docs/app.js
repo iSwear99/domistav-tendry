@@ -489,7 +489,21 @@ function esc(s) {
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 
+// dvojitý slider: jezdce se nesmí překřížit + vybarvení rozsahu na dráze
+function dualSync(minEl, maxEl, fillEl, changed) {
+  if (+minEl.value > +maxEl.value) {
+    if (changed === maxEl) maxEl.value = minEl.value;
+    else minEl.value = maxEl.value;
+  }
+  const lo = +minEl.min, hi = +minEl.max;
+  const a = ((+minEl.value - lo) / (hi - lo)) * 100;
+  const b = ((+maxEl.value - lo) / (hi - lo)) * 100;
+  fillEl.style.left = a + "%";
+  fillEl.style.width = Math.max(0, b - a) + "%";
+}
+
 function render() {
+  dualSync($("t-min"), $("t-max"), $("t-fill"), null);
   // zvýraznění aktivních rychlých filtrů na kartách statistik
   $("stat-new").classList.toggle("on", !!state.quickNew);
   $("stat-watch").classList.toggle("on", $("f-watch").checked);
@@ -673,6 +687,7 @@ function renderTopFirms(shown) {
 
 function renderComp() {
   if (!$("comp-list")) return;
+  dualSync($("c-min"), $("c-max"), $("c-fill"), null);
   $("c-dist-val").textContent = $("c-dist").value;
   $("c-min-val").textContent = $("c-min").value;
   $("c-max-val").textContent =
@@ -714,6 +729,10 @@ $("tab-tenders").addEventListener("click", () => switchTab("tenders"));
 $("tab-ai").addEventListener("click", () => switchTab("ai"));
 $("tab-comp").addEventListener("click", () => switchTab("comp"));
 $("a-nejisto").addEventListener("input", renderAI);
+$("c-min").addEventListener("input", (e) =>
+  dualSync($("c-min"), $("c-max"), $("c-fill"), e.target));
+$("c-max").addEventListener("input", (e) =>
+  dualSync($("c-min"), $("c-max"), $("c-fill"), e.target));
 ["c-q", "c-dist", "c-min", "c-max", "c-unknown", "c-disliked", "c-from",
  "c-to"].forEach((id) => $(id).addEventListener("input", renderComp));
 
@@ -760,6 +779,11 @@ document.addEventListener("click", (e) => {
   renderComp();
 });
 
+// clamp dvojitých sliderů PŘED renderem (tažený jezdec se zastaví o druhý)
+$("t-min").addEventListener("input", (e) =>
+  dualSync($("t-min"), $("t-max"), $("t-fill"), e.target));
+$("t-max").addEventListener("input", (e) =>
+  dualSync($("t-min"), $("t-max"), $("t-fill"), e.target));
 ["f-q", "f-kind", "t-dist", "t-min", "t-max", "t-unknown", "f-active",
  "f-watch", "f-changed", "f-disliked", "f-ai"].forEach((id) =>
   $(id).addEventListener("input", render));
