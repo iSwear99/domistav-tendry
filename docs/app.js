@@ -56,6 +56,7 @@ const syncDoc = (() => {
   return d;
 })();
 
+// sync po pull ze vzdáleného zařízení musí překreslit i AI výběr
 function deriveFromDoc() {
   state.watch = new Set(
     Object.keys(syncDoc.watch).filter((id) => syncDoc.watch[id].on));
@@ -148,6 +149,7 @@ async function syncPull() {
       localStorage.setItem(LS_DOC, JSON.stringify(syncDoc));
       buildModel();
       render();
+      renderAI();
       renderComp();
     }
     if (localNewer) schedulePush();
@@ -304,6 +306,7 @@ async function load() {
     return;
   }
   render();
+  renderAI();
   renderComp();
   localStorage.setItem(LS_SEEN, todayISO); // až po vykreslení badge „nové"
 }
@@ -668,16 +671,36 @@ function renderComp() {
   renderTopFirms(shown);
 }
 
-function switchTab(comp) {
-  $("panel-tenders").hidden = comp;
-  $("panel-comp").hidden = !comp;
-  $("tab-tenders").classList.toggle("on", !comp);
-  $("tab-comp").classList.toggle("on", comp);
-  $("tab-tenders").setAttribute("aria-selected", String(!comp));
-  $("tab-comp").setAttribute("aria-selected", String(comp));
+// AI výběr: aktivní zakázky s verdiktem „ano" (volitelně i „nejisto"),
+// seřazené podle lhůty — stejné řádky a interakce jako záložka Zakázky
+function renderAI() {
+  if (!$("ai-list")) return;
+  const withNejisto = $("a-nejisto").checked;
+  const shown = state.tenders.filter((t) => {
+    if (t.expired) return false;
+    const v = (state.ai || {})[t.id];
+    return v && (v.verdikt === "ano"
+      || (withNejisto && v.verdikt === "nejisto"));
+  });
+  $("ai-list").innerHTML = shown.map(rowHTML).join("");
+  $("ai-empty").hidden = shown.length > 0
+    || Object.keys(state.ai || {}).length > 0;
+  $("a-count").textContent = Object.keys(state.ai || {}).length
+    ? `${shown.length} vybraných`
+    : "";
 }
-$("tab-tenders").addEventListener("click", () => switchTab(false));
-$("tab-comp").addEventListener("click", () => switchTab(true));
+
+function switchTab(name) {
+  for (const p of ["tenders", "ai", "comp"]) {
+    $("panel-" + p).hidden = p !== name;
+    $("tab-" + p).classList.toggle("on", p === name);
+    $("tab-" + p).setAttribute("aria-selected", String(p === name));
+  }
+}
+$("tab-tenders").addEventListener("click", () => switchTab("tenders"));
+$("tab-ai").addEventListener("click", () => switchTab("ai"));
+$("tab-comp").addEventListener("click", () => switchTab("comp"));
+$("a-nejisto").addEventListener("input", renderAI);
 ["c-q", "c-dist", "c-min", "c-max", "c-unknown", "c-disliked"].forEach((id) =>
   $(id).addEventListener("input", renderComp));
 
@@ -702,6 +725,7 @@ document.addEventListener("click", (e) => {
     buildModel();
   }
   render();
+  renderAI();
   renderComp();
 });
 

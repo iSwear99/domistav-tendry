@@ -51,6 +51,7 @@
 
 <nav class="wrap tabs" aria-label="Záložky">
   <button class="tab on" id="tab-tenders" aria-selected="true">Zakázky</button>
+  <button class="tab" id="tab-ai" aria-selected="false">AI výběr</button>
   <button class="tab" id="tab-comp" aria-selected="false">Konkurence</button>
 </nav>
 
@@ -88,6 +89,21 @@
 <main class="wrap">
   <ol class="list" id="list"></ol>
   <p class="empty" id="empty" hidden>Žádná zakázka neodpovídá filtrům.</p>
+</main>
+</div>
+
+<div id="panel-ai" hidden>
+<section class="wrap filters" aria-label="Filtry AI výběru">
+  <span class="foot-note" style="margin:0">Aktivní zakázky, které AI vybrala
+    podle profilu firmy a historie 97 realizovaných zakázek z Registru smluv.
+    Posouzení probíhá denně v 8:00; verdikt má štítek s důvodem po najetí myší.</span>
+  <label class="chk" title="Zobrazit i zakázky, u nichž si AI není jistá"><input type="checkbox" id="a-nejisto" checked> vč. nejistých</label>
+  <span class="comp-count" id="a-count"></span>
+</section>
+<main class="wrap">
+  <ol class="list" id="ai-list"></ol>
+  <p class="empty" id="ai-empty" hidden>Zatím žádné AI verdikty — naplní se po
+    nastavení GitHub secretu ANTHROPIC_API_KEY prvním denním během.</p>
 </main>
 </div>
 

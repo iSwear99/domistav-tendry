@@ -56,6 +56,22 @@ SCHEMA = {
 }
 
 
+def _system_prompt() -> str:
+    """Profil firmy + skutečná historie prací z Registru smluv (97 smluv
+    od 2016 vytěžených 29. 7. 2026) + případná dodatečná pravidla.
+    Text je stabilní ⇒ celý se kešuje (prompt caching)."""
+    parts = [config.AI_PROFILE]
+    hist = pathlib.Path(__file__).parent / "historie_praci.txt"
+    if hist.exists():
+        parts.append(
+            "\nHISTORIE SKUTEČNĚ REALIZOVANÝCH ZAKÁZEK FIRMY (rok: předmět "
+            "smlouvy z Registru smluv) — ber ji jako nejsilnější vodítko "
+            "toho, co je pro firmu relevantní:\n" + hist.read_text("utf-8"))
+    if config.AI_EXTRA:
+        parts.append("\nDalší pravidla zadavatele:\n" + config.AI_EXTRA)
+    return "\n".join(parts)
+
+
 def _classify(client, batch: list[dict]) -> list[dict]:
     """Jedna dávka zakázek → verdikty (structured output, validní JSON)."""
     response = client.messages.create(
@@ -63,9 +79,7 @@ def _classify(client, batch: list[dict]) -> list[dict]:
         max_tokens=16000,
         system=[{
             "type": "text",
-            "text": config.AI_PROFILE + (
-                "\nDalší pravidla zadavatele:\n" + config.AI_EXTRA
-                if config.AI_EXTRA else ""),
+            "text": _system_prompt(),
             "cache_control": {"type": "ephemeral"},
         }],
         output_config={"format": {"type": "json_schema", "schema": SCHEMA}},
