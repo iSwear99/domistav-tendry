@@ -67,7 +67,16 @@ neobsahuje žádná firemní data, proto smí běžet v public GitHub repozitá�
      "links": {<competition_id>: {contract_id, url, date, price,
      confidence, amendments: [{id, date, value, url}],
      amendments_count, amendments_total}}}`.
-5. (v2) TED API pro nadlimitní, e-mailový souhrn; obohacení lhůt
+5. **AI filtr relevance** (Claude API, pokyn 29. 7. 2026) — denně po
+   scraperu posoudí `fetch_ai.py` NOVÉ zakázky modelem `claude-opus-5`
+   (structured output, prompt caching): verdikt ano/ne/nejisto + důvod
+   → `docs/data/ai_filter.json`. UI „ne" pouze SKRÝVÁ (sledované ★
+   nikdy; přepínač „vč. AI-vyřazených"), štítky s tooltipem důvodu.
+   Vyžaduje GitHub secret `ANTHROPIC_API_KEY`; bez něj se krok tiše
+   přeskočí (automatika nesmí spadnout). Profil firmy a dodatečná
+   pravidla v `config.AI_PROFILE` / `AI_EXTRA`; strop `AI_MAX_PER_RUN`.
+   SDK `anthropic` = druhá povolená výjimka ze stdlib (po pypdf).
+6. (v2) TED API pro nadlimitní, e-mailový souhrn; obohacení lhůt
    VVZ záznamů (ISVZ open data u nich lhůty nenesou — viz níže).
 
 ## ⚠️ POVINNÉ ÚVODNÍ ÚKOLY — ✅ SPLNĚNO 28. 7. 2026 (kromě úkolu 4)
