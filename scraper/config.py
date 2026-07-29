@@ -265,6 +265,34 @@ SMLOUVY_DATE_AFTER_DAYS = 120    # …nebo následovat (podpis po rozhodnutí)
 SMLOUVY_PRICE_TOLERANCE = 0.15   # ±15 % vůči vysoutěžené ceně ⇒ "high"
 SMLOUVY_MAX_AMENDMENTS = 30      # strop uložených dodatků na smlouvu
 
+# ── Zdroj 5: AI filtr relevance (Claude API, pokyn 29. 7. 2026) ─────────────
+# Denně po scraperu posoudí Claude NOVÉ zakázky nad rámec strojového CPV
+# třídění: verdikt ano/ne/nejisto + krátké zdůvodnění (ai_filter.json).
+# UI verdikt „ne" jen SKRÝVÁ (přepínač vše zobrazí) — nic se nemaže.
+# Bez GitHub secretu ANTHROPIC_API_KEY se krok tiše přeskočí (plná
+# automatika bez ručních kroků zůstává zachována).
+AI_MODEL = "claude-opus-5"
+AI_MAX_PER_RUN = 300     # strop nových posouzení na běh (řízení nákladů)
+AI_BATCH = 25            # zakázek v jednom API požadavku
+AI_PROFILE = """Jsi filtr relevance veřejných zakázek pro stavební firmu \
+DOMISTAV HK s.r.o. z Hradce Králové. Firma dělá POZEMNÍ STAVITELSTVÍ: \
+novostavby a rekonstrukce budov (školy, školky, bytové a rodinné domy, \
+administrativní, zdravotnické, kulturní a sportovní objekty), zateplení \
+a energetické úspory budov, střechy, fasády, vestavby a přístavby, \
+demolice, zpevněné plochy, chodníky a parkoviště, menší inženýrské \
+stavby (kanalizace, vodovody, ČOV).
+RELEVANTNÍ NEJSOU: silnice, dálnice, mosty, tunely, železnice a drážní \
+stavby, vodní toky a rybníky, důlní a energetická díla, projektové \
+dokumentace a studie, technický/autorský dozor a BOZP, dodávky vybavení, \
+nábytku, vozidel a techniky, opravy strojů a vozidel, IT, úklid, údržba \
+zeleně, veřejné osvětlení bez stavební části.
+Ke každé zakázce vrať verdikt: "ano" (relevantní), "ne" (nerelevantní), \
+"nejisto" (z dostupných údajů nelze rozhodnout), a stručný důvod česky \
+(max 10 slov). Rozhoduj podle názvu, zadavatele, CPV kódů a hodnoty. \
+V pochybnostech vždy "nejisto", nikdy ne "ne" — skrytí relevantní \
+zakázky je horší chyba než ponechání nerelevantní."""
+AI_EXTRA = ""            # místo pro dodatečná pravidla zadavatele (česky)
+
 # ── Výstup a pojistky ───────────────────────────────────────────────────────
 OUT_DIR = "docs/data"
 OUT_TENDERS = f"{OUT_DIR}/tenders.json"

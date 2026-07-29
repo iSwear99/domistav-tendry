@@ -2,3 +2,6 @@ requests>=2.31
 # Čtení PDF (zadávací dokumentace, písemné zprávy) — čistě pythonní,
 # schválená výjimka ze zásady „pouze stdlib" (fetch_dokumenty.py).
 pypdf>=5
+# Oficiální SDK Claude API — AI filtr relevance (fetch_ai.py),
+# druhá schválená výjimka ze zásady „pouze stdlib".
+anthropic>=0.60

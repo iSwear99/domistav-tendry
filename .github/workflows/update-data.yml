@@ -52,6 +52,13 @@ jobs:
         continue-on-error: true   # čtení dokumentů nesmí shodit denní data
         run: python -X utf8 scraper/fetch_dokumenty.py
 
+      - name: AI filtr relevance (Claude)
+        if: env.SKIP != '1'
+        continue-on-error: true   # bez klíče/kreditu se tiše přeskočí
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -X utf8 scraper/fetch_ai.py
+
       - name: Commit data
         if: env.SKIP != '1'
         run: |
