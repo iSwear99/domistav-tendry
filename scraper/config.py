@@ -239,6 +239,13 @@ NEN_MAX_DETAILS_PER_RUN = 50     # šetrnost: obohacuje se max. N aktivních VZ/
 # přibývají průběžně); mimo okno se záznamy odmazávají.
 COMPETITION_WINDOW_DAYS = 365
 
+# ── Zdroj 3: PVU RSS — čerství zadavatelé mimo konfigurované profily ────────
+# OVĚŘENO 2026-07-29: veřejné RSS nových zakázek celé ČR (~25 položek/den,
+# TTL 15 min). Z detailu se čte IČO + profil + sídlo, data pak přes
+# XMLdataVZ profilu (vyhl. 168/2016 Sb.). Kryje díru běžícího měsíce,
+# kterou ISVZ export zaplní až ~1.–5. dne měsíce následujícího.
+PVU_RSS_URL = "https://www.vhodne-uverejneni.cz/rss/zakazky"
+
 # ── Zdroj 4: Registr smluv (zákon č. 340/2015 Sb.) ──────────────────────────
 # OVĚŘENO 2026-07-28 proti dump_2026_06.xml: měsíční XML dumpy (bez komprese,
 # ~110–150 MB) na https://data.smlouvy.gov.cz/dump_RRRR_MM.xml; dump běžícího

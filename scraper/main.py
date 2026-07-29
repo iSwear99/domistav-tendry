@@ -20,6 +20,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).parent))
 
 import config            # noqa: E402
 import fetch_isvz        # noqa: E402
+import fetch_pvu         # noqa: E402
 import fetch_nen         # noqa: E402
 import fetch_profily     # noqa: E402
 import geo               # noqa: E402
@@ -57,10 +58,12 @@ def _kw_match(title: str) -> bool:
 def _sector_ok(t: dict) -> bool:
     """Obor: (a) CPV prefix 45 — autoritativní, negativní slova nepřebíjí;
     (b) záchytná síť: klíčová slova v názvu (příznak kw_match);
-    (c) záznam Z PROFILU bez CPV — zdroj je předvybraný, ponechat
-    (ISVZ pokrývá celou ČR, tam bez CPV rozhodují jen klíčová slova).
-    Nastavuje t["kw_match"]."""
-    from_profile = t["source"].startswith("profil:")
+    (c) záznam Z KONFIGUROVANÉHO profilu bez CPV — zdroj je předvybraný,
+    ponechat. PVU RSS (profil:pvu:*) je celostátní a víceoborové, proto
+    benevolenci (c) nedostává — bez CPV rozhodují jen klíčová slova,
+    stejně jako u ISVZ. Nastavuje t["kw_match"]."""
+    from_profile = (t["source"].startswith("profil:")
+                    and not t["source"].startswith("profil:pvu:"))
     cpv = t.get("cpv") or []
     # CPV 45 platí, jen pokud kód nespadá do vyřazených podskupin
     # (dopravní infrastruktura) — takové zakázky rozhodují klíčová slova
@@ -80,7 +83,8 @@ def _sector_ok(t: dict) -> bool:
 
 def _nuts_ok(t: dict) -> bool:
     """Hrubý předfiltr krajů; nastavuje t["no_nuts"]."""
-    from_profile = t["source"].startswith("profil:")
+    from_profile = (t["source"].startswith("profil:")
+                    and not t["source"].startswith("profil:pvu:"))
     nuts = t.get("nuts") or []
     if nuts:
         if not any(n[:5] in config.NUTS_ALLOWED for n in nuts):
@@ -122,6 +126,58 @@ def _mark_expired(t: dict, today: str) -> dict:
     return t
 
 
+def _check_dead_links(tenders: list[dict], prev_by_id: dict) -> None:
+    """Eliminace zakázek s neexistující stránkou detailu (pokyn 29. 7.).
+
+    Kontrolují se jen AKTIVNÍ záznamy. Za mrtvý odkaz se považuje POUZE
+    tvrdé HTTP 404/410 — SPA portály (NEN, VVZ) vracejí 200 na všechno,
+    takže falešně pozitivní být nemohou; síťové chyby a timeouty se
+    nepočítají. Expirace až po DVOU mrtvých bězích po sobě (čítač
+    url_dead se přenáší z předchozího snapshotu) — jednorázový výpadek
+    profilu tak zakázku nevyřadí. Vyřazené zůstávají v historii
+    s příznakem link_dead (štítek v UI)."""
+    import concurrent.futures
+    import urllib.error
+    import urllib.request
+
+    def status(url: str) -> int | None:
+        try:
+            req = urllib.request.Request(
+                url, headers={"User-Agent": config.USER_AGENT}, method="HEAD"
+            )
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return r.status
+        except urllib.error.HTTPError as exc:
+            if exc.code == 405:  # HEAD zakázán — zkusit GET
+                try:
+                    g = urllib.request.Request(
+                        url, headers={"User-Agent": config.USER_AGENT})
+                    with urllib.request.urlopen(g, timeout=30) as r:
+                        return r.status
+                except urllib.error.HTTPError as exc2:
+                    return exc2.code
+                except Exception:  # noqa: BLE001
+                    return None
+            return exc.code
+        except Exception:  # noqa: BLE001
+            return None    # síť/timeout — žádný verdikt
+
+    active = [t for t in tenders if not t["expired"] and t.get("url")]
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as ex:
+        codes = list(ex.map(lambda t: status(t["url"]), active))
+    for t, code in zip(active, codes):
+        prev_dead = int((prev_by_id.get(t["id"]) or {}).get("url_dead", 0))
+        if code in (404, 410):
+            t["url_dead"] = prev_dead + 1
+            if t["url_dead"] >= 2:
+                t["expired"] = True
+                t["link_dead"] = True
+        elif code is not None:
+            pass          # stránka žije — čítač se nepřenáší (reset)
+        elif prev_dead:
+            t["url_dead"] = prev_dead   # bez verdiktu čítač jen držet
+
+
 def _norm_title(s: str) -> str:
     """Normalizace názvu pro porovnání napříč zdroji: malá písmena,
     bez diakritiky, bez interpunkce, sjednocené mezery."""
@@ -140,6 +196,10 @@ def dedup_cross_source(tenders: list[dict]) -> list[dict]:
     duplikátu se převezme URL profilu jako `profile_url` (přímý odkaz
     na dokumentaci) a nižší lhůta/hodnota se NEslučuje — platí ISVZ.
     Bez IČO se deduplikace neprovádí (riziko falešné shody).
+    Slučuje se POUZE napříč zdroji (ISVZ ↔ profil): dva záznamy téhož
+    zdroje se shodným názvem jsou dvě různá řízení (typicky zrušené
+    a znovu vypsané) — obě se ponechávají, jinak by zrušený pokus
+    přemazal běžící (případ AGAPÉ, 2026-07-29).
     """
     def key(t):
         ico = (t.get("authority_ico") or "").strip()
@@ -158,6 +218,8 @@ def dedup_cross_source(tenders: list[dict]) -> list[dict]:
         cur = best.get(k)
         if cur is None:
             best[k] = t
+        elif rank(t) == rank(cur):
+            keyless.append(t)   # týž zdroj ⇒ jiné řízení, ponechat obě
         else:
             winner, loser = (t, cur) if rank(t) > rank(cur) else (cur, t)
             if loser["source"].startswith("profil:") and loser.get("url"):
@@ -297,7 +359,8 @@ def run(dry_run: bool = False) -> int:
     errors: list[str] = []
 
     source_counts: dict[str, int] = {}
-    for name, mod in (("isvz", fetch_isvz), ("profily", fetch_profily)):
+    for name, mod in (("isvz", fetch_isvz), ("profily", fetch_profily),
+                      ("pvu", fetch_pvu)):
         try:
             t, e = mod.fetch()
             all_t.extend(t)
@@ -310,6 +373,16 @@ def run(dry_run: bool = False) -> int:
     # Výpadek celého zdroje (např. ISVZ blokuje IP GitHub runnerů) nesmí
     # smazat jeho dřívější záznamy — převezmou se z předchozího snapshotu.
     prev_snapshot = _load_json(config.OUT_TENDERS, [])
+    # PVU: RSS drží jen ~24 h, takže jednou zachycené záznamy se přenášejí
+    # z předchozího snapshotu VŽDY — vkládají se PŘED čerstvé, aby při
+    # dedupu podle ID vyhrál novější stav (a ISVZ dle ranku úplně nejvíc)
+    carried_pvu = [
+        t for t in prev_snapshot
+        if t.get("source", "").startswith("profil:pvu:")
+    ]
+    if carried_pvu:
+        all_t = carried_pvu + all_t
+
     for name, prefix in (("isvz", ("isvz",)), ("profily", ("profil:",))):
         if source_counts.get(name) == 0:
             retained = [
@@ -360,6 +433,10 @@ def run(dry_run: bool = False) -> int:
     for t in filtered.values():
         if not t.get("url"):
             t["url"] = ico_to_profile.get(t.get("authority_ico") or "", "")
+        # adresa_profilu z ISVZ někdy přichází bez schématu („www.…") —
+        # bez doplnění by proklik v UI vedl relativně a kontrola odkazů padala
+        if t["url"] and not t["url"].startswith(("http://", "https://")):
+            t["url"] = "https://" + t["url"]
 
     # dedup napříč zdroji (ISVZ vs. profil) — IČO + normalizovaný název
     deduped = dedup_cross_source(list(filtered.values()))
@@ -369,6 +446,9 @@ def run(dry_run: bool = False) -> int:
         deduped,
         key=lambda t: (t.get("deadline") or "9999", t.get("published") or ""),
     )
+    # mrtvé odkazy: 404/410 ve 2 bězích po sobě => expired (viz docstring)
+    if not dry_run:
+        _check_dead_links(result, {t["id"]: t for t in prev_snapshot})
     # obohacení detailů z NEN API (prohlídka, vysvětlení ZD) — PŘED diffem,
     # aby změny těchto polí vstoupily do archivu changes.json
     errors.extend(fetch_nen.enrich(result))
