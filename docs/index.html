@@ -21,8 +21,31 @@
       <span class="brand-suffix">TENDRY <small>v1</small></span>
     </a>
     <p class="meta" id="meta-line">Načítám data…</p>
+    <button class="sync" id="sync-btn"
+      title="Synchronizace oblíbených a odmítnutých mezi zařízeními">⇅
+      <small id="sync-status"></small></button>
   </div>
 </header>
+
+<dialog id="sync-dlg">
+  <form method="dialog">
+    <h3>Synchronizace ★/👎 mezi zařízeními</h3>
+    <p id="sync-info"></p>
+    <p>Data se ukládají do <b>soukromého GitHub Gistu</b> na vašem účtu —
+      do veřejného repozitáře aplikace se nikdy nezapisují. Vytvořte si
+      <a href="https://github.com/settings/personal-access-tokens/new"
+         target="_blank" rel="noopener">fine-grained token</a>
+      s jediným oprávněním <b>Gists: Read and write</b> (doporučená
+      platnost 1 rok) a vložte ho zde na každém zařízení.</p>
+    <input type="password" id="sync-token" placeholder="github_pat_…"
+           autocomplete="off">
+    <menu>
+      <button id="sync-save" value="ok">Připojit</button>
+      <button id="sync-off" value="off">Odpojit</button>
+      <button id="sync-close" value="cancel">Zavřít</button>
+    </menu>
+  </form>
+</dialog>
 
 <div class="wrap" id="error-banner" hidden></div>
 

@@ -96,6 +96,23 @@ body {
 .tag.growth.down { background: #eef6ee; border-color: #bcd9bf; color: var(--ok);
   text-transform: none; font-variant-numeric: tabular-nums; }
 .foot-note { color: var(--muted); font-size: 12.5px; margin: -8px 0 32px; }
+.sync { background: none; border: 1px solid var(--line); border-radius: 4px;
+  color: var(--muted); font-size: 15px; padding: 4px 9px; cursor: pointer;
+  margin-left: 12px; }
+.sync.on { color: var(--accent); border-color: var(--accent); }
+.sync small { font-size: 10.5px; margin-left: 4px; }
+#sync-dlg { border: 1px solid var(--line); border-radius: 6px;
+  max-width: 460px; padding: 18px 22px; }
+#sync-dlg::backdrop { background: rgba(0,0,0,.35); }
+#sync-dlg h3 { margin: 0 0 10px; font: 700 17px var(--fd); }
+#sync-dlg p { font-size: 13.5px; line-height: 1.45; color: var(--fg); }
+#sync-dlg input { width: 100%; padding: 7px 9px; border: 1px solid var(--line);
+  border-radius: 4px; font-size: 13px; margin: 6px 0 4px; }
+#sync-dlg menu { display: flex; gap: 8px; margin: 12px 0 0; padding: 0; }
+#sync-dlg button { padding: 6px 14px; border-radius: 4px; cursor: pointer;
+  border: 1px solid var(--line); background: var(--surface); font-size: 13.5px; }
+#sync-dlg #sync-save { background: var(--accent); color: #fff;
+  border-color: var(--accent); }
 #panel-comp .row { grid-template-columns: 1fr auto auto auto; }
 .tag.amend { background: #fff3e8; border-color: #f0c9a8; color: #9a5a1f;
   text-transform: none; text-decoration: none; cursor: pointer; }

@@ -1,19 +1,24 @@
-/* DOMISTAV Tendry — dashboard. Vše běží v prohlížeči,
-   watchlist a čas poslední návštěvy pouze v localStorage. */
+/* DOMISTAV Tendry — dashboard. Vše běží v prohlížeči; ★/👎 se ukládají
+   v localStorage a volitelně synchronizují přes PRIVÁTNÍ GitHub Gist
+   uživatele (token jen se scope gist, vložený na každém zařízení).
+   Do veřejného repozitáře se o zájmech uživatele nezapisuje nic. */
 "use strict";
 
 const LS_WATCH = "dt.watchlist";
 const LS_SEEN = "dt.lastVisit";
 const LS_DISLIKE = "dt.dislikes";
+const LS_SYNC = "dt.sync";        // {token, gistId}
+const LS_DOC = "dt.syncDoc";      // {watch:{id:{ts,on}}, dislikes:{id:{ts,on,fp}}}
+const SYNC_FILE = "domistav-tendry-sync.json";
 
 const $ = (id) => document.getElementById(id);
 const state = {
   tenders: [],
   changes: {},   // centrální archiv změn (docs/data/changes.json, git)
-  watch: new Set(JSON.parse(localStorage.getItem(LS_WATCH) || "[]")),
+  watch: new Set(),      // naplní deriveFromDoc() ze syncDoc
   // 👎 odmítnuté: id → otisk zakázky {cpv, ico, toks, title} uložený
   // v okamžiku odmítnutí (přežije i zmizení zakázky z dat)
-  dislikes: JSON.parse(localStorage.getItem(LS_DISLIKE) || "{}"),
+  dislikes: {},          // naplní deriveFromDoc() ze syncDoc
   df: new Map(),      // dokumentová četnost tokenů v aktuálních datech
   model: null,        // agregát odmítnutí (počty CPV skupin / IČO / tokenů)
   lastVisit: localStorage.getItem(LS_SEEN) || "",
@@ -31,8 +36,148 @@ function daysTo(deadline) {
   return Math.ceil((d - new Date()) / 86400000);
 }
 
-function saveWatch() {
+/* ── synchronizace ★/👎 mezi zařízeními (privátní GitHub Gist) ───────────
+   Dokument nese u každé položky časovou značku; sloučení = novější
+   vyhrává (funguje i offline, historie odznačení se zachovává).
+   Bez nastaveného tokenu vše běží dál čistě v localStorage. */
+
+const syncDoc = (() => {
+  const d = JSON.parse(localStorage.getItem(LS_DOC) || "null")
+    || { watch: {}, dislikes: {} };
+  // migrace starších úložišť bez časových značek
+  const now = Date.now();
+  for (const id of JSON.parse(localStorage.getItem(LS_WATCH) || "[]")) {
+    if (!d.watch[id]) d.watch[id] = { ts: now, on: true };
+  }
+  const oldDis = JSON.parse(localStorage.getItem(LS_DISLIKE) || "{}");
+  for (const id of Object.keys(oldDis)) {
+    if (!d.dislikes[id]) d.dislikes[id] = { ts: now, on: true, fp: oldDis[id] };
+  }
+  return d;
+})();
+
+function deriveFromDoc() {
+  state.watch = new Set(
+    Object.keys(syncDoc.watch).filter((id) => syncDoc.watch[id].on));
+  state.dislikes = {};
+  for (const [id, e] of Object.entries(syncDoc.dislikes)) {
+    if (e.on) state.dislikes[id] = e.fp;
+  }
+}
+
+function persistDoc() {
+  localStorage.setItem(LS_DOC, JSON.stringify(syncDoc));
   localStorage.setItem(LS_WATCH, JSON.stringify([...state.watch]));
+  localStorage.setItem(LS_DISLIKE, JSON.stringify(state.dislikes));
+  schedulePush();
+}
+
+function mergeDocs(remote) {
+  let changed = false, localNewer = false;
+  for (const kind of ["watch", "dislikes"]) {
+    const loc = syncDoc[kind], rem = (remote || {})[kind] || {};
+    for (const [id, e] of Object.entries(rem)) {
+      if (!loc[id] || e.ts > loc[id].ts) { loc[id] = e; changed = true; }
+    }
+    for (const id of Object.keys(loc)) {
+      if (!rem[id] || loc[id].ts > rem[id].ts) localNewer = true;
+    }
+  }
+  return { changed, localNewer };
+}
+
+const gistApi = (path, opts = {}) => {
+  const cfg = JSON.parse(localStorage.getItem(LS_SYNC) || "null");
+  if (!cfg || !cfg.token) return Promise.reject(new Error("bez tokenu"));
+  return fetch("https://api.github.com" + path, {
+    ...opts,
+    headers: {
+      Authorization: "Bearer " + cfg.token,
+      Accept: "application/vnd.github+json",
+      ...(opts.body ? { "Content-Type": "application/json" } : {}),
+    },
+  }).then((r) => {
+    if (!r.ok) throw new Error("GitHub API " + r.status);
+    return r.json();
+  });
+};
+
+let pushTimer = null;
+function schedulePush() {
+  const cfg = JSON.parse(localStorage.getItem(LS_SYNC) || "null");
+  if (!cfg || !cfg.gistId) return;
+  clearTimeout(pushTimer);
+  pushTimer = setTimeout(() => {
+    gistApi("/gists/" + cfg.gistId, {
+      method: "PATCH",
+      body: JSON.stringify({
+        files: { [SYNC_FILE]: { content: JSON.stringify(syncDoc) } },
+      }),
+    }).then(() => setSyncStatus("✓ synchronizováno"))
+      .catch((e) => setSyncStatus("⚠ " + e.message));
+  }, 1500);
+}
+
+async function syncPull() {
+  const cfg = JSON.parse(localStorage.getItem(LS_SYNC) || "null");
+  if (!cfg || !cfg.token) return;
+  try {
+    if (!cfg.gistId) {
+      const gists = await gistApi("/gists?per_page=100");
+      const mine = gists.find((g) => g.files && g.files[SYNC_FILE]);
+      if (mine) cfg.gistId = mine.id;
+      else {
+        const made = await gistApi("/gists", {
+          method: "POST",
+          body: JSON.stringify({
+            description: "DOMISTAV Tendry — synchronizace oblíbených (soukromé)",
+            public: false,
+            files: { [SYNC_FILE]: { content: JSON.stringify(syncDoc) } },
+          }),
+        });
+        cfg.gistId = made.id;
+      }
+      localStorage.setItem(LS_SYNC, JSON.stringify(cfg));
+    }
+    const gist = await gistApi("/gists/" + cfg.gistId);
+    const file = gist.files && gist.files[SYNC_FILE];
+    const remote = file && file.content ? JSON.parse(file.content) : null;
+    const { changed, localNewer } = mergeDocs(remote);
+    if (changed) {
+      deriveFromDoc();
+      localStorage.setItem(LS_DOC, JSON.stringify(syncDoc));
+      buildModel();
+      render();
+      renderComp();
+    }
+    if (localNewer) schedulePush();
+    setSyncStatus("✓ synchronizováno");
+  } catch (e) {
+    setSyncStatus("⚠ " + e.message);
+  }
+}
+
+function setSyncStatus(msg) {
+  const el = $("sync-status");
+  if (el) el.textContent = msg;
+  const btn = $("sync-btn");
+  if (btn) btn.classList.toggle(
+    "on", !!JSON.parse(localStorage.getItem(LS_SYNC) || "null"));
+}
+
+function saveWatch() {
+  const now = Date.now();
+  for (const id of state.watch) {
+    if (!syncDoc.watch[id] || !syncDoc.watch[id].on) {
+      syncDoc.watch[id] = { ts: now, on: true };
+    }
+  }
+  for (const id of Object.keys(syncDoc.watch)) {
+    if (syncDoc.watch[id].on && !state.watch.has(id)) {
+      syncDoc.watch[id] = { ts: now, on: false };  // historie zůstává
+    }
+  }
+  persistDoc();
 }
 
 /* ── učení relevance z odmítnutých (vše jen v prohlížeči) ────────────────
@@ -41,7 +186,18 @@ function saveWatch() {
    skrývají (sledované ★ nikdy). Filtr „jen odmítnuté 👎" vše zpřístupní. */
 
 function saveDislikes() {
-  localStorage.setItem(LS_DISLIKE, JSON.stringify(state.dislikes));
+  const now = Date.now();
+  for (const [id, fp] of Object.entries(state.dislikes)) {
+    if (!syncDoc.dislikes[id] || !syncDoc.dislikes[id].on) {
+      syncDoc.dislikes[id] = { ts: now, on: true, fp };
+    }
+  }
+  for (const id of Object.keys(syncDoc.dislikes)) {
+    if (syncDoc.dislikes[id].on && !(id in state.dislikes)) {
+      syncDoc.dislikes[id] = { ...syncDoc.dislikes[id], ts: now, on: false };
+    }
+  }
+  persistDoc();
 }
 
 const STOP = new Set(("oprava opravy oprav rekonstrukce stavebni prace praci " +
@@ -276,6 +432,7 @@ function rowHTML(t) {
         <span class="tag ${t.kind === "VZ" ? "vz" : "vzmr"}">${t.kind}</span>
         ${nuts}${noNuts}
         ${t.kw_match ? '<span class="tag kw" title="Zachyceno podle názvu, CPV neodpovídá stavebním pracím">dle názvu</span>' : ""}
+        ${t.link_dead ? '<span class="tag" title="Stránka detailu opakovaně vrací 404 — zakázka byla vyřazena z aktivních">odkaz nedostupný</span>' : ""}
         ${(t.cpv || []).slice(0, 2).map((c) => `<span class="tag">CPV ${esc(c)}</span>`).join("")}
         ${visit}${clar}${irrBadge}
       </div>
@@ -512,4 +669,36 @@ document.addEventListener("click", (e) => {
  "f-watch", "f-changed", "f-disliked"].forEach((id) =>
   $(id).addEventListener("input", render));
 
-load();
+/* ── dialog synchronizace ── */
+$("sync-btn").addEventListener("click", () => {
+  const cfg = JSON.parse(localStorage.getItem(LS_SYNC) || "null");
+  $("sync-token").value = "";
+  $("sync-info").textContent = cfg
+    ? "Připojeno (gist " + (cfg.gistId || "se vytvoří") + ")."
+    : "Nepřipojeno — ★/👎 zůstávají jen v tomto prohlížeči.";
+  $("sync-dlg").showModal();
+});
+$("sync-save").addEventListener("click", (e) => {
+  e.preventDefault();
+  const token = $("sync-token").value.trim();
+  if (token) {
+    localStorage.setItem(LS_SYNC, JSON.stringify({ token, gistId: "" }));
+    setSyncStatus("připojuji…");
+    syncPull();
+  }
+  $("sync-dlg").close();
+});
+$("sync-off").addEventListener("click", (e) => {
+  e.preventDefault();
+  localStorage.removeItem(LS_SYNC);
+  setSyncStatus("");
+  $("sync-dlg").close();
+});
+$("sync-close").addEventListener("click", (e) => {
+  e.preventDefault();
+  $("sync-dlg").close();
+});
+
+deriveFromDoc();
+setSyncStatus("");
+load().then(syncPull);
