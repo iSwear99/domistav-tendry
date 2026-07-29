@@ -559,9 +559,11 @@ function effGrowth(c) {
 }
 
 function compPasses(c) {
+  // hledání zahrnuje i IČO vítěze — firmy se stejným názvem (Domistav HK
+  // vs. Domistav CZ) tak lze odlišit jednoznačně zadáním IČO
   const q = $("c-q").value.trim().toLowerCase();
-  if (q && !(c.title + " " + c.winner + " " + c.authority)
-    .toLowerCase().includes(q)) return false;
+  if (q && !(c.title + " " + c.winner + " " + c.authority + " "
+    + (c.winner_ico || "")).toLowerCase().includes(q)) return false;
 
   // datum zadání od–do (prázdné = bez omezení)
   const from = $("c-from").value, to = $("c-to").value;
@@ -659,25 +661,29 @@ function compRowHTML(c) {
 }
 
 function renderTopFirms(shown) {
+  // agregace VÝHRADNĚ podle IČO — firmy se stejným názvem se nesmí slít
+  // (Domistav HK vs. Domistav CZ); bez IČO je klíčem název
   const agg = new Map();
   let total = 0;
   for (const c of shown) {
     if (!c.winner) continue;
+    const key = (c.winner_ico || "").split(";")[0].trim() || c.winner;
     const p = effPrice(c) || 0;   // cena včetně dodatků
     total += p;
-    const a = agg.get(c.winner) || { n: 0, sum: 0 };
+    const a = agg.get(key) || { n: 0, sum: 0, name: c.winner,
+                                ico: (c.winner_ico || "").split(";")[0] };
     a.n += 1;
     a.sum += p;
-    agg.set(c.winner, a);
+    agg.set(key, a);
   }
-  const top = [...agg.entries()].sort((a, b) => b[1].sum - a[1].sum).slice(0, 10);
-  const maxSum = top.length ? top[0][1].sum : 1;
+  const top = [...agg.values()].sort((a, b) => b.sum - a.sum).slice(0, 10);
+  const maxSum = top.length ? top[0].sum : 1;
   $("c-top-total").textContent = total
     ? `— celkový objem vyhraných zakázek v aktuálním filtru: ${fmtKc.format(total)} Kč bez DPH`
     : "";
-  $("c-top-list").innerHTML = top.map(([name, a], i) =>
-    `<li data-firm="${esc(name)}" title="Kliknutím vyfiltrovat zakázky této firmy">
-      <span class="tf-name"><b>${i + 1}.</b> ${esc(name)}</span>
+  $("c-top-list").innerHTML = top.map((a, i) =>
+    `<li data-filtr="${esc(a.ico || a.name)}" title="Kliknutím vyfiltrovat zakázky této firmy (dle IČO)">
+      <span class="tf-name"><b>${i + 1}.</b> ${esc(a.name)}${a.ico ? ` <small>IČO ${esc(a.ico)}</small>` : ""}</span>
       <span class="tf-bar"><i style="width:${Math.max(2, Math.round(a.sum / maxSum * 100))}%"></i></span>
       <small>${a.n}× · ${fmtKc.format(a.sum)} Kč</small>
     </li>`
@@ -685,13 +691,13 @@ function renderTopFirms(shown) {
   $("c-top").hidden = top.length === 0;
 }
 
-// klik na firmu v žebříčku vyfiltruje její vyhrané zakázky (a druhým
-// klikem na tutéž firmu se filtr zase zruší)
+// klik na firmu vyfiltruje její zakázky PODLE IČO (jednoznačné i pro
+// stejnojmenné firmy); druhý klik na tutéž firmu filtr zruší
 document.addEventListener("click", (e) => {
-  const li = e.target.closest("#c-top-list li[data-firm]");
+  const li = e.target.closest("#c-top-list li[data-filtr]");
   if (!li) return;
   const q = $("c-q");
-  q.value = q.value === li.dataset.firm ? "" : li.dataset.firm;
+  q.value = q.value === li.dataset.filtr ? "" : li.dataset.filtr;
   renderComp();
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
