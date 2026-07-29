@@ -373,16 +373,6 @@ def run(dry_run: bool = False) -> int:
     # Výpadek celého zdroje (např. ISVZ blokuje IP GitHub runnerů) nesmí
     # smazat jeho dřívější záznamy — převezmou se z předchozího snapshotu.
     prev_snapshot = _load_json(config.OUT_TENDERS, [])
-    # PVU: RSS drží jen ~24 h, takže jednou zachycené záznamy se přenášejí
-    # z předchozího snapshotu VŽDY — vkládají se PŘED čerstvé, aby při
-    # dedupu podle ID vyhrál novější stav (a ISVZ dle ranku úplně nejvíc)
-    carried_pvu = [
-        t for t in prev_snapshot
-        if t.get("source", "").startswith("profil:pvu:")
-    ]
-    if carried_pvu:
-        all_t = carried_pvu + all_t
-
     for name, prefix in (("isvz", ("isvz",)), ("profily", ("profil:",))):
         if source_counts.get(name) == 0:
             retained = [
@@ -442,8 +432,26 @@ def run(dry_run: bool = False) -> int:
     deduped = dedup_cross_source(list(filtered.values()))
     # geografický okruh od HK — nad limit se zahazuje, neurčené se značí
     deduped = geo.apply_radius(deduped)
+    # TRVALÁ RETENCE (pokyn 29. 7. 2026 — kompletní historie): jednou
+    # zachycená zakázka se z archivu už nikdy neztrácí. Záznamy mimo
+    # aktuální stahovací okno (starší ISVZ měsíce, pomíjivé PVU RSS) se
+    # přenášejí z předchozího snapshotu; znovu se prohánějí oborovým
+    # filtrem, aby zpřísnění konfigurace pročistilo i historii. Čerstvý
+    # záznam má vždy přednost (přenáší se jen nespatřená ID).
+    fresh_ids = {t["id"] for t in deduped}
+    carried = [
+        t for t in prev_snapshot
+        if t["id"] not in fresh_ids and _sector_ok(t)
+    ]
+    # Přenášený záznam bez lhůty i stavu, který se v aktuálních exportech
+    # už neobjevuje, je prakticky jistě uzavřený (živé VZ dostávají změny
+    # a v okně se ukazují znovu) — bez tohoto by backfill historie zaplnil
+    # výchozí pohled tisíci zdánlivě aktivních zombie záznamů.
+    for t in carried:
+        if not t.get("deadline") and not t.get("state"):
+            t["expired"] = True
     result = sorted(
-        deduped,
+        deduped + carried,
         key=lambda t: (t.get("deadline") or "9999", t.get("published") or ""),
     )
     # mrtvé odkazy: 404/410 ve 2 bězích po sobě => expired (viz docstring)

@@ -166,4 +166,5 @@ def fetch() -> tuple[list[dict], list[str]]:
         t, e = _fetch_profile(key, meta)
         tenders.extend(t)
         errors.extend(e)
+        time.sleep(1)   # zdvořilost k platformám (Tender arena vrací 429)
     return tenders, errors
