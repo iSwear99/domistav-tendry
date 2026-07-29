@@ -279,13 +279,14 @@ async function load() {
     // no-cache = vždy revalidace přes ETag (na Pages levné 304); bez ní
     // prohlížeč heuristicky drží starý JSON i po denní aktualizaci
     const j = (url) => fetch(url, { cache: "no-cache" }).then((r) => r.json());
-    const [tenders, meta, changes, comp, smlouvy, dok] = await Promise.all([
+    const [tenders, meta, changes, comp, smlouvy, dok, ai] = await Promise.all([
       j("data/tenders.json"),
       j("data/meta.json"),
       j("data/changes.json").catch(() => ({})),
       j("data/competition.json").catch(() => []),
       j("data/smlouvy.json").catch(() => ({})),
       j("data/dokumenty.json").catch(() => ({})),
+      j("data/ai_filter.json").catch(() => ({})),
     ]);
     state.tenders = tenders;
     state.changes = changes || {};
@@ -293,6 +294,7 @@ async function load() {
     state.smlouvy = (smlouvy && smlouvy.links) || {};
     state.zd = (dok && dok.zd) || {};
     state.zpravy = (dok && dok.zpravy) || {};
+    state.ai = (ai && ai.verdikty) || {};
     buildDf();
     buildModel();
     renderMeta(meta);
@@ -351,6 +353,12 @@ function passes(t) {
 
   const kind = $("f-kind").value;
   if (kind && t.kind !== kind) return false;
+
+  // AI filtr: verdikt „ne" se skrývá (sledované ★ nikdy); přepínač
+  // „vč. AI-vyřazených" vše zobrazí — data se nemažou, jen skrývají
+  const ai = (state.ai || {})[t.id];
+  if (ai && ai.verdikt === "ne" && !$("f-ai").checked
+      && !state.watch.has(t.id)) return false;
 
   // vzdálenost sliderem; poloha neurčena dle checkboxu (nezahazovat tiše)
   if (t.loc_unknown) {
@@ -436,6 +444,13 @@ function rowHTML(t) {
         ${nuts}${noNuts}
         ${t.kw_match ? '<span class="tag kw" title="Zachyceno podle názvu, CPV neodpovídá stavebním pracím">dle názvu</span>' : ""}
         ${t.link_dead ? '<span class="tag" title="Stránka detailu opakovaně vrací 404 — zakázka byla vyřazena z aktivních">odkaz nedostupný</span>' : ""}
+        ${(() => {
+          const ai = (state.ai || {})[t.id];
+          if (!ai) return "";
+          if (ai.verdikt === "ne") return `<span class="tag ai-ne" title="${esc(ai.duvod)}">AI: nerelevantní</span>`;
+          if (ai.verdikt === "nejisto") return `<span class="tag ai-nejisto" title="${esc(ai.duvod)}">AI: nejisté</span>`;
+          return "";
+        })()}
         ${(t.cpv || []).slice(0, 2).map((c) => `<span class="tag">CPV ${esc(c)}</span>`).join("")}
         ${visit}${clar}${irrBadge}
       </div>
@@ -691,7 +706,7 @@ document.addEventListener("click", (e) => {
 });
 
 ["f-q", "f-kind", "t-dist", "t-min", "t-max", "t-unknown", "f-active",
- "f-watch", "f-changed", "f-disliked"].forEach((id) =>
+ "f-watch", "f-changed", "f-disliked", "f-ai"].forEach((id) =>
   $(id).addEventListener("input", render));
 
 /* ── dialog synchronizace ── */

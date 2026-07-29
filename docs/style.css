@@ -96,6 +96,10 @@ body {
 .tag.growth.down { background: #eef6ee; border-color: #bcd9bf; color: var(--ok);
   text-transform: none; font-variant-numeric: tabular-nums; }
 .foot-note { color: var(--muted); font-size: 12.5px; margin: -8px 0 32px; }
+.tag.ai-ne { background: #fdecec; border-color: #eebcbc; color: #8e2323;
+  text-transform: none; }
+.tag.ai-nejisto { background: #f2edfd; border-color: #cfc2ee; color: #4e3a8c;
+  text-transform: none; }
 .zd { font-size: 12.5px; color: var(--muted); margin-top: 4px; }
 .zd a { color: var(--accent); text-decoration: none; }
 .zd a:hover { text-decoration: underline; }
