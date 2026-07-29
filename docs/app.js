@@ -676,7 +676,7 @@ function renderTopFirms(shown) {
     ? `— celkový objem vyhraných zakázek v aktuálním filtru: ${fmtKc.format(total)} Kč bez DPH`
     : "";
   $("c-top-list").innerHTML = top.map(([name, a], i) =>
-    `<li>
+    `<li data-firm="${esc(name)}" title="Kliknutím vyfiltrovat zakázky této firmy">
       <span class="tf-name"><b>${i + 1}.</b> ${esc(name)}</span>
       <span class="tf-bar"><i style="width:${Math.max(2, Math.round(a.sum / maxSum * 100))}%"></i></span>
       <small>${a.n}× · ${fmtKc.format(a.sum)} Kč</small>
@@ -684,6 +684,17 @@ function renderTopFirms(shown) {
   ).join("");
   $("c-top").hidden = top.length === 0;
 }
+
+// klik na firmu v žebříčku vyfiltruje její vyhrané zakázky (a druhým
+// klikem na tutéž firmu se filtr zase zruší)
+document.addEventListener("click", (e) => {
+  const li = e.target.closest("#c-top-list li[data-firm]");
+  if (!li) return;
+  const q = $("c-q");
+  q.value = q.value === li.dataset.firm ? "" : li.dataset.firm;
+  renderComp();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
 
 function renderComp() {
   if (!$("comp-list")) return;

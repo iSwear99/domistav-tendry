@@ -161,7 +161,9 @@ body {
 .top-firms ol { list-style: none; margin: 0; padding: 0;
   display: grid; gap: 6px; }
 .top-firms li { display: grid; grid-template-columns: minmax(180px, 1fr) 2fr auto;
-  gap: 10px; align-items: center; font-size: 14px; }
+  gap: 10px; align-items: center; font-size: 14px; cursor: pointer;
+  border-radius: 3px; padding: 2px 4px; }
+.top-firms li:hover { background: var(--bg); }
 .top-firms .tf-bar { background: var(--bg); border: 1px solid var(--line);
   border-radius: 3px; height: 14px; overflow: hidden; }
 .top-firms .tf-bar i { display: block; height: 100%;
