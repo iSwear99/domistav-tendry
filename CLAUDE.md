@@ -154,7 +154,20 @@ Poté v nastavení repa:
 ## Doménová pravidla (převzatá zásada DOMISTAV)
 
 - Data se **nemažou** — zakázky po lhůtě se označí `expired`, ale zůstávají
-  v historii (git historie = denní snapshoty).
+  v historii. Od 29. 7. 2026 platí **trvalá retence**: záznamy mimo
+  aktuální stahovací okno se přenášejí z předchozího snapshotu (archiv
+  jen roste; jednorázový backfill pokryl historii od 2025). Přenášený
+  záznam bez lhůty i stavu se značí `expired` (živé VZ se v exportech
+  objevují znovu). Python výjimka: `pypdf` v requirements
+  (čtení PDF pro fetch_dokumenty.py) — jinak stále jen stdlib+requests.
+- **Čtení dokumentů** (`fetch_dokumenty.py`, pokyn 29. 7. 2026): denně
+  po scraperu stáhne až 30 zadávacích dokumentací aktivních zakázek
+  a 30 písemných zpráv konkurence (XML profilů typ_dokumentu → URL;
+  fallback odkazy z HTML detailu). Text z PDF/DOCX/ZIP, HEURISTICKÉ
+  regexy těží místo/termín/hodnotu resp. vítěze/cenu → `dokumenty.json`
+  {"zd": {id: {doc_url, misto, termin, hodnota}}, "zpravy": {id:
+  {doc_url, vitez, cena}}}. Pojistky: jeden dokument smí patřit jen
+  jedné zakázce; vítěz jen ve firemním tvaru; soubory se neukládají.
 - **Mrtvé odkazy:** denní běh kontroluje URL aktivních zakázek; POUZE
   tvrdé HTTP 404/410 ve DVOU bězích po sobě ⇒ `expired` + `link_dead`
   (štítek „odkaz nedostupný"). SPA portály (NEN/VVZ vracejí 200 na vše)
