@@ -1,11 +1,11 @@
 {
- "updated": "2026-07-31T21:50:36+00:00",
+ "updated": "2026-07-31T23:07:20+00:00",
  "counts": {
-  "total": 6505,
-  "vz": 3866,
-  "vzmr": 2639,
-  "active": 247,
-  "changed": 10,
+  "total": 6556,
+  "vz": 3908,
+  "vzmr": 2648,
+  "active": 46,
+  "changed": 16,
   "competition": 1117,
   "previous": 6505
  },

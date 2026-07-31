@@ -1,11 +1,11 @@
 {
  "meta": {
-  "updated": "2026-07-31T22:18:04+00:00",
+  "updated": "2026-07-31T23:08:37+00:00",
   "model": "claude-opus-5",
-  "posouzeno_nyni": 188,
-  "celkem": 415,
+  "posouzeno_nyni": 3,
+  "celkem": 418,
   "counts": {
-   "ano": 218,
+   "ano": 221,
    "ne": 126,
    "nejisto": 71
   },
@@ -1671,6 +1671,18 @@
   "rvz:RVZ2500091760": {
    "verdikt": "ano",
    "duvod": "Revitalizace areálu, budovy a plochy"
+  },
+  "profil:chrudim:VZ-520": {
+   "verdikt": "ano",
+   "duvod": "Rozšíření kapacity základní školy, pozemní stavba"
+  },
+  "profil:chrudim:VZ-511": {
+   "verdikt": "ano",
+   "duvod": "Přístavba a rekonstrukce sportovní haly"
+  },
+  "rvz:RVZ2600085337": {
+   "verdikt": "ano",
+   "duvod": "Stavební práce na budově základní školy"
   }
  }
 }

@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-07-31T22:15:19+00:00",
-  "zd": 415,
+  "updated": "2026-07-31T23:08:33+00:00",
+  "zd": 418,
   "zpravy": 1117,
-  "novych": 42,
+  "novych": 2,
   "errors": []
  },
  "zd": {
@@ -1294,6 +1294,15 @@
    "nenalezeno": true
   },
   "rvz:RVZ2500091760": {
+   "nenalezeno": true
+  },
+  "profil:chrudim:VZ-520": {
+   "doc_url": "https://zakazky.chrudim-city.cz/document_download_7923.html"
+  },
+  "profil:chrudim:VZ-511": {
+   "doc_url": "https://zakazky.chrudim-city.cz/document_download_7656.html"
+  },
+  "rvz:RVZ2600085337": {
    "nenalezeno": true
   }
  },
