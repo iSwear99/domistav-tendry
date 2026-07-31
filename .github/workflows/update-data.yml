@@ -24,12 +24,19 @@ jobs:
       run:
         shell: powershell
     steps:
-      - name: Guard – běžet jen v 8:00 pražského času
+      # Dva crony (6:00 a 7:00 UTC) kryjí letní/zimní čas. Rozhoduje se
+      # podle toho, KTERÝ cron běh vyvolal — ne podle aktuální hodiny:
+      # při vypnutém PC běh čeká ve frontě a spustí se opožděně, dřívější
+      # kontrola „je právě 8 h?" pak celé dny tiše přeskakovala
+      # (zjištěno 31. 7. 2026 — data stála od 29. 7.).
+      - name: Guard – jen sezónní cron (odolný vůči frontě)
         if: github.event_name == 'schedule'
         run: |
-          $hour = [System.TimeZoneInfo]::ConvertTimeBySystemTimeZoneId([DateTime]::UtcNow, "Central Europe Standard Time").Hour
-          if ($hour -ne 8) {
-            Write-Host "Prazsky cas ${hour}h != 8h - druhy cron, koncim."
+          $offset = [System.TimeZoneInfo]::FindSystemTimeZoneById("Central Europe Standard Time").GetUtcOffset([DateTime]::UtcNow).TotalHours
+          $want = if ($offset -eq 2) { "0 6 * * *" } else { "0 7 * * *" }
+          $cron = "${{ github.event.schedule }}"
+          if ($cron -ne $want) {
+            Write-Host "Cron '$cron' neni sezonni ('$want') - koncim."
             "SKIP=1" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
           }
 
@@ -69,9 +76,14 @@ jobs:
           if ($LASTEXITCODE -ne 0) {
             $d = [DateTime]::UtcNow.ToString("yyyy-MM-dd")
             git commit -m "data: $d"
-            # mezitím mohl přibýt commit (kód) — rebase, data soubory jsou naše
-            git pull --rebase origin main
+            # mezitím mohl přibýt commit — rebase; při konfliktu v datových
+            # souborech vyhrává čerstvý běh (-X theirs = náš datový commit)
+            git pull --rebase -X theirs origin main
             git push
+            if ($LASTEXITCODE -ne 0) {
+              git pull --rebase -X theirs origin main
+              git push
+            }
           } else {
             Write-Host "Beze zmen."
           }
