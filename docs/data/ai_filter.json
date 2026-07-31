@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-07-29T18:51:25+00:00",
+  "updated": "2026-07-31T14:56:27+00:00",
   "model": "claude-opus-5",
-  "posouzeno_nyni": 235,
-  "celkem": 235,
+  "posouzeno_nyni": 75,
+  "celkem": 256,
   "counts": {
-   "ano": 124,
-   "ne": 57,
-   "nejisto": 0
+   "ano": 157,
+   "ne": 64,
+   "nejisto": 35
   },
   "errors": []
  },
@@ -735,6 +735,306 @@
   "rvz:RVZ2500089840": {
    "verdikt": "ne",
    "duvod": "Vodní cesty, stání pro plavidla"
+  },
+  "profil:pvu:00303160:P26V00004461": {
+   "verdikt": "nejisto",
+   "duvod": "Sportovní hřiště, rozsah prací neznámý"
+  },
+  "profil:john-nell-baby:P26V00000012": {
+   "verdikt": "ne",
+   "duvod": "Dodávka monitorovacího systému, nikoli stavba"
+  },
+  "rvz:RVZ2600110273": {
+   "verdikt": "nejisto",
+   "duvod": "Požární systém budovy, podíl stavebních prací neznámý"
+  },
+  "rvz:RVZ2600105516": {
+   "verdikt": "nejisto",
+   "duvod": "Přístřešky, CPV ukazuje na projektové služby"
+  },
+  "profil:john-nell-baby:P26V00000010": {
+   "verdikt": "ne",
+   "duvod": "Dodávka výrobního stroje"
+  },
+  "profil:pvu:00297488:P26V00004914": {
+   "verdikt": "ano",
+   "duvod": "Rekonstrukce prostor v budově kina"
+  },
+  "profil:pvu:00244686:P26V00005071": {
+   "verdikt": "ano",
+   "duvod": "Výměna střešní krytiny objektu"
+  },
+  "profil:pvu:00297488:P26V00005009": {
+   "verdikt": "ano",
+   "duvod": "Rekonstrukce střech budovy magistrátu"
+  },
+  "profil:pvu:00293164:P26V00005054": {
+   "verdikt": "ano",
+   "duvod": "Vodovod – menší inženýrská stavba"
+  },
+  "profil:trutnov:VZ-1839": {
+   "verdikt": "nejisto",
+   "duvod": "Dodávka fasádních odlitků, restaurátorská výroba"
+  },
+  "profil:pvu:00241881:P26V00005087": {
+   "verdikt": "ano",
+   "duvod": "Výstavba chodníku"
+  },
+  "profil:pvu:61388971:P26V00005077": {
+   "verdikt": "nejisto",
+   "duvod": "Technologie VZT, rozsah stavební části neznámý"
+  },
+  "profil:kr-kralovehradecky:VZ-12970": {
+   "verdikt": "nejisto",
+   "duvod": "Teplovodní rozvody, převážně technologie"
+  },
+  "rvz:RVZ2600113644": {
+   "verdikt": "ne",
+   "duvod": "Pouze projektová dokumentace"
+  },
+  "profil:john-nell-baby:P26V00000009": {
+   "verdikt": "ano",
+   "duvod": "Stavební úpravy multifunkčního domu"
+  },
+  "profil:pvu:00244686:P26V00005076": {
+   "verdikt": "ano",
+   "duvod": "Demolice a přístavba objektu"
+  },
+  "profil:john-nell-baby:P26V00000014": {
+   "verdikt": "nejisto",
+   "duvod": "Předmět neznámý, pravděpodobně stavební etapa"
+  },
+  "profil:trutnov:VZ-1837": {
+   "verdikt": "ano",
+   "duvod": "Snížení energetické náročnosti školy"
+  },
+  "rvz:RVZ2600114009": {
+   "verdikt": "nejisto",
+   "duvod": "Vyklizení půdy, nejasný rozsah stavebních prací"
+  },
+  "profil:trutnov:VZ-1844": {
+   "verdikt": "nejisto",
+   "duvod": "Stezka s prvky, převažuje vybavení"
+  },
+  "rvz:RVZ2600113925": {
+   "verdikt": "ne",
+   "duvod": "Dodávka IT vybavení"
+  },
+  "rvz:RVZ2600113950": {
+   "verdikt": "ne",
+   "duvod": "Dodávka audiovizuální technologie"
+  },
+  "rvz:RVZ2600113957": {
+   "verdikt": "ano",
+   "duvod": "Novostavba objektů, pozemní stavitelství"
+  },
+  "rvz:RVZ2500082275": {
+   "verdikt": "ano",
+   "duvod": "Výstavba univerzitního kampusu, pozemní stavba"
+  },
+  "rvz:RVZ2500090258": {
+   "verdikt": "ano",
+   "duvod": "Rekonstrukce budovy, pozemní stavitelství"
+  },
+  "rvz:RVZ2600079526": {
+   "verdikt": "ano",
+   "duvod": "Parkoviště – zpevněné plochy, firma realizuje"
+  },
+  "rvz:RVZ2600080540": {
+   "verdikt": "nejisto",
+   "duvod": "Sportovní hřiště, možná specializované povrchy"
+  },
+  "rvz:RVZ2600081723": {
+   "verdikt": "nejisto",
+   "duvod": "Sportovně-relaxační zóna, obsah nejasný"
+  },
+  "rvz:RVZ2600082815": {
+   "verdikt": "ano",
+   "duvod": "Kanalizace – inženýrské sítě v oboru"
+  },
+  "rvz:RVZ2500090320": {
+   "verdikt": "ne",
+   "duvod": "Dopravní infrastruktura, komunikace a železnice"
+  },
+  "rvz:RVZ2600077314": {
+   "verdikt": "nejisto",
+   "duvod": "Technická infrastruktura, rozsah sítí nejasný"
+  },
+  "rvz:RVZ2600076453": {
+   "verdikt": "nejisto",
+   "duvod": "Volnočasový areál se zelení a hřištěm"
+  },
+  "rvz:RVZ2600080577": {
+   "verdikt": "nejisto",
+   "duvod": "Podmiňující infrastruktura, obsah neurčen"
+  },
+  "rvz:RVZ2500091042": {
+   "verdikt": "ano",
+   "duvod": "Splašková kanalizace – relevantní inženýrská stavba"
+  },
+  "rvz:RVZ2600080400": {
+   "verdikt": "ano",
+   "duvod": "ČOV a kanalizace v oboru firmy"
+  },
+  "rvz:RVZ2500066746": {
+   "verdikt": "ano",
+   "duvod": "Vodovod a kanalizace, zadavatel VaK"
+  },
+  "rvz:RVZ2600077327": {
+   "verdikt": "nejisto",
+   "duvod": "Dodávka kontejnerů se zemními pracemi"
+  },
+  "rvz:RVZ2500058728": {
+   "verdikt": "ano",
+   "duvod": "Zdravotnická budova – pozemní stavitelství"
+  },
+  "rvz:RVZ2600078986": {
+   "verdikt": "nejisto",
+   "duvod": "Heliport nemocnice, převažuje technologie a vytápění"
+  },
+  "rvz:RVZ2600080512": {
+   "verdikt": "ano",
+   "duvod": "Vodovodní propojení – inženýrské sítě"
+  },
+  "rvz:RVZ2500135927": {
+   "verdikt": "nejisto",
+   "duvod": "Revitalizace náměstí, zpevněné plochy i zeleň"
+  },
+  "rvz:RVZ2600077591": {
+   "verdikt": "nejisto",
+   "duvod": "Rekonstrukce ulice, možná pouze komunikace"
+  },
+  "rvz:RVZ2600086443": {
+   "verdikt": "ano",
+   "duvod": "Separační dvůr – objekt a zpevněné plochy"
+  },
+  "rvz:RVZ2600086484": {
+   "verdikt": "nejisto",
+   "duvod": "Technická i dopravní infrastruktura, smíšený předmět"
+  },
+  "rvz:RVZ2600088552": {
+   "verdikt": "nejisto",
+   "duvod": "Opěrná zeď a schodiště, hraniční předmět"
+  },
+  "rvz:RVZ2600086851": {
+   "verdikt": "ne",
+   "duvod": "Lávka (most) včetně projektování"
+  },
+  "rvz:RVZ2600083836": {
+   "verdikt": "nejisto",
+   "duvod": "Rekonstrukce místní komunikace u garáží"
+  },
+  "rvz:RVZ2600096679": {
+   "verdikt": "ano",
+   "duvod": "Otopná soustava školy – rekonstrukce budovy"
+  },
+  "rvz:RVZ2600088364": {
+   "verdikt": "nejisto",
+   "duvod": "Víceúčelové hřiště u školy, sportovní povrchy"
+  },
+  "rvz:RVZ2600097273": {
+   "verdikt": "nejisto",
+   "duvod": "Revitalizace náměstí, sítě, plochy i zeleň"
+  },
+  "rvz:RVZ2600085014": {
+   "verdikt": "nejisto",
+   "duvod": "Park – převažuje zeleň a osvětlení, nejasný stavební podíl"
+  },
+  "rvz:RVZ2500121323": {
+   "verdikt": "ano",
+   "duvod": "Stavební úpravy objektu sociálních služeb – pozemní stavba"
+  },
+  "rvz:RVZ2600107037": {
+   "verdikt": "ano",
+   "duvod": "Veřejné prostranství: chodníky, zpevněné plochy, kanalizace"
+  },
+  "rvz:RVZ2500087130": {
+   "verdikt": "nejisto",
+   "duvod": "Kanalizace a vodovod, ale i komunikace a opěrná zeď"
+  },
+  "rvz:RVZ2600105449": {
+   "verdikt": "nejisto",
+   "duvod": "Fotovoltaika na objektu – převažuje technologie"
+  },
+  "rvz:RVZ2600100893": {
+   "verdikt": "nejisto",
+   "duvod": "Především dodávka a montáž výtahové technologie"
+  },
+  "rvz:RVZ2600103343": {
+   "verdikt": "ano",
+   "duvod": "Kanalizace a vodovod – inženýrské sítě"
+  },
+  "rvz:RVZ2500097073": {
+   "verdikt": "ano",
+   "duvod": "Dešťová kanalizace – inženýrská stavba"
+  },
+  "rvz:RVZ2600050946": {
+   "verdikt": "nejisto",
+   "duvod": "Úpravy veřejného prostoru, nejasný rozsah stavebních prací"
+  },
+  "rvz:RVZ2600098344": {
+   "verdikt": "nejisto",
+   "duvod": "Vodojem – vodárenský objekt, specifická technologie"
+  },
+  "rvz:RVZ2600103501": {
+   "verdikt": "nejisto",
+   "duvod": "Revitalizace hřbitova, restaurátorské práce"
+  },
+  "rvz:RVZ2600100778": {
+   "verdikt": "ano",
+   "duvod": "Intenzifikace ČOV – v oboru firmy"
+  },
+  "rvz:RVZ2500090042": {
+   "verdikt": "nejisto",
+   "duvod": "Rekonstrukce sila – průmyslový objekt s technologií"
+  },
+  "rvz:RVZ2600100539": {
+   "verdikt": "ano",
+   "duvod": "Rozvody topení v budově – firma realizovala obdobné"
+  },
+  "rvz:RVZ2600106587": {
+   "verdikt": "ano",
+   "duvod": "Novostavba objektu cestmistrovství – pozemní stavba"
+  },
+  "rvz:RVZ2600105063": {
+   "verdikt": "nejisto",
+   "duvod": "Naučná stezka u rybníka, spíše krajinné úpravy"
+  },
+  "rvz:RVZ2600105797": {
+   "verdikt": "ano",
+   "duvod": "Chodník – zpevněné plochy v oboru firmy"
+  },
+  "rvz:RVZ2600104516": {
+   "verdikt": "ano",
+   "duvod": "Chodníky – zpevněné plochy v oboru firmy"
+  },
+  "rvz:RVZ2600106154": {
+   "verdikt": "ano",
+   "duvod": "ČOV a související stavební práce"
+  },
+  "rvz:RVZ2600080159": {
+   "verdikt": "ano",
+   "duvod": "Parkoviště a zpevněné plochy sportovního areálu"
+  },
+  "rvz:RVZ2500075198": {
+   "verdikt": "ano",
+   "duvod": "Sportovní objekt se zázemím – pozemní stavba"
+  },
+  "rvz:RVZ2600086398": {
+   "verdikt": "ano",
+   "duvod": "Čistírna odpadních vod – v oboru firmy"
+  },
+  "rvz:RVZ2600106600": {
+   "verdikt": "nejisto",
+   "duvod": "Revitalizace centra obce, předmět blíže nespecifikován"
+  },
+  "rvz:RVZ2500085827": {
+   "verdikt": "nejisto",
+   "duvod": "ZTV – sítě a komunikace, nejasný podíl"
+  },
+  "profil:pvu:00295884:P26V00005088": {
+   "verdikt": "nejisto",
+   "duvod": "Obnova čerpací stanice – nejasný stavební rozsah"
   }
  }
 }

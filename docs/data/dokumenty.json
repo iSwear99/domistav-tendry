@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-07-29T18:47:24+00:00",
-  "zd": 236,
-  "zpravy": 1131,
-  "novych": 31,
+  "updated": "2026-07-31T14:54:24+00:00",
+  "zd": 256,
+  "zpravy": 1179,
+  "novych": 14,
   "errors": []
  },
  "zd": {
@@ -723,6 +723,82 @@
    "nenalezeno": true
   },
   "rvz:RVZ2500089840": {
+   "nenalezeno": true
+  },
+  "profil:pvu:00303160:P26V00004461": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3867090"
+  },
+  "profil:john-nell-baby:P26V00000012": {
+   "doc_url": "https://zakazky.navigaassistance.cz/contract_display_179.html?open=doc_zad",
+   "misto": "olomouc"
+  },
+  "profil:john-nell-baby:P26V00000010": {
+   "doc_url": "https://zakazky.navigaassistance.cz/contract_display_177.html?open=doc_zad",
+   "hodnota": 13800000.0,
+   "misto": "olomouc"
+  },
+  "profil:pvu:00297488:P26V00004914": {
+   "nenalezeno": true
+  },
+  "profil:pvu:00244686:P26V00005071": {
+   "nenalezeno": true
+  },
+  "profil:pvu:00297488:P26V00005009": {
+   "nenalezeno": true
+  },
+  "profil:trutnov:VZ-1839": {
+   "doc_url": "https://zakazky.trutnov.cz/document_download_8617.html"
+  },
+  "profil:pvu:00241881:P26V00005087": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3882824"
+  },
+  "profil:pvu:61388971:P26V00005077": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3882704"
+  },
+  "rvz:RVZ2600113644": {
+   "nenalezeno": true
+  },
+  "profil:john-nell-baby:P26V00000009": {
+   "doc_url": "https://zakazky.navigaassistance.cz/contract_display_176.html?open=doc_zad",
+   "hodnota": 53378000.0,
+   "misto": "cheb"
+  },
+  "profil:pvu:00244686:P26V00005076": {
+   "nenalezeno": true
+  },
+  "profil:john-nell-baby:P26V00000014": {
+   "doc_url": "https://zakazky.navigaassistance.cz/contract_display_181.html?open=doc_zad",
+   "hodnota": 47070000.0,
+   "misto": "liberec"
+  },
+  "profil:trutnov:VZ-1837": {
+   "doc_url": "https://zakazky.trutnov.cz/document_download_8632.html"
+  },
+  "rvz:RVZ2600114009": {
+   "nenalezeno": true
+  },
+  "profil:trutnov:VZ-1844": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600113925": {
+   "doc_url": "https://nen.nipez.cz/file?id=4570345214",
+   "hodnota": 9702500.0,
+   "misto": "zakladni skola pardubice–polabiny, prodlouzena 283, 530 09 pardubice.",
+   "termin": "termin zahajeni plneni: na zaklade pisemne vyzvy zadavatele."
+  },
+  "rvz:RVZ2600113950": {
+   "doc_url": "https://nen.nipez.cz/file?id=4570393058",
+   "hodnota": 3306000.0,
+   "misto": "basketbalova hala, ul. v raji 311, pardubice.",
+   "termin": "zahajeni plneni: na zaklade pisemne vyzvy zadavatele po ukonceni zad avaciho rizeni a nabyti ucinnosti"
+  },
+  "rvz:RVZ2600113957": {
+   "doc_url": "https://nen.nipez.cz/file?id=4570427946",
+   "hodnota": 107000000.0,
+   "misto": "parc. c. 284, 285/2, 279/30, 280/20, 279/31, 279/10, 279/35, 332/4, 396 a 337/17, vse k.u. popkovice",
+   "termin": "zahajeni plneni: dnem predani staveniste, a to na zaklade pisemne vyzvy objednatele"
+  },
+  "profil:pvu:00295884:P26V00005088": {
    "nenalezeno": true
   }
  },
@@ -4140,6 +4216,151 @@
   },
   "rvz:RVZ2500213992": {
    "doc_url": "https://nen.nipez.cz/file?id=3677310645"
+  },
+  "rvz:RVZ2500112743": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500111585": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500110254": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500088001": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500087891": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500109509": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500174933": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600102656": {
+   "doc_url": "https://nen.nipez.cz/file?id=3140770361",
+   "cena": 15690000.0
+  },
+  "rvz:RVZ2500115953": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500080722": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500088065": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500080662": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500118461": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500108791": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500121165": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500108984": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500091708": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500112298": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500115889": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500110535": {
+   "doc_url": "https://nen.nipez.cz/file?id=3132058576"
+  },
+  "rvz:RVZ2500113019": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500084769": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500118438": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500167889": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500109188": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500114062": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500088225": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500102256": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500117341": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500108969": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500203574": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500107709": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500106174": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500177231": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500205629": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500203245": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500111348": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500179194": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500176728": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500169314": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500093014": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500104170": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500106959": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500112273": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500108448": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500086627": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500087392": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500104171": {
+   "nenalezeno": true
   }
  }
 }
