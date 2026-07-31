@@ -297,6 +297,9 @@ body {
 }
 .star.on { color: var(--accent); }
 .star:hover { color: var(--accent-ink); }
+.nozajem { background: none; border: none; cursor: pointer; font-size: 15px;
+  padding: 4px; filter: grayscale(1); opacity: .45; }
+.nozajem.on, .nozajem:hover { filter: none; opacity: 1; }
 .thumb {
   border: none; background: none; cursor: pointer;
   font-size: 16px; line-height: 1; padding: 4px;

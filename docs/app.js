@@ -43,7 +43,8 @@ function daysTo(deadline) {
 
 const syncDoc = (() => {
   const d = JSON.parse(localStorage.getItem(LS_DOC) || "null")
-    || { watch: {}, dislikes: {} };
+    || { watch: {}, dislikes: {}, hidden: {} };
+  d.hidden = d.hidden || {};   // migrace dokumentů z doby před 🚫
   // migrace starších úložišť bez časových značek
   const now = Date.now();
   for (const id of JSON.parse(localStorage.getItem(LS_WATCH) || "[]")) {
@@ -64,6 +65,9 @@ function deriveFromDoc() {
   for (const [id, e] of Object.entries(syncDoc.dislikes)) {
     if (e.on) state.dislikes[id] = e.fp;
   }
+  // 🚫 nemám zájem: skrytí konkrétní zakázky bez učení (na rozdíl od 👎)
+  state.noInterest = new Set(
+    Object.keys(syncDoc.hidden).filter((id) => syncDoc.hidden[id].on));
 }
 
 function persistDoc() {
@@ -75,7 +79,8 @@ function persistDoc() {
 
 function mergeDocs(remote) {
   let changed = false, localNewer = false;
-  for (const kind of ["watch", "dislikes"]) {
+  for (const kind of ["watch", "dislikes", "hidden"]) {
+    syncDoc[kind] = syncDoc[kind] || {};
     const loc = syncDoc[kind], rem = (remote || {})[kind] || {};
     for (const [id, e] of Object.entries(rem)) {
       if (!loc[id] || e.ts > loc[id].ts) { loc[id] = e; changed = true; }
@@ -186,6 +191,21 @@ function saveWatch() {
    Odmítnutí uloží otisk zakázky; z otisků se počítají četnosti CPV skupin,
    zadavatelů a výrazných slov názvu. Opakují-li se, podobné zakázky se
    skrývají (sledované ★ nikdy). Filtr „jen odmítnuté 👎" vše zpřístupní. */
+
+function saveNoInterest() {
+  const now = Date.now();
+  for (const id of state.noInterest) {
+    if (!syncDoc.hidden[id] || !syncDoc.hidden[id].on) {
+      syncDoc.hidden[id] = { ts: now, on: true };
+    }
+  }
+  for (const id of Object.keys(syncDoc.hidden)) {
+    if (syncDoc.hidden[id].on && !state.noInterest.has(id)) {
+      syncDoc.hidden[id] = { ts: now, on: false };  // historie zůstává
+    }
+  }
+  persistDoc();
+}
 
 function saveDislikes() {
   const now = Date.now();
@@ -386,11 +406,13 @@ function passes(t) {
   if ($("f-watch").checked && !state.watch.has(t.id)) return false;
   if ($("f-changed").checked && !changedRecently(t)) return false;
 
-  // relevance: běžný pohled skrývá odmítnuté i odhadem nerelevantní;
-  // filtr „jen odmítnuté 👎" zobrazí právě je (kontrola, že nic neuteklo)
+  // relevance a zájem: běžný pohled skrývá odmítnuté 👎, odhadem
+  // nerelevantní i 🚫 „nemám zájem"; filtr „jen odmítnuté" zobrazí
+  // právě je (kontrola, že nic neuteklo, a možnost vrátit zpět)
   const irr = irrelevance(t);
-  if ($("f-disliked").checked) return !!irr;
-  return !irr;
+  const noInt = state.noInterest.has(t.id);
+  if ($("f-disliked").checked) return !!irr || noInt;
+  return !irr && !noInt;
 }
 
 function rowHTML(t) {
@@ -429,7 +451,10 @@ function rowHTML(t) {
 
   const disliked = !!state.dislikes[t.id];
   const irrBadge = $("f-disliked").checked
-    ? `<span class="tag irr">${esc(irrelevance(t) || "")}</span>` : "";
+    ? (state.noInterest.has(t.id)
+        ? '<span class="tag irr">nemám zájem</span>'
+        : `<span class="tag irr">${esc(irrelevance(t) || "")}</span>`)
+    : "";
 
   const chs = changesOf(t);
   const history = chs.length
@@ -467,6 +492,7 @@ function rowHTML(t) {
     ${due}
     <span class="acts">
       <button class="${star}" title="Sledovat" aria-pressed="${state.watch.has(t.id)}">★</button>
+      <button class="nozajem${state.noInterest.has(t.id) ? " on" : ""}" title="Nemám zájem — skrýt tuto konkrétní zakázku (bez vlivu na učení; synchronizuje se mezi zařízeními)" aria-pressed="${state.noInterest.has(t.id)}">🚫</button>
       <button class="thumb${disliked ? " on" : ""}" title="Označit jako nerelevantní — podobné zakázky se přestanou zobrazovat" aria-pressed="${disliked}">👎</button>
     </span>
   </li>`;
@@ -527,8 +553,8 @@ function render() {
     return d != null && d >= 0 && d <= 7;
   }).length;
   $("st-changed").textContent = state.tenders.filter(changedRecently).length;
-  $("st-hidden").textContent =
-    state.tenders.filter((t) => irrelevance(t)).length;
+  $("st-hidden").textContent = state.tenders.filter(
+    (t) => irrelevance(t) || state.noInterest.has(t.id)).length;
 }
 
 /* ── Konkurence ─────────────────────────────────────────────────────────── */
@@ -725,6 +751,7 @@ function renderAI() {
   const shown = state.tenders.filter((t) => {
     if (t.expired) return false;
     if (state.watch.has(t.id)) return true;   // sledované ★ vždy
+    if (state.noInterest.has(t.id)) return false;   // 🚫 nemám zájem
     const v = (state.ai || {})[t.id];
     if (!v || !(v.verdikt === "ano"
       || (withNejisto && v.verdikt === "nejisto"))) return false;
@@ -781,12 +808,17 @@ $("stat-hidden").addEventListener("click", () => {
 document.addEventListener("click", (e) => {
   const star = e.target.closest(".star");
   const thumb = e.target.closest(".thumb");
-  if (!star && !thumb) return;
-  const row = (star || thumb).closest(".row");
+  const noz = e.target.closest(".nozajem");
+  if (!star && !thumb && !noz) return;
+  const row = (star || thumb || noz).closest(".row");
   const id = row.dataset.id;
   if (star) {
     state.watch.has(id) ? state.watch.delete(id) : state.watch.add(id);
     saveWatch();
+  } else if (noz) {
+    state.noInterest.has(id)
+      ? state.noInterest.delete(id) : state.noInterest.add(id);
+    saveNoInterest();
   } else {
     if (state.dislikes[id]) {
       delete state.dislikes[id];
