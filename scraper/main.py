@@ -14,11 +14,13 @@ from __future__ import annotations
 import datetime as dt
 import json
 import pathlib
+import os
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 
 import config            # noqa: E402
+import re                # noqa: E402
 import fetch_isvz        # noqa: E402
 import fetch_pvu         # noqa: E402
 import fetch_nen         # noqa: E402
@@ -55,6 +57,13 @@ def _kw_match(title: str) -> bool:
     return any(k in t for k in _KW_POS)
 
 
+def _kw_negative(title: str) -> bool:
+    """Název obsahuje negativní klíčové slovo (stejné hranice slov)."""
+    _kw_match("")   # inicializace seznamů
+    t = " " + "".join(c if c.isalnum() else " " for c in _norm(title)) + " "
+    return any(k in t for k in _KW_NEG)
+
+
 def _sector_ok(t: dict) -> bool:
     """Obor: (a) CPV prefix 45 — autoritativní, negativní slova nepřebíjí;
     (b) záchytná síť: klíčová slova v názvu (příznak kw_match);
@@ -72,6 +81,16 @@ def _sector_ok(t: dict) -> bool:
         and not c.startswith(tuple(config.CPV_NEGATIVE_PREFIXES))
         for c in cpv
     )
+    # Negativní slovo v názvu přebíjí OBECNÉ CPV 45000000 (pokyn 31. 7.):
+    # „Kanalizace obce X" s CPV 45000000 se vyřadí; zakázka s konkrétním
+    # stavebním CPV (např. 45214200 školy) zůstává i s negativním slovem.
+    if cpv_ok and _kw_negative(t.get("title", "")):
+        cpv_ok = any(
+            c.startswith(tuple(config.CPV_PREFIXES))
+            and not c.startswith(tuple(config.CPV_NEGATIVE_PREFIXES))
+            and not c.startswith("450000")
+            for c in cpv
+        )
     t["kw_match"] = False
     if cpv_ok:
         return True
@@ -178,6 +197,132 @@ def _check_dead_links(tenders: list[dict], prev_by_id: dict) -> None:
             t["url_dead"] = prev_dead   # bez verdiktu čítač jen držet
 
 
+def _nen_embedded(url: str) -> dict | None:
+    """Vytěží vložená data z NEN detailu (server-rendered JSON stav).
+    Vrací klíče podaniLhuta / datumZruseni / datumUkonceni / stavZP /
+    predpokladHodnota; None při síťové chybě (= žádný verdikt)."""
+    import urllib.parse
+    import urllib.request
+    try:
+        req = urllib.request.Request(
+            url, headers={"User-Agent": config.USER_AGENT})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            page = r.read().decode("utf-8", "replace")
+    except Exception:  # noqa: BLE001
+        return None
+    dec = urllib.parse.unquote(page)
+    out = {}
+    for k in ("podaniLhuta", "datumZruseni", "datumUkonceni", "stavZP",
+              "predpokladHodnota"):
+        m = re.search(rf'"{k}":(?:"([^"]*)"|(null)|([\d.]+))', dec)
+        if m:
+            out[k] = m.group(1) if m.group(1) is not None else (
+                None if m.group(2) else m.group(3))
+    return out
+
+
+def _verify_no_deadline(result: list[dict], errors: list[str]) -> None:
+    """Tvrdý úklid registrových torz + ZPĚTNÁ KONTROLA (pokyn 31. 7. 2026).
+
+    BEZPEČNOSTNÍ INVARIANTY — aktivní zakázka NESMÍ omylem propadnout:
+    1. Sahá se výhradně na ISVZ záznamy BEZ lhůty a BEZ stavu; na nic
+       jiného se tento úklid nikdy nevztahuje.
+    2. Před expirací se záznam ověřuje u zdroje: NEN detail (vložená
+       data) nebo XML profilu zadavatele podle názvu. Nalezené živé se
+       OBOHATÍ o lhůtu/stav/hodnotu místo expirace.
+    3. Bez verdiktu (síťová chyba, profil neodpovídá) se NIC nemění.
+    4. Expirace je VRATNÁ: auto_expired nese datum a záznam se 21 dní
+       denně znovu ověřuje — při nálezu živých dat se vrací mezi
+       aktivní. Čerstvý výskyt v libovolném zdroji má vždy přednost
+       (dedup podle ID upřednostňuje čerstvé záznamy).
+    """
+    today = dt.date.today()
+    prof_cache: dict[str, dict | None] = {}
+
+    def profile_lookup(profile_url: str, title: str):
+        """(nalezený záznam | None, profil odpověděl?)"""
+        if profile_url not in prof_cache:
+            try:
+                recs, errs = fetch_profily._fetch_profile(
+                    "overeni", {"nazev": "", "ico": "",
+                                "profile_url": profile_url})
+                prof_cache[profile_url] = None if errs else {
+                    _norm_title(r["title"]): r for r in recs}
+            except Exception:  # noqa: BLE001
+                prof_cache[profile_url] = None
+        mapa = prof_cache[profile_url]
+        if mapa is None:
+            return None, False
+        return mapa.get(_norm_title(title)), True
+
+    stats = {"enriched": 0, "expired": 0, "revived": 0, "checked": 0}
+    for t in result:
+        if t.get("deadline") or t.get("state") or t["source"] != "isvz":
+            continue
+        ae = t.get("auto_expired")
+        if t["expired"] and not ae:
+            continue                      # expiroval jinou cestou
+        if ae and (today - dt.date.fromisoformat(ae)).days > 21:
+            continue                      # zpětná kontrola skončila
+        stats["checked"] += 1
+        url = t.get("url") or ""
+        live: dict | None = None
+        dead = False
+        if "nen.nipez.cz/verejne-zakazky/detail-zakazky" in url:
+            d = _nen_embedded(url)
+            if d is None:
+                continue                  # bez verdiktu — neměnit nic
+            if d.get("datumZruseni") or d.get("datumUkonceni") \
+                    or (d.get("stavZP") or "neukoncena") != "neukoncena":
+                dead = True
+                t["state"] = ("zrušeno (NEN)" if d.get("datumZruseni")
+                              else "ukončeno (NEN)")
+            else:
+                live = {}
+                if d.get("podaniLhuta"):
+                    live["deadline"] = d["podaniLhuta"][:19]
+                if d.get("predpokladHodnota") and t.get("value") is None:
+                    try:
+                        live["value"] = float(d["predpokladHodnota"])
+                        t["no_value"] = False
+                    except ValueError:
+                        pass
+        elif url.startswith("http"):
+            rec, odpovedel = profile_lookup(url, t["title"])
+            if rec:
+                if rec.get("deadline") \
+                        and rec["deadline"][:10] >= today.isoformat():
+                    live = {"deadline": rec["deadline"],
+                            "state": rec.get("state") or ""}
+                else:
+                    dead = True
+                    t["state"] = rec.get("state") or ""
+            elif odpovedel:
+                dead = True               # profil běží a zakázku nezná
+            else:
+                continue                  # profil nedostupný — bez verdiktu
+        else:
+            dead = True                   # není kde ověřit: bez lhůty,
+                                          # bez stavu, bez jakéhokoli odkazu
+        if live is not None:
+            t.update(live)
+            if ae:
+                t.pop("auto_expired", None)
+                t.pop("no_activity", None)
+                stats["revived"] += 1
+            _mark_expired(t, today.isoformat())
+            stats["enriched"] += 1
+        elif dead:
+            if not t["expired"]:
+                stats["expired"] += 1
+            t["expired"] = True
+            t.setdefault("auto_expired", today.isoformat())
+            t["no_activity"] = True
+    print(f"úklid torz: ověřeno {stats['checked']}, obohaceno "
+          f"{stats['enriched']}, expirováno {stats['expired']}, "
+          f"oživeno {stats['revived']}")
+
+
 def _norm_title(s: str) -> str:
     """Normalizace názvu pro porovnání napříč zdroji: malá písmena,
     bez diakritiky, bez interpunkce, sjednocené mezery."""
@@ -275,6 +420,9 @@ def build_competition(all_t: list[dict], today: str) -> list[dict]:
             "cpv": t.get("cpv") or [], "kind": t["kind"],
             "kw_match": t.get("kw_match", False),
             "url": t.get("url") or "",
+            **({"bidders": t["bidders"]} if t.get("bidders") else {}),
+            **({"registr_url": aw["registr_url"]}
+               if aw.get("registr_url") else {}),
         }
 
     # Dřívější záznamy archivu se znovu prohánějí oborovým filtrem —
@@ -361,8 +509,14 @@ def run(dry_run: bool = False) -> int:
     errors: list[str] = []
 
     source_counts: dict[str, int] = {}
+    # SKIP_ISVZ=1: cloudový běh (GitHub-hosted runner, USA) — ISVZ blokuje
+    # mimoevropské IP; jeho záznamy drží retence a doplní je běh na PC
+    skip_isvz = bool(os.environ.get("SKIP_ISVZ"))
     for name, mod in (("isvz", fetch_isvz), ("profily", fetch_profily),
                       ("pvu", fetch_pvu)):
+        if name == "isvz" and skip_isvz:
+            source_counts[name] = 0
+            continue
         try:
             t, e = mod.fetch()
             all_t.extend(t)
@@ -383,10 +537,11 @@ def run(dry_run: bool = False) -> int:
             ]
             if retained:
                 all_t.extend(retained)
-                errors.append(
-                    f"{name}: zdroj nedostupný — ponecháno {len(retained)} "
-                    "záznamů z předchozího běhu."
-                )
+                if not (name == "isvz" and skip_isvz):
+                    errors.append(
+                        f"{name}: zdroj nedostupný — ponecháno "
+                        f"{len(retained)} záznamů z předchozího běhu."
+                    )
 
     # filtrace + dedup dle ID. NIPEZ id (rvz:…) sdílí ISVZ i NEN profily —
     # při kolizi vyhrává úplnější záznam z ISVZ, u shodného zdroje poslední
@@ -456,6 +611,10 @@ def run(dry_run: bool = False) -> int:
         deduped + carried,
         key=lambda t: (t.get("deadline") or "9999", t.get("published") or ""),
     )
+    # úklid registrových torz bez lhůty: ověření u zdroje (NEN/profil),
+    # obohacení živých, expirace mrtvých, 21denní zpětná kontrola
+    if not dry_run:
+        _verify_no_deadline(result, errors)
     # mrtvé odkazy: 404/410 ve 2 bězích po sobě => expired (viz docstring)
     if not dry_run:
         _check_dead_links(result, {t["id"]: t for t in prev_snapshot})

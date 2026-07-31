@@ -206,6 +206,38 @@ def _fetch_profile(key: str, meta: dict) -> tuple[list[dict], list[str]]:
         published = min(_texts(el, TAGY["published"]), default="")[:10]
         rezim = _norm(_first(el, TAGY["rezim"]))
         vzmr = "maleho rozsahu" in rezim if rezim else True
+
+        # účastníci řízení s nabídkovými cenami (pokyn 31. 7. 2026) —
+        # kdo podává nabídky a za kolik, včetně vyloučených
+        bidders = []
+        for u in el.iter():
+            if _strip_ns(u.tag) != "ucastnik":
+                continue
+            cena = _first(u, "nabidkova_cena_bez_dph")
+            bidders.append({
+                "nazev": _first(u, "nazev_subjektu"),
+                "ico": _first(u, "ico"),
+                "cena": float(cena) if cena else None,
+                "vyloucen": _first(u, "ucastnik_vyloucen") == "1",
+            })
+        # vybraný dodavatel + smluvní cena + metadata smlouvy → výsledek
+        # ve stejném tvaru jako ISVZ (build_competition jej převezme,
+        # čímž se do Konkurence dostanou i VZMR, které ISVZ nemá)
+        award = None
+        vd = next((ch for ch in el.iter()
+                   if _strip_ns(ch.tag) == "vybrany_dodavatel"), None)
+        datum_smlouvy = _first(el, "datum_uzavreni_smlouvy")[:10]
+        if vd is not None and datum_smlouvy:
+            cena_v = (_first(vd, "smluvni_cena_bez_DPH")
+                      or _first(vd, "smluvni_cena_bez_dph"))
+            award = {
+                "date": datum_smlouvy,
+                "winner": _first(vd, "nazev_subjektu"),
+                "winner_ico": _first(vd, "ico"),
+                "price_contracted": float(cena_v) if cena_v else None,
+                "price_paid": None,
+                "registr_url": _first(el, "url_v_registru_smluv"),
+            }
         tenders.append({
             "id": f"rvz:{nipez}" if nipez else f"profil:{key}:{rid}",
             "source": f"profil:{key}",
@@ -223,6 +255,8 @@ def _fetch_profile(key: str, meta: dict) -> tuple[list[dict], list[str]]:
             "site_visit": "",
             "clarifications": 0,
             "kind": "VZMR" if vzmr else "VZ",
+            **({"bidders": bidders} if bidders else {}),
+            **({"award": award} if award else {}),
         })
     return tenders, []
 

@@ -261,6 +261,96 @@ def process(competition: list[dict], zaznamy, prev_links: dict) -> dict:
     return out
 
 
+# ── párování OBLÍBENÝCH ★ na Registr smluv (pokyn 31. 7. 2026) ──────────────
+# Watchlist žije v soukromém Gistu uživatele (viz UI ⇅). Server jej čte
+# přes GitHub secret GIST_TOKEN (týž fine-grained PAT se scope gist jako
+# v prohlížeči); bez tokenu se krok tiše přeskočí. Smlouva se hledá
+# 90 dní po uplynutí lhůty (podpisy + uveřejnění trvají), jen u
+# oblíbených — ať zbytečně neroste objem dat.
+
+def _watch_ids_z_gistu() -> set[str] | None:
+    token = os.environ.get("GIST_TOKEN")
+    if not token:
+        return None
+    import urllib.request
+    try:
+        req = urllib.request.Request(
+            "https://api.github.com/gists?per_page=100",
+            headers={"Authorization": "Bearer " + token,
+                     "Accept": "application/vnd.github+json",
+                     "User-Agent": config.USER_AGENT})
+        gists = json.loads(urllib.request.urlopen(req, timeout=60).read())
+        for g in gists:
+            f = (g.get("files") or {}).get("domistav-tendry-sync.json")
+            if not f:
+                continue
+            req2 = urllib.request.Request(
+                f["raw_url"], headers={"User-Agent": config.USER_AGENT})
+            doc = json.loads(urllib.request.urlopen(req2, timeout=60).read())
+            return {i for i, e in (doc.get("watch") or {}).items()
+                    if e.get("on")}
+    except Exception as exc:  # noqa: BLE001
+        print(f"oblíbené: Gist nedostupný ({exc}) — přeskakuji")
+    return None
+
+
+def _norm_tokeny(s: str) -> set[str]:
+    import unicodedata
+    s = unicodedata.normalize("NFKD", s or "")
+    s = "".join(c for c in s if not unicodedata.combining(c)).lower()
+    return {w for w in "".join(c if c.isalnum() else " " for c in s).split()
+            if len(w) > 3}
+
+
+def watch_specs() -> list[dict]:
+    """Oblíbené zakázky s prošlou lhůtou < 120 dní (okno na podpisy)."""
+    ids = _watch_ids_z_gistu()
+    if not ids:
+        return []
+    tenders = _load(config.OUT_TENDERS, [])
+    dnes = dt.date.today()
+    out = []
+    for t in tenders:
+        if t["id"] not in ids or not t.get("deadline"):
+            continue
+        lhuta = dt.date.fromisoformat(t["deadline"][:10])
+        if not (dt.timedelta(0) <= dnes - lhuta <= dt.timedelta(days=120)):
+            continue
+        out.append({"id": t["id"], "ico": t.get("authority_ico") or "",
+                    "tokeny": _norm_tokeny(t["title"]),
+                    "od": lhuta.isoformat(),
+                    "do": (lhuta + dt.timedelta(days=90)).isoformat()})
+    return out
+
+
+def match_watched(specs: list[dict], zaznamy, found: dict) -> dict:
+    """Druhý průchod dumpem: smlouvy k oblíbeným (IČO zadavatele + okno
+    lhůta..+90 dní + shoda ≥ poloviny významových slov názvu)."""
+    for z in zaznamy:
+        if not z["platny"] or z["parent"] or not z["datum"]:
+            continue
+        pt = _norm_tokeny(z["predmet"])
+        for s in specs:
+            if s["id"] in found:
+                continue
+            if z["ico_zadavatel"] != s["ico"]:
+                continue
+            if not (s["od"] <= z["datum"][:10] <= s["do"]):
+                continue
+            if len(s["tokeny"] & pt) * 2 < len(s["tokeny"]):
+                continue
+            dodavatel = next(
+                (n for n, i in zip(z.get("nazvy_stran", []),
+                                   z["ico_strany"] + [""] * 9)
+                 if i != s["ico"]), "")
+            found[s["id"]] = {
+                "contract_id": z["id"], "url": z["url"],
+                "date": z["datum"][:10], "price": z["hodnota"],
+                "dodavatel": dodavatel or (z.get("nazvy_stran") or [""])[-1],
+            }
+    return found
+
+
 # ── orchestrace (plně automatická) ──────────────────────────────────────────
 
 def _months_back(n: int) -> list[tuple[int, int]]:
@@ -301,6 +391,10 @@ def run() -> int:
           + f"{len(months)} měsíců: {months[0]}–{months[-1]}")
 
     links = prev_links
+    oblibene: dict = state.get("oblibene", {})
+    specs = watch_specs()
+    if specs:
+        print(f"oblíbené ★: hledám smlouvy k {len(specs)} zakázkám")
     errors: list[str] = []
     processed: list[str] = []
     for y, m in months:
@@ -313,6 +407,9 @@ def run() -> int:
                     print(f"  {y}-{m:02d}: dump neexistuje (404), přeskočeno")
                     continue
                 links = process(competition, iter_zaznamy(dump), links)
+                if specs:
+                    oblibene = match_watched(
+                        specs, iter_zaznamy(dump), oblibene)
                 processed.append(f"{y}-{m:02d}")
                 print(f"  {y}-{m:02d}: OK ({dump.stat().st_size / 1e6:.0f} MB, "
                       f"{time.time() - t0:.0f}s, vazeb {len(links)})")
@@ -333,9 +430,11 @@ def run() -> int:
             "months": processed,
             "backfill": backfill,
             "linked": len(links), "high": high, "low": len(links) - high,
+            "oblibene": len(oblibene),
             "errors": errors,
         },
         "links": links,
+        "oblibene": oblibene,
     }
     (ROOT / config.OUT_SMLOUVY).write_text(
         json.dumps(out, ensure_ascii=False, indent=1), "utf-8"

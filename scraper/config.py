@@ -12,6 +12,8 @@ CPV_PREFIXES = ["45"]                 # stavební práce
 # přežijí, „oprava silnice II/315" ne (negativní slova níže).
 CPV_NEGATIVE_PREFIXES = [
     "45221",   # mosty, tunely, estakády, nadjezdy
+    "45231",   # výstavba potrubí a kabelových vedení (pokyn 31. 7. 2026)
+    "45232",   # kanalizace, vodovody, ČOV (pokyn 31. 7. 2026)
     "45233",   # silnice, dálnice (výstavba, povrchy, údržba)
     "45234",   # železnice a lanové dráhy
 ]
@@ -51,9 +53,8 @@ KEYWORDS_POSITIVE = [
     "výměna střech", "stresni krytin", "střešní krytin", "fasad", "fasád",
     "demolic", "odstraneni stavby", "odstranění stavby",
     "bezbarierov", "bezbariérov", "pudni vestavb", "půdní vestavb",
-    # inženýrské stavby (širší záběr dle zadání)
-    "kanalizac", "vodovod", "cistirna odpadnich vod", "čistírna odpadních vod",
-    "chodnik", "chodník", "zpevnene ploch", "zpevněné ploch",
+    # zpevněné plochy (chodníky/vodovody/kanalizace vyřazeny 31. 7. 2026)
+    "zpevnene ploch", "zpevněné ploch",
     "parkovist", "parkovišt", "sportovni hriste", "sportovní hřiště",
 ]
 KEYWORDS_NEGATIVE = [
@@ -68,8 +69,10 @@ KEYWORDS_NEGATIVE = [
     " ict", "vozidl", "automobil", "vozovy park", "vozový park",
     "nabytk", "nábytk", "uklidove sluzby", "úklidové služby",
     "secen", "sečen", "udrzba zelene", "údržba zeleně",
-    # dopravní infrastruktura a drážní/vozový park (pokyn 28. 7. 2026)
+    # dopravní a síťová infrastruktura (pokyny 28. a 31. 7. 2026)
     "silnic", "dalnic", "dálnic", "vozovk", "komunikac",
+    "chodnik", "chodník", "vodovod", "kanalizac",
+    "cistirna odpadnich vod", "čistírna odpadních vod",
     "mostu", "mostů", "mostni", "mostní", "lavk", "lávk",
     "tunel", "estakad", "nadjezd", "podjezd", "propustk",
     "zeleznic", "železnic", "kolejov", "kolejnic", "vleck", "vlečk",
@@ -286,10 +289,10 @@ DOMISTAV HK s.r.o. z Hradce Králové. Firma dělá POZEMNÍ STAVITELSTVÍ: \
 novostavby a rekonstrukce budov (školy, školky, bytové a rodinné domy, \
 administrativní, zdravotnické, kulturní a sportovní objekty), zateplení \
 a energetické úspory budov, střechy, fasády, vestavby a přístavby, \
-demolice, zpevněné plochy, chodníky a parkoviště, menší inženýrské \
-stavby (kanalizace, vodovody, ČOV).
-RELEVANTNÍ NEJSOU: silnice, dálnice, mosty, tunely, železnice a drážní \
-stavby, vodní toky a rybníky, důlní a energetická díla, projektové \
+demolice, zpevněné plochy a parkoviště.
+RELEVANTNÍ NEJSOU: silnice, dálnice, chodníky, mosty, tunely, železnice \
+a drážní stavby, vodovody, kanalizace a ČOV, vodní toky a rybníky, \
+důlní a energetická díla, projektové \
 dokumentace a studie, technický/autorský dozor a BOZP, dodávky vybavení, \
 nábytku, vozidel a techniky, opravy strojů a vozidel, IT, úklid, údržba \
 zeleně, veřejné osvětlení bez stavební části.
