@@ -526,22 +526,17 @@ def run(dry_run: bool = False) -> int:
             errors.append(f"{name}: neočekávaná chyba: {exc}")
             source_counts[name] = 0
 
-    # Výpadek celého zdroje (např. ISVZ blokuje IP GitHub runnerů) nesmí
-    # smazat jeho dřívější záznamy — převezmou se z předchozího snapshotu.
+    # Výpadek celého zdroje (např. ISVZ blokuje IP GitHub runnerů) kryje
+    # TRVALÁ RETENCE níže (carried) — záznamy se přenášejí se zachovanými
+    # příznaky (expired/auto_expired). Dřívější větev, která je vracela
+    # do čerstvé pipeline, omylem oživovala expirovaná torza přepočtem
+    # _mark_expired (zjištěno 31. 7. 2026 na cloudovém běhu bez ISVZ).
     prev_snapshot = _load_json(config.OUT_TENDERS, [])
-    for name, prefix in (("isvz", ("isvz",)), ("profily", ("profil:",))):
-        if source_counts.get(name) == 0:
-            retained = [
-                t for t in prev_snapshot
-                if t.get("source", "").startswith(prefix)
-            ]
-            if retained:
-                all_t.extend(retained)
-                if not (name == "isvz" and skip_isvz):
-                    errors.append(
-                        f"{name}: zdroj nedostupný — ponecháno "
-                        f"{len(retained)} záznamů z předchozího běhu."
-                    )
+    for name in ("isvz", "profily"):
+        if source_counts.get(name) == 0 \
+                and not (name == "isvz" and skip_isvz):
+            errors.append(f"{name}: zdroj nedostupný — záznamy drží "
+                          "trvalá retence.")
 
     # filtrace + dedup dle ID. NIPEZ id (rvz:…) sdílí ISVZ i NEN profily —
     # při kolizi vyhrává úplnější záznam z ISVZ, u shodného zdroje poslední
