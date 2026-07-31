@@ -1,0 +1,30 @@
+name: Test dostupnosti zdrojů z GitHub runneru
+
+# Diagnostika: které zdroje jsou dosažitelné z GitHub-hosted runnerů (USA)?
+# Rozhoduje, zda může denní kontrola NOVÝCH zakázek běžet bez zapnutého PC
+# (ISVZ blokuje mimoevropské IP, ale je to měsíční zdroj — čerstvá data
+# nosí profily/PVU/NEN).
+
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe sources
+        run: |
+          probe() {
+            code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 30 \
+              -A "DOMISTAV-Tendry/1.0 (kontakt: domistav@domistav.cz)" "$2") || code=ERR
+            echo "$1: $code"
+          }
+          probe "ISVZ export"        "https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-06-2026.zip"
+          probe "PVU RSS"            "https://www.vhodne-uverejneni.cz/rss/zakazky"
+          probe "PVU profil XML"     "https://www.vhodne-uverejneni.cz/profil/obec-lodin/XMLdataVZ?od=01052026&do=31072026"
+          probe "NEN detail"         "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00023388"
+          probe "NEN profil XML"     "https://nen.nipez.cz/profil/mestohlinsko/XMLdataVZ?od=01052026&do=31072026"
+          probe "Tender arena XML"   "https://www.tenderarena.cz/profily/hradeckralove/XMLdataVZ?od=01072026&do=31072026"
+          probe "E-ZAK (Naviga)"     "https://zakazky.navigaassistance.cz/contract_index.html"
+          probe "Registr smluv dump" "https://data.smlouvy.gov.cz/dump_2026_07.xml"
+          probe "ARES"               "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/26007177"
