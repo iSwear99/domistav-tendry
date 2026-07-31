@@ -316,6 +316,7 @@ async function load() {
     state.smlouvy = (smlouvy && smlouvy.links) || {};
     state.zd = (dok && dok.zd) || {};
     state.zpravy = (dok && dok.zpravy) || {};
+    state.oblibene = (smlouvy && smlouvy.oblibene) || {};
     state.ai = (ai && ai.verdikty) || {};
     buildDf();
     buildModel();
@@ -475,6 +476,7 @@ function rowHTML(t) {
         ${nuts}${noNuts}
         ${t.kw_match ? '<span class="tag kw" title="Zachyceno podle názvu, CPV neodpovídá stavebním pracím">dle názvu</span>' : ""}
         ${t.link_dead ? '<span class="tag" title="Stránka detailu opakovaně vrací 404 — zakázka byla vyřazena z aktivních">odkaz nedostupný</span>' : ""}
+        ${t.no_activity ? '<span class="tag" title="Registrové torzo bez lhůty a stavu — ověřeno u zdroje (NEN/profil zadavatele) jako neaktivní; 21 dní se denně přeověřuje">neaktivní (ověřeno)</span>' : ""}
         ${(() => {
           const ai = (state.ai || {})[t.id];
           if (!ai) return "";
@@ -486,6 +488,8 @@ function rowHTML(t) {
         ${visit}${clar}${irrBadge}
       </div>
       ${zdLine(t)}
+      ${watchedContractLine(t)}
+      ${biddersHTML(t)}
       ${history}
     </div>
     ${val}
@@ -496,6 +500,25 @@ function rowHTML(t) {
       <button class="thumb${disliked ? " on" : ""}" title="Označit jako nerelevantní — podobné zakázky se přestanou zobrazovat" aria-pressed="${disliked}">👎</button>
     </span>
   </li>`;
+}
+
+// Nabídky účastníků řízení (z XML profilů zadavatelů) — kdo podává
+// nabídky a za kolik; funguje v Zakázkách, AI výběru i Konkurenci.
+function biddersHTML(x) {
+  if (!x.bidders || !x.bidders.length) return "";
+  const radky = x.bidders.map((b) =>
+    `<li>${esc(b.nazev)}${b.ico ? ` <small>IČO ${esc(b.ico)}</small>` : ""}`
+    + (b.cena != null ? ` — <b>${fmtKc.format(b.cena)} Kč</b>` : "")
+    + (b.vyloucen ? ' <small>(vyloučen)</small>' : "") + "</li>").join("");
+  return `<details class="hist"><summary>Nabídky účastníků (${x.bidders.length})</summary><ul>${radky}</ul></details>`;
+}
+
+// Smlouva k OBLÍBENÉ ★ zakázce dohledaná v Registru smluv (párování
+// běží 90 dní po lhůtě; data/smlouvy.json → oblibene).
+function watchedContractLine(t) {
+  const s = (state.oblibene || {})[t.id];
+  if (!s) return "";
+  return `<div class="zd">🏆 smlouva podepsána ${esc(fmtDate(s.date))}: ${esc(s.dodavatel || "?")}${s.price ? ` — <b>${fmtKc.format(s.price)} Kč bez DPH</b>` : ""} · <a href="${esc(s.url)}" target="_blank" rel="noopener">registr smluv</a></div>`;
 }
 
 // Řádek s poli vytěženými ze zadávací dokumentace (data/dokumenty.json).
@@ -679,6 +702,7 @@ function compRowHTML(c) {
         ${irrBadge}
       </div>
       ${paid}
+      ${biddersHTML(c)}
     </div>
     ${price}
     <span class="due">${esc((c.awarded || "").split("-").reverse().join("."))}<small>zadáno</small></span>
@@ -749,8 +773,10 @@ function renderAI() {
   const withNejisto = $("a-nejisto").checked;
   const withNoDeadline = $("a-nodeadline").checked;
   const shown = state.tenders.filter((t) => {
+    // pojistka: sledovanou ★ nesmí schovat ani automatický úklid torz
+    // (auto_expired) — zmizí až po skutečné lhůtě či ukončení řízení
+    if (state.watch.has(t.id) && (!t.expired || t.auto_expired)) return true;
     if (t.expired) return false;
-    if (state.watch.has(t.id)) return true;   // sledované ★ vždy
     if (state.noInterest.has(t.id)) return false;   // 🚫 nemám zájem
     const v = (state.ai || {})[t.id];
     if (!v || !(v.verdikt === "ano"
