@@ -1,27 +1,17 @@
 {
  "meta": {
-  "updated": "2026-07-28T19:50:51+00:00",
+  "updated": "2026-08-01T05:50:08+00:00",
   "months": [
-   "2026-06",
    "2026-07"
   ],
   "backfill": false,
-  "linked": 326,
-  "high": 247,
-  "low": 79,
+  "linked": 325,
+  "high": 239,
+  "low": 86,
+  "oblibene": 0,
   "errors": []
  },
  "links": {
-  "rvz:RVZ2500083812": {
-   "contract_id": "33287089",
-   "url": "https://smlouvy.gov.cz/smlouva/35485525",
-   "date": "2025-11-05",
-   "price": 10496276.21,
-   "confidence": "low",
-   "amendments": [],
-   "amendments_count": 0,
-   "amendments_total": 0
-  },
   "rvz:RVZ2500177231": {
    "contract_id": "33292205",
    "url": "https://smlouvy.gov.cz/smlouva/35490893",
@@ -68,16 +58,6 @@
    ],
    "amendments_count": 1,
    "amendments_total": 1525033.0
-  },
-  "rvz:RVZ2500118461": {
-   "contract_id": "32236621",
-   "url": "https://smlouvy.gov.cz/smlouva/34387965",
-   "date": "2025-08-07",
-   "price": 8968734.69,
-   "confidence": "high",
-   "amendments": [],
-   "amendments_count": 0,
-   "amendments_total": 0
   },
   "rvz:RVZ2500058336": {
    "contract_id": "33689185",
@@ -261,16 +241,6 @@
    "amendments_total": 0
   },
   "rvz:RVZ2500084769": {
-   "contract_id": "32243485",
-   "url": "https://smlouvy.gov.cz/smlouva/34394885",
-   "date": "2025-08-05",
-   "price": 69600000.0,
-   "confidence": "high",
-   "amendments": [],
-   "amendments_count": 0,
-   "amendments_total": 0
-  },
-  "rvz:RVZ2500167889": {
    "contract_id": "32243485",
    "url": "https://smlouvy.gov.cz/smlouva/34394885",
    "date": "2025-08-05",
@@ -784,29 +754,6 @@
    "amendments_count": 0,
    "amendments_total": 0
   },
-  "rvz:RVZ2500117678": {
-   "contract_id": "32454105",
-   "url": "https://smlouvy.gov.cz/smlouva/34615341",
-   "date": "2025-08-29",
-   "price": 2010427.16,
-   "confidence": "high",
-   "amendments": [
-    {
-     "id": "33867577",
-     "date": "2025-12-17",
-     "value": null,
-     "url": "https://smlouvy.gov.cz/smlouva/36093177"
-    },
-    {
-     "id": "35474641",
-     "date": "2026-04-29",
-     "value": null,
-     "url": "https://smlouvy.gov.cz/smlouva/37772101"
-    }
-   ],
-   "amendments_count": 2,
-   "amendments_total": 0
-  },
   "rvz:RVZ2500121820": {
    "contract_id": "33102829",
    "url": "https://smlouvy.gov.cz/smlouva/35292165",
@@ -1253,33 +1200,6 @@
    "amendments_count": 0,
    "amendments_total": 0
   },
-  "rvz:RVZ2500128102": {
-   "contract_id": "32732801",
-   "url": "https://smlouvy.gov.cz/smlouva/34906097",
-   "date": "2025-09-18",
-   "price": 660645.0,
-   "confidence": "high",
-   "amendments": [],
-   "amendments_count": 0,
-   "amendments_total": 0
-  },
-  "rvz:RVZ2500130006": {
-   "contract_id": "33917185",
-   "url": "https://smlouvy.gov.cz/smlouva/36145397",
-   "date": "2025-12-16",
-   "price": null,
-   "confidence": "low",
-   "amendments": [
-    {
-     "id": "33302585",
-     "date": "2025-11-03",
-     "value": null,
-     "url": "https://smlouvy.gov.cz/smlouva/35501545"
-    }
-   ],
-   "amendments_count": 1,
-   "amendments_total": 0
-  },
   "rvz:RVZ2500192553": {
    "contract_id": "32742953",
    "url": "https://smlouvy.gov.cz/smlouva/34916545",
@@ -1399,16 +1319,6 @@
    "url": "https://smlouvy.gov.cz/smlouva/35354753",
    "date": "2025-10-16",
    "price": 2227934.66,
-   "confidence": "high",
-   "amendments": [],
-   "amendments_count": 0,
-   "amendments_total": 0
-  },
-  "rvz:RVZ2500150798": {
-   "contract_id": "32851509",
-   "url": "https://smlouvy.gov.cz/smlouva/35029737",
-   "date": "2025-10-01",
-   "price": 6149190.53,
    "confidence": "high",
    "amendments": [],
    "amendments_count": 0,
@@ -1551,23 +1461,6 @@
    "amendments_count": 0,
    "amendments_total": 0
   },
-  "rvz:RVZ2500167403": {
-   "contract_id": "33193745",
-   "url": "https://smlouvy.gov.cz/smlouva/35386997",
-   "date": "2025-10-23",
-   "price": 767047.0,
-   "confidence": "low",
-   "amendments": [
-    {
-     "id": "33947085",
-     "date": "2025-12-18",
-     "value": 855137.38,
-     "url": "https://smlouvy.gov.cz/smlouva/36176909"
-    }
-   ],
-   "amendments_count": 1,
-   "amendments_total": 855137.38
-  },
   "rvz:RVZ2500215112": {
    "contract_id": "33160913",
    "url": "https://smlouvy.gov.cz/smlouva/35352709",
@@ -1695,9 +1588,15 @@
      "date": "2026-04-30",
      "value": 600053.74,
      "url": "https://smlouvy.gov.cz/smlouva/37818329"
+    },
+    {
+     "id": "36574954",
+     "date": "2026-07-28",
+     "value": null,
+     "url": "https://smlouvy.gov.cz/smlouva/38915730"
     }
    ],
-   "amendments_count": 2,
+   "amendments_count": 3,
    "amendments_total": 688653.74
   },
   "rvz:RVZ2500214454": {
@@ -1718,20 +1617,22 @@
      "date": "2026-04-30",
      "value": 43348371.3,
      "url": "https://smlouvy.gov.cz/smlouva/37836261"
+    },
+    {
+     "id": "36598118",
+     "date": "2026-07-29",
+     "value": 731293.43,
+     "url": "https://smlouvy.gov.cz/smlouva/38940070"
+    },
+    {
+     "id": "36598454",
+     "date": "2026-07-29",
+     "value": 1558262.83,
+     "url": "https://smlouvy.gov.cz/smlouva/38940438"
     }
    ],
-   "amendments_count": 2,
-   "amendments_total": 84380603.94
-  },
-  "rvz:RVZ2500220670": {
-   "contract_id": "33805205",
-   "url": "https://smlouvy.gov.cz/smlouva/36027797",
-   "date": "2025-12-11",
-   "price": 52680.0,
-   "confidence": "high",
-   "amendments": [],
-   "amendments_count": 0,
-   "amendments_total": 0
+   "amendments_count": 4,
+   "amendments_total": 86670160.2
   },
   "rvz:RVZ2500172749": {
    "contract_id": "33286093",
@@ -2530,26 +2431,6 @@
    "amendments_count": 0,
    "amendments_total": 0
   },
-  "rvz:RVZ2600050308": {
-   "contract_id": "34481441",
-   "url": "https://smlouvy.gov.cz/smlouva/36735837",
-   "date": "2026-02-09",
-   "price": 731010.51,
-   "confidence": "low",
-   "amendments": [],
-   "amendments_count": 0,
-   "amendments_total": 0
-  },
-  "rvz:RVZ2600001461": {
-   "contract_id": "34499801",
-   "url": "https://smlouvy.gov.cz/smlouva/36754845",
-   "date": "2026-02-10",
-   "price": 5999571.56,
-   "confidence": "high",
-   "amendments": [],
-   "amendments_count": 0,
-   "amendments_total": 0
-  },
   "rvz:RVZ2500208706": {
    "contract_id": "34521489",
    "url": "https://smlouvy.gov.cz/smlouva/36777561",
@@ -2565,16 +2446,6 @@
    "url": "https://smlouvy.gov.cz/smlouva/36872849",
    "date": "2026-02-19",
    "price": 910000.0,
-   "confidence": "high",
-   "amendments": [],
-   "amendments_count": 0,
-   "amendments_total": 0
-  },
-  "rvz:RVZ2500220806": {
-   "contract_id": "34592177",
-   "url": "https://smlouvy.gov.cz/smlouva/36851777",
-   "date": "2026-02-17",
-   "price": 2100777.66,
    "confidence": "high",
    "amendments": [],
    "amendments_count": 0,
@@ -2644,16 +2515,6 @@
    "amendments_count": 1,
    "amendments_total": 121460.0
   },
-  "rvz:RVZ2600072473": {
-   "contract_id": "34953861",
-   "url": "https://smlouvy.gov.cz/smlouva/37228049",
-   "date": "2026-03-19",
-   "price": 979272.81,
-   "confidence": "high",
-   "amendments": [],
-   "amendments_count": 0,
-   "amendments_total": 0
-  },
   "rvz:RVZ2600067472": {
    "contract_id": "34679613",
    "url": "https://smlouvy.gov.cz/smlouva/36942445",
@@ -2704,8 +2565,15 @@
    "date": "2026-06-12",
    "price": null,
    "confidence": "low",
-   "amendments": [],
-   "amendments_count": 0,
+   "amendments": [
+    {
+     "id": "36579910",
+     "date": "2026-07-22",
+     "value": null,
+     "url": "https://smlouvy.gov.cz/smlouva/38920982"
+    }
+   ],
+   "amendments_count": 1,
    "amendments_total": 0
   },
   "rvz:RVZ2500221753": {
@@ -2795,16 +2663,6 @@
    "amendments_count": 0,
    "amendments_total": 0
   },
-  "rvz:RVZ2600070607": {
-   "contract_id": "34851809",
-   "url": "https://smlouvy.gov.cz/smlouva/37121541",
-   "date": "2026-03-10",
-   "price": 8932269.0,
-   "confidence": "high",
-   "amendments": [],
-   "amendments_count": 0,
-   "amendments_total": 0
-  },
   "rvz:RVZ2600069418": {
    "contract_id": "34853569",
    "url": "https://smlouvy.gov.cz/smlouva/37123409",
@@ -2836,10 +2694,10 @@
    "amendments_total": 0
   },
   "rvz:RVZ2600070515": {
-   "contract_id": "36473324",
-   "url": "https://smlouvy.gov.cz/smlouva/38810296",
-   "date": "2026-07-14",
-   "price": 54400.0,
+   "contract_id": "36600502",
+   "url": "https://smlouvy.gov.cz/smlouva/38942562",
+   "date": "2026-07-27",
+   "price": 69500.0,
    "confidence": "low",
    "amendments": [],
    "amendments_count": 0,
@@ -2964,16 +2822,6 @@
    "url": "https://smlouvy.gov.cz/smlouva/37381809",
    "date": "2026-03-27",
    "price": 662809.52,
-   "confidence": "high",
-   "amendments": [],
-   "amendments_count": 0,
-   "amendments_total": 0
-  },
-  "rvz:RVZ2600077930": {
-   "contract_id": "35247289",
-   "url": "https://smlouvy.gov.cz/smlouva/37534313",
-   "date": "2026-04-10",
-   "price": 3591479.64,
    "confidence": "high",
    "amendments": [],
    "amendments_count": 0,
@@ -3189,16 +3037,6 @@
    "amendments_count": 0,
    "amendments_total": 0
   },
-  "rvz:RVZ2600085229": {
-   "contract_id": "35462469",
-   "url": "https://smlouvy.gov.cz/smlouva/37759209",
-   "date": "2026-04-28",
-   "price": 204798.0,
-   "confidence": "high",
-   "amendments": [],
-   "amendments_count": 0,
-   "amendments_total": 0
-  },
   "rvz:RVZ2500085052": {
    "contract_id": "32374933",
    "url": "https://smlouvy.gov.cz/smlouva/37762261",
@@ -3311,16 +3149,6 @@
    "url": "https://smlouvy.gov.cz/smlouva/37899565",
    "date": "2026-05-07",
    "price": 1432795.03,
-   "confidence": "high",
-   "amendments": [],
-   "amendments_count": 0,
-   "amendments_total": 0
-  },
-  "rvz:RVZ2600081269": {
-   "contract_id": "35614241",
-   "url": "https://smlouvy.gov.cz/smlouva/37917001",
-   "date": "2026-05-11",
-   "price": 459252.21,
    "confidence": "high",
    "amendments": [],
    "amendments_count": 0,
@@ -3448,36 +3276,6 @@
    "url": "https://smlouvy.gov.cz/smlouva/38420130",
    "date": "2026-06-16",
    "price": 40593471.51,
-   "confidence": "high",
-   "amendments": [],
-   "amendments_count": 0,
-   "amendments_total": 0
-  },
-  "rvz:RVZ2600096342": {
-   "contract_id": "35780993",
-   "url": "https://smlouvy.gov.cz/smlouva/38091633",
-   "date": "2026-05-22",
-   "price": 4842650.0,
-   "confidence": "high",
-   "amendments": [],
-   "amendments_count": 0,
-   "amendments_total": 0
-  },
-  "rvz:RVZ2600096343": {
-   "contract_id": "35780993",
-   "url": "https://smlouvy.gov.cz/smlouva/38091633",
-   "date": "2026-05-22",
-   "price": 4842650.0,
-   "confidence": "low",
-   "amendments": [],
-   "amendments_count": 0,
-   "amendments_total": 0
-  },
-  "rvz:RVZ2500227188": {
-   "contract_id": "35781401",
-   "url": "https://smlouvy.gov.cz/smlouva/38092057",
-   "date": "2026-05-12",
-   "price": 98859411.0,
    "confidence": "high",
    "amendments": [],
    "amendments_count": 0,
@@ -3683,16 +3481,6 @@
    "amendments_count": 0,
    "amendments_total": 0
   },
-  "rvz:RVZ2600080760": {
-   "contract_id": "36042703",
-   "url": "https://smlouvy.gov.cz/smlouva/38363383",
-   "date": "2026-06-09",
-   "price": 1781338.91,
-   "confidence": "high",
-   "amendments": [],
-   "amendments_count": 0,
-   "amendments_total": 0
-  },
   "rvz:RVZ2600076732": {
    "contract_id": "36051664",
    "url": "https://smlouvy.gov.cz/smlouva/38371765",
@@ -3823,16 +3611,6 @@
    "amendments_count": 0,
    "amendments_total": 0
   },
-  "rvz:RVZ2600088610": {
-   "contract_id": "36150006",
-   "url": "https://smlouvy.gov.cz/smlouva/38473890",
-   "date": "2026-06-22",
-   "price": 1524031.46,
-   "confidence": "low",
-   "amendments": [],
-   "amendments_count": 0,
-   "amendments_total": 0
-  },
   "rvz:RVZ2600081363": {
    "contract_id": "36162402",
    "url": "https://smlouvy.gov.cz/smlouva/38486934",
@@ -3912,6 +3690,217 @@
    "amendments": [],
    "amendments_count": 0,
    "amendments_total": 0
+  },
+  "profil:chrudim:VZ-523": {
+   "contract_id": "36491574",
+   "url": "https://smlouvy.gov.cz/smlouva/38829274",
+   "date": "2026-07-16",
+   "price": 1869540.44,
+   "confidence": "high",
+   "amendments": [],
+   "amendments_count": 0,
+   "amendments_total": 0
+  },
+  "rvz:RVZ2600072613": {
+   "contract_id": "36283328",
+   "url": "https://smlouvy.gov.cz/smlouva/38612420",
+   "date": "2026-07-01",
+   "price": 8179127.97,
+   "confidence": "high",
+   "amendments": [],
+   "amendments_count": 0,
+   "amendments_total": 0
+  },
+  "rvz:RVZ2600080421": {
+   "contract_id": "36283328",
+   "url": "https://smlouvy.gov.cz/smlouva/38612420",
+   "date": "2026-07-01",
+   "price": 8179127.97,
+   "confidence": "low",
+   "amendments": [],
+   "amendments_count": 0,
+   "amendments_total": 0
+  },
+  "rvz:RVZ2600096709": {
+   "contract_id": "36315680",
+   "url": "https://smlouvy.gov.cz/smlouva/38646012",
+   "date": "2026-07-02",
+   "price": 169808.08,
+   "confidence": "low",
+   "amendments": [],
+   "amendments_count": 0,
+   "amendments_total": 0
+  },
+  "profil:chrudim:VZ-518": {
+   "contract_id": "36332224",
+   "url": "https://smlouvy.gov.cz/smlouva/38662988",
+   "date": "2026-06-26",
+   "price": 1771177.0,
+   "confidence": "high",
+   "amendments": [],
+   "amendments_count": 0,
+   "amendments_total": 0
+  },
+  "profil:chrudim:VZ-509": {
+   "contract_id": "36332224",
+   "url": "https://smlouvy.gov.cz/smlouva/38662988",
+   "date": "2026-06-26",
+   "price": 1771177.0,
+   "confidence": "low",
+   "amendments": [],
+   "amendments_count": 0,
+   "amendments_total": 0
+  },
+  "rvz:RVZ2600077772": {
+   "contract_id": "36355696",
+   "url": "https://smlouvy.gov.cz/smlouva/38687828",
+   "date": "2026-07-08",
+   "price": 6998785.59,
+   "confidence": "high",
+   "amendments": [],
+   "amendments_count": 0,
+   "amendments_total": 0
+  },
+  "profil:trutnov:VZ-1807": {
+   "contract_id": "36366324",
+   "url": "https://smlouvy.gov.cz/smlouva/38698896",
+   "date": "2026-07-07",
+   "price": 279800.0,
+   "confidence": "high",
+   "amendments": [],
+   "amendments_count": 0,
+   "amendments_total": 0
+  },
+  "rvz:RVZ2600085140": {
+   "contract_id": "36600270",
+   "url": "https://smlouvy.gov.cz/smlouva/38942326",
+   "date": "2026-07-29",
+   "price": 3097777.35,
+   "confidence": "low",
+   "amendments": [],
+   "amendments_count": 0,
+   "amendments_total": 0
+  },
+  "profil:kr-kralovehradecky:VZ-12364": {
+   "contract_id": "36398900",
+   "url": "https://smlouvy.gov.cz/smlouva/38732440",
+   "date": "2026-07-09",
+   "price": 3463509.2,
+   "confidence": "low",
+   "amendments": [],
+   "amendments_count": 0,
+   "amendments_total": 0
+  },
+  "rvz:RVZ2600082267": {
+   "contract_id": "36483398",
+   "url": "https://smlouvy.gov.cz/smlouva/38820674",
+   "date": "2026-07-17",
+   "price": 54384.0,
+   "confidence": "low",
+   "amendments": [],
+   "amendments_count": 0,
+   "amendments_total": 0
+  },
+  "rvz:RVZ2600088267": {
+   "contract_id": "36497334",
+   "url": "https://smlouvy.gov.cz/smlouva/38835218",
+   "date": "2026-07-20",
+   "price": 305600.0,
+   "confidence": "low",
+   "amendments": [],
+   "amendments_count": 0,
+   "amendments_total": 0
+  },
+  "profil:trutnov:VZ-1783": {
+   "contract_id": "36501110",
+   "url": "https://smlouvy.gov.cz/smlouva/38839142",
+   "date": "2026-07-16",
+   "price": 10821341.0,
+   "confidence": "high",
+   "amendments": [],
+   "amendments_count": 0,
+   "amendments_total": 0
+  },
+  "rvz:RVZ2600096694": {
+   "contract_id": "36502682",
+   "url": "https://smlouvy.gov.cz/smlouva/38840766",
+   "date": "2026-07-20",
+   "price": 180660.0,
+   "confidence": "low",
+   "amendments": [],
+   "amendments_count": 0,
+   "amendments_total": 0
+  },
+  "rvz:RVZ2600099359": {
+   "contract_id": "36505358",
+   "url": "https://smlouvy.gov.cz/smlouva/38843602",
+   "date": "2026-07-20",
+   "price": 786091.23,
+   "confidence": "low",
+   "amendments": [],
+   "amendments_count": 0,
+   "amendments_total": 0
+  },
+  "profil:kr-kralovehradecky:VZ-12890": {
+   "contract_id": "36528278",
+   "url": "https://smlouvy.gov.cz/smlouva/38867430",
+   "date": "2026-07-23",
+   "price": 974995.0,
+   "confidence": "high",
+   "amendments": [],
+   "amendments_count": 0,
+   "amendments_total": 0
+  },
+  "profil:kr-kralovehradecky:VZ-12874": {
+   "contract_id": "36528278",
+   "url": "https://smlouvy.gov.cz/smlouva/38867430",
+   "date": "2026-07-23",
+   "price": 974995.0,
+   "confidence": "low",
+   "amendments": [],
+   "amendments_count": 0,
+   "amendments_total": 0
+  },
+  "rvz:RVZ2600099367": {
+   "contract_id": "36565534",
+   "url": "https://smlouvy.gov.cz/smlouva/38905906",
+   "date": "2026-07-24",
+   "price": 3287777.0,
+   "confidence": "low",
+   "amendments": [],
+   "amendments_count": 0,
+   "amendments_total": 0
+  },
+  "profil:kr-kralovehradecky:VZ-12435": {
+   "contract_id": "36578786",
+   "url": "https://smlouvy.gov.cz/smlouva/38919850",
+   "date": "2026-07-20",
+   "price": null,
+   "confidence": "low",
+   "amendments": [],
+   "amendments_count": 0,
+   "amendments_total": 0
+  },
+  "profil:kr-kralovehradecky:VZ-12821": {
+   "contract_id": "36599322",
+   "url": "https://smlouvy.gov.cz/smlouva/38941318",
+   "date": "2026-07-29",
+   "price": 1927158.22,
+   "confidence": "high",
+   "amendments": [],
+   "amendments_count": 0,
+   "amendments_total": 0
+  },
+  "rvz:RVZ2600076061": {
+   "contract_id": "36604386",
+   "url": "https://smlouvy.gov.cz/smlouva/38946594",
+   "date": "2026-07-29",
+   "price": 203947.0,
+   "confidence": "low",
+   "amendments": [],
+   "amendments_count": 0,
+   "amendments_total": 0
   }
- }
+ },
+ "oblibene": {}
 }
