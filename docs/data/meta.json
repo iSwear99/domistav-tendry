@@ -1,12 +1,12 @@
 {
- "updated": "2026-08-02T11:51:15+00:00",
+ "updated": "2026-08-02T17:15:02+00:00",
  "counts": {
-  "total": 6556,
-  "vz": 3908,
-  "vzmr": 2648,
-  "active": 43,
-  "changed": 16,
-  "competition": 1117,
+  "total": 6733,
+  "vz": 4038,
+  "vzmr": 2695,
+  "active": 125,
+  "changed": 47,
+  "competition": 1229,
   "previous": 6556
  },
  "errors": []

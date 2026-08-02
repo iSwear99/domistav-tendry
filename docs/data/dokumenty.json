@@ -1,10 +1,12 @@
 {
  "meta": {
-  "updated": "2026-08-02T11:51:16+00:00",
-  "zd": 418,
-  "zpravy": 1117,
-  "novych": 0,
-  "errors": []
+  "updated": "2026-08-02T17:19:01+00:00",
+  "zd": 484,
+  "zpravy": 1229,
+  "novych": 13,
+  "errors": [
+   "dokumenty rvz:RVZ2600109017: soubor přes limit velikosti"
+  ]
  },
  "zd": {
   "rvz:RVZ2600078991": {
@@ -1303,6 +1305,218 @@
    "doc_url": "https://zakazky.chrudim-city.cz/document_download_7656.html"
   },
   "rvz:RVZ2600085337": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600107915": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108124": {
+   "doc_url": "https://nen.nipez.cz/file?id=4538819228",
+   "misto": "misto plneni: projekt bude realizovan v arealu karlov 245, psc 284 01, ve stredoceskem kraji.",
+   "termin": "predpokladany termin zahajeni plneni je: od predani mista plneni (misto provadeni dila) zhotoviteli termin"
+  },
+  "rvz:RVZ2600108933": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600112459": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600107609": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600107953": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600111357": {
+   "doc_url": "https://nen.nipez.cz/file?id=4557503247",
+   "hodnota": 11290000.0,
+   "misto": "..................................................................................... 17",
+   "termin": "...................................................................................... 18"
+  },
+  "rvz:RVZ2600112449": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600105512": {
+   "doc_url": "https://zakazky.mukolin.cz/contract_display_1534.html?open=doc_zad"
+  },
+  "rvz:RVZ2600109017": {
+   "doc_url": "https://nen.nipez.cz/file?id=4545015942",
+   "chyba": "soubor přes limit velikosti"
+  },
+  "rvz:RVZ2600113777": {
+   "doc_url": "https://nen.nipez.cz/file?id=4569605179",
+   "misto": "8.1. doba plneni verejne zakazky",
+   "termin": "realizace bude provedena v obdobi od 1.9.2026 do 18.11.2026. dobu realizace zakazky navrhne dodavatel"
+  },
+  "rvz:RVZ2600111059": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108640": {
+   "doc_url": "https://nen.nipez.cz/file?id=4543393210",
+   "misto": "pageref _toc225861319 \\h 3 3. pozadavky na pocet nabidek a varianty na",
+   "termin": "je zadavatelem pozadovana do 31. 5 . 202 7 . misto plneni vz mistem plneni predmetu vz"
+  },
+  "rvz:RVZ2600104503": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600085284": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600109246": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600097551": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600113595": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600111067": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600102950": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600113793": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600112485": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600103690": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600110813": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600100449": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600099859": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600110608": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600107591": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600109236": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600104837": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600111097": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600105160": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600109815": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600111066": {
+   "doc_url": "https://zakazky.pardubickykraj.cz/contract_display_6244.html?open=doc_zad",
+   "hodnota": 2100000.0,
+   "misto": "pardubicky kraj"
+  },
+  "rvz:RVZ2600111966": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600112522": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600109413": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600109786": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600111940": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600111972": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600111143": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600112543": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600065566": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600111101": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600113137": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600109504": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600113849": {
+   "doc_url": "https://zakazky.kutnahora.cz/contract_display_597.html?open=doc_zad",
+   "hodnota": 5000000.0,
+   "misto": "kutna hora"
+  },
+  "rvz:RVZ2600109511": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600110130": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600112280": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600112897": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600113854": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600113714": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600113956": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600107595": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600113859": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600107250": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600111804": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600110751": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600111941": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600109500": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600113207": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600110401": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600109191": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600113669": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108673": {
    "nenalezeno": true
   }
  },
@@ -4681,6 +4895,347 @@
    "doc_url": "https://zakazky.cenakhk.cz/document_download_132518.html"
   },
   "profil:kr-kralovehradecky:VZ-12098": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600113920": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600085611": {
+   "doc_url": "https://nen.nipez.cz/file?id=4568070287",
+   "vitez": "obchodni nazev: marhold a.s.",
+   "cena": 51826235.22
+  },
+  "rvz:RVZ2600101776": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600113669": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600113282": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600080195": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600113435": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600101319": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600113736": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600112787": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600112511": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108507": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108502": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108510": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108513": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108500": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108516": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600111842": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600111844": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500076048": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500221664": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600077624": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600097508": {
+   "doc_url": "https://nen.nipez.cz/file?id=4558367946",
+   "cena": 1830000.0
+  },
+  "rvz:RVZ2600111941": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600111367": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600111519": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600071056": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600101615": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600110982": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600111154": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600113455": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600113727": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600096524": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600067181": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600110447": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600104852": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600110904": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600110249": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600110453": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500091993": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600079785": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600110036": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600104055": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600078269": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600072782": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600109956": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600105843": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600077763": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600075869": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600109677": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108866": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600110038": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600103538": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600101297": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108526": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108527": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108672": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600072034": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600072043": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600087357": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600096646": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600096704": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600111804": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600104442": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600112399": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600071373": {
+   "doc_url": "https://nen.nipez.cz/file?id=4538558619",
+   "cena": 30973922.0
+  },
+  "rvz:RVZ2600071374": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600087084": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600109198": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500116915": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600072608": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600097416": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600100989": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600110369": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600113479": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600109898": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600109793": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600113149": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600067825": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600111755": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600050997": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600109191": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600083951": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600107518": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600079363": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108184": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600109763": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600110691": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600053283": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600069769": {
+   "doc_url": "https://nen.nipez.cz/file?id=4561096745"
+  },
+  "rvz:RVZ2600110401": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600107541": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600078437": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600109739": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500067298": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108650": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108220": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108238": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108217": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600107670": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600107555": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600073227": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600107557": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600109500": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600109458": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600071560": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600069177": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600069978": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108998": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500213452": {
+   "doc_url": "https://nen.nipez.cz/file?id=4345795362",
+   "cena": 59747649.49
+  },
+  "rvz:RVZ2600067513": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500151709": {
    "nenalezeno": true
   }
  }

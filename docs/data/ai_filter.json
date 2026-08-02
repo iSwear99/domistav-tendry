@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-08-02T11:51:17+00:00",
+  "updated": "2026-08-02T17:20:16+00:00",
   "model": "claude-opus-5",
-  "posouzeno_nyni": 0,
-  "celkem": 418,
+  "posouzeno_nyni": 66,
+  "celkem": 484,
   "counts": {
-   "ano": 221,
-   "ne": 126,
-   "nejisto": 71
+   "ano": 244,
+   "ne": 155,
+   "nejisto": 85
   },
   "errors": []
  },
@@ -1683,6 +1683,270 @@
   "rvz:RVZ2600085337": {
    "verdikt": "ano",
    "duvod": "Stavební práce na budově základní školy"
+  },
+  "rvz:RVZ2600107915": {
+   "verdikt": "nejisto",
+   "duvod": "Převažuje dodávka interiéru/nábytku, částečně stavební práce"
+  },
+  "rvz:RVZ2600108124": {
+   "verdikt": "nejisto",
+   "duvod": "Obecné CPV, pravděpodobně vodohospodářské opatření v areálu"
+  },
+  "rvz:RVZ2600108933": {
+   "verdikt": "nejisto",
+   "duvod": "Výstavba domova seniorů, ale včetně provozu služeb"
+  },
+  "rvz:RVZ2600112459": {
+   "verdikt": "nejisto",
+   "duvod": "Dodávka a montáž klimatizace, minimální stavební část"
+  },
+  "rvz:RVZ2600107609": {
+   "verdikt": "nejisto",
+   "duvod": "Fotovoltaika, hraničí s energetickými úsporami budov"
+  },
+  "rvz:RVZ2600107953": {
+   "verdikt": "nejisto",
+   "duvod": "Fotovoltaika, hraničí s energetickými úsporami budov"
+  },
+  "rvz:RVZ2600111357": {
+   "verdikt": "nejisto",
+   "duvod": "Veřejné prostranství, zeleň, mobiliář, komunikace"
+  },
+  "rvz:RVZ2600112449": {
+   "verdikt": "ano",
+   "duvod": "Výměna okenních výplní na budově"
+  },
+  "rvz:RVZ2600105512": {
+   "verdikt": "ne",
+   "duvod": "Komunikace, kanalizace, vodovod, osvětlení"
+  },
+  "rvz:RVZ2600109017": {
+   "verdikt": "ano",
+   "duvod": "Rekonstrukce objektu policie, shodné s historií"
+  },
+  "rvz:RVZ2600113777": {
+   "verdikt": "ano",
+   "duvod": "Sanace zdiva školní budovy, hydroizolace"
+  },
+  "rvz:RVZ2600111059": {
+   "verdikt": "ano",
+   "duvod": "Sportovní objekt a zázemí, pozemní stavba"
+  },
+  "rvz:RVZ2600108640": {
+   "verdikt": "ne",
+   "duvod": "Elektrotechnologie rozvodny, nikoli pozemní stavba"
+  },
+  "rvz:RVZ2600104503": {
+   "verdikt": "ano",
+   "duvod": "Novostavba bytového domu"
+  },
+  "rvz:RVZ2600085284": {
+   "verdikt": "ano",
+   "duvod": "Výstavba základní školy, pozemní stavitelství"
+  },
+  "rvz:RVZ2600109246": {
+   "verdikt": "ne",
+   "duvod": "Opravy železničních dvojkolí"
+  },
+  "rvz:RVZ2600097551": {
+   "verdikt": "ne",
+   "duvod": "Drážní zabezpečovací zařízení"
+  },
+  "rvz:RVZ2600113595": {
+   "verdikt": "nejisto",
+   "duvod": "Oprava mlatových cest v parku"
+  },
+  "rvz:RVZ2600111067": {
+   "verdikt": "ne",
+   "duvod": "Služby silniční laboratoře, zkoušky a dozor"
+  },
+  "rvz:RVZ2600102950": {
+   "verdikt": "ne",
+   "duvod": "Opravy strojního zařízení elektrárny"
+  },
+  "rvz:RVZ2600113793": {
+   "verdikt": "ne",
+   "duvod": "Revitalizace vodního toku"
+  },
+  "rvz:RVZ2600112485": {
+   "verdikt": "ne",
+   "duvod": "Rekonstrukce lesní cesty"
+  },
+  "rvz:RVZ2600103690": {
+   "verdikt": "ne",
+   "duvod": "Energetické dílo, transformovna"
+  },
+  "rvz:RVZ2600110813": {
+   "verdikt": "ne",
+   "duvod": "Kanalizace a čištění odpadních vod"
+  },
+  "rvz:RVZ2600100449": {
+   "verdikt": "nejisto",
+   "duvod": "Nejasný předmět, CPV inženýrské služby"
+  },
+  "rvz:RVZ2600099859": {
+   "verdikt": "ano",
+   "duvod": "Zkapacitnění výjezdového stanoviště – pozemní stavba"
+  },
+  "rvz:RVZ2600110608": {
+   "verdikt": "ano",
+   "duvod": "Rekonstrukce a přestavba budovy kotelny na centrum"
+  },
+  "rvz:RVZ2600107591": {
+   "verdikt": "ne",
+   "duvod": "Energetické dílo, kotel a teplárna"
+  },
+  "rvz:RVZ2600109236": {
+   "verdikt": "ano",
+   "duvod": "Rekonstrukce zámku – pozemní stavitelství"
+  },
+  "rvz:RVZ2600104837": {
+   "verdikt": "ne",
+   "duvod": "Údržba strojního zařízení"
+  },
+  "rvz:RVZ2600111097": {
+   "verdikt": "ne",
+   "duvod": "Opravy drážních vozidel"
+  },
+  "rvz:RVZ2600105160": {
+   "verdikt": "ne",
+   "duvod": "Opravy elektrických komponentů vozidel"
+  },
+  "rvz:RVZ2600109815": {
+   "verdikt": "ne",
+   "duvod": "Dodávka a montáž bezpečnostních systémů"
+  },
+  "rvz:RVZ2600111066": {
+   "verdikt": "ano",
+   "duvod": "Výstavba nové budovy zdravotnického zařízení"
+  },
+  "rvz:RVZ2600111966": {
+   "verdikt": "ne",
+   "duvod": "Dodávka techniky"
+  },
+  "rvz:RVZ2600112522": {
+   "verdikt": "ne",
+   "duvod": "Servis manipulační techniky"
+  },
+  "rvz:RVZ2600109413": {
+   "verdikt": "ano",
+   "duvod": "Rekonstrukce budovy pro muzeum"
+  },
+  "rvz:RVZ2600109786": {
+   "verdikt": "ano",
+   "duvod": "Výstavba budovy pro údržbu"
+  },
+  "rvz:RVZ2600111940": {
+   "verdikt": "ano",
+   "duvod": "Stavební úpravy školního pavilonu stravování"
+  },
+  "rvz:RVZ2600111972": {
+   "verdikt": "ne",
+   "duvod": "Dodávka gastrotechnologie, ne stavební práce"
+  },
+  "rvz:RVZ2600111143": {
+   "verdikt": "nejisto",
+   "duvod": "Výstavba areálu, rozsah stavebních prací neznámý"
+  },
+  "rvz:RVZ2600112543": {
+   "verdikt": "ne",
+   "duvod": "Energetické dílo – multipalivový kotel"
+  },
+  "rvz:RVZ2600065566": {
+   "verdikt": "ano",
+   "duvod": "Parkovací dům – pozemní stavba"
+  },
+  "rvz:RVZ2600111101": {
+   "verdikt": "nejisto",
+   "duvod": "Výstavba vojenského areálu, nejasný charakter"
+  },
+  "rvz:RVZ2600113137": {
+   "verdikt": "ano",
+   "duvod": "Tělocvična a zbrojnice – pozemní stavba"
+  },
+  "rvz:RVZ2600109504": {
+   "verdikt": "ne",
+   "duvod": "Železniční stavba"
+  },
+  "rvz:RVZ2600113849": {
+   "verdikt": "ne",
+   "duvod": "Projektová dokumentace"
+  },
+  "rvz:RVZ2600109511": {
+   "verdikt": "ne",
+   "duvod": "Drážní zabezpečovací zařízení"
+  },
+  "rvz:RVZ2600110130": {
+   "verdikt": "ano",
+   "duvod": "Výstavba mateřské školy"
+  },
+  "rvz:RVZ2600112280": {
+   "verdikt": "ne",
+   "duvod": "Dodávka kotle na biomasu"
+  },
+  "rvz:RVZ2600112897": {
+   "verdikt": "ne",
+   "duvod": "Servis měřicí techniky, nikoli stavební práce"
+  },
+  "rvz:RVZ2600113854": {
+   "verdikt": "ne",
+   "duvod": "Dodávka IT vybavení bez stavebních prací"
+  },
+  "rvz:RVZ2600113714": {
+   "verdikt": "ne",
+   "duvod": "Dodávka audiovizuální technologie, ne stavba"
+  },
+  "rvz:RVZ2600113956": {
+   "verdikt": "ano",
+   "duvod": "Novostavba objektů útulku a služebny"
+  },
+  "rvz:RVZ2600107595": {
+   "verdikt": "ne",
+   "duvod": "Geotechnické průzkumy pro komunikace"
+  },
+  "rvz:RVZ2600113859": {
+   "verdikt": "ne",
+   "duvod": "Energetické dílo, teplárenská technologie"
+  },
+  "rvz:RVZ2600107250": {
+   "verdikt": "nejisto",
+   "duvod": "Dálniční odpočívka, možná i pozemní objekty"
+  },
+  "rvz:RVZ2600111804": {
+   "verdikt": "nejisto",
+   "duvod": "Nabíjecí stanice, převážně elektroinstalace"
+  },
+  "rvz:RVZ2600110751": {
+   "verdikt": "ano",
+   "duvod": "Výstavba komunitního centra, pozemní stavba"
+  },
+  "rvz:RVZ2600111941": {
+   "verdikt": "ne",
+   "duvod": "Opravy vojenské techniky"
+  },
+  "rvz:RVZ2600109500": {
+   "verdikt": "ano",
+   "duvod": "Stavební rekonstrukce muzejní budovy"
+  },
+  "rvz:RVZ2600113207": {
+   "verdikt": "ano",
+   "duvod": "Stavební úpravy nemocničního pavilonu"
+  },
+  "rvz:RVZ2600110401": {
+   "verdikt": "ano",
+   "duvod": "Přestavba budovy, pozemní stavitelství"
+  },
+  "rvz:RVZ2600109191": {
+   "verdikt": "ano",
+   "duvod": "Rekonstrukce podlahy haly, stavební práce"
+  },
+  "rvz:RVZ2600113669": {
+   "verdikt": "ano",
+   "duvod": "Novostavba bytových domů"
+  },
+  "rvz:RVZ2600108673": {
+   "verdikt": "nejisto",
+   "duvod": "Strojně technologická část rozvodny NN"
   }
  }
 }
