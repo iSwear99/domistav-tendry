@@ -10118,7 +10118,7 @@
  },
  {
   "id": "rvz:RVZ2600083884",
-  "source": "profil:hlinsko",
+  "source": "isvz",
   "title": "ZŠ Ležáků oprava sociálních zařízení WC chlapci a WC dívky",
   "authority": "Město Hlinsko",
   "authority_ico": "00270059",
@@ -10129,15 +10129,14 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 50,
+  "dist_km": 49,
   "loc_unknown": false,
   "cpv": [
    "45000000"
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00012960",
-  "registr_url": "https://smlouvy.gov.cz/smlouva/37758765"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00012960"
  },
  {
   "id": "rvz:RVZ2600084832",
@@ -25987,16 +25986,16 @@
  },
  {
   "id": "rvz:RVZ2500129727",
-  "source": "profil:pardubice",
+  "source": "isvz",
   "title": "Výměna výtahu Štrossova č.p. 44, Pardubice",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
   "winner": "OTIS a.s.",
   "winner_ico": "42324254",
   "awarded": "2025-09-22",
-  "price_contracted": 1650.0,
+  "price_contracted": 1197260.0,
   "estimated": false,
-  "price_paid": null,
+  "price_paid": 0.0,
   "growth_pct": null,
   "dist_km": 19,
   "loc_unknown": false,
@@ -26005,15 +26004,7 @@
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00019986",
-  "bidders": [
-   {
-    "nazev": "OTIS a.s.",
-    "ico": "42324254",
-    "cena": null,
-    "vyloucen": false
-   }
-  ]
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00019986"
  },
  {
   "id": "rvz:RVZ2500097037",

@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-08-03T16:45:35+00:00",
+  "updated": "2026-08-03T18:08:13+00:00",
   "model": "claude-opus-5",
   "posouzeno_nyni": 4,
   "celkem": 488,
   "counts": {
-   "ano": 246,
-   "ne": 157,
-   "nejisto": 85
+   "ano": 245,
+   "ne": 156,
+   "nejisto": 87
   },
   "errors": []
  },
@@ -1949,16 +1949,16 @@
    "duvod": "Strojně technologická část rozvodny NN"
   },
   "profil:pvu:00240711:P26V00004933": {
-   "verdikt": "ano",
-   "duvod": "Rekonstrukce školního sportovního hřiště, zpevněné plochy"
+   "verdikt": "nejisto",
+   "duvod": "Sportovní hřiště – hraniční, spíše venkovní plochy"
   },
   "profil:pvu:00240711:P26V00005115": {
    "verdikt": "ano",
    "duvod": "Vestavba apartmánu ve sportovním objektu"
   },
   "profil:pvu:05369495:P26V00005107": {
-   "verdikt": "ne",
-   "duvod": "Lesní cesta, dopravní stavba"
+   "verdikt": "nejisto",
+   "duvod": "Nejasný předmět, pravděpodobně lesní cesta"
   },
   "profil:pvu:05369495:P26V00005121": {
    "verdikt": "ne",

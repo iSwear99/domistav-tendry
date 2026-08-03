@@ -85,6 +85,20 @@
    "label": "vysvětlení ZD",
    "old": "3",
    "new": "0"
+  },
+  {
+   "date": "2026-08-03",
+   "field": "value",
+   "label": "hodnota",
+   "old": "—",
+   "new": "54 438 252 Kč"
+  },
+  {
+   "date": "2026-08-03",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "0",
+   "new": "3"
   }
  ],
  "rvz:RVZ2500008540": [
@@ -261,6 +275,20 @@
    "label": "vysvětlení ZD",
    "old": "2",
    "new": "0"
+  },
+  {
+   "date": "2026-08-03",
+   "field": "value",
+   "label": "hodnota",
+   "old": "—",
+   "new": "22 021 248 Kč"
+  },
+  {
+   "date": "2026-08-03",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "0",
+   "new": "2"
   }
  ],
  "rvz:RVZ2600073073": [
@@ -321,6 +349,13 @@
    "label": "lhůta",
    "old": "2026-04-13 10:00",
    "new": "—"
+  },
+  {
+   "date": "2026-08-03",
+   "field": "deadline",
+   "label": "lhůta",
+   "old": "—",
+   "new": "2026-04-13 10:00"
   }
  ],
  "rvz:RVZ2600099758": [
@@ -351,6 +386,13 @@
    "label": "lhůta",
    "old": "2026-06-08 12:00",
    "new": "—"
+  },
+  {
+   "date": "2026-08-03",
+   "field": "deadline",
+   "label": "lhůta",
+   "old": "—",
+   "new": "2026-06-08 12:00"
   }
  ],
  "profil:kr-pardubicky:VZ-6283": [
@@ -411,6 +453,20 @@
    "label": "vysvětlení ZD",
    "old": "2",
    "new": "0"
+  },
+  {
+   "date": "2026-08-03",
+   "field": "value",
+   "label": "hodnota",
+   "old": "—",
+   "new": "25 112 786 Kč"
+  },
+  {
+   "date": "2026-08-03",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "0",
+   "new": "2"
   }
  ],
  "rvz:RVZ2400192761": [
@@ -434,6 +490,13 @@
    "label": "vysvětlení ZD",
    "old": "7",
    "new": "0"
+  },
+  {
+   "date": "2026-08-03",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "0",
+   "new": "7"
   }
  ],
  "rvz:RVZ2600037136": [
@@ -457,6 +520,13 @@
    "label": "vysvětlení ZD",
    "old": "2",
    "new": "0"
+  },
+  {
+   "date": "2026-08-03",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "0",
+   "new": "2"
   }
  ],
  "rvz:RVZ2600074641": [
@@ -480,6 +550,13 @@
    "label": "vysvětlení ZD",
    "old": "1",
    "new": "0"
+  },
+  {
+   "date": "2026-08-03",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "0",
+   "new": "1"
   }
  ],
  "rvz:RVZ2600085140": [
@@ -524,6 +601,20 @@
    "label": "vysvětlení ZD",
    "old": "1",
    "new": "0"
+  },
+  {
+   "date": "2026-08-03",
+   "field": "value",
+   "label": "hodnota",
+   "old": "—",
+   "new": "11 678 725 Kč"
+  },
+  {
+   "date": "2026-08-03",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "0",
+   "new": "1"
   }
  ],
  "rvz:RVZ2600104088": [
