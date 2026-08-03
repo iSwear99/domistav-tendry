@@ -1,12 +1,10 @@
 {
  "meta": {
-  "updated": "2026-08-02T17:19:01+00:00",
-  "zd": 484,
-  "zpravy": 1229,
-  "novych": 13,
-  "errors": [
-   "dokumenty rvz:RVZ2600109017: soubor přes limit velikosti"
-  ]
+  "updated": "2026-08-03T16:45:20+00:00",
+  "zd": 488,
+  "zpravy": 1231,
+  "novych": 4,
+  "errors": []
  },
  "zd": {
   "rvz:RVZ2600078991": {
@@ -1518,6 +1516,18 @@
   },
   "rvz:RVZ2600108673": {
    "nenalezeno": true
+  },
+  "profil:pvu:00240711:P26V00004933": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3879070"
+  },
+  "profil:pvu:00240711:P26V00005115": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3883647"
+  },
+  "profil:pvu:05369495:P26V00005107": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3883108"
+  },
+  "profil:pvu:05369495:P26V00005121": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3883883"
   }
  },
  "zpravy": {
@@ -5236,6 +5246,12 @@
    "nenalezeno": true
   },
   "rvz:RVZ2500151709": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600114263": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600068496": {
    "nenalezeno": true
   }
  }

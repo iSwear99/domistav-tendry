@@ -191,6 +191,26 @@
   "url": "https://cernosice.profilzadavatele-vz.cz/profile_cent_2586.html"
  },
  {
+  "id": "rvz:RVZ2600114263",
+  "source": "profil:lazne-bohdanec",
+  "title": "Instalace FVE na objekt sportovní haly Lázně Bohdaneč",
+  "authority": "Město Lázně Bohdaneč",
+  "authority_ico": "00273350",
+  "winner": "RAISA, spol. s r.o.",
+  "winner_ico": "43005071",
+  "awarded": "2026-07-28",
+  "price_contracted": 2075932.3,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 15,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.tenderarena.cz/profily/LazneBohdanec"
+ },
+ {
   "id": "rvz:RVZ2600099414",
   "source": "profil:pardubice",
   "title": "MŠ Raisova – výměna plynových kotlů",
@@ -12960,7 +12980,7 @@
  },
  {
   "id": "rvz:RVZ2600067069",
-  "source": "isvz",
+  "source": "profil:pardubice",
   "title": "Úprava ploch na hřbitově v Pardubičkách - II. etapa",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
@@ -12971,14 +12991,23 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 19,
+  "dist_km": 18,
   "loc_unknown": false,
   "cpv": [
    "45000000"
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00004996"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00004996",
+  "bidders": [
+   {
+    "nazev": "Služby města Pardubic a.s.",
+    "ico": "25262572",
+    "cena": 479042.23,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/37416237"
  },
  {
   "id": "rvz:RVZ2500093771",
@@ -15502,6 +15531,26 @@
   "kind": "VZ",
   "kw_match": false,
   "url": "https://www.tenderarena.cz/profily/hradeckralove"
+ },
+ {
+  "id": "rvz:RVZ2600068496",
+  "source": "profil:lazne-bohdanec",
+  "title": "Oprava komunikace L. Janáčka",
+  "authority": "Město Lázně Bohdaneč",
+  "authority_ico": "00273350",
+  "winner": "LZ STAVBY A DEMOLICE s.r.o.",
+  "winner_ico": "06978754",
+  "awarded": "2026-03-02",
+  "price_contracted": 2837510.99,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 16,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.tenderarena.cz/profily/LazneBohdanec"
  },
  {
   "id": "rvz:RVZ2600067905",
