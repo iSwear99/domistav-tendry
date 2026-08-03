@@ -21,7 +21,7 @@ neobsahuje žádná firemní data, proto smí běžet v public GitHub repozitá�
 
 | Parametr | Hodnota |
 |---|---|
-| Region | **Okruh 50 km od Hradce Králové** (geo.py, haversine). NUTS (CZ052/053/020/051/063) slouží jen jako hrubý předfiltr. Poloha se určuje: 1) obec z místa plnění/názvu dle `scraper/obce.csv`, 2) sídlo okresu z NUTS4, 3) sídlo zadavatele u profilových VZMR. Nad 50 km se zahazuje; neurčitelná poloha se ponechává s příznakem `loc_unknown` a štítkem v UI. |
+| Region | **Okruh 50 km od Hradce Králové** (geo.py, haversine). NUTS (CZ052/053/020/051/063) slouží jen jako hrubý předfiltr. Poloha se určuje: 1) obec z místa plnění/názvu dle `scraper/obce.csv`, 2) sídlo okresu z NUTS4, 3) obec ze sídla zadavatele (`authority_seat`), 4) obec ze jména MUNICIPÁLNÍHO zadavatele („Město/Obec/statutární město X" — jiná jména se nezkouší), 5) sídlo zadavatele u profilových VZMR z configu — nikdy pro agenturní profily s `"multi": True` (zadavatel i poloha se čtou z detailu každé zakázky; multi profil nedostává ani benevolenci obor/NUTS). Nad 50 km se zahazuje — a tento během vyřazená id nesmí oživit retence; dřívější `loc_unknown` záznamy archivu se při přenosu doměřují (geo.relocate_unknown). Neurčitelná poloha se ponechává s příznakem `loc_unknown` a štítkem v UI. |
 | CPV | 45* (stavební práce) — prefix match na hlavní i doplňkové CPV |
 | Klíčová slova | Záchytná síť vedle CPV: názvy s pozitivním výrazem (rekonstrukce, modernizace, zateplení, výstavba, stavební úpravy, snížení energetické náročnosti…) projdou i bez CPV 45, pokud neobsahují negativní výraz (projektová dokumentace, dozor, software, vozidla…). Seznamy v `config.py`, porovnání bez diakritiky, příznak `kw_match` + štítek „dle názvu" v UI. CPV 45 negativní slova NEpřebíjí. |
 | Min. předpokládaná hodnota | 2 000 000 Kč bez DPH; zakázky **bez uvedené hodnoty ponechat** a označit příznakem `no_value` |
@@ -179,16 +179,29 @@ Poté v nastavení repa:
   jedné zakázce; vítěz jen ve firemním tvaru; soubory se neukládají.
 - **Mrtvé odkazy:** denní běh kontroluje URL aktivních zakázek; POUZE
   tvrdé HTTP 404/410 ve DVOU bězích po sobě ⇒ `expired` + `link_dead`
-  (štítek „odkaz nedostupný"). SPA portály (NEN/VVZ vracejí 200 na vše)
-  ani síťové chyby vyřadit nic nemohou — záměrně konzervativní.
+  (štítek „odkaz nedostupný"). NEN a VVZ se NEKONTROLUJÍ VŮBEC — od
+  8/2026 vracejí HTTP 404 se SPA skořápkou i na živé detaily (dřív 200
+  na vše); jejich stavový kód není verdikt a historické příznaky z nich
+  se samoléčbou čistí. Tím také přestala fungovat NEN „vložená data"
+  (_nen_embedded — stránka je čistě klientská, podaniLhuta v těle už
+  není); větev v _verify_no_deadline korektně vrací „bez verdiktu"
+  a nechává se pro případ návratu. Síťové chyby vyřadit nic nemohou —
+  záměrně konzervativní.
 - **★/👎 synchronizace:** volitelně přes PRIVÁTNÍ GitHub Gist uživatele
   (fine-grained PAT jen se scope gist, vkládá se na každém zařízení;
   dialog ⇅ v hlavičce). Sloučení dle časových značek, historie odznačení
   se drží. Do veřejného repozitáře se zájmy uživatele NIKDY nezapisují.
-- **Deduplikace napříč zdroji**: tatáž zakázka z ISVZ i profilu zadavatele
-  se slučuje podle IČO + normalizovaného názvu (bez diakritiky/interpunkce);
-  přednost má záznam z ISVZ, URL profilu se zachová v poli `profile_url`.
-  Bez IČO se cross-source dedup neprovádí (riziko falešné shody).
+- **Deduplikace duplicit** (zpřesněno 2. 8. 2026): tatáž zakázka chodí
+  z ISVZ i profilu zadavatele a v ISVZ i pod DVĚMA registrovými id
+  (agregace NEN/VVZ/arény — jeden záznam úplný, druhý torzo). Slučuje se
+  podle IČO + normalizovaného názvu, ale JEN při kompatibilní lhůtě
+  (shodné datum, nebo jedna chybí) — řízení s různými lhůtami jsou
+  zrušený a znovu vypsaný tendr a zůstávají oddělená (případ AGAPÉ).
+  Přednost má záznam s VÍCE informacemi (lhůta a předpokládaná hodnota
+  váží dvojnásob; při shodě ISVZ), chybějící pole se doplní z poraženého
+  a URL profilu se zachová v `profile_url`. Sloučená id (žijí ve vítězi)
+  ani id vyřazená geo filtrem nesmí trvalá retence oživit ze snapshotu.
+  Bez IČO se dedup neprovádí (riziko falešné shody).
 - Scraper musí být **idempotentní**: opakované spuštění ve stejný den nesmí
   vytvořit duplicity (dedup podle stabilního ID zakázky, viz `main.py`).
 - Při chybě jednoho zdroje pokračovat s ostatními a chybu zapsat do `meta.json`

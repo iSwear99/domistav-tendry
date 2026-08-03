@@ -205,8 +205,13 @@ PROFILY_ZADAVATELU = {
     "hlinsko":            {"lat": 49.762, "lon": 15.907, "nazev": "Město Hlinsko",  "ico": "00270059", "profile_url": "https://nen.nipez.cz/profil/mestohlinsko"},
     # dotovaný zadavatel na E-ZAK — doplněno 29. 7. 2026 po zmeškané
     # zakázce „Energetické úspory objektu Kalendova č.p. 747" (E-ZAK
-    # profily nejsou v ISVZ ani v PVU RSS — slepé místo pokrytí)
-    "john-nell-baby":     {"lat": 50.210, "lon": 15.832, "nazev": "John Nell baby s.r.o.", "ico": "28776941", "profile_url": "https://zakazky.navigaassistance.cz"},
+    # profily nejsou v ISVZ ani v PVU RSS — slepé místo pokrytí).
+    # POZOR (2. 8. 2026): jde o AGENTURNÍ profil (Naviga Assistance)
+    # s VÍCE zadavateli z celé ČR — "multi": True znamená: zadavatel
+    # a poloha se čtou z detailu každé zakázky (nikdy z této konfigurace)
+    # a profil NEDOSTÁVÁ benevolenci konfigurovaných profilů (obor/NUTS),
+    # stejně jako PVU. Jméno/IČO zde jsou jen nouzový fallback.
+    "john-nell-baby":     {"lat": 50.210, "lon": 15.832, "nazev": "John Nell baby s.r.o.", "ico": "28776941", "profile_url": "https://zakazky.navigaassistance.cz", "multi": True},
     # doplněno 29. 7. 2026 po zmeškané VZMR „Stavební úpravy prodejny
     # č.p. 64, Lodín" (zveřejněna před nasazením PVU RSS)
     "lodin":              {"lat": 50.2675, "lon": 15.6077, "nazev": "Obec Lodín", "ico": "00269051", "profile_url": "https://www.vhodne-uverejneni.cz/profil/obec-lodin"},

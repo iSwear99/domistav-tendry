@@ -120,6 +120,15 @@ _EZAK_FIELD_RE = re.compile(
     r"(Předpokládaná hodnota|Datum zahájení|Nabídku podat do"
     r"|Systémové číslo):?\s*(?:</th>\s*<td[^>]*>)?\s*<b>\s*(.*?)\s*</b>",
     re.S)
+# Blok „Zadavatel" na detailu: agenturní E-ZAK (Naviga) hostí zakázky
+# RŮZNÝCH zadavatelů — jméno/IČO/adresa se musí číst per zakázka,
+# jinak všechny nesou zadavatele z konfigurace (chyba zjištěná 2. 8. 2026:
+# zakázky Abydos Idea/Hazlov a Projekt ORION/Liberec vedené jako
+# John Nell baby s.r.o. v Hradci Králové).
+_EZAK_AUTH_RE = re.compile(r"Úřední název:\s*<b>\s*(.*?)\s*</b>", re.S)
+_EZAK_ICO_RE = re.compile(r">\s*IČO?:\s*<b>\s*(\d{6,8})\s*</b>")
+_EZAK_ADDR_RE = re.compile(r"Poštovní adresa:\s*(?:<br\s*/?>)?\s*<b>\s*(.*?)\s*</b>", re.S)
+_EZAK_PLACE_RE = re.compile(r"<h4>Místo plnění</h4>\s*<ul>(.*?)</ul>", re.S)
 
 
 def _ezak_date(s: str) -> str:
@@ -152,19 +161,34 @@ def _fetch_profile_ezak_html(key: str, meta: dict) -> list[dict]:
                             f["Předpokládaná hodnota"].split("Kč")[0])
             hodnota = float(digits) if digits else None
         vzmr = bool(re.search(r"malého rozsahu|VZMR", page))
+
+        def _clean(rx):
+            m = rx.search(page)
+            return re.sub(r"\s+", " ",
+                          re.sub(r"<[^>]+>", " ", m.group(1))).strip() if m else ""
+        auth, ico = _clean(_EZAK_AUTH_RE), _clean(_EZAK_ICO_RE)
+        if not auth:                      # blok Zadavatel chybí — konfigurace
+            auth, ico = meta["nazev"], meta["ico"]
+        place_m = _EZAK_PLACE_RE.search(page)
+        place = ", ".join(
+            re.sub(r"\s+", " ", x).strip()
+            for x in re.findall(r"<li>(.*?)</li>", place_m.group(1), re.S)
+        ) if place_m else ""
+
         tenders.append({
             "id": f"profil:{key}:{rid}",
             "source": f"profil:{key}",
             "title": title_m.group(1),
-            "authority": meta["nazev"],
-            "authority_ico": meta["ico"],
+            "authority": auth,
+            "authority_ico": ico,
             "cpv": [],
             "nuts": [],
             "value": hodnota,
             "published": _ezak_date(f.get("Datum zahájení", ""))[:10],
             "deadline": _ezak_date(f.get("Nabídku podat do", "")),
             "url": f"{base}/{rel}",
-            "place": "",
+            "place": place,
+            "authority_seat": _clean(_EZAK_ADDR_RE),
             "state": "",
             "site_visit": "",
             "clarifications": 0,

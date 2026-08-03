@@ -64,15 +64,29 @@ def _kw_negative(title: str) -> bool:
     return any(k in t for k in _KW_NEG)
 
 
+# agenturní profily ("multi": True) hostí cizí zadavatele z celé ČR —
+# benevolence konfigurovaných profilů (obor/NUTS) jim nepatří, viz config
+_MULTI_SOURCES = {f"profil:{k}"
+                  for k, m in config.PROFILY_ZADAVATELU.items()
+                  if m.get("multi")}
+
+
+def _from_configured_profile(t: dict) -> bool:
+    s = t["source"]
+    return (s.startswith("profil:")
+            and not s.startswith("profil:pvu:")
+            and s not in _MULTI_SOURCES)
+
+
 def _sector_ok(t: dict) -> bool:
     """Obor: (a) CPV prefix 45 — autoritativní, negativní slova nepřebíjí;
     (b) záchytná síť: klíčová slova v názvu (příznak kw_match);
     (c) záznam Z KONFIGUROVANÉHO profilu bez CPV — zdroj je předvybraný,
-    ponechat. PVU RSS (profil:pvu:*) je celostátní a víceoborové, proto
-    benevolenci (c) nedostává — bez CPV rozhodují jen klíčová slova,
-    stejně jako u ISVZ. Nastavuje t["kw_match"]."""
-    from_profile = (t["source"].startswith("profil:")
-                    and not t["source"].startswith("profil:pvu:"))
+    ponechat. PVU RSS (profil:pvu:*) a agenturní multi profily jsou
+    celostátní a víceoborové, proto benevolenci (c) nedostávají — bez
+    CPV rozhodují jen klíčová slova, stejně jako u ISVZ.
+    Nastavuje t["kw_match"]."""
+    from_profile = _from_configured_profile(t)
     cpv = t.get("cpv") or []
     # CPV 45 platí, jen pokud kód nespadá do vyřazených podskupin
     # (dopravní infrastruktura) — takové zakázky rozhodují klíčová slova
@@ -102,8 +116,7 @@ def _sector_ok(t: dict) -> bool:
 
 def _nuts_ok(t: dict) -> bool:
     """Hrubý předfiltr krajů; nastavuje t["no_nuts"]."""
-    from_profile = (t["source"].startswith("profil:")
-                    and not t["source"].startswith("profil:pvu:"))
+    from_profile = _from_configured_profile(t)
     nuts = t.get("nuts") or []
     if nuts:
         if not any(n[:5] in config.NUTS_ALLOWED for n in nuts):
@@ -145,19 +158,36 @@ def _mark_expired(t: dict, today: str) -> dict:
     return t
 
 
+_SPA_HOSTS = ("nen.nipez.cz", "vvz.nipez.cz")
+
+
 def _check_dead_links(tenders: list[dict], prev_by_id: dict) -> None:
     """Eliminace zakázek s neexistující stránkou detailu (pokyn 29. 7.).
 
     Kontrolují se jen AKTIVNÍ záznamy. Za mrtvý odkaz se považuje POUZE
-    tvrdé HTTP 404/410 — SPA portály (NEN, VVZ) vracejí 200 na všechno,
-    takže falešně pozitivní být nemohou; síťové chyby a timeouty se
-    nepočítají. Expirace až po DVOU mrtvých bězích po sobě (čítač
-    url_dead se přenáší z předchozího snapshotu) — jednorázový výpadek
-    profilu tak zakázku nevyřadí. Vyřazené zůstávají v historii
-    s příznakem link_dead (štítek v UI)."""
+    tvrdé HTTP 404/410; síťové chyby a timeouty se nepočítají. NEN a VVZ
+    se NEKONTROLUJÍ VŮBEC: od 8/2026 vracejí HTTP 404 se SPA skořápkou
+    i na ŽIVÉ detaily (dřív 200 na všechno) — stavový kód tam není
+    verdikt; historické příznaky z nich se čistí a expirace z nich
+    plynoucí se vrací (2 falešně mrtvé živé VZ zjištěny 3. 8. 2026).
+    Expirace až po DVOU mrtvých bězích po sobě (čítač url_dead se
+    přenáší z předchozího snapshotu) — jednorázový výpadek profilu tak
+    zakázku nevyřadí. Vyřazené zůstávají v historii s příznakem
+    link_dead (štítek v UI)."""
     import concurrent.futures
     import urllib.error
     import urllib.request
+    from urllib.parse import urlparse
+
+    # samoléčba falešných verdiktů ze SPA portálů (i u přenášených)
+    today = dt.date.today().isoformat()
+    for t in tenders:
+        host = urlparse(t.get("url") or "").netloc
+        if host in _SPA_HOSTS and (t.get("url_dead") or t.get("link_dead")):
+            was_link_dead = t.pop("link_dead", False)
+            t.pop("url_dead", None)
+            if was_link_dead and not t.get("auto_expired"):
+                _mark_expired(t, today)
 
     def status(url: str) -> int | None:
         try:
@@ -181,7 +211,8 @@ def _check_dead_links(tenders: list[dict], prev_by_id: dict) -> None:
         except Exception:  # noqa: BLE001
             return None    # síť/timeout — žádný verdikt
 
-    active = [t for t in tenders if not t["expired"] and t.get("url")]
+    active = [t for t in tenders if not t["expired"] and t.get("url")
+              and urlparse(t["url"]).netloc not in _SPA_HOSTS]
     with concurrent.futures.ThreadPoolExecutor(max_workers=10) as ex:
         codes = list(ex.map(lambda t: status(t["url"]), active))
     for t, code in zip(active, codes):
@@ -333,44 +364,88 @@ def _norm_title(s: str) -> str:
     return " ".join(s.split())
 
 
-def dedup_cross_source(tenders: list[dict]) -> list[dict]:
-    """Stejná zakázka může přijít z ISVZ i z profilu zadavatele.
+def _info_score(t: dict) -> int:
+    """Informační bohatost záznamu. Lhůta a předpokládaná hodnota váží
+    dvojnásobně (pokyn 2. 8. 2026: při duplicitě má přednost záznam,
+    který je nese)."""
+    s = 2 * bool(t.get("deadline")) + 2 * (t.get("value") is not None)
+    return s + sum(1 for f in ("cpv", "place", "state", "published",
+                               "url", "nuts", "site_visit")
+                   if t.get(f))
 
-    Klíč shody: IČO zadavatele + normalizovaný název. Přednost má záznam
-    z ISVZ (úplnější: NUTS, prohlídka, vysvětlení); z odstraněného
-    duplikátu se převezme URL profilu jako `profile_url` (přímý odkaz
-    na dokumentaci) a nižší lhůta/hodnota se NEslučuje — platí ISVZ.
-    Bez IČO se deduplikace neprovádí (riziko falešné shody).
-    Slučuje se POUZE napříč zdroji (ISVZ ↔ profil): dva záznamy téhož
-    zdroje se shodným názvem jsou dvě různá řízení (typicky zrušené
-    a znovu vypsané) — obě se ponechávají, jinak by zrušený pokus
-    přemazal běžící (případ AGAPÉ, 2026-07-29).
+
+_MERGE_FILL = ("deadline", "value", "url", "published", "place", "state",
+               "site_visit", "cpv", "nuts", "authority_seat", "bidders")
+
+
+def dedup_cross_source(tenders: list[dict],
+                       today: str) -> tuple[list[dict], set[str]]:
+    """Stejná zakázka přichází z více zdrojů (ISVZ ↔ profil) i pod dvěma
+    registrovými id (ISVZ agreguje NEN/VVZ/Tender arenu — totéž řízení
+    mívá dva RVZ záznamy, jeden s hodnotou a lhůtou, druhý torzo).
+
+    Klíč shody: IČO zadavatele + normalizovaný název; bez IČO se
+    deduplikace neprovádí (riziko falešné shody). Kandidáti se slučují
+    JEN při kompatibilní lhůtě (shodné datum, nebo jedna chybí) — dvě
+    řízení s různými lhůtami jsou zrušený a znovu vypsaný tendr a
+    zůstávají oddělená (případ AGAPÉ, 2026-07-29). Vyhrává záznam
+    s VÍCE informacemi (_info_score: především lhůta a předpokládaná
+    hodnota; při shodě přednost ISVZ), chybějící pole se doplní
+    z poraženého a URL profilu se zachová v `profile_url`.
+
+    Vrací (ponechané, id sloučených pryč) — sloučená id potřebuje
+    main.py, aby je trvalá retence neoživila ze starého snapshotu.
     """
     def key(t):
         ico = (t.get("authority_ico") or "").strip()
         return (ico, _norm_title(t.get("title", ""))) if ico else None
 
-    def rank(t):  # vyšší = přednost
-        return 1 if t["source"] == "isvz" else 0
+    def compatible(a, b):
+        da, db = (a.get("deadline") or "")[:10], (b.get("deadline") or "")[:10]
+        if da and db and da == db:
+            return True
+        # Jinak se smí sloučit jen dvojice ŽIVÝCH záznamů: různá data
+        # lhůt mezi dvěma živými = prodloužení lhůty (zdroje se liší
+        # aktuálností; bere se pozdější), chybějící lhůta u živého
+        # torza = tentýž běžící tendr. S EXPIROVANÝM záznamem se
+        # neslučuje nikdy — živé torzo se nesmí schovat do starého
+        # uzavřeného řízení téhož názvu (zjištěno 3. 8. 2026) a
+        # zrušený pokus nesmí přemazat běžící (případ AGAPÉ).
+        return not a.get("expired") and not b.get("expired")
 
-    best: dict[tuple, dict] = {}
-    keyless: list[dict] = []
+    def rank(t):
+        return (_info_score(t), 1 if t["source"] == "isvz" else 0)
+
+    groups: dict[tuple, list[dict]] = {}
+    out: list[dict] = []
+    merged_away: set[str] = set()
     for t in tenders:
         k = key(t)
         if k is None or not k[1]:
-            keyless.append(t)
+            out.append(t)
             continue
-        cur = best.get(k)
-        if cur is None:
-            best[k] = t
-        elif rank(t) == rank(cur):
-            keyless.append(t)   # týž zdroj ⇒ jiné řízení, ponechat obě
-        else:
+        bucket = groups.setdefault(k, [])
+        for i, cur in enumerate(bucket):
+            if not compatible(cur, t):
+                continue
             winner, loser = (t, cur) if rank(t) > rank(cur) else (cur, t)
+            for f in _MERGE_FILL:
+                if not winner.get(f) and loser.get(f):
+                    winner[f] = loser[f]
+            # prodloužení lhůty: mezi dvěma živými platí pozdější termín
+            dl_w, dl_l = winner.get("deadline") or "", loser.get("deadline") or ""
+            if dl_w and dl_l and dl_l > dl_w:
+                winner["deadline"] = dl_l
             if loser["source"].startswith("profil:") and loser.get("url"):
                 winner.setdefault("profile_url", loser["url"])
-            best[k] = winner
-    return list(best.values()) + keyless
+            merged_away.add(loser["id"])
+            bucket[i] = _mark_expired(winner, today)
+            break
+        else:
+            bucket.append(t)    # neslučitelné lhůty ⇒ jiné řízení
+    for bucket in groups.values():
+        out.extend(bucket)
+    return out, merged_away
 
 
 def build_competition(all_t: list[dict], today: str) -> list[dict]:
@@ -395,7 +470,7 @@ def build_competition(all_t: list[dict], today: str) -> list[dict]:
             continue
         fresh[t["id"]] = t
 
-    located = geo.apply_radius(list(fresh.values()))
+    located, _ = geo.apply_radius(list(fresh.values()))
 
     def flat(t: dict) -> dict:
         aw = t["award"]
@@ -580,21 +655,33 @@ def run(dry_run: bool = False) -> int:
         if t["url"] and not t["url"].startswith(("http://", "https://")):
             t["url"] = "https://" + t["url"]
 
-    # dedup napříč zdroji (ISVZ vs. profil) — IČO + normalizovaný název
-    deduped = dedup_cross_source(list(filtered.values()))
+    # dedup duplicit — IČO + normalizovaný název + kompatibilní lhůta;
+    # vyhrává informačně bohatší záznam (lhůta, hodnota), pole se slučují
+    deduped, merged_away = dedup_cross_source(
+        list(filtered.values()), today)
     # geografický okruh od HK — nad limit se zahazuje, neurčené se značí
-    deduped = geo.apply_radius(deduped)
+    deduped, geo_dropped = geo.apply_radius(deduped)
     # TRVALÁ RETENCE (pokyn 29. 7. 2026 — kompletní historie): jednou
     # zachycená zakázka se z archivu už nikdy neztrácí. Záznamy mimo
     # aktuální stahovací okno (starší ISVZ měsíce, pomíjivé PVU RSS) se
     # přenášejí z předchozího snapshotu; znovu se prohánějí oborovým
     # filtrem, aby zpřísnění konfigurace pročistilo i historii. Čerstvý
-    # záznam má vždy přednost (přenáší se jen nespatřená ID).
+    # záznam má vždy přednost (přenáší se jen nespatřená ID). NEpřenáší
+    # se id, která tento běh vyřadil geo filtr (zdroj je stále publikuje,
+    # ale mimo okruh) ani id sloučená dedupem (žijí dál ve vítězi) —
+    # jinak by je retence obratem oživila ze starého snapshotu.
     fresh_ids = {t["id"] for t in deduped}
     carried = [
         t for t in prev_snapshot
-        if t["id"] not in fresh_ids and _sector_ok(t)
+        if t["id"] not in fresh_ids
+        and t["id"] not in geo_dropped
+        and t["id"] not in merged_away
+        and _sector_ok(t)
     ]
+    # zpřesněná geolokace (sídlo/jméno zadavatele) doplní polohu i dřív
+    # neurčeným záznamům archivu — mimo okruh se zahazují (nikdy do něj
+    # nepatřily), určené v okruhu dostanou dist_km
+    carried = geo.relocate_unknown(carried)
     # Přenášený záznam bez lhůty i stavu, který se v aktuálních exportech
     # už neobjevuje, je prakticky jistě uzavřený (živé VZ dostávají změny
     # a v okně se ukazují znovu) — bez tohoto by backfill historie zaplnil
@@ -602,8 +689,13 @@ def run(dry_run: bool = False) -> int:
     for t in carried:
         if not t.get("deadline") and not t.get("state"):
             t["expired"] = True
+    # druhý průchod dedupu: čerstvé × přenášené — pomíjivý PVU záznam
+    # z retence se s pozdějším ISVZ id téže zakázky potká až tady
+    # (případ AGAPÉ, 2026-08-02); expirovanou historii chrání podmínka
+    # kompatibility lhůt v dedup_cross_source
+    combined, _ = dedup_cross_source(deduped + carried, today)
     result = sorted(
-        deduped + carried,
+        combined,
         key=lambda t: (t.get("deadline") or "9999", t.get("published") or ""),
     )
     # úklid registrových torz bez lhůty: ověření u zdroje (NEN/profil),

@@ -223,7 +223,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45331110"
@@ -294,7 +294,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45214200"
@@ -737,7 +737,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45421144"
@@ -780,7 +780,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45212200"
@@ -848,7 +848,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45331110"
@@ -1103,7 +1103,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 41,
+  "dist_km": 43,
   "loc_unknown": false,
   "cpv": [
    "45111212"
@@ -1253,8 +1253,8 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": null,
-  "loc_unknown": true,
+  "dist_km": 43,
+  "loc_unknown": false,
   "cpv": [
    "45111230",
    "45111212",
@@ -1614,6 +1614,28 @@
   "url": "https://tenderarena.cz/dodavatel/zakazka/898746"
  },
  {
+  "id": "rvz:RVZ2600086613",
+  "source": "isvz",
+  "title": "Rekonstrukce stupňů na fotbalovém stadionu v Humpolci – II. etapa",
+  "authority": "Město Humpolec",
+  "authority_ico": "00248266",
+  "winner": "AGOS stavební a.s. Pelhřimov",
+  "winner_ico": "46679626",
+  "awarded": "2026-07-13",
+  "price_contracted": 14248000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 47,
+  "loc_unknown": false,
+  "cpv": [
+   "45212221"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://tenderarena.cz/dodavatel/zakazka/887833"
+ },
+ {
   "id": "rvz:RVZ2500072600",
   "source": "isvz",
   "title": "I/11, 31, 33, 35, 37 Opravy asfaltových hutněných vrstev - oblast Hradec Králové",
@@ -1648,7 +1670,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45214100"
@@ -1696,8 +1718,8 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": null,
-  "loc_unknown": true,
+  "dist_km": 19,
+  "loc_unknown": false,
   "cpv": [
    "45000000",
    "45214100"
@@ -2203,7 +2225,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45212200"
@@ -2240,7 +2262,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45000000"
@@ -2319,7 +2341,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45310000"
@@ -2372,8 +2394,8 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": null,
-  "loc_unknown": true,
+  "dist_km": 23,
+  "loc_unknown": false,
   "cpv": [
    "45000000"
   ],
@@ -2439,7 +2461,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45431000"
@@ -2525,8 +2547,8 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": null,
-  "loc_unknown": true,
+  "dist_km": 19,
+  "loc_unknown": false,
   "cpv": [
    "45431000",
    "45431100",
@@ -2594,8 +2616,8 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": null,
-  "loc_unknown": true,
+  "dist_km": 24,
+  "loc_unknown": false,
   "cpv": [
    "45000000"
   ],
@@ -3278,7 +3300,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "44233000"
@@ -3315,7 +3337,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45212221"
@@ -3586,7 +3608,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 41,
+  "dist_km": 43,
   "loc_unknown": false,
   "cpv": [
    "45215100"
@@ -3796,6 +3818,28 @@
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00022588"
  },
  {
+  "id": "rvz:RVZ2600075037",
+  "source": "isvz",
+  "title": "Udržovací práce střechy zámku Suchdol 1, JZ, JV a SV křídla",
+  "authority": "Městys Suchdol",
+  "authority_ico": "00236462",
+  "winner": "ToRuFa s.r.o.",
+  "winner_ico": "28190611",
+  "awarded": "2026-06-22",
+  "price_contracted": 6984704.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 46,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00008580"
+ },
+ {
   "id": "rvz:RVZ2600069879",
   "source": "isvz",
   "title": "Demolice objektu v areálu školy a následná výstavba nového objektu pro Dětskou skupinu, včetně propojovacích krčků, výstavba tělocvičny a družiny při ZŠ v Černilově",
@@ -3845,7 +3889,45 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html"
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "BAK stavební společnost, a.s.",
+    "ico": "28402758",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Chládek a Tintěra, Pardubice a.s.",
+    "ico": "25253361",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "HOCHTIEF CZ a. s.",
+    "ico": "46678468",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Metrostav CZ s.r.o.",
+    "ico": "25021915",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PKS stavby a.s.",
+    "ico": "46980059",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "VCES a.s.",
+    "ico": "26746573",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "profil:kr-pardubicky:VZ-5831",
@@ -4058,7 +4140,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45342000"
@@ -4147,7 +4229,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 38,
+  "dist_km": 37,
   "loc_unknown": false,
   "cpv": [],
   "kind": "VZMR",
@@ -4447,7 +4529,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45314000"
@@ -4641,8 +4723,8 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": null,
-  "loc_unknown": true,
+  "dist_km": 28,
+  "loc_unknown": false,
   "cpv": [
    "45000000",
    "71000000"
@@ -4846,7 +4928,15 @@
   ],
   "kind": "VZ",
   "kw_match": true,
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html"
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "TeS, spol. s r. o. Chotěboř",
+    "ico": "60934395",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2500126287",
@@ -4871,7 +4961,39 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html"
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "BAK stavební společnost, a.s.",
+    "ico": "28402758",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KAMI PROFIT, s.r.o.",
+    "ico": "35943301",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Metrostav CZ s.r.o.",
+    "ico": "25021915",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PORR a.s.",
+    "ico": "43005560",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STYLBAU, s.r.o.",
+    "ico": "25957481",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600071292",
@@ -5241,7 +5363,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45000000"
@@ -5734,8 +5856,8 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": null,
-  "loc_unknown": true,
+  "dist_km": 45,
+  "loc_unknown": false,
   "cpv": [
    "45454100"
   ],
@@ -5979,7 +6101,51 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://zakazky.cenakhk.cz/"
+  "url": "https://zakazky.cenakhk.cz/",
+  "bidders": [
+   {
+    "nazev": "Alprim CZ s.r.o.",
+    "ico": "28811470",
+    "cena": 51059209.71,
+    "vyloucen": true
+   },
+   {
+    "nazev": "KERSON spol. s r.o.",
+    "ico": "45536040",
+    "cena": 43882988.48,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Průmstav Náchod s.r.o.",
+    "ico": "25275062",
+    "cena": 39892618.51,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PS - STAV Náchod s.r.o.",
+    "ico": "28858531",
+    "cena": 45335774.66,
+    "vyloucen": false
+   },
+   {
+    "nazev": "REDOMO a.s.",
+    "ico": "25937499",
+    "cena": 47776211.29,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STATING s.r.o.",
+    "ico": "25963864",
+    "cena": 47437788.9,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STYLBAU, s.r.o.",
+    "ico": "25957481",
+    "cena": 44945078.02,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600100021",
@@ -6149,7 +6315,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45000000"
@@ -6296,7 +6462,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45000000"
@@ -6452,7 +6618,75 @@
   ],
   "kind": "VZ",
   "kw_match": true,
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html"
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "ABCD Služby školám s.r.o.",
+    "ico": "62244892",
+    "cena": 1786498.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Artspect, a.s.",
+    "ico": "28123395",
+    "cena": 1688629.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "BRANTAL, spol. s r.o.",
+    "ico": "44267746",
+    "cena": 1768995.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Ing. Martin Mach",
+    "ico": "08055378",
+    "cena": 2380600.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KASCH - interiér s.r.o.",
+    "ico": "26831724",
+    "cena": 2214844.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KRAJČA-NÁBYTEK s.r.o.",
+    "ico": "04811682",
+    "cena": 1675750.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "LB BOHEMIA, s.r.o.",
+    "ico": "26224461",
+    "cena": 1718000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "momenti design s.r.o.",
+    "ico": "29159547",
+    "cena": 1747529.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MS interiéry s.r.o.",
+    "ico": "28856384",
+    "cena": 2158541.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PROFIL NÁBYTEK, a.s.",
+    "ico": "48202118",
+    "cena": 1736507.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Truhlářství JPS s.r.o.",
+    "ico": "25273655",
+    "cena": 1495101.0,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600066842",
@@ -6770,7 +7004,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45000000"
@@ -6819,7 +7053,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45000000"
@@ -6980,7 +7214,15 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html"
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "MADOS MT s.r.o.",
+    "ico": "25297899",
+    "cena": 19393003.13,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "profil:kr-kralovehradecky:VZ-12435",
@@ -7869,7 +8111,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "50750000"
@@ -7972,7 +8214,15 @@
   ],
   "kind": "VZ",
   "kw_match": true,
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html"
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "Karlínblok s.r.o.",
+    "ico": "02937182",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600088364",
@@ -8693,7 +8943,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 50,
+  "dist_km": 49,
   "loc_unknown": false,
   "cpv": [
    "45000000"
@@ -8824,8 +9074,8 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": null,
-  "loc_unknown": true,
+  "dist_km": 39,
+  "loc_unknown": false,
   "cpv": [
    "45000000",
    "45233160",
@@ -9148,6 +9398,28 @@
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00008093"
  },
  {
+  "id": "rvz:RVZ2600066972",
+  "source": "isvz",
+  "title": "Nový areál SMJ Divize VI",
+  "authority": "SLUŽBY MĚSTA JIHLAVY s.r.o.",
+  "authority_ico": "60727772",
+  "winner": "Metrostav CZ s.r.o.",
+  "winner_ico": "25021915",
+  "awarded": "2026-05-06",
+  "price_contracted": 89214965.38,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 47,
+  "loc_unknown": false,
+  "cpv": [
+   "45213150"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00004433"
+ },
+ {
   "id": "rvz:RVZ2600068255",
   "source": "isvz",
   "title": "Modernizace pavilonu M – přístrojové vybavení  – 09 léčebné přístroje",
@@ -9182,8 +9454,8 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": null,
-  "loc_unknown": true,
+  "dist_km": 39,
+  "loc_unknown": false,
   "cpv": [
    "33100000",
    "33120000",
@@ -9321,8 +9593,8 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": null,
-  "loc_unknown": true,
+  "dist_km": 4,
+  "loc_unknown": false,
   "cpv": [
    "45313000",
    "50750000"
@@ -9533,7 +9805,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45000000"
@@ -9730,7 +10002,27 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html"
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "GEOSAN GROUP a.s.",
+    "ico": "28169522",
+    "cena": 1525271558.77,
+    "vyloucen": false
+   },
+   {
+    "nazev": "IR.Construction s.r.o.",
+    "ico": "25041738",
+    "cena": 2121090978.09,
+    "vyloucen": true
+   },
+   {
+    "nazev": "PKS stavby a.s.",
+    "ico": "46980059",
+    "cena": 1727881320.7,
+    "vyloucen": true
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2500197546",
@@ -9754,7 +10046,21 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html"
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "GAST-PRO s.r.o.",
+    "ico": "25939645",
+    "cena": 20742487.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TeS, spol. s r. o. Chotěboř",
+    "ico": "60934395",
+    "cena": 20377544.0,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600079399",
@@ -10114,7 +10420,51 @@
   ],
   "kind": "VZ",
   "kw_match": true,
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html"
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "Chládek a Tintěra, Pardubice a.s.",
+    "ico": "25253361",
+    "cena": 24435567.62,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MDS solution s. r. o.",
+    "ico": "07674856",
+    "cena": 20331074.15,
+    "vyloucen": false
+   },
+   {
+    "nazev": "M - STAV CZ s.r.o.",
+    "ico": "27557235",
+    "cena": 21929718.65,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PORR a.s.",
+    "ico": "43005560",
+    "cena": 21988349.64,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SaM silnice a mosty a.s.",
+    "ico": "25018094",
+    "cena": 20347370.98,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ŠTĚPÁNEK, spol. s r.o.",
+    "ico": "45535124",
+    "cena": null,
+    "vyloucen": true
+   },
+   {
+    "nazev": "STRABAG Rail a.s.",
+    "ico": "25429949",
+    "cena": 23149591.64,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600083884",
@@ -10600,7 +10950,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45000000"
@@ -11320,7 +11670,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45211360"
@@ -11417,8 +11767,8 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": null,
-  "loc_unknown": true,
+  "dist_km": 19,
+  "loc_unknown": false,
   "cpv": [
    "45000000",
    "42416100"
@@ -11716,8 +12066,8 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": null,
-  "loc_unknown": true,
+  "dist_km": 39,
+  "loc_unknown": false,
   "cpv": [
    "45000000",
    "45400000",
@@ -12208,7 +12558,33 @@
   ],
   "kind": "VZ",
   "kw_match": true,
-  "url": "https://nen.nipez.cz/profil/CeskaSkalice"
+  "url": "https://nen.nipez.cz/profil/CeskaSkalice",
+  "bidders": [
+   {
+    "nazev": "Alprim CZ s.r.o.",
+    "ico": "28811470",
+    "cena": 15561700.37,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ŠPELDA s.r.o.",
+    "ico": "28800125",
+    "cena": 16280004.09,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Dlažba Vysoké Mýto, s.r.o.",
+    "ico": "25953818",
+    "cena": 14297832.7,
+    "vyloucen": false
+   },
+   {
+    "nazev": "M - STAV CZ s.r.o.",
+    "ico": "27557235",
+    "cena": 15979891.25,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600076553",
@@ -13324,7 +13700,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45000000"
@@ -14024,7 +14400,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45000000"
@@ -14864,7 +15240,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45261910"
@@ -15544,7 +15920,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 16,
+  "dist_km": 15,
   "loc_unknown": false,
   "cpv": [],
   "kind": "VZMR",
@@ -15841,7 +16217,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45453100"
@@ -16356,7 +16732,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 16,
+  "dist_km": 15,
   "loc_unknown": false,
   "cpv": [],
   "kind": "VZMR",
@@ -17916,7 +18292,21 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html"
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "Alprim CZ s.r.o.",
+    "ico": "28811470",
+    "cena": 11842241.57,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STAKO Červený Kostelec s.r.o.",
+    "ico": "45536422",
+    "cena": 11789505.54,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600036698",
@@ -18277,7 +18667,27 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html"
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "PS - STAV Náchod s.r.o.",
+    "ico": "28858531",
+    "cena": 8961496.43,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stavrecon Pardubice s.r.o.",
+    "ico": "05925801",
+    "cena": 10000000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STYLBAU, s.r.o.",
+    "ico": "25957481",
+    "cena": 8848916.38,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600049764",
@@ -20478,7 +20888,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45211000"
@@ -22071,7 +22481,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45000000"
@@ -23158,8 +23568,8 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": null,
-  "loc_unknown": true,
+  "dist_km": 4,
+  "loc_unknown": false,
   "cpv": [
    "45262700",
    "45453000",
@@ -26940,8 +27350,8 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": null,
-  "loc_unknown": true,
+  "dist_km": 4,
+  "loc_unknown": false,
   "cpv": [
    "45211360",
    "45112710"
@@ -27674,8 +28084,8 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": null,
-  "loc_unknown": true,
+  "dist_km": 37,
+  "loc_unknown": false,
   "cpv": [
    "45000000"
   ],
