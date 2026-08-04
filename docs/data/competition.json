@@ -10032,27 +10032,7 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "bidders": [
-   {
-    "nazev": "GEOSAN GROUP a.s.",
-    "ico": "28169522",
-    "cena": 1525271558.77,
-    "vyloucen": false
-   },
-   {
-    "nazev": "IR.Construction s.r.o.",
-    "ico": "25041738",
-    "cena": 2121090978.09,
-    "vyloucen": true
-   },
-   {
-    "nazev": "PKS stavby a.s.",
-    "ico": "46980059",
-    "cena": 1727881320.7,
-    "vyloucen": true
-   }
-  ]
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html"
  },
  {
   "id": "rvz:RVZ2500197546",
@@ -10076,21 +10056,7 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "bidders": [
-   {
-    "nazev": "GAST-PRO s.r.o.",
-    "ico": "25939645",
-    "cena": 20742487.0,
-    "vyloucen": false
-   },
-   {
-    "nazev": "TeS, spol. s r. o. Chotěboř",
-    "ico": "60934395",
-    "cena": 20377544.0,
-    "vyloucen": false
-   }
-  ]
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html"
  },
  {
   "id": "rvz:RVZ2600079399",
@@ -10969,7 +10935,7 @@
  },
  {
   "id": "rvz:RVZ2600084454",
-  "source": "profil:pardubice",
+  "source": "isvz",
   "title": "OBJ_00761_26",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
@@ -10987,16 +10953,7 @@
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00012707",
-  "bidders": [
-   {
-    "nazev": "Služby města Pardubic a.s.",
-    "ico": "25262572",
-    "cena": 521445.4,
-    "vyloucen": false
-   }
-  ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/37710869"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00012707"
  },
  {
   "id": "rvz:RVZ2600084886",

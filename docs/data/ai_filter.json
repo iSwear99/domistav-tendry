@@ -1,12 +1,12 @@
 {
  "meta": {
-  "updated": "2026-08-04T13:11:08+00:00",
+  "updated": "2026-08-04T18:56:23+00:00",
   "model": "claude-opus-5",
   "posouzeno_nyni": 2,
-  "celkem": 453,
+  "celkem": 451,
   "counts": {
-   "ano": 220,
-   "ne": 151,
+   "ano": 219,
+   "ne": 150,
    "nejisto": 82
   },
   "errors": []
@@ -615,10 +615,6 @@
   "rvz:RVZ2500125709": {
    "verdikt": "ano",
    "duvod": "Oprava střechy školy"
-  },
-  "rvz:RVZ2600099765": {
-   "verdikt": "ano",
-   "duvod": "Nástavba a přístavba objektu"
   },
   "rvz:RVZ2500091511": {
    "verdikt": "ne",
@@ -1756,10 +1752,6 @@
    "verdikt": "ne",
    "duvod": "Geotechnické průzkumy pro komunikace"
   },
-  "rvz:RVZ2600113859": {
-   "verdikt": "ne",
-   "duvod": "Energetické dílo, teplárenská technologie"
-  },
   "rvz:RVZ2600107250": {
    "verdikt": "nejisto",
    "duvod": "Dálniční odpočívka, možná i pozemní objekty"
@@ -1818,11 +1810,11 @@
   },
   "profil:pvu:25911368:P26V00005185": {
    "verdikt": "ne",
-   "duvod": "Revize elektrozařízení a odborný dozor, ne stavba"
+   "duvod": "Revize a odborný dozor elektro, nikoli stavební práce"
   },
   "profil:pvu:00256552:P26V00005183": {
    "verdikt": "ano",
-   "duvod": "Výstavba knihovny, pozemní stavba"
+   "duvod": "Výstavba knihovny, pozemní stavba včetně demolic"
   }
  }
 }
