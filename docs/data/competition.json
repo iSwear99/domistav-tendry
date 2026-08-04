@@ -725,6 +725,36 @@
   "url": "https://zakazky.cenakhk.cz/profile_display_2.html"
  },
  {
+  "id": "profil:hronov:P26V00005156",
+  "source": "profil:hronov",
+  "title": "Oprava střechy a krovu vodní tvrze v Hronově",
+  "authority": "Město Hronov",
+  "authority_ico": "00272680",
+  "winner": "Jaroslav Dvořák",
+  "winner_ico": "73572250",
+  "awarded": "2026-07-21",
+  "price_contracted": 1858076.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 42,
+  "loc_unknown": false,
+  "cpv": [
+   "45261900"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.vhodne-uverejneni.cz/profil/00272680",
+  "bidders": [
+   {
+    "nazev": "Jaroslav Dvořák",
+    "ico": "73572250",
+    "cena": 1858076.0,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2600096694",
   "source": "profil:pardubice",
   "title": "MŠ Grusova – venkovní markýza",
@@ -13366,7 +13396,7 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": 18,
+  "dist_km": 19,
   "loc_unknown": false,
   "cpv": [
    "45000000"
@@ -19369,6 +19399,36 @@
   "kind": "VZ",
   "kw_match": true,
   "url": "https://ezak.suspk.cz/"
+ },
+ {
+  "id": "profil:rychnov-nk:VZ-255",
+  "source": "profil:rychnov-nk",
+  "title": "Rekonstrukce šesti koupelen v č.p. 831",
+  "authority": "Město Rychnov nad Kněžnou",
+  "authority_ico": "00275336",
+  "winner": "R E M I N G , s. r. o.",
+  "winner_ico": "47454687",
+  "awarded": "2026-01-05",
+  "price_contracted": 1673400.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://zakazky.rychnov-city.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "R E M I N G , s. r. o.",
+    "ico": "47454687",
+    "cena": 1673400.0,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2500216798",

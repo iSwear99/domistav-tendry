@@ -1,8 +1,8 @@
 {
  "meta": {
-  "updated": "2026-08-03T18:07:59+00:00",
-  "zd": 488,
-  "zpravy": 1231,
+  "updated": "2026-08-04T13:11:04+00:00",
+  "zd": 453,
+  "zpravy": 1236,
   "novych": 4,
   "errors": []
  },
@@ -43,9 +43,6 @@
   "profil:kr-kralovehradecky:VZ-12963": {
    "doc_url": "https://zakazky.cenakhk.cz/document_download_146222.html"
   },
-  "profil:pvu:46496491:P26V00004795": {
-   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3880569"
-  },
   "profil:kr-kralovehradecky:VZ-12970": {
    "doc_url": "https://zakazky.cenakhk.cz/document_download_146242.html"
   },
@@ -54,18 +51,6 @@
   },
   "rvz:RVZ2600112922": {
    "doc_url": "https://nen.nipez.cz/file?id=4566368018"
-  },
-  "profil:kr-pardubicky:VZ-6172": {
-   "doc_url": "https://zakazky.pardubickykraj.cz/document_download_60474.html"
-  },
-  "rvz:RVZ2600112028": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2600112031": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2600110411": {
-   "nenalezeno": true
   },
   "rvz:RVZ2600113278": {
    "nenalezeno": true
@@ -183,9 +168,6 @@
    "nenalezeno": true
   },
   "rvz:RVZ2600078426": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2600076503": {
    "nenalezeno": true
   },
   "rvz:RVZ2600077327": {
@@ -522,9 +504,6 @@
   "rvz:RVZ2600051536": {
    "nenalezeno": true
   },
-  "rvz:RVZ2600100632": {
-   "nenalezeno": true
-  },
   "rvz:RVZ2500090042": {
    "nenalezeno": true
   },
@@ -567,12 +546,6 @@
   "rvz:RVZ2600106154": {
    "nenalezeno": true
   },
-  "rvz:RVZ2500092455": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2500139000": {
-   "nenalezeno": true
-  },
   "rvz:RVZ2600080159": {
    "nenalezeno": true
   },
@@ -595,9 +568,6 @@
    "nenalezeno": true
   },
   "rvz:RVZ2500080861": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2500225512": {
    "nenalezeno": true
   },
   "rvz:RVZ2500075198": {
@@ -624,9 +594,6 @@
   "rvz:RVZ2500128433": {
    "nenalezeno": true
   },
-  "rvz:RVZ2500085827": {
-   "nenalezeno": true
-  },
   "rvz:RVZ2600000123": {
    "nenalezeno": true
   },
@@ -642,27 +609,6 @@
   "rvz:RVZ2500089840": {
    "nenalezeno": true
   },
-  "profil:pvu:00303160:P26V00004461": {
-   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3867090"
-  },
-  "profil:john-nell-baby:P26V00000012": {
-   "doc_url": "https://zakazky.navigaassistance.cz/contract_display_179.html?open=doc_zad",
-   "misto": "olomouc"
-  },
-  "profil:john-nell-baby:P26V00000010": {
-   "doc_url": "https://zakazky.navigaassistance.cz/contract_display_177.html?open=doc_zad",
-   "hodnota": 13800000.0,
-   "misto": "olomouc"
-  },
-  "profil:pvu:00297488:P26V00004914": {
-   "nenalezeno": true
-  },
-  "profil:pvu:00244686:P26V00005071": {
-   "nenalezeno": true
-  },
-  "profil:pvu:00297488:P26V00005009": {
-   "nenalezeno": true
-  },
   "profil:trutnov:VZ-1839": {
    "doc_url": "https://zakazky.trutnov.cz/document_download_8617.html"
   },
@@ -672,19 +618,6 @@
   "rvz:RVZ2600113644": {
    "nenalezeno": true
   },
-  "profil:john-nell-baby:P26V00000009": {
-   "doc_url": "https://zakazky.navigaassistance.cz/contract_display_176.html?open=doc_zad",
-   "hodnota": 53378000.0,
-   "misto": "cheb"
-  },
-  "profil:pvu:00244686:P26V00005076": {
-   "nenalezeno": true
-  },
-  "profil:john-nell-baby:P26V00000014": {
-   "doc_url": "https://zakazky.navigaassistance.cz/contract_display_181.html?open=doc_zad",
-   "hodnota": 47070000.0,
-   "misto": "liberec"
-  },
   "profil:trutnov:VZ-1837": {
    "doc_url": "https://zakazky.trutnov.cz/document_download_8632.html"
   },
@@ -693,24 +626,6 @@
   },
   "profil:trutnov:VZ-1844": {
    "nenalezeno": true
-  },
-  "rvz:RVZ2600113925": {
-   "doc_url": "https://nen.nipez.cz/file?id=4570345214",
-   "hodnota": 9702500.0,
-   "misto": "zakladni skola pardubice–polabiny, prodlouzena 283, 530 09 pardubice.",
-   "termin": "termin zahajeni plneni: na zaklade pisemne vyzvy zadavatele."
-  },
-  "rvz:RVZ2600113950": {
-   "doc_url": "https://nen.nipez.cz/file?id=4570393058",
-   "hodnota": 3306000.0,
-   "misto": "basketbalova hala, ul. v raji 311, pardubice.",
-   "termin": "zahajeni plneni: na zaklade pisemne vyzvy zadavatele po ukonceni zad avaciho rizeni a nabyti ucinnosti"
-  },
-  "rvz:RVZ2600113957": {
-   "doc_url": "https://nen.nipez.cz/file?id=4570427946",
-   "hodnota": 107000000.0,
-   "misto": "parc. c. 284, 285/2, 279/30, 280/20, 279/31, 279/10, 279/35, 332/4, 396 a 337/17, vse k.u. popkovice",
-   "termin": "zahajeni plneni: dnem predani staveniste, a to na zaklade pisemne vyzvy objednatele"
   },
   "rvz:RVZ2500067976": {
    "nenalezeno": true
@@ -772,9 +687,6 @@
   "rvz:RVZ2500070078": {
    "nenalezeno": true
   },
-  "rvz:RVZ2500057828": {
-   "nenalezeno": true
-  },
   "rvz:RVZ2500087945": {
    "doc_url": "https://zakazky.kr-stredocesky.cz/contract_display_15720.html?open=doc_zad",
    "hodnota": 2890000.0,
@@ -814,9 +726,6 @@
    "nenalezeno": true
   },
   "rvz:RVZ2500093851": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2500091299": {
    "nenalezeno": true
   },
   "rvz:RVZ2500058159": {
@@ -877,9 +786,6 @@
    "nenalezeno": true
   },
   "rvz:RVZ2500067894": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2500071927": {
    "nenalezeno": true
   },
   "rvz:RVZ2500060468": {
@@ -1000,9 +906,6 @@
   "rvz:RVZ2500116943": {
    "nenalezeno": true
   },
-  "rvz:RVZ2500106707": {
-   "nenalezeno": true
-  },
   "rvz:RVZ2500124607": {
    "nenalezeno": true
   },
@@ -1051,12 +954,6 @@
    "hodnota": 3108400.0,
    "misto": "mlada boleslav"
   },
-  "rvz:RVZ2600051971": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2600053918": {
-   "nenalezeno": true
-  },
   "rvz:RVZ2600066073": {
    "nenalezeno": true
   },
@@ -1066,9 +963,6 @@
    "misto": "stredocesky kraj"
   },
   "rvz:RVZ2600073273": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2500083103": {
    "nenalezeno": true
   },
   "rvz:RVZ2500076998": {
@@ -1227,9 +1121,6 @@
   "rvz:RVZ2500084078": {
    "nenalezeno": true
   },
-  "rvz:RVZ2500086397": {
-   "nenalezeno": true
-  },
   "rvz:RVZ2500077758": {
    "nenalezeno": true
   },
@@ -1296,15 +1187,6 @@
   "rvz:RVZ2500091760": {
    "nenalezeno": true
   },
-  "profil:chrudim:VZ-520": {
-   "doc_url": "https://zakazky.chrudim-city.cz/document_download_7923.html"
-  },
-  "profil:chrudim:VZ-511": {
-   "doc_url": "https://zakazky.chrudim-city.cz/document_download_7656.html"
-  },
-  "rvz:RVZ2600085337": {
-   "nenalezeno": true
-  },
   "rvz:RVZ2600107915": {
    "nenalezeno": true
   },
@@ -1346,16 +1228,10 @@
    "misto": "8.1. doba plneni verejne zakazky",
    "termin": "realizace bude provedena v obdobi od 1.9.2026 do 18.11.2026. dobu realizace zakazky navrhne dodavatel"
   },
-  "rvz:RVZ2600111059": {
-   "nenalezeno": true
-  },
   "rvz:RVZ2600108640": {
    "doc_url": "https://nen.nipez.cz/file?id=4543393210",
    "misto": "pageref _toc225861319 \\h 3 3. pozadavky na pocet nabidek a varianty na",
    "termin": "je zadavatelem pozadovana do 31. 5 . 202 7 . misto plneni vz mistem plneni predmetu vz"
-  },
-  "rvz:RVZ2600104503": {
-   "nenalezeno": true
   },
   "rvz:RVZ2600085284": {
    "nenalezeno": true
@@ -1423,9 +1299,6 @@
    "nenalezeno": true
   },
   "rvz:RVZ2600112522": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2600109413": {
    "nenalezeno": true
   },
   "rvz:RVZ2600109786": {
@@ -1528,6 +1401,12 @@
   },
   "profil:pvu:05369495:P26V00005121": {
    "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3883883"
+  },
+  "profil:pvu:25911368:P26V00005185": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3884791"
+  },
+  "profil:pvu:00256552:P26V00005183": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3884781"
   }
  },
  "zpravy": {
@@ -5252,6 +5131,22 @@
    "nenalezeno": true
   },
   "rvz:RVZ2600068496": {
+   "nenalezeno": true
+  },
+  "profil:hronov:P26V00005156": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600086613": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600075037": {
+   "doc_url": "https://nen.nipez.cz/file?id=4560521543"
+  },
+  "rvz:RVZ2600066972": {
+   "doc_url": "https://nen.nipez.cz/file?id=4398990857",
+   "cena": 89214965.38
+  },
+  "profil:rychnov-nk:VZ-255": {
    "nenalezeno": true
   }
  }

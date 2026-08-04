@@ -217,6 +217,20 @@
    "label": "vysvětlení ZD",
    "old": "0",
    "new": "2"
+  },
+  {
+   "date": "2026-08-04",
+   "field": "value",
+   "label": "hodnota",
+   "old": "22 021 248 Kč",
+   "new": "—"
+  },
+  {
+   "date": "2026-08-04",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "2",
+   "new": "0"
   }
  ],
  "rvz:RVZ2600073073": [
@@ -284,6 +298,13 @@
    "label": "lhůta",
    "old": "—",
    "new": "2026-04-13 10:00"
+  },
+  {
+   "date": "2026-08-04",
+   "field": "deadline",
+   "label": "lhůta",
+   "old": "2026-04-13 10:00",
+   "new": "—"
   }
  ],
  "rvz:RVZ2600099758": [
@@ -395,6 +416,20 @@
    "label": "vysvětlení ZD",
    "old": "0",
    "new": "2"
+  },
+  {
+   "date": "2026-08-04",
+   "field": "value",
+   "label": "hodnota",
+   "old": "25 112 786 Kč",
+   "new": "—"
+  },
+  {
+   "date": "2026-08-04",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "2",
+   "new": "0"
   }
  ],
  "rvz:RVZ2600037136": [
@@ -425,6 +460,13 @@
    "label": "vysvětlení ZD",
    "old": "0",
    "new": "2"
+  },
+  {
+   "date": "2026-08-04",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "2",
+   "new": "0"
   }
  ],
  "rvz:RVZ2600074641": [
@@ -455,6 +497,13 @@
    "label": "vysvětlení ZD",
    "old": "0",
    "new": "1"
+  },
+  {
+   "date": "2026-08-04",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "1",
+   "new": "0"
   }
  ],
  "rvz:RVZ2600085140": [
@@ -513,6 +562,20 @@
    "label": "vysvětlení ZD",
    "old": "0",
    "new": "1"
+  },
+  {
+   "date": "2026-08-04",
+   "field": "value",
+   "label": "hodnota",
+   "old": "11 678 725 Kč",
+   "new": "—"
+  },
+  {
+   "date": "2026-08-04",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "1",
+   "new": "0"
   }
  ],
  "rvz:RVZ2600104088": [
@@ -855,6 +918,15 @@
    "field": "deadline",
    "label": "lhůta",
    "old": "2026-03-06 09:00",
+   "new": "—"
+  }
+ ],
+ "rvz:RVZ2400137391": [
+  {
+   "date": "2026-08-04",
+   "field": "value",
+   "label": "hodnota",
+   "old": "91 948 744 Kč",
    "new": "—"
   }
  ]
