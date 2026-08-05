@@ -1,11 +1,11 @@
 {
  "meta": {
-  "updated": "2026-08-04T18:56:23+00:00",
+  "updated": "2026-08-05T13:09:43+00:00",
   "model": "claude-opus-5",
-  "posouzeno_nyni": 2,
-  "celkem": 451,
+  "posouzeno_nyni": 1,
+  "celkem": 452,
   "counts": {
-   "ano": 219,
+   "ano": 220,
    "ne": 150,
    "nejisto": 82
   },
@@ -1815,6 +1815,10 @@
   "profil:pvu:00256552:P26V00005183": {
    "verdikt": "ano",
    "duvod": "Výstavba knihovny, pozemní stavba včetně demolic"
+  },
+  "profil:trutnov:VZ-1852": {
+   "verdikt": "ano",
+   "duvod": "Oprava střešního pláště budovy – pozemní stavitelství"
   }
  }
 }
