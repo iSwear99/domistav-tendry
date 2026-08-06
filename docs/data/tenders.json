@@ -83454,6 +83454,50 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2500209888",
+  "source": "profil:hradec-kralove",
+  "title": "Profesionální renovace laserových, jehličkových a inkoustových kazet",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2025-01-23",
+  "deadline": "2025-02-10T09:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "ABEL-Computer s.r.o.",
+    "ico": "47678488",
+    "cena": 89560.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TONERSYSTEM s.r.o.",
+    "ico": "26842548",
+    "cena": 62915.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "COMP`S, spol. s r.o.",
+    "ico": "46709576",
+    "cena": 74900.0,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2500077574",
   "source": "isvz",
   "nen_id": "",
@@ -116538,6 +116582,53 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00241687:P26V00003074",
+  "source": "profil:pvu:00241687",
+  "title": "Kompletní rekonstrukce prostranství a schodiště před FZŠ Trávníčkova",
+  "authority": "Městská část Praha 13",
+  "authority_ico": "00241687",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-05-11",
+  "deadline": "2026-05-11T13:13:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/mestska-cast-praha-13",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "BOSTA HOLDING, a.s.",
+    "ico": "25736094",
+    "cena": 1745403.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "COMPEX DATA BOHEMIA, spol.s r.o.",
+    "ico": "47117958",
+    "cena": 2036986.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KlimaFabrik s.r.o.",
+    "ico": "04225970",
+    "cena": 1952059.0,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true
+ },
+ {
   "id": "rvz:RVZ2600098978",
   "source": "isvz",
   "nen_id": "N006/26/V00017011",
@@ -117723,6 +117814,100 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00241687:P26V00003450",
+  "source": "profil:pvu:00241687",
+  "title": "Revitalizace sportovního hřiště Mezi Školami",
+  "authority": "Městská část Praha 13",
+  "authority_ico": "00241687",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-05-26",
+  "deadline": "2026-05-26T11:03:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/mestska-cast-praha-13",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "CONEP s.r.o.",
+    "ico": "24183831",
+    "cena": 3301094.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "HŘIŠTĚ REJ HER, s.r.o.",
+    "ico": "02447207",
+    "cena": 3445380.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "REVITAL - VRBČANY, spol. s r.o.",
+    "ico": "64582400",
+    "cena": 3424518.0,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true
+ },
+ {
+  "id": "profil:pvu:00241687:P26V00003452",
+  "source": "profil:pvu:00241687",
+  "title": "Rekonstrukce dětského hřiště v Centrálním parku",
+  "authority": "Městská část Praha 13",
+  "authority_ico": "00241687",
+  "cpv": [
+   "37535200"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-05-26",
+  "deadline": "2026-05-26T11:49:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/mestska-cast-praha-13",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "GARTENSTA PLUS s.r.o.",
+    "ico": "26689472",
+    "cena": 1664267.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "REVITAL - VRBČANY, spol. s r.o.",
+    "ico": "64582400",
+    "cena": 1733856.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "CONEP s.r.o.",
+    "ico": "24183831",
+    "cena": 1702106.0,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": true,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true
+ },
+ {
   "id": "rvz:RVZ2600078148",
   "source": "isvz",
   "nen_id": "",
@@ -118287,6 +118472,53 @@
   "expired": true,
   "dist_km": 31,
   "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00241687:P26V00003579",
+  "source": "profil:pvu:00241687",
+  "title": "Zateplení hasičské zbrojnice Třebonice",
+  "authority": "Městská část Praha 13",
+  "authority_ico": "00241687",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-01",
+  "deadline": "2026-06-01T12:57:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/mestska-cast-praha-13",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Kt – KLIMATERM s.r.o.",
+    "ico": "25481894",
+    "cena": 1283363.79,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SPAK - SF s.r.o.",
+    "ico": "63674009",
+    "cena": 1318462.64,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KARGEA s.r.o.",
+    "ico": "27364836",
+    "cena": 1328045.82,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true
  },
  {
   "id": "rvz:RVZ2600064832",
@@ -119556,6 +119788,46 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2600099419",
+  "source": "profil:pardubice",
+  "title": "Dostihové závodiště – oprava překážek č. 26 a 31",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45212200"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-04",
+  "deadline": "2026-06-16T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017305",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "RONING spol. s r.o.",
+    "ico": "62028405",
+    "cena": 402848.34,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TERESTAV s.r.o.",
+    "ico": "17757002",
+    "cena": 411499.57,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600099367",
   "source": "profil:pardubice",
   "title": "Budova U Josefa 118 – oprava sociálních zařízení",
@@ -119615,46 +119887,6 @@
     "nazev": "DUX staving s.r.o.",
     "ico": "25702408",
     "cena": 4280560.46,
-    "vyloucen": false
-   }
-  ],
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2600099419",
-  "source": "profil:pardubice",
-  "title": "Dostihové závodiště – oprava překážek č. 26 a 31",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45212200"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-06-04",
-  "deadline": "2026-06-16T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017305",
-  "place": "",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "bidders": [
-   {
-    "nazev": "RONING spol. s r.o.",
-    "ico": "62028405",
-    "cena": 402848.34,
-    "vyloucen": false
-   },
-   {
-    "nazev": "TERESTAV s.r.o.",
-    "ico": "17757002",
-    "cena": 411499.57,
     "vyloucen": false
    }
   ],
@@ -120107,6 +120339,53 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00241687:P26V00004070",
+  "source": "profil:pvu:00241687",
+  "title": "Vybudování sportovně - herního prvku v ul. Běhounkova u habrů  a rekonstrukce DH Holýšovská I. a II.",
+  "authority": "Městská část Praha 13",
+  "authority_ico": "00241687",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-19",
+  "deadline": "2026-06-19T11:13:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/mestska-cast-praha-13",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Jaroslav Kozojed",
+    "ico": "65592794",
+    "cena": 4306278.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Česká zahrada, s.r.o.",
+    "ico": "27138275",
+    "cena": 4224931.92,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Martin DZIK",
+    "ico": "15898431",
+    "cena": 4398936.14,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true
+ },
+ {
   "id": "rvz:RVZ2600084102",
   "source": "isvz",
   "nen_id": "",
@@ -120193,6 +120472,53 @@
   "expired": true,
   "dist_km": 37,
   "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00241687:P26V00004100",
+  "source": "profil:pvu:00241687",
+  "title": "Vybudování venkovní posilovny ve vnitrobloku Amforová",
+  "authority": "Městská část Praha 13",
+  "authority_ico": "00241687",
+  "cpv": [
+   "37410000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-22",
+  "deadline": "2026-06-22T09:31:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/mestska-cast-praha-13",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "HŘIŠTĚ REJ HER, s.r.o.",
+    "ico": "02447207",
+    "cena": 2261207.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "REVITAL - VRBČANY, spol. s r.o.",
+    "ico": "64582400",
+    "cena": 2161016.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "CONEP s.r.o.",
+    "ico": "24183831",
+    "cena": 2228486.0,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": true,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true
  },
  {
   "id": "profil:trutnov:VZ-1820",
@@ -120307,6 +120633,53 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00241687:P26V00004135",
+  "source": "profil:pvu:00241687",
+  "title": "FZŠ O. Chlupa, Fingerova 2186/17 - přístavba výtahu",
+  "authority": "Městská část Praha 13",
+  "authority_ico": "00241687",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-23",
+  "deadline": "2026-06-23T11:26:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/mestska-cast-praha-13",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Z & D stavební společnost spol. s r.o.",
+    "ico": "45244618",
+    "cena": 3697174.42,
+    "vyloucen": false
+   },
+   {
+    "nazev": "FMM Consulting s.r.o.",
+    "ico": "24838535",
+    "cena": 3779179.4,
+    "vyloucen": false
+   },
+   {
+    "nazev": "JH Construct Praha s.r.o.",
+    "ico": "23580089",
+    "cena": 3891248.1,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true
+ },
+ {
   "id": "rvz:RVZ2600096373",
   "source": "isvz",
   "nen_id": "",
@@ -120403,6 +120776,53 @@
   "expired": true,
   "dist_km": 35,
   "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00241687:P26V00004167",
+  "source": "profil:pvu:00241687",
+  "title": "Revitalizace hřišť v ulici Dominova",
+  "authority": "Městská část Praha 13",
+  "authority_ico": "00241687",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-24",
+  "deadline": "2026-06-24T11:02:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/mestska-cast-praha-13",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "REVITAL - VRBČANY, spol. s r.o.",
+    "ico": "64582400",
+    "cena": 5898732.15,
+    "vyloucen": false
+   },
+   {
+    "nazev": "GARTENSTA PLUS s.r.o.",
+    "ico": "26689472",
+    "cena": 5818506.9,
+    "vyloucen": false
+   },
+   {
+    "nazev": "HŘIŠTĚ REJ HER, s.r.o.",
+    "ico": "02447207",
+    "cena": 5916639.6,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true
  },
  {
   "id": "profil:lodin:P26V00004929",
@@ -121310,6 +121730,47 @@
   "no_value": true,
   "expired": true,
   "dist_km": 28,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00535982:P26V00004081",
+  "source": "profil:pvu:00535982",
+  "title": "Rekonstrukce plynové kotelny v Základní škole Písek, I. a II. stupeň",
+  "authority": "Obec Písek",
+  "authority_ico": "00535982",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-06",
+  "deadline": "2026-07-07T12:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00535982",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "K3 - INSTALMONT s.r.o.",
+    "ico": "28572581",
+    "cena": 2143361.88,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Kowollik s.r.o",
+    "ico": "17760704",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 20,
   "loc_unknown": false
  },
  {
@@ -123444,7 +123905,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "profile_url": "https://zakazky.chrudim-city.cz/profile_display_2.html",
   "dist_km": 28,
   "loc_unknown": false
@@ -123574,7 +124035,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 33,
   "loc_unknown": false
  },
@@ -123598,9 +124059,103 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 4,
   "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00241687:P26V00005212",
+  "source": "profil:pvu:00241687",
+  "title": "FZŠ Otakara Chlupa PedF UK - rekonstrukce střechy",
+  "authority": "Městská část Praha 13",
+  "authority_ico": "00241687",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-06",
+  "deadline": "2026-08-06T10:27:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/mestska-cast-praha-13",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "BAB mont s.r.o.",
+    "ico": "61498858",
+    "cena": 8592604.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "FMM Consulting s.r.o.",
+    "ico": "24838535",
+    "cena": 8707318.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Krytiny RS s.r.o.",
+    "ico": "26170906",
+    "cena": 8943577.0,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true
+ },
+ {
+  "id": "profil:pvu:00241687:P26V00005216",
+  "source": "profil:pvu:00241687",
+  "title": "FZŠ Trávníčkova - rekonstrukce hřiště kopané",
+  "authority": "Městská část Praha 13",
+  "authority_ico": "00241687",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-06",
+  "deadline": "2026-08-06T11:10:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/mestska-cast-praha-13",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "V. I. Konstruct s.r.o.",
+    "ico": "08993271",
+    "cena": 5506130.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Ing. Jiří Huptych",
+    "ico": "41157834",
+    "cena": 5474719.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "VYSSPA Sports Technology s.r.o.",
+    "ico": "27967638",
+    "cena": 5332673.0,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true
  },
  {
   "id": "rvz:RVZ2600105880",
@@ -125238,6 +125793,32 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:trutnov:VZ-1853",
+  "source": "profil:trutnov",
+  "title": "Dělnická 161 stavební úpravy",
+  "authority": "Město Trutnov",
+  "authority_ico": "00278360",
+  "cpv": [
+   "45211000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-05",
+  "deadline": "2026-08-28T10:00:00",
+  "url": "https://zakazky.trutnov.cz/profile_display_2.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 43,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600113137",
   "source": "isvz",
   "nen_id": "",
@@ -125368,45 +125949,6 @@
   "no_value": false,
   "expired": false,
   "dist_km": 30,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2600110130",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Výstavba MŠ Podzámčí II v Hradci Králové",
-  "authority": "Statutární město Hradec Králové",
-  "authority_ico": "00268810",
-  "cpv": [
-   "45000000",
-   "45214800",
-   "45214100",
-   "45214000",
-   "45223220",
-   "45331000",
-   "45310000",
-   "45261000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 166000000.0,
-  "published": "2026-07-14",
-  "deadline": "2026-08-31T10:00:00",
-  "url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://www.tenderarena.cz/profily/hradeckralove",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": false,
-  "profile_url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "dist_km": 4,
   "loc_unknown": false
  },
  {
@@ -125627,6 +126169,45 @@
   "no_value": true,
   "expired": false,
   "dist_km": 39,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600110130",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Výstavba MŠ Podzámčí II v Hradci Králové",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [
+   "45000000",
+   "45214800",
+   "45214100",
+   "45214000",
+   "45223220",
+   "45331000",
+   "45310000",
+   "45261000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 166000000.0,
+  "published": "2026-07-14",
+  "deadline": "2026-09-03T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://www.tenderarena.cz/profily/hradeckralove",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": false,
+  "profile_url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "dist_km": 4,
   "loc_unknown": false
  },
  {

@@ -1,11 +1,11 @@
 {
  "meta": {
-  "updated": "2026-08-05T13:09:43+00:00",
+  "updated": "2026-08-06T13:10:24+00:00",
   "model": "claude-opus-5",
   "posouzeno_nyni": 1,
-  "celkem": 452,
+  "celkem": 453,
   "counts": {
-   "ano": 220,
+   "ano": 221,
    "ne": 150,
    "nejisto": 82
   },
@@ -1819,6 +1819,10 @@
   "profil:trutnov:VZ-1852": {
    "verdikt": "ano",
    "duvod": "Oprava střešního pláště budovy – pozemní stavitelství"
+  },
+  "profil:trutnov:VZ-1853": {
+   "verdikt": "ano",
+   "duvod": "Stavební úpravy budovy, pozemní stavitelství"
   }
  }
 }

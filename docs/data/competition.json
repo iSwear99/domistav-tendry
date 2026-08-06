@@ -1,5 +1,41 @@
 [
  {
+  "id": "profil:pvu:00535982:P26V00004081",
+  "source": "profil:pvu:00535982",
+  "title": "Rekonstrukce plynové kotelny v Základní škole Písek, I. a II. stupeň",
+  "authority": "Obec Písek",
+  "authority_ico": "00535982",
+  "winner": "K3 - INSTALMONT s.r.o.",
+  "winner_ico": "28572581",
+  "awarded": "2026-08-03",
+  "price_contracted": 2143361.88,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 20,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.vhodne-uverejneni.cz/profil/00535982",
+  "bidders": [
+   {
+    "nazev": "K3 - INSTALMONT s.r.o.",
+    "ico": "28572581",
+    "cena": 2143361.88,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Kowollik s.r.o",
+    "ico": "17760704",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2600113920",
   "source": "isvz",
   "title": "Rekonstrukce LC VYCH ZADOLKA, LS Lanškroun",

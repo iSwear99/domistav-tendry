@@ -1,8 +1,8 @@
 {
  "meta": {
-  "updated": "2026-08-05T13:09:28+00:00",
-  "zd": 452,
-  "zpravy": 1236,
+  "updated": "2026-08-06T13:10:17+00:00",
+  "zd": 453,
+  "zpravy": 1237,
   "novych": 1,
   "errors": []
  },
@@ -1404,6 +1404,9 @@
   },
   "profil:trutnov:VZ-1852": {
    "doc_url": "https://zakazky.trutnov.cz/document_download_8669.html"
+  },
+  "profil:trutnov:VZ-1853": {
+   "doc_url": "https://zakazky.trutnov.cz/document_download_8677.html"
   }
  },
  "zpravy": {
@@ -5144,6 +5147,9 @@
    "cena": 89214965.38
   },
   "profil:rychnov-nk:VZ-255": {
+   "nenalezeno": true
+  },
+  "profil:pvu:00535982:P26V00004081": {
    "nenalezeno": true
   }
  }
