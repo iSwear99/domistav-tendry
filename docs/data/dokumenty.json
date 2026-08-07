@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "2026-08-06T13:25:05+00:00",
-  "zd": 453,
+  "updated": "2026-08-07T10:18:31+00:00",
+  "zd": 454,
   "zpravy": 1237,
   "novych": 1,
   "errors": []
@@ -1407,6 +1407,9 @@
   },
   "profil:trutnov:VZ-1853": {
    "doc_url": "https://zakazky.trutnov.cz/document_download_8677.html"
+  },
+  "profil:pvu:00275301:P26V00005224": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3886376"
   }
  },
  "zpravy": {
