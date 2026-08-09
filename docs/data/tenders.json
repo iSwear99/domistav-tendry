@@ -119900,6 +119900,46 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2600099419",
+  "source": "profil:pardubice",
+  "title": "Dostihové závodiště – oprava překážek č. 26 a 31",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45212200"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-04",
+  "deadline": "2026-06-16T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017305",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "RONING spol. s r.o.",
+    "ico": "62028405",
+    "cena": 402848.34,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TERESTAV s.r.o.",
+    "ico": "17757002",
+    "cena": 411499.57,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600099367",
   "source": "profil:pardubice",
   "title": "Budova U Josefa 118 – oprava sociálních zařízení",
@@ -119970,72 +120010,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600099419",
-  "source": "profil:pardubice",
-  "title": "Dostihové závodiště – oprava překážek č. 26 a 31",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45212200"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-06-04",
-  "deadline": "2026-06-16T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017305",
-  "place": "",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "bidders": [
-   {
-    "nazev": "RONING spol. s r.o.",
-    "ico": "62028405",
-    "cena": 402848.34,
-    "vyloucen": false
-   },
-   {
-    "nazev": "TERESTAV s.r.o.",
-    "ico": "17757002",
-    "cena": 411499.57,
-    "vyloucen": false
-   }
-  ],
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2600099375",
-  "source": "profil:pardubice",
-  "title": "Areál Skatepark – obnova překážek",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45212290"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-06-04",
-  "deadline": "2026-06-16T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017282",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600099359",
   "source": "profil:pardubice",
   "title": "ZŠ Kyjevská – výměna plynových kotlů",
@@ -120080,6 +120054,32 @@
     "vyloucen": false
    }
   ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600099375",
+  "source": "profil:pardubice",
+  "title": "Areál Skatepark – obnova překážek",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45212290"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-04",
+  "deadline": "2026-06-16T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017282",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -124578,32 +124578,6 @@
   "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00013496"
  },
  {
-  "id": "profil:kr-kralovehradecky:VZ-12963",
-  "source": "profil:kr-kralovehradecky",
-  "title": "Rekonstrukce internátu v Opočně – 1. NP – dva byty a zázemí pro ředitelství DD Sedloňov – stavební práce",
-  "authority": "Královéhradecký kraj",
-  "authority_ico": "70889546",
-  "cpv": [
-   "45454100"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-07-21",
-  "deadline": "2026-08-12T09:00:00",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 42,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600109246",
   "source": "isvz",
   "nen_id": "",
@@ -125088,6 +125062,32 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:kr-kralovehradecky:VZ-12963",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Rekonstrukce internátu v Opočně – 1. NP – dva byty a zázemí pro ředitelství DD Sedloňov – stavební práce",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45454100"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-07-21",
+  "deadline": "2026-08-18T09:00:00",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 42,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600113108",
   "source": "profil:pardubice",
   "title": "Areál K Dolíčku – oprava šaten",
@@ -125550,39 +125550,6 @@
   "loc_unknown": true
  },
  {
-  "id": "rvz:RVZ2600111066",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Rehabilitační ústav Brandýs nad Orlicí, výstavba nové\nbudovy, KRANIOPROGRAM",
-  "authority": "Pardubický kraj",
-  "authority_ico": "70892822",
-  "cpv": [
-   "45215120",
-   "45232221"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": 290926496.38,
-  "published": "2026-07-16",
-  "deadline": "2026-08-24T10:00:00",
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": false,
-  "profile_url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "dist_km": 43,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600111966",
   "source": "isvz",
   "nen_id": "",
@@ -125901,6 +125868,39 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2600111066",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Rehabilitační ústav Brandýs nad Orlicí, výstavba nové\nbudovy, KRANIOPROGRAM",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "45215120",
+   "45232221"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 290926496.38,
+  "published": "2026-07-16",
+  "deadline": "2026-08-28T10:00:00",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": false,
+  "profile_url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "dist_km": 43,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600111101",
   "source": "isvz",
   "nen_id": "",
@@ -126201,6 +126201,33 @@
   "no_value": true,
   "expired": false,
   "dist_km": 43,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00256552:P26V00005241",
+  "source": "profil:pvu:00256552",
+  "title": "Městské kulturní a informační středisko Dobřany",
+  "authority": "Město Dobřany",
+  "authority_ico": "00256552",
+  "cpv": [
+   "45211100"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-07",
+  "deadline": "2026-09-01T09:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/mesto-dobrany",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 39,
   "loc_unknown": false
  },
  {
@@ -202607,40 +202634,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600098540",
-  "source": "profil:pardubice",
-  "title": "OBJ/00964/26",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-06-01",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00016769",
-  "place": "",
-  "state": "ukončeno plnění",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "bidders": [
-   {
-    "nazev": "Služby města Pardubic a.s.",
-    "ico": "25262572",
-    "cena": 105237.0,
-    "vyloucen": false
-   }
-  ],
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600098523",
   "source": "profil:pardubice",
   "title": "OBJ/963/26",
@@ -202664,6 +202657,40 @@
     "nazev": "Služby města Pardubic a.s.",
     "ico": "25262572",
     "cena": 199144.2,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600098540",
+  "source": "profil:pardubice",
+  "title": "OBJ/00964/26",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-01",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00016769",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Služby města Pardubic a.s.",
+    "ico": "25262572",
+    "cena": 105237.0,
     "vyloucen": false
    }
   ],

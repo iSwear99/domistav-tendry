@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "2026-08-07T10:18:31+00:00",
-  "zd": 454,
+  "updated": "2026-08-09T08:48:00+00:00",
+  "zd": 455,
   "zpravy": 1237,
   "novych": 1,
   "errors": []
@@ -1410,6 +1410,9 @@
   },
   "profil:pvu:00275301:P26V00005224": {
    "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3886376"
+  },
+  "profil:pvu:00256552:P26V00005241": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3887023"
   }
  },
  "zpravy": {
