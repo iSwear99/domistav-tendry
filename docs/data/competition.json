@@ -1,5 +1,57 @@
 [
  {
+  "id": "rvz:RVZ2600084759",
+  "source": "profil:hradec-kralove",
+  "title": "Technický dozor stavebníka a koordinátor BOZP na stavbě „Úpravy zahrady MŠ Třebechovická - Nadace Karla Komárka“",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "winner": "Vojtěch Pastyřík",
+  "winner_ico": "74308645",
+  "awarded": "2026-08-05",
+  "price_contracted": 71000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "bidders": [
+   {
+    "nazev": "D A B O N A s.r.o.",
+    "ico": "64826996",
+    "cena": 90000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "INGENIRING KRKONOŠE PRO s.r.o.",
+    "ico": "24901458",
+    "cena": 85800.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "DSI CONSULT s.r.o.",
+    "ico": "24010162",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SAFETY PRO s.r.o.",
+    "ico": "28571690",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Vojtěch Pastyřík",
+    "ico": "74308645",
+    "cena": 71000.0,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "profil:pvu:00535982:P26V00004081",
   "source": "profil:pvu:00535982",
   "title": "Rekonstrukce plynové kotelny v Základní škole Písek, I. a II. stupeň",
@@ -2219,6 +2271,111 @@
   "url": "https://ezak.suspk.cz/"
  },
  {
+  "id": "rvz:RVZ2600077971",
+  "source": "profil:pardubice",
+  "title": "Rekonstrukce elektronické požární signalizace, poplachového zabezpečovacího a tísňového systému a rozvodů strukturované kabeláže v budově Štrossova č.p. 44, Pardubice",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "F1 facility CZ  s. r. o.",
+  "winner_ico": "04462319",
+  "awarded": "2026-07-03",
+  "price_contracted": 1668085.63,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "51700000",
+   "32421000",
+   "31625000",
+   "45312100"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00007541",
+  "bidders": [
+   {
+    "nazev": "FortiFox Technologies, a.s.",
+    "ico": "17662087",
+    "cena": 2300000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ASTOR-KOMPLEX s.r.o.",
+    "ico": "47469781",
+    "cena": 1676240.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TELMO a.s.",
+    "ico": "47307781",
+    "cena": 2483789.34,
+    "vyloucen": false
+   },
+   {
+    "nazev": "F1 facility CZ  s. r. o.",
+    "ico": "04462319",
+    "cena": 1668085.63,
+    "vyloucen": false
+   },
+   {
+    "nazev": "FortiFox Technologies, a.s.",
+    "ico": "17662087",
+    "cena": 839998.22,
+    "vyloucen": false
+   },
+   {
+    "nazev": "F1 facility CZ  s. r. o.",
+    "ico": "04462319",
+    "cena": 896120.1,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ASTOR-KOMPLEX s.r.o.",
+    "ico": "47469781",
+    "cena": 656210.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "LENIA spol. s r. o.",
+    "ico": "41186176",
+    "cena": 797950.46,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TELMO a.s.",
+    "ico": "47307781",
+    "cena": 876081.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "FortiFox Technologies, a.s.",
+    "ico": "17662087",
+    "cena": 1049999.99,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ASTOR-KOMPLEX s.r.o.",
+    "ico": "47469781",
+    "cena": 832222.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TELMO a.s.",
+    "ico": "47307781",
+    "cena": 1025776.89,
+    "vyloucen": false
+   },
+   {
+    "nazev": "F1 facility CZ  s. r. o.",
+    "ico": "04462319",
+    "cena": 1304121.19,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "profil:kr-pardubicky:VZ-6042",
   "source": "profil:kr-pardubicky",
   "title": "Komunitní bydlení - Heřmanův Městec- podruhé",
@@ -4170,6 +4327,54 @@
   "kind": "VZMR",
   "kw_match": true,
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00020011"
+ },
+ {
+  "id": "rvz:RVZ2600079687",
+  "source": "profil:pardubice",
+  "title": "Budova Štrossova 44 – výměna oken - realizace",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "PYRHURA s.r.o.",
+  "winner_ico": "05936381",
+  "awarded": "2026-06-18",
+  "price_contracted": 5953163.28,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45421132"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00010780",
+  "bidders": [
+   {
+    "nazev": "STAFI FINALIZACE STAVEB s.r.o.",
+    "ico": "25968203",
+    "cena": 6630408.87,
+    "vyloucen": false
+   },
+   {
+    "nazev": "David Polách",
+    "ico": "74137611",
+    "cena": 7559611.5,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stavby-Eda s.r.o.",
+    "ico": "08600813",
+    "cena": 7927438.58,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PYRHURA s.r.o.",
+    "ico": "05936381",
+    "cena": 5953163.28,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600085948",
