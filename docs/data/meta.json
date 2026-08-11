@@ -1,13 +1,16 @@
 {
- "updated": "2026-08-10T11:24:20+00:00",
+ "updated": "2026-08-11T12:16:20+00:00",
  "counts": {
-  "total": 6394,
+  "total": 6398,
   "vz": 3686,
-  "vzmr": 2708,
-  "active": 73,
+  "vzmr": 2712,
+  "active": 74,
   "changed": 44,
-  "competition": 1240,
-  "previous": 6393
+  "competition": 1241,
+  "previous": 6394
  },
- "errors": []
+ "errors": [
+  "profil:kr-kralovehradecky: Stažení selhalo: https://zakazky.cenakhk.cz/profile_display_2.html/XMLdataVZ?od=13052026&do=11082026: <urlopen error timed out>",
+  "pvu: /externi-zakazka/vis-cachovice-oprava-dvoukridlych-kovovych-vrat: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/vis-cachovice-oprava-dvoukridlych-kovovych-vrat: HTTP Error 401: Unauthorized"
+ ]
 }

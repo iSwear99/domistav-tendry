@@ -3424,6 +3424,36 @@
   "url": "https://nen.nipez.cz/profily-zadavatelu-platne/p:pzp:query=Spr%C3%A1va%20st%C3%A1tn%C3%ADch/detail-profilu/SSHR"
  },
  {
+  "id": "profil:pvu:00270920:P26V00003671",
+  "source": "profil:pvu:00270920",
+  "title": "ZPEVNĚNÉ PLOCHY VČETNĚ INSTALACE DOBÍJECÍCH STANIC A CYKLO STOJANŮ U OBJEKTU ŠVÝCÁRNA, SLATIŇANY",
+  "authority": "Město Slatiňany",
+  "authority_ico": "00270920",
+  "winner": "POKSPOL s.r.o.",
+  "winner_ico": "03789161",
+  "awarded": "2026-06-25",
+  "price_contracted": 624342.96,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 33,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.vhodne-uverejneni.cz/profil/mesto-slatinany",
+  "bidders": [
+   {
+    "nazev": "POKSPOL s.r.o.",
+    "ico": "03789161",
+    "cena": 624342.96,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2600068325",
   "source": "isvz",
   "title": "Rozvoj dostupnosti komunitních sociálních služeb – výstavba CHB Hořice – elektrovybavení",

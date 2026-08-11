@@ -1,8 +1,8 @@
 {
  "meta": {
-  "updated": "2026-08-10T11:25:38+00:00",
-  "zd": 455,
-  "zpravy": 1240,
+  "updated": "2026-08-11T12:16:46+00:00",
+  "zd": 456,
+  "zpravy": 1241,
   "novych": 0,
   "errors": []
  },
@@ -1413,6 +1413,9 @@
   },
   "profil:pvu:00256552:P26V00005241": {
    "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3887023"
+  },
+  "profil:pvu:00599506:P26V00005288": {
+   "nenalezeno": true
   }
  },
  "zpravy": {
@@ -5165,6 +5168,9 @@
    "nenalezeno": true
   },
   "rvz:RVZ2600079687": {
+   "nenalezeno": true
+  },
+  "profil:pvu:00270920:P26V00003671": {
    "nenalezeno": true
   }
  }
