@@ -52,6 +52,37 @@
   ]
  },
  {
+  "id": "profil:trutnov:VZ-1821",
+  "source": "profil:trutnov",
+  "title": "Úprava dopravního prostoru MK – náměstí Republiky, Trutnov II",
+  "authority": "Město Trutnov",
+  "authority_ico": "00278360",
+  "winner": "OKTA GROUP s.r.o.",
+  "winner_ico": "06898769",
+  "awarded": "2026-08-05",
+  "price_contracted": 2513296.34,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "cpv": [
+   "45223300"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://zakazky.trutnov.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "OKTA GROUP s.r.o.",
+    "ico": "06898769",
+    "cena": 2513296.34,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39020594"
+ },
+ {
   "id": "profil:pvu:00535982:P26V00004081",
   "source": "profil:pvu:00535982",
   "title": "Rekonstrukce plynové kotelny v Základní škole Písek, I. a II. stupeň",
