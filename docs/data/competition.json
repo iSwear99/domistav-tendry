@@ -10098,9 +10098,9 @@
  },
  {
   "id": "rvz:RVZ2600054099",
-  "source": "profil:nachod",
+  "source": "isvz",
   "title": "Zateplení bytového domu čp. 275, čp. 276 a čp. 277, ul. Bartoňova, Náchod",
-  "authority": "Město Náchod",
+  "authority": "MĚSTO NÁCHOD",
   "authority_ico": "00272868",
   "winner": "STATING s.r.o.",
   "winner_ico": "25963864",
@@ -10116,64 +10116,7 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00003757",
-  "bidders": [
-   {
-    "nazev": "ŠTĚPÁNEK, spol. s r.o.",
-    "ico": "45535124",
-    "cena": 23121680.07,
-    "vyloucen": false
-   },
-   {
-    "nazev": "STAFI FINALIZACE STAVEB s.r.o.",
-    "ico": "25968203",
-    "cena": 19885108.06,
-    "vyloucen": false
-   },
-   {
-    "nazev": "MESSA Invest s.r.o.",
-    "ico": "25319540",
-    "cena": 17915090.56,
-    "vyloucen": false
-   },
-   {
-    "nazev": "Stavrecon Pardubice s.r.o.",
-    "ico": "05925801",
-    "cena": 21730392.87,
-    "vyloucen": false
-   },
-   {
-    "nazev": "SORMIG stavební společnost s.r.o.",
-    "ico": "09063463",
-    "cena": 20789045.13,
-    "vyloucen": false
-   },
-   {
-    "nazev": "CE -  ING s.r.o.",
-    "ico": "04475631",
-    "cena": 21917349.68,
-    "vyloucen": false
-   },
-   {
-    "nazev": "MARHOLD a.s.",
-    "ico": "15050050",
-    "cena": 21890336.56,
-    "vyloucen": false
-   },
-   {
-    "nazev": "STATING s.r.o.",
-    "ico": "25963864",
-    "cena": 17734417.54,
-    "vyloucen": false
-   },
-   {
-    "nazev": "ELEKTRO MOSEV spol. s r.o.",
-    "ico": "42228573",
-    "cena": 21856534.79,
-    "vyloucen": false
-   }
-  ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/37876241"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00003757"
  },
  {
   "id": "rvz:RVZ2600078243",
@@ -10199,7 +10142,7 @@
  },
  {
   "id": "rvz:RVZ2600085216",
-  "source": "profil:pardubice",
+  "source": "isvz",
   "title": "OBJ/00795/26",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
@@ -10217,16 +10160,7 @@
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00013262",
-  "bidders": [
-   {
-    "nazev": "Služby města Pardubic a.s.",
-    "ico": "25262572",
-    "cena": 951459.69,
-    "vyloucen": false
-   }
-  ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/37840021"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00013262"
  },
  {
   "id": "rvz:RVZ2600037295",
@@ -10252,9 +10186,9 @@
  },
  {
   "id": "rvz:RVZ2600085390",
-  "source": "profil:ceska-skalice",
+  "source": "isvz",
   "title": "Ul. Máchova - Realizace schodů ke hřbitovu, Česká Skalice",
-  "authority": "Město Česká Skalice",
+  "authority": "MĚSTO ČESKÁ SKALICE",
   "authority_ico": "00272591",
   "winner": "ŠPELDA s.r.o.",
   "winner_ico": "28800125",
@@ -22862,7 +22796,7 @@
  },
  {
   "id": "rvz:RVZ2500218770",
-  "source": "profil:pardubice",
+  "source": "isvz",
   "title": "OBJ/01894/25",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
@@ -22880,15 +22814,7 @@
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00039048",
-  "bidders": [
-   {
-    "nazev": "Služby města Pardubic a.s.",
-    "ico": "25262572",
-    "cena": 771119.0,
-    "vyloucen": false
-   }
-  ]
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00039048"
  },
  {
   "id": "rvz:RVZ2500214123",

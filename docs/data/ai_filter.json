@@ -1,12 +1,12 @@
 {
  "meta": {
-  "updated": "2026-08-13T10:26:09+00:00",
+  "updated": "2026-08-13T19:44:27+00:00",
   "model": "claude-opus-5",
   "posouzeno_nyni": 4,
   "celkem": 462,
   "counts": {
-   "ano": 225,
-   "ne": 153,
+   "ano": 227,
+   "ne": 151,
    "nejisto": 84
   },
   "errors": []
@@ -1844,21 +1844,21 @@
    "verdikt": "ano",
    "duvod": "Rekonstrukce sklepních prostor budovy"
   },
-  "profil:pvu:00239089:P26V00005328": {
-   "verdikt": "ne",
-   "duvod": "Revitalizace veřejné zeleně, nikoli pozemní stavba"
+  "profil:chrudim:VZ-511": {
+   "verdikt": "ano",
+   "duvod": "Přístavba a rekonstrukce sportovní haly – pozemní stavba"
   },
   "profil:kr-kralovehradecky:VZ-13061": {
    "verdikt": "nejisto",
-   "duvod": "Protipovodňová zábrana; rozsah stavebních prací neznámý"
+   "duvod": "Protipovodňová zábrana areálu, možná vodohospodářská stavba"
   },
-  "profil:pvu:00238295:P26V00005325": {
+  "profil:pvu:00270741:P26V00005349": {
    "verdikt": "nejisto",
-   "duvod": "Park, možné zpevněné plochy a objekty"
+   "duvod": "Nejasná zkratka LC, možná lesní cesta"
   },
-  "profil:pvu:26243237:P26V00005298": {
-   "verdikt": "ne",
-   "duvod": "Výměna kotlů, technologická dodávka kotelny"
+  "profil:pvu:18154115:P26V00005344": {
+   "verdikt": "ano",
+   "duvod": "Oprava střechy sokolovny – rekonstrukce budovy"
   }
  }
 }
