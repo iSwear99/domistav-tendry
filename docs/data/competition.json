@@ -1,5 +1,78 @@
 [
  {
+  "id": "profil:kr-kralovehradecky:VZ-12916",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Borohrádek stavební úpravy budovy - dodávka interiéru",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "winner": "MS interiéry s.r.o.",
+  "winner_ico": "28856384",
+  "awarded": "2026-08-10",
+  "price_contracted": 1700674.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 25,
+  "loc_unknown": false,
+  "cpv": [
+   "39000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "Authentica, s.r.o.",
+    "ico": "26883082",
+    "cena": 1775100.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Ing. Martin Mach",
+    "ico": "08055378",
+    "cena": 1966200.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KANONA a.s.",
+    "ico": "04163664",
+    "cena": 1966260.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KASCH - interiér s.r.o.",
+    "ico": "26831724",
+    "cena": 1877162.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KRAJČA-NÁBYTEK s.r.o.",
+    "ico": "04811682",
+    "cena": 2134600.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MS interiéry s.r.o.",
+    "ico": "28856384",
+    "cena": 1700674.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PROFIL NÁBYTEK, a.s.",
+    "ico": "48202118",
+    "cena": 1791700.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stolařství CHEJNA s.r.o.",
+    "ico": "06512607",
+    "cena": 1795300.0,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39064234"
+ },
+ {
   "id": "rvz:RVZ2600084759",
   "source": "profil:hradec-kralove",
   "title": "Technický dozor stavebníka a koordinátor BOZP na stavbě „Úpravy zahrady MŠ Třebechovická - Nadace Karla Komárka“",

@@ -117953,6 +117953,33 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00488097:P26V00004160",
+  "source": "profil:pvu:00488097",
+  "title": "Rekonstrukce VO obce Nebovidy",
+  "authority": "Obec Nebovidy",
+  "authority_ico": "00488097",
+  "cpv": [
+   "31527260"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-24",
+  "deadline": "2026-05-25T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00488097",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": true,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 46,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600079363",
   "source": "isvz",
   "nen_id": "",
@@ -120534,6 +120561,33 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00488097:P26V00005317",
+  "source": "profil:pvu:00488097",
+  "title": "Sanace vlhkého zdiva budovy MŠ v Nebovidech",
+  "authority": "Obec Nebovidy",
+  "authority_ico": "00488097",
+  "cpv": [
+   "45262600"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-12",
+  "deadline": "2026-06-17T12:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00488097",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 46,
+  "loc_unknown": false
+ },
+ {
   "id": "profil:pvu:00640662:P26V00005236",
   "source": "profil:pvu:00640662",
   "title": "Výstavba stezky pro chodce ke hřbitovu v obci Kouty",
@@ -121343,10 +121397,60 @@
   "deadline": "2026-06-25T10:00:00",
   "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Authentica, s.r.o.",
+    "ico": "26883082",
+    "cena": 1775100.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Ing. Martin Mach",
+    "ico": "08055378",
+    "cena": 1966200.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KANONA a.s.",
+    "ico": "04163664",
+    "cena": 1966260.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KASCH - interiér s.r.o.",
+    "ico": "26831724",
+    "cena": 1877162.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KRAJČA-NÁBYTEK s.r.o.",
+    "ico": "04811682",
+    "cena": 2134600.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MS interiéry s.r.o.",
+    "ico": "28856384",
+    "cena": 1700674.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PROFIL NÁBYTEK, a.s.",
+    "ico": "48202118",
+    "cena": 1791700.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stolařství CHEJNA s.r.o.",
+    "ico": "06512607",
+    "cena": 1795300.0,
+    "vyloucen": false
+   }
+  ],
   "kw_match": true,
   "no_nuts": false,
   "no_value": true,
@@ -122364,6 +122468,33 @@
   "expired": true,
   "dist_km": 29,
   "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00241407:P26V00003785",
+  "source": "profil:pvu:00241407",
+  "title": "Úprava technologie čištění bazénu na koupališti",
+  "authority": "URL detailu veřejné zakázky",
+  "authority_ico": "00241407",
+  "cpv": [
+   "45223000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-12",
+  "deadline": "2026-07-10T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00241407",
+  "place": "",
+  "state": "zrušen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true
  },
  {
   "id": "profil:trutnov:VZ-1821",
@@ -124006,32 +124137,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600112194",
-  "source": "profil:vysoke-myto",
-  "title": "Domov pro seniory, Žižkova 913 - úpravy střešního pláště",
-  "authority": "Město Vysoké Mýto",
-  "authority_ico": "00279773",
-  "cpv": [
-   "45261000"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-07-23",
-  "deadline": "2026-08-03T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00023358",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 39,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600112196",
   "source": "profil:vysoke-myto",
   "title": "MěÚ, Jiráskova 179 - obnova střešního pláště",
@@ -124045,6 +124150,32 @@
   "published": "2026-07-23",
   "deadline": "2026-08-03T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00023352",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 39,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600112194",
+  "source": "profil:vysoke-myto",
+  "title": "Domov pro seniory, Žižkova 913 - úpravy střešního pláště",
+  "authority": "Město Vysoké Mýto",
+  "authority_ico": "00279773",
+  "cpv": [
+   "45261000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-07-23",
+  "deadline": "2026-08-03T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00023358",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -125050,32 +125181,6 @@
   "loc_unknown": false
  },
  {
-  "id": "profil:kr-pardubicky:VZ-6283",
-  "source": "profil:kr-pardubicky",
-  "title": "Sportovní gymnázium, Pardubice, Dašická 268 - venkovní sportoviště",
-  "authority": "Pardubický kraj",
-  "authority_ico": "70892822",
-  "cpv": [
-   "45212000"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-07-15",
-  "deadline": "2026-08-14T10:00:00",
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
   "id": "profil:trutnov:VZ-1839",
   "source": "profil:trutnov",
   "title": "Zhotovení modelů, licích forem a sady fasádních odlitků pro historickou budovu ZUŠ Trutnov, Školní 13",
@@ -125274,6 +125379,32 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:kr-pardubicky:VZ-6283",
+  "source": "profil:kr-pardubicky",
+  "title": "Sportovní gymnázium, Pardubice, Dašická 268 - venkovní sportoviště",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "45212000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-07-15",
+  "deadline": "2026-08-17T10:00:00",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
   "id": "profil:pvu:00240711:P26V00005115",
   "source": "profil:pvu:00240711",
   "title": "Apartmán ve 2. NP Sportareálu Satalice",
@@ -125360,32 +125491,6 @@
   "clarifications": 4,
   "kind": "VZMR",
   "kw_match": true,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 42,
-  "loc_unknown": false
- },
- {
-  "id": "profil:kr-kralovehradecky:VZ-12963",
-  "source": "profil:kr-kralovehradecky",
-  "title": "Rekonstrukce internátu v Opočně – 1. NP – dva byty a zázemí pro ředitelství DD Sedloňov – stavební práce",
-  "authority": "Královéhradecký kraj",
-  "authority_ico": "70889546",
-  "cpv": [
-   "45454100"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-07-21",
-  "deadline": "2026-08-18T09:00:00",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
   "no_nuts": false,
   "no_value": true,
   "expired": false,
@@ -125625,6 +125730,32 @@
   "expired": false,
   "dist_km": null,
   "loc_unknown": true
+ },
+ {
+  "id": "profil:kr-kralovehradecky:VZ-12963",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Rekonstrukce internátu v Opočně – 1. NP – dva byty a zázemí pro ředitelství DD Sedloňov – stavební práce",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45454100"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-07-21",
+  "deadline": "2026-08-20T09:00:00",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 42,
+  "loc_unknown": false
  },
  {
   "id": "profil:pvu:44164289:P26V00004864",
@@ -125949,6 +126080,33 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00239089:P26V00005328",
+  "source": "profil:pvu:00239089",
+  "title": "Veřejné prostranství Svídnice – část revitalizace veřejné zeleně",
+  "authority": "Obec Dymokury",
+  "authority_ico": "00239089",
+  "cpv": [
+   "77310000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-12",
+  "deadline": "2026-08-24T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/obec-dymokury",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": true,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 34,
+  "loc_unknown": false
+ },
+ {
   "id": "profil:trutnov:VZ-1837",
   "source": "profil:trutnov",
   "title": "ZŠ Trutnov, snížení energetické náročnosti budov - objekt ZŠ R. Frimla",
@@ -126029,6 +126187,32 @@
   "no_value": true,
   "expired": false,
   "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:kr-kralovehradecky:VZ-13061",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Vybudování protipovodňové zábrany areálu organizace Domečky Rychnov nad Kněžnou - stavební práce",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-12",
+  "deadline": "2026-08-26T10:00:00",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 36,
   "loc_unknown": false
  },
  {
@@ -126508,6 +126692,33 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00238295:P26V00005325",
+  "source": "profil:pvu:00238295",
+  "title": "Areál porozumění – park pro seniory, 1. etapa",
+  "authority": "URL detailu veřejné zakázky",
+  "authority_ico": "00238295",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-12",
+  "deadline": "2026-08-31T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/statutarni-mesto-mlada-boleslav",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": null,
+  "loc_unknown": true
+ },
+ {
   "id": "profil:pvu:00275301:P26V00005224",
   "source": "profil:pvu:00275301",
   "title": "„Zateplení a stavební úpravy městského úřadu Rokytnice v Orlických horách“",
@@ -126861,6 +127072,33 @@
   "expired": false,
   "dist_km": 37,
   "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:26243237:P26V00005298",
+  "source": "profil:pvu:26243237",
+  "title": "BIOMASOVÁ KOTELNA PRO EKOLOGICKÉ VYUŽITÍ BIOMASY – rekonstrukce (výměna) kotlů s filtračním zařízení",
+  "authority": "AGROP NOVA a.s.",
+  "authority_ico": "26243237",
+  "cpv": [
+   "42160000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-12",
+  "deadline": "2026-09-14T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/agrop-nova-a-s",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": true,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": null,
+  "loc_unknown": true
  },
  {
   "id": "rvz:RVZ2600107250",
@@ -167447,7 +167685,7 @@
   "place": "",
   "authority_seat": "",
   "authority_profile": "https://nen.nipez.cz/profil/dobrosevas",
-  "state": "",
+  "state": "ukončeno plnění",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZ",

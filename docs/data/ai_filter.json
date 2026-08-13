@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-08-12T10:29:53+00:00",
+  "updated": "2026-08-13T10:26:09+00:00",
   "model": "claude-opus-5",
-  "posouzeno_nyni": 2,
-  "celkem": 458,
+  "posouzeno_nyni": 4,
+  "celkem": 462,
   "counts": {
    "ano": 225,
-   "ne": 151,
-   "nejisto": 82
+   "ne": 153,
+   "nejisto": 84
   },
   "errors": []
  },
@@ -1843,6 +1843,22 @@
   "profil:pvu:65468562:P26V00005307": {
    "verdikt": "ano",
    "duvod": "Rekonstrukce sklepních prostor budovy"
+  },
+  "profil:pvu:00239089:P26V00005328": {
+   "verdikt": "ne",
+   "duvod": "Revitalizace veřejné zeleně, nikoli pozemní stavba"
+  },
+  "profil:kr-kralovehradecky:VZ-13061": {
+   "verdikt": "nejisto",
+   "duvod": "Protipovodňová zábrana; rozsah stavebních prací neznámý"
+  },
+  "profil:pvu:00238295:P26V00005325": {
+   "verdikt": "nejisto",
+   "duvod": "Park, možné zpevněné plochy a objekty"
+  },
+  "profil:pvu:26243237:P26V00005298": {
+   "verdikt": "ne",
+   "duvod": "Výměna kotlů, technologická dodávka kotelny"
   }
  }
 }

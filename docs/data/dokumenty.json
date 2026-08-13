@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-08-12T10:29:47+00:00",
-  "zd": 458,
-  "zpravy": 1242,
-  "novych": 2,
+  "updated": "2026-08-13T10:26:00+00:00",
+  "zd": 462,
+  "zpravy": 1243,
+  "novych": 4,
   "errors": []
  },
  "zd": {
@@ -1422,6 +1422,18 @@
   },
   "profil:pvu:65468562:P26V00005307": {
    "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3889603"
+  },
+  "profil:pvu:00239089:P26V00005328": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3890174"
+  },
+  "profil:kr-kralovehradecky:VZ-13061": {
+   "doc_url": "https://zakazky.cenakhk.cz/document_download_147167.html"
+  },
+  "profil:pvu:00238295:P26V00005325": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3889995"
+  },
+  "profil:pvu:26243237:P26V00005298": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3889189"
   }
  },
  "zpravy": {
@@ -5180,6 +5192,9 @@
    "nenalezeno": true
   },
   "profil:trutnov:VZ-1821": {
+   "nenalezeno": true
+  },
+  "profil:kr-kralovehradecky:VZ-12916": {
    "nenalezeno": true
   }
  }
