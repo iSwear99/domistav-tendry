@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-08-14T10:24:06+00:00",
+  "updated": "2026-08-14T18:10:51+00:00",
   "model": "claude-opus-5",
   "posouzeno_nyni": 3,
   "celkem": 465,
@@ -1862,15 +1862,15 @@
   },
   "profil:pvu:00239089:P26V00005328": {
    "verdikt": "ne",
-   "duvod": "Revitalizace veřejné zeleně, ne pozemní stavba"
+   "duvod": "Revitalizace veřejné zeleně, sadové úpravy."
   },
   "profil:pvu:00238295:P26V00005325": {
    "verdikt": "nejisto",
-   "duvod": "Park, ale obecné stavební práce, možné zpevněné plochy"
+   "duvod": "Park, obecné CPV stavebních prací, rozsah neznámý."
   },
   "profil:pvu:26243237:P26V00005298": {
    "verdikt": "ne",
-   "duvod": "Výměna kotlů, technologické zařízení kotelny"
+   "duvod": "Výměna kotlů, technologie energetického zdroje."
   }
  }
 }

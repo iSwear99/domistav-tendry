@@ -121260,6 +121260,33 @@
   "loc_unknown": true
  },
  {
+  "id": "profil:pvu:00269191:P26V00004169",
+  "source": "profil:pvu:00269191",
+  "title": "Vybudování hřišť s umělým povrchem v místních částech Lubno, Suchá a Staré Nechanice",
+  "authority": "Město Nechanice",
+  "authority_ico": "00269191",
+  "cpv": [
+   "45212221"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-24",
+  "deadline": "2026-06-24T11:20:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00269191",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 12,
+  "loc_unknown": false
+ },
+ {
   "id": "profil:lodin:P26V00004929",
   "source": "profil:lodin",
   "title": "Stavební úpravy prodejny č.p. 64, Lodín",
@@ -125161,7 +125188,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": 22,
   "loc_unknown": false
  },
@@ -125224,7 +125251,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
   "loc_unknown": false
  },
@@ -125403,6 +125430,33 @@
   "no_value": true,
   "expired": false,
   "dist_km": 43,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00269191:P26V00005362",
+  "source": "profil:pvu:00269191",
+  "title": "Oprava havarijního stavu ulice Rašínova – Nechanice – část II",
+  "authority": "Město Nechanice",
+  "authority_ico": "00269191",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-14",
+  "deadline": "2026-08-15T09:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00269191",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 12,
   "loc_unknown": false
  },
  {
@@ -126311,32 +126365,6 @@
   "no_value": true,
   "expired": false,
   "dist_km": 19,
-  "loc_unknown": false
- },
- {
-  "id": "profil:kr-kralovehradecky:VZ-13061",
-  "source": "profil:kr-kralovehradecky",
-  "title": "Vybudování protipovodňové zábrany areálu organizace Domečky Rychnov nad Kněžnou - stavební práce",
-  "authority": "Královéhradecký kraj",
-  "authority_ico": "70889546",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-08-12",
-  "deadline": "2026-08-26T10:00:00",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 36,
   "loc_unknown": false
  },
  {
@@ -129578,1058 +129606,7 @@
   "expired": true,
   "dist_km": 45,
   "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500054801",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Bezděkov - výstavba požární zbrojnice",
-  "authority": "Obec Bezděkov",
-  "authority_ico": "00579793",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [
-   "CZ063"
-  ],
-  "value": null,
-  "published": "",
-  "deadline": "",
-  "url": "https://www.tenderarena.cz/profily/ObecBezdekov",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 23,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500072198",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "KŘP KVy - P 2.0 - KŘP kraje Vysočina, Vrchlického 46 - půdní vestavba - realizace",
-  "authority": "Krajské ředitelství policie kraje Vysočina",
-  "authority_ico": "72052147",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [
-   "CZ063"
-  ],
-  "value": 9090909.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/profil/KRPKVyso",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 47,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500058501",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "HL Luže-Košumberk - stavební práce v roce 2024 – 2026",
-  "authority": "Hamzova odborná léčebna pro děti a dospělé",
-  "authority_ico": "00183024",
-  "cpv": [
-   "45215100"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": null,
-  "published": "",
-  "deadline": "",
-  "url": "https://tenderarena.cz/dodavatel/zakazka/661002",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://tenderarena.cz/dodavatel/zakazka/661002",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 39,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2500054887",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "ZTV Uhelná Příbram, 12 RD",
-  "authority": "Městys Uhelná Příbram",
-  "authority_ico": "00268402",
-  "cpv": [
-   "45000000",
-   "45233100",
-   "45231300",
-   "45231220",
-   "45316100"
-  ],
-  "nuts": [
-   "CZ063"
-  ],
-  "value": null,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/profil/mestysUhelnaPribram",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 50,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500055790",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Dětská skupina v obci Strašov",
-  "authority": "Obec Strašov",
-  "authority_ico": "00274364",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": 21281761.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/profily-zadavatelu-platne/detail-profilu/obecstrasov",
-  "place": "k.ú. obec Strašov",
-  "authority_seat": "",
-  "authority_profile": "https://nen.nipez.cz/profily-zadavatelu-platne/detail-profilu/obecstrasov",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 23,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2500059725",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "„Celková revitalizace veřejného osvětlení ve městě Vysoké Veselí“",
-  "authority": "Město Vysoké Veselí",
-  "authority_ico": "00272418",
-  "cpv": [
-   "31000000",
-   "31500000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 2416457.67,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/profil/VysokeVeseli",
-  "place": "Obec Vysoké Veselí (Královéhradecký kraj, okres Jíčín)",
-  "authority_seat": "",
-  "authority_profile": "https://nen.nipez.cz/profil/VysokeVeseli",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": true,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 29,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500057794",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "II. etapa sanačních prací na lokalitě ELTON, Nové Město nad Metují",
-  "authority": "Město Nové Město nad Metují",
-  "authority_ico": "00272876",
-  "cpv": [
-   "90733900"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 18510970.63,
-  "published": "",
-  "deadline": "",
-  "url": "https://www.egordion.cz/nabidkaGORDION/profilNmnm",
-  "place": "areál bývalého podniku ELTON, v průmyslové zóně v severozápadní části Nového Města nad Metují, v k.ú. Nové Město nad Metují a Krčín, seznam dotčených pozemků: uvedeny v projektové dokumentaci (příloha č. 4 této ZD), (kraj CZ052 Královéhradecký).",
-  "authority_seat": "",
-  "authority_profile": "https://www.egordion.cz/nabidkaGORDION/profilNmnm",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": true,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 31,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500059818",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Výměna svítidel veřejného osvětlení, Jaroměř - II. etapa",
-  "authority": "Město Jaroměř",
-  "authority_ico": "00272728",
-  "cpv": [
-   "45316100"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 11198864.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/profil/mesto_jaromer",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://nen.nipez.cz/profil/mesto_jaromer",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500059501",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Chodník podél sil. III/3045 a sil. III/30420, k. ú. Újezdec u Hořiček",
-  "authority": "Obec Lhota pod Hořičkami",
-  "authority_ico": "00653993",
-  "cpv": [
-   "45000000",
-   "45213316",
-   "45233160"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 13833000.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/profil/LhotapodHorickami",
-  "place": "Místem plnění veškerých stavebních prací dodávaných v rámci tohoto zadávacího řízení jsou dotčené pozemky parcelního čísla: 4, 5, st. 11, 37, 48, 74/8, 77/4, 79, 84/5, 100/27, 109, 142, 143, 222/4, 222/5, 228, 233, 234/3, 234/10, 234/11, 241, 242 v katastrálním území Újezdec u Hořiček.",
-  "authority_seat": "",
-  "authority_profile": "https://nen.nipez.cz/profil/LhotapodHorickami",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 47,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500063717",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "„SEZ - Ochranné sanační čerpání - V. etapa, lokalita ČS PHM Pardubice – Chrudimská, společnosti ORLEN Unipetrol RPA s.r.o.“",
-  "authority": "Ministerstvo financí",
-  "authority_ico": "00006947",
-  "cpv": [
-   "90733900",
-   "71300000",
-   "71900000"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": null,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/profil/mfcr",
-  "place": "Místem plnění veřejné zakázky je areál bývalé ČS BENZINA v ulici Chrudimská, Pardubice (dnes ve vlastnictví společnosti EUROBIT investiční s.r.o.) a jeho blízké okolí.\n\nProhlídka místa plnění se bude konat dne 15. 12. 2023 od 10:00 hodin. Sraz zájemců o prohlídku bude v 09:45 hodin na rohu ulic Mikulovická a Chrudimská, naproti čerpací stanici pohonných hmot Eurobit v Pardubicích.",
-  "authority_seat": "",
-  "authority_profile": "https://nen.nipez.cz/profil/mfcr",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": true,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500089937",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Stavební úpravy za účelem provozu Dětské skupiny v obci Tisovec",
-  "authority": "Obec Tisovec",
-  "authority_ico": "00271047",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": 8785024.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/profily-zadavatelu-platne/detail-profilu/Tisovec",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://nen.nipez.cz/profily-zadavatelu-platne/detail-profilu/Tisovec",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 42,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2500059773",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Modernizace VO obce SRCH",
-  "authority": "Obec Srch",
-  "authority_ico": "00274283",
-  "cpv": [
-   "34928500"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": 2412000.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/profil/obecsrch",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://nen.nipez.cz/profil/obecsrch",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": true,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 13,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500059315",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Stavební úpravy ZŠ Lázně Bohdaneč – Masarykovo nám.",
-  "authority": "Město Lázně Bohdaneč",
-  "authority_ico": "00273350",
-  "cpv": [
-   "45214200"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": 4511437.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://www.tenderarena.cz/profily/LazneBohdanec",
-  "place": "k. ú. Lázně Bohdaneč, p. č. 556/1",
-  "authority_seat": "",
-  "authority_profile": "https://www.tenderarena.cz/profily/LazneBohdanec",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 15,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2500061444",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Parcely lokalita Z02 – Hlízov, technická infrastruktura",
-  "authority": "Obec Hlízov",
-  "authority_ico": "00640336",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [
-   "CZ020"
-  ],
-  "value": 15000000.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/profil/Hlizov",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://nen.nipez.cz/profil/Hlizov",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 42,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500084004",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Objekt dětské skupiny Syrovátka - stavba",
-  "authority": "OBEC SYROVÁTKA",
-  "authority_ico": "00269671",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 20000000.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/profily-zadavatelu-platne/p:pzp:query=Syrov%C3%A1tka/detail-profilu/ousyr",
-  "place": "obec Syrovátka",
-  "authority_seat": "",
-  "authority_profile": "https://nen.nipez.cz/profily-zadavatelu-platne/p:pzp:query=Syrov%C3%A1tka/detail-profilu/ousyr",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 10,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2500058635",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Nové parkovací plochy v ulici Družstevní ve Skutči",
-  "authority": "Město Skuteč",
-  "authority_ico": "00270903",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": 12000000.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.cz",
-  "place": "město Skuteč",
-  "authority_seat": "",
-  "authority_profile": "https://nen.cz",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 43,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2500090418",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Eliščino nábřeží 777 - Filharmonie Hradec Králové - rekonstrukce jevištních tahů",
-  "authority": "Statutární město Hradec Králové",
-  "authority_ico": "00268810",
-  "cpv": [
-   "42410000",
-   "51511100"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 6200000.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://www.tenderarena.cz/profily/hradeckralove",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": true,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 4,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500065083",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Zateplení obvodového pláště bytového domu Borská 293-294, Náchod",
-  "authority": "MĚSTO NÁCHOD",
-  "authority_ico": "00272868",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 7900000.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/profil/mestonachod",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 37,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500090264",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Komenského 1214 – zimní stadion – rekonstrukce sociálního zařízení – 1.část",
-  "authority": "Statutární město Hradec Králové",
-  "authority_ico": "00268810",
-  "cpv": [
-   "45000000",
-   "45453000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 6600000.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 4,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500062590",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "HROCHŮV TÝNEC – REKONSTRUKCE HASIČSKÉ ZBROJNICE",
-  "authority": "Město Hrochův Týnec",
-  "authority_ico": "00270156",
-  "cpv": [
-   "45000000",
-   "45216121"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": 15111000.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/profil/HrochuvTynec",
-  "place": "Místem plnění veškerých stavebních prací dodávaných v rámci tohoto zadávacího řízení je budova hasičské zbrojnice ležící na st. p. č. 277 a dotčené pozemky parc. č. 1012/26 a 1012/27 v katastrálním území Hrochův Týnec. Místem plnění veškerých stavebních prací dodávaných v rámci tohoto zadávacího řízení je budova hasičské zbrojnice ležící na st. p. č. 277 a dotčené pozemky parc. č. 1012/26 a 1012/27 v katastrálním území Hrochův Týnec.",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 29,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500055543",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Oprava zpevněných ploch a vjezdu areál Dopravního podniku, Pouchovská 153, Hradec Králové",
-  "authority": "Dopravní podnik města Hradce Králové, a.s.",
-  "authority_ico": "25267213",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": null,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/verejne-zakazky/p:vz:query=dopravn%C3%AD%20podnik/detail-zakazky/N006-24-V00006100/detail-subjektu/1219991816",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://nen.nipez.cz/verejne-zakazky/p:vz:query=dopravn%C3%AD%20podnik/detail-zakazky/N006-24-V00006100/detail-subjektu/1219991816",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 4,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2500065676",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Posílení kapacity a zabezpečenosti Východočeské vodárenské soustavy Náchod – Hradec Králové zkapacitnění zabezpečenosti VSVČ úseku staničení 5,882 km – 14,034 km – IV. etapa",
-  "authority": "Vodovody a kanalizace Náchod, a.s.",
-  "authority_ico": "48172928",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 210000000.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/profil/VAKNachod",
-  "place": "Místem plnění zakázky jsou pozemky nacházející se v k.ú. Bukovice, Velká Ledhuje, Police nad Metují, Radešov nad Metují, Bezděkova nad Metují",
-  "authority_seat": "",
-  "authority_profile": "https://nen.nipez.cz/profil/VAKNachod",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 47,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500061810",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "REKONSTRUKCE MK „ZA ÚŘADEM“, k.ú. Horní Radechová",
-  "authority": "Obec Horní Radechová",
-  "authority_ico": "00272663",
-  "cpv": [
-   "45000000",
-   "45233100",
-   "45200000",
-   "45231300"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 5511500.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/profil/HorniRadechova",
-  "place": "Místem plnění veškerých stavebních prací dodávaných v rámci tohoto zadávacího řízení jsou dotčené pozemky parcelního čísla: 90/1, 764/5, 1145, 1146/2, 2067/1, 2067/2 v katastrálním území Horní Radechová.",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 39,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500063286",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Modernizace a opravy mateřské školy a přístavba odborné učebny k ZŠ",
-  "authority": "Obec Kouty",
-  "authority_ico": "00289655",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [
-   "CZ063"
-  ],
-  "value": 11925516.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/profil/obeckoutyutrebice",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://nen.nipez.cz/profil/obeckoutyutrebice",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 45,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500063471",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "FN HRADEC KRÁLOVÉ – GYNEKOLOGIE – OPRAVA ROZVODŮ VODY – REALIZACE",
-  "authority": "Fakultní nemocnice Hradec Králové",
-  "authority_ico": "00179906",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": null,
-  "published": "",
-  "deadline": "",
-  "url": "https://www.egordion.cz/nabidkaGORDION/profilFNHK",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://www.egordion.cz/nabidkaGORDION/profilFNHK",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 4,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500059912",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "DENNÍ STACIONÁŘ V HOŘINĚVSI",
-  "authority": "Obecný zájem, z.ú.",
-  "authority_ico": "26643715",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": null,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/profily-zadavatelu-platne/detail-profilu/obecnyzajem",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://nen.nipez.cz/profily-zadavatelu-platne/detail-profilu/obecnyzajem",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": null,
-  "loc_unknown": true
- },
- {
-  "id": "rvz:RVZ2500064900",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "DENNÍ STACIONÁŘ V HOŘINĚVSI",
-  "authority": "Obecný zájem, z.ú.",
-  "authority_ico": "26643715",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": null,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/profily-zadavatelu-platne/detail-profilu/obecnyzajem",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://nen.nipez.cz/profily-zadavatelu-platne/detail-profilu/obecnyzajem",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": null,
-  "loc_unknown": true
- },
- {
-  "id": "rvz:RVZ2500063109",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "MŠ Rohovládova Bělá - 1. NP - změna užívání z kuchyně na pavilon MŠ",
-  "authority": "Obec Rohovládova Bělá",
-  "authority_ico": "00274151",
-  "cpv": [
-   "45214100"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": 8200000.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/profil/obecrohovladovabela",
-  "place": "k. ú. Rohovládova Bělá, st. 160, p.č. 12/5,\nRohovládova Bělá č.p. 58",
-  "authority_seat": "",
-  "authority_profile": "https://nen.nipez.cz/profil/obecrohovladovabela",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 17,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500072737",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Rekonstrukce pracoviště ředění radiofarmak",
-  "authority": "Oblastní nemocnice Kolín, a.s., nemocnice Středočeského kraje",
-  "authority_ico": "27256391",
-  "cpv": [
-   "45215100"
-  ],
-  "nuts": [
-   "CZ020"
-  ],
-  "value": 9700000.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://www.egordion.cz/nabidkaGORDION/profilONKolin",
-  "place": "Místem plnění veřejné zakázky je 2. NP, v severní části Objektu SO 02 - Pavilon „G“, oddělení nukleární \nmedicíny Oblastní nemocnice Kolín, a.s., nemocnice Středočeského kraje, na adrese Žižkova 146, \nKolín III, 280 02; Místem plnění veřejné zakázky je 2. NP, v severní části Objektu SO 02 - Pavilon „G“, oddělení nukleární \nmedicíny Oblastní nemocnice Kolín, a.s., nemocnice Středočeského kraje, na adrese Žižkova 146, \nKolín III, 280 02.",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 45,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500067279",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Revitalizace Smetanových sadů v Hořicích – Etapa 2",
-  "authority": "Město Hořice",
-  "authority_ico": "00271560",
-  "cpv": [
-   "77310000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": null,
-  "published": "",
-  "deadline": "",
-  "url": "https://www.tenderarena.cz/profil/detail.jsf?identifikator=MestoHorice",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://www.tenderarena.cz/profil/detail.jsf?identifikator=MestoHorice",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": true,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 22,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2500061904",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Výstavba společné stezky pro pěší a cyklisty Rohovládova Bělá-Bukovka",
-  "authority": "Obec Rohovládova Bělá",
-  "authority_ico": "00274151",
-  "cpv": [
-   "45233162"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": 6700000.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/profil/obecrohovladovabela",
-  "place": "k. ú. Rohovládova Bělá, 584/4, 584/28, 584/29, 584/59, 584/65, 1108/1, 1109/2, 1121/2, 1111/2; k. ú. Bukovka,  389/4, 391/19, 391/20, 391/21, 391/22",
-  "authority_seat": "",
-  "authority_profile": "https://nen.nipez.cz/profil/obecrohovladovabela",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": true,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 17,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500070545",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Podkrovní vestavba ZŠ Na Daliborce Hořice",
-  "authority": "Město Hořice",
-  "authority_ico": "00271560",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 41719655.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0000671",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 22,
-  "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -137386,7 +136363,7 @@
   "expired": true,
   "dist_km": 20,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -137421,7 +136398,7 @@
   "expired": true,
   "dist_km": 39,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -137457,7 +136434,7 @@
   "expired": true,
   "dist_km": 15,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -137495,7 +136472,7 @@
   "expired": true,
   "dist_km": 15,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -137531,7 +136508,7 @@
   "expired": true,
   "dist_km": null,
   "loc_unknown": true,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -137566,7 +136543,7 @@
   "expired": true,
   "dist_km": 8,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -137599,7 +136576,7 @@
   "expired": true,
   "dist_km": null,
   "loc_unknown": true,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -137636,7 +136613,44 @@
   "expired": true,
   "dist_km": 39,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500131378",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "ZÁSTAVBA LOKALITY RODINNÝCH DOMŮ – SOBČICE",
+  "authority": "Obec Sobčice",
+  "authority_ico": "00272108",
+  "cpv": [
+   "45000000",
+   "45200000",
+   "45231300",
+   "45233123",
+   "45231220"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 19715000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/Profil/obecSobcice",
+  "place": "Místem realizace veškerých stavebních prací dodávaných v rámci tohoto zadávacího řízení jsou dotčené pozemky v katastrálním území Sobčice.",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 27,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -137669,7 +136683,7 @@
   "expired": true,
   "dist_km": 46,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -137705,7 +136719,7 @@
   "expired": true,
   "dist_km": 28,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -137740,7 +136754,7 @@
   "expired": true,
   "dist_km": 19,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -137778,7 +136792,7 @@
   "expired": true,
   "dist_km": 26,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -137811,7 +136825,7 @@
   "expired": true,
   "dist_km": 27,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -137844,7 +136858,41 @@
   "expired": true,
   "dist_km": 50,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500060367",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Zámek Pardubice – vybudování reprezentativního sálu a foyer se zázemím pro společenský trakt zámeckého paláce",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "45000000",
+   "45212350"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": null,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -137876,7 +136924,139 @@
   "expired": true,
   "dist_km": 38,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500084015",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "I/37 Nová Ves, Rohozná, Trhová Kamenice, výměna oken",
+  "authority": "Ředitelství silnic a dálnic s. p.",
+  "authority_ico": "65993390",
+  "cpv": [
+   "45421100"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": null,
+  "published": "",
+  "deadline": "",
+  "url": "https://www.tenderarena.cz/profily/RSD",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 20,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500090918",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "I/16 Trutnov - Poříčí - Voletiny - výměna oken",
+  "authority": "Ředitelství silnic a dálnic s. p.",
+  "authority_ico": "65993390",
+  "cpv": [
+   "45421100"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 2834500.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://www.tenderarena.cz/profily/RSD",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500070545",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Podkrovní vestavba ZŠ Na Daliborce Hořice",
+  "authority": "Město Hořice",
+  "authority_ico": "00271560",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 41719655.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0000671",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 22,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500061759",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Podkrovní vestavba ZŠ Na Daliborce Hořice",
+  "authority": "Město Hořice",
+  "authority_ico": "00271560",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": null,
+  "published": "",
+  "deadline": "",
+  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0000671",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0000671",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 22,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
   "no_activity": true
  },
  {
@@ -137910,7 +137090,7 @@
   "expired": true,
   "dist_km": 37,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -137943,7 +137123,74 @@
   "expired": true,
   "dist_km": 38,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500101986",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Denní stacionář Wirthova",
+  "authority": "Pracoviště pečovatelské péče, o.p.s",
+  "authority_ico": "02405661",
+  "cpv": [
+   "45000000",
+   "45215200"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 11222136.45,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/profil/PPP",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true,
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500076144",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "D35 Sadová - Plotiště - Zemní práce pro ZAV",
+  "authority": "Ředitelství silnic a dálnic s. p.",
+  "authority_ico": "65993390",
+  "cpv": [
+   "45111200"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": null,
+  "published": "",
+  "deadline": "",
+  "url": "https://www.tenderarena.cz/profily/RSD",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 13,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
   "no_activity": true
  },
  {
@@ -137976,7 +137223,7 @@
   "expired": true,
   "dist_km": null,
   "loc_unknown": true,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138040,7 +137287,7 @@
   "expired": true,
   "dist_km": 39,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138073,7 +137320,7 @@
   "expired": true,
   "dist_km": 49,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138140,6 +137387,75 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2600083861",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "ENERGETICKY ÚSPORNÁ REKONSTRUKCE GASTROPROVOZU SKRYJE - DODÁVKA GASTROZAŘÍZENÍ",
+  "authority": "Obec Skryje",
+  "authority_ico": "00244392",
+  "cpv": [
+   "39221000",
+   "39312200",
+   "39314000",
+   "39312000"
+  ],
+  "nuts": [
+   "CZ020"
+  ],
+  "value": 3935777.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/profil/ObecSkryje",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://nen.nipez.cz/profil/ObecSkryje",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 45,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500079832",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "I/33 Náchod - obchvat, zemní práce pro ZAV",
+  "authority": "Ředitelství silnic a dálnic s. p.",
+  "authority_ico": "65993390",
+  "cpv": [
+   "45112210"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": null,
+  "published": "",
+  "deadline": "",
+  "url": "https://www.tenderarena.cz/profily/RSD",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 37,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
+  "no_activity": true
+ },
+ {
   "id": "rvz:RVZ2600084886",
   "source": "isvz",
   "nen_id": "",
@@ -138167,7 +137483,7 @@
   "expired": true,
   "dist_km": null,
   "loc_unknown": true,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138200,7 +137516,7 @@
   "expired": true,
   "dist_km": 19,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138233,7 +137549,7 @@
   "expired": true,
   "dist_km": 47,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138269,7 +137585,75 @@
   "expired": true,
   "dist_km": 47,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600085422",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Stavební úpravy Gastroprovozu Základní školy a\nmateřské školy v Golčově Jeníkově Žadatel: Město\nGolčův Jeníkov, IČ 00267406",
+  "authority": "Město Golčův Jeníkov",
+  "authority_ico": "00267406",
+  "cpv": [
+   "45000000",
+   "45262700",
+   "45214210"
+  ],
+  "nuts": [
+   "CZ063"
+  ],
+  "value": 15432859.57,
+  "published": "",
+  "deadline": "",
+  "url": "https://www.egordion.cz/nabidkaGORDION/profilMestoGolcuvJenikov",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://www.egordion.cz/nabidkaGORDION/profilMestoGolcuvJenikov",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 49,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600096679",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Úpravy otopné soustavy v objektech ZŠ, Trutnov 2, Mládežnická 536 - II. etapa",
+  "authority": "MĚSTO TRUTNOV",
+  "authority_ico": "00278360",
+  "cpv": [
+   "45331100"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 2600000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.trutnov.cz/",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://zakazky.trutnov.cz/",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138304,7 +137688,7 @@
   "expired": true,
   "dist_km": 38,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138344,7 +137728,75 @@
   "expired": true,
   "dist_km": 40,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600088661",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "SOU opravárenské Králíky- rekonstrukce kuchyně",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "45212500",
+   "45313100"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": null,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 18,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500086074",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "STUDNICE – NOVÁ HASIČSKÁ ZBROJNICE ZBLOV",
+  "authority": "OBEC STUDNICE",
+  "authority_ico": "00273082",
+  "cpv": [
+   "45000000",
+   "45216121"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 9148000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/profil/StudniceuNachoda",
+  "place": "Místem plnění veškerých stavebních prací dodávaných v rámci tohoto zadávacího řízení je objekt bez č.p. ležící na stavebním pozemku č. 316 a dále pozemková parcela číslo 1179/5, 1179/4, 1190, 1191 a 1186/1, to vše v katastrálním území Studnice u Náchoda.",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 33,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138377,7 +137829,7 @@
   "expired": true,
   "dist_km": 35,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138410,7 +137862,7 @@
   "expired": true,
   "dist_km": 32,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138442,7 +137894,7 @@
   "expired": true,
   "dist_km": 25,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138475,7 +137927,7 @@
   "expired": true,
   "dist_km": 13,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138508,7 +137960,7 @@
   "expired": true,
   "dist_km": 27,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138542,7 +137994,7 @@
   "expired": true,
   "dist_km": 45,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138579,7 +138031,7 @@
   "expired": true,
   "dist_km": 30,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138608,6 +138060,43 @@
   "expired": true,
   "dist_km": 10,
   "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600088680",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Křižovatka sil. III/3152 na průtahu obce s MOK 10c u prodejny, Zámrsk",
+  "authority": "Obec Zámrsk",
+  "authority_ico": "00279811",
+  "cpv": [
+   "45000000",
+   "45233100",
+   "45233160",
+   "45233222",
+   "45112710"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 3969500.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/profil/ZAMRSK",
+  "place": "Místem realizace veškerých dodávek a souvisejících služeb dodávaných v rámci tohoto zadávacího řízení jsou dotčené pozemky parcelního čísla: 841/1 a 825/1 v katastrálním území Zámrsk.",
+  "authority_seat": "",
+  "authority_profile": "https://nen.nipez.cz/profil/ZAMRSK",
+  "state": "zrušen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 33,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
+  "no_activity": true
  },
  {
   "id": "rvz:RVZ2500078244",
@@ -138639,7 +138128,7 @@
   "expired": true,
   "dist_km": 18,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138672,7 +138161,7 @@
   "expired": true,
   "dist_km": 46,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138707,7 +138196,7 @@
   "expired": true,
   "dist_km": 32,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138744,7 +138233,7 @@
   "expired": true,
   "dist_km": 19,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138812,7 +138301,40 @@
   "expired": true,
   "dist_km": null,
   "loc_unknown": true,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600088834",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "CENTRUM DOMÁCÍ HOSPICOVÉ PÉČE HOŘICE",
+  "authority": "Domácí hospic Duha, o.p.s.",
+  "authority_ico": "26561433",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": null,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/Profil/Domhosduh",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://nen.nipez.cz/Profil/Domhosduh",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 22,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138850,7 +138372,7 @@
   "expired": true,
   "dist_km": 47,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138883,7 +138405,7 @@
   "expired": true,
   "dist_km": 45,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138920,7 +138442,7 @@
   "expired": true,
   "dist_km": 40,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -138954,7 +138476,40 @@
   "expired": true,
   "dist_km": null,
   "loc_unknown": true,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600084832",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Gymnázium a grafická SOŠ Přelouč - rekonstrukce střech a sanace suterénu",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "45214200"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": null,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.pardubickykraj.cz",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://zakazky.pardubickykraj.cz",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 24,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -139006,7 +138561,7 @@
   "place": "k.ú. Kumburský Újezd, Pustá Proseč, Lužany u Jičína, Studénka u Nové Paky; k. ú. Kumburský Újezd, Pustá Proseč, Lužany u Jičína, Studénka u Nové Paky",
   "authority_seat": "",
   "authority_profile": "https://eveza.cz/profil-zadavatele/lesy-ceske-republiky-sp/17",
-  "state": "dokončen",
+  "state": "",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZ",
@@ -139016,7 +138571,7 @@
   "expired": true,
   "dist_km": 36,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -139050,7 +138605,7 @@
   "expired": true,
   "dist_km": 45,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -139085,7 +138640,7 @@
   "expired": true,
   "dist_km": 31,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -139118,7 +138673,44 @@
   "expired": true,
   "dist_km": null,
   "loc_unknown": true,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500090292",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Interna Nový Bydžov - požárně bezpečnostní řešení, úpravy objektu - stavební práce",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000",
+   "45300000",
+   "45110000",
+   "45215100",
+   "45215140"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": null,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "Královéhradecký kraj, Oblastní nemocnice Jičín a.s., areál nemocnice Nový Bydžov",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 24,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -139151,7 +138743,7 @@
   "expired": true,
   "dist_km": 37,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -139185,7 +138777,7 @@
   "expired": true,
   "dist_km": null,
   "loc_unknown": true,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -139218,7 +138810,7 @@
   "expired": true,
   "dist_km": 46,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -139252,7 +138844,7 @@
   "expired": true,
   "dist_km": 45,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -139285,7 +138877,7 @@
   "expired": true,
   "dist_km": 25,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -139319,7 +138911,7 @@
   "expired": true,
   "dist_km": null,
   "loc_unknown": true,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -139352,7 +138944,121 @@
   "expired": true,
   "dist_km": 27,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500085925",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Dětská skupina - Starkoč",
+  "authority": "OBEC Starkoč",
+  "authority_ico": "00640417",
+  "cpv": [
+   "45000000",
+   "45300000",
+   "45400000",
+   "45200000",
+   "45214000",
+   "45111000",
+   "71200000",
+   "71242000",
+   "71246000",
+   "71247000"
+  ],
+  "nuts": [
+   "CZ020"
+  ],
+  "value": null,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/profil/obecstarkoc",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://nen.nipez.cz/profil/obecstarkoc",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 35,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600107037",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "REVITALIZACE VEŘEJNÉHO PROSTRANSTVÍ V CENTRU OBCE ZÁMRSK – ZELENÁ INFRASTRUKTURA - STAVEBNÍ PRÁCE",
+  "authority": "Obec Zámrsk",
+  "authority_ico": "00279811",
+  "cpv": [
+   "45000000",
+   "45233100",
+   "45232400",
+   "37535200",
+   "39142000",
+   "39113600",
+   "39221260"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 11290000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/profil/ZAMRSK",
+  "place": "Místem realizace veškerých dodávek a souvisejících služeb dodávaných v rámci tohoto zadávacího řízení jsou dotčené pozemky parcelního čísla: 216/36, 216/89, 128/1, 886, 128/2, 28/2, 28/7, 130, 213 a 214 v katastrálním území Zámrsk.",
+  "authority_seat": "",
+  "authority_profile": "https://nen.nipez.cz/profil/ZAMRSK",
+  "state": "zrušen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 33,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500078099",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Jasenná – Výstavba požární zbrojnice",
+  "authority": "OBEC JASENNÁ",
+  "authority_ico": "00272736",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 27114910.87,
+  "published": "",
+  "deadline": "",
+  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0001713",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0001713",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 20,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
   "no_activity": true
  },
  {
@@ -139385,7 +139091,46 @@
   "expired": true,
   "dist_km": 38,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600098503",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Zodolnění ÚO Trutnov",
+  "authority": "Krajské ředitelství policie Královéhradeckého kraje",
+  "authority_ico": "75151545",
+  "cpv": [
+   "45000000",
+   "45317000",
+   "45111230",
+   "45112000",
+   "45111240",
+   "45232400",
+   "45112700"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 30878640.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/profil/KRPHR",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://nen.nipez.cz/profil/KRPHR",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -139419,7 +139164,40 @@
   "expired": true,
   "dist_km": 34,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600098360",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Rekonstrukce stadionu v Olšinkách - I. etapa",
+  "authority": "Město Hlinsko",
+  "authority_ico": "00270059",
+  "cpv": [
+   "45212221"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": null,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/profil/mestohlinsko",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 49,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -139479,7 +139257,7 @@
   "expired": true,
   "dist_km": null,
   "loc_unknown": true,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -139513,7 +139291,7 @@
   "expired": true,
   "dist_km": 39,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -139546,7 +139324,7 @@
   "expired": true,
   "dist_km": 45,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -139580,7 +139358,7 @@
   "expired": true,
   "dist_km": 7,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -139618,7 +139396,7 @@
   "expired": true,
   "dist_km": 47,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -139694,6 +139472,44 @@
   "no_activity": true
  },
  {
+  "id": "rvz:RVZ2500087403",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "V Lipkách 692 a Tylovo nábřeží 690 – výměna a obnova výplní fasádních otvorů – 1. etapa",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [
+   "45210000",
+   "92522200",
+   "45454100",
+   "45440000",
+   "45420000",
+   "92522000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": null,
+  "published": "",
+  "deadline": "",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
   "id": "rvz:RVZ2600107070",
   "source": "isvz",
   "nen_id": "",
@@ -139727,7 +139543,139 @@
   "expired": true,
   "dist_km": 26,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500125760",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Regenerace vnitrobloků ohraničených ul. Dašická, Na Okrouhlíku, Studánecká – V. a VI. etapa a oprava krytu ul. Studánecká",
+  "authority": "Statutární město Pardubice - městský obvod Pardubice I",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 10003134.16,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/profil/pardubice1",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://nen.nipez.cz/profil/pardubice1",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600000123",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Stavební úpravy objektu Lány na Důlku č. pop. 31",
+  "authority": "Rodinné Integrační Centrum z. s.",
+  "authority_ico": "27026728",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 19210403.83,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/Profil/RIC",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 29,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600106600",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Revitalizace centra obce Lánov",
+  "authority": "Obec Lánov",
+  "authority_ico": "00278041",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 17266237.89,
+  "published": "",
+  "deadline": "",
+  "url": "https://www.profilyzadavatelu.cz/profil/obelanov/",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://www.profilyzadavatelu.cz/profil/obelanov/",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 49,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500065243",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Stavební úpravy Areál Fáblovka",
+  "authority": "MARSTEP s.r.o.",
+  "authority_ico": "07219822",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 5250000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/profil/MARSTEP",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://nen.nipez.cz/profil/MARSTEP",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true,
+  "auto_expired": "2026-07-31",
   "no_activity": true
  },
  {
@@ -139844,7 +139792,7 @@
   "expired": true,
   "dist_km": 4,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -139940,7 +139888,7 @@
   "expired": true,
   "dist_km": 19,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -140038,7 +139986,7 @@
   "expired": true,
   "dist_km": 24,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -140074,7 +140022,7 @@
   "expired": true,
   "dist_km": 44,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -140107,7 +140055,7 @@
   "expired": true,
   "dist_km": 40,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -140142,7 +140090,7 @@
   "expired": true,
   "dist_km": 30,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -140205,7 +140153,7 @@
   "expired": true,
   "dist_km": 42,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -140238,7 +140186,7 @@
   "expired": true,
   "dist_km": 45,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -140280,7 +140228,7 @@
   "expired": true,
   "dist_km": 47,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -140374,7 +140322,7 @@
   "expired": true,
   "dist_km": 20,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -140457,7 +140405,7 @@
   "expired": true,
   "dist_km": 42,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -140494,7 +140442,7 @@
   "expired": true,
   "dist_km": 48,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -140527,7 +140475,7 @@
   "expired": true,
   "dist_km": 46,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -140562,6 +140510,39 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2500125709",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "OPRAVA STŘECHY ZŠ DOBŘÍKOV",
+  "authority": "Obec Dobříkov",
+  "authority_ico": "00278718",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 14908621.63,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/Profil/dobrikov",
+  "place": "Objekt základní školy je umístěn na pozemku č. st. 102 v katastrálním území Dobříkov [627 861].",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 32,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
   "id": "rvz:RVZ2600099385",
   "source": "isvz",
   "nen_id": "",
@@ -140591,7 +140572,7 @@
   "expired": true,
   "dist_km": 42,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -140624,7 +140605,7 @@
   "expired": true,
   "dist_km": 32,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -140657,7 +140638,7 @@
   "expired": true,
   "dist_km": null,
   "loc_unknown": true,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -140692,7 +140673,7 @@
   "expired": true,
   "dist_km": 4,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -140728,7 +140709,7 @@
   "expired": true,
   "dist_km": 50,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -140764,6 +140745,72 @@
   "loc_unknown": true
  },
  {
+  "id": "rvz:RVZ2600105063",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Naučná stezka – rybník Podborný Náchod, Plhov",
+  "authority": "MĚSTO NÁCHOD",
+  "authority_ico": "00272868",
+  "cpv": [
+   "45000000",
+   "45233160",
+   "45221113"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 11678725.02,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/profil/mestonachod",
+  "place": "k. ú. Náchod, obec Náchod\npozemky: uvedeny v projektové dokumentaci\nkraj: CZ 052 Královéhradecký kraj",
+  "authority_seat": "",
+  "authority_profile": "https://nen.nipez.cz/profil/mestonachod",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 37,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600101717",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "D11 1106 PHS Holohlavy",
+  "authority": "Ředitelství silnic a dálnic s. p.",
+  "authority_ico": "65993390",
+  "cpv": [
+   "45213310"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 16245000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://www.rsd.cz",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://www.rsd.cz",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": false,
+  "dist_km": 13,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2500089840",
   "source": "isvz",
   "nen_id": "",
@@ -140795,7 +140842,7 @@
   "expired": true,
   "dist_km": 11,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -140858,7 +140905,7 @@
   "expired": true,
   "dist_km": 12,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -141649,7 +141696,139 @@
   "expired": true,
   "dist_km": null,
   "loc_unknown": true,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500065238",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Změna využití části pohostinství na obecní úřad",
+  "authority": "OBEC NOVÝ PLES",
+  "authority_ico": "00272892",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 5906096.88,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/profil/novyples",
+  "place": "Místem plnění je budova Nový Ples, čp. 4, pozemek st. p. č. 2/2, k. ú. Nový Ples.; Místem plnění je budova Nový Ples, čp. 4, pozemek st. p. č. 2/2, k. ú. Nový Ples",
+  "authority_seat": "",
+  "authority_profile": "https://nen.nipez.cz/profil/novyples",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 18,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500064547",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Změna využití části pohostinství na obecní úřad",
+  "authority": "OBEC NOVÝ PLES",
+  "authority_ico": "00272892",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 5906096.88,
+  "published": "",
+  "deadline": "",
+  "url": "https://www.vhodne-uverejneni.cz/profil/obec-novy-ples",
+  "place": "Místem plnění je budova Nový Ples, čp. 4, pozemek st. p. č. 2/2, k. ú. Nový Ples.",
+  "authority_seat": "",
+  "authority_profile": "https://www.vhodne-uverejneni.cz/profil/obec-novy-ples",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 18,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500080571",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Nový domov",
+  "authority": "Diakonie ČCE - středisko Střední Čechy",
+  "authority_ico": "42744326",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [
+   "CZ020"
+  ],
+  "value": 22519560.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/profil/42744326",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true,
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500093208",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Rekonstrukce a rozšíření tenisového areálu v Hlinsku",
+  "authority": "Město Hlinsko",
+  "authority_ico": "00270059",
+  "cpv": [
+   "45212221"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": null,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/profil/mestohlinsko",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 49,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -141689,7 +141868,7 @@
   "expired": true,
   "dist_km": 36,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -141722,7 +141901,7 @@
   "expired": true,
   "dist_km": 37,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -141755,7 +141934,7 @@
   "expired": true,
   "dist_km": 38,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -141788,7 +141967,46 @@
   "expired": true,
   "dist_km": 36,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500090320",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "„Rozvoj centrální průmyslové zóny a dopravní infrastruktury, Solnice jih“ v rámci projektu „Rozšíření strategické průmyslové zóny Solnice – Kvasiny a zlepšení veřejné infrastruktury v Královéhradeckém regionu“",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000",
+   "45110000",
+   "45300000",
+   "45221110",
+   "45233000",
+   "45234100",
+   "71000000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": null,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "Zájmové území se nachází jihovýchodně od hranice města Solnice v těsné blízkosti závodu Škoda Auto a.s. Bližší informace o místě plnění viz zadávací podmínky a návrh smlouvy o dílo.",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 33,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -141821,7 +142039,7 @@
   "expired": true,
   "dist_km": 43,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -141856,7 +142074,7 @@
   "expired": true,
   "dist_km": 19,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -141889,7 +142107,7 @@
   "expired": true,
   "dist_km": 4,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -141928,7 +142146,7 @@
   "expired": true,
   "dist_km": 49,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -141962,7 +142180,7 @@
   "expired": true,
   "dist_km": 40,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -141998,7 +142216,7 @@
   "expired": true,
   "dist_km": 33,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -142031,7 +142249,7 @@
   "expired": true,
   "dist_km": 37,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -142068,7 +142286,42 @@
   "expired": true,
   "dist_km": 47,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500133983",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Sloupnice – opěrná zeď u zdravotnického střediska",
+  "authority": "Obec Sloupnice",
+  "authority_ico": "00038130",
+  "cpv": [
+   "45000000",
+   "45233100",
+   "45233142"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 8846384.61,
+  "published": "",
+  "deadline": "",
+  "url": "https://tenderarena.cz/profily/sloupnice",
+  "place": "Obec Sloupnice, k. ú. Dolní Sloupnice; obec Sloupnice, k. ú. Dolní Sloupnice",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 48,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -142104,7 +142357,7 @@
   "expired": true,
   "dist_km": 33,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -142138,7 +142391,7 @@
   "expired": true,
   "dist_km": 49,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -142174,7 +142427,82 @@
   "expired": true,
   "dist_km": 47,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500125698",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Stavební úpravy a přístavba ZŠ speciální Hronov",
+  "authority": "Mateřská škola a Základní škola speciální NONA, o.p.s.",
+  "authority_ico": "25299140",
+  "cpv": [
+   "45000000",
+   "45110000",
+   "45214800",
+   "45233000",
+   "45262000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 14493743.85,
+  "published": "",
+  "deadline": "",
+  "url": "",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 42,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500090448",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Požárně bezpečnostní řešení objektů ozn. B, D v areálu nemocnice v Novém Bydžově – stavební úpravy",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000",
+   "45110000",
+   "45300000",
+   "45215100",
+   "45215140",
+   "45233000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 21700000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "Nový Bydžov",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 24,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -142216,7 +142544,7 @@
   "expired": true,
   "dist_km": 47,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -142254,7 +142582,7 @@
   "expired": true,
   "dist_km": 22,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -142316,7 +142644,7 @@
   "expired": true,
   "dist_km": 50,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -142935,7 +143263,7 @@
   "expired": true,
   "dist_km": 19,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -142970,7 +143298,7 @@
   "expired": true,
   "dist_km": 45,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -143016,7 +143344,7 @@
   "expired": true,
   "dist_km": 48,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -143105,6 +143433,39 @@
   "expired": true,
   "dist_km": 28,
   "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600110982",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "I/14 Dolní Radechová, oprava nábřežní zdi",
+  "authority": "Ředitelství silnic a dálnic s. p.",
+  "authority_ico": "65993390",
+  "cpv": [
+   "45213310"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 18685000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://www.tenderarena.cz/profily/RSD",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://www.tenderarena.cz/profily/RSD",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 37,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
+  "no_activity": true
  },
  {
   "id": "rvz:RVZ2600073271",
@@ -143329,7 +143690,40 @@
   "expired": true,
   "dist_km": 46,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600110904",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "ŘSD Správa Pardubice, rekonsturkce střechy, výměna oken",
+  "authority": "Ředitelství silnic a dálnic s. p.",
+  "authority_ico": "65993390",
+  "cpv": [
+   "45454100"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 6253318.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://www.tenderarena.cz/profily/RSD",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://www.tenderarena.cz/profily/RSD",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -143393,7 +143787,7 @@
   "expired": true,
   "dist_km": null,
   "loc_unknown": true,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -143426,7 +143820,44 @@
   "expired": true,
   "dist_km": 47,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600111367",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Křižovatka sil. III/3152 na průtahu obce s MOK 10c u prodejny, Zámrsk II.",
+  "authority": "Obec Zámrsk",
+  "authority_ico": "00279811",
+  "cpv": [
+   "45000000",
+   "45233100",
+   "45233160",
+   "45233222",
+   "45112710"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 3021500.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/profil/ZAMRSK",
+  "place": "Místem realizace veškerých dodávek a souvisejících služeb dodávaných v rámci tohoto zadávacího řízení jsou dotčené pozemky parcelního čísla: 841/1 a 825/1 v katastrálním území Zámrsk.",
+  "authority_seat": "",
+  "authority_profile": "https://nen.nipez.cz/profil/ZAMRSK",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 33,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -143459,7 +143890,7 @@
   "expired": true,
   "dist_km": null,
   "loc_unknown": true,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -143521,7 +143952,7 @@
   "expired": true,
   "dist_km": null,
   "loc_unknown": true,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -143591,7 +144022,41 @@
   "expired": true,
   "dist_km": 19,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600110751",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Komunitní centrum AGAPÉ",
+  "authority": "Farní sbor Českobratrské církve evangelické v Pardubicích",
+  "authority_ico": "46496491",
+  "cpv": [
+   "45000000",
+   "45111100"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 25000000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://www.vhodne-uverejneni.cz/profil/farni-sbor-ceskobratrske-cirkve-evangelicke-v-pardubicich",
+  "place": "FS ČCE Pardubice, Hronovická 492/25, 530 02, Pardubice, Česká republika",
+  "authority_seat": "",
+  "authority_profile": "https://www.vhodne-uverejneni.cz/profil/farni-sbor-ceskobratrske-cirkve-evangelicke-v-pardubicich",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -143627,7 +144092,7 @@
   "expired": true,
   "dist_km": 40,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -143658,6 +144123,39 @@
   "expired": true,
   "dist_km": null,
   "loc_unknown": true
+ },
+ {
+  "id": "rvz:RVZ2600108526",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "I/35 Čímyšl - Úlibice - přeložka sítě VN ČEZ Distribuce, a.s.",
+  "authority": "Ředitelství silnic a dálnic s. p.",
+  "authority_ico": "65993390",
+  "cpv": [
+   "45314310"
+  ],
+  "nuts": [
+   "CZ051"
+  ],
+  "value": 23000000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://www.tenderarena.cz/profily/RSD",
+  "place": "I/35 Čímyšl - Úlibice",
+  "authority_seat": "",
+  "authority_profile": "https://www.tenderarena.cz/profily/RSD",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 35,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
+  "no_activity": true
  },
  {
   "id": "rvz:RVZ2600110501",
@@ -143691,7 +144189,7 @@
   "expired": true,
   "dist_km": 19,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -143726,7 +144224,7 @@
   "expired": true,
   "dist_km": 47,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -143761,7 +144259,172 @@
   "expired": true,
   "dist_km": 45,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600111347",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Opravy (servis) výpočetní techniky",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [
+   "50300000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 3000000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://www.tenderarena.cz/profily/hradeckralove",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600082390",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Opravy (servis) výpočetní techniky",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [
+   "50300000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 3000000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://www.tenderarena.cz/profily/hradeckralove",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500097376",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Opravy (servis) výpočetní techniky",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [
+   "50300000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 3000000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://www.tenderarena.cz/profily/hradeckralove",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500142363",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Opravy (servis) výpočetní techniky",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [
+   "50300000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 3000000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://www.tenderarena.cz/profily/hradeckralove",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600049963",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Opravy (servis) výpočetní techniky",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [
+   "50300000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 3000000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://www.tenderarena.cz/profily/hradeckralove",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
   "no_activity": true
  },
  {
@@ -143794,7 +144457,147 @@
   "expired": true,
   "dist_km": 37,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600111224",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "REVITALIZACE VEŘEJNÉHO PROSTRANSTVÍ V CENTRU OBCE ZÁMRSK – ZELENÁ INFRASTRUKTURA - STAVEBNÍ PRÁCE II.",
+  "authority": "Obec Zámrsk",
+  "authority_ico": "00279811",
+  "cpv": [
+   "45000000",
+   "45233100",
+   "45232400",
+   "37535200",
+   "39142000",
+   "39113600",
+   "39221260"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 11290000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/profil/ZAMRSK",
+  "place": "Místem plnění veškerých stavebních prací, dodávek a souvisejících služeb dodávaných v rámci\ntohoto zadávacího řízení jsou dotčené pozemky parcelního čísla: 216/36, 216/89, 128/1, 886,\n128/2, 28/2, 28/7, 130, 213 a 214 v katastrálním území Zámrsk.",
+  "authority_seat": "",
+  "authority_profile": "https://nen.nipez.cz/profil/ZAMRSK",
+  "state": "zrušen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 33,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600112533",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "RD SVOBODA s.r.o. - ÚSPORA ENERGIÍ BRUSÍRNA",
+  "authority": "RD Svoboda s.r.o.",
+  "authority_ico": "07799641",
+  "cpv": [
+   "45321000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 2534890.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/Profil/rdsvoboda",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://nen.nipez.cz/Profil/rdsvoboda",
+  "state": "zrušen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true,
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600109198",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Komunitní bydlení - Heřmanův Městec - podruhé",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "45211100"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 19026664.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 30,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600113727",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Sanace a stabilizace svahu nad fotbalovým a zimním stadionem",
+  "authority": "MĚSTO TRUTNOV",
+  "authority_ico": "00278360",
+  "cpv": [
+   "45111230",
+   "45111212",
+   "45112000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 19687613.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.trutnov.cz/profile_display_2.html",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://zakazky.trutnov.cz/profile_display_2.html",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -143854,7 +144657,7 @@
   "expired": true,
   "dist_km": 24,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -143893,7 +144696,7 @@
   "expired": true,
   "dist_km": 47,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -143985,7 +144788,7 @@
   "expired": true,
   "dist_km": 36,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -144052,7 +144855,7 @@
   "expired": true,
   "dist_km": 26,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -144085,7 +144888,7 @@
   "expired": true,
   "dist_km": 24,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -144150,7 +144953,7 @@
   "expired": true,
   "dist_km": null,
   "loc_unknown": true,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -144217,7 +145020,7 @@
   "expired": true,
   "dist_km": 40,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -144250,7 +145053,40 @@
   "expired": true,
   "dist_km": 39,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600111842",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "I/35 Čímyšl - Úlibice - přeložka sítě NN ČEZ Distribuce, a.s.",
+  "authority": "Ředitelství silnic a dálnic s. p.",
+  "authority_ico": "65993390",
+  "cpv": [
+   "45314310"
+  ],
+  "nuts": [
+   "CZ051"
+  ],
+  "value": 2000000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://www.tenderarena.cz/profily/RSD",
+  "place": "I/35 Čímyšl - Úlibice",
+  "authority_seat": "",
+  "authority_profile": "https://www.tenderarena.cz/profily/RSD",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 35,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
@@ -144284,7 +145120,7 @@
   "expired": true,
   "dist_km": 6,
   "loc_unknown": false,
-  "auto_expired": "2026-08-13",
+  "auto_expired": "2026-08-14",
   "no_activity": true
  },
  {
