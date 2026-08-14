@@ -33,6 +33,24 @@ _PROFIL_RE = re.compile(
 _ADRESA_RE = re.compile(
     r"<th>\s*Adresa(?:\s+sídla)?\s*</th>\s*<td[^>]*>([^<]+)", re.I
 )
+# název zadavatele z H1 stránky profilu — title atribut odkazu na detailu
+# zakázky bývá i generický text („URL detailu veřejné zakázky", případ
+# Mladá Boleslav 14. 8. 2026), H1 profilu je autoritativní
+_H1_NAZEV_RE = re.compile(
+    r"<h1[^>]*>\s*Profil zadavatele:\s*(.*?)</h1>", re.S | re.I
+)
+
+
+def _profile_name(profile_url: str) -> str:
+    try:
+        page = fetch_profily._get(profile_url).decode("utf-8", "replace")
+        m = _H1_NAZEV_RE.search(page)
+        if m:
+            return html_mod.unescape(
+                re.sub(r"<[^>]+>", " ", m.group(1))).strip()
+    except Exception:  # noqa: BLE001
+        pass
+    return ""
 
 
 def _parse_detail(url: str) -> dict | None:
@@ -78,6 +96,7 @@ def fetch() -> tuple[list[dict], list[str]]:
 
     tenders: list[dict] = []
     for ico, info in profily.items():
+        info["nazev"] = _profile_name(info["profile_url"]) or info["nazev"]
         t, e = fetch_profily._fetch_profile(f"pvu:{ico}", {
             "nazev": info["nazev"],
             "ico": ico,

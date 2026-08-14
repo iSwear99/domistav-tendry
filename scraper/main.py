@@ -682,12 +682,20 @@ def run(dry_run: bool = False) -> int:
     # neurčeným záznamům archivu — mimo okruh se zahazují (nikdy do něj
     # nepatřily), určené v okruhu dostanou dist_km
     carried = geo.relocate_unknown(carried)
-    # Přenášený záznam bez lhůty i stavu, který se v aktuálních exportech
-    # už neobjevuje, je prakticky jistě uzavřený (živé VZ dostávají změny
+    # Expirace přenášených záznamů: lhůta mohla projít v době, kdy záznam
+    # žije už jen v retenci (pomíjivé PVU po RSS oknu) — bez přepočtu by
+    # „aktivní" zůstal navždy (ZŠ Satalice, 14. 8. 2026). Záznamy s vlastním
+    # životním cyklem (auto_expired zpětná kontrola, link_dead) se nechávají.
+    # Záznam bez lhůty i stavu, který se v aktuálních exportech už
+    # neobjevuje, je prakticky jistě uzavřený (živé VZ dostávají změny
     # a v okně se ukazují znovu) — bez tohoto by backfill historie zaplnil
     # výchozí pohled tisíci zdánlivě aktivních zombie záznamů.
     for t in carried:
-        if not t.get("deadline") and not t.get("state"):
+        if t.get("auto_expired") or t.get("link_dead"):
+            continue
+        if t.get("deadline") or t.get("state"):
+            _mark_expired(t, today)
+        else:
             t["expired"] = True
     # druhý průchod dedupu: čerstvé × přenášené — pomíjivý PVU záznam
     # z retence se s pozdějším ISVZ id téže zakázky potká až tady

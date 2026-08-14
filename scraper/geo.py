@@ -160,11 +160,14 @@ def _find_obec(text: str) -> tuple[float, float] | None:
     return best[2] if best else None
 
 
-# „Město X" / „Obec X" / „statutární město X" — jméno municipálního
-# zadavatele je spolehlivé určení obce; na jiná jména zadavatelů se
-# záměrně nesahá (firma pojmenovaná po obci by zakázku chybně vyřadila)
+# „Město X" / „Obec X" / „statutární město X" / „městská část Praha-X" /
+# „městský obvod X" — jméno municipálního zadavatele je spolehlivé určení
+# obce; na jiná jména zadavatelů se záměrně nesahá (firma pojmenovaná
+# po obci by zakázku chybně vyřadila). U městské části/obvodu najde
+# _find_obec mateřské město (Praha, Pardubice…) — pro 50km bránu stačí.
 _MUNICIPAL_RE = re.compile(
-    r"^(?:statutarni\s+)?(?:mesto|mestys|obec)\s+(.+)$")
+    r"^(?:statutarni\s+)?(?:mestska\s+cast|mestsky\s+obvod"
+    r"|mesto|mestys|obec)\s+(.+)$")
 
 
 def locate(t: dict, profil_coords: dict[str, tuple[float, float]]) -> float | None:
