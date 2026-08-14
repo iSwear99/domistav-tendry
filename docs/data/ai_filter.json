@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-08-13T19:44:27+00:00",
+  "updated": "2026-08-14T10:24:06+00:00",
   "model": "claude-opus-5",
-  "posouzeno_nyni": 4,
-  "celkem": 462,
+  "posouzeno_nyni": 3,
+  "celkem": 465,
   "counts": {
    "ano": 227,
-   "ne": 151,
-   "nejisto": 84
+   "ne": 153,
+   "nejisto": 85
   },
   "errors": []
  },
@@ -1859,6 +1859,18 @@
   "profil:pvu:18154115:P26V00005344": {
    "verdikt": "ano",
    "duvod": "Oprava střechy sokolovny – rekonstrukce budovy"
+  },
+  "profil:pvu:00239089:P26V00005328": {
+   "verdikt": "ne",
+   "duvod": "Revitalizace veřejné zeleně, ne pozemní stavba"
+  },
+  "profil:pvu:00238295:P26V00005325": {
+   "verdikt": "nejisto",
+   "duvod": "Park, ale obecné stavební práce, možné zpevněné plochy"
+  },
+  "profil:pvu:26243237:P26V00005298": {
+   "verdikt": "ne",
+   "duvod": "Výměna kotlů, technologické zařízení kotelny"
   }
  }
 }
