@@ -1,13 +1,13 @@
 {
- "updated": "2026-08-14T18:09:48+00:00",
+ "updated": "2026-08-14T18:59:15+00:00",
  "counts": {
-  "total": 6414,
-  "vz": 3698,
-  "vzmr": 2716,
-  "active": 94,
+  "total": 6419,
+  "vz": 3707,
+  "vzmr": 2712,
+  "active": 68,
   "changed": 46,
   "competition": 1243,
-  "previous": 6413
+  "previous": 6436
  },
  "errors": [
   "pvu: /externi-zakazka/polora-servis-a-kontrola-tesnosti-klimatizace-a-vzduchotechniky: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/polora-servis-a-kontrola-tesnosti-klimatizace-a-vzduchotechniky: HTTP Error 401: Unauthorized"
