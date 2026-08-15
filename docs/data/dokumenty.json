@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-08-14T18:10:44+00:00",
-  "zd": 465,
+  "updated": "2026-08-15T07:58:28+00:00",
+  "zd": 452,
   "zpravy": 1243,
-  "novych": 3,
+  "novych": 0,
   "errors": []
  },
  "zd": {
@@ -992,9 +992,6 @@
   "rvz:RVZ2500070372": {
    "nenalezeno": true
   },
-  "rvz:RVZ2500059315": {
-   "nenalezeno": true
-  },
   "rvz:RVZ2500072134": {
    "nenalezeno": true
   },
@@ -1007,22 +1004,10 @@
   "rvz:RVZ2500069015": {
    "nenalezeno": true
   },
-  "rvz:RVZ2500059912": {
-   "nenalezeno": true
-  },
   "rvz:RVZ2500085473": {
    "nenalezeno": true
   },
   "rvz:RVZ2500079229": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2500055790": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2500058501": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2500067279": {
    "nenalezeno": true
   },
   "rvz:RVZ2500069245": {
@@ -1059,9 +1044,6 @@
    "nenalezeno": true
   },
   "rvz:RVZ2500065345": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2500089937": {
    "nenalezeno": true
   },
   "rvz:RVZ2500104154": {
@@ -1119,18 +1101,6 @@
    "nenalezeno": true
   },
   "rvz:RVZ2500077758": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2500055543": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2500064900": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2500084004": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2500058635": {
    "nenalezeno": true
   },
   "rvz:RVZ2500087220": {
@@ -1384,12 +1354,6 @@
   "rvz:RVZ2600108673": {
    "nenalezeno": true
   },
-  "profil:pvu:00240711:P26V00004933": {
-   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3879070"
-  },
-  "profil:pvu:00240711:P26V00005115": {
-   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3883647"
-  },
   "profil:pvu:05369495:P26V00005107": {
    "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3883108"
   },
@@ -1437,9 +1401,6 @@
   },
   "profil:pvu:00239089:P26V00005328": {
    "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3890174"
-  },
-  "profil:pvu:00238295:P26V00005325": {
-   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3889995"
   },
   "profil:pvu:26243237:P26V00005298": {
    "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3889189"

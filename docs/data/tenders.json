@@ -124682,7 +124682,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 42,
   "loc_unknown": false
  },
@@ -124713,7 +124713,7 @@
   "kw_match": true,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 5,
   "loc_unknown": false
  },
@@ -124739,7 +124739,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 43,
   "loc_unknown": false
  },
@@ -124770,7 +124770,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": 15,
   "loc_unknown": false
  },
@@ -124796,7 +124796,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 43,
   "loc_unknown": false
  },
