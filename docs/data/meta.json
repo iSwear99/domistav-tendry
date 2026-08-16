@@ -1,15 +1,16 @@
 {
- "updated": "2026-08-15T13:32:28+00:00",
+ "updated": "2026-08-16T10:35:16+00:00",
  "counts": {
-  "total": 6380,
-  "vz": 3677,
-  "vzmr": 2703,
-  "active": 86,
+  "total": 6381,
+  "vz": 3669,
+  "vzmr": 2712,
+  "active": 63,
   "changed": 46,
   "competition": 1243,
-  "previous": 6419
+  "previous": 6380
  },
  "errors": [
+  "profil:kr-kralovehradecky: Stažení selhalo: https://zakazky.cenakhk.cz/profile_display_2.html/XMLdataVZ?od=18052026&do=16082026: <urlopen error timed out>",
   "pvu: /externi-zakazka/polora-servis-a-kontrola-tesnosti-klimatizace-a-vzduchotechniky: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/polora-servis-a-kontrola-tesnosti-klimatizace-a-vzduchotechniky: HTTP Error 401: Unauthorized"
  ]
 }
