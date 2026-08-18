@@ -118106,7 +118106,21 @@
   "expired": true,
   "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00010012",
   "dist_km": 19,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "bidders": [
+   {
+    "nazev": "STAFI FINALIZACE STAVEB s.r.o.",
+    "ico": "25968203",
+    "cena": 17332470.15,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
+    "ico": "46504621",
+    "cena": 15956594.66,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600085140",
@@ -118915,6 +118929,33 @@
   "expired": true,
   "dist_km": null,
   "loc_unknown": true
+ },
+ {
+  "id": "profil:pvu:00270440:P26V00003725",
+  "source": "profil:pvu:00270440",
+  "title": "Rekonstrukce multifunkčního hřiště Luže",
+  "authority": "Město Luže",
+  "authority_ico": "00270440",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-05",
+  "deadline": "2026-06-05T11:02:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/mesto-luze",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 39,
+  "loc_unknown": false
  },
  {
   "id": "rvz:RVZ2600096694",
@@ -120441,6 +120482,47 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00535982:P26V00003312",
+  "source": "profil:pvu:00535982",
+  "title": "Nové prostory pro PZKO Písek",
+  "authority": "Obec Písek",
+  "authority_ico": "00535982",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-17",
+  "deadline": "2026-06-18T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00535982",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "R + M stavební s.r.o.",
+    "ico": "27797376",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "P.O. stav - trade, spol. s r.o.",
+    "ico": "27789012",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 20,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600084136",
   "source": "isvz",
   "nen_id": "",
@@ -120550,10 +120632,36 @@
   "deadline": "2026-06-22T09:00:00",
   "url": "https://zakazky.trutnov.cz/profile_display_2.html",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZ",
+  "bidders": [
+   {
+    "nazev": "Alprim CZ s.r.o.",
+    "ico": "28811470",
+    "cena": 13963614.86,
+    "vyloucen": false
+   },
+   {
+    "nazev": "M - STAV CZ s.r.o.",
+    "ico": "27557235",
+    "cena": 16307237.24,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ŠTĚPÁNEK, spol. s r.o.",
+    "ico": "45535124",
+    "cena": 16728356.17,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SWIETELSKY stavební s.r.o.",
+    "ico": "48035599",
+    "cena": 14160000.0,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -122969,6 +123077,33 @@
   "loc_unknown": true
  },
  {
+  "id": "profil:pvu:00269841:P26V00005393",
+  "source": "profil:pvu:00269841",
+  "title": "Stavební úpravy kuchyně MŠ Běstvina",
+  "authority": "Obec Běstvina",
+  "authority_ico": "00269841",
+  "cpv": [
+   "45212500"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-17",
+  "deadline": "2026-07-21T12:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/obec-bestvina",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 44,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600103913",
   "source": "isvz",
   "nen_id": "",
@@ -124817,7 +124952,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 43,
   "loc_unknown": false
  },
@@ -124848,7 +124983,7 @@
   "kw_match": true,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": 29,
   "loc_unknown": false
  },
@@ -124879,7 +125014,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 22,
   "loc_unknown": false
  },
@@ -124905,8 +125040,35 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00235628:P26V00005390",
+  "source": "profil:pvu:00235628",
+  "title": "Provedení elektroinstalace v 1. patře budovy Ubytovny Ovčáry z důvodu havarijního stavu",
+  "authority": "Obec Ovčáry",
+  "authority_ico": "00235628",
+  "cpv": [
+   "45311100"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-17",
+  "deadline": "2026-08-17T10:52:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/obec-ovcary-1",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 41,
   "loc_unknown": false
  },
  {
@@ -124940,7 +125102,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": 34,
   "loc_unknown": false
  },
@@ -125049,6 +125211,41 @@
   "no_value": true,
   "expired": false,
   "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:70806268:P26V00005409",
+  "source": "profil:pvu:70806268",
+  "title": "Nový povrch hřiště v obci Kostěnice",
+  "authority": "Tělocvičná jednota Sokol Kostěnice",
+  "authority_ico": "70806268",
+  "cpv": [
+   "45212221"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-18",
+  "deadline": "2026-08-18T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/telocvicna-jednota-sokol-kostenice",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "INSTAV Hlinsko a.s.",
+    "ico": "25284959",
+    "cena": 1274540.99,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 23,
   "loc_unknown": false
  },
  {
@@ -126206,6 +126403,30 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2600117451",
+  "source": "profil:horice",
+  "title": "Dodávka zemního plynu 2027 – společné zadávání pro sdružené zadavatele",
+  "authority": "Město Hořice",
+  "authority_ico": "00271560",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-17",
+  "deadline": "2026-08-31T12:00:00",
+  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0000671",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 22,
+  "loc_unknown": false
+ },
+ {
   "id": "profil:trutnov:VZ-1844",
   "source": "profil:trutnov",
   "title": "Trutnovská dračí stezka",
@@ -126606,6 +126827,59 @@
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": true,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": null,
+  "loc_unknown": true
+ },
+ {
+  "id": "rvz:RVZ2600117513",
+  "source": "profil:hradec-kralove",
+  "title": "PUMPTRACK SEVER - Hradec Králové  – DESIGN & BUILD",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-17",
+  "deadline": "2026-09-15T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:05427592:P26V00005377",
+  "source": "profil:pvu:05427592",
+  "title": "Výstavba, dodávka a uvedení do provozu biomasového kotle K2",
+  "authority": "Environmental Energy, s.r.o.",
+  "authority_ico": "05427592",
+  "cpv": [
+   "44621200"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-18",
+  "deadline": "2026-09-25T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/environmental-energy-s-r-o",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
   "authority_seat": "",
   "kw_match": true,
   "no_nuts": true,

@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-08-17T10:59:15+00:00",
-  "zd": 452,
-  "zpravy": 1243,
-  "novych": 0,
+  "updated": "2026-08-18T10:53:40+00:00",
+  "zd": 455,
+  "zpravy": 1246,
+  "novych": 4,
   "errors": []
  },
  "zd": {
@@ -1404,6 +1404,15 @@
   },
   "profil:pvu:26243237:P26V00005298": {
    "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3889189"
+  },
+  "rvz:RVZ2600117451": {
+   "doc_url": "https://api.tenderarena.cz/ta/profil/stahovani-dokumentu/dokument/6347481"
+  },
+  "rvz:RVZ2600117513": {
+   "doc_url": "https://api.tenderarena.cz/ta/profil/stahovani-dokumentu/dokument/6347829"
+  },
+  "profil:pvu:05427592:P26V00005377": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3892373"
   }
  },
  "zpravy": {
@@ -5165,6 +5174,15 @@
    "nenalezeno": true
   },
   "profil:kr-kralovehradecky:VZ-12916": {
+   "nenalezeno": true
+  },
+  "profil:pvu:00535982:P26V00003312": {
+   "nenalezeno": true
+  },
+  "profil:trutnov:VZ-1819": {
+   "doc_url": "https://zakazky.trutnov.cz/document_download_8716.html"
+  },
+  "rvz:RVZ2600078207": {
    "nenalezeno": true
   }
  }

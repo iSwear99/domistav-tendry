@@ -1,5 +1,41 @@
 [
  {
+  "id": "profil:pvu:00535982:P26V00003312",
+  "source": "profil:pvu:00535982",
+  "title": "Nové prostory pro PZKO Písek",
+  "authority": "Obec Písek",
+  "authority_ico": "00535982",
+  "winner": "R + M stavební s.r.o.",
+  "winner_ico": "27797376",
+  "awarded": "2026-08-17",
+  "price_contracted": null,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 20,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.vhodne-uverejneni.cz/profil/00535982",
+  "bidders": [
+   {
+    "nazev": "R + M stavební s.r.o.",
+    "ico": "27797376",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "P.O. stav - trade, spol. s r.o.",
+    "ico": "27789012",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "profil:kr-kralovehradecky:VZ-12916",
   "source": "profil:kr-kralovehradecky",
   "title": "Borohrádek stavební úpravy budovy - dodávka interiéru",
@@ -154,6 +190,55 @@
    }
   ],
   "registr_url": "https://smlouvy.gov.cz/smlouva/39020594"
+ },
+ {
+  "id": "profil:trutnov:VZ-1819",
+  "source": "profil:trutnov",
+  "title": "Rekonstrukce ulice Tovární, Trutnov",
+  "authority": "Město Trutnov",
+  "authority_ico": "00278360",
+  "winner": "Alprim CZ s.r.o.",
+  "winner_ico": "28811470",
+  "awarded": "2026-08-05",
+  "price_contracted": 13963614.86,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "cpv": [
+   "45112000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://zakazky.trutnov.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "Alprim CZ s.r.o.",
+    "ico": "28811470",
+    "cena": 13963614.86,
+    "vyloucen": false
+   },
+   {
+    "nazev": "M - STAV CZ s.r.o.",
+    "ico": "27557235",
+    "cena": 16307237.24,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ŠTĚPÁNEK, spol. s r.o.",
+    "ico": "45535124",
+    "cena": 16728356.17,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SWIETELSKY stavební s.r.o.",
+    "ico": "48035599",
+    "cena": 14160000.0,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39152326"
  },
  {
   "id": "profil:pvu:00535982:P26V00004081",
@@ -343,6 +428,42 @@
   "kind": "VZMR",
   "kw_match": false,
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00023957"
+ },
+ {
+  "id": "rvz:RVZ2600078207",
+  "source": "profil:pardubice",
+  "title": "ZŠ Prodloužená – rekonstrukce odborných učeben - I. etapa",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
+  "winner_ico": "46504621",
+  "awarded": "2026-07-29",
+  "price_contracted": 15956594.66,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45214200"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00010012",
+  "bidders": [
+   {
+    "nazev": "STAFI FINALIZACE STAVEB s.r.o.",
+    "ico": "25968203",
+    "cena": 17332470.15,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
+    "ico": "46504621",
+    "cena": 15956594.66,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600080195",

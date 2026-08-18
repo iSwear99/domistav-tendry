@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-08-17T10:59:16+00:00",
+  "updated": "2026-08-18T10:53:50+00:00",
   "model": "claude-opus-5",
-  "posouzeno_nyni": 0,
-  "celkem": 452,
+  "posouzeno_nyni": 3,
+  "celkem": 455,
   "counts": {
    "ano": 217,
-   "ne": 152,
-   "nejisto": 83
+   "ne": 154,
+   "nejisto": 84
   },
   "errors": []
  },
@@ -1819,6 +1819,18 @@
   "profil:pvu:26243237:P26V00005298": {
    "verdikt": "ne",
    "duvod": "Výměna kotlů, technologie energetického zdroje."
+  },
+  "rvz:RVZ2600117451": {
+   "verdikt": "ne",
+   "duvod": "Dodávka zemního plynu, ne stavební práce"
+  },
+  "rvz:RVZ2600117513": {
+   "verdikt": "nejisto",
+   "duvod": "Sportovní venkovní areál, možná zpevněné plochy"
+  },
+  "profil:pvu:05427592:P26V00005377": {
+   "verdikt": "ne",
+   "duvod": "Energetické dílo, dodávka kotle"
   }
  }
 }
