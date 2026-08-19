@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-08-18T10:53:50+00:00",
+  "updated": "2026-08-19T09:25:11+00:00",
   "model": "claude-opus-5",
   "posouzeno_nyni": 3,
-  "celkem": 455,
+  "celkem": 458,
   "counts": {
-   "ano": 217,
-   "ne": 154,
-   "nejisto": 84
+   "ano": 218,
+   "ne": 155,
+   "nejisto": 85
   },
   "errors": []
  },
@@ -1831,6 +1831,18 @@
   "profil:pvu:05427592:P26V00005377": {
    "verdikt": "ne",
    "duvod": "Energetické dílo, dodávka kotle"
+  },
+  "rvz:RVZ2600117842": {
+   "verdikt": "ne",
+   "duvod": "Technický dozor a BOZP, ne stavební práce"
+  },
+  "profil:pvu:00415227:P26V00003461": {
+   "verdikt": "ano",
+   "duvod": "Oprava fasády bytového domu, hlavní obor firmy"
+  },
+  "profil:pvu:00415227:P26V00003886": {
+   "verdikt": "nejisto",
+   "duvod": "Pouze nátěr zábradlí, drobná údržba domu"
   }
  }
 }

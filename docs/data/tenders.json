@@ -120288,10 +120288,30 @@
   "deadline": "2026-06-17T10:00:00",
   "url": "https://www.tenderarena.cz/profily/hradeckralove",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Vojtěch Pastyřík",
+    "ico": "74308645",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SAFETY PRO s.r.o.",
+    "ico": "28571690",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Zdeněk Vašák",
+    "ico": "12338834",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -125133,7 +125153,7 @@
   "kw_match": true,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 42,
   "loc_unknown": false
  },
@@ -125159,7 +125179,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
   "loc_unknown": false
  },
@@ -125185,7 +125205,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
   "loc_unknown": false
  },
@@ -125209,7 +125229,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 4,
   "loc_unknown": false
  },
@@ -126710,6 +126730,30 @@
   "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00024210"
  },
  {
+  "id": "rvz:RVZ2600117842",
+  "source": "profil:hradec-kralove",
+  "title": "Výstavba MŠ Podzámčí II v Hradci Králové  – TDS + BOZP",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-18",
+  "deadline": "2026-09-03T10:30:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600107595",
   "source": "isvz",
   "nen_id": "",
@@ -126770,45 +126814,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600110130",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Výstavba MŠ Podzámčí II v Hradci Králové",
-  "authority": "Statutární město Hradec Králové",
-  "authority_ico": "00268810",
-  "cpv": [
-   "45000000",
-   "45214800",
-   "45214100",
-   "45214000",
-   "45223220",
-   "45331000",
-   "45310000",
-   "45261000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 166000000.0,
-  "published": "2026-07-14",
-  "deadline": "2026-09-10T10:00:00",
-  "url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://www.tenderarena.cz/profily/hradeckralove",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": false,
-  "profile_url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "dist_km": 4,
-  "loc_unknown": false
- },
- {
   "id": "profil:pvu:26243237:P26V00005298",
   "source": "profil:pvu:26243237",
   "title": "BIOMASOVÁ KOTELNA PRO EKOLOGICKÉ VYUŽITÍ BIOMASY – rekonstrukce (výměna) kotlů s filtračním zařízení",
@@ -126858,6 +126863,45 @@
   "no_nuts": false,
   "no_value": true,
   "expired": false,
+  "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600110130",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Výstavba MŠ Podzámčí II v Hradci Králové",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [
+   "45000000",
+   "45214800",
+   "45214100",
+   "45214000",
+   "45223220",
+   "45331000",
+   "45310000",
+   "45261000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 166000000.0,
+  "published": "2026-07-14",
+  "deadline": "2026-09-23T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://www.tenderarena.cz/profily/hradeckralove",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": false,
+  "profile_url": "https://www.tenderarena.cz/profily/hradeckralove",
   "dist_km": 4,
   "loc_unknown": false
  },
@@ -178245,7 +178289,7 @@
   "place": "Úpice",
   "authority_seat": "",
   "authority_profile": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0005011",
-  "state": "",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZ",
@@ -202479,6 +202523,33 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00415227:P26V00003461",
+  "source": "profil:pvu:00415227",
+  "title": "Oprava fasády bytového domu na ulici Družstevnická 14-24, Havířov-Podlesí",
+  "authority": "Stavební bytové družstvo Havířov",
+  "authority_ico": "00415227",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-05-26",
+  "deadline": "",
+  "url": "https://www.vhodne-uverejneni.cz/profil/stavebni-bytove-druzstvo-havirov",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 42,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600108650",
   "source": "isvz",
   "nen_id": "N006/26/V00017561",
@@ -202722,6 +202793,33 @@
   "no_value": true,
   "expired": true,
   "dist_km": 17,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00415227:P26V00003886",
+  "source": "profil:pvu:00415227",
+  "title": "Nátěr balkónových zábradlí bytového domu na ulici Točitá 2-8, Havířov-Podlesí",
+  "authority": "Stavební bytové družstvo Havířov",
+  "authority_ico": "00415227",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-11",
+  "deadline": "",
+  "url": "https://www.vhodne-uverejneni.cz/profil/stavebni-bytove-druzstvo-havirov",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 42,
   "loc_unknown": false
  },
  {
