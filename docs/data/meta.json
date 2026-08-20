@@ -1,16 +1,15 @@
 {
- "updated": "2026-08-19T09:24:31+00:00",
+ "updated": "2026-08-20T10:28:00+00:00",
  "counts": {
-  "total": 6392,
+  "total": 6398,
   "vz": 3674,
-  "vzmr": 2718,
-  "active": 60,
+  "vzmr": 2724,
+  "active": 55,
   "changed": 47,
   "competition": 1246,
-  "previous": 6389
+  "previous": 6392
  },
  "errors": [
-  "profil:kr-kralovehradecky: Stažení selhalo: https://zakazky.cenakhk.cz/profile_display_2.html/XMLdataVZ?od=21052026&do=19082026: <urlopen error timed out>",
-  "pvu: /externi-zakazka/olomouc-chvalkovice-servisni-prohlidka-mercedes-arocs-ad-20-2: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/olomouc-chvalkovice-servisni-prohlidka-mercedes-arocs-ad-20-2: HTTP Error 401: Unauthorized"
+  "profil:kr-kralovehradecky: Stažení selhalo: https://zakazky.cenakhk.cz/profile_display_2.html/XMLdataVZ?od=22052026&do=20082026: <urlopen error timed out>"
  ]
 }

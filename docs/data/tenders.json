@@ -30026,6 +30026,56 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2600118130",
+  "source": "profil:hradec-kralove",
+  "title": "MONITORING VYBRANÝCH TOKŮ OBCE S ROZŠÍŘENOU PŮSOBNOSTÍ HK 2021",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2021-04-12",
+  "deadline": "2021-04-30T12:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Zdravotní ústav se sídlem v Ústí nad Labem",
+    "ico": "71009361",
+    "cena": 246016.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "BIOANALYTIKA CZ, s.r.o.",
+    "ico": "25916629",
+    "cena": 143156.8,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ÚNS - Laboratorní služby, s.r.o.",
+    "ico": "25655531",
+    "cena": 64896.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "EMPLA AG spol. s r.o.",
+    "ico": "25996240",
+    "cena": 65882.0,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2400082920",
   "source": "isvz",
   "nen_id": "N006/21/V00007895",
@@ -38853,6 +38903,56 @@
   "no_value": false,
   "expired": true,
   "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600118123",
+  "source": "profil:hradec-kralove",
+  "title": "MONITORING VYBRANÝCH TOKŮ OBCE S ROZŠÍŘENOU PŮSOBNOSTÍ HK 2022",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2022-04-13",
+  "deadline": "2022-05-04T12:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "EMPLA AG spol. s r.o.",
+    "ico": "25996240",
+    "cena": 85359.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Zdravotní ústav se sídlem v Ústí nad Labem",
+    "ico": "71009361",
+    "cena": 289480.8,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ALS Czech Republic, s.r.o.",
+    "ico": "27407551",
+    "cena": 102272.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ÚNS - Laboratorní služby, s.r.o.",
+    "ico": "25655531",
+    "cena": 72256.0,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 4,
   "loc_unknown": false
  },
  {
@@ -48935,6 +49035,62 @@
   "no_value": true,
   "expired": true,
   "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600056225",
+  "source": "profil:hradec-kralove",
+  "title": "MONITORING VYBRANÝCH TOKŮ OBCE S  ROZŠÍŘENOU PŮSOBNOSTÍ HK 2023",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2023-03-28",
+  "deadline": "2023-04-28T12:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Zdravotní ústav se sídlem v Ústí nad Labem",
+    "ico": "71009361",
+    "cena": 332959.6,
+    "vyloucen": false
+   },
+   {
+    "nazev": "GEOtest, a.s.",
+    "ico": "46344942",
+    "cena": 457840.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "LABTECH s.r.o.",
+    "ico": "44014643",
+    "cena": 86544.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ENVIRO - EKOANALYTIKA, s.r.o.",
+    "ico": "49446690",
+    "cena": 274248.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ALS Czech Republic, s.r.o.",
+    "ico": "27407551",
+    "cena": 266544.0,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 4,
   "loc_unknown": false
  },
  {
@@ -120747,6 +120903,33 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00235741:P26V00005391",
+  "source": "profil:pvu:00235741",
+  "title": "Modernizace a obnova dětského hřiště Starý Kolín",
+  "authority": "Obec Starý Kolín",
+  "authority_ico": "00235741",
+  "cpv": [
+   "37535200"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-20",
+  "deadline": "2026-06-22T16:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/obec-stary-kolin",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": true,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 41,
+  "loc_unknown": false
+ },
+ {
   "id": "profil:kr-kralovehradecky:VZ-12915",
   "source": "profil:kr-kralovehradecky",
   "title": "Borohrádek stavební úpravy budovy - zdravotnické zařízení",
@@ -125301,7 +125484,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": 47,
   "loc_unknown": false
  },
@@ -125328,7 +125511,34 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true
+ },
+ {
+  "id": "profil:pvu:47019549:P26V00005432",
+  "source": "profil:pvu:47019549",
+  "title": "Povlčín úpravna vody - strojní technologie",
+  "authority": "Vodohospodářské sdružení obcí Rakovnicka",
+  "authority_ico": "47019549",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-19",
+  "deadline": "2026-08-19T10:20:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/vodohospodarske-sdruzeni-obci-rakovnicka",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -125360,7 +125570,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -125395,7 +125605,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -125422,9 +125632,44 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
+ },
+ {
+  "id": "profil:pvu:45670773:P26V00005449",
+  "source": "profil:pvu:45670773",
+  "title": "ul. Topolová – revitalizace dětského hřiště Dobšice",
+  "authority": "Obec Dobšice",
+  "authority_ico": "45670773",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-20",
+  "deadline": "2026-08-20T07:37:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/45670773",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "BoBaStav s.r.o.",
+    "ico": "03330494",
+    "cena": 3393390.9,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 38,
+  "loc_unknown": false
  },
  {
   "id": "profil:kr-kralovehradecky:VZ-12963",
@@ -126014,43 +126259,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600111940",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "ZŠ Sever, Lužická 1208, Hradec Králové – stavební úpravy pavilonu stravování – stavba",
-  "authority": "Statutární město Hradec Králové",
-  "authority_ico": "00268810",
-  "cpv": [
-   "45214200",
-   "45262900",
-   "45331000",
-   "42416100",
-   "45313100",
-   "50750000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 28300000.0,
-  "published": "2026-07-22",
-  "deadline": "2026-08-27T10:00:00",
-  "url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://www.tenderarena.cz/profily/hradeckralove",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": false,
-  "profile_url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "dist_km": 4,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600112543",
   "source": "isvz",
   "nen_id": "",
@@ -126499,6 +126707,43 @@
   "no_value": true,
   "expired": false,
   "dist_km": 39,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600111940",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "ZŠ Sever, Lužická 1208, Hradec Králové – stavební úpravy pavilonu stravování – stavba",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [
+   "45214200",
+   "45262900",
+   "45331000",
+   "42416100",
+   "45313100",
+   "50750000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 28300000.0,
+  "published": "2026-07-22",
+  "deadline": "2026-09-01T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://www.tenderarena.cz/profily/hradeckralove",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": false,
+  "profile_url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "dist_km": 4,
   "loc_unknown": false
  },
  {
@@ -127099,40 +127344,6 @@
   "dist_km": 36,
   "loc_unknown": false,
   "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2600088661",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "SOU opravárenské Králíky- rekonstrukce kuchyně",
-  "authority": "Pardubický kraj",
-  "authority_ico": "70892822",
-  "cpv": [
-   "45212500",
-   "45313100"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": null,
-  "published": "",
-  "deadline": "",
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 18,
-  "loc_unknown": false,
-  "auto_expired": "2026-08-15",
   "no_activity": true
  },
  {
@@ -135977,6 +136188,40 @@
   "no_value": false,
   "expired": true,
   "dist_km": 49,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-15",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600088661",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "SOU opravárenské Králíky- rekonstrukce kuchyně",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "45212500",
+   "45313100"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": null,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 18,
   "loc_unknown": false,
   "auto_expired": "2026-08-15",
   "no_activity": true
@@ -202523,33 +202768,6 @@
   "loc_unknown": false
  },
  {
-  "id": "profil:pvu:00415227:P26V00003461",
-  "source": "profil:pvu:00415227",
-  "title": "Oprava fasády bytového domu na ulici Družstevnická 14-24, Havířov-Podlesí",
-  "authority": "Stavební bytové družstvo Havířov",
-  "authority_ico": "00415227",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-05-26",
-  "deadline": "",
-  "url": "https://www.vhodne-uverejneni.cz/profil/stavebni-bytove-druzstvo-havirov",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "authority_seat": "",
-  "kw_match": false,
-  "no_nuts": true,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 42,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600108650",
   "source": "isvz",
   "nen_id": "N006/26/V00017561",
@@ -202577,6 +202795,33 @@
   "no_nuts": false,
   "no_value": true,
   "expired": true,
+  "dist_km": 42,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00415227:P26V00003461",
+  "source": "profil:pvu:00415227",
+  "title": "Oprava fasády bytového domu na ulici Družstevnická 14-24, Havířov-Podlesí",
+  "authority": "Stavební bytové družstvo Havířov",
+  "authority_ico": "00415227",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-05-26",
+  "deadline": "",
+  "url": "https://www.vhodne-uverejneni.cz/profil/stavebni-bytove-druzstvo-havirov",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
   "dist_km": 42,
   "loc_unknown": false
  },
