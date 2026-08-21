@@ -1,15 +1,16 @@
 {
- "updated": "2026-08-20T10:28:00+00:00",
+ "updated": "2026-08-21T07:25:56+00:00",
  "counts": {
-  "total": 6398,
-  "vz": 3674,
-  "vzmr": 2724,
-  "active": 55,
+  "total": 6404,
+  "vz": 3675,
+  "vzmr": 2729,
+  "active": 53,
   "changed": 47,
-  "competition": 1246,
-  "previous": 6392
+  "competition": 1247,
+  "previous": 6398
  },
  "errors": [
-  "profil:kr-kralovehradecky: Stažení selhalo: https://zakazky.cenakhk.cz/profile_display_2.html/XMLdataVZ?od=22052026&do=20082026: <urlopen error timed out>"
+  "profil:dobruska: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274879/XMLdataVZ?od=23052026&do=21082026: <urlopen error timed out>",
+  "profil:prelouc: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274101/XMLdataVZ?od=23052026&do=21082026: <urlopen error timed out>"
  ]
 }

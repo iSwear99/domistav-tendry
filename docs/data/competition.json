@@ -1,5 +1,25 @@
 [
  {
+  "id": "rvz:RVZ2600118591",
+  "source": "profil:upice",
+  "title": "Rekonstrukce mostu ev.č. M16 pod koupalištěm, ÚPice",
+  "authority": "Město Úpice",
+  "authority_ico": "00278386",
+  "winner": "SWIETELSKY stavební s.r.o.",
+  "winner_ico": "48035599",
+  "awarded": "2026-08-21",
+  "price_contracted": 2949000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 37,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://tenderarena.cz/profily/00278386"
+ },
+ {
   "id": "profil:pvu:00535982:P26V00003312",
   "source": "profil:pvu:00535982",
   "title": "Nové prostory pro PZKO Písek",
