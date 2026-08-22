@@ -1,16 +1,19 @@
 {
- "updated": "2026-08-21T07:25:56+00:00",
+ "updated": "2026-08-22T06:41:42+00:00",
  "counts": {
   "total": 6404,
   "vz": 3675,
   "vzmr": 2729,
-  "active": 53,
+  "active": 52,
   "changed": 47,
   "competition": 1247,
-  "previous": 6398
+  "previous": 6404
  },
  "errors": [
-  "profil:dobruska: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274879/XMLdataVZ?od=23052026&do=21082026: <urlopen error timed out>",
-  "profil:prelouc: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274101/XMLdataVZ?od=23052026&do=21082026: <urlopen error timed out>"
+  "profil:hradec-kralove: Stažení selhalo: https://www.tenderarena.cz/profily/hradeckralove/XMLdataVZ?od=24052026&do=22082026: <urlopen error [Errno -2] Name or service not known>",
+  "profil:nove-mesto-nm: Stažení selhalo: https://www.egordion.cz/nabidkaGORDION/profilNmnm/XMLdataVZ?od=24052026&do=22082026: <urlopen error [Errno -2] Name or service not known>",
+  "profil:horice: Stažení selhalo: https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0000671/XMLdataVZ?od=24052026&do=22082026: <urlopen error [Errno -2] Name or service not known>",
+  "profil:upice: Stažení selhalo: https://tenderarena.cz/profily/00278386/XMLdataVZ?od=24052026&do=22082026: <urlopen error [Errno -2] Name or service not known>",
+  "profil:lazne-bohdanec: Stažení selhalo: https://www.tenderarena.cz/profily/LazneBohdanec/XMLdataVZ?od=24052026&do=22082026: <urlopen error [Errno -2] Name or service not known>"
  ]
 }

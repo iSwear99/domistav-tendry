@@ -80455,7 +80455,7 @@
   "place": "Místo plnění se nachází východně od městyse Častolovice, trasa prochází katastrálními územími Častolovice, Kostelec nad Orlicí, Synkov.",
   "authority_seat": "",
   "authority_profile": "",
-  "state": "",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZ",
@@ -80464,7 +80464,58 @@
   "no_value": false,
   "expired": true,
   "dist_km": 31,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "bidders": [
+   {
+    "nazev": "Budimex S.A.",
+    "ico": "010732630",
+    "cena": 515280417.53,
+    "vyloucen": false
+   },
+   {
+    "nazev": "EUROVIA CZ a.s.",
+    "ico": "45274924",
+    "cena": 510625581.29,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MADOS MT s.r.o.",
+    "ico": "25297899",
+    "cena": 431596345.87,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MI Roads a.s.",
+    "ico": "17331099",
+    "cena": 488812555.15,
+    "vyloucen": false
+   },
+   {
+    "nazev": "M - SILNICE a.s.",
+    "ico": "42196868",
+    "cena": 391999340.43,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PORR a.s.",
+    "ico": "43005560",
+    "cena": 505000000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Skanska a.s.",
+    "ico": "26271303",
+    "cena": 452317259.01,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STRABAG SIS a.s.",
+    "ico": "45359041",
+    "cena": 469002000.0,
+    "vyloucen": false
+   }
+  ],
+  "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html"
  },
  {
   "id": "rvz:RVZ2500201146",
@@ -125925,7 +125976,7 @@
   "kw_match": true,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -127655,45 +127706,6 @@
   "dist_km": 30,
   "loc_unknown": false,
   "auto_expired": "2026-08-15",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500060894",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Brněnská 1462 – bezbariérový vstup a zateplení objektu",
-  "authority": "Statutární město Hradec Králové",
-  "authority_ico": "00268810",
-  "cpv": [
-   "45000000",
-   "45300000",
-   "45321000",
-   "45421100",
-   "09332000",
-   "51110000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 16500000.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "ukončeno plnění",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "profile_url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "dist_km": 4,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
   "no_activity": true
  },
  {
@@ -129704,6 +129716,45 @@
   "dist_km": 19,
   "loc_unknown": false,
   "auto_expired": "2026-08-15",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500060894",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Brněnská 1462 – bezbariérový vstup a zateplení objektu",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [
+   "45000000",
+   "45300000",
+   "45321000",
+   "45421100",
+   "09332000",
+   "51110000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 16500000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "profile_url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "dist_km": 4,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
   "no_activity": true
  },
  {
@@ -137381,7 +137432,7 @@
   "place": "Areál národní kulturní památky Hřebčín s kmenovým chovným stádem starokladrubského koně\nNárodní hřebčín Kladruby nad Labem, Kladruby nad Labem č. p. 1, 533 14 Kladruby nad Labem\nPozemky parcelní:\nparc. č. 465 a 876, k. ú. Kladruby nad Labem, obec Kladruby nad Labem, LV č. 154, zapsané u Katastrálního úřadu pro Pardubický kraj, katastrální pracoviště Pardubice",
   "authority_seat": "",
   "authority_profile": "",
-  "state": "",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZ",
@@ -201448,30 +201499,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2500226136",
-  "source": "profil:lazne-bohdanec",
-  "title": "Demolice mostu a výstavba nové lávky přes Opatovický kanál",
-  "authority": "Město Lázně Bohdaneč",
-  "authority_ico": "00273350",
-  "cpv": [],
-  "nuts": [],
-  "value": null,
-  "published": "2025-12-15",
-  "deadline": "",
-  "url": "https://www.tenderarena.cz/profily/LazneBohdanec",
-  "place": "",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 15,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2500226320",
   "source": "profil:skutec",
   "title": "Rozšíření zpevněné plochy u SeniorCentra ve Skutči",
@@ -201495,6 +201522,30 @@
   "no_value": true,
   "expired": true,
   "dist_km": 43,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2500226136",
+  "source": "profil:lazne-bohdanec",
+  "title": "Demolice mostu a výstavba nové lávky přes Opatovický kanál",
+  "authority": "Město Lázně Bohdaneč",
+  "authority_ico": "00273350",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2025-12-15",
+  "deadline": "",
+  "url": "https://www.tenderarena.cz/profily/LazneBohdanec",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 15,
   "loc_unknown": false
  },
  {
