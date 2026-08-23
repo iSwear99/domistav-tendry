@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-22T06:41:42+00:00",
+ "updated": "2026-08-23T06:41:13+00:00",
  "counts": {
   "total": 6404,
   "vz": 3675,
@@ -10,10 +10,10 @@
   "previous": 6404
  },
  "errors": [
-  "profil:hradec-kralove: Stažení selhalo: https://www.tenderarena.cz/profily/hradeckralove/XMLdataVZ?od=24052026&do=22082026: <urlopen error [Errno -2] Name or service not known>",
-  "profil:nove-mesto-nm: Stažení selhalo: https://www.egordion.cz/nabidkaGORDION/profilNmnm/XMLdataVZ?od=24052026&do=22082026: <urlopen error [Errno -2] Name or service not known>",
-  "profil:horice: Stažení selhalo: https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0000671/XMLdataVZ?od=24052026&do=22082026: <urlopen error [Errno -2] Name or service not known>",
-  "profil:upice: Stažení selhalo: https://tenderarena.cz/profily/00278386/XMLdataVZ?od=24052026&do=22082026: <urlopen error [Errno -2] Name or service not known>",
-  "profil:lazne-bohdanec: Stažení selhalo: https://www.tenderarena.cz/profily/LazneBohdanec/XMLdataVZ?od=24052026&do=22082026: <urlopen error [Errno -2] Name or service not known>"
+  "profil:hradec-kralove: Stažení selhalo: https://www.tenderarena.cz/profily/hradeckralove/XMLdataVZ?od=25052026&do=23082026: <urlopen error [Errno -2] Name or service not known>",
+  "profil:nove-mesto-nm: Stažení selhalo: https://www.egordion.cz/nabidkaGORDION/profilNmnm/XMLdataVZ?od=25052026&do=23082026: <urlopen error [Errno -2] Name or service not known>",
+  "profil:horice: Stažení selhalo: https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0000671/XMLdataVZ?od=25052026&do=23082026: <urlopen error [Errno -2] Name or service not known>",
+  "profil:upice: Stažení selhalo: https://tenderarena.cz/profily/00278386/XMLdataVZ?od=25052026&do=23082026: <urlopen error [Errno -2] Name or service not known>",
+  "profil:lazne-bohdanec: Stažení selhalo: https://www.tenderarena.cz/profily/LazneBohdanec/XMLdataVZ?od=25052026&do=23082026: <urlopen error [Errno -2] Name or service not known>"
  ]
 }
