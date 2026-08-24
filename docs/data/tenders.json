@@ -127324,6 +127324,32 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:kr-pardubicky:VZ-6374",
+  "source": "profil:kr-pardubicky",
+  "title": "Zpracování projektové dokumentace na stavbu \"DM a ŠJ Pardubice - novostavba DM, areál Ke Tvrzi",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "71221000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-24",
+  "deadline": "2026-09-23T10:00:00",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600110130",
   "source": "isvz",
   "nen_id": "",

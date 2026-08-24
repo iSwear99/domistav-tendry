@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-08-23T06:41:13+00:00",
-  "zd": 461,
+  "updated": "2026-08-24T06:55:00+00:00",
+  "zd": 462,
   "zpravy": 1247,
-  "novych": 0,
+  "novych": 1,
   "errors": []
  },
  "zd": {
@@ -1431,6 +1431,9 @@
   },
   "rvz:RVZ2600118536": {
    "nenalezeno": true
+  },
+  "profil:kr-pardubicky:VZ-6374": {
+   "doc_url": "https://zakazky.pardubickykraj.cz/document_download_61296.html"
   }
  },
  "zpravy": {
