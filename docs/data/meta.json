@@ -1,19 +1,20 @@
 {
- "updated": "2026-08-24T06:54:56+00:00",
+ "updated": "2026-08-25T06:47:36+00:00",
  "counts": {
-  "total": 6405,
-  "vz": 3676,
-  "vzmr": 2729,
-  "active": 53,
-  "changed": 47,
-  "competition": 1247,
-  "previous": 6404
+  "total": 6409,
+  "vz": 3678,
+  "vzmr": 2731,
+  "active": 49,
+  "changed": 48,
+  "competition": 1248,
+  "previous": 6405
  },
  "errors": [
-  "profil:hradec-kralove: Stažení selhalo: https://www.tenderarena.cz/profily/hradeckralove/XMLdataVZ?od=26052026&do=24082026: <urlopen error [Errno -2] Name or service not known>",
-  "profil:nove-mesto-nm: Stažení selhalo: https://www.egordion.cz/nabidkaGORDION/profilNmnm/XMLdataVZ?od=26052026&do=24082026: <urlopen error [Errno -2] Name or service not known>",
-  "profil:horice: Stažení selhalo: https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0000671/XMLdataVZ?od=26052026&do=24082026: <urlopen error [Errno -2] Name or service not known>",
-  "profil:upice: Stažení selhalo: https://tenderarena.cz/profily/00278386/XMLdataVZ?od=26052026&do=24082026: <urlopen error [Errno -2] Name or service not known>",
-  "profil:lazne-bohdanec: Stažení selhalo: https://www.tenderarena.cz/profily/LazneBohdanec/XMLdataVZ?od=26052026&do=24082026: <urlopen error [Errno -2] Name or service not known>"
+  "profil:hradec-kralove: Stažení selhalo: https://www.tenderarena.cz/profily/hradeckralove/XMLdataVZ?od=27052026&do=25082026: <urlopen error [Errno -2] Name or service not known>",
+  "profil:nove-mesto-nm: Stažení selhalo: https://www.egordion.cz/nabidkaGORDION/profilNmnm/XMLdataVZ?od=27052026&do=25082026: <urlopen error [Errno -2] Name or service not known>",
+  "profil:horice: Stažení selhalo: https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0000671/XMLdataVZ?od=27052026&do=25082026: <urlopen error [Errno -2] Name or service not known>",
+  "profil:upice: Stažení selhalo: https://tenderarena.cz/profily/00278386/XMLdataVZ?od=27052026&do=25082026: <urlopen error [Errno -2] Name or service not known>",
+  "profil:lazne-bohdanec: Stažení selhalo: https://www.tenderarena.cz/profily/LazneBohdanec/XMLdataVZ?od=27052026&do=25082026: <urlopen error [Errno -2] Name or service not known>",
+  "pvu: /externi-zakazka/opavan-oprava-jerabove-nastavby-u-tatra-815-ad028: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/opavan-oprava-jerabove-nastavby-u-tatra-815-ad028: HTTP Error 401: Unauthorized"
  ]
 }

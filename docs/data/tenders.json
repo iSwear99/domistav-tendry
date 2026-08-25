@@ -121187,7 +121187,21 @@
   "expired": true,
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "dist_km": 4,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "bidders": [
+   {
+    "nazev": "AVT Group a.s.",
+    "ico": "01691988",
+    "cena": 89840008.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "\" M plus \" spol. s r.o.",
+    "ico": "43001432",
+    "cena": 86015316.0,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600108527",
@@ -123327,6 +123341,33 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00297062:P26V00004351",
+  "source": "profil:pvu:00297062",
+  "title": "Revitalizace sídliště na ulici Papírenská v Paskově (sadové úpravy, včetně následné péče)",
+  "authority": "Město Paskov",
+  "authority_ico": "00297062",
+  "cpv": [
+   "77310000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-07-01",
+  "deadline": "2026-07-21T09:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/mesto-paskov",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": true,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 13,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600107849",
   "source": "profil:hradec-kralove",
   "title": "Propojení dopravních a technických vazeb infrastruktury ve Svobodných Dvorech –  TDS, BOZP",
@@ -123914,6 +123955,33 @@
   "no_value": true,
   "expired": true,
   "dist_km": 23,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00270989:P26V00005505",
+  "source": "profil:pvu:00270989",
+  "title": "Přestavba části objektu RD č. p. 55 na garáž",
+  "authority": "Obec Studnice",
+  "authority_ico": "00270989",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-24",
+  "deadline": "2026-07-28T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/obec-studnice",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 33,
   "loc_unknown": false
  },
  {
@@ -126005,7 +126073,7 @@
   "kw_match": true,
   "no_nuts": true,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -126039,7 +126107,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -126070,7 +126138,7 @@
   "kw_match": true,
   "no_nuts": true,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -126106,7 +126174,7 @@
   "kw_match": true,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": 4,
   "loc_unknown": false
  },
@@ -126133,7 +126201,7 @@
   "kw_match": true,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 34,
   "loc_unknown": false
  },
@@ -126161,32 +126229,6 @@
   "no_value": true,
   "expired": false,
   "dist_km": 28,
-  "loc_unknown": false
- },
- {
-  "id": "profil:trutnov:VZ-1837",
-  "source": "profil:trutnov",
-  "title": "ZŠ Trutnov, snížení energetické náročnosti budov - objekt ZŠ R. Frimla",
-  "authority": "Město Trutnov",
-  "authority_ico": "00278360",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-07-30",
-  "deadline": "2026-08-25T10:00:00",
-  "url": "https://zakazky.trutnov.cz/profile_display_2.html",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 43,
   "loc_unknown": false
  },
  {
@@ -127212,35 +127254,28 @@
   "loc_unknown": true
  },
  {
-  "id": "rvz:RVZ2600111066",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Rehabilitační ústav Brandýs nad Orlicí, výstavba nové\nbudovy, KRANIOPROGRAM",
-  "authority": "Pardubický kraj",
-  "authority_ico": "70892822",
+  "id": "profil:trutnov:VZ-1837",
+  "source": "profil:trutnov",
+  "title": "ZŠ Trutnov, snížení energetické náročnosti budov - objekt ZŠ R. Frimla",
+  "authority": "Město Trutnov",
+  "authority_ico": "00278360",
   "cpv": [
-   "45215120",
-   "45232221"
+   "45000000"
   ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": 290926496.38,
-  "published": "2026-07-16",
-  "deadline": "2026-09-09T10:00:00",
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "nuts": [],
+  "value": null,
+  "published": "2026-07-30",
+  "deadline": "2026-09-04T10:00:00",
+  "url": "https://zakazky.trutnov.cz/profile_display_2.html",
   "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
   "state": "zahájen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZ",
   "kw_match": false,
   "no_nuts": false,
-  "no_value": false,
+  "no_value": true,
   "expired": false,
-  "profile_url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
   "dist_km": 43,
   "loc_unknown": false
  },
@@ -127321,6 +127356,66 @@
   "no_value": true,
   "expired": false,
   "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600111066",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Rehabilitační ústav Brandýs nad Orlicí, výstavba nové\nbudovy, KRANIOPROGRAM",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "45215120",
+   "45232221"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 290926496.38,
+  "published": "2026-07-16",
+  "deadline": "2026-09-16T10:00:00",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": false,
+  "profile_url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "dist_km": 43,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00274224:P26V00005510",
+  "source": "profil:pvu:00274224",
+  "title": "NAVÝŠENÍ KAPACITY A STAVEBNÍ ÚPRAVY ZŠ SEMÍN",
+  "authority": "Obec Semín",
+  "authority_ico": "00274224",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-25",
+  "deadline": "2026-09-21T17:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/obec-semin",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 25,
   "loc_unknown": false
  },
  {
@@ -127730,39 +127825,6 @@
   "no_value": false,
   "expired": true,
   "dist_km": 30,
-  "loc_unknown": false,
-  "auto_expired": "2026-08-15",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2600096679",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Úpravy otopné soustavy v objektech ZŠ, Trutnov 2, Mládežnická 536 - II. etapa",
-  "authority": "MĚSTO TRUTNOV",
-  "authority_ico": "00278360",
-  "cpv": [
-   "45331100"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 2600000.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://zakazky.trutnov.cz/",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://zakazky.trutnov.cz/",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 43,
   "loc_unknown": false,
   "auto_expired": "2026-08-15",
   "no_activity": true
@@ -136530,6 +136592,39 @@
   "expired": true,
   "dist_km": 42,
   "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600096679",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Úpravy otopné soustavy v objektech ZŠ, Trutnov 2, Mládežnická 536 - II. etapa",
+  "authority": "MĚSTO TRUTNOV",
+  "authority_ico": "00278360",
+  "cpv": [
+   "45331100"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 2600000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.trutnov.cz/",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://zakazky.trutnov.cz/",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-15",
+  "no_activity": true
  },
  {
   "id": "rvz:RVZ2600083861",
@@ -203879,6 +203974,33 @@
   "no_value": true,
   "expired": true,
   "dist_km": 37,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00579271:P26V00005511",
+  "source": "profil:pvu:00579271",
+  "title": "Veřejná prostranství obce Hřibiny-Ledská",
+  "authority": "Obec Hřibiny-Ledská",
+  "authority_ico": "00579271",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-24",
+  "deadline": "",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00579271",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 28,
   "loc_unknown": false
  }
 ]

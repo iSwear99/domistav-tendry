@@ -20,6 +20,43 @@
   "url": "https://tenderarena.cz/profily/00278386"
  },
  {
+  "id": "profil:kr-kralovehradecky:VZ-12790",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Vybudování přírodovědecké expozice a návštěvnického centra pro inovativní prezentaci přírodního dědictví Muzea východních Čech v Hradci Králové, Centrální krajský depozitář – expozice v objektu Vrbenského kasáren v HK – II.",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "winner": "\" M plus \" spol. s r.o.",
+  "winner_ico": "43001432",
+  "awarded": "2026-08-21",
+  "price_contracted": 86015316.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "cpv": [
+   "39154000"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "AVT Group a.s.",
+    "ico": "01691988",
+    "cena": 89840008.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "\" M plus \" spol. s r.o.",
+    "ico": "43001432",
+    "cena": 86015316.0,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39209970"
+ },
+ {
   "id": "profil:pvu:00535982:P26V00003312",
   "source": "profil:pvu:00535982",
   "title": "Nové prostory pro PZKO Písek",
