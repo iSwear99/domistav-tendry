@@ -87003,6 +87003,40 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:kr-kralovehradecky:VZ-11591",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Rekonstrukce sociálního zařízení na DM – Gymnázium a SOŠPg Nová Paka",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2025-03-04",
+  "deadline": "2025-03-24T09:00:00",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "bidders": [
+   {
+    "nazev": "ASJ s.r.o.",
+    "ico": "25281861",
+    "cena": 11996988.25,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 36,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2500135987",
   "source": "isvz",
   "nen_id": "N006/25/V00004250",
@@ -102540,37 +102574,6 @@
   "published": "2025-09-26",
   "deadline": "2025-10-13T00:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00032435",
-  "place": "",
-  "authority_seat": "Pernštýnské náměstí 1, Pardubice 53002",
-  "authority_profile": "https://nen.nipez.cz/profil/pardubice",
-  "state": "Dokončen/Zadán",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "kw_match": true,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2600031706",
-  "source": "isvz",
-  "nen_id": "N006/25/V00033408",
-  "title": "Aktualizace návrhu stavby Revitalizace Palackého třídy",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "71242000"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": null,
-  "published": "2025-10-03",
-  "deadline": "2025-10-13T08:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00033408",
   "place": "",
   "authority_seat": "Pernštýnské náměstí 1, Pardubice 53002",
   "authority_profile": "https://nen.nipez.cz/profil/pardubice",
@@ -126227,7 +126230,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 28,
   "loc_unknown": false
  },
@@ -126286,32 +126289,6 @@
   "no_value": true,
   "expired": false,
   "dist_km": 19,
-  "loc_unknown": false
- },
- {
-  "id": "profil:kr-kralovehradecky:VZ-13061",
-  "source": "profil:kr-kralovehradecky",
-  "title": "Vybudování protipovodňové zábrany areálu organizace Domečky Rychnov nad Kněžnou - stavební práce",
-  "authority": "Královéhradecký kraj",
-  "authority_ico": "70889546",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-08-12",
-  "deadline": "2026-08-26T10:00:00",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 36,
   "loc_unknown": false
  },
  {
@@ -126718,6 +126695,32 @@
   "no_value": true,
   "expired": false,
   "dist_km": 22,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:kr-kralovehradecky:VZ-13061",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Vybudování protipovodňové zábrany areálu organizace Domečky Rychnov nad Kněžnou - stavební práce",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-12",
+  "deadline": "2026-08-31T10:00:00",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 36,
   "loc_unknown": false
  },
  {
@@ -127280,6 +127283,32 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:trutnov:VZ-1858",
+  "source": "profil:trutnov",
+  "title": "Modernizace a rozvoj sítě dobíjecích stanic pro elektrokola v Trutnově - II opakovaná zakázka",
+  "authority": "Město Trutnov",
+  "authority_ico": "00278360",
+  "cpv": [
+   "31681500"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-25",
+  "deadline": "2026-09-08T10:00:00",
+  "url": "https://zakazky.trutnov.cz/profile_display_2.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 43,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600098105",
   "source": "profil:nachod",
   "title": "Informační centrum, mini ZOO v oboře „Zámecký kopec“ v Náchodě",
@@ -127304,6 +127333,33 @@
   "expired": false,
   "dist_km": 37,
   "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:64615723:P26V00005456",
+  "source": "profil:pvu:64615723",
+  "title": "REKONSTRUKCE LESNÍ CESTY \"HORNÍ PODHÁJÍ\"",
+  "authority": "Městské lesy a zeleň, s. r. o.",
+  "authority_ico": "64615723",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-25",
+  "deadline": "2026-09-10T14:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/mestske-lesy-a-zelen-s-r-o",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": null,
+  "loc_unknown": true
  },
  {
   "id": "profil:pvu:26243237:P26V00005298",
@@ -127760,6 +127816,40 @@
   "dist_km": 24,
   "loc_unknown": false,
   "auto_expired": "2026-08-15",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500090477",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Rekonstrukce sociálního zařízení na DM – Gymnázium a SOŠPg Nová Paka",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000",
+   "45110000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 12208704.29,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "Domov mládeže, Kumburská 1028, 509 01 Nová Paka",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
   "no_activity": true
  },
  {
@@ -151525,40 +151615,6 @@
   "no_value": true,
   "expired": true,
   "dist_km": 4,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500090477",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Rekonstrukce sociálního zařízení na DM – Gymnázium a SOŠPg Nová Paka",
-  "authority": "Královéhradecký kraj",
-  "authority_ico": "70889546",
-  "cpv": [
-   "45000000",
-   "45110000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 12208704.29,
-  "published": "",
-  "deadline": "",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "place": "Domov mládeže, Kumburská 1028, 509 01 Nová Paka",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 36,
   "loc_unknown": false,
   "auto_expired": "2026-07-31",
   "no_activity": true
@@ -202501,6 +202557,40 @@
    }
   ],
   "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600031706",
+  "source": "profil:pardubice",
+  "title": "Aktualizace návrhu stavby Revitalizace Palackého třídy",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "71242000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-04-08",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00033408",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "ellement architects s.r.o.",
+    "ico": "05274885",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": true,
   "no_nuts": false,
   "no_value": true,
   "expired": true,

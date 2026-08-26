@@ -22339,7 +22339,7 @@
  },
  {
   "id": "rvz:RVZ2600031706",
-  "source": "isvz",
+  "source": "profil:pardubice",
   "title": "Aktualizace návrhu stavby Revitalizace Palackého třídy",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
@@ -22357,7 +22357,15 @@
   ],
   "kind": "VZMR",
   "kw_match": true,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00033408"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00033408",
+  "bidders": [
+   {
+    "nazev": "ellement architects s.r.o.",
+    "ico": "05274885",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2500216434",
