@@ -166,6 +166,111 @@
   "registr_url": "https://smlouvy.gov.cz/smlouva/39064234"
  },
  {
+  "id": "rvz:RVZ2600085098",
+  "source": "profil:pardubice",
+  "title": "ZŠ Gorkého (Waldorfská) rekonstrukce kuchyně – vybavení interiéru",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "Interyss s.r.o.",
+  "winner_ico": "48293881",
+  "awarded": "2026-08-10",
+  "price_contracted": null,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "39290000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00013576",
+  "bidders": [
+   {
+    "nazev": "Interyss s.r.o.",
+    "ico": "48293881",
+    "cena": 817939.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Dodávka a montáž interiérů s.r.o.",
+    "ico": "10862722",
+    "cena": 434320.0,
+    "vyloucen": true
+   },
+   {
+    "nazev": "KANONA a.s.",
+    "ico": "04163664",
+    "cena": 1036360.0,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39061954"
+ },
+ {
+  "id": "rvz:RVZ2600100684",
+  "source": "profil:pardubice",
+  "title": "Aquacentrum – oprava balonu vlnobití",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "BAZENSERVIS, s.r.o.",
+  "winner_ico": "64791661",
+  "awarded": "2026-08-10",
+  "price_contracted": null,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "50530000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00018080",
+  "bidders": [
+   {
+    "nazev": "BAZENSERVIS, s.r.o.",
+    "ico": "64791661",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39061606"
+ },
+ {
+  "id": "rvz:RVZ2600099375",
+  "source": "profil:pardubice",
+  "title": "Areál Skatepark – obnova překážek",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "Zdeněk Kotyza",
+  "winner_ico": "73582107",
+  "awarded": "2026-08-10",
+  "price_contracted": null,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45212290"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017282",
+  "bidders": [
+   {
+    "nazev": "Zdeněk Kotyza",
+    "ico": "73582107",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39061114"
+ },
+ {
   "id": "rvz:RVZ2600084759",
   "source": "profil:hradec-kralove",
   "title": "Technický dozor stavebníka a koordinátor BOZP na stavbě „Úpravy zahrady MŠ Třebechovická - Nadace Karla Komárka“",

@@ -1,12 +1,10 @@
 {
  "meta": {
-  "updated": "2026-08-27T17:27:44+00:00",
-  "zd": 471,
-  "zpravy": 1248,
-  "novych": 6,
-  "errors": [
-   "dokumenty rvz:RVZ2600118679: <urlopen error [Errno 104] Connection reset by peer>"
-  ]
+  "updated": "2026-08-28T18:13:16+00:00",
+  "zd": 473,
+  "zpravy": 1251,
+  "novych": 0,
+  "errors": []
  },
  "zd": {
   "rvz:RVZ2600078991": {
@@ -1464,6 +1462,12 @@
   },
   "rvz:RVZ2600120087": {
    "doc_url": "https://api.tenderarena.cz/ta/profil/stahovani-dokumentu/dokument/6385723"
+  },
+  "rvz:RVZ2600120357": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600120353": {
+   "nenalezeno": true
   }
  },
  "zpravy": {
@@ -5241,6 +5245,15 @@
   },
   "profil:kr-kralovehradecky:VZ-12790": {
    "doc_url": "https://zakazky.cenakhk.cz/document_download_147580.html"
+  },
+  "rvz:RVZ2600085098": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600100684": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600099375": {
+   "nenalezeno": true
   }
  }
 }
