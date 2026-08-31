@@ -127016,43 +127016,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600111940",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "ZŠ Sever, Lužická 1208, Hradec Králové – stavební úpravy pavilonu stravování – stavba",
-  "authority": "Statutární město Hradec Králové",
-  "authority_ico": "00268810",
-  "cpv": [
-   "45214200",
-   "45262900",
-   "45331000",
-   "42416100",
-   "45313100",
-   "50750000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 28300000.0,
-  "published": "2026-07-22",
-  "deadline": "2026-09-01T10:00:00",
-  "url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://www.tenderarena.cz/profily/hradeckralove",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": false,
-  "profile_url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "dist_km": 4,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600112897",
   "source": "isvz",
   "nen_id": "",
@@ -127495,6 +127458,43 @@
   "no_value": true,
   "expired": false,
   "dist_km": 39,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600111940",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "ZŠ Sever, Lužická 1208, Hradec Králové – stavební úpravy pavilonu stravování – stavba",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [
+   "45214200",
+   "45262900",
+   "45331000",
+   "42416100",
+   "45313100",
+   "50750000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 28300000.0,
+  "published": "2026-07-22",
+  "deadline": "2026-09-09T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://www.tenderarena.cz/profily/hradeckralove",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": false,
+  "profile_url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "dist_km": 4,
   "loc_unknown": false
  },
  {
@@ -128098,43 +128098,6 @@
   "dist_km": 33,
   "loc_unknown": false,
   "auto_expired": "2026-08-15",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500090313",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Sportovní hala pro tělesnou výchovu – Nová Paka",
-  "authority": "Královéhradecký kraj",
-  "authority_ico": "70889546",
-  "cpv": [
-   "45000000",
-   "45110000",
-   "71000000",
-   "71300000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": null,
-  "published": "",
-  "deadline": "",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "place": "Kumburská 740, 509 01 Nová Paka, okr. Jičín",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "dist_km": 36,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
   "no_activity": true
  },
  {
@@ -129564,6 +129527,43 @@
   "no_value": false,
   "expired": true,
   "dist_km": 20,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500090313",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Sportovní hala pro tělesnou výchovu – Nová Paka",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000",
+   "45110000",
+   "71000000",
+   "71300000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": null,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "Kumburská 740, 509 01 Nová Paka, okr. Jičín",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "dist_km": 36,
   "loc_unknown": false,
   "auto_expired": "2026-07-31",
   "no_activity": true
