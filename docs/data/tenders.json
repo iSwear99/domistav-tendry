@@ -53395,7 +53395,7 @@
   "kind": "VZ",
   "bidders": [
    {
-    "nazev": "Bursík Holding, a.s.",
+    "nazev": "BHSK, a.s.",
     "ico": "28223063",
     "cena": 72890696.92,
     "vyloucen": false
@@ -123016,10 +123016,24 @@
   "deadline": "2026-07-16T10:00:00",
   "url": "https://www.tenderarena.cz/profily/hradeckralove",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Bonita Group Service s.r.o.",
+    "ico": "27738795",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Hřiště MATY, s.r.o.",
+    "ico": "24777510",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -126171,7 +126185,7 @@
   "deadline": "2026-08-21T12:00:00",
   "url": "https://www.vhodne-uverejneni.cz/profil/vitkovice-arena-a-s",
   "place": "",
-  "state": "zahájen",
+  "state": "zrušen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
@@ -126755,7 +126769,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": 30,
   "loc_unknown": false
  },
@@ -126789,7 +126803,7 @@
   "kw_match": true,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": 46,
   "loc_unknown": false
  },
@@ -126821,7 +126835,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": 30,
   "loc_unknown": false
  },
@@ -126855,7 +126869,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -126872,14 +126886,14 @@
   "deadline": "2026-08-31T10:00:00",
   "url": "https://www.tenderarena.cz/profily/hradeckralove",
   "place": "",
-  "state": "zahájen",
+  "state": "zrušen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 22,
   "loc_unknown": false
  },
@@ -126905,7 +126919,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 39,
   "loc_unknown": false
  },
@@ -126932,7 +126946,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 48,
   "loc_unknown": false
  },
@@ -126956,7 +126970,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 22,
   "loc_unknown": false
  },
@@ -126984,7 +126998,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 43,
   "loc_unknown": false
  },
@@ -127704,6 +127718,30 @@
   "dist_km": 19,
   "loc_unknown": false,
   "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00024203"
+ },
+ {
+  "id": "rvz:RVZ2600120888",
+  "source": "profil:hradec-kralove",
+  "title": "Lesní hospodářské osnovy \"Hořice",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-01",
+  "deadline": "2026-09-15T15:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 22,
+  "loc_unknown": false
  },
  {
   "id": "rvz:RVZ2600111066",

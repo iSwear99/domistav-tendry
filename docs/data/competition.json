@@ -1,5 +1,39 @@
 [
  {
+  "id": "rvz:RVZ2600106643",
+  "source": "profil:hradec-kralove",
+  "title": "Dodávka trampolín a pískoviště, Hradec Králové",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "winner": "Bonita Group Service s.r.o.",
+  "winner_ico": "27738795",
+  "awarded": "2026-08-31",
+  "price_contracted": 326896.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "bidders": [
+   {
+    "nazev": "Bonita Group Service s.r.o.",
+    "ico": "27738795",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Hřiště MATY, s.r.o.",
+    "ico": "24777510",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2600118591",
   "source": "profil:upice",
   "title": "Rekonstrukce mostu ev.č. M16 pod koupalištěm, ÚPice",
