@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-09-01T11:09:00+00:00",
-  "zd": 474,
-  "zpravy": 1252,
-  "novych": 0,
+  "updated": "2026-09-02T10:38:06+00:00",
+  "zd": 476,
+  "zpravy": 1253,
+  "novych": 2,
   "errors": []
  },
  "zd": {
@@ -1471,6 +1471,12 @@
   },
   "rvz:RVZ2600120888": {
    "nenalezeno": true
+  },
+  "profil:pvu:04387163:P26V00005655": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3901847"
+  },
+  "profil:kr-kralovehradecky:VZ-13103": {
+   "doc_url": "https://zakazky.cenakhk.cz/document_download_147853.html"
   }
  },
  "zpravy": {
@@ -5259,6 +5265,9 @@
    "nenalezeno": true
   },
   "rvz:RVZ2600106643": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600121083": {
    "nenalezeno": true
   }
  }

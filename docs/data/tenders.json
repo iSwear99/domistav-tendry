@@ -127025,7 +127025,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 39,
   "loc_unknown": false
  },
@@ -127061,7 +127061,7 @@
   "kw_match": true,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -127197,41 +127197,6 @@
   "expired": false,
   "dist_km": 36,
   "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2600113714",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Dukla sportovní – rekonstrukce basketbalové haly - dodávka a instalace zobrazovací, časoměrné, audiovizuální a řídicí technologie",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "32320000",
-   "32333200",
-   "32342400",
-   "37480000"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": 3306000.0,
-  "published": "2026-07-30",
-  "deadline": "2026-09-03T10:20:00",
-  "url": "https://www.nen.nipez.cz/profil/pardubice",
-  "place": "Pardubice; Místa plnění (adresy míst plnění) jsou uvedena v zadávací dokumentaci.",
-  "authority_seat": "Pernštýnské náměstí 1, Pardubice 53002",
-  "authority_profile": "https://www.nen.nipez.cz/profil/pardubice",
-  "state": "Aktivní/Neukončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": true,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": false,
-  "dist_km": 19,
-  "loc_unknown": false,
-  "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00024209"
  },
  {
   "id": "rvz:RVZ2600117842",
@@ -127578,6 +127543,41 @@
   "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00024210"
  },
  {
+  "id": "rvz:RVZ2600113714",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Dukla sportovní – rekonstrukce basketbalové haly - dodávka a instalace zobrazovací, časoměrné, audiovizuální a řídicí technologie",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "32320000",
+   "32333200",
+   "32342400",
+   "37480000"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 3306000.0,
+  "published": "2026-07-30",
+  "deadline": "2026-09-10T10:20:00",
+  "url": "https://www.nen.nipez.cz/profil/pardubice",
+  "place": "Pardubice; Místa plnění (adresy míst plnění) jsou uvedena v zadávací dokumentaci.",
+  "authority_seat": "Pernštýnské náměstí 1, Pardubice 53002",
+  "authority_profile": "https://www.nen.nipez.cz/profil/pardubice",
+  "state": "Aktivní/Neukončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": false,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00024209"
+ },
+ {
   "id": "profil:pvu:64615723:P26V00005456",
   "source": "profil:pvu:64615723",
   "title": "REKONSTRUKCE LESNÍ CESTY \"HORNÍ PODHÁJÍ\"",
@@ -127803,6 +127803,33 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:04387163:P26V00005655",
+  "source": "profil:pvu:04387163",
+  "title": "Smraďavka - Lázně Leopoldov, Stabilizace havarijního stavu sesuvu II. etapa",
+  "authority": "Spolek pro rozvoj a ochranu lázní a lázeňské oblasti Smraďavka - Buchlovice",
+  "authority_ico": "04387163",
+  "cpv": [
+   "45112360"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-02",
+  "deadline": "2026-09-21T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/spolek-pro-rozvoj-a-ochranu-lazni-a-lazenske-oblasti-smradavka-buchlovice",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": null,
+  "loc_unknown": true
+ },
+ {
   "id": "profil:pvu:00274224:P26V00005510",
   "source": "profil:pvu:00274224",
   "title": "NAVÝŠENÍ KAPACITY A STAVEBNÍ ÚPRAVY ZŠ SEMÍN",
@@ -127996,6 +128023,32 @@
   "no_value": true,
   "expired": false,
   "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:kr-kralovehradecky:VZ-13103",
+  "source": "profil:kr-kralovehradecky",
+  "title": "BD Hajnice – výstavba a rekonstrukce administrativní a správní budovy",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45215213"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-01",
+  "deadline": "2026-10-05T10:00:00",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 33,
   "loc_unknown": false
  },
  {
@@ -204554,6 +204607,30 @@
   "no_value": true,
   "expired": true,
   "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600121083",
+  "source": "profil:hradec-kralove",
+  "title": "Smlouva o poskytování systémové podpory Produktů",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-02",
+  "deadline": "",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 4,
   "loc_unknown": false
  }
 ]

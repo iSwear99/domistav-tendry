@@ -1,5 +1,25 @@
 [
  {
+  "id": "rvz:RVZ2600121083",
+  "source": "profil:hradec-kralove",
+  "title": "Smlouva o poskytování systémové podpory Produktů",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "winner": "ARCDATA PRAHA, s.r.o.",
+  "winner_ico": "14889749",
+  "awarded": "2026-09-01",
+  "price_contracted": 1276020.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.tenderarena.cz/profily/hradeckralove"
+ },
+ {
   "id": "rvz:RVZ2600106643",
   "source": "profil:hradec-kralove",
   "title": "Dodávka trampolín a pískoviště, Hradec Králové",
