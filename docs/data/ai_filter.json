@@ -1,16 +1,16 @@
 {
  "meta": {
-  "updated": "2026-09-02T10:38:07+00:00",
+  "updated": "2026-09-03T10:44:30+00:00",
   "model": "claude-opus-5",
   "posouzeno_nyni": 0,
-  "celkem": 458,
+  "celkem": 457,
   "counts": {
-   "ano": 218,
+   "ano": 217,
    "ne": 155,
    "nejisto": 85
   },
   "errors": [
-   "AI dávka 0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CeeU5sdp4Dd6CKJnEdvd3'}"
+   "AI dávka 0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CegNP1uBXcgk5QdJiXUzP'}"
   ]
  },
  "verdikty": {
@@ -1809,10 +1809,6 @@
   "profil:pvu:00270741:P26V00005349": {
    "verdikt": "nejisto",
    "duvod": "Nejasná zkratka LC, možná lesní cesta"
-  },
-  "profil:pvu:18154115:P26V00005344": {
-   "verdikt": "ano",
-   "duvod": "Oprava střechy sokolovny – rekonstrukce budovy"
   },
   "profil:pvu:00239089:P26V00005328": {
    "verdikt": "ne",

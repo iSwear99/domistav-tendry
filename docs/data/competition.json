@@ -325,6 +325,36 @@
   "registr_url": "https://smlouvy.gov.cz/smlouva/39061114"
  },
  {
+  "id": "profil:pvu:48156931:P26V00005664",
+  "source": "profil:pvu:48156931",
+  "title": "Trnávka – ul. Dlouhá, Rekonstrukce MK",
+  "authority": "Obec Trnávka",
+  "authority_ico": "48156931",
+  "winner": "M - SILNICE a.s.",
+  "winner_ico": "42196868",
+  "awarded": "2026-08-10",
+  "price_contracted": 3129129.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 29,
+  "loc_unknown": false,
+  "cpv": [
+   "45233142"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://www.vhodne-uverejneni.cz/profil/obec-trnavka-1",
+  "bidders": [
+   {
+    "nazev": "M - SILNICE a.s.",
+    "ico": "42196868",
+    "cena": 3129129.0,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2600084759",
   "source": "profil:hradec-kralove",
   "title": "Technický dozor stavebníka a koordinátor BOZP na stavbě „Úpravy zahrady MŠ Třebechovická - Nadace Karla Komárka“",

@@ -1,8 +1,8 @@
 {
  "meta": {
-  "updated": "2026-09-02T10:38:06+00:00",
-  "zd": 476,
-  "zpravy": 1253,
+  "updated": "2026-09-03T10:44:29+00:00",
+  "zd": 477,
+  "zpravy": 1254,
   "novych": 2,
   "errors": []
  },
@@ -1396,9 +1396,6 @@
   "profil:pvu:00270741:P26V00005349": {
    "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3890696"
   },
-  "profil:pvu:18154115:P26V00005344": {
-   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3890565"
-  },
   "profil:pvu:00239089:P26V00005328": {
    "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3890174"
   },
@@ -1477,6 +1474,12 @@
   },
   "profil:kr-kralovehradecky:VZ-13103": {
    "doc_url": "https://zakazky.cenakhk.cz/document_download_147853.html"
+  },
+  "profil:pvu:00236128:P26V00005667": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3902521"
+  },
+  "profil:pvu:25313428:P26V00005671": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3902668"
   }
  },
  "zpravy": {
@@ -5268,6 +5271,9 @@
    "nenalezeno": true
   },
   "rvz:RVZ2600121083": {
+   "nenalezeno": true
+  },
+  "profil:pvu:48156931:P26V00005664": {
    "nenalezeno": true
   }
  }

@@ -121779,6 +121779,41 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:48156931:P26V00005664",
+  "source": "profil:pvu:48156931",
+  "title": "Trnávka – ul. Dlouhá, Rekonstrukce MK",
+  "authority": "Obec Trnávka",
+  "authority_ico": "48156931",
+  "cpv": [
+   "45233142"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-02",
+  "deadline": "2026-06-30T09:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/obec-trnavka-1",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "M - SILNICE a.s.",
+    "ico": "42196868",
+    "cena": 3129129.0,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": true,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 29,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600077752",
   "source": "isvz",
   "nen_id": "",
@@ -127120,33 +127155,6 @@
   "loc_unknown": false
  },
  {
-  "id": "profil:pvu:18154115:P26V00005344",
-  "source": "profil:pvu:18154115",
-  "title": "REKONSTRUKCE SOKOLOVNY VE VIZVOVICÍCH – OPRAVA STŘECHY",
-  "authority": "TJ Sokol Vizovice, z. s.",
-  "authority_ico": "18154115",
-  "cpv": [
-   "45261910"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-08-13",
-  "deadline": "2026-09-03T09:00:00",
-  "url": "https://www.vhodne-uverejneni.cz/profil/tj-sokol-vizovice-z-s",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "authority_seat": "",
-  "kw_match": false,
-  "no_nuts": true,
-  "no_value": true,
-  "expired": false,
-  "dist_km": null,
-  "loc_unknown": true
- },
- {
   "id": "rvz:RVZ2600118536",
   "source": "profil:pardubice",
   "title": "Rámcová smlouva o dílo - servis a opravy společných televizních antén",
@@ -127255,32 +127263,6 @@
   "expired": false,
   "dist_km": null,
   "loc_unknown": true
- },
- {
-  "id": "profil:trutnov:VZ-1837",
-  "source": "profil:trutnov",
-  "title": "ZŠ Trutnov, snížení energetické náročnosti budov - objekt ZŠ R. Frimla",
-  "authority": "Město Trutnov",
-  "authority_ico": "00278360",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-07-30",
-  "deadline": "2026-09-04T10:00:00",
-  "url": "https://zakazky.trutnov.cz/profile_display_2.html",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 43,
-  "loc_unknown": false
  },
  {
   "id": "rvz:RVZ2600119797",
@@ -127658,6 +127640,59 @@
   "loc_unknown": true
  },
  {
+  "id": "profil:pvu:00236128:P26V00005667",
+  "source": "profil:pvu:00236128",
+  "title": "Odstranění škod na střešním plášti MŠ a rekonstrukce ocelokolny",
+  "authority": "Obec Chotusice",
+  "authority_ico": "00236128",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-02",
+  "deadline": "2026-09-14T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00236128",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 39,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:trutnov:VZ-1837",
+  "source": "profil:trutnov",
+  "title": "ZŠ Trutnov, snížení energetické náročnosti budov - objekt ZŠ R. Frimla",
+  "authority": "Město Trutnov",
+  "authority_ico": "00278360",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-07-30",
+  "deadline": "2026-09-15T10:00:00",
+  "url": "https://zakazky.trutnov.cz/profile_display_2.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 43,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600117513",
   "source": "profil:hradec-kralove",
   "title": "PUMPTRACK SEVER - Hradec Králové  – DESIGN & BUILD",
@@ -127936,45 +127971,6 @@
   "loc_unknown": true
  },
  {
-  "id": "rvz:RVZ2600110130",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Výstavba MŠ Podzámčí II v Hradci Králové",
-  "authority": "Statutární město Hradec Králové",
-  "authority_ico": "00268810",
-  "cpv": [
-   "45000000",
-   "45214800",
-   "45214100",
-   "45214000",
-   "45223220",
-   "45331000",
-   "45310000",
-   "45261000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 166000000.0,
-  "published": "2026-07-14",
-  "deadline": "2026-09-28T10:00:00",
-  "url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://www.tenderarena.cz/profily/hradeckralove",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": false,
-  "profile_url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "dist_km": 4,
-  "loc_unknown": false
- },
- {
   "id": "profil:pvu:00257125:P26V00005560",
   "source": "profil:pvu:00257125",
   "title": "Změna stavby domu s pečovatelskou službou na adrese Máchova 556, 334 01 Přeštice, umístěná na pozemcích st. 554, p.č. 400/2 a 400/15 v k.ú. Přeštice, spočívající v částečném odstranění, stavebních úpravách a přístavbě",
@@ -127999,6 +127995,45 @@
   "no_value": true,
   "expired": false,
   "dist_km": 49,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600110130",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Výstavba MŠ Podzámčí II v Hradci Králové",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [
+   "45000000",
+   "45214800",
+   "45214100",
+   "45214000",
+   "45223220",
+   "45331000",
+   "45310000",
+   "45261000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 166000000.0,
+  "published": "2026-07-14",
+  "deadline": "2026-09-29T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://www.tenderarena.cz/profily/hradeckralove",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": false,
+  "profile_url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "dist_km": 4,
   "loc_unknown": false
  },
  {
@@ -128050,6 +128085,33 @@
   "expired": false,
   "dist_km": 33,
   "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:25313428:P26V00005671",
+  "source": "profil:pvu:25313428",
+  "title": "Vysokorychlostní internet 1 - Vybudování vysokokapacitní sítě v rámci IO 13 – stavba 1. část",
+  "authority": "Zlín Net, a.s.",
+  "authority_ico": "25313428",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-03",
+  "deadline": "2026-10-05T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/zlin-net-a-s",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": null,
+  "loc_unknown": true
  },
  {
   "id": "rvz:RVZ2600107250",

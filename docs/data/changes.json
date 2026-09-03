@@ -2090,6 +2090,13 @@
    "label": "lhůta",
    "old": "2026-09-25 10:00",
    "new": "2026-09-28 10:00"
+  },
+  {
+   "date": "2026-09-03",
+   "field": "deadline",
+   "label": "lhůta",
+   "old": "2026-09-28 10:00",
+   "new": "2026-09-29 10:00"
   }
  ],
  "profil:kr-kralovehradecky:VZ-12963": [
@@ -2193,6 +2200,13 @@
    "label": "lhůta",
    "old": "2026-08-25 10:00",
    "new": "2026-09-04 10:00"
+  },
+  {
+   "date": "2026-09-03",
+   "field": "deadline",
+   "label": "lhůta",
+   "old": "2026-09-04 10:00",
+   "new": "2026-09-15 10:00"
   }
  ],
  "profil:kr-kralovehradecky:VZ-13061": [
