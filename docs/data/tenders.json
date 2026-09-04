@@ -113047,6 +113047,41 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00246018:P26V00005703",
+  "source": "profil:pvu:00246018",
+  "title": "STAVEBNÍ ÚPRAVY MATEŘSKÉ ŠKOLY na p.č. st. 134 a p.č. 1496/1 v k.ú. a obci Netřebice – 2. ETAPA",
+  "authority": "Obec Netřebice",
+  "authority_ico": "00246018",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-04",
+  "deadline": "2026-03-27T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/obec-netrebice",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "EVEN s.r.o. stavební společnost",
+    "ico": "28062841",
+    "cena": 2398564.46,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 45,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600050997",
   "source": "isvz",
   "nen_id": "",
@@ -119767,6 +119802,59 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00272809:P26V00004901",
+  "source": "profil:pvu:00272809",
+  "title": "Stavba hřbitovní zdi čsl. hřbitova - pravá část",
+  "authority": "Městys Machov",
+  "authority_ico": "00272809",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-07-22",
+  "deadline": "2026-06-10T12:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/mestys-machov",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Alprim CZ s.r.o.",
+    "ico": "28811470",
+    "cena": 1094677.76,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Rostislav Dudek",
+    "ico": "48419729",
+    "cena": 1244926.05,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Leoš Pagač",
+    "ico": "74451944",
+    "cena": 766341.85,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Tomáš Kučera",
+    "ico": "87652056",
+    "cena": 1210297.53,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 49,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600084502",
   "source": "isvz",
   "nen_id": "",
@@ -122693,10 +122781,24 @@
   "deadline": "2026-07-13T10:00:00",
   "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Chameleos s.r.o",
+    "ico": "05078075",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "pan König René",
+    "ico": "72949562",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
   "kw_match": true,
   "no_nuts": false,
   "no_value": true,
@@ -127123,7 +127225,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 39,
   "loc_unknown": false
  },
@@ -127150,7 +127252,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 50,
   "loc_unknown": false
  },
@@ -127176,7 +127278,7 @@
   "kw_match": true,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
   "loc_unknown": false
  },
@@ -127202,7 +127304,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 36,
   "loc_unknown": false
  },
@@ -127226,7 +127328,7 @@
   "kw_match": true,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 4,
   "loc_unknown": false
  },
@@ -127456,32 +127558,6 @@
   "expired": false,
   "profile_url": "https://www.tenderarena.cz/profily/hradeckralove",
   "dist_km": 4,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2600098105",
-  "source": "profil:nachod",
-  "title": "Informační centrum, mini ZOO v oboře „Zámecký kopec“ v Náchodě",
-  "authority": "Město Náchod",
-  "authority_ico": "00272868",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-05-29",
-  "deadline": "2026-09-10T10:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00016501",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 37,
   "loc_unknown": false
  },
  {
@@ -127779,36 +127855,29 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600111066",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Rehabilitační ústav Brandýs nad Orlicí, výstavba nové\nbudovy, KRANIOPROGRAM",
-  "authority": "Pardubický kraj",
-  "authority_ico": "70892822",
+  "id": "rvz:RVZ2600098105",
+  "source": "profil:nachod",
+  "title": "Informační centrum, mini ZOO v oboře „Zámecký kopec“ v Náchodě",
+  "authority": "Město Náchod",
+  "authority_ico": "00272868",
   "cpv": [
-   "45215120",
-   "45232221"
+   "45000000"
   ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": 290926496.38,
-  "published": "2026-07-16",
+  "nuts": [],
+  "value": null,
+  "published": "2026-05-29",
   "deadline": "2026-09-16T10:00:00",
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00016501",
   "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
   "state": "zahájen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZ",
   "kw_match": false,
   "no_nuts": false,
-  "no_value": false,
+  "no_value": true,
   "expired": false,
-  "profile_url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "dist_km": 43,
+  "dist_km": 37,
   "loc_unknown": false
  },
  {
@@ -128037,6 +128106,39 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2600111066",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Rehabilitační ústav Brandýs nad Orlicí, výstavba nové\nbudovy, KRANIOPROGRAM",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "45215120",
+   "45232221"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 290926496.38,
+  "published": "2026-07-16",
+  "deadline": "2026-10-02T10:00:00",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": false,
+  "profile_url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "dist_km": 43,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600120087",
   "source": "profil:hradec-kralove",
   "title": "Dodávka balistických skrytých vest pro potřebu Městské policie Hradec Králové",
@@ -128058,32 +128160,6 @@
   "no_value": true,
   "expired": false,
   "dist_km": 4,
-  "loc_unknown": false
- },
- {
-  "id": "profil:kr-kralovehradecky:VZ-13103",
-  "source": "profil:kr-kralovehradecky",
-  "title": "BD Hajnice – výstavba a rekonstrukce administrativní a správní budovy",
-  "authority": "Královéhradecký kraj",
-  "authority_ico": "70889546",
-  "cpv": [
-   "45215213"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-09-01",
-  "deadline": "2026-10-05T10:00:00",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 33,
   "loc_unknown": false
  },
  {
@@ -128112,6 +128188,32 @@
   "expired": false,
   "dist_km": null,
   "loc_unknown": true
+ },
+ {
+  "id": "profil:kr-kralovehradecky:VZ-13103",
+  "source": "profil:kr-kralovehradecky",
+  "title": "BD Hajnice – výstavba a rekonstrukce administrativní a správní budovy",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45215213"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-01",
+  "deadline": "2026-10-08T10:00:00",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 33,
+  "loc_unknown": false
  },
  {
   "id": "rvz:RVZ2600107250",

@@ -1,5 +1,42 @@
 [
  {
+  "id": "profil:kr-pardubicky:VZ-6245",
+  "source": "profil:kr-pardubicky",
+  "title": "NPK, a.s., Litomyšlská nemocnice, revitalizace dřevin v areálu nemocnice",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "winner": "Chameleos s.r.o",
+  "winner_ico": "05078075",
+  "awarded": "2026-09-02",
+  "price_contracted": 1399788.75,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 18,
+  "loc_unknown": false,
+  "cpv": [
+   "77211400"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "Chameleos s.r.o",
+    "ico": "05078075",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "pan König René",
+    "ico": "72949562",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39392437"
+ },
+ {
   "id": "rvz:RVZ2600121083",
   "source": "profil:hradec-kralove",
   "title": "Smlouva o poskytování systémové podpory Produktů",
@@ -3141,6 +3178,54 @@
   "kind": "VZ",
   "kw_match": false,
   "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html"
+ },
+ {
+  "id": "profil:pvu:00272809:P26V00004901",
+  "source": "profil:pvu:00272809",
+  "title": "Stavba hřbitovní zdi čsl. hřbitova - pravá část",
+  "authority": "Městys Machov",
+  "authority_ico": "00272809",
+  "winner": "Alprim CZ s.r.o.",
+  "winner_ico": "28811470",
+  "awarded": "2026-07-02",
+  "price_contracted": 1094677.76,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 49,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.vhodne-uverejneni.cz/profil/mestys-machov",
+  "bidders": [
+   {
+    "nazev": "Alprim CZ s.r.o.",
+    "ico": "28811470",
+    "cena": 1094677.76,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Rostislav Dudek",
+    "ico": "48419729",
+    "cena": 1244926.05,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Leoš Pagač",
+    "ico": "74451944",
+    "cena": 766341.85,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Tomáš Kučera",
+    "ico": "87652056",
+    "cena": 1210297.53,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600072613",
@@ -11049,6 +11134,36 @@
   "kind": "VZ",
   "kw_match": false,
   "url": "https://www.vhodne-uverejneni.cz/profil/64811069"
+ },
+ {
+  "id": "profil:pvu:00246018:P26V00005703",
+  "source": "profil:pvu:00246018",
+  "title": "STAVEBNÍ ÚPRAVY MATEŘSKÉ ŠKOLY na p.č. st. 134 a p.č. 1496/1 v k.ú. a obci Netřebice – 2. ETAPA",
+  "authority": "Obec Netřebice",
+  "authority_ico": "00246018",
+  "winner": "EVEN s.r.o. stavební společnost",
+  "winner_ico": "28062841",
+  "awarded": "2026-04-29",
+  "price_contracted": 2398564.46,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 45,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.vhodne-uverejneni.cz/profil/obec-netrebice",
+  "bidders": [
+   {
+    "nazev": "EVEN s.r.o. stavební společnost",
+    "ico": "28062841",
+    "cena": 2398564.46,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600084419",
