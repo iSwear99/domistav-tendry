@@ -114988,6 +114988,41 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00246018:P26V00005710",
+  "source": "profil:pvu:00246018",
+  "title": "Novostavba zázemí víceúčelového hřiště na parc. č. 1501/3 a 1503 v k.ú. Netřebice",
+  "authority": "Obec Netřebice",
+  "authority_ico": "00246018",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-04",
+  "deadline": "2026-04-15T00:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/obec-netrebice",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "POstavPO s.r.o.",
+    "ico": "26024721",
+    "cena": 6614758.8,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 45,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600067071",
   "source": "isvz",
   "nen_id": "",
@@ -120330,6 +120365,46 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2600099419",
+  "source": "profil:pardubice",
+  "title": "Dostihové závodiště – oprava překážek č. 26 a 31",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45212200"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-04",
+  "deadline": "2026-06-16T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017305",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "RONING spol. s r.o.",
+    "ico": "62028405",
+    "cena": 402848.34,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TERESTAV s.r.o.",
+    "ico": "17757002",
+    "cena": 411499.57,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600099367",
   "source": "profil:pardubice",
   "title": "Budova U Josefa 118 – oprava sociálních zařízení",
@@ -120389,46 +120464,6 @@
     "nazev": "DUX staving s.r.o.",
     "ico": "25702408",
     "cena": 4280560.46,
-    "vyloucen": false
-   }
-  ],
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2600099419",
-  "source": "profil:pardubice",
-  "title": "Dostihové závodiště – oprava překážek č. 26 a 31",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45212200"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-06-04",
-  "deadline": "2026-06-16T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017305",
-  "place": "",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "bidders": [
-   {
-    "nazev": "RONING spol. s r.o.",
-    "ico": "62028405",
-    "cena": 402848.34,
-    "vyloucen": false
-   },
-   {
-    "nazev": "TERESTAV s.r.o.",
-    "ico": "17757002",
-    "cena": 411499.57,
     "vyloucen": false
    }
   ],
@@ -127362,7 +127397,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -127559,46 +127594,6 @@
   "profile_url": "https://www.tenderarena.cz/profily/hradeckralove",
   "dist_km": 4,
   "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2600113956",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Útulek pro psy a služebna městské policie  - lokalita Popkovice",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45000000",
-   "45200000",
-   "45311000",
-   "45331000",
-   "45332000",
-   "45351000",
-   "45261000",
-   "09331200",
-   "45233100"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": 107000000.0,
-  "published": "2026-07-31",
-  "deadline": "2026-09-10T10:00:00",
-  "url": "https://www.nen.nipez.cz/profil/pardubice",
-  "place": "",
-  "authority_seat": "Pernštýnské náměstí 1, Pardubice 53002",
-  "authority_profile": "https://www.nen.nipez.cz/profil/pardubice",
-  "state": "Aktivní/Neukončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": false,
-  "dist_km": 19,
-  "loc_unknown": false,
-  "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00024210"
  },
  {
   "id": "rvz:RVZ2600113714",
@@ -127987,30 +127982,44 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600118679",
-  "source": "profil:hradec-kralove",
-  "title": "ZŠ a ZUŠ Habrmanova – nová tělocvična, modernizace a nástavba odborných učeben, bezbariérový výtah",
-  "authority": "Statutární město Hradec Králové",
-  "authority_ico": "00268810",
+  "id": "rvz:RVZ2600113956",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Útulek pro psy a služebna městské policie  - lokalita Popkovice",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
   "cpv": [
-   "45214200"
+   "45000000",
+   "45200000",
+   "45311000",
+   "45331000",
+   "45332000",
+   "45351000",
+   "45261000",
+   "09331200",
+   "45233100"
   ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-08-21",
-  "deadline": "2026-09-24T10:00:00",
-  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 107000000.0,
+  "published": "2026-07-31",
+  "deadline": "2026-09-24T10:20:00",
+  "url": "https://www.nen.nipez.cz/profil/pardubice",
   "place": "",
-  "state": "zahájen",
+  "authority_seat": "Pernštýnské náměstí 1, Pardubice 53002",
+  "authority_profile": "https://www.nen.nipez.cz/profil/pardubice",
+  "state": "Aktivní/Neukončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZ",
   "kw_match": false,
   "no_nuts": false,
-  "no_value": true,
+  "no_value": false,
   "expired": false,
-  "dist_km": 4,
-  "loc_unknown": false
+  "dist_km": 19,
+  "loc_unknown": false,
+  "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00024210"
  },
  {
   "id": "profil:pvu:05427592:P26V00005377",
@@ -128213,6 +128222,32 @@
   "no_value": true,
   "expired": false,
   "dist_km": 33,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600118679",
+  "source": "profil:hradec-kralove",
+  "title": "ZŠ a ZUŠ Habrmanova – nová tělocvična, modernizace a nástavba odborných učeben, bezbariérový výtah",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [
+   "45214200"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-21",
+  "deadline": "2026-10-09T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 4,
   "loc_unknown": false
  },
  {
@@ -203895,40 +203930,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600098523",
-  "source": "profil:pardubice",
-  "title": "OBJ/963/26",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-06-01",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00016757",
-  "place": "",
-  "state": "ukončeno plnění",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "bidders": [
-   {
-    "nazev": "Služby města Pardubic a.s.",
-    "ico": "25262572",
-    "cena": 199144.2,
-    "vyloucen": false
-   }
-  ],
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600098540",
   "source": "profil:pardubice",
   "title": "OBJ/00964/26",
@@ -203952,6 +203953,40 @@
     "nazev": "Služby města Pardubic a.s.",
     "ico": "25262572",
     "cena": 105237.0,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600098523",
+  "source": "profil:pardubice",
+  "title": "OBJ/963/26",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-01",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00016757",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Služby města Pardubic a.s.",
+    "ico": "25262572",
+    "cena": 199144.2,
     "vyloucen": false
    }
   ],

@@ -5766,6 +5766,36 @@
   "url": "https://tenderarena.cz/RSD"
  },
  {
+  "id": "profil:pvu:00246018:P26V00005710",
+  "source": "profil:pvu:00246018",
+  "title": "Novostavba zázemí víceúčelového hřiště na parc. č. 1501/3 a 1503 v k.ú. Netřebice",
+  "authority": "Obec Netřebice",
+  "authority_ico": "00246018",
+  "winner": "POstavPO s.r.o.",
+  "winner_ico": "26024721",
+  "awarded": "2026-06-12",
+  "price_contracted": 6614758.8,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 45,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.vhodne-uverejneni.cz/profil/obec-netrebice",
+  "bidders": [
+   {
+    "nazev": "POstavPO s.r.o.",
+    "ico": "26024721",
+    "cena": 6614758.8,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2600079793",
   "source": "isvz",
   "title": "Dodávka nového vybavení kuchyně pro SOU opravárenské Králíky",

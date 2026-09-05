@@ -1,13 +1,13 @@
 {
- "updated": "2026-09-04T10:34:21+00:00",
+ "updated": "2026-09-05T09:58:48+00:00",
  "counts": {
-  "total": 6434,
+  "total": 6435,
   "vz": 3685,
-  "vzmr": 2749,
-  "active": 36,
-  "changed": 55,
-  "competition": 1257,
-  "previous": 6432
+  "vzmr": 2750,
+  "active": 35,
+  "changed": 56,
+  "competition": 1258,
+  "previous": 6434
  },
  "errors": [
   "pvu: /externi-zakazka/vis-cachovice-oprava-zadni-vjezdove-brany: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/vis-cachovice-oprava-zadni-vjezdove-brany: HTTP Error 401: Unauthorized",
