@@ -127402,6 +127402,53 @@
   "loc_unknown": true
  },
  {
+  "id": "profil:pvu:00640107:P26V00005253",
+  "source": "profil:pvu:00640107",
+  "title": "Oprava MK Třebonín",
+  "authority": "Obec Třebonín",
+  "authority_ico": "00640107",
+  "cpv": [
+   "45233142"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-07",
+  "deadline": "2026-09-07T12:09:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/obec-trebonin",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "bidders": [
+   {
+    "nazev": "VMJ STAVBY Novotný s.r.o.",
+    "ico": "07678452",
+    "cena": 1416002.74,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Komplex CR s.r.o.",
+    "ico": "05249031",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MITOL, s.r.o.",
+    "ico": "26477025",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": true,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 50,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600119797",
   "source": "profil:pardubice",
   "title": "Jana Zajíce 983 – SVČ Beta – výměna výkladců",

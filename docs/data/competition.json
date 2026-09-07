@@ -7691,6 +7691,48 @@
   "registr_url": "https://smlouvy.gov.cz/smlouva/38177861"
  },
  {
+  "id": "profil:pvu:00640107:P26V00005253",
+  "source": "profil:pvu:00640107",
+  "title": "Oprava MK Třebonín",
+  "authority": "Obec Třebonín",
+  "authority_ico": "00640107",
+  "winner": "VMJ STAVBY Novotný s.r.o.",
+  "winner_ico": "07678452",
+  "awarded": "2026-05-29",
+  "price_contracted": 1416002.74,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 50,
+  "loc_unknown": false,
+  "cpv": [
+   "45233142"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://www.vhodne-uverejneni.cz/profil/obec-trebonin",
+  "bidders": [
+   {
+    "nazev": "VMJ STAVBY Novotný s.r.o.",
+    "ico": "07678452",
+    "cena": 1416002.74,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Komplex CR s.r.o.",
+    "ico": "05249031",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MITOL, s.r.o.",
+    "ico": "26477025",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2600098667",
   "source": "isvz",
   "title": "Rekonstrukce  DPS Tržiště č.p. 251 a č. p. 254,  Přibyslav",

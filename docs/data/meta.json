@@ -1,16 +1,13 @@
 {
- "updated": "2026-09-06T10:11:42+00:00",
+ "updated": "2026-09-07T11:24:32+00:00",
  "counts": {
-  "total": 6435,
-  "vz": 3685,
+  "total": 6436,
+  "vz": 3686,
   "vzmr": 2750,
   "active": 35,
   "changed": 56,
-  "competition": 1258,
+  "competition": 1259,
   "previous": 6435
  },
- "errors": [
-  "pvu: /externi-zakazka/vis-cachovice-oprava-zadni-vjezdove-brany: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/vis-cachovice-oprava-zadni-vjezdove-brany: HTTP Error 401: Unauthorized",
-  "pvu: /externi-zakazka/vis-cachovice-vypracovani-pd-oprava-povrchu-vjezdu-a-casti-komunikace-vcetne-venkovniho-parkoviste: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/vis-cachovice-vypracovani-pd-oprava-povrchu-vjezdu-a-casti-komunikace-vcetne-venkovniho-parkoviste: HTTP Error 401: Unauthorized"
- ]
+ "errors": []
 }

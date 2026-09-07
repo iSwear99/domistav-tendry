@@ -1,8 +1,8 @@
 {
  "meta": {
-  "updated": "2026-09-06T10:11:43+00:00",
+  "updated": "2026-09-07T11:24:38+00:00",
   "zd": 477,
-  "zpravy": 1258,
+  "zpravy": 1259,
   "novych": 0,
   "errors": []
  },
@@ -5286,6 +5286,9 @@
    "nenalezeno": true
   },
   "profil:pvu:00246018:P26V00005710": {
+   "nenalezeno": true
+  },
+  "profil:pvu:00640107:P26V00005253": {
    "nenalezeno": true
   }
  }
