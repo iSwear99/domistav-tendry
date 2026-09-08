@@ -116084,6 +116084,53 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00277908:P26V00003849",
+  "source": "profil:pvu:00277908",
+  "title": "Stavební úpravy bytu v 2. NP, Hostinné čp. 24",
+  "authority": "Město Hostinné",
+  "authority_ico": "00277908",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-10",
+  "deadline": "2026-04-27T12:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/mesto-hostinne",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Kalin, spol. s r.o.",
+    "ico": "25607782",
+    "cena": 1956433.8,
+    "vyloucen": false
+   },
+   {
+    "nazev": "B.C.M. company s.r.o.",
+    "ico": "07890869",
+    "cena": 2457981.21,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stavební společnost s.r.o. Hostinné",
+    "ico": "13585240",
+    "cena": 2223482.0,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 38,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600074174",
   "source": "isvz",
   "nen_id": "",
@@ -118440,7 +118487,57 @@
   "expired": true,
   "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00010007",
   "dist_km": 19,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "bidders": [
+   {
+    "nazev": "Realitní a stavební společnost s.r.o.",
+    "ico": "41432037",
+    "cena": 17280672.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
+    "ico": "46504621",
+    "cena": 12880000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KERSON spol. s r.o.",
+    "ico": "45536040",
+    "cena": 15579812.34,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STAKVO s.r.o.",
+    "ico": "27472221",
+    "cena": 16233098.2,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STAVBY VAHALA s.r.o.",
+    "ico": "06803148",
+    "cena": 16233098.2,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STAKVO s.r.o.",
+    "ico": "27472221",
+    "cena": 12666917.05,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STAVBY VAHALA s.r.o.",
+    "ico": "06803148",
+    "cena": 12666917.05,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TeS, spol. s r. o. Chotěboř",
+    "ico": "60934395",
+    "cena": 10931481.17,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600078147",
@@ -121167,10 +121264,18 @@
   "deadline": "2026-06-22T12:15:00",
   "url": "https://zakazky.trutnov.cz/profile_display_2.html",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "GOS cz s.r.o.",
+    "ico": "28812191",
+    "cena": 4545383.15,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -125591,10 +125696,30 @@
   "deadline": "2026-08-14T10:00:00",
   "url": "https://zakazky.trutnov.cz/profile_display_2.html",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "INFRASTAV s.r.o.",
+    "ico": "27511677",
+    "cena": 2994112.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "POPAS CZ, s.r.o.",
+    "ico": "27517233",
+    "cena": 2571140.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "RSU servis s.r.o.",
+    "ico": "27539407",
+    "cena": 2888942.0,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -126525,6 +126650,33 @@
   "expired": true,
   "dist_km": 34,
   "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:72069899:P26V00005758",
+  "source": "profil:pvu:72069899",
+  "title": "Úprava povrchu školní zahrady",
+  "authority": "Mateřské školy Čeladná, příspěvková organizace",
+  "authority_ico": "72069899",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-08",
+  "deadline": "2026-08-24T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/materska-skola-celadenska-beruska-prispevkova-organizace",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true
  },
  {
   "id": "profil:chrudim:VZ-511",
@@ -127579,6 +127731,33 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00273431:P26V00005755",
+  "source": "profil:pvu:00273431",
+  "title": "„Rekonstrukce RD Býšť čp. 119“",
+  "authority": "Obec Býšť",
+  "authority_ico": "00273431",
+  "cpv": [
+   "45454100"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-08",
+  "deadline": "2026-09-08T10:59:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00273431",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 12,
+  "loc_unknown": false
+ },
+ {
   "id": "profil:pvu:49314645:P26V00005567",
   "source": "profil:pvu:49314645",
   "title": "Gymnázium Vysoké Mýto - rekonstrukce třídy, podlahy, omítky – II, opakované řízení",
@@ -128162,6 +128341,32 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:kr-pardubicky:VZ-6407",
+  "source": "profil:kr-pardubicky",
+  "title": "Centrum následné péče Rybitví – přístavba evakuačního výtahu",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-08",
+  "deadline": "2026-09-30T10:00:00",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 17,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600111066",
   "source": "isvz",
   "nen_id": "",
@@ -128272,32 +128477,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600118679",
-  "source": "profil:hradec-kralove",
-  "title": "ZŠ a ZUŠ Habrmanova – nová tělocvična, modernizace a nástavba odborných učeben, bezbariérový výtah",
-  "authority": "Statutární město Hradec Králové",
-  "authority_ico": "00268810",
-  "cpv": [
-   "45214200"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-08-21",
-  "deadline": "2026-10-09T10:00:00",
-  "url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 4,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600107250",
   "source": "isvz",
   "nen_id": "",
@@ -128326,6 +128505,32 @@
   "no_value": false,
   "expired": false,
   "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600118679",
+  "source": "profil:hradec-kralove",
+  "title": "ZŠ a ZUŠ Habrmanova – nová tělocvična, modernizace a nástavba odborných učeben, bezbariérový výtah",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [
+   "45214200"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-21",
+  "deadline": "2026-10-16T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 4,
   "loc_unknown": false
  },
  {

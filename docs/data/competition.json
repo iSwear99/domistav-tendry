@@ -1,5 +1,79 @@
 [
  {
+  "id": "profil:trutnov:VZ-1852",
+  "source": "profil:trutnov",
+  "title": "Oprava střešního pláště - Rudolfa Frimla 934, Trutnov",
+  "authority": "Město Trutnov",
+  "authority_ico": "00278360",
+  "winner": "POPAS CZ, s.r.o.",
+  "winner_ico": "27517233",
+  "awarded": "2026-09-04",
+  "price_contracted": 2571140.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "cpv": [
+   "45261210"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://zakazky.trutnov.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "INFRASTAV s.r.o.",
+    "ico": "27511677",
+    "cena": 2994112.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "POPAS CZ, s.r.o.",
+    "ico": "27517233",
+    "cena": 2571140.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "RSU servis s.r.o.",
+    "ico": "27539407",
+    "cena": 2888942.0,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39415961"
+ },
+ {
+  "id": "profil:trutnov:VZ-1820",
+  "source": "profil:trutnov",
+  "title": "Výměna střešní krytiny vybraných jižních střech ZŠ Komenského 399, Trutnov - II",
+  "authority": "Město Trutnov",
+  "authority_ico": "00278360",
+  "winner": "GOS cz s.r.o.",
+  "winner_ico": "28812191",
+  "awarded": "2026-09-03",
+  "price_contracted": 4545383.15,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "cpv": [
+   "45261900"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://zakazky.trutnov.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "GOS cz s.r.o.",
+    "ico": "28812191",
+    "cena": 4545383.15,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39411453"
+ },
+ {
   "id": "profil:kr-pardubicky:VZ-6245",
   "source": "profil:kr-pardubicky",
   "title": "NPK, a.s., Litomyšlská nemocnice, revitalizace dřevin v areálu nemocnice",
@@ -876,6 +950,79 @@
   "kind": "VZ",
   "kw_match": false,
   "url": "https://nen.nipez.cz/Profil/fokusvysocina"
+ },
+ {
+  "id": "rvz:RVZ2600078212",
+  "source": "profil:pardubice",
+  "title": "ZŠ Gorkého (Waldorfská) - rekonstrukce kuchyně",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
+  "winner_ico": "46504621",
+  "awarded": "2026-07-27",
+  "price_contracted": 12880000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45212500",
+   "39221000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00010007",
+  "bidders": [
+   {
+    "nazev": "Realitní a stavební společnost s.r.o.",
+    "ico": "41432037",
+    "cena": 17280672.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
+    "ico": "46504621",
+    "cena": 12880000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KERSON spol. s r.o.",
+    "ico": "45536040",
+    "cena": 15579812.34,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STAKVO s.r.o.",
+    "ico": "27472221",
+    "cena": 16233098.2,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STAVBY VAHALA s.r.o.",
+    "ico": "06803148",
+    "cena": 16233098.2,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STAKVO s.r.o.",
+    "ico": "27472221",
+    "cena": 12666917.05,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STAVBY VAHALA s.r.o.",
+    "ico": "06803148",
+    "cena": 12666917.05,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TeS, spol. s r. o. Chotěboř",
+    "ico": "60934395",
+    "cena": 10931481.17,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600099367",
@@ -6529,6 +6676,48 @@
   "kind": "VZMR",
   "kw_match": false,
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00021238"
+ },
+ {
+  "id": "profil:pvu:00277908:P26V00003849",
+  "source": "profil:pvu:00277908",
+  "title": "Stavební úpravy bytu v 2. NP, Hostinné čp. 24",
+  "authority": "Město Hostinné",
+  "authority_ico": "00277908",
+  "winner": "Kalin, spol. s r.o.",
+  "winner_ico": "25607782",
+  "awarded": "2026-06-08",
+  "price_contracted": 1956433.8,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 38,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.vhodne-uverejneni.cz/profil/mesto-hostinne",
+  "bidders": [
+   {
+    "nazev": "Kalin, spol. s r.o.",
+    "ico": "25607782",
+    "cena": 1956433.8,
+    "vyloucen": false
+   },
+   {
+    "nazev": "B.C.M. company s.r.o.",
+    "ico": "07890869",
+    "cena": 2457981.21,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stavební společnost s.r.o. Hostinné",
+    "ico": "13585240",
+    "cena": 2223482.0,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600081651",
