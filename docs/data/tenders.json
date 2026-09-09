@@ -98251,7 +98251,28 @@
   "no_value": false,
   "expired": true,
   "dist_km": 19,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "bidders": [
+   {
+    "nazev": "SL HOLDING CZ s.r.o.",
+    "ico": "28823001",
+    "cena": 40714187.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stavby-Eda s.r.o.",
+    "ico": "08600813",
+    "cena": 42726592.48,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STAFI FINALIZACE STAVEB s.r.o.",
+    "ico": "25968203",
+    "cena": 51181156.03,
+    "vyloucen": false
+   }
+  ],
+  "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00021152"
  },
  {
   "id": "rvz:RVZ2500118904",
@@ -127132,6 +127153,33 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00271551:P26V00005775",
+  "source": "profil:pvu:00271551",
+  "title": "Chodovice, lokalita hřbitov - veřejné osvětlení",
+  "authority": "Obec Holovousy",
+  "authority_ico": "00271551",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-08",
+  "deadline": "2026-08-31T09:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/obec-holovousy",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 25,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600109511",
   "source": "isvz",
   "nen_id": "",
@@ -127622,7 +127670,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
   "loc_unknown": false
  },
@@ -127648,7 +127696,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
   "loc_unknown": false
  },
@@ -127674,7 +127722,7 @@
   "kw_match": true,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 43,
   "loc_unknown": false
  },
@@ -127700,7 +127748,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
   "loc_unknown": false
  },
@@ -127726,7 +127774,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
   "loc_unknown": false
  },
@@ -127780,8 +127828,35 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 39,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00276529:P26V00005772",
+  "source": "profil:pvu:00276529",
+  "title": "REKONSTRUKCE A MODERNIZACE ZŠ BYSTRÉ",
+  "authority": "Město Bystré",
+  "authority_ico": "00276529",
+  "cpv": [
+   "72710000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-08",
+  "deadline": "2026-09-08T15:19:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00276529",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": true,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 36,
   "loc_unknown": false
  },
  {
@@ -128128,6 +128203,32 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2600165514",
+  "source": "profil:pardubice",
+  "title": "BD Rokycanova 2654 - sanace terasy",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45211100"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-09",
+  "deadline": "2026-09-20T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00029002",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
   "id": "profil:pvu:04387163:P26V00005655",
   "source": "profil:pvu:04387163",
   "title": "Smraďavka - Lázně Leopoldov, Stabilizace havarijního stavu sesuvu II. etapa",
@@ -128275,6 +128376,33 @@
   "loc_unknown": true
  },
  {
+  "id": "profil:pvu:63907992:P26V00005793",
+  "source": "profil:pvu:63907992",
+  "title": "Rozšíření skládky odpadů Bukovsko – 5. etapa – 1. část",
+  "authority": "Technické služby Kaplice spol. s r.o.",
+  "authority_ico": "63907992",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-09",
+  "deadline": "2026-09-25T23:59:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/63907992",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": null,
+  "loc_unknown": true
+ },
+ {
   "id": "profil:pvu:00257125:P26V00005560",
   "source": "profil:pvu:00257125",
   "title": "Změna stavby domu s pečovatelskou službou na adrese Máchova 556, 334 01 Přeštice, umístěná na pozemcích st. 554, p.č. 400/2 a 400/15 v k.ú. Přeštice, spočívající v částečném odstranění, stavebních úpravách a přístavbě",
@@ -128367,39 +128495,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600111066",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Rehabilitační ústav Brandýs nad Orlicí, výstavba nové\nbudovy, KRANIOPROGRAM",
-  "authority": "Pardubický kraj",
-  "authority_ico": "70892822",
-  "cpv": [
-   "45215120",
-   "45232221"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": 290926496.38,
-  "published": "2026-07-16",
-  "deadline": "2026-10-02T10:00:00",
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": false,
-  "profile_url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "dist_km": 43,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600120087",
   "source": "profil:hradec-kralove",
   "title": "Dodávka balistických skrytých vest pro potřebu Městské policie Hradec Králové",
@@ -128449,6 +128544,39 @@
   "expired": false,
   "dist_km": null,
   "loc_unknown": true
+ },
+ {
+  "id": "rvz:RVZ2600111066",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Rehabilitační ústav Brandýs nad Orlicí, výstavba nové\nbudovy, KRANIOPROGRAM",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "45215120",
+   "45232221"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 290926496.38,
+  "published": "2026-07-16",
+  "deadline": "2026-10-08T10:00:00",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": false,
+  "profile_url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "dist_km": 43,
+  "loc_unknown": false
  },
  {
   "id": "profil:kr-kralovehradecky:VZ-13103",
@@ -203800,6 +203928,40 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2600084454",
+  "source": "profil:pardubice",
+  "title": "OBJ_00761_26",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-05-05",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00012707",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Služby města Pardubic a.s.",
+    "ico": "25262572",
+    "cena": 521445.4,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600085216",
   "source": "isvz",
   "nen_id": "N006/26/V00013262",
@@ -203886,40 +204048,6 @@
   "no_value": true,
   "expired": true,
   "dist_km": 18,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2600084454",
-  "source": "profil:pardubice",
-  "title": "OBJ_00761_26",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-05-05",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00012707",
-  "place": "",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "bidders": [
-   {
-    "nazev": "Služby města Pardubic a.s.",
-    "ico": "25262572",
-    "cena": 521445.4,
-    "vyloucen": false
-   }
-  ],
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
   "loc_unknown": false
  },
  {
@@ -205082,6 +205210,32 @@
   "no_value": true,
   "expired": true,
   "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600159449",
+  "source": "profil:pardubice",
+  "title": "OBJ/974/26",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45220000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-08",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00028899",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
   "loc_unknown": false
  }
 ]

@@ -11987,7 +11987,7 @@
  },
  {
   "id": "rvz:RVZ2600084454",
-  "source": "isvz",
+  "source": "profil:pardubice",
   "title": "OBJ_00761_26",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
@@ -12005,7 +12005,16 @@
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00012707"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00012707",
+  "bidders": [
+   {
+    "nazev": "Služby města Pardubic a.s.",
+    "ico": "25262572",
+    "cena": 521445.4,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/37710869"
  },
  {
   "id": "rvz:RVZ2600084886",
@@ -24477,7 +24486,7 @@
  },
  {
   "id": "rvz:RVZ2500214454",
-  "source": "isvz",
+  "source": "profil:pardubice",
   "title": "Revitalizace Brány borců",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
@@ -24486,7 +24495,7 @@
   "awarded": "2025-10-31",
   "price_contracted": 40714187.0,
   "estimated": false,
-  "price_paid": 0.0,
+  "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
   "loc_unknown": false,
@@ -24495,7 +24504,27 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00021152"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00021152",
+  "bidders": [
+   {
+    "nazev": "SL HOLDING CZ s.r.o.",
+    "ico": "28823001",
+    "cena": 40714187.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stavby-Eda s.r.o.",
+    "ico": "08600813",
+    "cena": 42726592.48,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STAFI FINALIZACE STAVEB s.r.o.",
+    "ico": "25968203",
+    "cena": 51181156.03,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2500092433",

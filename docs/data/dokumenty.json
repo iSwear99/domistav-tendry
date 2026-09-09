@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "2026-09-08T10:33:55+00:00",
-  "zd": 478,
+  "updated": "2026-09-09T10:45:29+00:00",
+  "zd": 480,
   "zpravy": 1263,
   "novych": 1,
   "errors": []
@@ -1483,6 +1483,12 @@
   },
   "profil:kr-pardubicky:VZ-6407": {
    "doc_url": "https://zakazky.pardubickykraj.cz/document_download_61781.html"
+  },
+  "rvz:RVZ2600165514": {
+   "nenalezeno": true
+  },
+  "profil:pvu:63907992:P26V00005793": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3905802"
   }
  },
  "zpravy": {
