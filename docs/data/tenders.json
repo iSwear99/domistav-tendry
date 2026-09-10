@@ -110112,6 +110112,53 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00579190:P26V00005807",
+  "source": "profil:pvu:00579190",
+  "title": "Krchleby – revitalizace veřejných prostranství I. etapa a II. etapa",
+  "authority": "Obec Krchleby",
+  "authority_ico": "00579190",
+  "cpv": [
+   "45233000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-09",
+  "deadline": "2026-02-24T15:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/obec-krchleby",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "RIMA s.r.o.",
+    "ico": "27493431",
+    "cena": 6022775.69,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stavitelství EU s.r.o.",
+    "ico": "27521711",
+    "cena": 3925936.73,
+    "vyloucen": false
+   },
+   {
+    "nazev": "R E M I N G , s. r. o.",
+    "ico": "47454687",
+    "cena": 4506698.0,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": true,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 35,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600052094",
   "source": "isvz",
   "nen_id": "N006/26/V00002527",
@@ -120483,46 +120530,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600099419",
-  "source": "profil:pardubice",
-  "title": "Dostihové závodiště – oprava překážek č. 26 a 31",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45212200"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-06-04",
-  "deadline": "2026-06-16T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017305",
-  "place": "",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "bidders": [
-   {
-    "nazev": "RONING spol. s r.o.",
-    "ico": "62028405",
-    "cena": 402848.34,
-    "vyloucen": false
-   },
-   {
-    "nazev": "TERESTAV s.r.o.",
-    "ico": "17757002",
-    "cena": 411499.57,
-    "vyloucen": false
-   }
-  ],
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600099367",
   "source": "profil:pardubice",
   "title": "Budova U Josefa 118 – oprava sociálních zařízení",
@@ -120582,6 +120589,46 @@
     "nazev": "DUX staving s.r.o.",
     "ico": "25702408",
     "cena": 4280560.46,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600099419",
+  "source": "profil:pardubice",
+  "title": "Dostihové závodiště – oprava překážek č. 26 a 31",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45212200"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-04",
+  "deadline": "2026-06-16T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017305",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "RONING spol. s r.o.",
+    "ico": "62028405",
+    "cena": 402848.34,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TERESTAV s.r.o.",
+    "ico": "17757002",
+    "cena": 411499.57,
     "vyloucen": false
    }
   ],
@@ -127891,7 +127938,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "profile_url": "https://www.tenderarena.cz/profily/hradeckralove",
   "dist_km": 4,
   "loc_unknown": false
@@ -128227,6 +128274,85 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600165627",
+  "source": "profil:pardubice",
+  "title": "Dostihové závodiště – úprava a přesun chlazení",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45310000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-09",
+  "deadline": "2026-09-21T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00029085",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600165614",
+  "source": "profil:pardubice",
+  "title": "Dostihové závodiště – výměna koberců",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45432130"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-09",
+  "deadline": "2026-09-21T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00029074",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:25911368:P26V00005802",
+  "source": "profil:pvu:25911368",
+  "title": "Uzavřená výzva k podání nabídek na retoping",
+  "authority": "VÍTKOVICE ARÉNA, a.s.",
+  "authority_ico": "25911368",
+  "cpv": [
+   "45212200"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-09",
+  "deadline": "2026-09-21T09:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/vitkovice-arena-a-s",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": null,
+  "loc_unknown": true
  },
  {
   "id": "profil:pvu:04387163:P26V00005655",
@@ -128647,7 +128773,7 @@
   "nuts": [],
   "value": null,
   "published": "2026-08-21",
-  "deadline": "2026-10-16T10:00:00",
+  "deadline": "2026-10-22T10:00:00",
   "url": "https://www.tenderarena.cz/profily/hradeckralove",
   "place": "",
   "state": "zahájen",
@@ -204310,40 +204436,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600098540",
-  "source": "profil:pardubice",
-  "title": "OBJ/00964/26",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-06-01",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00016769",
-  "place": "",
-  "state": "ukončeno plnění",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "bidders": [
-   {
-    "nazev": "Služby města Pardubic a.s.",
-    "ico": "25262572",
-    "cena": 105237.0,
-    "vyloucen": false
-   }
-  ],
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600098523",
   "source": "profil:pardubice",
   "title": "OBJ/963/26",
@@ -204367,6 +204459,40 @@
     "nazev": "Služby města Pardubic a.s.",
     "ico": "25262572",
     "cena": 199144.2,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600098540",
+  "source": "profil:pardubice",
+  "title": "OBJ/00964/26",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-01",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00016769",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Služby města Pardubic a.s.",
+    "ico": "25262572",
+    "cena": 105237.0,
     "vyloucen": false
    }
   ],
@@ -205236,6 +205362,33 @@
   "no_value": true,
   "expired": true,
   "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00415227:P26V00005816",
+  "source": "profil:pvu:00415227",
+  "title": "Rekonstrukce strojoven výtahů bytového domu na ulici Nad Terasou 14,16,18, Havířov–Podlesí",
+  "authority": "Stavební bytové družstvo Havířov",
+  "authority_ico": "00415227",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-10",
+  "deadline": "",
+  "url": "https://www.vhodne-uverejneni.cz/profil/stavebni-bytove-druzstvo-havirov",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 42,
   "loc_unknown": false
  }
 ]

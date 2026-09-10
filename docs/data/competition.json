@@ -13230,6 +13230,48 @@
   "registr_url": "https://smlouvy.gov.cz/smlouva/37563045"
  },
  {
+  "id": "profil:pvu:00579190:P26V00005807",
+  "source": "profil:pvu:00579190",
+  "title": "Krchleby – revitalizace veřejných prostranství I. etapa a II. etapa",
+  "authority": "Obec Krchleby",
+  "authority_ico": "00579190",
+  "winner": "Stavitelství EU s.r.o.",
+  "winner_ico": "27521711",
+  "awarded": "2026-04-13",
+  "price_contracted": 3925936.73,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 35,
+  "loc_unknown": false,
+  "cpv": [
+   "45233000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://www.vhodne-uverejneni.cz/profil/obec-krchleby",
+  "bidders": [
+   {
+    "nazev": "RIMA s.r.o.",
+    "ico": "27493431",
+    "cena": 6022775.69,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stavitelství EU s.r.o.",
+    "ico": "27521711",
+    "cena": 3925936.73,
+    "vyloucen": false
+   },
+   {
+    "nazev": "R E M I N G , s. r. o.",
+    "ico": "47454687",
+    "cena": 4506698.0,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2500082060",
   "source": "isvz",
   "title": "ZBV 1 ZL 3 D35 Opatovice - Časy, III/32271 křiž. III/32273 - Městec, oprava návozových tras",
