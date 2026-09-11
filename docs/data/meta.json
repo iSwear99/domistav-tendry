@@ -1,15 +1,20 @@
 {
- "updated": "2026-09-10T10:29:58+00:00",
+ "updated": "2026-09-11T11:05:04+00:00",
  "counts": {
-  "total": 6450,
-  "vz": 3688,
+  "total": 6451,
+  "vz": 3689,
   "vzmr": 2762,
-  "active": 35,
+  "active": 33,
   "changed": 56,
   "competition": 1264,
-  "previous": 6445
+  "previous": 6450
  },
  "errors": [
-  "pvu: /externi-zakazka/polora-servis-a-revize-plynovych-zarizeni-a-upraven-vody: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/polora-servis-a-revize-plynovych-zarizeni-a-upraven-vody: HTTP Error 401: Unauthorized"
+  "profil:dobruska: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274879/XMLdataVZ?od=13062026&do=11092026: <urlopen error timed out>",
+  "profil:prelouc: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274101/XMLdataVZ?od=13062026&do=11092026: <urlopen error timed out>",
+  "profil:hronov: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00272680/XMLdataVZ?od=13062026&do=11092026: <urlopen error timed out>",
+  "profil:vamberk: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00275492/XMLdataVZ?od=13062026&do=11092026: <urlopen error timed out>",
+  "profil:lodin: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/obec-lodin/XMLdataVZ?od=13062026&do=11092026: <urlopen error timed out>",
+  "pvu: RSS nedostupné: Stažení selhalo: https://www.vhodne-uverejneni.cz/rss/zakazky: <urlopen error timed out>"
  ]
 }

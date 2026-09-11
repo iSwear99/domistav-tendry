@@ -86277,6 +86277,46 @@
   "loc_unknown": true
  },
  {
+  "id": "profil:kr-kralovehradecky:VZ-11554",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Nemocnice Rychnov nad Kněžnou – rekonstrukce gastro provozu – stavební práce – ZD/18/425",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2025-02-13",
+  "deadline": "2025-03-12T10:00:00",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "bidders": [
+   {
+    "nazev": "CE-ING s.r.o.",
+    "ico": "04475631",
+    "cena": 15907056.08,
+    "vyloucen": true
+   },
+   {
+    "nazev": "PS - STAV Náchod s.r.o.",
+    "ico": "28858531",
+    "cena": 14569010.31,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 36,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2500091161",
   "source": "isvz",
   "nen_id": "",
@@ -127973,7 +128013,7 @@
   "kw_match": true,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
   "loc_unknown": false,
   "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00024209"
@@ -128001,7 +128041,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -128969,6 +129009,39 @@
   "dist_km": 24,
   "loc_unknown": false,
   "auto_expired": "2026-08-15",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500090481",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Nemocnice Rychnov nad Kněžnou – rekonstrukce gastro provozu – stavební práce – ZD/18/425",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 17649013.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "Nemocnice Rychnov nad Kněžnou, Jiráskova 506, 516 23 Rychnov nad Kněžnou",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
   "no_activity": true
  },
  {
@@ -155433,39 +155506,6 @@
   "no_value": true,
   "expired": true,
   "dist_km": 12,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500090481",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Nemocnice Rychnov nad Kněžnou – rekonstrukce gastro provozu – stavební práce – ZD/18/425",
-  "authority": "Královéhradecký kraj",
-  "authority_ico": "70889546",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 17649013.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "place": "Nemocnice Rychnov nad Kněžnou, Jiráskova 506, 516 23 Rychnov nad Kněžnou",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 36,
   "loc_unknown": false,
   "auto_expired": "2026-07-31",
   "no_activity": true
