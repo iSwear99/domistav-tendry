@@ -128067,7 +128067,7 @@
   "kw_match": true,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 25,
   "loc_unknown": false
  },
@@ -128813,7 +128813,7 @@
   "nuts": [],
   "value": null,
   "published": "2026-08-21",
-  "deadline": "2026-10-22T10:00:00",
+  "deadline": "2026-10-30T10:00:00",
   "url": "https://www.tenderarena.cz/profily/hradeckralove",
   "place": "",
   "state": "zahájen",
