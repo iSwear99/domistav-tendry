@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T10:33:58+00:00",
+ "updated": "2026-09-13T11:34:05+00:00",
  "counts": {
   "total": 6451,
   "vz": 3689,
@@ -10,11 +10,11 @@
   "previous": 6451
  },
  "errors": [
-  "profil:dobruska: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274879/XMLdataVZ?od=14062026&do=12092026: <urlopen error timed out>",
-  "profil:prelouc: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274101/XMLdataVZ?od=14062026&do=12092026: <urlopen error timed out>",
-  "profil:hronov: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00272680/XMLdataVZ?od=14062026&do=12092026: <urlopen error timed out>",
-  "profil:vamberk: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00275492/XMLdataVZ?od=14062026&do=12092026: <urlopen error timed out>",
-  "profil:lodin: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/obec-lodin/XMLdataVZ?od=14062026&do=12092026: <urlopen error timed out>",
+  "profil:dobruska: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274879/XMLdataVZ?od=15062026&do=13092026: <urlopen error timed out>",
+  "profil:prelouc: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274101/XMLdataVZ?od=15062026&do=13092026: <urlopen error timed out>",
+  "profil:hronov: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00272680/XMLdataVZ?od=15062026&do=13092026: <urlopen error timed out>",
+  "profil:vamberk: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00275492/XMLdataVZ?od=15062026&do=13092026: <urlopen error timed out>",
+  "profil:lodin: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/obec-lodin/XMLdataVZ?od=15062026&do=13092026: <urlopen error timed out>",
   "pvu: RSS nedostupné: Stažení selhalo: https://www.vhodne-uverejneni.cz/rss/zakazky: <urlopen error timed out>"
  ]
 }
