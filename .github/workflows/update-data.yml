@@ -22,7 +22,11 @@ jobs:
     runs-on: self-hosted
     defaults:
       run:
-        shell: powershell
+        # -ExecutionPolicy Bypass: Windows update 9/2026 vrátil ExecutionPolicy
+        # na Restricted a runner pak padal na „running scripts is disabled"
+        # hned v prvním kroku. Bypass platí jen pro tyto kroky (žádná změna
+        # nastavení systému) a přežije i další reset politiky.
+        shell: powershell -ExecutionPolicy Bypass -Command ". '{0}'"
     steps:
       # Dva crony (6:00 a 7:00 UTC) kryjí letní/zimní čas. Rozhoduje se
       # podle toho, KTERÝ cron běh vyvolal — ne podle aktuální hodiny:

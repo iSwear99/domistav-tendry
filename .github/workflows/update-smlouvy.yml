@@ -22,7 +22,9 @@ jobs:
     runs-on: self-hosted
     defaults:
       run:
-        shell: powershell
+        # Bypass kvůli resetu ExecutionPolicy Windows updatem — viz
+        # update-data.yml; jen pro tyto kroky, systém se nemění.
+        shell: powershell -ExecutionPolicy Bypass -Command ". '{0}'"
     steps:
       - uses: actions/checkout@v4
 
