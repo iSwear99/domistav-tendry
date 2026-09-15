@@ -62793,28 +62793,31 @@
  },
  {
   "id": "rvz:RVZ2400001161",
-  "source": "isvz",
-  "nen_id": "N006/24/V00009178",
+  "source": "profil:pardubice",
   "title": "Rámcová smlouva o dílo - servis a opravy STA",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
   "cpv": [
    "50711000"
   ],
-  "nuts": [
-   "CZ053"
-  ],
+  "nuts": [],
   "value": null,
   "published": "2024-04-03",
   "deadline": "2024-04-15T09:00:00",
-  "url": "https://nen.nipez.cz/Zadavaci_postup/N006-24-V00009178",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-24-V00009178",
   "place": "",
-  "authority_seat": "Pernštýnské náměstí 1, Pardubice 53002",
-  "authority_profile": "https://nen.nipez.cz/profil/pardubice",
-  "state": "Dokončen/Zadán",
+  "state": "ukončeno plnění",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "BDT tech s.r.o.",
+    "ico": "09613510",
+    "cena": 67510.0,
+    "vyloucen": false
+   }
+  ],
   "kw_match": true,
   "no_nuts": false,
   "no_value": true,
@@ -90103,28 +90106,55 @@
  },
  {
   "id": "rvz:RVZ2500116287",
-  "source": "isvz",
-  "nen_id": "N006/25/V00012923",
+  "source": "profil:pardubice",
   "title": "Oprava 4 volných bytových jednotek",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
   "cpv": [
    "45211000"
   ],
-  "nuts": [
-   "CZ053"
-  ],
+  "nuts": [],
   "value": null,
   "published": "2025-04-22",
   "deadline": "2025-05-06T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00012923",
   "place": "",
-  "authority_seat": "Pernštýnské náměstí 1, Pardubice 53002",
-  "authority_profile": "https://nen.nipez.cz/profil/pardubice",
-  "state": "Dokončen/Zadán",
+  "state": "ukončeno plnění",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "INVEST STAV GROUP s.r.o.",
+    "ico": "08880506",
+    "cena": 2817556.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Kurštejn stavební a obchodní firma s.r.o.",
+    "ico": "28762576",
+    "cena": 2748887.66,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PS HOME STAR s.r.o.",
+    "ico": "03221466",
+    "cena": 2557331.52,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Navara Pardubice s.r.o.",
+    "ico": "28854420",
+    "cena": 2095921.04,
+    "vyloucen": false
+   },
+   {
+    "nazev": "OTISTAV s.r.o.",
+    "ico": "24832898",
+    "cena": 1677777.0,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -102572,28 +102602,61 @@
  },
  {
   "id": "rvz:RVZ2500214432",
-  "source": "isvz",
-  "nen_id": "N006/25/V00032555",
+  "source": "profil:pardubice",
   "title": "Oprava 6 volných bytových jednotek",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
   "cpv": [
    "45211000"
   ],
-  "nuts": [
-   "CZ053"
-  ],
+  "nuts": [],
   "value": null,
   "published": "2025-09-29",
   "deadline": "2025-10-10T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00032555",
   "place": "",
-  "authority_seat": "Pernštýnské náměstí 1, Pardubice 53002",
-  "authority_profile": "https://nen.nipez.cz/profil/pardubice",
-  "state": "Dokončen/Zadán",
+  "state": "ukončeno plnění",
   "site_visit": "",
-  "clarifications": 1,
+  "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "OTISTAV s.r.o.",
+    "ico": "24832898",
+    "cena": 3265555.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stavrecon Pardubice s.r.o.",
+    "ico": "05925801",
+    "cena": 3666666.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ASJ s.r.o.",
+    "ico": "25281861",
+    "cena": 4001035.35,
+    "vyloucen": false
+   },
+   {
+    "nazev": "V.P.N., spol. s r. o.",
+    "ico": "25947281",
+    "cena": 4679210.8,
+    "vyloucen": false
+   },
+   {
+    "nazev": "RK stavební Pardubice s.r.o.",
+    "ico": "21321566",
+    "cena": 3289627.8,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ELITSTAV s.r.o.",
+    "ico": "06552226",
+    "cena": 2904500.0,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -102635,28 +102698,31 @@
  },
  {
   "id": "rvz:RVZ2500215595",
-  "source": "isvz",
-  "nen_id": "N006/25/V00032435",
+  "source": "profil:pardubice",
   "title": "Rekonstrukce zastávek MHD - Blahoutova, směr do města a směr z města – realizace",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
   "cpv": [
    "45233100"
   ],
-  "nuts": [
-   "CZ053"
-  ],
+  "nuts": [],
   "value": null,
   "published": "2025-09-26",
   "deadline": "2025-10-13T00:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00032435",
   "place": "",
-  "authority_seat": "Pernštýnské náměstí 1, Pardubice 53002",
-  "authority_profile": "https://nen.nipez.cz/profil/pardubice",
-  "state": "Dokončen/Zadán",
+  "state": "ukončeno plnění",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "MIROS Pardubice a.s.",
+    "ico": "27523934",
+    "cena": 2722500.88,
+    "vyloucen": false
+   }
+  ],
   "kw_match": true,
   "no_nuts": false,
   "no_value": true,
@@ -103423,7 +103489,7 @@
   "place": "Obecným místem plnění je Královéhradecký kraj. Místem plnění veřejné zakázky je areál \nOblastní nemocnice Náchod a.s., parc. č.: 1005/6, 935/1, 944/3, 1004/3, st. 3570 – vše v \nkatastrálním území Náchod, obce Náchod, a případně další pozemky dotčené stavbou dle \nprojektové dokumentace.",
   "authority_seat": "",
   "authority_profile": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "state": "",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZ",
@@ -103432,7 +103498,40 @@
   "no_value": false,
   "expired": true,
   "dist_km": 37,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "bidders": [
+   {
+    "nazev": "KERSON spol. s r.o.",
+    "ico": "45536040",
+    "cena": 43769394.13,
+    "vyloucen": false
+   },
+   {
+    "nazev": "OHLA ŽS, a.s.",
+    "ico": "46342796",
+    "cena": 41785066.62,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PS - STAV Náchod s.r.o.",
+    "ico": "28858531",
+    "cena": 41646639.1,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STYLBAU, s.r.o.",
+    "ico": "25957481",
+    "cena": 38457594.83,
+    "vyloucen": false
+   },
+   {
+    "nazev": "VALC, s.r.o.",
+    "ico": "45537151",
+    "cena": 49352308.54,
+    "vyloucen": false
+   }
+  ],
+  "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html"
  },
  {
   "id": "rvz:RVZ2500216851",
@@ -106079,28 +106178,55 @@
  },
  {
   "id": "rvz:RVZ2500221753",
-  "source": "isvz",
-  "nen_id": "N006/25/V00040837",
+  "source": "profil:pardubice",
   "title": "Oprava 6 volných bytových jednotek - II",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
   "cpv": [
    "45211000"
   ],
-  "nuts": [
-   "CZ053"
-  ],
+  "nuts": [],
   "value": null,
   "published": "2025-12-02",
   "deadline": "2025-12-16T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00040837",
   "place": "",
-  "authority_seat": "Pernštýnské náměstí 1, Pardubice 53002",
-  "authority_profile": "https://nen.nipez.cz/profil/pardubice",
-  "state": "Dokončen/Zadán",
+  "state": "ukončeno plnění",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "OTISTAV s.r.o.",
+    "ico": "24832898",
+    "cena": 2998888.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Bricky s.r.o.",
+    "ico": "09707352",
+    "cena": 9573398.8,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ELITSTAV s.r.o.",
+    "ico": "06552226",
+    "cena": 2589800.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "AKVITSTAV s.r.o.",
+    "ico": "07904967",
+    "cena": 6262259.23,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Kantora s.r.o.",
+    "ico": "21972320",
+    "cena": 4976893.97,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -107457,7 +107583,7 @@
   "deadline": "2026-01-20T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00000161",
   "place": "",
-  "state": "dokončen",
+  "state": "ukončeno plnění",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
@@ -114862,6 +114988,46 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2600076341",
+  "source": "profil:pardubice",
+  "title": "MŠ Gorkého – rozšíření prostoru tříd do ložnic",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-04-02",
+  "deadline": "2026-04-14T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00009373",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "OTISTAV s.r.o.",
+    "ico": "24832898",
+    "cena": 744444.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Hanč CONSTRUCTION s.r.o.",
+    "ico": "23209593",
+    "cena": 878888.0,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600076344",
   "source": "profil:pardubice",
   "title": "ZŠ Benešovo nám. – oprava tělocvičny",
@@ -114903,46 +115069,6 @@
     "nazev": "Bricky s.r.o.",
     "ico": "09707352",
     "cena": 875400.0,
-    "vyloucen": false
-   }
-  ],
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2600076341",
-  "source": "profil:pardubice",
-  "title": "MŠ Gorkého – rozšíření prostoru tříd do ložnic",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-04-02",
-  "deadline": "2026-04-14T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00009373",
-  "place": "",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "bidders": [
-   {
-    "nazev": "OTISTAV s.r.o.",
-    "ico": "24832898",
-    "cena": 744444.0,
-    "vyloucen": false
-   },
-   {
-    "nazev": "Hanč CONSTRUCTION s.r.o.",
-    "ico": "23209593",
-    "cena": 878888.0,
     "vyloucen": false
    }
   ],
@@ -118278,7 +118404,7 @@
   "deadline": "2026-05-25T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00014413",
   "place": "",
-  "state": "dokončen",
+  "state": "ukončeno plnění",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
@@ -119634,7 +119760,7 @@
   "deadline": "2026-06-08T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00015837",
   "place": "",
-  "state": "dokončen",
+  "state": "ukončeno plnění",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
@@ -127655,6 +127781,40 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:rychnov-nk:VZ-272",
+  "source": "profil:rychnov-nk",
+  "title": "Oprava terasy u smuteční síně v Rychnově nad Kněžnou",
+  "authority": "Město Rychnov nad Kněžnou",
+  "authority_ico": "00275336",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-14",
+  "deadline": "2026-09-03T14:00:00",
+  "url": "https://zakazky.rychnov-city.cz/profile_display_2.html",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "R E M I N G , s. r. o.",
+    "ico": "47454687",
+    "cena": 1652700.0,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 36,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600107595",
   "source": "isvz",
   "nen_id": "",
@@ -128094,7 +128254,7 @@
   "kw_match": true,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -128121,7 +128281,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 39,
   "loc_unknown": false
  },
@@ -129110,40 +129270,6 @@
   "dist_km": 19,
   "loc_unknown": false,
   "auto_expired": "2026-08-15",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500085120",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Celková rekonstrukce objektu č. p. 60 Bystré – sociální služby - podruhé",
-  "authority": "Pardubický kraj",
-  "authority_ico": "70892822",
-  "cpv": [
-   "45215200"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": null,
-  "published": "",
-  "deadline": "",
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "ukončeno plnění",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "profile_url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "dist_km": 36,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
   "no_activity": true
  },
  {
@@ -134416,6 +134542,40 @@
   "no_value": false,
   "expired": true,
   "dist_km": 4,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500085120",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Celková rekonstrukce objektu č. p. 60 Bystré – sociální služby - podruhé",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "45215200"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": null,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "profile_url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "dist_km": 36,
   "loc_unknown": false,
   "auto_expired": "2026-07-31",
   "no_activity": true
@@ -205165,7 +205325,7 @@
   "deadline": "",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00015268",
   "place": "",
-  "state": "dokončen",
+  "state": "ukončeno plnění",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",

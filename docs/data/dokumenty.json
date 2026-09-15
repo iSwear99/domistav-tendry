@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-09-14T12:07:35+00:00",
+  "updated": "2026-09-15T11:28:44+00:00",
   "zd": 484,
-  "zpravy": 1264,
-  "novych": 0,
+  "zpravy": 1266,
+  "novych": 1,
   "errors": []
  },
  "zd": {
@@ -5326,6 +5326,12 @@
   },
   "profil:pvu:00579190:P26V00005807": {
    "nenalezeno": true
+  },
+  "profil:rychnov-nk:VZ-272": {
+   "nenalezeno": true
+  },
+  "profil:kr-kralovehradecky:VZ-12108": {
+   "doc_url": "https://zakazky.cenakhk.cz/document_download_138511.html"
   }
  }
 }

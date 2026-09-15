@@ -74,6 +74,36 @@
   "registr_url": "https://smlouvy.gov.cz/smlouva/39411453"
  },
  {
+  "id": "profil:rychnov-nk:VZ-272",
+  "source": "profil:rychnov-nk",
+  "title": "Oprava terasy u smuteční síně v Rychnově nad Kněžnou",
+  "authority": "Město Rychnov nad Kněžnou",
+  "authority_ico": "00275336",
+  "winner": "R E M I N G , s. r. o.",
+  "winner_ico": "47454687",
+  "awarded": "2026-09-03",
+  "price_contracted": 1652700.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://zakazky.rychnov-city.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "R E M I N G , s. r. o.",
+    "ico": "47454687",
+    "cena": 1652700.0,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "profil:kr-pardubicky:VZ-6245",
   "source": "profil:kr-pardubicky",
   "title": "NPK, a.s., Litomyšlská nemocnice, revitalizace dřevin v areálu nemocnice",
@@ -16831,7 +16861,7 @@
  },
  {
   "id": "rvz:RVZ2500221753",
-  "source": "isvz",
+  "source": "profil:pardubice",
   "title": "Oprava 6 volných bytových jednotek - II",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
@@ -16849,7 +16879,40 @@
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00040837"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00040837",
+  "bidders": [
+   {
+    "nazev": "OTISTAV s.r.o.",
+    "ico": "24832898",
+    "cena": 2998888.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Bricky s.r.o.",
+    "ico": "09707352",
+    "cena": 9573398.8,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ELITSTAV s.r.o.",
+    "ico": "06552226",
+    "cena": 2589800.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "AKVITSTAV s.r.o.",
+    "ico": "07904967",
+    "cena": 6262259.23,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Kantora s.r.o.",
+    "ico": "21972320",
+    "cena": 4976893.97,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/37027745"
  },
  {
   "id": "rvz:RVZ2600071640",
@@ -17879,6 +17942,61 @@
   "kind": "VZ",
   "kw_match": false,
   "url": "https://zakazky.cenakhk.cz/profile_display_2.html"
+ },
+ {
+  "id": "profil:kr-kralovehradecky:VZ-12108",
+  "source": "profil:kr-kralovehradecky",
+  "title": "ZZS KHK – výstavba výjezdového stanoviště v Náchodě – stavební práce",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "winner": "STYLBAU, s.r.o.",
+  "winner_ico": "25957481",
+  "awarded": "2026-02-13",
+  "price_contracted": 38457594.83,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 37,
+  "loc_unknown": false,
+  "cpv": [
+   "09332000"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "KERSON spol. s r.o.",
+    "ico": "45536040",
+    "cena": 43769394.13,
+    "vyloucen": false
+   },
+   {
+    "nazev": "OHLA ŽS, a.s.",
+    "ico": "46342796",
+    "cena": 41785066.62,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PS - STAV Náchod s.r.o.",
+    "ico": "28858531",
+    "cena": 41646639.1,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STYLBAU, s.r.o.",
+    "ico": "25957481",
+    "cena": 38457594.83,
+    "vyloucen": false
+   },
+   {
+    "nazev": "VALC, s.r.o.",
+    "ico": "45537151",
+    "cena": 49352308.54,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/36819765"
  },
  {
   "id": "rvz:RVZ2500225236",
@@ -21975,7 +22093,7 @@
  },
  {
   "id": "rvz:RVZ2500214432",
-  "source": "isvz",
+  "source": "profil:pardubice",
   "title": "Oprava 6 volných bytových jednotek",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
@@ -21993,7 +22111,46 @@
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00032555"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00032555",
+  "bidders": [
+   {
+    "nazev": "OTISTAV s.r.o.",
+    "ico": "24832898",
+    "cena": 3265555.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stavrecon Pardubice s.r.o.",
+    "ico": "05925801",
+    "cena": 3666666.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ASJ s.r.o.",
+    "ico": "25281861",
+    "cena": 4001035.35,
+    "vyloucen": false
+   },
+   {
+    "nazev": "V.P.N., spol. s r. o.",
+    "ico": "25947281",
+    "cena": 4679210.8,
+    "vyloucen": false
+   },
+   {
+    "nazev": "RK stavební Pardubice s.r.o.",
+    "ico": "21321566",
+    "cena": 3289627.8,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ELITSTAV s.r.o.",
+    "ico": "06552226",
+    "cena": 2904500.0,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/35884149"
  },
  {
   "id": "rvz:RVZ2500214997",
@@ -22633,7 +22790,7 @@
  },
  {
   "id": "rvz:RVZ2500215595",
-  "source": "isvz",
+  "source": "profil:pardubice",
   "title": "Rekonstrukce zastávek MHD - Blahoutova, směr do města a směr z města – realizace",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
@@ -22651,7 +22808,16 @@
   ],
   "kind": "VZMR",
   "kw_match": true,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00032435"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00032435",
+  "bidders": [
+   {
+    "nazev": "MIROS Pardubice a.s.",
+    "ico": "27523934",
+    "cena": 2722500.88,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/35784161"
  },
  {
   "id": "rvz:RVZ2500223558",
