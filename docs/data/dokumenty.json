@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-09-16T09:10:29+00:00",
-  "zd": 504,
+  "updated": "2026-09-16T12:49:38+00:00",
+  "zd": 505,
   "zpravy": 1353,
-  "novych": 6,
+  "novych": 0,
   "errors": []
  },
  "zd": {
@@ -1563,6 +1563,9 @@
    "nenalezeno": true
   },
   "rvz:RVZ2600262530": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600113957": {
    "nenalezeno": true
   }
  },
