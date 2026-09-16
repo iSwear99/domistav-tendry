@@ -1,16 +1,17 @@
 {
  "meta": {
-  "updated": "2026-09-15T11:28:45+00:00",
+  "updated": "2026-09-16T09:10:36+00:00",
   "model": "claude-opus-5",
   "posouzeno_nyni": 0,
-  "celkem": 457,
+  "celkem": 455,
   "counts": {
-   "ano": 217,
+   "ano": 216,
    "ne": 155,
-   "nejisto": 85
+   "nejisto": 84
   },
   "errors": [
-   "AI dávka 0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf59TivgZfPxuNEiUSoTC'}"
+   "AI dávka 0: Connection error.",
+   "AI dávka 1: Connection error."
   ]
  },
  "verdikty": {
@@ -1798,10 +1799,6 @@
    "verdikt": "ano",
    "duvod": "Rekonstrukce sklepních prostor budovy"
   },
-  "profil:chrudim:VZ-511": {
-   "verdikt": "ano",
-   "duvod": "Přístavba a rekonstrukce sportovní haly – pozemní stavba"
-  },
   "profil:kr-kralovehradecky:VZ-13061": {
    "verdikt": "nejisto",
    "duvod": "Protipovodňová zábrana areálu, možná vodohospodářská stavba"
@@ -1821,10 +1818,6 @@
   "rvz:RVZ2600117451": {
    "verdikt": "ne",
    "duvod": "Dodávka zemního plynu, ne stavební práce"
-  },
-  "rvz:RVZ2600117513": {
-   "verdikt": "nejisto",
-   "duvod": "Sportovní venkovní areál, možná zpevněné plochy"
   },
   "profil:pvu:05427592:P26V00005377": {
    "verdikt": "ne",
