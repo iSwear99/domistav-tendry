@@ -58208,6 +58208,76 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:kr-kralovehradecky:VZ-10268",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Rozvoj komunitních sociálních služeb DOZP v lokalitě Jičín – stavební práce",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2023-09-26",
+  "deadline": "2024-01-08T09:00:00",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "bidders": [
+   {
+    "nazev": "BBP Stavby s.r.o.",
+    "ico": "03875199",
+    "cena": 115720449.38,
+    "vyloucen": false
+   },
+   {
+    "nazev": "BHSK, a.s.",
+    "ico": "28223063",
+    "cena": 91495798.41,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Bielskie Przedsiebiorstwo Budownictwa Przemyslowego,  organizační slořka",
+    "ico": "48683396",
+    "cena": 106145793.75,
+    "vyloucen": false
+   },
+   {
+    "nazev": "EMH stavební CZ s.r.o.",
+    "ico": "01972197",
+    "cena": 115819564.6,
+    "vyloucen": false
+   },
+   {
+    "nazev": "OHLA ŽS, a.s.",
+    "ico": "46342796",
+    "cena": 114577237.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STYLBAU, s.r.o.",
+    "ico": "25957481",
+    "cena": 107865817.06,
+    "vyloucen": false
+   },
+   {
+    "nazev": "UNISTAV CONSTRUCTION a.s.",
+    "ico": "03902447",
+    "cena": 110666666.6,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 38,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2400140492",
   "source": "isvz",
   "nen_id": "N006/24/V00011127",
@@ -101319,6 +101389,38 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:hradec-kralove:MMHKTA202500000114",
+  "source": "profil:hradec-kralove",
+  "title": "Hradec Králové – Městský kamerový systém – rekonstrukce tří kamerových bodů a vybudování a integrace kamerových bodů Fortna – kruhový objezd a Fortna – Most",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2025-09-04",
+  "deadline": "2025-09-26T00:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "ASTOR-KOMPLEX s.r.o.",
+    "ico": "47469781",
+    "cena": 991132.0,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2500166197",
   "source": "isvz",
   "nen_id": "",
@@ -120671,40 +120773,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600099375",
-  "source": "profil:pardubice",
-  "title": "Areál Skatepark – obnova překážek",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45212290"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-06-04",
-  "deadline": "2026-06-16T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017282",
-  "place": "",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "bidders": [
-   {
-    "nazev": "Zdeněk Kotyza",
-    "ico": "73582107",
-    "cena": null,
-    "vyloucen": false
-   }
-  ],
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600099359",
   "source": "profil:pardubice",
   "title": "ZŠ Kyjevská – výměna plynových kotlů",
@@ -120746,6 +120814,40 @@
     "nazev": "TERMOMONT s.r.o.",
     "ico": "45538875",
     "cena": 819955.98,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600099375",
+  "source": "profil:pardubice",
+  "title": "Areál Skatepark – obnova překážek",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45212290"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-04",
+  "deadline": "2026-06-16T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017282",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Zdeněk Kotyza",
+    "ico": "73582107",
+    "cena": null,
     "vyloucen": false
    }
   ],
@@ -122729,6 +122831,41 @@
   "expired": true,
   "dist_km": 9,
   "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:60418885:P26V00004453",
+  "source": "profil:pvu:60418885",
+  "title": "Oprava střešních plášťů",
+  "authority": "VODOVODY A KANALIZACE",
+  "authority_ico": "60418885",
+  "cpv": [
+   "45261900"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-07-07",
+  "deadline": "2026-07-07T09:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/60418885",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Pavel Bohuslav",
+    "ico": "64334465",
+    "cena": 1296500.0,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true
  },
  {
   "id": "rvz:RVZ2600099532",
@@ -125970,7 +126107,7 @@
   "deadline": "2026-08-14T10:00:00",
   "url": "https://zakazky.trutnov.cz/profile_display_2.html",
   "place": "",
-  "state": "zahájen",
+  "state": "zrušen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
@@ -129567,7 +129704,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 37,
   "loc_unknown": false
  },
@@ -129603,7 +129740,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 45,
   "loc_unknown": false
  },
@@ -129634,7 +129771,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 36,
   "loc_unknown": false
  },
@@ -129698,6 +129835,53 @@
   "no_value": true,
   "expired": false,
   "dist_km": 42,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00255530:P26V00005960",
+  "source": "profil:pvu:00255530",
+  "title": "Oprava střechy na ZŠ Hrádek č.p. 73",
+  "authority": "Obec Hrádek",
+  "authority_ico": "00255530",
+  "cpv": [
+   "45261900"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-17",
+  "deadline": "2026-09-17T11:32:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/obec-hradek",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Václav Had",
+    "ico": "63916452",
+    "cena": 2593893.46,
+    "vyloucen": false
+   },
+   {
+    "nazev": "CHLÁDEK FCH s.r.o.",
+    "ico": "26093588",
+    "cena": 2627153.34,
+    "vyloucen": false
+   },
+   {
+    "nazev": "RYNOSTAV s.r.o.",
+    "ico": "26334615",
+    "cena": 2528646.13,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 8,
   "loc_unknown": false
  },
  {
@@ -130964,6 +131148,41 @@
   "dist_km": 24,
   "loc_unknown": false,
   "auto_expired": "2026-09-16",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500089854",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Rozvoj komunitních sociálních služeb DOZP v lokalitě Jičín – stavební práce",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000",
+   "45110000",
+   "45233000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 116235443.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "Obecným místem plnění je Královéhradecký kraj. Místem plnění veřejné zakázky je ul. Revoluční, Jičín, na pozemcích p.č.1628, 1629, 1630, 1631/1, 1889.",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 38,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
   "no_activity": true
  },
  {
@@ -153202,41 +153421,6 @@
   "no_value": false,
   "expired": true,
   "dist_km": 39,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500089854",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Rozvoj komunitních sociálních služeb DOZP v lokalitě Jičín – stavební práce",
-  "authority": "Královéhradecký kraj",
-  "authority_ico": "70889546",
-  "cpv": [
-   "45000000",
-   "45110000",
-   "45233000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 116235443.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "place": "Obecným místem plnění je Královéhradecký kraj. Místem plnění veřejné zakázky je ul. Revoluční, Jičín, na pozemcích p.č.1628, 1629, 1630, 1631/1, 1889.",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 38,
   "loc_unknown": false,
   "auto_expired": "2026-07-31",
   "no_activity": true
@@ -209032,6 +209216,60 @@
   "no_value": true,
   "expired": false,
   "dist_km": 37,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00415227:P26V00005940",
+  "source": "profil:pvu:00415227",
+  "title": "Rekonstrukce výtahů bytového domu na ulici Přímá 1,3,5, Havířov-Podlesí",
+  "authority": "Stavební bytové družstvo Havířov",
+  "authority_ico": "00415227",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-16",
+  "deadline": "",
+  "url": "https://www.vhodne-uverejneni.cz/profil/stavebni-bytove-druzstvo-havirov",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 42,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00270814:P26V00005955",
+  "source": "profil:pvu:00270814",
+  "title": "FVE OBEC RANÁ - zveřejnění smlouvy",
+  "authority": "Obec Raná",
+  "authority_ico": "00270814",
+  "cpv": [
+   "45317300"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-17",
+  "deadline": "",
+  "url": "https://www.vhodne-uverejneni.cz/profil/obec-rana",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 47,
   "loc_unknown": false
  }
 ]
