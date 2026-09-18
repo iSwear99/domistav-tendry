@@ -766,6 +766,60 @@
   "url": "https://www.tenderarena.cz/profily/RSD"
  },
  {
+  "id": "profil:dvur-kralove:VZ-495",
+  "source": "profil:dvur-kralove",
+  "title": "Rekonstrukce Úpravny vody Dvůr Králové nad Labem",
+  "authority": "Město Dvůr Králové nad Labem",
+  "authority_ico": "00277819",
+  "winner": "VHS stavby a.s.",
+  "winner_ico": "25183052",
+  "awarded": "2026-08-20",
+  "price_contracted": 39840673.46,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 26,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://zakazky.mudk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "ENVI-PUR, s.r.o.",
+    "ico": "25166077",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "HST Hydrosystémy s.r.o.",
+    "ico": "26212706",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KUNST,  spol.  s  r.o.",
+    "ico": "19010591",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "VHS stavby a.s.",
+    "ico": "25183052",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "VPK Suchý s.r.o.",
+    "ico": "27085201",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2600086089",
   "source": "isvz",
   "title": "Revitalizace endoskopického oddělení ONN a. s",
