@@ -111539,28 +111539,61 @@
  },
  {
   "id": "rvz:RVZ2600067705",
-  "source": "isvz",
-  "nen_id": "N006/26/V00005281",
+  "source": "profil:pardubice",
   "title": "MŠ Bulharská – rekonstrukce elektroinstalace",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
   "cpv": [
    "45310000"
   ],
-  "nuts": [
-   "CZ053"
-  ],
+  "nuts": [],
   "value": null,
   "published": "2026-02-27",
   "deadline": "2026-03-10T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00005281",
   "place": "",
-  "authority_seat": "Pernštýnské náměstí 1, Pardubice 53002",
-  "authority_profile": "https://nen.nipez.cz/profil/pardubice",
-  "state": "Dokončen/Zadán",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "ELMON spol. s r.o.",
+    "ico": "47452161",
+    "cena": 3968400.91,
+    "vyloucen": false
+   },
+   {
+    "nazev": "pr-energo s.r.o.",
+    "ico": "18036481",
+    "cena": 3663187.99,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SYZA s.r.o.",
+    "ico": "03567834",
+    "cena": 3967898.44,
+    "vyloucen": false
+   },
+   {
+    "nazev": "JM - Elektro s.r.o.",
+    "ico": "27557766",
+    "cena": 3832204.22,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PS HOME STAR s.r.o.",
+    "ico": "03221466",
+    "cena": 3909246.85,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Šetři světlem s.r.o.",
+    "ico": "29208041",
+    "cena": 2767206.6,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -114917,6 +114950,58 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2600076344",
+  "source": "profil:pardubice",
+  "title": "ZŠ Benešovo nám. – oprava tělocvičny",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-04-02",
+  "deadline": "2026-04-14T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00009375",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "MAN podlahy s.r.o.",
+    "ico": "28826302",
+    "cena": 403252.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "LUKO-STAVBY s.r.o.",
+    "ico": "14394120",
+    "cena": 780439.99,
+    "vyloucen": false
+   },
+   {
+    "nazev": "EKOLIK, s.r.o.",
+    "ico": "63217511",
+    "cena": 447390.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Bricky s.r.o.",
+    "ico": "09707352",
+    "cena": 875400.0,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600076341",
   "source": "profil:pardubice",
   "title": "MŠ Gorkého – rozšíření prostoru tříd do ložnic",
@@ -114949,37 +115034,6 @@
     "vyloucen": false
    }
   ],
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2600076344",
-  "source": "isvz",
-  "nen_id": "N006/26/V00009375",
-  "title": "ZŠ Benešovo nám. – oprava tělocvičny",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": null,
-  "published": "2026-04-02",
-  "deadline": "2026-04-14T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00009375",
-  "place": "",
-  "authority_seat": "Pernštýnské náměstí 1, Pardubice 53002",
-  "authority_profile": "https://nen.nipez.cz/profil/pardubice",
-  "state": "Dokončen/Zadán",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -123203,6 +123257,47 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00256455:P26V00004557",
+  "source": "profil:pvu:00256455",
+  "title": "Oprava vodního náhonu, včetně zpevnění břehů v úseku Vlčice-most, Hradiště-most",
+  "authority": "Město Blovice",
+  "authority_ico": "00256455",
+  "cpv": [
+   "45247100"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-07-10",
+  "deadline": "2026-07-08T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00256455",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Šindler, důlní a stavební společnost s r.o.",
+    "ico": "00204382",
+    "cena": 4930650.87,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STAVMONTA spol. s r.o.",
+    "ico": "40525007",
+    "cena": 4589000.0,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 41,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600103399",
   "source": "isvz",
   "nen_id": "N006/26/V00018889",
@@ -123446,10 +123541,30 @@
   "deadline": "2026-07-14T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00020507",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "AKVITSTAV s.r.o.",
+    "ico": "07904967",
+    "cena": 3811432.29,
+    "vyloucen": false
+   },
+   {
+    "nazev": "GRANO Skuteč spol. s r.o.",
+    "ico": "60913088",
+    "cena": 4461201.13,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ROJAR s.r.o.",
+    "ico": "02851873",
+    "cena": 2909947.89,
+    "vyloucen": true
+   }
+  ],
   "kw_match": true,
   "no_nuts": false,
   "no_value": true,
@@ -123542,6 +123657,41 @@
   "no_value": true,
   "expired": true,
   "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00265772:P26V00005983",
+  "source": "profil:pvu:00265772",
+  "title": "Oprava cesty - Přívlaky",
+  "authority": "Obec Žiželice",
+  "authority_ico": "00265772",
+  "cpv": [
+   "45233100"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-18",
+  "deadline": "2026-07-15T00:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00265772",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "DR-BAU s.r.o.",
+    "ico": "08517291",
+    "cena": 486200.0,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": true,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 28,
   "loc_unknown": false
  },
  {
@@ -128845,7 +128995,7 @@
   "deadline": "2026-09-08T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00027450",
   "place": "",
-  "state": "zahájen",
+  "state": "zrušen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
@@ -129979,7 +130129,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": 30,
   "loc_unknown": false
  },
@@ -130005,7 +130155,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 42,
   "loc_unknown": false
  },
@@ -130037,7 +130187,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": 30,
   "loc_unknown": false
  },
@@ -130066,7 +130216,7 @@
   "kw_match": true,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -130201,6 +130351,33 @@
   "expired": false,
   "dist_km": null,
   "loc_unknown": true
+ },
+ {
+  "id": "profil:pvu:00275301:P26V00005834",
+  "source": "profil:pvu:00275301",
+  "title": "Sportovní hala – tělocvična, ZŠ Rokytnice v Orlických horách, rekonstrukce osvětlení",
+  "authority": "Město Rokytnice v Orlických horách",
+  "authority_ico": "00275301",
+  "cpv": [
+   "45310000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-10",
+  "deadline": "2026-09-21T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00275301",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 48,
+  "loc_unknown": false
  },
  {
   "id": "rvz:RVZ2600119175",
@@ -130898,39 +131075,6 @@
   "loc_unknown": true
  },
  {
-  "id": "rvz:RVZ2600111066",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Rehabilitační ústav Brandýs nad Orlicí, výstavba nové\nbudovy, KRANIOPROGRAM",
-  "authority": "Pardubický kraj",
-  "authority_ico": "70892822",
-  "cpv": [
-   "45215120",
-   "45232221"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": 290926496.38,
-  "published": "2026-07-16",
-  "deadline": "2026-10-08T10:00:00",
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": false,
-  "profile_url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "dist_km": 43,
-  "loc_unknown": false
- },
- {
   "id": "profil:kr-kralovehradecky:VZ-13103",
   "source": "profil:kr-kralovehradecky",
   "title": "BD Hajnice – výstavba a rekonstrukce administrativní a správní budovy",
@@ -130954,6 +131098,39 @@
   "no_value": true,
   "expired": false,
   "dist_km": 33,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600111066",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Rehabilitační ústav Brandýs nad Orlicí, výstavba nové\nbudovy, KRANIOPROGRAM",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "45215120",
+   "45232221"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 290926496.38,
+  "published": "2026-07-16",
+  "deadline": "2026-10-12T10:00:00",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": false,
+  "profile_url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "dist_km": 43,
   "loc_unknown": false
  },
  {
@@ -131042,6 +131219,33 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00532304:P26V00005985",
+  "source": "profil:pvu:00532304",
+  "title": "VTP UNIS II - AEROSPACE CENTRUM - Odstranění stávajícího objektu",
+  "authority": "UNIS, a.s.",
+  "authority_ico": "00532304",
+  "cpv": [
+   "45111000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-18",
+  "deadline": "2026-10-26T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00532304",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": null,
+  "loc_unknown": true
  },
  {
   "id": "rvz:RVZ2600118626",

@@ -1,5 +1,48 @@
 [
  {
+  "id": "rvz:RVZ2600106793",
+  "source": "profil:pardubice",
+  "title": "Terminál A, nám. Jana Pernera – úprava bezbariérovosti – realizace",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "AKVITSTAV s.r.o.",
+  "winner_ico": "07904967",
+  "awarded": "2026-09-14",
+  "price_contracted": null,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45233160"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00020507",
+  "bidders": [
+   {
+    "nazev": "AKVITSTAV s.r.o.",
+    "ico": "07904967",
+    "cena": 3811432.29,
+    "vyloucen": false
+   },
+   {
+    "nazev": "GRANO Skuteč spol. s r.o.",
+    "ico": "60913088",
+    "cena": 4461201.13,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ROJAR s.r.o.",
+    "ico": "02851873",
+    "cena": 2909947.89,
+    "vyloucen": true
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39547213"
+ },
+ {
   "id": "profil:trutnov:VZ-1852",
   "source": "profil:trutnov",
   "title": "Oprava střešního pláště - Rudolfa Frimla 934, Trutnov",
@@ -4114,6 +4157,36 @@
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00022140"
  },
  {
+  "id": "profil:pvu:00265772:P26V00005983",
+  "source": "profil:pvu:00265772",
+  "title": "Oprava cesty - Přívlaky",
+  "authority": "Obec Žiželice",
+  "authority_ico": "00265772",
+  "winner": "DR-BAU s.r.o.",
+  "winner_ico": "08517291",
+  "awarded": "2026-07-15",
+  "price_contracted": 486200.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 28,
+  "loc_unknown": false,
+  "cpv": [
+   "45233100"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://www.vhodne-uverejneni.cz/profil/00265772",
+  "bidders": [
+   {
+    "nazev": "DR-BAU s.r.o.",
+    "ico": "08517291",
+    "cena": 486200.0,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2500091993",
   "source": "isvz",
   "title": "Kostel Krista Dobrého Pastýře ve Zdobnici, oprava povrchů a výmaleb stropní konstrukce, VIII. etapa",
@@ -4316,6 +4389,42 @@
   "kind": "VZ",
   "kw_match": false,
   "url": "https://tenderarena.cz/dodavatel/zakazka/887833"
+ },
+ {
+  "id": "profil:pvu:00256455:P26V00004557",
+  "source": "profil:pvu:00256455",
+  "title": "Oprava vodního náhonu, včetně zpevnění břehů v úseku Vlčice-most, Hradiště-most",
+  "authority": "Město Blovice",
+  "authority_ico": "00256455",
+  "winner": "STAVMONTA spol. s r.o.",
+  "winner_ico": "40525007",
+  "awarded": "2026-07-10",
+  "price_contracted": 4589000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 41,
+  "loc_unknown": false,
+  "cpv": [
+   "45247100"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.vhodne-uverejneni.cz/profil/00256455",
+  "bidders": [
+   {
+    "nazev": "Šindler, důlní a stavební společnost s r.o.",
+    "ico": "00204382",
+    "cena": 4930650.87,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STAVMONTA spol. s r.o.",
+    "ico": "40525007",
+    "cena": 4589000.0,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2500072600",
@@ -9969,7 +10078,7 @@
  },
  {
   "id": "rvz:RVZ2600076344",
-  "source": "isvz",
+  "source": "profil:pardubice",
   "title": "ZŠ Benešovo nám. – oprava tělocvičny",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
@@ -9987,7 +10096,34 @@
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00009375"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00009375",
+  "bidders": [
+   {
+    "nazev": "MAN podlahy s.r.o.",
+    "ico": "28826302",
+    "cena": 403252.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "LUKO-STAVBY s.r.o.",
+    "ico": "14394120",
+    "cena": 780439.99,
+    "vyloucen": false
+   },
+   {
+    "nazev": "EKOLIK, s.r.o.",
+    "ico": "63217511",
+    "cena": 447390.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Bricky s.r.o.",
+    "ico": "09707352",
+    "cena": 875400.0,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/38147765"
  },
  {
   "id": "rvz:RVZ2600076341",
@@ -13498,7 +13634,7 @@
  },
  {
   "id": "rvz:RVZ2600067705",
-  "source": "isvz",
+  "source": "profil:pardubice",
   "title": "MŠ Bulharská – rekonstrukce elektroinstalace",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
@@ -13516,7 +13652,46 @@
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00005281"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00005281",
+  "bidders": [
+   {
+    "nazev": "ELMON spol. s r.o.",
+    "ico": "47452161",
+    "cena": 3968400.91,
+    "vyloucen": false
+   },
+   {
+    "nazev": "pr-energo s.r.o.",
+    "ico": "18036481",
+    "cena": 3663187.99,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SYZA s.r.o.",
+    "ico": "03567834",
+    "cena": 3967898.44,
+    "vyloucen": false
+   },
+   {
+    "nazev": "JM - Elektro s.r.o.",
+    "ico": "27557766",
+    "cena": 3832204.22,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PS HOME STAR s.r.o.",
+    "ico": "03221466",
+    "cena": 3909246.85,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Šetři světlem s.r.o.",
+    "ico": "29208041",
+    "cena": 2767206.6,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/37751061"
  },
  {
   "id": "rvz:RVZ2500223456",
