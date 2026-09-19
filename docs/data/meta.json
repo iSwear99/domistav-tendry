@@ -1,13 +1,13 @@
 {
- "updated": "2026-09-19T10:15:37+00:00",
+ "updated": "2026-09-19T14:44:30+00:00",
  "counts": {
-  "total": 6584,
-  "vz": 3744,
-  "vzmr": 2840,
-  "active": 51,
-  "changed": 86,
+  "total": 6582,
+  "vz": 3747,
+  "vzmr": 2835,
+  "active": 75,
+  "changed": 85,
   "competition": 1357,
-  "previous": 6580
+  "previous": 6584
  },
  "errors": [
   "pvu: /externi-zakazka/polora-servis-a-revize-plynovych-zarizeni-a-upraven-vody-1: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/polora-servis-a-revize-plynovych-zarizeni-a-upraven-vody-1: HTTP Error 401: Unauthorized"

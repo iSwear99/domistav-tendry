@@ -9244,51 +9244,7 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://zakazky.cenakhk.cz/",
-  "bidders": [
-   {
-    "nazev": "Alprim CZ s.r.o.",
-    "ico": "28811470",
-    "cena": 51059209.71,
-    "vyloucen": true
-   },
-   {
-    "nazev": "KERSON spol. s r.o.",
-    "ico": "45536040",
-    "cena": 43882988.48,
-    "vyloucen": false
-   },
-   {
-    "nazev": "Průmstav Náchod s.r.o.",
-    "ico": "25275062",
-    "cena": 39892618.51,
-    "vyloucen": false
-   },
-   {
-    "nazev": "PS - STAV Náchod s.r.o.",
-    "ico": "28858531",
-    "cena": 45335774.66,
-    "vyloucen": false
-   },
-   {
-    "nazev": "REDOMO a.s.",
-    "ico": "25937499",
-    "cena": 47776211.29,
-    "vyloucen": false
-   },
-   {
-    "nazev": "STATING s.r.o.",
-    "ico": "25963864",
-    "cena": 47437788.9,
-    "vyloucen": false
-   },
-   {
-    "nazev": "STYLBAU, s.r.o.",
-    "ico": "25957481",
-    "cena": 44945078.02,
-    "vyloucen": false
-   }
-  ]
+  "url": "https://zakazky.cenakhk.cz/"
  },
  {
   "id": "rvz:RVZ2600100021",
@@ -9447,7 +9403,7 @@
  },
  {
   "id": "rvz:RVZ2600098523",
-  "source": "profil:pardubice",
+  "source": "isvz",
   "title": "OBJ/963/26",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
@@ -9465,16 +9421,7 @@
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00016757",
-  "bidders": [
-   {
-    "nazev": "Služby města Pardubic a.s.",
-    "ico": "25262572",
-    "cena": 199144.2,
-    "vyloucen": false
-   }
-  ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/38204565"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00016757"
  },
  {
   "id": "rvz:RVZ2600076864",
@@ -9562,7 +9509,7 @@
  },
  {
   "id": "rvz:RVZ2600098540",
-  "source": "profil:pardubice",
+  "source": "isvz",
   "title": "OBJ/00964/26",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
@@ -9580,16 +9527,7 @@
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00016769",
-  "bidders": [
-   {
-    "nazev": "Služby města Pardubic a.s.",
-    "ico": "25262572",
-    "cena": 105237.0,
-    "vyloucen": false
-   }
-  ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/38205457"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00016769"
  },
  {
   "id": "rvz:RVZ2600083950",
