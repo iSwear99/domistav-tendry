@@ -1,8 +1,8 @@
 {
  "meta": {
-  "updated": "2026-09-20T12:34:38+00:00",
+  "updated": "2026-09-21T13:51:18+00:00",
   "zd": 513,
-  "zpravy": 1357,
+  "zpravy": 1358,
   "novych": 0,
   "errors": []
  },
@@ -5695,6 +5695,9 @@
    "nenalezeno": true
   },
   "profil:pvu:00256455:P26V00004557": {
+   "nenalezeno": true
+  },
+  "profil:rychnov-nk:VZ-273": {
    "nenalezeno": true
   }
  }
