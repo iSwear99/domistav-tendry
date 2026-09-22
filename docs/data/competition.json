@@ -1,5 +1,106 @@
 [
  {
+  "id": "profil:kr-kralovehradecky:VZ-12404",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Oblastní nemocnice Náchod – II. etapa modernizace a dostavby zajištění výkonu TDS a BOZP",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "winner": "IRBOS s.r.o.",
+  "winner_ico": "25933094",
+  "awarded": "2026-09-21",
+  "price_contracted": 9600000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 37,
+  "loc_unknown": false,
+  "cpv": [
+   "71300000"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "Building management solutions s.r.o.",
+    "ico": "28812999",
+    "cena": 9800000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "construction supervisor s.r.o.",
+    "ico": "24553531",
+    "cena": 9807200.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "FETTERS Management, s.r.o.",
+    "ico": "01405471",
+    "cena": 12900000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "IRBOS s.r.o.",
+    "ico": "25933094",
+    "cena": 9600000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SAFETY PRO s.r.o.",
+    "ico": "28571690",
+    "cena": 11234000.0,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39611741"
+ },
+ {
+  "id": "rvz:RVZ2600113644",
+  "source": "profil:hradec-kralove",
+  "title": "Chodník ul. Librantická – PD",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "winner": "Ing. Hynek Seiner",
+  "winner_ico": "74569104",
+  "awarded": "2026-09-17",
+  "price_contracted": 284000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "bidders": [
+   {
+    "nazev": "PROMODS, s.r.o.",
+    "ico": "24863335",
+    "cena": 367000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "DSI CONSULT s.r.o.",
+    "ico": "24010162",
+    "cena": 735000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Ing. Hynek Seiner",
+    "ico": "74569104",
+    "cena": 284000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "DFPK s.r.o.",
+    "ico": "14042355",
+    "cena": 339500.0,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2600106793",
   "source": "profil:pardubice",
   "title": "Terminál A, nám. Jana Pernera – úprava bezbariérovosti – realizace",

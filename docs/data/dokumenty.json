@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-09-21T13:51:18+00:00",
-  "zd": 513,
-  "zpravy": 1358,
-  "novych": 0,
+  "updated": "2026-09-22T12:57:46+00:00",
+  "zd": 517,
+  "zpravy": 1360,
+  "novych": 4,
   "errors": []
  },
  "zd": {
@@ -1591,6 +1591,18 @@
   },
   "rvz:RVZ2600113957": {
    "nenalezeno": true
+  },
+  "rvz:RVZ2600285068": {
+   "doc_url": "https://nen.nipez.cz/file?id=4759982626"
+  },
+  "rvz:RVZ2600285102": {
+   "doc_url": "https://nen.nipez.cz/file?id=4760049624&amp;amp;typ=.pdf&amp;amp;velikost=890268B"
+  },
+  "rvz:RVZ2600285266": {
+   "nenalezeno": true
+  },
+  "profil:kr-kralovehradecky:VZ-13159": {
+   "doc_url": "https://zakazky.cenakhk.cz/document_download_148430.html"
   }
  },
  "zpravy": {
@@ -5698,6 +5710,12 @@
    "nenalezeno": true
   },
   "profil:rychnov-nk:VZ-273": {
+   "nenalezeno": true
+  },
+  "profil:kr-kralovehradecky:VZ-12404": {
+   "doc_url": "https://zakazky.cenakhk.cz/document_download_148487.html"
+  },
+  "rvz:RVZ2600113644": {
    "nenalezeno": true
   }
  }

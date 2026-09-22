@@ -114939,7 +114939,39 @@
   "expired": true,
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "dist_km": 37,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "bidders": [
+   {
+    "nazev": "Building management solutions s.r.o.",
+    "ico": "28812999",
+    "cena": 9800000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "construction supervisor s.r.o.",
+    "ico": "24553531",
+    "cena": 9807200.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "FETTERS Management, s.r.o.",
+    "ico": "01405471",
+    "cena": 12900000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "IRBOS s.r.o.",
+    "ico": "25933094",
+    "cena": 9600000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SAFETY PRO s.r.o.",
+    "ico": "28571690",
+    "cena": 11234000.0,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600076344",
@@ -126561,10 +126593,36 @@
   "deadline": "2026-08-18T09:00:00",
   "url": "https://www.tenderarena.cz/profily/hradeckralove",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "PROMODS, s.r.o.",
+    "ico": "24863335",
+    "cena": 367000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "DSI CONSULT s.r.o.",
+    "ico": "24010162",
+    "cena": 735000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Ing. Hynek Seiner",
+    "ico": "74569104",
+    "cena": 284000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "DFPK s.r.o.",
+    "ico": "14042355",
+    "cena": 339500.0,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -130281,7 +130339,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
   "loc_unknown": false
  },
@@ -130307,7 +130365,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
   "loc_unknown": false
  },
@@ -130334,7 +130392,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -130361,7 +130419,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -130388,7 +130446,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 48,
   "loc_unknown": false
  },
@@ -130419,7 +130477,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": 25,
   "loc_unknown": false
  },
@@ -131060,6 +131118,32 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2600285068",
+  "source": "profil:pardubice",
+  "title": "ZŠ Prodloužená – oprava střešního pláště",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45261910"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-21",
+  "deadline": "2026-10-05T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00030498",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
   "id": "profil:pvu:25313428:P26V00005671",
   "source": "profil:pvu:25313428",
   "title": "Vysokorychlostní internet 1 - Vybudování vysokokapacitní sítě v rámci IO 13 – stavba 1. část",
@@ -131113,6 +131197,32 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2600285102",
+  "source": "profil:nachod",
+  "title": "Zvířecí útulek Náchod",
+  "authority": "Město Náchod",
+  "authority_ico": "00272868",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-21",
+  "deadline": "2026-10-08T10:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00030369",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 37,
+  "loc_unknown": false
+ },
+ {
   "id": "profil:kr-pardubicky:VZ-6172",
   "source": "profil:kr-pardubicky",
   "title": "Rehabilitační ústav Brandýs nad Orlicí, výstavba nové budovy, KRANIOPROGRAM",
@@ -131136,6 +131246,30 @@
   "no_value": true,
   "expired": false,
   "dist_km": 43,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600285266",
+  "source": "profil:hradec-kralove",
+  "title": "Dodávka UPS",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-22",
+  "deadline": "2026-10-12T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 4,
   "loc_unknown": false
  },
  {
@@ -131164,6 +131298,32 @@
   "expired": false,
   "dist_km": null,
   "loc_unknown": true
+ },
+ {
+  "id": "profil:kr-kralovehradecky:VZ-13159",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Oblastní nemocnice Jičín – rekonstrukce stravovacího provozu v Novém Bydžově – stavební práce – ZD/20/415",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-21",
+  "deadline": "2026-10-15T09:00:00",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 38,
+  "loc_unknown": false
  },
  {
   "id": "rvz:RVZ2600107595",
@@ -131275,7 +131435,7 @@
   ],
   "value": 223000000.0,
   "published": "2026-08-20",
-  "deadline": "2026-11-09T10:00:00",
+  "deadline": "2026-11-23T10:00:00",
   "url": "https://www.tenderarena.cz/profily/hradeckralove",
   "place": "",
   "authority_seat": "",
@@ -131823,41 +131983,6 @@
   "no_value": false,
   "expired": true,
   "dist_km": 43,
-  "loc_unknown": false,
-  "auto_expired": "2026-09-19",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2600105063",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Naučná stezka – rybník Podborný Náchod, Plhov",
-  "authority": "MĚSTO NÁCHOD",
-  "authority_ico": "00272868",
-  "cpv": [
-   "45000000",
-   "45233160",
-   "45221113"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 11678725.02,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/profil/mestonachod",
-  "place": "k. ú. Náchod, obec Náchod\npozemky: uvedeny v projektové dokumentaci\nkraj: CZ 052 Královéhradecký kraj",
-  "authority_seat": "",
-  "authority_profile": "https://nen.nipez.cz/profil/mestonachod",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 37,
   "loc_unknown": false,
   "auto_expired": "2026-09-19",
   "no_activity": true
@@ -140756,6 +140881,41 @@
   "expired": true,
   "dist_km": 13,
   "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600105063",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Naučná stezka – rybník Podborný Náchod, Plhov",
+  "authority": "MĚSTO NÁCHOD",
+  "authority_ico": "00272868",
+  "cpv": [
+   "45000000",
+   "45233160",
+   "45221113"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 11678725.02,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/profil/mestonachod",
+  "place": "k. ú. Náchod, obec Náchod\npozemky: uvedeny v projektové dokumentaci\nkraj: CZ 052 Královéhradecký kraj",
+  "authority_seat": "",
+  "authority_profile": "https://nen.nipez.cz/profil/mestonachod",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 37,
+  "loc_unknown": false,
+  "auto_expired": "2026-09-19",
+  "no_activity": true
  },
  {
   "id": "rvz:RVZ2600108673",
