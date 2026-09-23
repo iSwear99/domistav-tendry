@@ -120838,40 +120838,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600099375",
-  "source": "profil:pardubice",
-  "title": "Areál Skatepark – obnova překážek",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45212290"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-06-04",
-  "deadline": "2026-06-16T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017282",
-  "place": "",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "bidders": [
-   {
-    "nazev": "Zdeněk Kotyza",
-    "ico": "73582107",
-    "cena": null,
-    "vyloucen": false
-   }
-  ],
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600099359",
   "source": "profil:pardubice",
   "title": "ZŠ Kyjevská – výměna plynových kotlů",
@@ -120913,6 +120879,40 @@
     "nazev": "TERMOMONT s.r.o.",
     "ico": "45538875",
     "cena": 819955.98,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600099375",
+  "source": "profil:pardubice",
+  "title": "Areál Skatepark – obnova překážek",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45212290"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-04",
+  "deadline": "2026-06-16T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017282",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Zdeněk Kotyza",
+    "ico": "73582107",
+    "cena": null,
     "vyloucen": false
    }
   ],
@@ -130508,7 +130508,7 @@
   "kw_match": true,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -130539,7 +130539,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": 38,
   "loc_unknown": false
  },
@@ -130572,7 +130572,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": 31,
   "loc_unknown": false
  },
@@ -131171,29 +131171,27 @@
   "loc_unknown": true
  },
  {
-  "id": "profil:kr-kralovehradecky:VZ-13103",
-  "source": "profil:kr-kralovehradecky",
-  "title": "BD Hajnice – výstavba a rekonstrukce administrativní a správní budovy",
-  "authority": "Královéhradecký kraj",
-  "authority_ico": "70889546",
-  "cpv": [
-   "45215213"
-  ],
+  "id": "rvz:RVZ2600285470",
+  "source": "profil:hradec-kralove",
+  "title": "Souběžná 1746 – pergolové zastřešení terasy III.",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
   "nuts": [],
   "value": null,
-  "published": "2026-09-01",
-  "deadline": "2026-10-08T10:00:00",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "published": "2026-09-22",
+  "deadline": "2026-10-07T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
   "clarifications": 0,
-  "kind": "VZ",
+  "kind": "VZMR",
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
   "expired": false,
-  "dist_km": 33,
+  "dist_km": 4,
   "loc_unknown": false
  },
  {
@@ -131386,6 +131384,32 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:kr-kralovehradecky:VZ-13103",
+  "source": "profil:kr-kralovehradecky",
+  "title": "BD Hajnice – výstavba a rekonstrukce administrativní a správní budovy",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45215213"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-01",
+  "deadline": "2026-10-26T10:00:00",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 33,
+  "loc_unknown": false
+ },
+ {
   "id": "profil:pvu:00532304:P26V00005985",
   "source": "profil:pvu:00532304",
   "title": "VTP UNIS II - AEROSPACE CENTRUM - Odstranění stávajícího objektu",
@@ -131411,6 +131435,32 @@
   "expired": false,
   "dist_km": null,
   "loc_unknown": true
+ },
+ {
+  "id": "profil:kr-kralovehradecky:VZ-13160",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Oblastní nemocnice Jičín – rekonstrukce stravovacího provozu v Novém Bydžově – gastro vybavení – ZD/20/415",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45421151"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-23",
+  "deadline": "2026-11-02T09:00:00",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 38,
+  "loc_unknown": false
  },
  {
   "id": "rvz:RVZ2600118626",
@@ -208675,7 +208725,7 @@
   "deadline": "",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017158",
   "place": "",
-  "state": "dokončen",
+  "state": "ukončeno plnění",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
@@ -209719,6 +209769,58 @@
   "no_value": true,
   "expired": false,
   "dist_km": 47,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600285449",
+  "source": "profil:pardubice",
+  "title": "OBJ/01559/26",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45316200"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-22",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00030701",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600285441",
+  "source": "profil:pardubice",
+  "title": "OBJ/01522/26",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-22",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00030696",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
   "loc_unknown": false
  }
 ]
