@@ -101,6 +101,55 @@
   ]
  },
  {
+  "id": "profil:kr-kralovehradecky:VZ-12808",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Stavební úpravy objektu č.p. 241 SPŠOW ve Velkém Poříčí – stavební práce",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "winner": "GEOSAN GROUP a.s.",
+  "winner_ico": "28169522",
+  "awarded": "2026-09-16",
+  "price_contracted": 177821970.4,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 41,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "CE-ING s.r.o.",
+    "ico": "04475631",
+    "cena": null,
+    "vyloucen": true
+   },
+   {
+    "nazev": "GEOSAN GROUP a.s.",
+    "ico": "28169522",
+    "cena": 177821970.4,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MBQ s.r.o.",
+    "ico": "24247677",
+    "cena": null,
+    "vyloucen": true
+   },
+   {
+    "nazev": "S T A K O společnost s ručením omezeným",
+    "ico": "42228468",
+    "cena": 180468854.99,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39627177"
+ },
+ {
   "id": "rvz:RVZ2600106793",
   "source": "profil:pardubice",
   "title": "Terminál A, nám. Jana Pernera – úprava bezbariérovosti – realizace",

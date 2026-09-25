@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-09-24T13:10:06+00:00",
-  "zd": 519,
-  "zpravy": 1360,
-  "novych": 0,
+  "updated": "2026-09-25T13:05:49+00:00",
+  "zd": 521,
+  "zpravy": 1361,
+  "novych": 3,
   "errors": []
  },
  "zd": {
@@ -1609,6 +1609,12 @@
   },
   "profil:kr-kralovehradecky:VZ-13160": {
    "doc_url": "https://zakazky.cenakhk.cz/document_download_148437.html"
+  },
+  "profil:kr-kralovehradecky:VZ-13149": {
+   "doc_url": "https://zakazky.cenakhk.cz/document_download_148665.html"
+  },
+  "profil:kr-kralovehradecky:VZ-13177": {
+   "doc_url": "https://zakazky.cenakhk.cz/document_download_148509.html"
   }
  },
  "zpravy": {
@@ -5723,6 +5729,9 @@
   },
   "rvz:RVZ2600113644": {
    "nenalezeno": true
+  },
+  "profil:kr-kralovehradecky:VZ-12808": {
+   "doc_url": "https://zakazky.cenakhk.cz/document_download_148598.html"
   }
  }
 }
