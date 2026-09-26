@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-09-25T13:05:49+00:00",
-  "zd": 521,
+  "updated": "2026-09-26T12:46:28+00:00",
+  "zd": 522,
   "zpravy": 1361,
-  "novych": 3,
+  "novych": 1,
   "errors": []
  },
  "zd": {
@@ -1615,6 +1615,9 @@
   },
   "profil:kr-kralovehradecky:VZ-13177": {
    "doc_url": "https://zakazky.cenakhk.cz/document_download_148509.html"
+  },
+  "rvz:RVZ2600286550": {
+   "doc_url": "https://api.tenderarena.cz/ta/profil/stahovani-dokumentu/dokument/6495925"
   }
  },
  "zpravy": {
