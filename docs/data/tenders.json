@@ -125316,32 +125316,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600112194",
-  "source": "profil:vysoke-myto",
-  "title": "Domov pro seniory, Žižkova 913 - úpravy střešního pláště",
-  "authority": "Město Vysoké Mýto",
-  "authority_ico": "00279773",
-  "cpv": [
-   "45261000"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-07-23",
-  "deadline": "2026-08-03T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00023358",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 39,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600112196",
   "source": "profil:vysoke-myto",
   "title": "MěÚ, Jiráskova 179 - obnova střešního pláště",
@@ -125355,6 +125329,32 @@
   "published": "2026-07-23",
   "deadline": "2026-08-03T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00023352",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 39,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600112194",
+  "source": "profil:vysoke-myto",
+  "title": "Domov pro seniory, Žižkova 913 - úpravy střešního pláště",
+  "authority": "Město Vysoké Mýto",
+  "authority_ico": "00279773",
+  "cpv": [
+   "45261000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-07-23",
+  "deadline": "2026-08-03T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00023358",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -130773,7 +130773,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": 45,
   "loc_unknown": false
  },
@@ -130800,7 +130800,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 49,
   "loc_unknown": false
  },
@@ -130826,7 +130826,7 @@
   "kw_match": true,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
   "loc_unknown": false
  },
@@ -130852,7 +130852,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
   "loc_unknown": false
  },
@@ -130878,7 +130878,7 @@
   "kw_match": true,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
   "loc_unknown": false
  },
@@ -131247,32 +131247,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600285102",
-  "source": "profil:nachod",
-  "title": "Zvířecí útulek Náchod",
-  "authority": "Město Náchod",
-  "authority_ico": "00272868",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-09-21",
-  "deadline": "2026-10-08T10:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00030369",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 37,
-  "loc_unknown": false
- },
- {
   "id": "profil:kr-pardubicky:VZ-6172",
   "source": "profil:kr-pardubicky",
   "title": "Rehabilitační ústav Brandýs nad Orlicí, výstavba nové budovy, KRANIOPROGRAM",
@@ -131373,6 +131347,32 @@
   "no_value": true,
   "expired": false,
   "dist_km": 38,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600285102",
+  "source": "profil:nachod",
+  "title": "Zvířecí útulek Náchod",
+  "authority": "Město Náchod",
+  "authority_ico": "00272868",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-21",
+  "deadline": "2026-10-16T10:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00030369",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 37,
   "loc_unknown": false
  },
  {
