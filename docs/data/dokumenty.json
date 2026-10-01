@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-09-30T15:25:09+00:00",
-  "zd": 522,
-  "zpravy": 1361,
-  "novych": 0,
+  "updated": "2026-10-01T14:02:43+00:00",
+  "zd": 525,
+  "zpravy": 1362,
+  "novych": 2,
   "errors": []
  },
  "zd": {
@@ -1618,6 +1618,15 @@
   },
   "rvz:RVZ2600286550": {
    "doc_url": "https://api.tenderarena.cz/ta/profil/stahovani-dokumentu/dokument/6495925"
+  },
+  "rvz:RVZ2600287945": {
+   "doc_url": "https://api.tenderarena.cz/ta/profil/stahovani-dokumentu/dokument/6513050"
+  },
+  "rvz:RVZ2600287932": {
+   "nenalezeno": true
+  },
+  "profil:pvu:45242704:P26V00006173": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3919625"
   }
  },
  "zpravy": {
@@ -5735,6 +5744,9 @@
   },
   "profil:kr-kralovehradecky:VZ-12808": {
    "doc_url": "https://zakazky.cenakhk.cz/document_download_148598.html"
+  },
+  "profil:pvu:00272132:P26V00006123": {
+   "nenalezeno": true
   }
  }
 }

@@ -384,6 +384,36 @@
   "url": "https://www.tenderarena.cz/profily/hradeckralove"
  },
  {
+  "id": "profil:pvu:00272132:P26V00006123",
+  "source": "profil:pvu:00272132",
+  "title": "Odstranění havárie mostu 073-M1 Roškopov",
+  "authority": "Obec Stará Paka",
+  "authority_ico": "00272132",
+  "winner": "SETTER, a.s.",
+  "winner_ico": "25920031",
+  "awarded": "2026-09-01",
+  "price_contracted": 607404.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 41,
+  "loc_unknown": false,
+  "cpv": [
+   "45300000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.vhodne-uverejneni.cz/profil/00272132",
+  "bidders": [
+   {
+    "nazev": "SETTER, a.s.",
+    "ico": "25920031",
+    "cena": 607404.0,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2600106643",
   "source": "profil:hradec-kralove",
   "title": "Dodávka trampolín a pískoviště, Hradec Králové",

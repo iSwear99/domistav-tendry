@@ -122587,6 +122587,41 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00272132:P26V00005868",
+  "source": "profil:pvu:00272132",
+  "title": "Stará Paka MŠ - oprava povrchů",
+  "authority": "Obec Stará Paka",
+  "authority_ico": "00272132",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-13",
+  "deadline": "2026-07-01T10:42:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00272132",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "SETTER, a.s.",
+    "ico": "25920031",
+    "cena": 1630000.0,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 41,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600088983",
   "source": "isvz",
   "nen_id": "",
@@ -125316,32 +125351,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600112196",
-  "source": "profil:vysoke-myto",
-  "title": "MěÚ, Jiráskova 179 - obnova střešního pláště",
-  "authority": "Město Vysoké Mýto",
-  "authority_ico": "00279773",
-  "cpv": [
-   "45261000"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-07-23",
-  "deadline": "2026-08-03T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00023352",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 39,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600112194",
   "source": "profil:vysoke-myto",
   "title": "Domov pro seniory, Žižkova 913 - úpravy střešního pláště",
@@ -125355,6 +125364,32 @@
   "published": "2026-07-23",
   "deadline": "2026-08-03T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00023358",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 39,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600112196",
+  "source": "profil:vysoke-myto",
+  "title": "MěÚ, Jiráskova 179 - obnova střešního pláště",
+  "authority": "Město Vysoké Mýto",
+  "authority_ico": "00279773",
+  "cpv": [
+   "45261000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-07-23",
+  "deadline": "2026-08-03T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00023352",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -125459,6 +125494,60 @@
   "no_value": false,
   "expired": true,
   "dist_km": 45,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00275301:P26V00006189",
+  "source": "profil:pvu:00275301",
+  "title": "Sanace spodní stavby městského úřadu Rokytnice v Orlických horách",
+  "authority": "Město Rokytnice v Orlických horách",
+  "authority_ico": "00275301",
+  "cpv": [
+   "45211100"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-01",
+  "deadline": "2026-08-03T14:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00275301",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 48,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00275301:P26V00006190",
+  "source": "profil:pvu:00275301",
+  "title": "Rekonstrukce vytápění Městského úřadu Rokytnice v Orlických horách",
+  "authority": "Město Rokytnice v Orlických horách",
+  "authority_ico": "00275301",
+  "cpv": [
+   "45331100"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-01",
+  "deadline": "2026-08-03T14:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00275301",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 48,
   "loc_unknown": false
  },
  {
@@ -125819,6 +125908,80 @@
   "expired": true,
   "dist_km": 4,
   "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:64811069:P26V00004769",
+  "source": "profil:pvu:64811069",
+  "title": "ČSA 300- oprava střechy",
+  "authority": "Správa nemovitostí Hradec Králové, příspěvková organizace",
+  "authority_ico": "64811069",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-07-20",
+  "deadline": "2026-08-05T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/64811069",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true
+ },
+ {
+  "id": "profil:pvu:64811069:P26V00004875",
+  "source": "profil:pvu:64811069",
+  "title": "Dlouhá 100 - oprava fasády do dvorka",
+  "authority": "Správa nemovitostí Hradec Králové, příspěvková organizace",
+  "authority_ico": "64811069",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-07-21",
+  "deadline": "2026-08-05T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/64811069",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Milan Pavlíček - Interman",
+    "ico": "16278755",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "VODIZOL, s.r.o.",
+    "ico": "25929828",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "EVOSTA s.r.o.",
+    "ico": "03054225",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true
  },
  {
   "id": "rvz:RVZ2600105880",
@@ -128038,10 +128201,18 @@
   "deadline": "2026-08-31T10:00:00",
   "url": "https://www.vhodne-uverejneni.cz/profil/00275492",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "ŠTĚPÁNEK, spol. s r.o.",
+    "ico": "45535124",
+    "cena": 1163854.0,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -130747,6 +130918,41 @@
   "loc_unknown": true
  },
  {
+  "id": "profil:pvu:00272132:P26V00006123",
+  "source": "profil:pvu:00272132",
+  "title": "Odstranění havárie mostu 073-M1 Roškopov",
+  "authority": "Obec Stará Paka",
+  "authority_ico": "00272132",
+  "cpv": [
+   "45300000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-27",
+  "deadline": "2026-09-27T11:21:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00272132",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "SETTER, a.s.",
+    "ico": "25920031",
+    "cena": 607404.0,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 41,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600065566",
   "source": "isvz",
   "nen_id": "",
@@ -130907,7 +131113,7 @@
   "kw_match": true,
   "no_nuts": true,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -130941,7 +131147,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": 4,
   "loc_unknown": false
  },
@@ -130967,7 +131173,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 17,
   "loc_unknown": false
  },
@@ -130994,7 +131200,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -131020,8 +131226,43 @@
   "kw_match": true,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 43,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00272132:P26V00006180",
+  "source": "profil:pvu:00272132",
+  "title": "Stará Paka - opravy, stavební práce",
+  "authority": "Obec Stará Paka",
+  "authority_ico": "00272132",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-30",
+  "deadline": "2026-09-30T16:23:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00272132",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "M - SILNICE a.s.",
+    "ico": "42196868",
+    "cena": 1345893.66,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 41,
   "loc_unknown": false
  },
  {
@@ -131071,6 +131312,33 @@
   "expired": false,
   "dist_km": null,
   "loc_unknown": true
+ },
+ {
+  "id": "profil:pvu:00276731:P26V00006191",
+  "source": "profil:pvu:00276731",
+  "title": "Rekonstrukce lesní cesty - Modřinka - II. etapa",
+  "authority": "Obec Janov",
+  "authority_ico": "00276731",
+  "cpv": [
+   "45233123"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-01",
+  "deadline": "2026-10-01T11:38:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00276731",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": true,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 37,
+  "loc_unknown": false
  },
  {
   "id": "rvz:RVZ2600109815",
@@ -131410,6 +131678,30 @@
   "loc_unknown": true
  },
  {
+  "id": "rvz:RVZ2600287945",
+  "source": "profil:hradec-kralove",
+  "title": "Komenského 1214 - Zimní stadion hala A - rozšíření sektorů na sezení včetně projektové dokumentace",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-01",
+  "deadline": "2026-10-21T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600113957",
   "source": "profil:pardubice",
   "title": "Útulek pro psy a služebna městské policie - lokalita Popkovice",
@@ -131538,6 +131830,59 @@
   "no_value": true,
   "expired": false,
   "dist_km": 38,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600287932",
+  "source": "profil:hradec-kralove",
+  "title": "Svatojánská 682 a 683 – zateplení fasád včetně souvisejících prací",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [
+   "45453000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-01",
+  "deadline": "2026-11-02T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:45242704:P26V00006173",
+  "source": "profil:pvu:45242704",
+  "title": "Základní škola speciální a praktická škola ve Dvoře Králové nad Labem",
+  "authority": "Diakonie Českobratrské církve evangelické",
+  "authority_ico": "45242704",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-30",
+  "deadline": "2026-11-03T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/diakonie-ceskobratrske-cirkve-evangelicke",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 26,
   "loc_unknown": false
  },
  {

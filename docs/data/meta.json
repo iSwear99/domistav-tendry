@@ -1,29 +1,24 @@
 {
- "updated": "2026-09-30T15:25:09+00:00",
+ "updated": "2026-10-01T14:02:18+00:00",
  "counts": {
-  "total": 6597,
-  "vz": 3749,
-  "vzmr": 2848,
-  "active": 41,
+  "total": 6608,
+  "vz": 3751,
+  "vzmr": 2857,
+  "active": 39,
   "changed": 87,
-  "competition": 1361,
+  "competition": 1362,
   "previous": 6597
  },
  "errors": [
-  "profil:kr-kralovehradecky: Stažení selhalo: https://zakazky.cenakhk.cz/profile_display_2.html/XMLdataVZ?od=02072026&do=30092026: <urlopen error timed out>",
-  "profil:kr-pardubicky: Stažení selhalo: https://zakazky.pardubickykraj.cz/profile_display_2.html/XMLdataVZ?od=02072026&do=30092026: <urlopen error timed out>",
-  "profil:trutnov: Stažení selhalo: https://zakazky.trutnov.cz/profile_display_2.html/XMLdataVZ?od=02072026&do=30092026: <urlopen error timed out>",
-  "profil:rychnov-nk: Stažení selhalo: https://zakazky.rychnov-city.cz/profile_display_2.html/XMLdataVZ?od=02072026&do=30092026: <urlopen error timed out>",
-  "profil:chrudim: Stažení selhalo: https://zakazky.chrudim-city.cz/profile_display_2.html/XMLdataVZ?od=02072026&do=30092026: <urlopen error timed out>",
-  "profil:usti-no: Stažení selhalo: https://zakazky.muuo.cz/profile_display_2.html/XMLdataVZ?od=02072026&do=30092026: <urlopen error _ssl.c:983: The handshake operation timed out>",
-  "profil:dobruska: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274879/XMLdataVZ?od=02072026&do=30092026: <urlopen error timed out>",
-  "profil:vrchlabi: Stažení selhalo: https://zakazky.muvrchlabi.cz/profile_display_2.html/XMLdataVZ?od=02072026&do=30092026: <urlopen error timed out>",
-  "profil:holice: Stažení selhalo: https://zakazky.mestoholice.cz/XMLdataVZ?od=02072026&do=30092026&profil=2: <urlopen error timed out>",
-  "profil:prelouc: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274101/XMLdataVZ?od=02072026&do=30092026: <urlopen error timed out>",
-  "profil:hronov: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00272680/XMLdataVZ?od=02072026&do=30092026: <urlopen error timed out>",
-  "profil:vamberk: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00275492/XMLdataVZ?od=02072026&do=30092026: <urlopen error timed out>",
-  "profil:john-nell-baby: Stažení selhalo: https://zakazky.navigaassistance.cz/XMLdataVZ?od=02072026&do=30092026: <urlopen error timed out>",
-  "profil:lodin: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/obec-lodin/XMLdataVZ?od=02072026&do=30092026: <urlopen error timed out>",
-  "pvu: RSS nedostupné: Stažení selhalo: https://www.vhodne-uverejneni.cz/rss/zakazky: <urlopen error timed out>"
+  "profil:kr-kralovehradecky: Stažení selhalo: https://zakazky.cenakhk.cz/profile_display_2.html/XMLdataVZ?od=03072026&do=01102026: <urlopen error timed out>",
+  "profil:kr-pardubicky: Stažení selhalo: https://zakazky.pardubickykraj.cz/profile_display_2.html/XMLdataVZ?od=03072026&do=01102026: <urlopen error timed out>",
+  "profil:trutnov: Stažení selhalo: https://zakazky.trutnov.cz/profile_display_2.html/XMLdataVZ?od=03072026&do=01102026: <urlopen error timed out>",
+  "profil:rychnov-nk: Stažení selhalo: https://zakazky.rychnov-city.cz/profile_display_2.html/XMLdataVZ?od=03072026&do=01102026: <urlopen error timed out>",
+  "profil:chrudim: Stažení selhalo: https://zakazky.chrudim-city.cz/profile_display_2.html/XMLdataVZ?od=03072026&do=01102026: <urlopen error timed out>",
+  "profil:usti-no: Stažení selhalo: https://zakazky.muuo.cz/profile_display_2.html/XMLdataVZ?od=03072026&do=01102026: <urlopen error timed out>",
+  "profil:dvur-kralove: Stažení selhalo: https://zakazky.mudk.cz/profile_display_2.html/XMLdataVZ?od=03072026&do=01102026: <urlopen error timed out>",
+  "profil:vrchlabi: Stažení selhalo: https://zakazky.muvrchlabi.cz/profile_display_2.html/XMLdataVZ?od=03072026&do=01102026: <urlopen error timed out>",
+  "profil:holice: Stažení selhalo: https://zakazky.mestoholice.cz/XMLdataVZ?od=03072026&do=01102026&profil=2: <urlopen error timed out>",
+  "profil:john-nell-baby: Stažení selhalo: https://zakazky.navigaassistance.cz/XMLdataVZ?od=03072026&do=01102026: <urlopen error timed out>"
  ]
 }
