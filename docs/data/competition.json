@@ -1,5 +1,168 @@
 [
  {
+  "id": "profil:trutnov:VZ-1853",
+  "source": "profil:trutnov",
+  "title": "Dělnická 161 stavební úpravy",
+  "authority": "Město Trutnov",
+  "authority_ico": "00278360",
+  "winner": "Bc. Martin Serbousek",
+  "winner_ico": "06742599",
+  "awarded": "2026-09-29",
+  "price_contracted": 4820369.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "cpv": [
+   "45211000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://zakazky.trutnov.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "ANTON A SYN s.r.o.",
+    "ico": "04881681",
+    "cena": 6776550.37,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Bc. Martin Serbousek",
+    "ico": "06742599",
+    "cena": 4820368.61,
+    "vyloucen": false
+   },
+   {
+    "nazev": "DOMIKON STAV s.r.o.",
+    "ico": "23608820",
+    "cena": 5403147.2,
+    "vyloucen": false
+   },
+   {
+    "nazev": "INFRASTAV s.r.o.",
+    "ico": "27511677",
+    "cena": 5868058.04,
+    "vyloucen": false
+   },
+   {
+    "nazev": "J. Pišta a spol., společnost s r.o.",
+    "ico": "00578894",
+    "cena": 6016956.17,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Kalin, spol. s r.o.",
+    "ico": "25607782",
+    "cena": 5697624.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "OKTA GROUP s.r.o.",
+    "ico": "06898769",
+    "cena": 4864761.2,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SILUS s.r.o.",
+    "ico": "08197784",
+    "cena": 7880362.08,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STAVEBNĚ DOPRAVNÍ TRUTNOV s.r.o.",
+    "ico": "64255352",
+    "cena": 6221983.32,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
+  "id": "profil:kr-kralovehradecky:VZ-12356",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Oblastní nemocnice Jičín – pavilon psychiatrie – stavební práce",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "winner": "KAMI PROFIT, s.r.o., odštěpný závod",
+  "winner_ico": "05264758",
+  "awarded": "2026-09-23",
+  "price_contracted": 429457318.66,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 38,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "BAK stavební společnost, a.s.",
+    "ico": "28402758",
+    "cena": 525000000.21,
+    "vyloucen": true
+   },
+   {
+    "nazev": "BBP Stavby s.r.o.",
+    "ico": "03875199",
+    "cena": 438934709.51,
+    "vyloucen": false
+   },
+   {
+    "nazev": "CL-EVANS s.r.o.",
+    "ico": "26768607",
+    "cena": 505906414.34,
+    "vyloucen": true
+   },
+   {
+    "nazev": "ESOX, spol. s r.o.",
+    "ico": "00558010",
+    "cena": 409127580.05,
+    "vyloucen": true
+   },
+   {
+    "nazev": "KAMI PROFIT, s.r.o., odštěpný závod",
+    "ico": "05264758",
+    "cena": 429457318.66,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MBQ s.r.o.",
+    "ico": "24247677",
+    "cena": 559944444.15,
+    "vyloucen": true
+   },
+   {
+    "nazev": "ODU - trade s. r. o.",
+    "ico": "50350421",
+    "cena": 436536876.2,
+    "vyloucen": true
+   },
+   {
+    "nazev": "OHLA ŽS, a.s.",
+    "ico": "46342796",
+    "cena": 520109931.0,
+    "vyloucen": true
+   },
+   {
+    "nazev": "PSG Construction a.s.",
+    "ico": "05042020",
+    "cena": 463132077.0,
+    "vyloucen": true
+   },
+   {
+    "nazev": "VW WACHAL a.s.",
+    "ico": "25567225",
+    "cena": 482347579.42,
+    "vyloucen": true
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39657037"
+ },
+ {
   "id": "profil:kr-kralovehradecky:VZ-12404",
   "source": "profil:kr-kralovehradecky",
   "title": "Oblastní nemocnice Náchod – II. etapa modernizace a dostavby zajištění výkonu TDS a BOZP",
@@ -11807,7 +11970,8 @@
     "cena": 2502416.18,
     "vyloucen": false
    }
-  ]
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/38073833"
  },
  {
   "id": "profil:trutnov:VZ-1774",

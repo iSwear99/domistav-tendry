@@ -1,10 +1,12 @@
 {
  "meta": {
-  "updated": "2026-10-01T14:02:43+00:00",
-  "zd": 525,
-  "zpravy": 1362,
-  "novych": 2,
-  "errors": []
+  "updated": "2026-10-02T11:56:06+00:00",
+  "zd": 537,
+  "zpravy": 1364,
+  "novych": 10,
+  "errors": [
+   "dokumenty rvz:RVZ2600288346: soubor přes limit velikosti"
+  ]
  },
  "zd": {
   "rvz:RVZ2600078991": {
@@ -1627,6 +1629,43 @@
   },
   "profil:pvu:45242704:P26V00006173": {
    "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3919625"
+  },
+  "rvz:RVZ2600288340": {
+   "doc_url": "https://nen.nipez.cz/file?id=4774575948"
+  },
+  "profil:kr-kralovehradecky:VZ-13193": {
+   "doc_url": "https://zakazky.cenakhk.cz/document_download_149050.html"
+  },
+  "profil:pvu:00843113:P26V00006214": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3921654"
+  },
+  "rvz:RVZ2600288161": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600288201": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600288308": {
+   "nenalezeno": true
+  },
+  "profil:kr-pardubicky:VZ-6426": {
+   "doc_url": "https://zakazky.pardubickykraj.cz/document_download_62322.html"
+  },
+  "rvz:RVZ2600288346": {
+   "doc_url": "https://nen.nipez.cz/file?id=4774595431",
+   "chyba": "soubor přes limit velikosti"
+  },
+  "rvz:RVZ2600288257": {
+   "doc_url": "https://api.tenderarena.cz/ta/profil/stahovani-dokumentu/dokument/6516564"
+  },
+  "profil:pvu:27801454:P26V00006182": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3920910"
+  },
+  "profil:pvu:00231185:P26V00006215": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3921666"
+  },
+  "profil:kr-pardubicky:VZ-6453": {
+   "doc_url": "https://zakazky.pardubickykraj.cz/document_download_62228.html"
   }
  },
  "zpravy": {
@@ -5747,6 +5786,12 @@
   },
   "profil:pvu:00272132:P26V00006123": {
    "nenalezeno": true
+  },
+  "profil:trutnov:VZ-1853": {
+   "nenalezeno": true
+  },
+  "profil:kr-kralovehradecky:VZ-12356": {
+   "doc_url": "https://zakazky.cenakhk.cz/document_download_148896.html"
   }
  }
 }

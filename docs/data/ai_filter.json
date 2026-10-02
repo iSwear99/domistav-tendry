@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-01T14:02:44+00:00",
+  "updated": "2026-10-02T11:56:07+00:00",
   "model": "claude-opus-5",
   "posouzeno_nyni": 0,
   "celkem": 455,
@@ -10,8 +10,8 @@
    "nejisto": 84
   },
   "errors": [
-   "AI dávka 0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cfbe9QpFvgnL1SazoFrKp'}",
-   "AI dávka 1: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cfbe9RzSWCg28xXuApiFo'}"
+   "AI dávka 0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfdNJNTXLLuAX6CaaAorJ'}",
+   "AI dávka 1: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfdNJPbiwhvUv4LmGhVzL'}"
   ]
  },
  "verdikty": {
