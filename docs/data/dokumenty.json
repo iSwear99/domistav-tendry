@@ -1,12 +1,10 @@
 {
  "meta": {
-  "updated": "2026-10-02T11:56:06+00:00",
+  "updated": "2026-10-03T12:45:06+00:00",
   "zd": 537,
   "zpravy": 1364,
-  "novych": 10,
-  "errors": [
-   "dokumenty rvz:RVZ2600288346: soubor přes limit velikosti"
-  ]
+  "novych": 0,
+  "errors": []
  },
  "zd": {
   "rvz:RVZ2600078991": {

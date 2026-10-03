@@ -1,13 +1,25 @@
 {
- "updated": "2026-10-02T11:52:23+00:00",
+ "updated": "2026-10-03T12:45:05+00:00",
  "counts": {
   "total": 6621,
   "vz": 3753,
   "vzmr": 2868,
-  "active": 52,
+  "active": 51,
   "changed": 88,
   "competition": 1364,
-  "previous": 6608
+  "previous": 6621
  },
- "errors": []
+ "errors": [
+  "profil:kr-kralovehradecky: Stažení selhalo: https://zakazky.cenakhk.cz/profile_display_2.html/XMLdataVZ?od=05072026&do=03102026: <urlopen error timed out>",
+  "profil:kr-pardubicky: Stažení selhalo: https://zakazky.pardubickykraj.cz/profile_display_2.html/XMLdataVZ?od=05072026&do=03102026: <urlopen error timed out>",
+  "profil:trutnov: Stažení selhalo: https://zakazky.trutnov.cz/profile_display_2.html/XMLdataVZ?od=05072026&do=03102026: <urlopen error timed out>",
+  "profil:rychnov-nk: Stažení selhalo: https://zakazky.rychnov-city.cz/profile_display_2.html/XMLdataVZ?od=05072026&do=03102026: <urlopen error timed out>",
+  "profil:chrudim: Stažení selhalo: https://zakazky.chrudim-city.cz/profile_display_2.html/XMLdataVZ?od=05072026&do=03102026: <urlopen error timed out>",
+  "profil:usti-no: Stažení selhalo: https://zakazky.muuo.cz/profile_display_2.html/XMLdataVZ?od=05072026&do=03102026: <urlopen error timed out>",
+  "profil:dvur-kralove: Stažení selhalo: https://zakazky.mudk.cz/profile_display_2.html/XMLdataVZ?od=05072026&do=03102026: <urlopen error timed out>",
+  "profil:vrchlabi: Stažení selhalo: https://zakazky.muvrchlabi.cz/profile_display_2.html/XMLdataVZ?od=05072026&do=03102026: <urlopen error timed out>",
+  "profil:holice: Stažení selhalo: https://zakazky.mestoholice.cz/XMLdataVZ?od=05072026&do=03102026&profil=2: <urlopen error timed out>",
+  "profil:john-nell-baby: Stažení selhalo: https://zakazky.navigaassistance.cz/XMLdataVZ?od=05072026&do=03102026: <urlopen error timed out>",
+  "pvu: /externi-zakazka/fjfi-kf-2026-27-notebook: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/fjfi-kf-2026-27-notebook: HTTP Error 401: Unauthorized"
+ ]
 }
