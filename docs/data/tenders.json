@@ -68630,6 +68630,30 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2600061379",
+  "source": "profil:hradec-kralove",
+  "title": "Doplnění workoutové sestavy do areálu Šrámkova statku",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2024-06-11",
+  "deadline": "2024-07-04T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2500064558",
   "source": "isvz",
   "nen_id": "",
@@ -73748,6 +73772,30 @@
   "kind": "VZ",
   "kw_match": true,
   "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600055002",
+  "source": "profil:hradec-kralove",
+  "title": "Sídliště Podzámčí, zóna s omezením dopravy, přechod Sekaninova v Hradci Králové",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2024-08-21",
+  "deadline": "2024-09-13T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
   "no_value": true,
   "expired": true,
   "dist_km": 4,
@@ -82230,7 +82278,40 @@
   "no_value": false,
   "expired": true,
   "dist_km": 19,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "bidders": [
+   {
+    "nazev": "UNISTAV CONSTRUCTION a.s.",
+    "ico": "03902447",
+    "cena": 83444444.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STAVITELSTVÍ - TRUNEC s.r.o.",
+    "ico": "27528545",
+    "cena": 88791089.03,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MARHOLD a.s.",
+    "ico": "15050050",
+    "cena": 86604249.63,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stavby-Eda s.r.o.",
+    "ico": "08600813",
+    "cena": 78413254.28,
+    "vyloucen": false
+   },
+   {
+    "nazev": "S T A K O společnost s ručením omezeným",
+    "ico": "42228468",
+    "cena": 90964505.8,
+    "vyloucen": false
+   }
+  ],
+  "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-24-V00038800"
  },
  {
   "id": "rvz:RVZ2500010847",
@@ -116926,10 +117007,24 @@
   "deadline": "2026-05-07T00:00:00",
   "url": "https://www.tenderarena.cz/profily/hradeckralove",
   "place": "",
-  "state": "zahájen",
+  "state": "ukončeno plnění",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Aricoma Systems a.s.",
+    "ico": "04308697",
+    "cena": 1678000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "CSF, s.r.o.",
+    "ico": "25289462",
+    "cena": 1980099.0,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -125413,32 +125508,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600112194",
-  "source": "profil:vysoke-myto",
-  "title": "Domov pro seniory, Žižkova 913 - úpravy střešního pláště",
-  "authority": "Město Vysoké Mýto",
-  "authority_ico": "00279773",
-  "cpv": [
-   "45261000"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-07-23",
-  "deadline": "2026-08-03T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00023358",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 39,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600112196",
   "source": "profil:vysoke-myto",
   "title": "MěÚ, Jiráskova 179 - obnova střešního pláště",
@@ -125452,6 +125521,32 @@
   "published": "2026-07-23",
   "deadline": "2026-08-03T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00023352",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 39,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600112194",
+  "source": "profil:vysoke-myto",
+  "title": "Domov pro seniory, Žižkova 913 - úpravy střešního pláště",
+  "authority": "Město Vysoké Mýto",
+  "authority_ico": "00279773",
+  "cpv": [
+   "45261000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-07-23",
+  "deadline": "2026-08-03T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00023358",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -125778,7 +125873,57 @@
   "expired": true,
   "profile_url": "https://zakazky.chrudim-city.cz/profile_display_2.html",
   "dist_km": 28,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "bidders": [
+   {
+    "nazev": "ANARKADA s.r.o.",
+    "ico": "05291411",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Kurštejn stavební a obchodní firma s.r.o.",
+    "ico": "28762576",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "NATUR HOUSE s.r.o.",
+    "ico": "28776585",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Nema Dřevostavby s.r.o.",
+    "ico": "04627687",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SL HOLDING CZ s.r.o.",
+    "ico": "28823001",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STATING s.r.o.",
+    "ico": "25963864",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TSM design s.r.o.",
+    "ico": "06544754",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "VIKTORSTAV s.r.o.",
+    "ico": "25618091",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600111357",
@@ -125898,10 +126043,36 @@
   "deadline": "2026-08-05T10:00:00",
   "url": "https://www.tenderarena.cz/profily/hradeckralove",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Gating Services, a.s.",
+    "ico": "28999894",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Trade FIDES, a.s.",
+    "ico": "61974731",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "F1 facility CZ  s. r. o.",
+    "ico": "04462319",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ASTOR-KOMPLEX s.r.o.",
+    "ico": "47469781",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -132066,6 +132237,33 @@
   "expired": false,
   "dist_km": 4,
   "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00879746:P26V00006239",
+  "source": "profil:pvu:00879746",
+  "title": "\"Oprava bytové jednotky č. 5, ul. Lysinská 1756/32\".",
+  "authority": "Správa bytových objektů Praha - Modřany, příspěvková organizace",
+  "authority_ico": "00879746",
+  "cpv": [
+   "45453000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-05",
+  "deadline": "2026-10-20T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/sprava-bytovych-objektu-praha-modrany-prispevkova-organizace",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": null,
+  "loc_unknown": true
  },
  {
   "id": "rvz:RVZ2600287945",
@@ -210764,6 +210962,33 @@
   "no_value": true,
   "expired": false,
   "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00831590:P26V00006228",
+  "source": "profil:pvu:00831590",
+  "title": "Sportovně naučná stezka – Chotovice (etapa II)",
+  "authority": "Obec Chotovice",
+  "authority_ico": "00831590",
+  "cpv": [
+   "45212140"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-04",
+  "deadline": "",
+  "url": "https://www.vhodne-uverejneni.cz/profil/obec-chotovice",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 32,
   "loc_unknown": false
  }
 ]

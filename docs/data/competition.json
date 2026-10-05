@@ -78,6 +78,79 @@
   ]
  },
  {
+  "id": "profil:chrudim:VZ-520",
+  "source": "profil:chrudim",
+  "title": "ZŠ Dr. Malíka – rozšíření kapacity školy",
+  "authority": "Město Chrudim",
+  "authority_ico": "00270211",
+  "winner": "NATUR HOUSE s.r.o.",
+  "winner_ico": "28776585",
+  "awarded": "2026-09-29",
+  "price_contracted": 36932790.5,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 28,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://zakazky.chrudim-city.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "ANARKADA s.r.o.",
+    "ico": "05291411",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Kurštejn stavební a obchodní firma s.r.o.",
+    "ico": "28762576",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "NATUR HOUSE s.r.o.",
+    "ico": "28776585",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Nema Dřevostavby s.r.o.",
+    "ico": "04627687",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SL HOLDING CZ s.r.o.",
+    "ico": "28823001",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STATING s.r.o.",
+    "ico": "25963864",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TSM design s.r.o.",
+    "ico": "06544754",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "VIKTORSTAV s.r.o.",
+    "ico": "25618091",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39764429"
+ },
+ {
   "id": "profil:kr-kralovehradecky:VZ-12356",
   "source": "profil:kr-kralovehradecky",
   "title": "Oblastní nemocnice Jičín – pavilon psychiatrie – stavební práce",
@@ -7543,6 +7616,40 @@
     "nazev": "Markovo s.r.o.",
     "ico": "09067086",
     "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
+  "id": "rvz:RVZ2600078855",
+  "source": "profil:hradec-kralove",
+  "title": "Dodávka diskového úložiště s NAS službami",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "winner": "Aricoma Systems a.s.",
+  "winner_ico": "04308697",
+  "awarded": "2026-06-19",
+  "price_contracted": null,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "bidders": [
+   {
+    "nazev": "Aricoma Systems a.s.",
+    "ico": "04308697",
+    "cena": 1678000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "CSF, s.r.o.",
+    "ico": "25289462",
+    "cena": 1980099.0,
     "vyloucen": false
    }
   ]
