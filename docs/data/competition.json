@@ -236,6 +236,109 @@
   "registr_url": "https://smlouvy.gov.cz/smlouva/39657037"
  },
  {
+  "id": "rvz:RVZ2600112922",
+  "source": "profil:pardubice",
+  "title": "Areál MAS Dukla – úprava fasády",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "BaZ MACH business s.r.o.",
+  "winner_ico": "11698161",
+  "awarded": "2026-09-23",
+  "price_contracted": null,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45443000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00023780",
+  "bidders": [
+   {
+    "nazev": "PS HOME STAR s.r.o.",
+    "ico": "03221466",
+    "cena": 381018.25,
+    "vyloucen": false
+   },
+   {
+    "nazev": "BaZ MACH business s.r.o.",
+    "ico": "11698161",
+    "cena": 244142.91,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PETRAlaan s.r.o.",
+    "ico": "04157010",
+    "cena": 379557.36,
+    "vyloucen": false
+   },
+   {
+    "nazev": "IngPro Litoměřice, s.r.o.",
+    "ico": "27301176",
+    "cena": 327260.15,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MP Bau s.r.o.",
+    "ico": "24722065",
+    "cena": 416939.04,
+    "vyloucen": false
+   },
+   {
+    "nazev": "EKOLIK, s.r.o.",
+    "ico": "63217511",
+    "cena": 349138.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "RONING spol. s r.o.",
+    "ico": "62028405",
+    "cena": 335014.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "AKVITSTAV s.r.o.",
+    "ico": "07904967",
+    "cena": 373599.32,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Bricky s.r.o.",
+    "ico": "09707352",
+    "cena": 643779.02,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Janek a Danek s.r.o.",
+    "ico": "23977990",
+    "cena": 381161.83,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Concrete Pardubice s.r.o.",
+    "ico": "27461068",
+    "cena": 431963.9,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Holding Construction s.r.o.",
+    "ico": "24628051",
+    "cena": 296332.32,
+    "vyloucen": false
+   },
+   {
+    "nazev": "EVOSTA s.r.o.",
+    "ico": "03054225",
+    "cena": 383098.52,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39654045"
+ },
+ {
   "id": "profil:kr-kralovehradecky:VZ-12404",
   "source": "profil:kr-kralovehradecky",
   "title": "Oblastní nemocnice Náchod – II. etapa modernizace a dostavby zajištění výkonu TDS a BOZP",
@@ -558,6 +661,42 @@
     "nazev": "R E M I N G , s. r. o.",
     "ico": "47454687",
     "cena": 1652700.0,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
+  "id": "rvz:RVZ2600096446",
+  "source": "profil:pardubice",
+  "title": "ZŠ Prodloužená – rekonstrukce odborných učeben - konektivita",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "Vegacom a.s.",
+  "winner_ico": "25788680",
+  "awarded": "2026-09-03",
+  "price_contracted": 3998799.49,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45314300"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00015562",
+  "bidders": [
+   {
+    "nazev": "ElektroMont HB s.r.o.",
+    "ico": "27536441",
+    "cena": 4327510.33,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Vegacom a.s.",
+    "ico": "25788680",
+    "cena": 3998799.49,
     "vyloucen": false
    }
   ]
@@ -9639,7 +9778,7 @@
  },
  {
   "id": "rvz:RVZ2600069670",
-  "source": "isvz",
+  "source": "profil:hradec-kralove",
   "title": "Rekonstrukce větrání sociálních zařízení ZŠ Bezručova",
   "authority": "Statutární město Hradec Králové",
   "authority_ico": "00268810",
@@ -9653,9 +9792,35 @@
   "dist_km": 4,
   "loc_unknown": false,
   "cpv": [],
-  "kind": "VZ",
+  "kind": "VZMR",
   "kw_match": true,
-  "url": "https://tenderarena.cz/dodavatel/zakazka/870472"
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "bidders": [
+   {
+    "nazev": "EVOSTA s.r.o.",
+    "ico": "03054225",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Ing. Pavel Češka",
+    "ico": "63090422",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "FleetCom s.r.o.",
+    "ico": "29135389",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KASTT, spol. s r.o.",
+    "ico": "13583948",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600099599",

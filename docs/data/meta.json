@@ -1,15 +1,20 @@
 {
- "updated": "2026-10-05T13:28:08+00:00",
+ "updated": "2026-10-06T14:43:07+00:00",
  "counts": {
-  "total": 6625,
-  "vz": 3753,
-  "vzmr": 2872,
-  "active": 52,
-  "changed": 88,
-  "competition": 1366,
-  "previous": 6621
+  "total": 6628,
+  "vz": 3751,
+  "vzmr": 2877,
+  "active": 50,
+  "changed": 89,
+  "competition": 1368,
+  "previous": 6625
  },
  "errors": [
-  "pvu: /externi-zakazka/fjfi-kf-2026-27-notebook: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/fjfi-kf-2026-27-notebook: HTTP Error 401: Unauthorized"
+  "profil:dobruska: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274879/XMLdataVZ?od=08072026&do=06102026: <urlopen error timed out>",
+  "profil:prelouc: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274101/XMLdataVZ?od=08072026&do=06102026: <urlopen error timed out>",
+  "profil:hronov: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00272680/XMLdataVZ?od=08072026&do=06102026: <urlopen error timed out>",
+  "profil:vamberk: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00275492/XMLdataVZ?od=08072026&do=06102026: <urlopen error timed out>",
+  "profil:lodin: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/obec-lodin/XMLdataVZ?od=08072026&do=06102026: <urlopen error timed out>",
+  "pvu: RSS nedostupné: Stažení selhalo: https://www.vhodne-uverejneni.cz/rss/zakazky: <urlopen error timed out>"
  ]
 }

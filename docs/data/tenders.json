@@ -93769,6 +93769,62 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2600058504",
+  "source": "profil:hradec-kralove",
+  "title": "Dodávka workoutových prvků do areálu Základní školy Nový Hradec Králové",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2025-05-30",
+  "deadline": "2025-06-17T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "COLMEX s.r.o.",
+    "ico": "29037221",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ONYX wood spol. s r.o.",
+    "ico": "25178644",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Hřiště MATY, s.r.o.",
+    "ico": "24777510",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "AMECO s.r.o.",
+    "ico": "27508277",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Enuma Elis s.r.o.",
+    "ico": "01688260",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2500106936",
   "source": "isvz",
   "nen_id": "N006/25/V00018828",
@@ -95377,6 +95433,80 @@
   "expired": true,
   "dist_km": null,
   "loc_unknown": true
+ },
+ {
+  "id": "rvz:RVZ2600057690",
+  "source": "profil:hradec-kralove",
+  "title": "Dodávka workoutových prvků a skákacího panáka do areálu Základní školy Štefcova v Hradci Králové",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2025-06-17",
+  "deadline": "2025-07-03T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "COLMEX s.r.o.",
+    "ico": "29037221",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Hřiště MATY, s.r.o.",
+    "ico": "24777510",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Enuma Elis s.r.o.",
+    "ico": "01688260",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Studio 21 AP, s.r.o.",
+    "ico": "19423845",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MONOTREND s.r.o.",
+    "ico": "29320313",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ONYX wood spol. s r.o.",
+    "ico": "25178644",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Bonita Group Service s.r.o.",
+    "ico": "27738795",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "AFE TRADE,s.r.o.",
+    "ico": "03469166",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 4,
+  "loc_unknown": false
  },
  {
   "id": "rvz:RVZ2500208654",
@@ -98579,33 +98709,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600001874",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Rekonstrukce osvětlení plochy na tréninkovém hřišti Malšovice v Hradci Králové",
-  "authority": "Statutární město Hradec Králové",
-  "authority_ico": "00268810",
-  "cpv": [],
-  "nuts": [],
-  "value": null,
-  "published": "",
-  "deadline": "2025-08-06T10:00:00",
-  "url": "https://tenderarena.cz/dodavatel/zakazka/814516",
-  "place": "",
-  "authority_seat": "Československé armády 408/51, 50003 Hradec Králové",
-  "authority_profile": "",
-  "state": "Dokončen/Zadán",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": true,
-  "no_nuts": true,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 4,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2500094944",
   "source": "isvz",
   "nen_id": "",
@@ -98636,6 +98739,56 @@
   "no_value": false,
   "expired": true,
   "dist_km": 7,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600001874",
+  "source": "profil:hradec-kralove",
+  "title": "Rekonstrukce osvětlení plochy na tréninkovém hřišti Malšovice v Hradci Králové",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2025-07-21",
+  "deadline": "2025-08-06T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Colmark trade s.r.o.",
+    "ico": "28637011",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ELEKTRO MOSEV spol. s r.o.",
+    "ico": "42228573",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ZG Lighting Czech Republic s.r.o.",
+    "ico": "25700588",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ElektroMont HB s.r.o.",
+    "ico": "27536441",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 4,
   "loc_unknown": false
  },
  {
@@ -112955,33 +113108,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600069670",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Rekonstrukce větrání sociálních zařízení ZŠ Bezručova",
-  "authority": "Statutární město Hradec Králové",
-  "authority_ico": "00268810",
-  "cpv": [],
-  "nuts": [],
-  "value": null,
-  "published": "",
-  "deadline": "2026-03-25T10:00:00",
-  "url": "https://tenderarena.cz/dodavatel/zakazka/870472",
-  "place": "",
-  "authority_seat": "Československé armády 408/51, 50003 Hradec Králové",
-  "authority_profile": "",
-  "state": "Dokončen/Zadán",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": true,
-  "no_nuts": true,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 4,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600065252",
   "source": "isvz",
   "nen_id": "",
@@ -113063,6 +113189,56 @@
   "no_value": true,
   "expired": true,
   "dist_km": 18,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600069670",
+  "source": "profil:hradec-kralove",
+  "title": "Rekonstrukce větrání sociálních zařízení ZŠ Bezručova",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2026-03-09",
+  "deadline": "2026-03-25T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "EVOSTA s.r.o.",
+    "ico": "03054225",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Ing. Pavel Češka",
+    "ico": "63090422",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "FleetCom s.r.o.",
+    "ico": "29135389",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KASTT, spol. s r.o.",
+    "ico": "13583948",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 4,
   "loc_unknown": false
  },
  {
@@ -114724,7 +114900,7 @@
   "deadline": "2026-04-10T10:00:00",
   "url": "https://www.tenderarena.cz/profily/hradeckralove",
   "place": "",
-  "state": "dokončen",
+  "state": "ukončeno plnění",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
@@ -119828,46 +120004,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600096709",
-  "source": "profil:pardubice",
-  "title": "Areál Dostihového závodiště – zpevněná plocha",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45212200"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-05-25",
-  "deadline": "2026-06-08T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00015838",
-  "place": "",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "bidders": [
-   {
-    "nazev": "TERESTAV s.r.o.",
-    "ico": "17757002",
-    "cena": 528735.63,
-    "vyloucen": false
-   },
-   {
-    "nazev": "RONING spol. s r.o.",
-    "ico": "62028405",
-    "cena": 494500.0,
-    "vyloucen": false
-   }
-  ],
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600096708",
   "source": "profil:pardubice",
   "title": "Seniorcentrum, Pospíšilovo nám. 1693 – oprava zázemí",
@@ -119939,6 +120075,46 @@
     "nazev": "Brickwork s.r.o.",
     "ico": "04049217",
     "cena": 950000.0,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600096709",
+  "source": "profil:pardubice",
+  "title": "Areál Dostihového závodiště – zpevněná plocha",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45212200"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-05-25",
+  "deadline": "2026-06-08T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00015838",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "TERESTAV s.r.o.",
+    "ico": "17757002",
+    "cena": 528735.63,
+    "vyloucen": false
+   },
+   {
+    "nazev": "RONING spol. s r.o.",
+    "ico": "62028405",
+    "cena": 494500.0,
     "vyloucen": false
    }
   ],
@@ -121035,7 +121211,7 @@
   "deadline": "2026-06-16T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017271",
   "place": "",
-  "state": "dokončen",
+  "state": "ukončeno plnění",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
@@ -122000,7 +122176,21 @@
   "expired": true,
   "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00015562",
   "dist_km": 19,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "bidders": [
+   {
+    "nazev": "ElektroMont HB s.r.o.",
+    "ico": "27536441",
+    "cena": 4327510.33,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Vegacom a.s.",
+    "ico": "25788680",
+    "cena": 3998799.49,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600082121",
@@ -125508,32 +125698,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600112196",
-  "source": "profil:vysoke-myto",
-  "title": "MěÚ, Jiráskova 179 - obnova střešního pláště",
-  "authority": "Město Vysoké Mýto",
-  "authority_ico": "00279773",
-  "cpv": [
-   "45261000"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-07-23",
-  "deadline": "2026-08-03T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00023352",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 39,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600112194",
   "source": "profil:vysoke-myto",
   "title": "Domov pro seniory, Žižkova 913 - úpravy střešního pláště",
@@ -125547,6 +125711,32 @@
   "published": "2026-07-23",
   "deadline": "2026-08-03T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00023358",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 39,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600112196",
+  "source": "profil:vysoke-myto",
+  "title": "MěÚ, Jiráskova 179 - obnova střešního pláště",
+  "authority": "Město Vysoké Mýto",
+  "authority_ico": "00279773",
+  "cpv": [
+   "45261000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-07-23",
+  "deadline": "2026-08-03T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00023352",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -127029,10 +127219,90 @@
   "deadline": "2026-08-18T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00023780",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "PS HOME STAR s.r.o.",
+    "ico": "03221466",
+    "cena": 381018.25,
+    "vyloucen": false
+   },
+   {
+    "nazev": "BaZ MACH business s.r.o.",
+    "ico": "11698161",
+    "cena": 244142.91,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PETRAlaan s.r.o.",
+    "ico": "04157010",
+    "cena": 379557.36,
+    "vyloucen": false
+   },
+   {
+    "nazev": "IngPro Litoměřice, s.r.o.",
+    "ico": "27301176",
+    "cena": 327260.15,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MP Bau s.r.o.",
+    "ico": "24722065",
+    "cena": 416939.04,
+    "vyloucen": false
+   },
+   {
+    "nazev": "EKOLIK, s.r.o.",
+    "ico": "63217511",
+    "cena": 349138.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "RONING spol. s r.o.",
+    "ico": "62028405",
+    "cena": 335014.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "AKVITSTAV s.r.o.",
+    "ico": "07904967",
+    "cena": 373599.32,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Bricky s.r.o.",
+    "ico": "09707352",
+    "cena": 643779.02,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Janek a Danek s.r.o.",
+    "ico": "23977990",
+    "cena": 381161.83,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Concrete Pardubice s.r.o.",
+    "ico": "27461068",
+    "cena": 431963.9,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Holding Construction s.r.o.",
+    "ico": "24628051",
+    "cena": 296332.32,
+    "vyloucen": false
+   },
+   {
+    "nazev": "EVOSTA s.r.o.",
+    "ico": "03054225",
+    "cena": 383098.52,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -131696,7 +131966,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
   "loc_unknown": false
  },
@@ -131723,7 +131993,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -131749,7 +132019,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 17,
   "loc_unknown": false
  },
@@ -131840,32 +132110,6 @@
   "no_value": true,
   "expired": false,
   "dist_km": 4,
-  "loc_unknown": false
- },
- {
-  "id": "profil:kr-pardubicky:VZ-6172",
-  "source": "profil:kr-pardubicky",
-  "title": "Rehabilitační ústav Brandýs nad Orlicí, výstavba nové budovy, KRANIOPROGRAM",
-  "authority": "Pardubický kraj",
-  "authority_ico": "70892822",
-  "cpv": [
-   "45215120"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-07-20",
-  "deadline": "2026-10-12T10:00:00",
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 43,
   "loc_unknown": false
  },
  {
@@ -132103,6 +132347,32 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:kr-pardubicky:VZ-6172",
+  "source": "profil:kr-pardubicky",
+  "title": "Rehabilitační ústav Brandýs nad Orlicí, výstavba nové budovy, KRANIOPROGRAM",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "45215120"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-07-20",
+  "deadline": "2026-10-16T10:00:00",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 43,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600285102",
   "source": "profil:nachod",
   "title": "Zvířecí útulek Náchod",
@@ -132313,6 +132583,30 @@
   "no_value": true,
   "expired": false,
   "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600289028",
+  "source": "profil:nove-mesto-nm",
+  "title": "Hudba spojuje národy – Naučná stezka Bedřicha Smetany",
+  "authority": "Město Nové Město nad Metují",
+  "authority_ico": "00272876",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-06",
+  "deadline": "2026-10-22T10:00:00",
+  "url": "https://www.egordion.cz/nabidkaGORDION/profilNmnm",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 31,
   "loc_unknown": false
  },
  {
