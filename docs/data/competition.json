@@ -911,6 +911,66 @@
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00027800"
  },
  {
+  "id": "profil:pvu:00282481:P26V00006287",
+  "source": "profil:pvu:00282481",
+  "title": "Rosice, Nádražní, VO",
+  "authority": "Město Rosice",
+  "authority_ico": "00282481",
+  "winner": "DATmoLUX a.s.",
+  "winner_ico": "26233100",
+  "awarded": "2026-08-26",
+  "price_contracted": 2300940.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 34,
+  "loc_unknown": false,
+  "cpv": [
+   "45316100"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.vhodne-uverejneni.cz/profil/00282481",
+  "bidders": [
+   {
+    "nazev": "DATmoLUX a.s.",
+    "ico": "26233100",
+    "cena": 2300940.0,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
+  "id": "profil:pvu:00282481:P26V00006290",
+  "source": "profil:pvu:00282481",
+  "title": "Hřbitov Rosice – úpravy vstupní části",
+  "authority": "Město Rosice",
+  "authority_ico": "00282481",
+  "winner": "Chelši stav s.r.o.",
+  "winner_ico": "07454660",
+  "awarded": "2026-08-26",
+  "price_contracted": 1132327.1,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 34,
+  "loc_unknown": false,
+  "cpv": [
+   "45236300"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.vhodne-uverejneni.cz/profil/00282481",
+  "bidders": [
+   {
+    "nazev": "Chelši stav s.r.o.",
+    "ico": "07454660",
+    "cena": 1132327.1,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2600104529",
   "source": "isvz",
   "title": "Meliorace Lánského potoka (reg. č. akce 001V01200T002)",
@@ -2658,6 +2718,36 @@
   "kind": "VZ",
   "kw_match": false,
   "url": "https://www.vhodne-uverejneni.cz/profil/00276081"
+ },
+ {
+  "id": "profil:pvu:00282481:P26V00006286",
+  "source": "profil:pvu:00282481",
+  "title": "Oprava havarijního stavu podlah a snížení vlhkosti v prostorách ZUŠ v budově zámku",
+  "authority": "Město Rosice",
+  "authority_ico": "00282481",
+  "winner": "REDAL AKTIV CZ s.r.o.",
+  "winner_ico": "03331903",
+  "awarded": "2026-07-31",
+  "price_contracted": 1809019.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 34,
+  "loc_unknown": false,
+  "cpv": [
+   "45320000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.vhodne-uverejneni.cz/profil/00282481",
+  "bidders": [
+   {
+    "nazev": "REDAL AKTIV CZ s.r.o.",
+    "ico": "03331903",
+    "cena": 1809019.0,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600113920",
@@ -21133,6 +21223,36 @@
   "kind": "VZ",
   "kw_match": true,
   "url": "https://zakazky.cenakhk.cz/profile_display_2.html"
+ },
+ {
+  "id": "profil:pvu:00282481:P26V00006283",
+  "source": "profil:pvu:00282481",
+  "title": "Dodávka a montáž protipožárních dveří - Penzion Rosice",
+  "authority": "Město Rosice",
+  "authority_ico": "00282481",
+  "winner": "A B H Design, s.r.o.",
+  "winner_ico": "07869665",
+  "awarded": "2026-01-28",
+  "price_contracted": 2907469.64,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 34,
+  "loc_unknown": false,
+  "cpv": [
+   "45421100"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.vhodne-uverejneni.cz/profil/00282481",
+  "bidders": [
+   {
+    "nazev": "A B H Design, s.r.o.",
+    "ico": "07869665",
+    "cena": 2907469.64,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600053619",

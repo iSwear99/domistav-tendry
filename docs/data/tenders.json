@@ -130022,6 +130022,33 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00270920:P26V00005527",
+  "source": "profil:pvu:00270920",
+  "title": "Stavební úpravy v bytě č. 1 v DPS Farská 765, Slatiňany",
+  "authority": "Město Slatiňany",
+  "authority_ico": "00270920",
+  "cpv": [
+   "45211100"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-26",
+  "deadline": "2026-09-09T09:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/mesto-slatinany",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 33,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600112028",
   "source": "profil:hradec-kralove",
   "title": "ZŠ Sever, Lužická 1208, Hradec Králové – stavební úpravy pavilonu stravování – stavba",
@@ -131555,33 +131582,6 @@
   "loc_unknown": false
  },
  {
-  "id": "profil:pvu:00257125:P26V00005560",
-  "source": "profil:pvu:00257125",
-  "title": "Změna stavby domu s pečovatelskou službou na adrese Máchova 556, 334 01 Přeštice, umístěná na pozemcích st. 554, p.č. 400/2 a 400/15 v k.ú. Přeštice, spočívající v částečném odstranění, stavebních úpravách a přístavbě",
-  "authority": "Město Přeštice",
-  "authority_ico": "00257125",
-  "cpv": [
-   "45215213"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-08-27",
-  "deadline": "2026-09-29T09:00:00",
-  "url": "https://www.vhodne-uverejneni.cz/profil/00257125",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "authority_seat": "",
-  "kw_match": false,
-  "no_nuts": true,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 49,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600284560",
   "source": "profil:pardubice",
   "title": "Aquacentrum – oprava skokanského prkna",
@@ -132063,32 +132063,6 @@
   "loc_unknown": false
  },
  {
-  "id": "profil:kr-pardubicky:VZ-6374",
-  "source": "profil:kr-pardubicky",
-  "title": "Zpracování projektové dokumentace na stavbu \"DM a ŠJ Pardubice - novostavba DM, areál Ke Tvrzi",
-  "authority": "Pardubický kraj",
-  "authority_ico": "70892822",
-  "cpv": [
-   "71221000"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-08-24",
-  "deadline": "2026-10-07T10:00:00",
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": true,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600285470",
   "source": "profil:hradec-kralove",
   "title": "Souběžná 1746 – pergolové zastřešení terasy III.",
@@ -132101,15 +132075,217 @@
   "deadline": "2026-10-07T10:00:00",
   "url": "https://www.tenderarena.cz/profily/hradeckralove",
   "place": "",
-  "state": "zahájen",
+  "state": "zrušen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:09873546:P26V00006281",
+  "source": "profil:pvu:09873546",
+  "title": "Sportovní povrchy areálu ZŠ VIDA",
+  "authority": "Svazek obcí Chýně-Hostivice",
+  "authority_ico": "09873546",
+  "cpv": [
+   "45236119"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-07",
+  "deadline": "2026-10-07T13:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/svazek-obci-chyne-hostivice",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "JAHU-SPORT s.r.o.",
+    "ico": "07685254",
+    "cena": 1917650.0,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true
+ },
+ {
+  "id": "profil:pvu:00282481:P26V00006283",
+  "source": "profil:pvu:00282481",
+  "title": "Dodávka a montáž protipožárních dveří - Penzion Rosice",
+  "authority": "Město Rosice",
+  "authority_ico": "00282481",
+  "cpv": [
+   "45421100"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-07",
+  "deadline": "2026-10-07T13:38:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00282481",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "A B H Design, s.r.o.",
+    "ico": "07869665",
+    "cena": 2907469.64,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 34,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00282481:P26V00006286",
+  "source": "profil:pvu:00282481",
+  "title": "Oprava havarijního stavu podlah a snížení vlhkosti v prostorách ZUŠ v budově zámku",
+  "authority": "Město Rosice",
+  "authority_ico": "00282481",
+  "cpv": [
+   "45320000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-07",
+  "deadline": "2026-10-07T13:46:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00282481",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "REDAL AKTIV CZ s.r.o.",
+    "ico": "03331903",
+    "cena": 1809019.0,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 34,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00282481:P26V00006287",
+  "source": "profil:pvu:00282481",
+  "title": "Rosice, Nádražní, VO",
+  "authority": "Město Rosice",
+  "authority_ico": "00282481",
+  "cpv": [
+   "45316100"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-07",
+  "deadline": "2026-10-07T13:58:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00282481",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "DATmoLUX a.s.",
+    "ico": "26233100",
+    "cena": 2300940.0,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 34,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00282481:P26V00006290",
+  "source": "profil:pvu:00282481",
+  "title": "Hřbitov Rosice – úpravy vstupní části",
+  "authority": "Město Rosice",
+  "authority_ico": "00282481",
+  "cpv": [
+   "45236300"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-07",
+  "deadline": "2026-10-07T14:05:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00282481",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Chelši stav s.r.o.",
+    "ico": "07454660",
+    "cena": 1132327.1,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 34,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00257125:P26V00005560",
+  "source": "profil:pvu:00257125",
+  "title": "Změna stavby domu s pečovatelskou službou na adrese Máchova 556, 334 01 Přeštice, umístěná na pozemcích st. 554, p.č. 400/2 a 400/15 v k.ú. Přeštice, spočívající v částečném odstranění, stavebních úpravách a přístavbě",
+  "authority": "Město Přeštice",
+  "authority_ico": "00257125",
+  "cpv": [
+   "45215213"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-27",
+  "deadline": "2026-10-09T09:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00257125",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 49,
   "loc_unknown": false
  },
  {
@@ -132347,32 +132523,6 @@
   "loc_unknown": false
  },
  {
-  "id": "profil:kr-pardubicky:VZ-6172",
-  "source": "profil:kr-pardubicky",
-  "title": "Rehabilitační ústav Brandýs nad Orlicí, výstavba nové budovy, KRANIOPROGRAM",
-  "authority": "Pardubický kraj",
-  "authority_ico": "70892822",
-  "cpv": [
-   "45215120"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-07-20",
-  "deadline": "2026-10-16T10:00:00",
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 43,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600285102",
   "source": "profil:nachod",
   "title": "Zvířecí útulek Náchod",
@@ -132433,32 +132583,6 @@
   "loc_unknown": true
  },
  {
-  "id": "profil:kr-pardubicky:VZ-6426",
-  "source": "profil:kr-pardubicky",
-  "title": "DSS Slatiňany – komunitní dům E",
-  "authority": "Pardubický kraj",
-  "authority_ico": "70892822",
-  "cpv": [
-   "45211200"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-10-01",
-  "deadline": "2026-10-19T11:00:00",
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 33,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600288346",
   "source": "profil:pardubice",
   "title": "Budova U Divadla čp. 828 – rekonstrukce zasedací místnosti",
@@ -132482,6 +132606,32 @@
   "no_value": true,
   "expired": false,
   "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:kr-pardubicky:VZ-6172",
+  "source": "profil:kr-pardubicky",
+  "title": "Rehabilitační ústav Brandýs nad Orlicí, výstavba nové budovy, KRANIOPROGRAM",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "45215120"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-07-20",
+  "deadline": "2026-10-20T10:00:00",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 43,
   "loc_unknown": false
  },
  {
@@ -132607,6 +132757,32 @@
   "no_value": true,
   "expired": false,
   "dist_km": 31,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:kr-pardubicky:VZ-6426",
+  "source": "profil:kr-pardubicky",
+  "title": "DSS Slatiňany – komunitní dům E",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "45211200"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-01",
+  "deadline": "2026-10-23T11:00:00",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 33,
   "loc_unknown": false
  },
  {
@@ -132817,6 +132993,32 @@
   "expired": false,
   "dist_km": null,
   "loc_unknown": true
+ },
+ {
+  "id": "profil:kr-pardubicky:VZ-6374",
+  "source": "profil:kr-pardubicky",
+  "title": "Zpracování projektové dokumentace na stavbu \"DM a ŠJ Pardubice - novostavba DM, areál Ke Tvrzi",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "71221000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-08-24",
+  "deadline": "2026-11-11T10:00:00",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 19,
+  "loc_unknown": false
  },
  {
   "id": "rvz:RVZ2600107250",
