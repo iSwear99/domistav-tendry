@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-10-07T12:38:39+00:00",
-  "zd": 540,
+  "updated": "2026-10-08T12:47:49+00:00",
+  "zd": 541,
   "zpravy": 1372,
-  "novych": 0,
+  "novych": 1,
   "errors": []
  },
  "zd": {
@@ -1673,6 +1673,9 @@
   },
   "rvz:RVZ2600289028": {
    "doc_url": "https://api.tenderarena.cz/ta/profil/stahovani-dokumentu/dokument/6525714"
+  },
+  "rvz:RVZ2600289839": {
+   "doc_url": "https://api.tenderarena.cz/ta/profil/stahovani-dokumentu/dokument/6533409"
   }
  },
  "zpravy": {
