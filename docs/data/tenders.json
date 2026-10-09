@@ -121197,40 +121197,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600099375",
-  "source": "profil:pardubice",
-  "title": "Areál Skatepark – obnova překážek",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45212290"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-06-04",
-  "deadline": "2026-06-16T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017282",
-  "place": "",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "bidders": [
-   {
-    "nazev": "Zdeněk Kotyza",
-    "ico": "73582107",
-    "cena": null,
-    "vyloucen": false
-   }
-  ],
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600099359",
   "source": "profil:pardubice",
   "title": "ZŠ Kyjevská – výměna plynových kotlů",
@@ -121272,6 +121238,40 @@
     "nazev": "TERMOMONT s.r.o.",
     "ico": "45538875",
     "cena": 819955.98,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600099375",
+  "source": "profil:pardubice",
+  "title": "Areál Skatepark – obnova překážek",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45212290"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-04",
+  "deadline": "2026-06-16T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017282",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Zdeněk Kotyza",
+    "ico": "73582107",
+    "cena": null,
     "vyloucen": false
    }
   ],
@@ -122426,7 +122426,15 @@
   "expired": true,
   "dist_km": 19,
   "loc_unknown": false,
-  "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00015581"
+  "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00015581",
+  "bidders": [
+   {
+    "nazev": "Stavrecon Pardubice s.r.o.",
+    "ico": "05925801",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "profil:kr-kralovehradecky:VZ-12916",
@@ -132324,30 +132332,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600285266",
-  "source": "profil:hradec-kralove",
-  "title": "Dodávka UPS",
-  "authority": "Statutární město Hradec Králové",
-  "authority_ico": "00268810",
-  "cpv": [],
-  "nuts": [],
-  "value": null,
-  "published": "2026-09-22",
-  "deadline": "2026-10-12T10:00:00",
-  "url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 4,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600288340",
   "source": "profil:pardubice",
   "title": "Dostihové závodiště – úprava a přesun chlazení",
@@ -132399,6 +132383,30 @@
   "expired": false,
   "dist_km": null,
   "loc_unknown": true
+ },
+ {
+  "id": "rvz:RVZ2600285266",
+  "source": "profil:hradec-kralove",
+  "title": "Dodávka UPS",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-22",
+  "deadline": "2026-10-14T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 4,
+  "loc_unknown": false
  },
  {
   "id": "profil:kr-kralovehradecky:VZ-13193",
@@ -132942,6 +132950,30 @@
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600290363",
+  "source": "profil:hradec-kralove",
+  "title": "Dodávka 80 000 ks nábojů 9mm Luger FMJ 7,5g pro potřebu Městské policie Hradec Králové",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-09",
+  "deadline": "2026-11-03T00:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -211477,7 +211509,7 @@
   "deadline": "",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00030696",
   "place": "",
-  "state": "dokončen",
+  "state": "ukončeno plnění",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",

@@ -562,6 +562,36 @@
   ]
  },
  {
+  "id": "rvz:RVZ2600097499",
+  "source": "profil:pardubice",
+  "title": "ZŠ Štefánikova – elektroinstalace, IT sítě, učebny",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "Stavrecon Pardubice s.r.o.",
+  "winner_ico": "05925801",
+  "awarded": "2026-09-10",
+  "price_contracted": 17385707.02,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45214200"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00015581",
+  "bidders": [
+   {
+    "nazev": "Stavrecon Pardubice s.r.o.",
+    "ico": "05925801",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "profil:trutnov:VZ-1852",
   "source": "profil:trutnov",
   "title": "Oprava střešního pláště - Rudolfa Frimla 934, Trutnov",
