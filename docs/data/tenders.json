@@ -132327,7 +132327,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 49,
   "loc_unknown": false
  },
