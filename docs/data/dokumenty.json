@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-10-12T14:46:16+00:00",
-  "zd": 542,
-  "zpravy": 1373,
-  "novych": 0,
+  "updated": "2026-10-13T14:00:26+00:00",
+  "zd": 545,
+  "zpravy": 1374,
+  "novych": 3,
   "errors": []
  },
  "zd": {
@@ -1679,6 +1679,15 @@
   },
   "rvz:RVZ2600290363": {
    "nenalezeno": true
+  },
+  "rvz:RVZ2600291301": {
+   "doc_url": "https://nen.nipez.cz/file?id=4787089031"
+  },
+  "rvz:RVZ2600291331": {
+   "doc_url": "https://nen.nipez.cz/file?id=4787153969"
+  },
+  "rvz:RVZ2600291445": {
+   "doc_url": "https://nen.nipez.cz/file?id=4787435359&amp;amp;typ=.docx&amp;amp;velikost=195309B"
   }
  },
  "zpravy": {
@@ -5833,6 +5842,9 @@
   "rvz:RVZ2600097499": {
    "doc_url": "https://nen.nipez.cz/file?id=4782839982",
    "cena": 17385707.02
+  },
+  "profil:trutnov:VZ-1858": {
+   "nenalezeno": true
   }
  }
 }

@@ -1,5 +1,47 @@
 [
  {
+  "id": "profil:trutnov:VZ-1858",
+  "source": "profil:trutnov",
+  "title": "Modernizace a rozvoj sítě dobíjecích stanic pro elektrokola v Trutnově - II opakovaná zakázka",
+  "authority": "Město Trutnov",
+  "authority_ico": "00278360",
+  "winner": "LEDEOS s.r.o.",
+  "winner_ico": "27797007",
+  "awarded": "2026-10-08",
+  "price_contracted": 218500.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "cpv": [
+   "31681500"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://zakazky.trutnov.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "LEDEOS s.r.o.",
+    "ico": "27797007",
+    "cena": 218500.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "LEDEOS s.r.o.",
+    "ico": "27797007",
+    "cena": 179000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "LEDEOS s.r.o.",
+    "ico": "27797007",
+    "cena": 124000.0,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "profil:trutnov:VZ-1853",
   "source": "profil:trutnov",
   "title": "Dělnická 161 stavební úpravy",

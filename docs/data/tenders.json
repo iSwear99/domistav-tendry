@@ -129854,10 +129854,30 @@
   "deadline": "2026-09-08T10:00:00",
   "url": "https://zakazky.trutnov.cz/profile_display_2.html",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "LEDEOS s.r.o.",
+    "ico": "27797007",
+    "cena": 218500.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "LEDEOS s.r.o.",
+    "ico": "27797007",
+    "cena": 179000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "LEDEOS s.r.o.",
+    "ico": "27797007",
+    "cena": 124000.0,
+    "vyloucen": false
+   }
+  ],
   "kw_match": true,
   "no_nuts": false,
   "no_value": true,
@@ -132727,17 +132747,19 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600289028",
-  "source": "profil:nove-mesto-nm",
-  "title": "Hudba spojuje národy – Naučná stezka Bedřicha Smetany",
-  "authority": "Město Nové Město nad Metují",
-  "authority_ico": "00272876",
-  "cpv": [],
+  "id": "rvz:RVZ2600291301",
+  "source": "profil:pardubice",
+  "title": "Jana Zajíce 983 – SVČ Beta – výměna výkladců",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45421132"
+  ],
   "nuts": [],
   "value": null,
-  "published": "2026-10-06",
-  "deadline": "2026-10-22T10:00:00",
-  "url": "https://www.egordion.cz/nabidkaGORDION/profilNmnm",
+  "published": "2026-10-13",
+  "deadline": "2026-10-23T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00033305",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -132747,7 +132769,33 @@
   "no_nuts": false,
   "no_value": true,
   "expired": false,
-  "dist_km": 31,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600291331",
+  "source": "profil:pardubice",
+  "title": "Odstranění oplocení neveřejného pozemku města u Aquacentra",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45111300"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-13",
+  "deadline": "2026-10-23T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00033315",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 19,
   "loc_unknown": false
  },
  {
@@ -132830,6 +132878,30 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2600289028",
+  "source": "profil:nove-mesto-nm",
+  "title": "Hudba spojuje národy – Naučná stezka Bedřicha Smetany",
+  "authority": "Město Nové Město nad Metují",
+  "authority_ico": "00272876",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-06",
+  "deadline": "2026-10-29T10:00:00",
+  "url": "https://www.egordion.cz/nabidkaGORDION/profilNmnm",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 31,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600289839",
   "source": "profil:hradec-kralove",
   "title": "Technický dozor a koordinátor BOZP na stavbě  „ZŠ Sever, Lužická 1208, Hradec Králové – stavební úpravy pavilonu stravování“",
@@ -132854,19 +132926,19 @@
   "loc_unknown": false
  },
  {
-  "id": "profil:kr-kralovehradecky:VZ-13160",
-  "source": "profil:kr-kralovehradecky",
-  "title": "Oblastní nemocnice Jičín – rekonstrukce stravovacího provozu v Novém Bydžově – gastro vybavení – ZD/20/415",
-  "authority": "Královéhradecký kraj",
-  "authority_ico": "70889546",
+  "id": "rvz:RVZ2600291445",
+  "source": "profil:jaromer",
+  "title": "Nový skatepark a pumptrack - ul. Langiewiczova",
+  "authority": "Město Jaroměř",
+  "authority_ico": "00272728",
   "cpv": [
-   "45421151"
+   "45000000"
   ],
   "nuts": [],
   "value": null,
-  "published": "2026-09-23",
-  "deadline": "2026-11-02T09:00:00",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "published": "2026-10-13",
+  "deadline": "2026-10-30T11:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00032714",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -132876,7 +132948,7 @@
   "no_nuts": false,
   "no_value": true,
   "expired": false,
-  "dist_km": 38,
+  "dist_km": 19,
   "loc_unknown": false
  },
  {
@@ -133109,6 +133181,32 @@
   "no_value": true,
   "expired": false,
   "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:kr-kralovehradecky:VZ-13160",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Oblastní nemocnice Jičín – rekonstrukce stravovacího provozu v Novém Bydžově – gastro vybavení – ZD/20/415",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45421151"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-23",
+  "deadline": "2026-11-23T09:00:00",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 38,
   "loc_unknown": false
  },
  {
