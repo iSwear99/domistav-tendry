@@ -107321,6 +107321,44 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2500223032",
+  "source": "profil:hradec-kralove",
+  "title": "Zřízení koláren u ZŠ Úprkova a ZŠ Milady Horákové v Hradci Králové",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2025-12-08",
+  "deadline": "2026-01-07T09:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "MM Hallinto s.r.o.",
+    "ico": "28820266",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ELEKTRO MOSEV spol. s r.o.",
+    "ico": "42228573",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2500133169",
   "source": "isvz",
   "nen_id": "",
@@ -122908,7 +122946,57 @@
   "expired": true,
   "dist_km": 19,
   "loc_unknown": false,
-  "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00010020"
+  "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00010020",
+  "bidders": [
+   {
+    "nazev": "MT 83 s.r.o.",
+    "ico": "",
+    "cena": 88988718.29,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MT 83 s.r.o.",
+    "ico": "",
+    "cena": 88988718.29,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MODULAR GROUP a.s.",
+    "ico": "",
+    "cena": 88988718.29,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STAVITELSTVÍ - TRUNEC s.r.o.",
+    "ico": "27528545",
+    "cena": 124299758.6,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Trigema Building a.s.",
+    "ico": "27653579",
+    "cena": 109065818.64,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Zlínské stavby, a.s.",
+    "ico": "25317300",
+    "cena": 88888888.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "GEOSAN GROUP a.s.",
+    "ico": "28169522",
+    "cena": 89750000.2,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Chládek a Tintěra, Pardubice a.s.",
+    "ico": "25253361",
+    "cena": 88793848.06,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600104442",
@@ -132373,7 +132461,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
   "loc_unknown": false
  },
@@ -132400,7 +132488,7 @@
   "kw_match": true,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },

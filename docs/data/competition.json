@@ -42,6 +42,78 @@
   ]
  },
  {
+  "id": "rvz:RVZ2600077767",
+  "source": "profil:pardubice",
+  "title": "Centrum služeb pro osoby bez přístřeší",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "Chládek a Tintěra, Pardubice a.s.",
+  "winner_ico": "25253361",
+  "awarded": "2026-09-30",
+  "price_contracted": 88793848.06,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45223800"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00010020",
+  "bidders": [
+   {
+    "nazev": "MT 83 s.r.o.",
+    "ico": "",
+    "cena": 88988718.29,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MT 83 s.r.o.",
+    "ico": "",
+    "cena": 88988718.29,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MODULAR GROUP a.s.",
+    "ico": "",
+    "cena": 88988718.29,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STAVITELSTVÍ - TRUNEC s.r.o.",
+    "ico": "27528545",
+    "cena": 124299758.6,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Trigema Building a.s.",
+    "ico": "27653579",
+    "cena": 109065818.64,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Zlínské stavby, a.s.",
+    "ico": "25317300",
+    "cena": 88888888.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "GEOSAN GROUP a.s.",
+    "ico": "28169522",
+    "cena": 89750000.2,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Chládek a Tintěra, Pardubice a.s.",
+    "ico": "25253361",
+    "cena": 88793848.06,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "profil:trutnov:VZ-1853",
   "source": "profil:trutnov",
   "title": "Dělnická 161 stavební úpravy",
@@ -7902,7 +7974,7 @@
   "winner": "MM Hallinto s.r.o.",
   "winner_ico": "28820266",
   "awarded": "2026-06-19",
-  "price_contracted": 1153384.7,
+  "price_contracted": 1296143.86,
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
@@ -17649,6 +17721,40 @@
   "kind": "VZ",
   "kw_match": false,
   "url": "https://tenderarena.cz/dodavatel/zakazka/868821"
+ },
+ {
+  "id": "rvz:RVZ2500223032",
+  "source": "profil:hradec-kralove",
+  "title": "Zřízení koláren u ZŠ Úprkova a ZŠ Milady Horákové v Hradci Králové",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "winner": "MM Hallinto s.r.o.",
+  "winner_ico": "28820266",
+  "awarded": "2026-03-24",
+  "price_contracted": 2383769.92,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "bidders": [
+   {
+    "nazev": "MM Hallinto s.r.o.",
+    "ico": "28820266",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ELEKTRO MOSEV spol. s r.o.",
+    "ico": "42228573",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600003016",
