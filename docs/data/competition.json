@@ -114,6 +114,28 @@
   ]
  },
  {
+  "id": "rvz:RVZ2600286470",
+  "source": "isvz",
+  "title": "Převzetí a odstranění odpadů a VŽP oprávněnou osobou – 18.DP",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "AVE CZ odpadové hospodářství s.r.o.",
+  "winner_ico": "49356089",
+  "awarded": "2026-09-30",
+  "price_contracted": 30350.5,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "90500000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00030995"
+ },
+ {
   "id": "profil:trutnov:VZ-1853",
   "source": "profil:trutnov",
   "title": "Dělnická 161 stavební úpravy",
@@ -263,6 +285,72 @@
    }
   ],
   "registr_url": "https://smlouvy.gov.cz/smlouva/39764429"
+ },
+ {
+  "id": "rvz:RVZ2600286495",
+  "source": "isvz",
+  "title": "VP č. 39 z RD č. 25105002322 Opravy a údržby osobních vozidel",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "PROAUTO Hradec Králové, s.r.o.",
+  "winner_ico": "27518141",
+  "awarded": "2026-09-29",
+  "price_contracted": 49979.9,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "50112000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00031008"
+ },
+ {
+  "id": "rvz:RVZ2600121204",
+  "source": "isvz",
+  "title": "Vybudování datové sítě – Zvýšení dostupnosti a kvality poskytovaných služeb Krajské hygienické stanice kraje Vysočina se sídle v Jihlavě",
+  "authority": "Krajská hygienická stanice kraje Vysočina se sídlem v Jihlavě",
+  "authority_ico": "71009311",
+  "winner": "Aricoma Systems a.s.",
+  "winner_ico": "04308697",
+  "awarded": "2026-09-24",
+  "price_contracted": 2897400.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 47,
+  "loc_unknown": false,
+  "cpv": [
+   "30233141"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00027925"
+ },
+ {
+  "id": "rvz:RVZ2600285933",
+  "source": "isvz",
+  "title": "VP č. 4 z RD č. 25105002564 Opravy a servisní údržby elektrocentrál Perkins",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "FORTE a.s.",
+  "winner_ico": "25322303",
+  "awarded": "2026-09-24",
+  "price_contracted": 2495.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "31121000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00030961"
  },
  {
   "id": "profil:kr-kralovehradecky:VZ-12356",
@@ -453,6 +541,120 @@
   "registr_url": "https://smlouvy.gov.cz/smlouva/39654045"
  },
  {
+  "id": "rvz:RVZ2600103594",
+  "source": "isvz",
+  "title": "Rámcová dohoda na zajištění lakování sběrných nádob III.",
+  "authority": "Pražské služby, a.s.",
+  "authority_ico": "60194120",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-09-23",
+  "price_contracted": 2872000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [
+   "50514000",
+   "45442300",
+   "45442180",
+   "45442200",
+   "44800000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://tenderarena.cz/profily/psas"
+ },
+ {
+  "id": "rvz:RVZ2600121005",
+  "source": "isvz",
+  "title": "PS 0110 – VÚ Brdy Stará kasárna – Oprava venkovní omítky a oplechování atiky",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "Živé nemovitosti, spol. s r.o.",
+  "winner_ico": "08629030",
+  "awarded": "2026-09-23",
+  "price_contracted": 636650.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "45261900"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00027977"
+ },
+ {
+  "id": "rvz:RVZ2600285449",
+  "source": "isvz",
+  "title": "OBJ/01559/26",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "CROSS Zlín, a.s.",
+  "winner_ico": "60715286",
+  "awarded": "2026-09-22",
+  "price_contracted": 114000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45316200"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00030701"
+ },
+ {
+  "id": "rvz:RVZ2600285098",
+  "source": "isvz",
+  "title": "VP č. 6 z RD č. 24105002622 Servis a opravy klimatizačních jednotek",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "Global Klima Servis s.r.o.",
+  "winner_ico": "06445462",
+  "awarded": "2026-09-22",
+  "price_contracted": 409136.98,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "50730000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00030519"
+ },
+ {
+  "id": "rvz:RVZ2600284324",
+  "source": "isvz",
+  "title": "Výzva k plnění - dílčí objednávka č. 7 - opravy a revize RZ",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "ZETA Chrudim, s.r.o.",
+  "winner_ico": "45535809",
+  "awarded": "2026-09-22",
+  "price_contracted": 47000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "50531400"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00030163"
+ },
+ {
   "id": "profil:kr-kralovehradecky:VZ-12404",
   "source": "profil:kr-kralovehradecky",
   "title": "Oblastní nemocnice Náchod – II. etapa modernizace a dostavby zajištění výkonu TDS a BOZP",
@@ -508,6 +710,195 @@
   "registr_url": "https://smlouvy.gov.cz/smlouva/39611741"
  },
  {
+  "id": "rvz:RVZ2600068392",
+  "source": "isvz",
+  "title": "I/16,32,35 Opravy asfaltových hutněných vozovek - oblast Jičín",
+  "authority": "Ředitelství silnic a dálnic s. p.",
+  "authority_ico": "65993390",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-09-21",
+  "price_contracted": 10156144.1,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 38,
+  "loc_unknown": false,
+  "cpv": [
+   "45233141"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://tenderarena.cz/profily/RSD"
+ },
+ {
+  "id": "rvz:RVZ2600065425",
+  "source": "isvz",
+  "title": "Oblastní nemocnice Náchod – II. etapa modernizace a dostavby zajištění výkonu TDS a BOZP",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-09-21",
+  "price_contracted": 9600000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 37,
+  "loc_unknown": false,
+  "cpv": [
+   "71300000",
+   "71251000",
+   "71317210"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "Building management solutions s.r.o.",
+    "ico": "28812999",
+    "cena": 9800000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "construction supervisor s.r.o.",
+    "ico": "24553531",
+    "cena": 9807200.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "FETTERS Management, s.r.o.",
+    "ico": "01405471",
+    "cena": 12900000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "IRBOS s.r.o.",
+    "ico": "25933094",
+    "cena": 9600000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SAFETY PRO s.r.o.",
+    "ico": "28571690",
+    "cena": 11234000.0,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
+  "id": "rvz:RVZ2600119978",
+  "source": "isvz",
+  "title": "I/14 Rudník, oprava AB",
+  "authority": "Ředitelství silnic a dálnic s. p.",
+  "authority_ico": "65993390",
+  "winner": "M - SILNICE a.s.",
+  "winner_ico": "42196868",
+  "awarded": "2026-09-21",
+  "price_contracted": 4292072.01,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 44,
+  "loc_unknown": false,
+  "cpv": [
+   "45233223"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://tenderarena.cz/dodavatel/zakazka/910649"
+ },
+ {
+  "id": "rvz:RVZ2600284888",
+  "source": "isvz",
+  "title": "DP oprava IVECO CROSSWAY 213-61-05, 401/2026-7214",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "HUSTÁK servisní, s.r.o.",
+  "winner_ico": "09737839",
+  "awarded": "2026-09-21",
+  "price_contracted": 23685.95,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "50113000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00030379"
+ },
+ {
+  "id": "rvz:RVZ2600284146",
+  "source": "isvz",
+  "title": "Převzetí a odstranění odpadů a VŽP oprávněnou osobou – 17.DP",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "AVE CZ odpadové hospodářství s.r.o.",
+  "winner_ico": "49356089",
+  "awarded": "2026-09-21",
+  "price_contracted": 17048.5,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "90500000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00030060"
+ },
+ {
+  "id": "rvz:RVZ2600286298",
+  "source": "isvz",
+  "title": "Rekonstrukce budovy U Větrníku",
+  "authority": "Diecézní charita Brno",
+  "authority_ico": "44990260",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-09-18",
+  "price_contracted": 29324417.72,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [
+   "45000000",
+   "45215200"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "http://www.egordion.cz/nabidkaGORDION/profildchbrno"
+ },
+ {
+  "id": "rvz:RVZ2600284006",
+  "source": "isvz",
+  "title": "DP 1/26 Oprava kuchyňského zařízení, 61888/26",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "T R E F A  spol. s r.o.",
+  "winner_ico": "15061451",
+  "awarded": "2026-09-18",
+  "price_contracted": 16910.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "50883000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00029994"
+ },
+ {
   "id": "rvz:RVZ2600113644",
   "source": "profil:hradec-kralove",
   "title": "Chodník ul. Librantická – PD",
@@ -552,6 +943,54 @@
     "vyloucen": false
    }
   ]
+ },
+ {
+  "id": "rvz:RVZ2600118022",
+  "source": "isvz",
+  "title": "Nové linoleum KoP Kutná Hora, Čáslav",
+  "authority": "Úřad práce České republiky",
+  "authority_ico": "72496991",
+  "winner": "MANDYGOLD stavby s.r.o.",
+  "winner_ico": "01848259",
+  "awarded": "2026-09-17",
+  "price_contracted": 439900.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 46,
+  "loc_unknown": false,
+  "cpv": [
+   "45453000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00026472"
+ },
+ {
+  "id": "rvz:RVZ2600285163",
+  "source": "isvz",
+  "title": "Energetické úspory objektu Kalendova č.p. 747",
+  "authority": "John Nell baby s.r.o.",
+  "authority_ico": "28776941",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-09-17",
+  "price_contracted": 13606975.12,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000",
+   "45454100",
+   "45321000",
+   "09331200",
+   "09332000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://www.vhodne-uverejneni.cz/profil/john-nell-baby-s-r-o"
  },
  {
   "id": "profil:kr-kralovehradecky:VZ-12808",
@@ -603,6 +1042,299 @@
   "registr_url": "https://smlouvy.gov.cz/smlouva/39627177"
  },
  {
+  "id": "rvz:RVZ2600051582",
+  "source": "isvz",
+  "title": "Sil. I tř. Pardubického kraje, opravy AHV, okr. PCE",
+  "authority": "Ředitelství silnic a dálnic s. p.",
+  "authority_ico": "65993390",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-09-16",
+  "price_contracted": 4820500.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45233141"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://www.tenderarena.cz/profily/RSD"
+ },
+ {
+  "id": "rvz:RVZ2600083708",
+  "source": "isvz",
+  "title": "Stavební úpravy objektu č.p. 241 SPŠOW ve Velkém Poříčí – stavební práce",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-09-16",
+  "price_contracted": 177821970.4,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 41,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000",
+   "45110000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "CE-ING s.r.o.",
+    "ico": "04475631",
+    "cena": null,
+    "vyloucen": true
+   },
+   {
+    "nazev": "GEOSAN GROUP a.s.",
+    "ico": "28169522",
+    "cena": 177821970.4,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MBQ s.r.o.",
+    "ico": "24247677",
+    "cena": null,
+    "vyloucen": true
+   },
+   {
+    "nazev": "S T A K O společnost s ručením omezeným",
+    "ico": "42228468",
+    "cena": 180468854.99,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
+  "id": "rvz:RVZ2600120528",
+  "source": "isvz",
+  "title": "PS 2201 - Nákup zámečnického materiálu v roce 2026",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "MATEP s.r.o.",
+  "winner_ico": "27500217",
+  "awarded": "2026-09-16",
+  "price_contracted": 43598.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "45421000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00027765"
+ },
+ {
+  "id": "rvz:RVZ2600104994",
+  "source": "isvz",
+  "title": "Rekonstrukce učeben v budově 0309 Výukový objekt EA – 2. část: 2. etapa - opakování",
+  "authority": "Univerzita Pardubice",
+  "authority_ico": "00216275",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-09-16",
+  "price_contracted": 15888777.26,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45214400",
+   "45454100"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0003021"
+ },
+ {
+  "id": "rvz:RVZ2600117135",
+  "source": "isvz",
+  "title": "Technická údržba a oprava na 20 ks klimatizací DANTHERM",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "HOPS servis s.r.o.",
+  "winner_ico": "04036743",
+  "awarded": "2026-09-16",
+  "price_contracted": 45000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "50730000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00026008"
+ },
+ {
+  "id": "rvz:RVZ2600104995",
+  "source": "isvz",
+  "title": "Rekonstrukce učeben v budově 0309 Výukový objekt EA – 2. část: 2. etapa - opakování",
+  "authority": "Univerzita Pardubice",
+  "authority_ico": "00216275",
+  "winner": "Stavrecon Pardubice s.r.o.",
+  "winner_ico": "05925801",
+  "awarded": "2026-09-16",
+  "price_contracted": 15888777.26,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45214400"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://tenderarena.cz/dodavatel/zakazka/894914"
+ },
+ {
+  "id": "rvz:RVZ2600283802",
+  "source": "isvz",
+  "title": "VP č. 38 z RD č. 25105002322 Opravy a údržby osobních vozidel",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "PROAUTO Hradec Králové, s.r.o.",
+  "winner_ico": "27518141",
+  "awarded": "2026-09-16",
+  "price_contracted": 9330.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "50112000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00029606"
+ },
+ {
+  "id": "rvz:RVZ2600245437",
+  "source": "isvz",
+  "title": "VP č. 9 z RD č. 25105002479 Opravy a údržby vozidel T815-7 Force",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "AUTO TRANS spol. s r.o.",
+  "winner_ico": "60914653",
+  "awarded": "2026-09-15",
+  "price_contracted": 46460.64,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "50114000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00029200"
+ },
+ {
+  "id": "rvz:RVZ2600262286",
+  "source": "isvz",
+  "title": "I/33 Svinišťany, oprava AB",
+  "authority": "Ředitelství silnic a dálnic s. p.",
+  "authority_ico": "65993390",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-09-15",
+  "price_contracted": 7646913.01,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [
+   "45233223"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://www.tenderarena.cz/profily/RSD"
+ },
+ {
+  "id": "rvz:RVZ2600285469",
+  "source": "isvz",
+  "title": "Novostavba pobytového ekocentra",
+  "authority": "ZO ČSOP Polabí",
+  "authority_ico": "70843473",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-09-15",
+  "price_contracted": 40099000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [
+   "45000000",
+   "71000000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://www.e-zakazky.cz/Profil-Zadavatele/a49b23d0-1b1f-43db-9ff5-7806d57a43d7"
+ },
+ {
+  "id": "rvz:RVZ2600284792",
+  "source": "isvz",
+  "title": "Obnova (rekonstrukce) kaple obci Urbanice zasvěcenou panně Marii",
+  "authority": "Obec Urbanice",
+  "authority_ico": "00580490",
+  "winner": "Zednictví DM",
+  "winner_ico": "19302266",
+  "awarded": "2026-09-15",
+  "price_contracted": 330000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 5,
+  "loc_unknown": false,
+  "cpv": [
+   "45300000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00030357"
+ },
+ {
+  "id": "rvz:RVZ2600285441",
+  "source": "isvz",
+  "title": "OBJ/01522/26",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "Služby města Pardubic a.s.",
+  "winner_ico": "25262572",
+  "awarded": "2026-09-15",
+  "price_contracted": 130660.95,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00030696"
+ },
+ {
   "id": "rvz:RVZ2600106793",
   "source": "profil:pardubice",
   "title": "Terminál A, nám. Jana Pernera – úprava bezbariérovosti – realizace",
@@ -644,6 +1376,141 @@
    }
   ],
   "registr_url": "https://smlouvy.gov.cz/smlouva/39547213"
+ },
+ {
+  "id": "rvz:RVZ2600105292",
+  "source": "isvz",
+  "title": "stavební úpravy objektu muničního skladu (Prachárny) na nemovitosti parc. č. 361/5 v k. ú. Josefov u Jaroměře v r. 2026",
+  "authority": "Národní památkový ústav",
+  "authority_ico": "75032333",
+  "winner": "Řemeslné stavby s.r.o.",
+  "winner_ico": "06934595",
+  "awarded": "2026-09-14",
+  "price_contracted": 929409.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00005140"
+ },
+ {
+  "id": "rvz:RVZ2500111107",
+  "source": "isvz",
+  "title": "Údržba, opravy a technické kontroly vozidel MTW 100",
+  "authority": "Správa železnic, státní organizace",
+  "authority_ico": "70994234",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-09-14",
+  "price_contracted": 26811304.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [
+   "50220000"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://www.spravazeleznic.cz/"
+ },
+ {
+  "id": "rvz:RVZ2600119045",
+  "source": "isvz",
+  "title": "PS 0110 – VÚ Brdy Stará kasárna – Oprava elektrorozvodů v objektu MCHC",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "Elektromontáže MikoENERGO s.r.o.",
+  "winner_ico": "23403438",
+  "awarded": "2026-09-14",
+  "price_contracted": 93375.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "45300000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00026964"
+ },
+ {
+  "id": "rvz:RVZ2600184502",
+  "source": "isvz",
+  "title": "DP8 pozáruční servis a oprava aut, RD 2610502178",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "Autoservis Fáblovka s.r.o.",
+  "winner_ico": "08871281",
+  "awarded": "2026-09-14",
+  "price_contracted": 70526.45,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "50100000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00029359"
+ },
+ {
+  "id": "rvz:RVZ2600077203",
+  "source": "isvz",
+  "title": "V416 – modernizace na vyšší parametry; SO 01 (P.0498), stavebně-montážní práce",
+  "authority": "ČEPS, a.s.",
+  "authority_ico": "25702556",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-09-11",
+  "price_contracted": 1294000000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 47,
+  "loc_unknown": false,
+  "cpv": [
+   "45220000",
+   "45223210",
+   "45231400",
+   "45232210"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0002371"
+ },
+ {
+  "id": "rvz:RVZ2600120676",
+  "source": "isvz",
+  "title": "Oprava Autoklávu Systec D -150, 60374/26",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "BioTech a.s.",
+  "winner_ico": "25664018",
+  "awarded": "2026-09-11",
+  "price_contracted": 72941.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "50421000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00027828"
  },
  {
   "id": "profil:rychnov-nk:VZ-273",
@@ -706,6 +1573,357 @@
   ]
  },
  {
+  "id": "rvz:RVZ2500220405",
+  "source": "isvz",
+  "title": "LK RD Opravy a zřízení svodidel",
+  "authority": "Ředitelství silnic a dálnic s. p.",
+  "authority_ico": "65993390",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-09-10",
+  "price_contracted": 904841.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [
+   "45233280"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "http://www.tenderarena.cz/rsd"
+ },
+ {
+  "id": "rvz:RVZ2600110608",
+  "source": "isvz",
+  "title": "TT CENTRUM – rekonstrukce a přestavba bývalé kotelny, Třešť",
+  "authority": "Město Třešť",
+  "authority_ico": "00286753",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-09-10",
+  "price_contracted": 49906509.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 47,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000",
+   "45454100",
+   "45453100",
+   "45453000",
+   "45212210",
+   "45212225",
+   "45212200"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://www.egordion.cz/nabidkaGORDION/profilMestoTrest"
+ },
+ {
+  "id": "rvz:RVZ2600173781",
+  "source": "isvz",
+  "title": "Stavební úpravy a přístavba objektu ZŠ Václava Havla, jižní část",
+  "authority": "Město Poděbrady",
+  "authority_ico": "00239640",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-09-10",
+  "price_contracted": 8393393.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 48,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000",
+   "45111000",
+   "45214200"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://www.e-zakazky.cz/profil-zadavatele/8894abe4-440b-46f4-a05e-e4ff1a99c272"
+ },
+ {
+  "id": "rvz:RVZ2600088264",
+  "source": "isvz",
+  "title": "Kladská stezka – Rychnovek II",
+  "authority": "Dobrovolný svazek obcí Kladská stezka",
+  "authority_ico": "04708733",
+  "winner": "M - SILNICE a.s.",
+  "winner_ico": "42196868",
+  "awarded": "2026-09-09",
+  "price_contracted": 9742900.42,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 23,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00015251"
+ },
+ {
+  "id": "rvz:RVZ2600088257",
+  "source": "isvz",
+  "title": "Kladská stezka – Rychnovek II",
+  "authority": "Dobrovolný svazek obcí Kladská stezka",
+  "authority_ico": "04708733",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-09-09",
+  "price_contracted": 9742900.42,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 23,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000",
+   "45233100",
+   "45233162"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/profil/kladskastezka"
+ },
+ {
+  "id": "rvz:RVZ2600101465",
+  "source": "isvz",
+  "title": "Pavilón C - oprava střechy",
+  "authority": "Hamzova odborná léčebna pro děti a dospělé",
+  "authority_ico": "00183024",
+  "winner": "Křenek, s.r.o.",
+  "winner_ico": "26013002",
+  "awarded": "2026-09-09",
+  "price_contracted": 10995329.8,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 39,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://tenderarena.cz/dodavatel/zakazka/895608"
+ },
+ {
+  "id": "rvz:RVZ2600284556",
+  "source": "isvz",
+  "title": "SZ SLATIŇANY – rekonstrukce skleníku č. 3",
+  "authority": "Národní památkový ústav",
+  "authority_ico": "75032333",
+  "winner": "České skleníky",
+  "winner_ico": "25625152",
+  "awarded": "2026-09-09",
+  "price_contracted": 405100.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 33,
+  "loc_unknown": false,
+  "cpv": [
+   "45453100"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00025835"
+ },
+ {
+  "id": "rvz:RVZ2600284530",
+  "source": "isvz",
+  "title": "Pavilón C - oprava střechy",
+  "authority": "Hamzova odborná léčebna pro děti a dospělé",
+  "authority_ico": "00183024",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-09-09",
+  "price_contracted": 10995329.8,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [
+   "45000000",
+   "45261900"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0001187"
+ },
+ {
+  "id": "rvz:RVZ2500072600",
+  "source": "isvz",
+  "title": "I/11, 31, 33, 35, 37 Opravy asfaltových hutněných vrstev - oblast Hradec Králové",
+  "authority": "Ředitelství silnic a dálnic s. p.",
+  "authority_ico": "65993390",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-09-08",
+  "price_contracted": 3701462.8,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "cpv": [
+   "45233141"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://tenderarena.cz/profily/RSD"
+ },
+ {
+  "id": "rvz:RVZ2600108835",
+  "source": "isvz",
+  "title": "Kolín - demolice staveb",
+  "authority": "České dráhy",
+  "authority_ico": "70994226",
+  "winner": "KV CZECH DEMOLICE s.r.o.",
+  "winner_ico": "19957947",
+  "awarded": "2026-09-08",
+  "price_contracted": 2282735.5,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 45,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://tenderarena.cz/dodavatel/zakazka/900113"
+ },
+ {
+  "id": "rvz:RVZ2600116631",
+  "source": "isvz",
+  "title": "RD - Roční kontroly, opravy a plnění ručních hasicích přístrojů",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "Karel Jandák",
+  "winner_ico": "15337880",
+  "awarded": "2026-09-07",
+  "price_contracted": 1000000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "50413200"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00025681"
+ },
+ {
+  "id": "rvz:RVZ2600111357",
+  "source": "isvz",
+  "title": "REVITALIZACE VEŘEJNÉHO PROSTRANSTVÍ V CENTRU OBCE ZÁMRSK – ZELENÁ INFRASTRUKTURA“ - STAVEBNÍ PRÁCE III.",
+  "authority": "Obec Zámrsk",
+  "authority_ico": "00279811",
+  "winner": "SAPA - LPJ, spol. s r.o.",
+  "winner_ico": "62063634",
+  "awarded": "2026-09-07",
+  "price_contracted": 11873157.14,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 33,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000",
+   "39224340",
+   "45233100",
+   "45232400",
+   "39113600",
+   "37535200",
+   "39142000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00022878"
+ },
+ {
+  "id": "rvz:RVZ2600121658",
+  "source": "isvz",
+  "title": "Opravy velkokuchyňských zařízení a podpůrných strojů 2025-2027 - 9. DP",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "GOZ GASTRO s.r.o.",
+  "winner_ico": "28302672",
+  "awarded": "2026-09-07",
+  "price_contracted": 122624.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "50880000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00028447"
+ },
+ {
+  "id": "rvz:RVZ2600159362",
+  "source": "isvz",
+  "title": "REVITALIZACE VEŘEJNÉHO PROSTRANSTVÍ V CENTRU OBCE ZÁMRSK – ZELENÁ INFRASTRUKTURA“ - STAVEBNÍ PRÁCE III.",
+  "authority": "Obec Zámrsk",
+  "authority_ico": "00279811",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-09-07",
+  "price_contracted": 11873157.14,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 33,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000",
+   "45233100",
+   "45232400",
+   "37535200",
+   "39142000",
+   "39113600",
+   "39221260"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/profil/ZAMRSK"
+ },
+ {
+  "id": "rvz:RVZ2600285154",
+  "source": "isvz",
+  "title": "Protierozní ochranná hráz Libotov",
+  "authority": "Obec Libotov",
+  "authority_ico": "00578193",
+  "winner": "Zemní práce Martin s.r.o.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tZemní práce Martin s.r.o.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tZemní práce Martin s.r.o.",
+  "winner_ico": "03232859",
+  "awarded": "2026-09-07",
+  "price_contracted": 1138144.35,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 22,
+  "loc_unknown": false,
+  "cpv": [
+   "45246410"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00030330"
+ },
+ {
   "id": "profil:trutnov:VZ-1852",
   "source": "profil:trutnov",
   "title": "Oprava střešního pláště - Rudolfa Frimla 934, Trutnov",
@@ -747,6 +1965,28 @@
    }
   ],
   "registr_url": "https://smlouvy.gov.cz/smlouva/39415961"
+ },
+ {
+  "id": "rvz:RVZ2600159049",
+  "source": "isvz",
+  "title": "Modernizace zdrojů vytápění SSÚD",
+  "authority": "Ředitelství silnic a dálnic s. p.",
+  "authority_ico": "65993390",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-09-04",
+  "price_contracted": 25767980.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [
+   "45454100"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://www.tenderarena.cz"
  },
  {
   "id": "profil:trutnov:VZ-1820",
@@ -846,6 +2086,114 @@
   ]
  },
  {
+  "id": "rvz:RVZ2500081605",
+  "source": "isvz",
+  "title": "ZBV 1 ZL 3 D35 Opatovice - Časy, III/32263 křiž. III/32260 Turov, oprava návozových tras",
+  "authority": "Ředitelství silnic a dálnic s. p.",
+  "authority_ico": "65993390",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-09-03",
+  "price_contracted": 4000000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 17,
+  "loc_unknown": false,
+  "cpv": [
+   "45233223"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/profil/rsd"
+ },
+ {
+  "id": "rvz:RVZ2600111152",
+  "source": "isvz",
+  "title": "Trutnov – Skladiště – oprava vytápění",
+  "authority": "České dráhy",
+  "authority_ico": "70994226",
+  "winner": "Wohnstav s.r.o.",
+  "winner_ico": "22634321",
+  "awarded": "2026-09-03",
+  "price_contracted": 372507.67,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://tenderarena.cz/dodavatel/zakazka/903481"
+ },
+ {
+  "id": "rvz:RVZ2600120645",
+  "source": "isvz",
+  "title": "DP oprava VOLVO FL6/T 021-44-47, 353/2026-7214",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "MALINA - VRŠE s.r.o.",
+  "winner_ico": "27462889",
+  "awarded": "2026-09-03",
+  "price_contracted": 83693.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "50114000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00026889"
+ },
+ {
+  "id": "rvz:RVZ2600120918",
+  "source": "isvz",
+  "title": "Opravy a servis chladících a mrazících zařízení v letech 2025-2027 - 2.DP - kopie",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "K & K Servis chlazení s.r.o.",
+  "winner_ico": "28316550",
+  "awarded": "2026-09-03",
+  "price_contracted": 21845.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "50880000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00028000"
+ },
+ {
+  "id": "rvz:RVZ2600109764",
+  "source": "isvz",
+  "title": "Rámcová dohoda - Přezouvání a vyvažování kol a opravy pneumatik vozidel VÚ 2120 Pardubice (1.8.2026 - 31.7. 2029).",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "K.A.L.T. Pneu a.s.",
+  "winner_ico": "28219937",
+  "awarded": "2026-09-03",
+  "price_contracted": 210743.8,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "50116500"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00021985"
+ },
+ {
   "id": "profil:kr-pardubicky:VZ-6245",
   "source": "profil:kr-pardubicky",
   "title": "NPK, a.s., Litomyšlská nemocnice, revitalizace dřevin v areálu nemocnice",
@@ -881,6 +2229,94 @@
    }
   ],
   "registr_url": "https://smlouvy.gov.cz/smlouva/39392437"
+ },
+ {
+  "id": "rvz:RVZ2600115502",
+  "source": "isvz",
+  "title": "Výkon TDS a koordinátora BOZP při realizace akce „ Chrudim – rekonstrukce objektu ubytovny Na Rozhledně”",
+  "authority": "Armádní Servisní, příspěvková organizace",
+  "authority_ico": "60460580",
+  "winner": "Libor Matoušek",
+  "winner_ico": "66812585",
+  "awarded": "2026-09-02",
+  "price_contracted": 488592.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 28,
+  "loc_unknown": false,
+  "cpv": [
+   "71300000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00022683"
+ },
+ {
+  "id": "rvz:RVZ2600117032",
+  "source": "isvz",
+  "title": "Oprava sociálního zařízení v objektu OOP Králíky",
+  "authority": "Krajské ředitelství policie Pardubického kraje",
+  "authority_ico": "72050250",
+  "winner": "IPESIS s.r.o.",
+  "winner_ico": "03519325",
+  "awarded": "2026-09-02",
+  "price_contracted": 691507.43,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 18,
+  "loc_unknown": false,
+  "cpv": [
+   "45216110"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00025914"
+ },
+ {
+  "id": "rvz:RVZ2600114061",
+  "source": "isvz",
+  "title": "DP provedení TÚ2 na nástavbě  SYKO 3H, 174/32,175/63, 309/2026-7214",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "GSE Services a.s.",
+  "winner_ico": "28985729",
+  "awarded": "2026-09-02",
+  "price_contracted": 84400.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "16400000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00023833"
+ },
+ {
+  "id": "rvz:RVZ2600119835",
+  "source": "isvz",
+  "title": "VP č. 2 z RD č. 25105002648 Oprava a údržba vozidel LZTOP IVECO",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "PRAGA-Export s.r.o.",
+  "winner_ico": "27577171",
+  "awarded": "2026-09-02",
+  "price_contracted": 17028.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "50114100"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00027314"
  },
  {
   "id": "rvz:RVZ2600121083",
@@ -933,6 +2369,99 @@
   ]
  },
  {
+  "id": "rvz:RVZ2600120325",
+  "source": "isvz",
+  "title": "VP č. 5 z RD č. 26105002210 Záruční a pozáruční opravy a servis vozidel IVECO kategorie N2 a M3",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "KAR-mobil s.r.o.",
+  "winner_ico": "25352776",
+  "awarded": "2026-09-01",
+  "price_contracted": 82432.45,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "50110000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00027317"
+ },
+ {
+  "id": "rvz:RVZ2600119840",
+  "source": "isvz",
+  "title": "VP č. 2 z RD č. 26105002019 Revize a opravy KTN na PHM",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "KOBIT, spol. s r.o.",
+  "winner_ico": "44792247",
+  "awarded": "2026-09-01",
+  "price_contracted": 271227.2,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "50500000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00027472"
+ },
+ {
+  "id": "rvz:RVZ2600120381",
+  "source": "isvz",
+  "title": "VP č. 37 z RD č. 25105002322 Opravy a údržby osobních vozidel",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "PROAUTO Hradec Králové, s.r.o.",
+  "winner_ico": "27518141",
+  "awarded": "2026-09-01",
+  "price_contracted": 65505.48,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "50112000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00027698"
+ },
+ {
+  "id": "rvz:RVZ2600159092",
+  "source": "isvz",
+  "title": "Cyklostezka Cerhenice – Velim",
+  "authority": "Městys Cerhenice",
+  "authority_ico": "00235300",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-09-01",
+  "price_contracted": 15199000.02,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 50,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000",
+   "45233000",
+   "45233162",
+   "45112700",
+   "77300000",
+   "77310000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://www.vhodne-uverejneni.cz/profil/mestys-cerhenice"
+ },
+ {
   "id": "rvz:RVZ2600106643",
   "source": "profil:hradec-kralove",
   "title": "Dodávka trampolín a pískoviště, Hradec Králové",
@@ -967,6 +2496,51 @@
   ]
  },
  {
+  "id": "rvz:RVZ2600083858",
+  "source": "isvz",
+  "title": "REKONSTRUKCE A ODBAHNĚNÍ RYBNÍKA LEŽÁK",
+  "authority": "Památník Lidice",
+  "authority_ico": "70886342",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-08-31",
+  "price_contracted": 13877777.1,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 28,
+  "loc_unknown": false,
+  "cpv": [
+   "45240000",
+   "45000000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/profil/profilPamatnikLidice"
+ },
+ {
+  "id": "rvz:RVZ2600116004",
+  "source": "isvz",
+  "title": "D35 Časy - Ostrov, opravy návozových tras, DPS + VD-ZDS + IČ + TP + AD bez BIM",
+  "authority": "Ředitelství silnic a dálnic s. p.",
+  "authority_ico": "65993390",
+  "winner": "HBH Projekt spol. s r.o.",
+  "winner_ico": "44961944",
+  "awarded": "2026-08-31",
+  "price_contracted": 9605400.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 17,
+  "loc_unknown": false,
+  "cpv": [
+   "71000000"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://tenderarena.cz/dodavatel/zakazka/907699"
+ },
+ {
   "id": "rvz:RVZ2600120642",
   "source": "isvz",
   "title": "SZ Uherčice – repase vrat mezi hlavním nádvořím a hospodářským dvorem",
@@ -987,6 +2561,52 @@
   "kind": "VZMR",
   "kw_match": false,
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00025990"
+ },
+ {
+  "id": "rvz:RVZ2600286974",
+  "source": "isvz",
+  "title": "NPK, a.s., Pardubická nemocnice – instalace a výměna koncových prvků včetně souvisejících stavebních úprav",
+  "authority": "Nemocnice Pardubického kraje, a.s.",
+  "authority_ico": "27520536",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-08-28",
+  "price_contracted": 9530503.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000",
+   "45454000",
+   "45215100"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_1965.html"
+ },
+ {
+  "id": "rvz:RVZ2600245580",
+  "source": "isvz",
+  "title": "Opěrná zeď č. 2",
+  "authority": "Obec Míškovice",
+  "authority_ico": "00287491",
+  "winner": "TOMI - REMONT a.s.",
+  "winner_ico": "25508571",
+  "awarded": "2026-08-28",
+  "price_contracted": 1060930.37,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 48,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00029581"
  },
  {
   "id": "rvz:RVZ2600119608",
@@ -1031,6 +2651,55 @@
   "kind": "VZMR",
   "kw_match": true,
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00026874"
+ },
+ {
+  "id": "rvz:RVZ2600037399",
+  "source": "isvz",
+  "title": "Instalace tepelných čerpadel a modernizace zdrojů chladu za účelem využívání odpadního tepla – DČP č. 2: Instalace zdrojů a provedení systému distribuce tepla",
+  "authority": "Kostelecké uzeniny a.s.",
+  "authority_ico": "46900411",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-08-27",
+  "price_contracted": 144140000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 39,
+  "loc_unknown": false,
+  "cpv": [
+   "44163120",
+   "44163121",
+   "44611500",
+   "45231000",
+   "45300000",
+   "45223000",
+   "45232142",
+   "71300000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://www.vhodne-uverejneni.cz/profil/kostelecke-uzeniny-a-s"
+ },
+ {
+  "id": "rvz:RVZ2600245468",
+  "source": "isvz",
+  "title": "Dolní Roveň - oprava MK u kostela",
+  "authority": "Obec Dolní Roveň",
+  "authority_ico": "00273503",
+  "winner": "STRABAG SIS a.s.",
+  "winner_ico": "45359041",
+  "awarded": "2026-08-27",
+  "price_contracted": 1486581.69,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 24,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://tenderarena.cz/dodavatel/zakazka/914515"
  },
  {
   "id": "rvz:RVZ2600120582",
@@ -1157,6 +2826,30 @@
   "kind": "VZMR",
   "kw_match": true,
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00026234"
+ },
+ {
+  "id": "rvz:RVZ2600285322",
+  "source": "isvz",
+  "title": "Novostavba budovy lesní správy Břehyně",
+  "authority": "Vojenské lesy a statky ČR, s.p.",
+  "authority_ico": "00000205",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-08-25",
+  "price_contracted": 26699856.99,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 49,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000",
+   "45210000",
+   "45233160"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://www.eveza.cz/profil-zadavatele/vojenske-lesy-a-statky-cr"
  },
  {
   "id": "rvz:RVZ2600110655",
@@ -1523,57 +3216,7 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://www.nen.nipez.cz/profil/pardubice",
-  "bidders": [
-   {
-    "nazev": "Realitní a stavební společnost s.r.o.",
-    "ico": "41432037",
-    "cena": 17280672.0,
-    "vyloucen": false
-   },
-   {
-    "nazev": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
-    "ico": "46504621",
-    "cena": 12880000.0,
-    "vyloucen": false
-   },
-   {
-    "nazev": "KERSON spol. s r.o.",
-    "ico": "45536040",
-    "cena": 15579812.34,
-    "vyloucen": false
-   },
-   {
-    "nazev": "STAKVO s.r.o.",
-    "ico": "27472221",
-    "cena": 16233098.2,
-    "vyloucen": false
-   },
-   {
-    "nazev": "STAVBY VAHALA s.r.o.",
-    "ico": "06803148",
-    "cena": 16233098.2,
-    "vyloucen": false
-   },
-   {
-    "nazev": "STAKVO s.r.o.",
-    "ico": "27472221",
-    "cena": 12666917.05,
-    "vyloucen": false
-   },
-   {
-    "nazev": "STAVBY VAHALA s.r.o.",
-    "ico": "06803148",
-    "cena": 12666917.05,
-    "vyloucen": false
-   },
-   {
-    "nazev": "TeS, spol. s r. o. Chotěboř",
-    "ico": "60934395",
-    "cena": 10931481.17,
-    "vyloucen": false
-   }
-  ]
+  "url": "https://www.nen.nipez.cz/profil/pardubice"
  },
  {
   "id": "rvz:RVZ2600084102",
@@ -1652,6 +3295,112 @@
   ]
  },
  {
+  "id": "rvz:RVZ2600076454",
+  "source": "isvz",
+  "title": "Rekonstrukce Úpravny vody Dvůr Králové nad Labem",
+  "authority": "Město Dvůr Králové nad Labem",
+  "authority_ico": "00277819",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-08-20",
+  "price_contracted": 39840673.46,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 26,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000",
+   "45231112"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://zakazky.mudk.cz/",
+  "bidders": [
+   {
+    "nazev": "ENVI-PUR, s.r.o.",
+    "ico": "25166077",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "HST Hydrosystémy s.r.o.",
+    "ico": "26212706",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KUNST,  spol.  s  r.o.",
+    "ico": "19010591",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "VHS stavby a.s.",
+    "ico": "25183052",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "VPK Suchý s.r.o.",
+    "ico": "27085201",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
+  "id": "rvz:RVZ2600099259",
+  "source": "isvz",
+  "title": "Rekonstrukce zámku Lázně Bělohrad/2026",
+  "authority": "CZECH GAS s.r.o.",
+  "authority_ico": "65410912",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-08-20",
+  "price_contracted": 132000000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 30,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000",
+   "71200000",
+   "45300000",
+   "45454100",
+   "45212350",
+   "45262521",
+   "71240000",
+   "71300000",
+   "71320000",
+   "71246000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/Profil/CZECHGAS"
+ },
+ {
+  "id": "rvz:RVZ2600159321",
+  "source": "isvz",
+  "title": "Rekonstrukce běžeckého oválu ve městě Sezemice",
+  "authority": "Město Sezemice",
+  "authority_ico": "00274241",
+  "winner": "Umělky s.r.o.",
+  "winner_ico": "04776763",
+  "awarded": "2026-08-20",
+  "price_contracted": 8693901.68,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 16,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://tenderarena.cz/dodavatel/zakazka/913195"
+ },
+ {
   "id": "rvz:RVZ2600086089",
   "source": "isvz",
   "title": "Revitalizace endoskopického oddělení ONN a. s",
@@ -1697,6 +3446,72 @@
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00021446"
  },
  {
+  "id": "rvz:RVZ2500067894",
+  "source": "isvz",
+  "title": "3. dílčí plnění z RD datové rozvody",
+  "authority": "Řízení letového provozu České republiky, státní podnik (ŘLP ČR, s.p.)",
+  "authority_ico": "49710371",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-08-19",
+  "price_contracted": null,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [
+   "45112000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/profil/RLPCR"
+ },
+ {
+  "id": "rvz:RVZ2600078965",
+  "source": "isvz",
+  "title": "Instalace tepelných čerpadel a modernizace zdrojů chladu za účelem využívání odpadního tepla – DČP č. 1: Zdrojová část",
+  "authority": "Kostelecké uzeniny a.s.",
+  "authority_ico": "46900411",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-08-19",
+  "price_contracted": 84893599.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 39,
+  "loc_unknown": false,
+  "cpv": [
+   "42511110",
+   "42500000",
+   "42513200"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://www.vhodne-uverejneni.cz/profil/kostelecke-uzeniny-a-s"
+ },
+ {
+  "id": "rvz:RVZ2600159342",
+  "source": "isvz",
+  "title": "Rekonstrukce sportovního areálu Trhová Kamenice",
+  "authority": "Městys Trhová Kamenice",
+  "authority_ico": "00271055",
+  "winner": "INSTAV Hlinsko a.s.",
+  "winner_ico": "25284959",
+  "awarded": "2026-08-19",
+  "price_contracted": 2307014.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 45,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://tenderarena.cz/dodavatel/zakazka/913213"
+ },
+ {
   "id": "rvz:RVZ2600120009",
   "source": "isvz",
   "title": "Výcvikové dráhy AČR - region Pardubice - sever - lokality Pardubice a Čáslav",
@@ -1739,6 +3554,31 @@
   "kind": "VZ",
   "kw_match": true,
   "url": "https://tenderarena.cz/dodavatel/zakazka/904052"
+ },
+ {
+  "id": "rvz:RVZ2600121683",
+  "source": "isvz",
+  "title": "Rekonstrukce bašty městského opevnění, Na Valech p.č. st. 228/2, Kolín I",
+  "authority": "Město Kolín",
+  "authority_ico": "00235440",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-08-18",
+  "price_contracted": 13403608.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 45,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000",
+   "45212350",
+   "45453000",
+   "45454100"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://zakazky.mukolin.cz/"
  },
  {
   "id": "profil:pvu:00535982:P26V00003312",
@@ -1872,6 +3712,53 @@
   "url": "https://zakazky.trutnov.cz/profile_display_2.html"
  },
  {
+  "id": "rvz:RVZ2600116919",
+  "source": "isvz",
+  "title": "VP č. 36 z RD č. 25105002322 Opravy a údržby osobních vozidel",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "PROAUTO Hradec Králové, s.r.o.",
+  "winner_ico": "27518141",
+  "awarded": "2026-08-17",
+  "price_contracted": 36732.3,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "50112000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00025906"
+ },
+ {
+  "id": "rvz:RVZ2600121792",
+  "source": "isvz",
+  "title": "„Nástavba dvou odborných učeben ZŠ Bystřice“",
+  "authority": "Město Bystřice",
+  "authority_ico": "00231525",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-08-17",
+  "price_contracted": 11324474.75,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 44,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000",
+   "45214210",
+   "45421130",
+   "45262600"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://www.vhodne-uverejneni.cz/profil/00231525"
+ },
+ {
   "id": "rvz:RVZ2600117568",
   "source": "isvz",
   "title": "Novostavba hasičárny pro obec Stračov na p.p.č. 79/2 v k.ú. Stračov",
@@ -1892,6 +3779,28 @@
   "kind": "VZ",
   "kw_match": false,
   "url": "http://www.e-zakazky.cz/Profil-Zadavatele/851ddf4b-5830-4034-ae81-a159a62bc1c3"
+ },
+ {
+  "id": "rvz:RVZ2600165629",
+  "source": "isvz",
+  "title": "Elektronizace vstupů III. etapa – rekonstrukce PZTS v objektu Trutnov",
+  "authority": "Úřad pro zastupování státu ve věcech majetkových",
+  "authority_ico": "69797111",
+  "winner": "PERFECTED s.r.o.",
+  "winner_ico": "27683028",
+  "awarded": "2026-08-14",
+  "price_contracted": 388136.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "cpv": [
+   "45312000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00029078"
  },
  {
   "id": "rvz:RVZ2600117280",
@@ -1967,6 +3876,28 @@
   "kind": "VZMR",
   "kw_match": true,
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00025598"
+ },
+ {
+  "id": "rvz:RVZ2600115341",
+  "source": "isvz",
+  "title": "VP č. 1 z RD č. 25105002289 Opravy a údržby vozidel RENAULT MASTER SANIT",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "J plus Z servis, s.r.o.",
+  "winner_ico": "26901161",
+  "awarded": "2026-08-11",
+  "price_contracted": 5846.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "50100000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00024853"
  },
  {
   "id": "profil:kr-kralovehradecky:VZ-12916",
@@ -2196,7 +4127,7 @@
   ],
   "kind": "VZ",
   "kw_match": true,
-  "url": "https://www.tenderarena.cz/profily/RSD"
+  "url": "https://nen.nipez.cz/profil/rsd"
  },
  {
   "id": "rvz:RVZ2600073051",
@@ -2696,6 +4627,28 @@
   "url": "https://www.tenderarena.cz/profily/RSD"
  },
  {
+  "id": "rvz:RVZ2600184571",
+  "source": "isvz",
+  "title": "OPRAVA OPLOCENÍ FOTBALOVÉHO HŘIŠTĚ - VÝCHOD",
+  "authority": "Obec Staré Ždánice",
+  "authority_ico": "00274321",
+  "winner": "RONING spol. s r.o.",
+  "winner_ico": "62028405",
+  "awarded": "2026-08-04",
+  "price_contracted": 1281973.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 10,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00021975"
+ },
+ {
   "id": "profil:pvu:00535982:P26V00004081",
   "source": "profil:pvu:00535982",
   "title": "Rekonstrukce plynové kotelny v Základní škole Písek, I. a II. stupeň",
@@ -2796,6 +4749,31 @@
   "kind": "VZMR",
   "kw_match": true,
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00024425"
+ },
+ {
+  "id": "rvz:RVZ2600285144",
+  "source": "isvz",
+  "title": "Stavební úpravy místní komunikace Na Žižkově",
+  "authority": "Město Jaroměř",
+  "authority_ico": "00272728",
+  "winner": "",
+  "winner_ico": "",
+  "awarded": "2026-08-03",
+  "price_contracted": 8984388.01,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000",
+   "45233100",
+   "45231300",
+   "45316110"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/profil/mesto_jaromer"
  },
  {
   "id": "rvz:RVZ2600114409",
@@ -3213,28 +5191,6 @@
     "vyloucen": false
    }
   ]
- },
- {
-  "id": "rvz:RVZ2500220405",
-  "source": "isvz",
-  "title": "LK RD Opravy a zřízení svodidel",
-  "authority": "Ředitelství silnic a dálnic s. p.",
-  "authority_ico": "65993390",
-  "winner": "",
-  "winner_ico": "",
-  "awarded": "2026-07-29",
-  "price_contracted": 831682.0,
-  "estimated": false,
-  "price_paid": null,
-  "growth_pct": null,
-  "dist_km": null,
-  "loc_unknown": true,
-  "cpv": [
-   "45233280"
-  ],
-  "kind": "VZ",
-  "kw_match": true,
-  "url": "http://www.tenderarena.cz/rsd"
  },
  {
   "id": "rvz:RVZ2600078147",
@@ -3947,6 +5903,28 @@
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00026547"
  },
  {
+  "id": "rvz:RVZ2600099482",
+  "source": "isvz",
+  "title": "26-108 Chrast – částečná výměna oplocení, realizace",
+  "authority": "Správa státních hmotných rezerv",
+  "authority_ico": "48133990",
+  "winner": "ADH-PLOTY s.r.o.",
+  "winner_ico": "28156811",
+  "awarded": "2026-07-23",
+  "price_contracted": 305781.62,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 37,
+  "loc_unknown": false,
+  "cpv": [
+   "45342000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017328"
+ },
+ {
   "id": "rvz:RVZ2600108507",
   "source": "isvz",
   "title": "I/14, 16,37 Opravy asfaltových hutněných vrstev - oblast Trutnov - Dílčí smlouva č. 12",
@@ -4164,7 +6142,7 @@
   ],
   "kind": "VZ",
   "kw_match": true,
-  "url": "https://www.tenderarena.cz/profily/RSD"
+  "url": "https://nen.nipez.cz/profil/rsd"
  },
  {
   "id": "rvz:RVZ2500221664",
@@ -4223,6 +6201,28 @@
     "vyloucen": false
    }
   ]
+ },
+ {
+  "id": "rvz:RVZ2600099090",
+  "source": "isvz",
+  "title": "Údržba a oprava přívěsů na KTN- RD",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "AGADOS, spol. s r.o.",
+  "winner_ico": "43378391",
+  "awarded": "2026-07-21",
+  "price_contracted": 330578.51,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "34220000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017034"
  },
  {
   "id": "rvz:RVZ2600096694",
@@ -5246,26 +7246,26 @@
   ]
  },
  {
-  "id": "rvz:RVZ2500072600",
+  "id": "rvz:RVZ2600101826",
   "source": "isvz",
-  "title": "I/11, 31, 33, 35, 37 Opravy asfaltových hutněných vrstev - oblast Hradec Králové",
-  "authority": "Ředitelství silnic a dálnic s. p.",
-  "authority_ico": "65993390",
-  "winner": "",
-  "winner_ico": "",
-  "awarded": "2026-07-09",
-  "price_contracted": 6138470.0,
+  "title": "Provedení opravy a revize kontejnerů ISO 1C",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "KARBOX s.r.o.",
+  "winner_ico": "26002370",
+  "awarded": "2026-07-10",
+  "price_contracted": 87410.0,
   "estimated": false,
-  "price_paid": null,
-  "growth_pct": null,
-  "dist_km": 4,
+  "price_paid": 87410.0,
+  "growth_pct": 0.0,
+  "dist_km": 36,
   "loc_unknown": false,
   "cpv": [
-   "45233141"
+   "34220000"
   ],
-  "kind": "VZ",
+  "kind": "VZMR",
   "kw_match": true,
-  "url": "https://tenderarena.cz/profily/RSD"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00018584"
  },
  {
   "id": "rvz:RVZ2600077772",
@@ -5667,6 +7667,28 @@
   "kind": "VZMR",
   "kw_match": false,
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00021461"
+ },
+ {
+  "id": "rvz:RVZ2600120783",
+  "source": "isvz",
+  "title": "Výzva č. 1 k Rámcové dohodě na provádění revizí a oprav hasících přístrojů v letech 2026-2028.",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "Martina Jandáková",
+  "winner_ico": "66766443",
+  "awarded": "2026-07-07",
+  "price_contracted": 220347.0,
+  "estimated": false,
+  "price_paid": 182104.96,
+  "growth_pct": -17.4,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "50413200"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00021112"
  },
  {
   "id": "rvz:RVZ2600072034",
@@ -6090,14 +8112,14 @@
  },
  {
   "id": "rvz:RVZ2600096709",
-  "source": "profil:pardubice",
+  "source": "isvz",
   "title": "Areál Dostihového závodiště – zpevněná plocha",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
   "winner": "RONING spol. s r.o.",
   "winner_ico": "62028405",
   "awarded": "2026-07-02",
-  "price_contracted": null,
+  "price_contracted": 494500.0,
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
@@ -6108,22 +8130,7 @@
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00015838",
-  "bidders": [
-   {
-    "nazev": "TERESTAV s.r.o.",
-    "ico": "17757002",
-    "cena": 528735.63,
-    "vyloucen": false
-   },
-   {
-    "nazev": "RONING spol. s r.o.",
-    "ico": "62028405",
-    "cena": 494500.0,
-    "vyloucen": false
-   }
-  ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/38647576"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00015838"
  },
  {
   "id": "rvz:RVZ2600096708",
@@ -6373,6 +8380,28 @@
   ]
  },
  {
+  "id": "rvz:RVZ2600097725",
+  "source": "isvz",
+  "title": "Údržba a opravy valníkových přívěsů - RD",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "MALINA - VRŠE s.r.o.",
+  "winner_ico": "27462889",
+  "awarded": "2026-07-02",
+  "price_contracted": 330578.51,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "34220000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00016256"
+ },
+ {
   "id": "rvz:RVZ2600072613",
   "source": "profil:pardubice",
   "title": "Aquacentrum – oprava rekreačního a skokanského bazénu",
@@ -6413,28 +8442,6 @@
     "vyloucen": true
    }
   ]
- },
- {
-  "id": "rvz:RVZ2600051582",
-  "source": "isvz",
-  "title": "Sil. I tř. Pardubického kraje, opravy AHV, okr. PCE",
-  "authority": "Ředitelství silnic a dálnic s. p.",
-  "authority_ico": "65993390",
-  "winner": "",
-  "winner_ico": "",
-  "awarded": "2026-07-01",
-  "price_contracted": 306700.0,
-  "estimated": false,
-  "price_paid": null,
-  "growth_pct": null,
-  "dist_km": 19,
-  "loc_unknown": false,
-  "cpv": [
-   "45233141"
-  ],
-  "kind": "VZ",
-  "kw_match": true,
-  "url": "https://www.tenderarena.cz/profily/RSD"
  },
  {
   "id": "rvz:RVZ2500116915",
@@ -6686,6 +8693,28 @@
   "kind": "VZMR",
   "kw_match": false,
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017429"
+ },
+ {
+  "id": "rvz:RVZ2600081285",
+  "source": "isvz",
+  "title": "ZŠ Josefa Ressla-modernizace osvětlení formou Design and build",
+  "authority": "Služby města Pardubic a.s.",
+  "authority_ico": "25262572",
+  "winner": "ElektroRadce.cz s.r.o.",
+  "winner_ico": "02198304",
+  "awarded": "2026-06-30",
+  "price_contracted": 1597631.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45310000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00011763"
  },
  {
   "id": "rvz:RVZ2600106935",
@@ -7265,14 +9294,14 @@
  },
  {
   "id": "rvz:RVZ2600080421",
-  "source": "profil:pardubice",
+  "source": "isvz",
   "title": "Aquacentrum – oprava schodiště v odpočinkové zóně",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
   "winner": "Stavby-Eda s.r.o.",
   "winner_ico": "08600813",
   "awarded": "2026-06-24",
-  "price_contracted": null,
+  "price_contracted": 636377.48,
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
@@ -7283,33 +9312,18 @@
   ],
   "kind": "VZMR",
   "kw_match": true,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00011313",
-  "bidders": [
-   {
-    "nazev": "EVOSTA s.r.o.",
-    "ico": "03054225",
-    "cena": 551251.54,
-    "vyloucen": false
-   },
-   {
-    "nazev": "Stavby-Eda s.r.o.",
-    "ico": "08600813",
-    "cena": 636377.48,
-    "vyloucen": false
-   }
-  ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/38509338"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00011313"
  },
  {
   "id": "rvz:RVZ2600100099",
-  "source": "profil:pardubice",
+  "source": "isvz",
   "title": "ZŠ npor. Eliáše – oprava hřiště",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
   "winner": "Služby města Pardubic a.s.",
   "winner_ico": "25262572",
   "awarded": "2026-06-24",
-  "price_contracted": null,
+  "price_contracted": 1774480.0,
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
@@ -7320,16 +9334,7 @@
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017699",
-  "bidders": [
-   {
-    "nazev": "Služby města Pardubic a.s.",
-    "ico": "25262572",
-    "cena": 1774480.0,
-    "vyloucen": false
-   }
-  ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/38572592"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017699"
  },
  {
   "id": "profil:pvu:00280283:P26V00003618",
@@ -7610,9 +9615,9 @@
  },
  {
   "id": "rvz:RVZ2600085140",
-  "source": "profil:nachod",
+  "source": "isvz",
   "title": "Naučná stezka – rybník Podborný Náchod, Plhov",
-  "authority": "Město Náchod",
+  "authority": "MĚSTO NÁCHOD",
   "authority_ico": "00272868",
   "winner": "SILVAGRO s.r.o.",
   "winner_ico": "27476162",
@@ -7628,33 +9633,7 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00013552",
-  "bidders": [
-   {
-    "nazev": "ŠTĚPÁNEK, spol. s r.o.",
-    "ico": "45535124",
-    "cena": 13499448.15,
-    "vyloucen": false
-   },
-   {
-    "nazev": "SILVAGRO s.r.o.",
-    "ico": "27476162",
-    "cena": 11777777.77,
-    "vyloucen": false
-   },
-   {
-    "nazev": "Alprim CZ s.r.o.",
-    "ico": "28811470",
-    "cena": 16748493.79,
-    "vyloucen": false
-   },
-   {
-    "nazev": "SMOLA HK a.s.",
-    "ico": "09137912",
-    "cena": 13222395.9,
-    "vyloucen": false
-   }
-  ]
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00013552"
  },
  {
   "id": "rvz:RVZ2600107518",
@@ -8531,28 +10510,6 @@
   "url": "https://tenderarena.cz/dodavatel/zakazka/879767"
  },
  {
-  "id": "rvz:RVZ2600068392",
-  "source": "isvz",
-  "title": "I/16,32,35 Opravy asfaltových hutněných vozovek - oblast Jičín",
-  "authority": "Ředitelství silnic a dálnic s. p.",
-  "authority_ico": "65993390",
-  "winner": "",
-  "winner_ico": "",
-  "awarded": "2026-06-15",
-  "price_contracted": 26500800.0,
-  "estimated": false,
-  "price_paid": null,
-  "growth_pct": null,
-  "dist_km": 38,
-  "loc_unknown": false,
-  "cpv": [
-   "45233141"
-  ],
-  "kind": "VZ",
-  "kw_match": true,
-  "url": "https://tenderarena.cz/profily/RSD"
- },
- {
   "id": "rvz:RVZ2600080592",
   "source": "isvz",
   "title": "Stavební úpravy objektu občanského vybavení, Ostroměř",
@@ -8997,6 +10954,28 @@
   ]
  },
  {
+  "id": "rvz:RVZ2600286085",
+  "source": "isvz",
+  "title": "„Revitalizace malé vodní nádrže v k. ú. Hlízov p. p. č. 1195“",
+  "authority": "Obec Hlízov",
+  "authority_ico": "00640336",
+  "winner": "Elamy a.s.",
+  "winner_ico": "05146917",
+  "awarded": "2026-06-12",
+  "price_contracted": 3957630.43,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 42,
+  "loc_unknown": false,
+  "cpv": [
+   "45240000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00031017"
+ },
+ {
   "id": "rvz:RVZ2600079793",
   "source": "isvz",
   "title": "Dodávka nového vybavení kuchyně pro SOU opravárenské Králíky",
@@ -9225,28 +11204,6 @@
   "kind": "VZMR",
   "kw_match": false,
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00018480"
- },
- {
-  "id": "rvz:RVZ2600105292",
-  "source": "isvz",
-  "title": "stavební úpravy objektu muničního skladu (Prachárny) na nemovitosti parc. č. 361/5 v k. ú. Josefov u Jaroměře v r. 2026",
-  "authority": "Národní památkový ústav",
-  "authority_ico": "75032333",
-  "winner": "Řemeslné stavby s.r.o.",
-  "winner_ico": "06934595",
-  "awarded": "2026-06-10",
-  "price_contracted": 732528.8,
-  "estimated": false,
-  "price_paid": null,
-  "growth_pct": null,
-  "dist_km": 19,
-  "loc_unknown": false,
-  "cpv": [
-   "45000000"
-  ],
-  "kind": "VZMR",
-  "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00005140"
  },
  {
   "id": "rvz:RVZ2600000191",
@@ -9861,6 +11818,28 @@
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00021236"
  },
  {
+  "id": "rvz:RVZ2600285708",
+  "source": "isvz",
+  "title": "VP č. 1 z RD č. 26105002079 Zabezpečení provádění oprav a udržování manipulační techniky",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "TRANSPORT SERVIS - Jeník s.r.o.",
+  "winner_ico": "27501191",
+  "awarded": "2026-06-04",
+  "price_contracted": 20175.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "42415110"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017219"
+ },
+ {
   "id": "rvz:RVZ2600099605",
   "source": "isvz",
   "title": "Výstavba skladu na posypový materiál a skladu mechanizace na cestmistrovství Luže",
@@ -10207,6 +12186,28 @@
   "registr_url": "https://smlouvy.gov.cz/smlouva/38237679"
  },
  {
+  "id": "rvz:RVZ2600159449",
+  "source": "isvz",
+  "title": "OBJ/974/26",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "Služby města Pardubic a.s.",
+  "winner_ico": "25262572",
+  "awarded": "2026-06-02",
+  "price_contracted": 417386.8,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45220000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00028899"
+ },
+ {
   "id": "rvz:RVZ2500222858",
   "source": "isvz",
   "title": "Sanace lokalit v areálu bývalé Tesly Králíky",
@@ -10441,8 +12442,8 @@
   "awarded": "2026-06-01",
   "price_contracted": 2250758.79,
   "estimated": false,
-  "price_paid": null,
-  "growth_pct": null,
+  "price_paid": 2250758.79,
+  "growth_pct": 0.0,
   "dist_km": 48,
   "loc_unknown": false,
   "cpv": [],
@@ -10795,6 +12796,28 @@
   "url": "https://tenderarena.cz/dodavatel/zakazka/874913"
  },
  {
+  "id": "rvz:RVZ2600099794",
+  "source": "isvz",
+  "title": "ZÚ Canberra - výběr zhotovitele investiční akce č. 0051 - Úprava stávajícího objektu ZÚ Canberra na rezidenci velvyslance",
+  "authority": "Ministerstvo zahraničních věcí",
+  "authority_ico": "45769851",
+  "winner": "Intermain",
+  "winner_ico": "",
+  "awarded": "2026-05-28",
+  "price_contracted": null,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "45211000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017519"
+ },
+ {
   "id": "rvz:RVZ2600097697",
   "source": "isvz",
   "title": "Dostavba vodovodu a kanalizace v obci Jestřabí Lhota",
@@ -11012,8 +13035,8 @@
   "awarded": "2026-05-26",
   "price_contracted": 3973036.71,
   "estimated": false,
-  "price_paid": null,
-  "growth_pct": null,
+  "price_paid": 3973036.71,
+  "growth_pct": 0.0,
   "dist_km": 48,
   "loc_unknown": false,
   "cpv": [
@@ -12511,6 +14534,28 @@
   "registr_url": "https://smlouvy.gov.cz/smlouva/37979485"
  },
  {
+  "id": "rvz:RVZ2600070244",
+  "source": "isvz",
+  "title": "Sanace podzemního podlaží budovy KP Chrudim",
+  "authority": "Katastrální úřad pro Pardubický kraj",
+  "authority_ico": "00213721",
+  "winner": "MESSA Invest s.r.o.",
+  "winner_ico": "25319540",
+  "awarded": "2026-05-14",
+  "price_contracted": 5958146.65,
+  "estimated": false,
+  "price_paid": 1436220.35,
+  "growth_pct": -75.9,
+  "dist_km": 28,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00006445"
+ },
+ {
   "id": "rvz:RVZ2600075214",
   "source": "isvz",
   "title": "Rekonstrukce konferenčního centra - aula A3, 4, 5",
@@ -12649,7 +14694,7 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://zakazky.spucr.cz/"
+  "url": "https://zakazky.spucr.cz"
  },
  {
   "id": "rvz:RVZ2600068183",
@@ -12770,7 +14815,7 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://zakazky.cenakhk.cz/profile_display_133.html"
+  "url": ""
  },
  {
   "id": "rvz:RVZ2600087661",
@@ -13478,8 +15523,8 @@
   "awarded": "2026-05-05",
   "price_contracted": 1155400.0,
   "estimated": false,
-  "price_paid": null,
-  "growth_pct": null,
+  "price_paid": 1178178.0,
+  "growth_pct": 2.0,
   "dist_km": 46,
   "loc_unknown": false,
   "cpv": [
@@ -14258,7 +16303,7 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://zakazky.pardubickykraj.cz"
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html"
  },
  {
   "id": "rvz:RVZ2600085555",
@@ -15448,7 +17493,7 @@
  },
  {
   "id": "rvz:RVZ2600073073",
-  "source": "profil:pardubice",
+  "source": "isvz",
   "title": "MŠ Dražkovice – dodávka a montáž zastínění",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
@@ -15466,16 +17511,7 @@
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00007782",
-  "bidders": [
-   {
-    "nazev": "Stavby-Eda s.r.o.",
-    "ico": "08600813",
-    "cena": 176627.0,
-    "vyloucen": false
-   }
-  ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/37589449"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00007782"
  },
  {
   "id": "rvz:RVZ2600051604",
@@ -16254,9 +18290,9 @@
  },
  {
   "id": "rvz:RVZ2600077472",
-  "source": "profil:ceska-skalice",
+  "source": "isvz",
   "title": "Novostavba venkovní učebny, Česká Skalice",
-  "authority": "Město Česká Skalice",
+  "authority": "MĚSTO ČESKÁ SKALICE",
   "authority_ico": "00272591",
   "winner": "Stavební firma Hanuš, s.r.o.",
   "winner_ico": "27523870",
@@ -16409,33 +18445,7 @@
   ],
   "kind": "VZ",
   "kw_match": true,
-  "url": "https://nen.nipez.cz/profil/CeskaSkalice",
-  "bidders": [
-   {
-    "nazev": "Alprim CZ s.r.o.",
-    "ico": "28811470",
-    "cena": 15561700.37,
-    "vyloucen": false
-   },
-   {
-    "nazev": "ŠPELDA s.r.o.",
-    "ico": "28800125",
-    "cena": 16280004.09,
-    "vyloucen": false
-   },
-   {
-    "nazev": "Dlažba Vysoké Mýto, s.r.o.",
-    "ico": "25953818",
-    "cena": 14297832.7,
-    "vyloucen": false
-   },
-   {
-    "nazev": "M - STAV CZ s.r.o.",
-    "ico": "27557235",
-    "cena": 15979891.25,
-    "vyloucen": false
-   }
-  ]
+  "url": "https://nen.nipez.cz/profil/CeskaSkalice"
  },
  {
   "id": "rvz:RVZ2600076553",
@@ -18898,7 +20908,7 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://www.zakazky.mukolin.cz"
+  "url": "https://zakazky.mukolin.cz/"
  },
  {
   "id": "rvz:RVZ2500228385",
@@ -18920,7 +20930,7 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/profily-zadavatelu-platne/detail-profilu/SSHR"
+  "url": "https://nen.nipez.cz/profil/SSHR"
  },
  {
   "id": "rvz:RVZ2500216810",
@@ -20073,7 +22083,7 @@
  },
  {
   "id": "rvz:RVZ2600067472",
-  "source": "profil:hlinsko",
+  "source": "isvz",
   "title": "Parkoviště Nádražní ulice, Hlinsko",
   "authority": "Město Hlinsko",
   "authority_ico": "00270059",
@@ -20706,7 +22716,39 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html"
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "KERSON spol. s r.o.",
+    "ico": "45536040",
+    "cena": 43769394.13,
+    "vyloucen": false
+   },
+   {
+    "nazev": "OHLA ŽS, a.s.",
+    "ico": "46342796",
+    "cena": 41785066.62,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PS - STAV Náchod s.r.o.",
+    "ico": "28858531",
+    "cena": 41646639.1,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STYLBAU, s.r.o.",
+    "ico": "25957481",
+    "cena": 38457594.83,
+    "vyloucen": false
+   },
+   {
+    "nazev": "VALC, s.r.o.",
+    "ico": "45537151",
+    "cena": 49352308.54,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "profil:kr-kralovehradecky:VZ-12108",
@@ -21553,8 +23595,8 @@
   "awarded": "2026-01-26",
   "price_contracted": 8386584.09,
   "estimated": false,
-  "price_paid": null,
-  "growth_pct": null,
+  "price_paid": 8856974.35,
+  "growth_pct": 5.6,
   "dist_km": 29,
   "loc_unknown": false,
   "cpv": [
@@ -23215,7 +25257,7 @@
   ],
   "kind": "VZ",
   "kw_match": true,
-  "url": "https://www.tenderarena.cz/profily/RSD"
+  "url": "https://nen.nipez.cz/profil/rsd"
  },
  {
   "id": "rvz:RVZ2500223731",
@@ -25769,14 +27811,14 @@
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
-  "dist_km": null,
-  "loc_unknown": true,
+  "dist_km": 14,
+  "loc_unknown": false,
   "cpv": [
    "45000000"
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://www.vhodne-uverejneni.cz/profil/obec-horineves"
+  "url": ""
  },
  {
   "id": "rvz:RVZ2500072989",
@@ -26275,8 +28317,8 @@
   "awarded": "2025-11-14",
   "price_contracted": 4396655.24,
   "estimated": false,
-  "price_paid": null,
-  "growth_pct": null,
+  "price_paid": 4638997.0,
+  "growth_pct": 5.5,
   "dist_km": 17,
   "loc_unknown": false,
   "cpv": [
@@ -26319,8 +28361,8 @@
   "awarded": "2025-11-14",
   "price_contracted": 1955128.0,
   "estimated": false,
-  "price_paid": 553574.75,
-  "growth_pct": -71.7,
+  "price_paid": 1990655.11,
+  "growth_pct": 1.8,
   "dist_km": 46,
   "loc_unknown": false,
   "cpv": [
@@ -26896,7 +28938,7 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://www.mu.kutnahora.cz"
+  "url": "https://zakazky.kutnahora.cz/"
  },
  {
   "id": "rvz:RVZ2500216298",
@@ -28632,8 +30674,8 @@
   "awarded": "2025-10-16",
   "price_contracted": 10233400.0,
   "estimated": false,
-  "price_paid": null,
-  "growth_pct": null,
+  "price_paid": 10757961.29,
+  "growth_pct": 5.1,
   "dist_km": 25,
   "loc_unknown": false,
   "cpv": [
