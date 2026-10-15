@@ -132512,7 +132512,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 4,
   "loc_unknown": false
  },
@@ -132538,7 +132538,7 @@
   "kw_match": true,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 25,
   "loc_unknown": false
  },
@@ -132565,7 +132565,7 @@
   "kw_match": true,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -133537,44 +133537,6 @@
   "dist_km": 38,
   "loc_unknown": false,
   "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500090448",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Požárně bezpečnostní řešení objektů ozn. B, D v areálu nemocnice v Novém Bydžově – stavební úpravy",
-  "authority": "Královéhradecký kraj",
-  "authority_ico": "70889546",
-  "cpv": [
-   "45000000",
-   "45110000",
-   "45300000",
-   "45215100",
-   "45215140",
-   "45233000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 21700000.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "place": "Nový Bydžov",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 24,
-  "loc_unknown": false,
-  "auto_expired": "2026-09-19",
   "no_activity": true
  },
  {
@@ -138360,6 +138322,44 @@
   "dist_km": 19,
   "loc_unknown": false,
   "auto_expired": "2026-07-31",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500090448",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Požárně bezpečnostní řešení objektů ozn. B, D v areálu nemocnice v Novém Bydžově – stavební úpravy",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000",
+   "45110000",
+   "45300000",
+   "45215100",
+   "45215140",
+   "45233000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 21700000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "Nový Bydžov",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 24,
+  "loc_unknown": false,
+  "auto_expired": "2026-09-19",
   "no_activity": true
  },
  {
