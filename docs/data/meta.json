@@ -1,15 +1,20 @@
 {
- "updated": "2026-10-15T11:19:40+00:00",
+ "updated": "2026-10-16T12:27:16+00:00",
  "counts": {
-  "total": 8227,
-  "vz": 5230,
-  "vzmr": 2997,
-  "active": 84,
-  "changed": 110,
+  "total": 8228,
+  "vz": 5228,
+  "vzmr": 3000,
+  "active": 62,
+  "changed": 111,
   "competition": 1467,
-  "previous": 6642
+  "previous": 8228
  },
  "errors": [
-  "pvu: /externi-zakazka/butas-oprava-plynovych-kotlu-v-budove-pomocnych-provozu: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/butas-oprava-plynovych-kotlu-v-budove-pomocnych-provozu: HTTP Error 401: Unauthorized"
+  "profil:dobruska: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274879/XMLdataVZ?od=18072026&do=16102026: <urlopen error timed out>",
+  "profil:prelouc: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274101/XMLdataVZ?od=18072026&do=16102026: <urlopen error timed out>",
+  "profil:hronov: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00272680/XMLdataVZ?od=18072026&do=16102026: <urlopen error timed out>",
+  "profil:vamberk: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00275492/XMLdataVZ?od=18072026&do=16102026: <urlopen error timed out>",
+  "profil:lodin: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/obec-lodin/XMLdataVZ?od=18072026&do=16102026: <urlopen error timed out>",
+  "pvu: RSS nedostupné: Stažení selhalo: https://www.vhodne-uverejneni.cz/rss/zakazky: <urlopen error timed out>"
  ]
 }
