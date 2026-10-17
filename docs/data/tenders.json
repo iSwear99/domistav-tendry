@@ -165796,7 +165796,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
   "loc_unknown": false
  },
@@ -165822,7 +165822,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 37,
   "loc_unknown": false
  },
@@ -166206,32 +166206,6 @@
   "no_value": false,
   "expired": false,
   "dist_km": 43,
-  "loc_unknown": false
- },
- {
-  "id": "profil:kr-pardubicky:VZ-6426",
-  "source": "profil:kr-pardubicky",
-  "title": "DSS Slatiňany – komunitní dům E",
-  "authority": "Pardubický kraj",
-  "authority_ico": "70892822",
-  "cpv": [
-   "45211200"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-10-01",
-  "deadline": "2026-10-23T11:00:00",
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 33,
   "loc_unknown": false
  },
  {
@@ -166696,6 +166670,32 @@
   "expired": false,
   "profile_url": "https://www.tenderarena.cz/profily/hradeckralove",
   "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:kr-pardubicky:VZ-6426",
+  "source": "profil:kr-pardubicky",
+  "title": "DSS Slatiňany – komunitní dům E",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "45211200"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-01",
+  "deadline": "2026-11-02T11:00:00",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 33,
   "loc_unknown": false
  },
  {
