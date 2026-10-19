@@ -44,6 +44,15 @@ neobsahuje žádná firemní data, proto smí běžet v public GitHub repozitá�
    PVU záznamy NEdostávají profilovou benevolenci filtrů (celostátní,
    víceoborové) a jednou zachycené se přenášejí z předchozího snapshotu
    VŽDY (RSS je pomíjivé). Co RSS přeteče, dožene ISVZ export zpětně.
+   **2c. Týdenní sken profilů v okruhu** (`fetch_profily_sken.py`,
+   pokyn 19. 10. 2026): VZMR NEkonfigurovaných zadavatelů mimo systémy
+   agregované v ISVZ (E-ZAK, Gordion, e-zakazky…). Katalog ~550 profilů
+   se buduje automaticky z archivu (authority_profile záznamů ≤50 km,
+   bez NEN a konfigurovaných) a roste sám. Workflow update-profily-sken:
+   DENNÍ cron + hlídka „max 1× za ≥6 dní" (docs/data/sken_meta.json) —
+   díky frontě a runneru startujícímu s přihlášením běží sken okamžikem
+   prvního zapnutí PC v týdnu. Záznamy `profil:sken-<ičo>` benevolenci
+   nedostávají (jako PVU). Spouští se přes main.py s env SKEN_PROFILU=1.
 3. **NEN detaily** — dvě cesty:
    **3a. Vložená data NEN (aktivní od 19. 10. 2026):** detail
    nen.nipez.cz nese server-rendered JSON — `_nen_enrich_details`

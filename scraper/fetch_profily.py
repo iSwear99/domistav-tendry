@@ -197,9 +197,10 @@ def _fetch_profile_ezak_html(key: str, meta: dict) -> list[dict]:
     return tenders
 
 
-def _fetch_profile(key: str, meta: dict) -> tuple[list[dict], list[str]]:
+def _fetch_profile(key: str, meta: dict,
+                   days_back: int | None = None) -> tuple[list[dict], list[str]]:
     do = dt.date.today()
-    od = do - dt.timedelta(days=config.PROFILY_DAYS_BACK)
+    od = do - dt.timedelta(days=days_back or config.PROFILY_DAYS_BACK)
     url = _xml_url(meta, od, do)
     try:
         root = ET.fromstring(_get(url))

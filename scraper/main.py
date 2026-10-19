@@ -25,6 +25,7 @@ import fetch_isvz        # noqa: E402
 import fetch_pvu         # noqa: E402
 import fetch_nen         # noqa: E402
 import fetch_profily     # noqa: E402
+import fetch_profily_sken  # noqa: E402
 import geo               # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -75,6 +76,7 @@ def _from_configured_profile(t: dict) -> bool:
     s = t["source"]
     return (s.startswith("profil:")
             and not s.startswith("profil:pvu:")
+            and not s.startswith("profil:sken-")
             and s not in _MULTI_SOURCES)
 
 
@@ -760,8 +762,13 @@ def run(dry_run: bool = False) -> int:
     # SKIP_ISVZ=1: cloudový běh (GitHub-hosted runner, USA) — ISVZ blokuje
     # mimoevropské IP; jeho záznamy drží retence a doplní je běh na PC
     skip_isvz = bool(os.environ.get("SKIP_ISVZ"))
-    for name, mod in (("isvz", fetch_isvz), ("profily", fetch_profily),
-                      ("pvu", fetch_pvu)):
+    zdroje = [("isvz", fetch_isvz), ("profily", fetch_profily),
+              ("pvu", fetch_pvu)]
+    # SKEN_PROFILU=1: týdenní sken všech profilů v okruhu (workflow
+    # update-profily-sken) — VZMR nekonfigurovaných zadavatelů
+    if os.environ.get("SKEN_PROFILU"):
+        zdroje.append(("sken", fetch_profily_sken))
+    for name, mod in zdroje:
         if name == "isvz" and skip_isvz:
             source_counts[name] = 0
             continue
