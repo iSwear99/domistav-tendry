@@ -230,8 +230,12 @@ def _check_dead_links(tenders: list[dict], prev_by_id: dict) -> None:
 
 def _nen_embedded(url: str) -> dict | None:
     """Vytěží vložená data z NEN detailu (server-rendered JSON stav).
-    Vrací klíče podaniLhuta / datumZruseni / datumUkonceni / stavZP /
-    predpokladHodnota; None při síťové chybě (= žádný verdikt)."""
+
+    Pozn. k historii: 8–9/2026 NEN data nevkládal (vracel 404 se SPA
+    skořápkou), od 10/2026 opět funguje — kód při výpadku bezpečně vrací
+    None (= žádný verdikt). Klíče: lhůty/stav/hodnota + od 19. 10. 2026
+    i mistoPlneni, popisPredmet, cpvPredmetuKod, nutsKod (detailnější
+    informace — pokyn uživatele; nahrazuje zatím nezřízené NEN API)."""
     import urllib.parse
     import urllib.request
     try:
@@ -249,6 +253,12 @@ def _nen_embedded(url: str) -> dict | None:
         if m:
             out[k] = m.group(1) if m.group(1) is not None else (
                 None if m.group(2) else m.group(3))
+    # textová pole mohou nést escapované uvozovky; \n → mezera
+    for k in ("mistoPlneni", "popisPredmet", "cpvPredmetuKod", "nutsKod"):
+        m = re.search(rf'"{k}":"((?:[^"\\]|\\.)*)"', dec)
+        if m and m.group(1):
+            out[k] = (m.group(1).replace('\\"', '"').replace("\\n", " ")
+                      .replace("\\t", " ").strip())
     return out
 
 
@@ -352,6 +362,51 @@ def _verify_no_deadline(result: list[dict], errors: list[str]) -> None:
     print(f"úklid torz: ověřeno {stats['checked']}, obohaceno "
           f"{stats['enriched']}, expirováno {stats['expired']}, "
           f"oživeno {stats['revived']}")
+
+
+_NEN_DETAIL_CAP = 40      # obohacovaných detailů za běh (šetrnost k NEN)
+
+
+def _nen_enrich_details(result: list[dict], errors: list[str]) -> None:
+    """Detailnější informace z NEN (pokyn 19. 10. 2026): aktivním
+    záznamům s NEN detailem doplní z vložených dat místo plnění (zpřesní
+    geo), popis předmětu (podklad AI filtru), CPV, lhůtu a hodnotu —
+    POUZE chybějící pole, nikdy nepřepisuje existující. Jednou obohacený
+    záznam se znovu nestahuje (příznak nen_detail)."""
+    today = dt.date.today().isoformat()
+    cands = [t for t in result
+             if not t["expired"] and not t.get("nen_detail")
+             and "nen.nipez.cz/verejne-zakazky/detail-zakazky" in (t.get("url") or "")
+             and (not t.get("place") or not t.get("predmet")
+                  or not t.get("deadline") or t.get("value") is None)]
+    done = 0
+    for t in cands[:_NEN_DETAIL_CAP]:
+        d = _nen_embedded(t["url"])
+        if d is None:
+            continue                     # síť/výpadek — žádná změna
+        t["nen_detail"] = today
+        done += 1
+        if not t.get("place") and d.get("mistoPlneni"):
+            t["place"] = d["mistoPlneni"][:160]
+        if not t.get("predmet") and d.get("popisPredmet"):
+            t["predmet"] = d["popisPredmet"][:1200]
+        if not t.get("deadline") and d.get("podaniLhuta"):
+            t["deadline"] = d["podaniLhuta"][:19]
+            _mark_expired(t, today)
+        if t.get("value") is None and d.get("predpokladHodnota"):
+            try:
+                t["value"] = float(d["predpokladHodnota"])
+                t["no_value"] = False
+            except ValueError:
+                pass
+        # NEN vrací CPV s kontrolní číslicí („45000000-7") — ukládá se
+        # bez ní, shodně s ISVZ/profily (prefixové filtry, dedup)
+        cpv = (d.get("cpvPredmetuKod") or "").split("-")[0]
+        if cpv and cpv not in (t.get("cpv") or []):
+            t.setdefault("cpv", []).append(cpv)
+    if done:
+        print(f"NEN detaily: obohaceno {done} záznamů "
+              f"(kandidátů {len(cands)})")
 
 
 def _norm_title(s: str) -> str:
@@ -718,6 +773,13 @@ def run(dry_run: bool = False) -> int:
     # mrtvé odkazy: 404/410 ve 2 bězích po sobě => expired (viz docstring)
     if not dry_run:
         _check_dead_links(result, {t["id"]: t for t in prev_snapshot})
+    # detailnější informace z vložených dat NEN (místo, popis, CPV,
+    # lhůta, hodnota) — PŘED diffem, aby změny vstoupily do changes.json
+    if not dry_run:
+        _nen_enrich_details(result, errors)
+        # doplněné místo plnění umí dodatečně určit polohu dosud
+        # neurčených záznamů — mimo okruh se zahazují (nikdy sem nepatřily)
+        result = geo.relocate_unknown(result)
     # obohacení detailů z NEN API (prohlídka, vysvětlení ZD) — PŘED diffem,
     # aby změny těchto polí vstoupily do archivu changes.json
     errors.extend(fetch_nen.enrich(result))

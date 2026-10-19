@@ -129,6 +129,9 @@ def run() -> int:
             "zadavatel": t["authority"],
             "cpv": t.get("cpv") or [],
             "hodnota_bez_dph": t.get("value"),
+            # popis předmětu z NEN detailu (je-li) — výrazně zpřesňuje
+            # verdikt u nicneříkajících názvů; zkráceno kvůli tokenům
+            **({"predmet": t["predmet"][:500]} if t.get("predmet") else {}),
         } for t in todo[i:i + config.AI_BATCH]]
         try:
             for v in _classify(client, batch):

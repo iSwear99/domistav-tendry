@@ -1647,6 +1647,85 @@
   "url": "https://www.e-zakazky.cz/profil-zadavatele/8894abe4-440b-46f4-a05e-e4ff1a99c272"
  },
  {
+  "id": "rvz:RVZ2600106801",
+  "source": "profil:pardubice",
+  "title": "ZŠ Studánka – výměna oken",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "Petr Pacanda",
+  "winner_ico": "62658603",
+  "awarded": "2026-09-10",
+  "price_contracted": null,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45421132"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00020513",
+  "bidders": [
+   {
+    "nazev": "MATRIX a.s.",
+    "ico": "25947672",
+    "cena": 668275.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Petr Pacanda",
+    "ico": "62658603",
+    "cena": 483141.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stafi Pardubice s.r.o.",
+    "ico": "21787662",
+    "cena": 661985.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "WH Develop s.r.o.",
+    "ico": "28116992",
+    "cena": 665929.75,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MAFA invest s.r.o.",
+    "ico": "08269564",
+    "cena": 913233.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Okna M&amp;L s.r.o.",
+    "ico": "08387770",
+    "cena": 624667.4,
+    "vyloucen": false
+   },
+   {
+    "nazev": "BaZ MACH business s.r.o.",
+    "ico": "11698161",
+    "cena": 721000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "FastBuilder Soft, s.r.o.",
+    "ico": "05824184",
+    "cena": 621436.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Rec-Hom Prof s.r.o.",
+    "ico": "10985387",
+    "cena": 930343.0,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39535965"
+ },
+ {
   "id": "rvz:RVZ2600088264",
   "source": "isvz",
   "title": "Kladská stezka – Rychnovek II",
@@ -3900,6 +3979,72 @@
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00024853"
  },
  {
+  "id": "rvz:RVZ2600097938",
+  "source": "profil:lazne-bohdanec",
+  "title": "Revitalizace rybníků Dolní Truhličky a Horní Truhličky",
+  "authority": "Město Lázně Bohdaneč",
+  "authority_ico": "00273350",
+  "winner": "P O P R spol. s r.o.",
+  "winner_ico": "46509283",
+  "awarded": "2026-08-11",
+  "price_contracted": 4410000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 15,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.tenderarena.cz/profily/LazneBohdanec",
+  "bidders": [
+   {
+    "nazev": "ZVÁNOVEC a.s.",
+    "ico": "26026279",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stavby rybníků s.r.o.",
+    "ico": "02951746",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TERMA a.s.",
+    "ico": "15061663",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STATING s.r.o.",
+    "ico": "25963864",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "NOWASTAV akciová společnost",
+    "ico": "00565679",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "1. REKLAMNÍ EU s.r.o.",
+    "ico": "27514854",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "P O P R spol. s r.o.",
+    "ico": "46509283",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "profil:kr-kralovehradecky:VZ-12916",
   "source": "profil:kr-kralovehradecky",
   "title": "Borohrádek stavební úpravy budovy - dodávka interiéru",
@@ -5799,6 +5944,49 @@
   "url": "https://nen.nipez.cz/profil/CeskaSkalice"
  },
  {
+  "id": "rvz:RVZ2600099790",
+  "source": "profil:ceska-skalice",
+  "title": "Realizace rekonstrukce ulice Komenského (úsek mezi ulicemi Lidická a Nerudova) v České Skalici",
+  "authority": "Město Česká Skalice",
+  "authority_ico": "00272591",
+  "winner": "ELITSTAV s.r.o.",
+  "winner_ico": "06552226",
+  "awarded": "2026-07-24",
+  "price_contracted": null,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 30,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017323",
+  "bidders": [
+   {
+    "nazev": "STRABAG a.s.",
+    "ico": "60838744",
+    "cena": 8437677.33,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ELITSTAV s.r.o.",
+    "ico": "06552226",
+    "cena": 6920000.06,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ŠPELDA s.r.o.",
+    "ico": "28800125",
+    "cena": 6978718.04,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39023326"
+ },
+ {
   "id": "profil:kr-kralovehradecky:VZ-12890",
   "source": "profil:kr-kralovehradecky",
   "title": "Stavební úpravy objektu č.p. 241 SPŠOW ve Velkém Poříčí – TDS + BOZP",
@@ -7689,6 +7877,37 @@
   "kind": "VZMR",
   "kw_match": true,
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00021112"
+ },
+ {
+  "id": "rvz:RVZ2600100145",
+  "source": "profil:pardubice",
+  "title": "CS I/2 Dražkovice – Pardubičky – Černá za Bory (JV obchvat) – zemní práce - II. etapa",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "Skanska a.s.",
+  "winner_ico": "26271303",
+  "awarded": "2026-07-07",
+  "price_contracted": null,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45112000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017722",
+  "bidders": [
+   {
+    "nazev": "Skanska a.s.",
+    "ico": "26271303",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/38701704"
  },
  {
   "id": "rvz:RVZ2600072034",
@@ -9795,6 +10014,37 @@
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00008580"
  },
  {
+  "id": "rvz:RVZ2600085103",
+  "source": "profil:pardubice",
+  "title": "Rekonstrukce zastávky MHD – Sukova, směr do města – realizace",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "MIROS Pardubice a.s.",
+  "winner_ico": "27523934",
+  "awarded": "2026-06-22",
+  "price_contracted": null,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45233100"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00013638",
+  "bidders": [
+   {
+    "nazev": "MIROS Pardubice a.s.",
+    "ico": "27523934",
+    "cena": 1524031.46,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/38473890"
+ },
+ {
   "id": "rvz:RVZ2600069879",
   "source": "isvz",
   "title": "Demolice objektu v areálu školy a následná výstavba nového objektu pro Dětskou skupinu, včetně propojovacích krčků, výstavba tělocvičny a družiny při ZŠ v Černilově",
@@ -11160,6 +11410,54 @@
   "kind": "VZMR",
   "kw_match": false,
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017561"
+ },
+ {
+  "id": "rvz:RVZ2600070274",
+  "source": "profil:pardubice",
+  "title": "BD – Na Záboří 223 – sanace obvodového pláště - realizace",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "MARHOLD a.s.",
+  "winner_ico": "15050050",
+  "awarded": "2026-06-11",
+  "price_contracted": 15230654.97,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45211100"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00006380",
+  "bidders": [
+   {
+    "nazev": "MARHOLD a.s.",
+    "ico": "15050050",
+    "cena": 15230654.97,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stavby-Eda s.r.o.",
+    "ico": "08600813",
+    "cena": 15422042.89,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TOMIreko a. s.",
+    "ico": "28359216",
+    "cena": 16743326.83,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STAFI FINALIZACE STAVEB s.r.o.",
+    "ico": "25968203",
+    "cena": 16472619.28,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600101414",
@@ -13001,6 +13299,67 @@
    }
   ],
   "registr_url": "https://smlouvy.gov.cz/smlouva/38144105"
+ },
+ {
+  "id": "rvz:RVZ2600076359",
+  "source": "profil:pardubice",
+  "title": "ZŠ Ohrazenice – oprava sociálního zařízení chlapci",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "D-R 91 spol. s r.o.",
+  "winner_ico": "05939011",
+  "awarded": "2026-05-27",
+  "price_contracted": 279647.12,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45211310"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00009380",
+  "bidders": [
+   {
+    "nazev": "BaZ MACH business s.r.o.",
+    "ico": "11698161",
+    "cena": 551483.7,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Hanč CONSTRUCTION s.r.o.",
+    "ico": "23209593",
+    "cena": 881111.0,
+    "vyloucen": true
+   },
+   {
+    "nazev": "IVEXI s.r.o.",
+    "ico": "25298968",
+    "cena": 295073.08,
+    "vyloucen": false
+   },
+   {
+    "nazev": "AKVITSTAV s.r.o.",
+    "ico": "07904967",
+    "cena": 451848.55,
+    "vyloucen": false
+   },
+   {
+    "nazev": "IngPro Litoměřice, s.r.o.",
+    "ico": "27301176",
+    "cena": 381706.67,
+    "vyloucen": false
+   },
+   {
+    "nazev": "D-R 91 spol. s r.o.",
+    "ico": "05939011",
+    "cena": 279647.12,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/38146897"
  },
  {
   "id": "rvz:RVZ2600080287",
@@ -18097,6 +18456,66 @@
   ]
  },
  {
+  "id": "rvz:RVZ2500215921",
+  "source": "profil:pardubice",
+  "title": "Rekonstrukce přilehlého okolí ulice Kostelní",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "Inženýrské stavby Mencl s.r.o.",
+  "winner_ico": "09361545",
+  "awarded": "2026-04-13",
+  "price_contracted": 9679979.96,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45233100"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00036703",
+  "bidders": [
+   {
+    "nazev": "M - STAV CZ s.r.o.",
+    "ico": "27557235",
+    "cena": 12565707.92,
+    "vyloucen": false
+   },
+   {
+    "nazev": "M - SILNICE a.s.",
+    "ico": "42196868",
+    "cena": 18618618.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Agrostav Pardubice a.s.",
+    "ico": "46506063",
+    "cena": 10935443.68,
+    "vyloucen": false
+   },
+   {
+    "nazev": "GRANO Skuteč spol. s r.o.",
+    "ico": "60913088",
+    "cena": 14345559.83,
+    "vyloucen": false
+   },
+   {
+    "nazev": "D &amp; D  PROFI,  s. r. o.",
+    "ico": "25250167",
+    "cena": 9972549.82,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Inženýrské stavby Mencl s.r.o.",
+    "ico": "09361545",
+    "cena": 9679979.96,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2500082060",
   "source": "isvz",
   "title": "ZBV 1 ZL 3 D35 Opatovice - Časy, III/32271 křiž. III/32273 - Městec, oprava návozových tras",
@@ -19714,6 +20133,97 @@
   "url": "https://tenderarena.cz/dodavatel/zakazka/869678"
  },
  {
+  "id": "rvz:RVZ2600051148",
+  "source": "profil:pardubice",
+  "title": "Oprava kaple Černá za Bory",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "MIGBAU s.r.o.",
+  "winner_ico": "08742715",
+  "awarded": "2026-03-25",
+  "price_contracted": 592330.34,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00002458",
+  "bidders": [
+   {
+    "nazev": "MIGBAU s.r.o.",
+    "ico": "08742715",
+    "cena": 592330.34,
+    "vyloucen": false
+   },
+   {
+    "nazev": "V.P.N., spol. s r. o.",
+    "ico": "25947281",
+    "cena": 797060.52,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Rec-Hom Prof s.r.o.",
+    "ico": "10985387",
+    "cena": 707140.16,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Jaroslav Vrbiak",
+    "ico": "01209337",
+    "cena": 789242.39,
+    "vyloucen": false
+   },
+   {
+    "nazev": "BaZ MACH business s.r.o.",
+    "ico": "11698161",
+    "cena": 738065.96,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Ludva s.r.o.",
+    "ico": "09743197",
+    "cena": 626683.32,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Hozijiv s.r.o.",
+    "ico": "06111092",
+    "cena": 736389.15,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PS HOME STAR s.r.o.",
+    "ico": "03221466",
+    "cena": 673921.29,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Bricky s.r.o.",
+    "ico": "09707352",
+    "cena": 1852537.13,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Hanč CONSTRUCTION s.r.o.",
+    "ico": "23209593",
+    "cena": 658654.34,
+    "vyloucen": false
+   },
+   {
+    "nazev": "CPMC develop s.r.o.",
+    "ico": "23937009",
+    "cena": 1354705.0,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/37331501"
+ },
+ {
   "id": "rvz:RVZ2500226125",
   "source": "isvz",
   "title": "Modernizace pavilonu M - přístrojové vybavení - hygienické přístroje",
@@ -20749,6 +21259,78 @@
   "kind": "VZ",
   "kw_match": true,
   "url": "https://tenderarena.cz/profily/00278386"
+ },
+ {
+  "id": "rvz:RVZ2600050637",
+  "source": "profil:upice",
+  "title": "Rekonstrukce ulice Ludvíka Středy v Úpici",
+  "authority": "Město Úpice",
+  "authority_ico": "00278386",
+  "winner": "SWIETELSKY stavební s.r.o.",
+  "winner_ico": "48035599",
+  "awarded": "2026-03-12",
+  "price_contracted": 9569000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 37,
+  "loc_unknown": false,
+  "cpv": [
+   "45233160"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://tenderarena.cz/profily/00278386",
+  "bidders": [
+   {
+    "nazev": "STRABAG a.s.",
+    "ico": "60838744",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SWIETELSKY stavební s.r.o.",
+    "ico": "48035599",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "UMBRELLA s.r.o.",
+    "ico": "25299352",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ŠTĚPÁNEK, spol. s r.o.",
+    "ico": "45535124",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Alprim CZ s.r.o.",
+    "ico": "28811470",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ELITSTAV s.r.o.",
+    "ico": "06552226",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SILVAGRO s.r.o.",
+    "ico": "27476162",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "M - STAV CZ s.r.o.",
+    "ico": "27557235",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600087491",
@@ -23040,6 +23622,95 @@
   "kind": "VZ",
   "kw_match": false,
   "url": "https://ezak.suspk.cz/"
+ },
+ {
+  "id": "rvz:RVZ2500221634",
+  "source": "profil:hradec-kralove",
+  "title": "Úprava křižovatky Svinary pro přechod pro chodce",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "winner": "M - SILNICE a.s.",
+  "winner_ico": "42196868",
+  "awarded": "2026-02-11",
+  "price_contracted": 4515255.06,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "bidders": [
+   {
+    "nazev": "M - SILNICE a.s.",
+    "ico": "42196868",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ŠTĚPÁNEK, spol. s r.o.",
+    "ico": "45535124",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "M - STAV CZ s.r.o.",
+    "ico": "27557235",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
+  "id": "rvz:RVZ2600000330",
+  "source": "profil:pardubice",
+  "title": "Rekonstrukce zastávky MHD – Svítkov park – realizace",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "MIROS Pardubice a.s.",
+  "winner_ico": "27523934",
+  "awarded": "2026-02-10",
+  "price_contracted": 731010.51,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45233100"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00000141",
+  "bidders": [
+   {
+    "nazev": "Bricky s.r.o.",
+    "ico": "09707352",
+    "cena": 1549109.09,
+    "vyloucen": false
+   },
+   {
+    "nazev": "M - STAV CZ s.r.o.",
+    "ico": "27557235",
+    "cena": 1037118.72,
+    "vyloucen": false
+   },
+   {
+    "nazev": "BAUSET CZ, a.s.",
+    "ico": "63217139",
+    "cena": 878625.83,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MIROS Pardubice a.s.",
+    "ico": "27523934",
+    "cena": 731010.51,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/36735837"
  },
  {
   "id": "rvz:RVZ2500189541",

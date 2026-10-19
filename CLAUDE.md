@@ -21,7 +21,7 @@ neobsahuje žádná firemní data, proto smí běžet v public GitHub repozitá�
 
 | Parametr | Hodnota |
 |---|---|
-| Region | **Okruh 50 km od Hradce Králové** (geo.py, haversine). NUTS (CZ052/053/020/051/063) slouží jen jako hrubý předfiltr. Poloha se určuje: 1) obec z místa plnění/názvu dle `scraper/obce.csv`, 2) sídlo okresu z NUTS4, 3) obec ze sídla zadavatele (`authority_seat`), 4) obec ze jména MUNICIPÁLNÍHO zadavatele („Město/Obec/statutární město X" — jiná jména se nezkouší), 5) sídlo zadavatele u profilových VZMR z configu — nikdy pro agenturní profily s `"multi": True` (zadavatel i poloha se čtou z detailu každé zakázky; multi profil nedostává ani benevolenci obor/NUTS). Nad 50 km se zahazuje — a tento během vyřazená id nesmí oživit retence; dřívější `loc_unknown` záznamy archivu se při přenosu doměřují (geo.relocate_unknown). Neurčitelná poloha se ponechává s příznakem `loc_unknown` a štítkem v UI. |
+| Region | **Okruh 50 km od Hradce Králové** (geo.py, haversine). NUTS (CZ052/053/020/051/063) slouží jen jako hrubý předfiltr. Poloha se určuje: 1) obec z místa plnění dle `scraper/obce.csv`, 2) obec ze jména MUNICIPÁLNÍHO zadavatele („Město/Obec/statutární město/městská část/městský obvod X" — jiná jména se nezkouší; shoda musí pokrýt celé jméno, u části/obvodu nejdelší prefix = mateřské město; před názvem zakázky, protože fuzzy shoda v titulu umí lhát — případ „potok Vrutici" 19. 10. 2026), 3) obec z názvu zakázky, 4) sídlo okresu z NUTS4, 5) obec ze sídla zadavatele (`authority_seat`), 6) sídlo zadavatele u profilových VZMR z configu — nikdy pro agenturní profily s `"multi": True` (zadavatel i poloha se čtou z detailu každé zakázky; multi profil nedostává ani benevolenci obor/NUTS). Nad 50 km se zahazuje — a tento během vyřazená id nesmí oživit retence; dřívější `loc_unknown` záznamy archivu se při přenosu doměřují (geo.relocate_unknown). Neurčitelná poloha se ponechává s příznakem `loc_unknown` a štítkem v UI. |
 | CPV | 45* (stavební práce) — prefix match na hlavní i doplňkové CPV |
 | Klíčová slova | Záchytná síť vedle CPV: názvy s pozitivním výrazem (rekonstrukce, modernizace, zateplení, výstavba, stavební úpravy, snížení energetické náročnosti…) projdou i bez CPV 45, pokud neobsahují negativní výraz (projektová dokumentace, dozor, software, vozidla…). Seznamy v `config.py`, porovnání bez diakritiky, příznak `kw_match` + štítek „dle názvu" v UI. CPV 45 negativní slova NEpřebíjí. |
 | Min. předpokládaná hodnota | 2 000 000 Kč bez DPH; zakázky **bez uvedené hodnoty ponechat** a označit příznakem `no_value` |
@@ -44,9 +44,24 @@ neobsahuje žádná firemní data, proto smí běžet v public GitHub repozitá�
    PVU záznamy NEdostávají profilovou benevolenci filtrů (celostátní,
    víceoborové) a jednou zachycené se přenášejí z předchozího snapshotu
    VŽDY (RSS je pomíjivé). Co RSS přeteče, dožene ISVZ export zpětně.
-3. **NEN veřejné API** — obohacení detailů (prohlídka místa plnění,
-   vysvětlení ZD) k aktivním VZ; autentizace certifikátem přes GitHub
-   secrets, modul `fetch_nen.py` (neaktivní do zřízení přístupu).
+3. **NEN detaily** — dvě cesty:
+   **3a. Vložená data NEN (aktivní od 19. 10. 2026):** detail
+   nen.nipez.cz nese server-rendered JSON — `_nen_enrich_details`
+   v main.py doplňuje aktivním záznamům CHYBĚJÍCÍ pole: místo plnění
+   (zpřesňuje geo), popis předmětu (`predmet` — podklad AI filtru),
+   CPV (bez kontrolní číslice), lhůtu, hodnotu; strop 40 detailů/běh,
+   jednou obohacený záznam se znovu nestahuje (příznak `nen_detail`),
+   nikdy nepřepisuje existující hodnoty. POZOR: 8–9/2026 NEN data
+   nevkládal (404 + SPA skořápka) — kód výpadek přežije (None = žádná
+   změna), ale s možností recidivy počítat.
+   **3b. NEN veřejné API (formální, nezřízeno):** certifikátová
+   autentizace, žádost přes service desk https://sd.nipez.cz/nen
+   (komerční certifikát → referenční prostředí → produkce; veřejná
+   dokumentace na podpora.nipez.cz pokrývá jen e-katalogy, rozhraní
+   pro čtení VZ se žádá individuálně — Swagger nen-ws.nipez.cz/PS01r/
+   swagger vyžaduje schválený přístup). Modul `fetch_nen.py` je
+   připravená kostra; secrets NEN_CERT_PEM/NEN_KEY_PEM. Aktivovat má
+   smysl, jen pokud 3a přestane stačit.
 4. **Registr smluv** (zákon č. 340/2015 Sb.) — dodatky ke smlouvám
    a verifikace vysoutěžených cen pro záložku Konkurence. OVĚŘENO
    2026-07-28: měsíční dumpy `https://data.smlouvy.gov.cz/dump_RRRR_MM.xml`
@@ -182,11 +197,10 @@ Poté v nastavení repa:
   (štítek „odkaz nedostupný"). NEN a VVZ se NEKONTROLUJÍ VŮBEC — od
   8/2026 vracejí HTTP 404 se SPA skořápkou i na živé detaily (dřív 200
   na vše); jejich stavový kód není verdikt a historické příznaky z nich
-  se samoléčbou čistí. Tím také přestala fungovat NEN „vložená data"
-  (_nen_embedded — stránka je čistě klientská, podaniLhuta v těle už
-  není); větev v _verify_no_deadline korektně vrací „bez verdiktu"
-  a nechává se pro případ návratu. Síťové chyby vyřadit nic nemohou —
-  záměrně konzervativní.
+  se samoléčbou čistí. NEN „vložená data" (_nen_embedded) během
+  výpadku 8–9/2026 nefungovala, od 10/2026 opět ano — kód oba stavy
+  přežije (None = žádný verdikt/změna). Síťové chyby vyřadit nic
+  nemohou — záměrně konzervativní.
 - **★/👎 synchronizace:** volitelně přes PRIVÁTNÍ GitHub Gist uživatele
   (fine-grained PAT jen se scope gist, vkládá se na každém zařízení;
   dialog ⇅ v hlavičce). Sloučení dle časových značek, historie odznačení

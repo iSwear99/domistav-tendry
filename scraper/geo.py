@@ -1,20 +1,21 @@
 """Určení vzdálenosti zakázky od Hradce Králové (okruh dle configu).
 
 Priorita určení polohy:
-1. Obec z textu místa plnění, poté z názvu zakázky — číselník
-   `scraper/obce.csv` (nazev;lat;lon, generováno z RÚIAN/ČÚZK pro kraje
-   CZ052/CZ053/CZ020/CZ051/CZ063). Názvy se porovnávají i ve skloňovaných
+1. Obec z explicitního místa plnění — číselník `scraper/obce.csv`
+   (nazev;lat;lon, celá ČR). Názvy se porovnávají i ve skloňovaných
    tvarech („v Týnci nad Labem" → Týnec nad Labem) přes množinu
    koncovkových variant — přesné tokenové shody, žádné prefixové hádání.
-2. Sídlo okresu dle NUTS4 (CZ0521…) — ISVZ open data ale uvádějí NUTS
+2. Obec ze JMÉNA zadavatele u municipálních zadavatelů („Město X",
+   „Obec X", „statutární město X", „městská část/obvod X") — shoda
+   musí pokrýt celý zbytek jména; u části/obvodu nejdelší prefix
+   (mateřské město). PŘED názvem zakázky (19. 10. 2026): obec staví
+   na svém území a fuzzy shoda v titulu umí lhát.
+3. Obec z názvu zakázky.
+4. Sídlo okresu dle NUTS4 (CZ0521…) — ISVZ open data ale uvádějí NUTS
    jen na úrovni kraje, takže tato úroveň zafunguje zřídka.
-3. Obec ze sídla zadavatele (`authority_seat` — z ISVZ i z detailu
+5. Obec ze sídla zadavatele (`authority_seat` — z ISVZ i z detailu
    E-ZAK profilu) — sídlo bývá shodné s místem plnění obecních zakázek.
-4. Obec ze JMÉNA zadavatele u municipálních zadavatelů („Město X",
-   „Obec X", „statutární město X") — doplněno 2. 8. 2026 poté, co
-   filtrem prošly zakázky Města Mnichovo Hradiště (~75 km) a stat.
-   města Havířov (~210 km) jen proto, že místo plnění nebylo v textu.
-5. Sídlo zadavatele u VZMR z profilů (souřadnice v configu) — NIKDY
+6. Sídlo zadavatele u VZMR z profilů (souřadnice v configu) — NIKDY
    pro profily s "multi": True (agenturní E-ZAK s cizími zadavateli).
 
 Nelze-li polohu určit, zakázka se PONECHÁVÁ s příznakem loc_unknown.
@@ -163,41 +164,75 @@ def _find_obec(text: str) -> tuple[float, float] | None:
 # „Město X" / „Obec X" / „statutární město X" / „městská část Praha-X" /
 # „městský obvod X" — jméno municipálního zadavatele je spolehlivé určení
 # obce; na jiná jména zadavatelů se záměrně nesahá (firma pojmenovaná
-# po obci by zakázku chybně vyřadila). U městské části/obvodu najde
-# _find_obec mateřské město (Praha, Pardubice…) — pro 50km bránu stačí.
+# po obci by zakázku chybně vyřadila).
 _MUNICIPAL_RE = re.compile(
-    r"^(?:statutarni\s+)?(?:mestska\s+cast|mestsky\s+obvod"
+    r"^(?:statutarni\s+)?(mestska\s+cast|mestsky\s+obvod"
     r"|mesto|mestys|obec)\s+(.+)$")
+
+
+def _obec_z_nazvu(rest: str, prefix_ok: bool) -> tuple[float, float] | None:
+    """Obec ze zbytku jména zadavatele. Shoda musí pokrýt CELÝ zbytek —
+    částečná shoda uprostřed lže („Praha-Velká Chuchle" spárovala obec
+    Velká u HK, zjištěno 19. 10. 2026). U městské části/obvodu
+    (prefix_ok) se zkouší nejdelší PREFIX: mateřské město stojí na
+    začátku („Praha-Satalice" → Praha, „Ústí nad Labem-Střekov" →
+    Ústí nad Labem, „Pardubice I" → Pardubice)."""
+    tokens = _norm(rest).split()
+    index = _obce_index()
+    if not tokens or not index:
+        return None
+    delky = range(len(tokens), 0, -1) if prefix_ok else (len(tokens),)
+    for k in delky:
+        best: tuple[float, tuple[float, float]] | None = None
+        for wvars, nwords, coords in index.get(tokens[0], ()):
+            if nwords != k:
+                continue
+            if all(tokens[j] in wvars[j] for j in range(1, k)):
+                d = haversine_km(config.GEO_CENTER, coords)
+                if best is None or d < best[0]:
+                    best = (d, coords)
+        if best:
+            return best[1]
+    return None
 
 
 def locate(t: dict, profil_coords: dict[str, tuple[float, float]]) -> float | None:
     """Vzdálenost od centra v km, nebo None (nelze určit)."""
-    # 1) obec z místa plnění, poté z názvu zakázky
-    for text in (t.get("place"), t.get("title")):
-        if text:
-            coords = _find_obec(text)
-            if coords:
-                return haversine_km(config.GEO_CENTER, coords)
-    # 2) NUTS4 → sídlo okresu (ISVZ uvádí většinou jen kraj — viz docstring)
+    # 1) obec z explicitního místa plnění
+    if t.get("place"):
+        coords = _find_obec(t["place"])
+        if coords:
+            return haversine_km(config.GEO_CENTER, coords)
+    # 2) obec ze jména MUNICIPÁLNÍHO zadavatele („Město Mnichovo
+    #    Hradiště") — PŘED názvem zakázky: obec staví na svém území
+    #    a fuzzy shoda v titulu umí lhát („…přes potok Vrutici"
+    #    spárovalo obec Vrutice, 19. 10. 2026)
+    auth = " ".join(_norm(t.get("authority") or "").split())
+    m = _MUNICIPAL_RE.match(auth)
+    if m:
+        coords = _obec_z_nazvu(
+            m.group(2), prefix_ok=m.group(1) in ("mestska cast",
+                                                 "mestsky obvod"))
+        if coords:
+            return haversine_km(config.GEO_CENTER, coords)
+    # 3) obec z názvu zakázky
+    if t.get("title"):
+        coords = _find_obec(t["title"])
+        if coords:
+            return haversine_km(config.GEO_CENTER, coords)
+    # 4) NUTS4 → sídlo okresu (ISVZ uvádí většinou jen kraj — viz docstring)
     for n in t.get("nuts") or []:
         seat = OKRES_SEATS.get(n[:6])
         if seat:
             return haversine_km(config.GEO_CENTER, seat)
-    # 3) obec ze sídla zadavatele (ISVZ i E-ZAK detail) — před souřadnicemi
+    # 5) obec ze sídla zadavatele (ISVZ i E-ZAK detail) — před souřadnicemi
     #    profilu z configu: sídlo je per záznam, config per profil
     seat_text = t.get("authority_seat")
     if seat_text:
         coords = _find_obec(seat_text)
         if coords:
             return haversine_km(config.GEO_CENTER, coords)
-    # 4) obec ze jména municipálního zadavatele („Město Mnichovo Hradiště")
-    auth = " ".join(_norm(t.get("authority") or "").split())
-    m = _MUNICIPAL_RE.match(auth)
-    if m:
-        coords = _find_obec(m.group(1))
-        if coords:
-            return haversine_km(config.GEO_CENTER, coords)
-    # 5) sídlo zadavatele u profilových VZMR (souřadnice v configu)
+    # 6) sídlo zadavatele u profilových VZMR (souřadnice v configu)
     if t["source"].startswith("profil:"):
         coords = profil_coords.get(t["source"].removeprefix("profil:"))
         if coords:

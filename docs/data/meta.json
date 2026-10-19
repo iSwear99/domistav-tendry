@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-19T12:02:44+00:00",
+ "updated": "2026-10-19T16:15:21+00:00",
  "counts": {
-  "total": 8229,
-  "vz": 5229,
-  "vzmr": 3000,
-  "active": 61,
-  "changed": 111,
-  "competition": 1468,
-  "previous": 8228
+  "total": 8255,
+  "vz": 5236,
+  "vzmr": 3019,
+  "active": 62,
+  "changed": 112,
+  "competition": 1480,
+  "previous": 8229
  },
  "errors": [
-  "profil:dobruska: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274879/XMLdataVZ?od=21072026&do=19102026: <urlopen error timed out>"
+  "pvu: /externi-zakazka/uceeb-notebooky-a-it-dily-10-2026: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/uceeb-notebooky-a-it-dily-10-2026: HTTP Error 401: Unauthorized"
  ]
 }
