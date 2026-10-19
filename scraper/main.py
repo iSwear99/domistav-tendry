@@ -364,6 +364,124 @@ def _verify_no_deadline(result: list[dict], errors: list[str]) -> None:
           f"oživeno {stats['revived']}")
 
 
+# proklik má vést na DETAIL zakázky, ne na profil zadavatele (pokyn
+# 19. 10. 2026 — 46 z 62 aktivních vedlo na profil). URL detailu se
+# pozná podle vzoru platformy:
+_DETAIL_URL_RE = re.compile(
+    r"contract_display_\d+|/zakazka/|detail-zakazky|orderdetail", re.I)
+
+
+def _resolve_detail_links(result: list[dict], errors: list[str]) -> None:
+    """Dohledá přímé odkazy na detail zakázky pro aktivní záznamy,
+    jejichž URL vede jen na profil zadavatele.
+
+    Tři mechanismy (1 požadavek na profil a běh):
+    - obecně: výpis profilu, shoda textu odkazu s názvem zakázky
+      (vyžaduje se JEDINÁ shoda — jinak se odkaz nemění),
+    - PVU: slug odkazu /zakazka/<slug> = normalizovaný název (± přípona
+      -N u znovu vypsaných),
+    - NEN profily: XMLdataVZ páruje id_nipez (naše rvz: id) na
+      id_objektu (systémové číslo N006…) → detail-zakazky URL.
+    Původní profilový odkaz se zachová v profile_url. Bez nálezu se
+    nic nemění — profil je pořád funkční proklik."""
+    import urllib.parse
+    import urllib.request
+    import xml.etree.ElementTree as ET
+
+    def http(u: str, timeout: int = 45) -> str:
+        req = urllib.request.Request(
+            u, headers={"User-Agent": config.USER_AGENT})
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.read().decode("utf-8", "replace")
+
+    def norm(s: str) -> str:
+        return _norm_title(s)
+
+    cands = [t for t in result
+             if not t["expired"] and (t.get("url") or "").startswith("http")
+             and not _DETAIL_URL_RE.search(t["url"])]
+    by_root: dict[str, list[dict]] = {}
+    for t in cands:
+        by_root.setdefault(t["url"].rstrip("/"), []).append(t)
+
+    for root, ts in by_root.items():
+        host = urllib.parse.urlparse(root).netloc.removeprefix("www.")
+        found: dict[str, str] = {}      # id zakázky -> URL detailu
+        try:
+            if host == "nen.nipez.cz" and "/profil/" in root:
+                od = min((t.get("published") or "")[:10] for t in ts) \
+                    or dt.date.today().isoformat()
+                # strop okna: delší rozsah generuje mnoha-MB XML a timeouty
+                od_d = max(dt.date.fromisoformat(od) - dt.timedelta(days=10),
+                           dt.date.today() - dt.timedelta(days=120))
+                xml = http(
+                    f"https://nen.nipez.cz{urllib.parse.urlparse(root).path}"
+                    f"/XMLdataVZ?od={od_d:%d%m%Y}&do={dt.date.today():%d%m%Y}",
+                    timeout=120)   # NEN XML generuje ~1 MB, bývá pomalé
+                nipez_to_obj: dict[str, str] = {}
+                for el in ET.fromstring(xml).iter():
+                    if el.tag.split("}")[-1] != "zakazka":
+                        continue
+                    nip = obj = ""
+                    for ch in el.iter():
+                        tag = ch.tag.split("}")[-1]
+                        if tag == "id_nipez" and ch.text:
+                            nip = ch.text.strip()
+                        elif tag == "id_objektu" and ch.text \
+                                and ch.text.strip().startswith("N006"):
+                            obj = ch.text.strip()
+                    if nip and obj:
+                        nipez_to_obj.setdefault(nip, obj)
+                for t in ts:
+                    obj = nipez_to_obj.get(t["id"].removeprefix("rvz:"))
+                    if obj:
+                        found[t["id"]] = ("https://nen.nipez.cz/verejne-"
+                                          "zakazky/detail-zakazky/"
+                                          + obj.replace("/", "-"))
+            else:
+                # výpis profilu, u E-ZAK multiprofilů i stránkování
+                # (aktivní zakázky jsou na prvních stranách)
+                anchors: list[tuple[str, str]] = []
+                for pg in range(1, 6):
+                    u = root if pg == 1 else f"{root}?page={pg}"
+                    page = http(u)
+                    nove = [(urllib.parse.urljoin(root + "/", h),
+                             norm(re.sub(r"<[^>]+>", " ", txt)))
+                            for h, txt in re.findall(
+                                r'<a\s[^>]*href="([^"#]+)"[^>]*>((?:(?!</a>).)*)</a>',
+                                page, re.S)]
+                    anchors.extend(nove)
+                    texty = {txt for _, txt in anchors}
+                    if pg == 1 and "?page=" not in page:
+                        break           # bez stránkování (PVU aj.)
+                    if all(norm(t["title"]) in texty for t in ts):
+                        break           # vše už nalezeno
+                for t in ts:
+                    nt = norm(t["title"])
+                    hits = {h for h, txt in anchors if txt == nt and nt}
+                    if not hits and host == "vhodne-uverejneni.cz":
+                        slug = re.sub(r"\s+", "-", nt)
+                        hits = {h for h, _ in anchors
+                                if re.fullmatch(
+                                    re.escape("https://www.vhodne-uverejneni"
+                                              ".cz/zakazka/" + slug)
+                                    + r"(-\d+)?", h)}
+                    if len(hits) == 1:
+                        found[t["id"]] = hits.pop()
+        except Exception as exc:  # noqa: BLE001
+            errors.append(f"proklik {host}: {exc}")
+            continue
+        for t in ts:
+            u = found.get(t["id"])
+            if u and _DETAIL_URL_RE.search(u):
+                t.setdefault("profile_url", t["url"])
+                t["url"] = u
+    done = sum(1 for t in cands if _DETAIL_URL_RE.search(t.get("url") or ""))
+    if cands:
+        print(f"prokliky: {done}/{len(cands)} profilových odkazů "
+              f"převedeno na detail zakázky")
+
+
 _NEN_DETAIL_CAP = 40      # obohacovaných detailů za běh (šetrnost k NEN)
 
 
@@ -776,6 +894,9 @@ def run(dry_run: bool = False) -> int:
     # detailnější informace z vložených dat NEN (místo, popis, CPV,
     # lhůta, hodnota) — PŘED diffem, aby změny vstoupily do changes.json
     if not dry_run:
+        # nejdřív prokliky (profil → detail): NEN obohacení níž pak
+        # umí číst i záznamy, které měly jen profilový odkaz
+        _resolve_detail_links(result, errors)
         _nen_enrich_details(result, errors)
         # doplněné místo plnění umí dodatečně určit polohu dosud
         # neurčených záznamů — mimo okruh se zahazují (nikdy sem nepatřily)
