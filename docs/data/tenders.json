@@ -145924,10 +145924,36 @@
   "deadline": "2026-04-08T10:00:00",
   "url": "https://zakazky.mudk.cz/profile_display_2.html",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Acronym collective studio s.r.o.",
+    "ico": "23536527",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "DEKPROJEKT s.r.o.",
+    "ico": "27642411",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MUDK - test certifikátu",
+    "ico": "00000001",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STRONG ENCO s.r.o.",
+    "ico": "27787591",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
   "kw_match": true,
   "no_nuts": false,
   "no_value": true,
@@ -167046,6 +167072,33 @@
   "expired": false,
   "dist_km": 27,
   "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:42937736:P26V00006480",
+  "source": "profil:pvu:42937736",
+  "title": "Energetické úspory v areálu TOM service s.r.o.",
+  "authority": "TOM service s.r.o.",
+  "authority_ico": "42937736",
+  "cpv": [
+   "45453000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-16",
+  "deadline": "2026-11-16T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/tom-service-s-r-o-1",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": null,
+  "loc_unknown": true
  },
  {
   "id": "rvz:RVZ2600285558",

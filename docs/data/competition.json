@@ -15110,6 +15110,54 @@
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017548"
  },
  {
+  "id": "profil:dvur-kralove:VZ-494",
+  "source": "profil:dvur-kralove",
+  "title": "Projekční činnost – Rekonstrukce zimního stadionu ve Dvoře Králové nad Labem",
+  "authority": "Město Dvůr Králové nad Labem",
+  "authority_ico": "00277819",
+  "winner": "Acronym collective studio s.r.o.",
+  "winner_ico": "23536527",
+  "awarded": "2026-05-07",
+  "price_contracted": 2580000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 26,
+  "loc_unknown": false,
+  "cpv": [
+   "71000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://zakazky.mudk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "Acronym collective studio s.r.o.",
+    "ico": "23536527",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "DEKPROJEKT s.r.o.",
+    "ico": "27642411",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MUDK - test certifikátu",
+    "ico": "00000001",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STRONG ENCO s.r.o.",
+    "ico": "27787591",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2500133169",
   "source": "isvz",
   "title": "FN HRADEC KRÁLOVÉ – PAVILON KIN – REALIZACE",
