@@ -413,11 +413,11 @@ def _resolve_detail_links(result: list[dict], errors: list[str]) -> None:
                     or dt.date.today().isoformat()
                 # strop okna: delší rozsah generuje mnoha-MB XML a timeouty
                 od_d = max(dt.date.fromisoformat(od) - dt.timedelta(days=10),
-                           dt.date.today() - dt.timedelta(days=120))
+                           dt.date.today() - dt.timedelta(days=90))
                 xml = http(
                     f"https://nen.nipez.cz{urllib.parse.urlparse(root).path}"
                     f"/XMLdataVZ?od={od_d:%d%m%Y}&do={dt.date.today():%d%m%Y}",
-                    timeout=120)   # NEN XML generuje ~1 MB, bývá pomalé
+                    timeout=240)   # NEN XML generuje pomalu i jednotky MB
                 nipez_to_obj: dict[str, str] = {}
                 for el in ET.fromstring(xml).iter():
                     if el.tag.split("}")[-1] != "zakazka":
