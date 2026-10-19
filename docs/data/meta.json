@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T16:26:54+00:00",
+ "updated": "2026-10-19T17:17:02+00:00",
  "counts": {
   "total": 8255,
   "vz": 5236,
@@ -10,6 +10,7 @@
   "previous": 8255
  },
  "errors": [
-  "pvu: /externi-zakazka/uceeb-notebooky-a-it-dily-10-2026: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/uceeb-notebooky-a-it-dily-10-2026: HTTP Error 401: Unauthorized"
+  "pvu: /externi-zakazka/uceeb-notebooky-a-it-dily-10-2026: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/uceeb-notebooky-a-it-dily-10-2026: HTTP Error 401: Unauthorized",
+  "proklik nen.nipez.cz: The read operation timed out"
  ]
 }

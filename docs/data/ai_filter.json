@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-10-19T16:30:02+00:00",
+  "updated": "2026-10-19T17:17:09+00:00",
   "model": "claude-opus-5",
-  "posouzeno_nyni": 53,
-  "celkem": 508,
+  "posouzeno_nyni": 1,
+  "celkem": 509,
   "counts": {
    "ano": 237,
    "ne": 179,
-   "nejisto": 92
+   "nejisto": 93
   },
   "errors": []
  },
@@ -2043,6 +2043,10 @@
   "rvz:RVZ2600118543": {
    "verdikt": "ne",
    "duvod": "Oprava vozidla"
+  },
+  "profil:pvu:00831590:P26V00006228": {
+   "verdikt": "nejisto",
+   "duvod": "Stezka s rekreačními prvky, nejasný rozsah stavebních prací"
   }
  }
 }

@@ -87,7 +87,7 @@
   "value": 32195236.0,
   "published": "2026-09-21",
   "deadline": "2026-11-23T09:00:00",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html/contract_display_13160.html",
   "place": "Místem plnění veřejné zakázky je Nemocnice Nový Bydžov, Jana Maláta 494, 504 01, pavilon H.",
   "authority_seat": "",
   "authority_profile": "https://zakazky.cenakhk.cz/profile_display_2.html",
@@ -116,7 +116,7 @@
   "value": null,
   "published": "2026-10-16",
   "deadline": "2026-11-16T10:00:00",
-  "url": "https://www.vhodne-uverejneni.cz/profil/tom-service-s-r-o-1",
+  "url": "https://www.vhodne-uverejneni.cz/zakazka/energeticke-uspory-v-arealu-tom-service-s-r-o",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -128,7 +128,8 @@
   "no_value": true,
   "expired": false,
   "dist_km": null,
-  "loc_unknown": true
+  "loc_unknown": true,
+  "profile_url": "https://www.vhodne-uverejneni.cz/profil/tom-service-s-r-o-1"
  },
  {
   "id": "profil:pvu:00234591:P26V00006515",
@@ -143,7 +144,7 @@
   "value": null,
   "published": "2026-10-19",
   "deadline": "2026-11-11T10:00:00",
-  "url": "https://www.vhodne-uverejneni.cz/profil/00234591",
+  "url": "https://www.vhodne-uverejneni.cz/zakazka/vystavba-fotovoltaicke-elektrarny-v-obci-ledce",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -155,7 +156,8 @@
   "no_value": true,
   "expired": false,
   "dist_km": 19,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "profile_url": "https://www.vhodne-uverejneni.cz/profil/00234591"
  },
  {
   "id": "profil:kr-pardubicky:VZ-6374",
@@ -244,7 +246,9 @@
   "no_value": true,
   "expired": false,
   "dist_km": 20,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "nen_detail": "2026-10-19",
+  "predmet": "Předmětem plnění tohoto zadávacího řízení jsou stavební úpravy související primárně s výměnou radaru na RLB PISEK vč. RADOMu. Dojde k vyztužení radarové věže, úpravě konstrukce pro osazení antén (nově sekundární a primární), úpravě konstrukce pro osazení nového RADOMu a úpravám v objektu (radarový sál, rozvodna VN, silnoproudé a slaboproudé rozvody, plynové hašení, atd.)  Detailní zadání předmětu plnění veřejné zakázky je obsaženo v zadávací dokumentaci a jejích přílohách."
  },
  {
   "id": "profil:kr-pardubicky:VZ-6172",
@@ -259,7 +263,7 @@
   "value": null,
   "published": "2026-07-20",
   "deadline": "2026-11-05T10:00:00",
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html/contract_display_6172.html",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -270,7 +274,8 @@
   "no_value": true,
   "expired": false,
   "dist_km": 43,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "profile_url": "https://zakazky.pardubickykraj.cz/profile_display_2.html"
  },
  {
   "id": "rvz:RVZ2600293050",
@@ -313,7 +318,7 @@
   "value": null,
   "published": "2026-10-02",
   "deadline": "2026-11-04T10:00:00",
-  "url": "https://www.vhodne-uverejneni.cz/profil/27801454",
+  "url": "https://www.vhodne-uverejneni.cz/zakazka/rekonstrukce-objektu-kvarto-a-udrzby",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -325,7 +330,8 @@
   "no_value": true,
   "expired": false,
   "dist_km": null,
-  "loc_unknown": true
+  "loc_unknown": true,
+  "profile_url": "https://www.vhodne-uverejneni.cz/profil/27801454"
  },
  {
   "id": "profil:kr-kralovehradecky:VZ-13159",
@@ -340,7 +346,7 @@
   "value": null,
   "published": "2026-09-21",
   "deadline": "2026-11-04T09:00:00",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html/contract_display_13159.html",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -351,7 +357,8 @@
   "no_value": true,
   "expired": false,
   "dist_km": 38,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html"
  },
  {
   "id": "rvz:RVZ2600286550",
@@ -520,7 +527,7 @@
   "value": null,
   "published": "2026-10-01",
   "deadline": "2026-11-02T11:00:00",
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html/contract_display_6426.html",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -531,7 +538,8 @@
   "no_value": true,
   "expired": false,
   "dist_km": 33,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "profile_url": "https://zakazky.pardubickykraj.cz/profile_display_2.html"
  },
  {
   "id": "rvz:RVZ2600287590",
@@ -595,7 +603,9 @@
   "no_value": true,
   "expired": false,
   "dist_km": 43,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "nen_detail": "2026-10-19",
+  "predmet": "Předmětem veřejné zakázky je realizace díla v rámci projektu s názvem: „Antukové venkovní sportoviště v obci Svatý Jiří-Loučky II“. Jedná se o vybudování venkovního sportoviště s antukovým povrchem, které je určeno pro hraní tenisu, nohejbalu a volejbalu."
  },
  {
   "id": "profil:pvu:63494248:P26V00006433",
@@ -610,7 +620,7 @@
   "value": null,
   "published": "2026-10-14",
   "deadline": "2026-11-02T09:00:00",
-  "url": "https://www.vhodne-uverejneni.cz/profil/promabyt-a-s",
+  "url": "https://www.vhodne-uverejneni.cz/zakazka/stavebni-upravy-pristavba-objektu-c-p-1370",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -622,7 +632,8 @@
   "no_value": true,
   "expired": false,
   "dist_km": null,
-  "loc_unknown": true
+  "loc_unknown": true,
+  "profile_url": "https://www.vhodne-uverejneni.cz/profil/promabyt-a-s"
  },
  {
   "id": "rvz:RVZ2600291445",
@@ -818,7 +829,7 @@
   "value": 8056600.0,
   "published": "2026-09-23",
   "deadline": "2026-10-27T10:00:00",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html/contract_display_13149.html",
   "place": "Budova gymnázia v Dobrušce, Pulická 779, 518 01 Dobruška, na pozemcích parc. č. 1296/1 (zastavěná plocha a nádvoří) a 1296/3 (zastavěná plocha a nádvoří) v katastrálním území Dobruška.",
   "authority_seat": "",
   "authority_profile": "https://zakazky.cenakhk.cz/profile_display_2.html",
@@ -883,7 +894,7 @@
   "value": null,
   "published": "2026-09-18",
   "deadline": "2026-10-26T10:00:00",
-  "url": "https://www.vhodne-uverejneni.cz/profil/00532304",
+  "url": "https://www.vhodne-uverejneni.cz/zakazka/vtp-unis-ii-aerospace-centrum-odstraneni-stavajiciho-objektu",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -895,7 +906,8 @@
   "no_value": true,
   "expired": false,
   "dist_km": null,
-  "loc_unknown": true
+  "loc_unknown": true,
+  "profile_url": "https://www.vhodne-uverejneni.cz/profil/00532304"
  },
  {
   "id": "rvz:RVZ2600100449",
@@ -955,7 +967,7 @@
   "value": null,
   "published": "2026-09-24",
   "deadline": "2026-10-26T08:00:00",
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html/contract_display_6453.html",
   "place": "viz zadávací dokumentace a její přílohy",
   "authority_seat": "",
   "authority_profile": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
@@ -1279,7 +1291,7 @@
   "value": null,
   "published": "2026-10-05",
   "deadline": "2026-10-20T10:00:00",
-  "url": "https://www.vhodne-uverejneni.cz/profil/sprava-bytovych-objektu-praha-modrany-prispevkova-organizace",
+  "url": "https://www.vhodne-uverejneni.cz/zakazka/oprava-bytove-jednotky-c-5-ul-lysinska-1756-32",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -1291,7 +1303,8 @@
   "no_value": true,
   "expired": false,
   "dist_km": null,
-  "loc_unknown": true
+  "loc_unknown": true,
+  "profile_url": "https://www.vhodne-uverejneni.cz/profil/sprava-bytovych-objektu-praha-modrany-prispevkova-organizace"
  },
  {
   "id": "rvz:RVZ2600118849",
@@ -168322,7 +168335,7 @@
   "value": null,
   "published": "2026-10-04",
   "deadline": "",
-  "url": "https://www.vhodne-uverejneni.cz/profil/obec-chotovice",
+  "url": "https://www.vhodne-uverejneni.cz/zakazka/sportovne-naucna-stezka-chotovice-etapa-ii",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -168334,7 +168347,8 @@
   "no_value": true,
   "expired": false,
   "dist_km": 32,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "profile_url": "https://www.vhodne-uverejneni.cz/profil/obec-chotovice"
  },
  {
   "id": "rvz:RVZ2600287072",
@@ -168684,7 +168698,7 @@
   "value": null,
   "published": "2026-09-17",
   "deadline": "",
-  "url": "https://www.vhodne-uverejneni.cz/profil/obec-rana",
+  "url": "https://www.vhodne-uverejneni.cz/zakazka/fve-obec-rana",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -168696,7 +168710,8 @@
   "no_value": true,
   "expired": false,
   "dist_km": 47,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "profile_url": "https://www.vhodne-uverejneni.cz/profil/obec-rana"
  },
  {
   "id": "rvz:RVZ2600283802",
@@ -168804,7 +168819,7 @@
   "value": null,
   "published": "2026-09-16",
   "deadline": "",
-  "url": "https://www.vhodne-uverejneni.cz/profil/stavebni-bytove-druzstvo-havirov",
+  "url": "https://www.vhodne-uverejneni.cz/zakazka/rekonstrukce-vytahu-bytoveho-domu-na-ulici-prima-1-3-5-havirov-podlesi",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -168816,7 +168831,8 @@
   "no_value": true,
   "expired": false,
   "dist_km": 42,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "profile_url": "https://www.vhodne-uverejneni.cz/profil/stavebni-bytove-druzstvo-havirov"
  },
  {
   "id": "rvz:RVZ2600262530",
@@ -168950,7 +168966,7 @@
   "value": null,
   "published": "2026-09-10",
   "deadline": "",
-  "url": "https://www.vhodne-uverejneni.cz/profil/stavebni-bytove-druzstvo-havirov",
+  "url": "https://www.vhodne-uverejneni.cz/zakazka/rekonstrukce-strojoven-vytahu-bytoveho-domu-na-ulici-nad-terasou-14-16-18-havirov-podlesi",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -168962,7 +168978,8 @@
   "no_value": true,
   "expired": false,
   "dist_km": 42,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "profile_url": "https://www.vhodne-uverejneni.cz/profil/stavebni-bytove-druzstvo-havirov"
  },
  {
   "id": "rvz:RVZ2600159449",
@@ -170575,7 +170592,7 @@
   "value": null,
   "published": "2026-06-11",
   "deadline": "",
-  "url": "https://www.vhodne-uverejneni.cz/profil/stavebni-bytove-druzstvo-havirov",
+  "url": "https://www.vhodne-uverejneni.cz/zakazka/nater-balkonovych-zabradli-bytoveho-domu-na-ulici-tocita-2-8-havirov-podlesi",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -170587,7 +170604,8 @@
   "no_value": true,
   "expired": false,
   "dist_km": 42,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "profile_url": "https://www.vhodne-uverejneni.cz/profil/stavebni-bytove-druzstvo-havirov"
  },
  {
   "id": "profil:kr-pardubicky:VZ-6239",
