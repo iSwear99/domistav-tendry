@@ -1,15 +1,19 @@
 {
  "meta": {
-  "updated": "2026-10-19T17:17:09+00:00",
+  "updated": "2026-10-19T19:17:09+00:00",
   "model": "claude-opus-5",
-  "posouzeno_nyni": 1,
-  "celkem": 509,
+  "posouzeno_nyni": 0,
+  "celkem": 505,
   "counts": {
-   "ano": 237,
+   "ano": 235,
    "ne": 179,
-   "nejisto": 93
+   "nejisto": 91
   },
-  "errors": []
+  "errors": [
+   "AI dávka 0: Connection error.",
+   "AI dávka 1: Connection error.",
+   "AI dávka 2: Connection error."
+  ]
  },
  "verdikty": {
   "rvz:RVZ2600078991": {
@@ -648,10 +652,6 @@
    "verdikt": "ne",
    "duvod": "Pouze projektová dokumentace"
   },
-  "profil:trutnov:VZ-1837": {
-   "verdikt": "ano",
-   "duvod": "Snížení energetické náročnosti školy"
-  },
   "rvz:RVZ2600114009": {
    "verdikt": "nejisto",
    "duvod": "Vyklizení půdy, nejasný rozsah stavebních prací"
@@ -751,10 +751,6 @@
   "rvz:RVZ2600096679": {
    "verdikt": "ano",
    "duvod": "Otopná soustava školy – rekonstrukce budovy"
-  },
-  "rvz:RVZ2600088364": {
-   "verdikt": "nejisto",
-   "duvod": "Víceúčelové hřiště u školy, sportovní povrchy"
   },
   "rvz:RVZ2600097273": {
    "verdikt": "nejisto",
@@ -1776,10 +1772,6 @@
    "verdikt": "ano",
    "duvod": "Stavební úpravy budovy, pozemní stavitelství"
   },
-  "profil:pvu:00275301:P26V00005224": {
-   "verdikt": "ano",
-   "duvod": "Zateplení a stavební úpravy budovy úřadu – pozemní stavitelství"
-  },
   "profil:pvu:00256552:P26V00005241": {
    "verdikt": "ano",
    "duvod": "Výstavba budovy kulturního střediska, pozemní stavitelství"
@@ -1799,10 +1791,6 @@
   "profil:kr-kralovehradecky:VZ-13061": {
    "verdikt": "nejisto",
    "duvod": "Protipovodňová zábrana areálu, možná vodohospodářská stavba"
-  },
-  "profil:pvu:00270741:P26V00005349": {
-   "verdikt": "nejisto",
-   "duvod": "Nejasná zkratka LC, možná lesní cesta"
   },
   "profil:pvu:00239089:P26V00005328": {
    "verdikt": "ne",

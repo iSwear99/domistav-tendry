@@ -1,16 +1,30 @@
 {
- "updated": "2026-10-19T17:17:02+00:00",
+ "updated": "2026-10-19T19:17:01+00:00",
  "counts": {
-  "total": 8255,
-  "vz": 5236,
-  "vzmr": 3019,
-  "active": 62,
-  "changed": 112,
-  "competition": 1480,
+  "total": 8860,
+  "vz": 5491,
+  "vzmr": 3369,
+  "active": 152,
+  "changed": 119,
+  "competition": 1860,
   "previous": 8255
  },
  "errors": [
   "pvu: /externi-zakazka/uceeb-notebooky-a-it-dily-10-2026: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/uceeb-notebooky-a-it-dily-10-2026: HTTP Error 401: Unauthorized",
-  "proklik nen.nipez.cz: The read operation timed out"
+  "proklik tenderarena.cz: HTTP Error 429: Too Many Requests",
+  "proklik tenderarena.cz: HTTP Error 429: Too Many Requests",
+  "proklik egordion.cz: HTTP Error 429: Too Many Requests",
+  "proklik egordion.cz: HTTP Error 429: Too Many Requests",
+  "proklik egordion.cz: HTTP Error 429: Too Many Requests",
+  "proklik tenderarena.cz: HTTP Error 429: Too Many Requests",
+  "proklik tenderarena.cz: HTTP Error 429: Too Many Requests",
+  "proklik tenderarena.cz: HTTP Error 429: Too Many Requests",
+  "proklik tenderarena.cz: HTTP Error 429: Too Many Requests",
+  "proklik egordion.cz: HTTP Error 429: Too Many Requests",
+  "proklik tenderarena.cz: HTTP Error 429: Too Many Requests",
+  "proklik profilyzadavatelu.cz: HTTP Error 429: Too Many Requests",
+  "proklik tenderarena.cz: HTTP Error 429: Too Many Requests",
+  "proklik tenderarena.cz: HTTP Error 429: Too Many Requests",
+  "proklik tenderarena.cz: HTTP Error 429: Too Many Requests"
  ]
 }
