@@ -702,9 +702,14 @@ def run(dry_run: bool = False) -> int:
     # (případ AGAPÉ, 2026-08-02); expirovanou historii chrání podmínka
     # kompatibility lhůt v dedup_cross_source
     combined, _ = dedup_cross_source(deduped + carried, today)
+    # řazení: nejdelší zbývající lhůta první (pokyn 19. 10. 2026) — nově
+    # vypsané zakázky mívají lhůtu nejdál, objeví se tedy nahoře; záznamy
+    # bez lhůty ("" je v reverse poslední) klesají na konec, shodné lhůty
+    # rozhoduje novější datum uveřejnění
     result = sorted(
         combined,
-        key=lambda t: (t.get("deadline") or "9999", t.get("published") or ""),
+        key=lambda t: (t.get("deadline") or "", t.get("published") or ""),
+        reverse=True,
     )
     # úklid registrových torz bez lhůty: ověření u zdroje (NEN/profil),
     # obohacení živých, expirace mrtvých, 21denní zpětná kontrola
