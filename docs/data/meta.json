@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T16:15:21+00:00",
+ "updated": "2026-10-19T16:26:54+00:00",
  "counts": {
   "total": 8255,
   "vz": 5236,
@@ -7,7 +7,7 @@
   "active": 62,
   "changed": 112,
   "competition": 1480,
-  "previous": 8229
+  "previous": 8255
  },
  "errors": [
   "pvu: /externi-zakazka/uceeb-notebooky-a-it-dily-10-2026: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/uceeb-notebooky-a-it-dily-10-2026: HTTP Error 401: Unauthorized"

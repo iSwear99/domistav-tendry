@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-10-19T12:02:53+00:00",
-  "zd": 568,
-  "zpravy": 1468,
-  "novych": 1,
+  "updated": "2026-10-19T16:29:11+00:00",
+  "zd": 569,
+  "zpravy": 1480,
+  "novych": 5,
   "errors": []
  },
  "zd": {
@@ -1635,9 +1635,6 @@
   "profil:pvu:27801454:P26V00006182": {
    "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3920910"
   },
-  "profil:pvu:00231185:P26V00006215": {
-   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3921666"
-  },
   "profil:pvu:00879746:P26V00006239": {
    "nenalezeno": true
   },
@@ -1726,9 +1723,6 @@
   "rvz:RVZ2600287593": {
    "nenalezeno": true
   },
-  "profil:pvu:00235407:P26V00006434": {
-   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3930509"
-  },
   "rvz:RVZ2600285558": {
    "nenalezeno": true
   },
@@ -1760,6 +1754,15 @@
   },
   "profil:pvu:42937736:P26V00006480": {
    "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3932571"
+  },
+  "profil:pvu:00234591:P26V00006515": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3933629"
+  },
+  "rvz:RVZ2600293050": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600289521": {
+   "nenalezeno": true
   }
  },
  "zpravy": {
@@ -6198,6 +6201,45 @@
    "nenalezeno": true
   },
   "profil:dvur-kralove:VZ-494": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600106801": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600097938": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600099790": {
+   "doc_url": "https://nen.nipez.cz/file?id=4587567261&amp;amp;typ=.pdf&amp;amp;velikost=258253B",
+   "cena": 6920000.06
+  },
+  "rvz:RVZ2600100145": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600085103": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600070274": {
+   "doc_url": "https://nen.nipez.cz/file?id=4561735177",
+   "cena": 16472619.28
+  },
+  "rvz:RVZ2600076359": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500215921": {
+   "doc_url": "https://nen.nipez.cz/file?id=4421962038",
+   "cena": 18618618.0
+  },
+  "rvz:RVZ2600051148": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600050637": {
+   "doc_url": "https://api.tenderarena.cz/ta/profil/stahovani-dokumentu/dokument/5726793"
+  },
+  "rvz:RVZ2500221634": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600000330": {
    "nenalezeno": true
   }
  }

@@ -1,19 +1,15 @@
 {
  "meta": {
-  "updated": "2026-10-19T12:02:54+00:00",
+  "updated": "2026-10-19T16:30:02+00:00",
   "model": "claude-opus-5",
-  "posouzeno_nyni": 0,
-  "celkem": 455,
+  "posouzeno_nyni": 53,
+  "celkem": 508,
   "counts": {
-   "ano": 216,
-   "ne": 155,
-   "nejisto": 84
+   "ano": 237,
+   "ne": 179,
+   "nejisto": 92
   },
-  "errors": [
-   "AI dávka 0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBZZufJma78yDx6mU4jY'}",
-   "AI dávka 1: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBZZvq1QaqDvaAPpn6jG'}",
-   "AI dávka 2: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBZZwSTm4TK8r2bFwkTJ'}"
-  ]
+  "errors": []
  },
  "verdikty": {
   "rvz:RVZ2600078991": {
@@ -1835,6 +1831,218 @@
   "profil:pvu:00415227:P26V00003886": {
    "verdikt": "nejisto",
    "duvod": "Pouze nátěr zábradlí, drobná údržba domu"
+  },
+  "rvz:RVZ2600118626": {
+   "verdikt": "ano",
+   "duvod": "Novostavba tělocvičny a nástavba školy"
+  },
+  "rvz:RVZ2600285558": {
+   "verdikt": "ne",
+   "duvod": "Dodávka gastro vybavení, nikoli stavba"
+  },
+  "profil:pvu:42937736:P26V00006480": {
+   "verdikt": "ano",
+   "duvod": "Energetické úspory budov, zateplení"
+  },
+  "profil:pvu:00234591:P26V00006515": {
+   "verdikt": "ne",
+   "duvod": "Fotovoltaická elektrárna, energetické dílo"
+  },
+  "profil:kr-pardubicky:VZ-6374": {
+   "verdikt": "ne",
+   "duvod": "Pouze projektová dokumentace"
+  },
+  "rvz:RVZ2600287593": {
+   "verdikt": "ano",
+   "duvod": "Rekonstrukce administrativní budovy"
+  },
+  "rvz:RVZ2600286630": {
+   "verdikt": "nejisto",
+   "duvod": "Stavební úpravy, předmět blíže nespecifikován"
+  },
+  "profil:kr-pardubicky:VZ-6172": {
+   "verdikt": "ano",
+   "duvod": "Novostavba zdravotnické budovy"
+  },
+  "rvz:RVZ2600293050": {
+   "verdikt": "nejisto",
+   "duvod": "Rekonstrukce podlahy s dodávkou nábytku"
+  },
+  "profil:pvu:27801454:P26V00006182": {
+   "verdikt": "ano",
+   "duvod": "Rekonstrukce objektů, pozemní stavitelství"
+  },
+  "profil:kr-kralovehradecky:VZ-13159": {
+   "verdikt": "ano",
+   "duvod": "Stavební práce rekonstrukce stravovacího provozu"
+  },
+  "rvz:RVZ2600286550": {
+   "verdikt": "ne",
+   "duvod": "Dodávka vozidel"
+  },
+  "rvz:RVZ2600287675": {
+   "verdikt": "ne",
+   "duvod": "Cyklostezka, dopravní stavba"
+  },
+  "rvz:RVZ2600287623": {
+   "verdikt": "ano",
+   "duvod": "Výstavba školní budovy"
+  },
+  "rvz:RVZ2600120866": {
+   "verdikt": "ano",
+   "duvod": "Výstavba a rekonstrukce administrativní budovy"
+  },
+  "rvz:RVZ2600290363": {
+   "verdikt": "ne",
+   "duvod": "Dodávka střeliva"
+  },
+  "profil:kr-pardubicky:VZ-6426": {
+   "verdikt": "ano",
+   "duvod": "Výstavba komunitního domu sociálních služeb"
+  },
+  "rvz:RVZ2600287590": {
+   "verdikt": "ano",
+   "duvod": "Zateplení fasád bytových domů"
+  },
+  "rvz:RVZ2600287059": {
+   "verdikt": "nejisto",
+   "duvod": "Venkovní sportoviště, rozsah stavby nejasný"
+  },
+  "profil:pvu:63494248:P26V00006433": {
+   "verdikt": "ano",
+   "duvod": "Stavební úpravy a přístavba objektu"
+  },
+  "rvz:RVZ2600291445": {
+   "verdikt": "nejisto",
+   "duvod": "Skatepark, venkovní plochy s projekcí"
+  },
+  "rvz:RVZ2600284815": {
+   "verdikt": "ne",
+   "duvod": "Opravy techniky, nikoli stavba"
+  },
+  "rvz:RVZ2600289839": {
+   "verdikt": "ne",
+   "duvod": "Technický dozor a BOZP"
+  },
+  "rvz:RVZ2600289028": {
+   "verdikt": "ne",
+   "duvod": "Naučná stezka, nikoli pozemní stavba"
+  },
+  "rvz:RVZ2600286223": {
+   "verdikt": "nejisto",
+   "duvod": "Výměna výtahů, převážně dodávka technologie"
+  },
+  "rvz:RVZ2600286380": {
+   "verdikt": "ne",
+   "duvod": "Dodávka gastro-technologie, nikoli stavební práce"
+  },
+  "rvz:RVZ2600286365": {
+   "verdikt": "ano",
+   "duvod": "Výstavba zdravotnického objektu, pozemní stavba"
+  },
+  "profil:pvu:00532304:P26V00005985": {
+   "verdikt": "ano",
+   "duvod": "Demolice objektu, firma demolice provádí"
+  },
+  "rvz:RVZ2600286983": {
+   "verdikt": "nejisto",
+   "duvod": "EPC projekt, převážně technologie a energetika"
+  },
+  "rvz:RVZ2600285190": {
+   "verdikt": "ne",
+   "duvod": "Dodávka měřicích stanic, nikoli pozemní stavba"
+  },
+  "rvz:RVZ2600288257": {
+   "verdikt": "ne",
+   "duvod": "Dodávka LCD panelů"
+  },
+  "rvz:RVZ2600285675": {
+   "verdikt": "ano",
+   "duvod": "Snížení energetické náročnosti budovy soudu"
+  },
+  "rvz:RVZ2600285631": {
+   "verdikt": "ano",
+   "duvod": "Stavební část zateplení veřejné budovy"
+  },
+  "rvz:RVZ2600291301": {
+   "verdikt": "ano",
+   "duvod": "Výměna výplní otvorů, stavební práce na budově"
+  },
+  "rvz:RVZ2600291331": {
+   "verdikt": "nejisto",
+   "duvod": "Odstranění oplocení, drobné bourací práce"
+  },
+  "rvz:RVZ2600289521": {
+   "verdikt": "ne",
+   "duvod": "Dodávka AV vybavení"
+  },
+  "rvz:RVZ2600284817": {
+   "verdikt": "ne",
+   "duvod": "Vodní cesta, sjezdy do vody"
+  },
+  "rvz:RVZ2600121236": {
+   "verdikt": "ne",
+   "duvod": "Výměna venkovního osvětlení bez stavební části"
+  },
+  "rvz:RVZ2600287945": {
+   "verdikt": "ano",
+   "duvod": "Stavební úpravy sportovní haly včetně PD"
+  },
+  "profil:pvu:00879746:P26V00006239": {
+   "verdikt": "ano",
+   "duvod": "Oprava bytové jednotky, rekonstrukce budovy"
+  },
+  "rvz:RVZ2600118849": {
+   "verdikt": "ne",
+   "duvod": "Opravy železničních vozidel"
+  },
+  "rvz:RVZ2600288346": {
+   "verdikt": "ano",
+   "duvod": "Rekonstrukce vnitřních prostor budovy"
+  },
+  "rvz:RVZ2600158869": {
+   "verdikt": "ne",
+   "duvod": "Železniční modernizace, drážní stavba"
+  },
+  "rvz:RVZ2600287072": {
+   "verdikt": "ne",
+   "duvod": "Servis a opravy vozidel"
+  },
+  "rvz:RVZ2600285078": {
+   "verdikt": "ne",
+   "duvod": "Odvoz a likvidace odpadů"
+  },
+  "profil:pvu:00270814:P26V00005955": {
+   "verdikt": "ne",
+   "duvod": "Fotovoltaická elektrárna, energetické zařízení"
+  },
+  "rvz:RVZ2600283827": {
+   "verdikt": "ne",
+   "duvod": "Opravy jeřábů, strojní servis"
+  },
+  "profil:pvu:00415227:P26V00005940": {
+   "verdikt": "nejisto",
+   "duvod": "Rekonstrukce výtahů, převážně technologická dodávka"
+  },
+  "rvz:RVZ2600262530": {
+   "verdikt": "ano",
+   "duvod": "Rekonstrukce domů, pozemní stavitelství"
+  },
+  "rvz:RVZ2600245608": {
+   "verdikt": "ne",
+   "duvod": "Oprava techniky, nikoli stavba"
+  },
+  "profil:pvu:00415227:P26V00005816": {
+   "verdikt": "ano",
+   "duvod": "Stavební rekonstrukce v bytovém domě"
+  },
+  "rvz:RVZ2600120872": {
+   "verdikt": "ne",
+   "duvod": "Údržba a opravy techniky"
+  },
+  "rvz:RVZ2600118543": {
+   "verdikt": "ne",
+   "duvod": "Oprava vozidla"
   }
  }
 }
