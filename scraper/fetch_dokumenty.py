@@ -41,7 +41,9 @@ except ImportError:              # bez pypdf se PDF přeskakují (chyba v meta)
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / config.OUT_DIR / "dokumenty.json"
-MAX_DOWNLOADS = 30               # nových dokumentů na běh (ZD i zpráv zvlášť)
+MAX_DOWNLOADS = 50               # nových dokumentů na běh (ZD i zpráv zvlášť)
+                                 # 30 → 50 (pokyn 19. 10. 2026): rychlejší
+                                 # dotěžování vítězů Konkurence ze zpráv
 MAX_BYTES = 40 * 1024 * 1024
 MAX_PDF_PAGES = 40
 
