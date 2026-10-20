@@ -13738,6 +13738,52 @@
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00028899"
  },
  {
+  "id": "rvz:RVZ2600069670",
+  "source": "profil:hradec-kralove",
+  "title": "Rekonstrukce větrání sociálních zařízení ZŠ Bezručova",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "winner": "FleetCom s.r.o.",
+  "winner_ico": "29135389",
+  "awarded": "2026-06-02",
+  "price_contracted": 1324776.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "bidders": [
+   {
+    "nazev": "EVOSTA s.r.o.",
+    "ico": "03054225",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Ing. Pavel Češka",
+    "ico": "63090422",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "FleetCom s.r.o.",
+    "ico": "29135389",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KASTT, spol. s r.o.",
+    "ico": "13583948",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2500222858",
   "source": "isvz",
   "title": "Sanace lokalit v areálu bývalé Tesly Králíky",
@@ -15187,6 +15233,46 @@
   "kind": "VZ",
   "kw_match": true,
   "url": "https://eveza.cz/profil-zadavatele/lesy-ceske-republiky-sp/17"
+ },
+ {
+  "id": "rvz:RVZ2600072721",
+  "source": "profil:hradec-kralove",
+  "title": "Modernizace osvětlení areálu Farářství pozemního hokeje – Hradec Králové",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "winner": "Abatec CZ, s.r.o.",
+  "winner_ico": "25522884",
+  "awarded": "2026-05-21",
+  "price_contracted": 1756254.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "bidders": [
+   {
+    "nazev": "EXX s.r.o.",
+    "ico": "63984261",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Abatec CZ, s.r.o.",
+    "ico": "25522884",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MATSON.CZ s.r.o.",
+    "ico": "22547550",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2500080861",
@@ -22743,6 +22829,78 @@
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00042598"
  },
  {
+  "id": "rvz:RVZ2600050637",
+  "source": "profil:upice",
+  "title": "Rekonstrukce ulice Ludvíka Středy v Úpici",
+  "authority": "Město Úpice",
+  "authority_ico": "00278386",
+  "winner": "SWIETELSKY stavební s.r.o.",
+  "winner_ico": "48035599",
+  "awarded": "2026-03-12",
+  "price_contracted": 9569000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 37,
+  "loc_unknown": false,
+  "cpv": [
+   "45233160"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://tenderarena.cz/profily/00278386",
+  "bidders": [
+   {
+    "nazev": "STRABAG a.s.",
+    "ico": "60838744",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SWIETELSKY stavební s.r.o.",
+    "ico": "48035599",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "UMBRELLA s.r.o.",
+    "ico": "25299352",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ŠTĚPÁNEK, spol. s r.o.",
+    "ico": "45535124",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Alprim CZ s.r.o.",
+    "ico": "28811470",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ELITSTAV s.r.o.",
+    "ico": "06552226",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SILVAGRO s.r.o.",
+    "ico": "27476162",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "M - STAV CZ s.r.o.",
+    "ico": "27557235",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2600087491",
   "source": "isvz",
   "title": "Modernizace odborné učebny v ZŠ Choltice - stavební práce",
@@ -23533,6 +23691,43 @@
   "kind": "VZ",
   "kw_match": false,
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00030438"
+ },
+ {
+  "id": "rvz:RVZ2500222635",
+  "source": "profil:nove-mesto-nm",
+  "title": "„Revitalizace veřejných prostranství a zeleně v areálu bývalých kasáren v Novém Městě nad Metují“",
+  "authority": "Město Nové Město nad Metují",
+  "authority_ico": "00272876",
+  "winner": "Alprim CZ s.r.o.",
+  "winner_ico": "28811470",
+  "awarded": "2026-03-06",
+  "price_contracted": 46983386.75,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 31,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://www.egordion.cz/nabidkaGORDION/profilNmnm",
+  "bidders": [
+   {
+    "nazev": "Gardenline s.r.o.",
+    "ico": "27263827",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Alprim CZ s.r.o.",
+    "ico": "28811470",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/37089013"
  },
  {
   "id": "rvz:RVZ2500221273",
