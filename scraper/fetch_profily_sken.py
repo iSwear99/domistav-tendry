@@ -40,34 +40,83 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT_META = ROOT / config.OUT_DIR / "sken_meta.json"
 
 VYNECHAT_HOSTY = ("nen.nipez.cz",)
+# Celostátní zadavatelé: mají v okruhu dost zakázek na to, aby prošli
+# poměrovým testem, ale jejich VZMR (vozovky, tratě, lesní cesty, toky,
+# resortní provoz) nejsou obor firmy a zaplavily by výběr záznamy
+# s neurčenou polohou z celé ČR (první běh 19. 10. 2026). Kraje KHK,
+# Pardubický (konfigurované profily) a Středočeský/Vysočina (v NUTS
+# předfiltru) se nevylučují.
+_CELOSTATNI_RE = None  # inicializace v _katalog (potřebuje re + norm)
+_CELOSTATNI_VZORY = (
+    "reditelstvi silnic", "sprava zeleznic", "lesy ceske republiky",
+    "povodi ", "vojenske lesy", "diamo", "ceske drahy", "cez ",
+    "cez,", "krajska sprava a udrzba silnic", "statni pozemkovy",
+    "reditelstvi vodnich cest", "ministerstvo", "urad prace",
+    "vezenska sluzba", "hlavni mesto praha", "ustecky kraj",
+    "liberecky kraj", "jihocesky kraj", "plzensky kraj",
+    "karlovarsky kraj", "jihomoravsky kraj", "olomoucky kraj",
+    "moravskoslezsky kraj", "zlinsky kraj",
+)
+
+
+def _norm_nazev(s: str) -> str:
+    import unicodedata
+    s = unicodedata.normalize("NFKD", s or "")
+    s = "".join(c for c in s if not unicodedata.combining(c)).lower()
+    return " ".join(s.split())
 PREKRYV_DNU = 7          # překryv okna přes minulý sken (pozdní uveřejnění)
 MAX_OKNO_DNU = 90        # strop okna (první běh / dlouhá pauza)
 PAUZA_S = 0.7            # šetrnost k platformám (Tender arena vrací 429)
 
 
 def _katalog() -> list[dict]:
+    """Profily LOKÁLNÍCH zadavatelů z archivu.
+
+    Zadavatel se bere, jen pokud má v archivu aspoň tolik zakázek
+    s URČENOU polohou v okruhu jako zakázek s polohou NEURČENOU —
+    celostátní giganti (ŘSD, Správa železnic, Lesy ČR, cizí kraje)
+    mívají v okruhu pár určených zakázek a hromady neurčených z celé
+    ČR; sken jejich profilu by výběr zaplavil (zjištěno na prvním
+    běhu 19. 10. 2026). Archiv záznamy nad okruh vůbec nedrží,
+    proto je měřítkem právě podíl neurčených."""
     try:
         tenders = json.loads((ROOT / config.OUT_TENDERS).read_text("utf-8"))
     except Exception:  # noqa: BLE001
         return []
     konfig = {m["profile_url"].rstrip("/")
               for m in config.PROFILY_ZADAVATELU.values()}
-    kat: dict[str, dict] = {}
+    v_okruhu: dict[str, int] = {}
+    mimo: dict[str, int] = {}
+    vzor: dict[str, dict] = {}
     for x in tenders:
         url = (x.get("authority_profile") or "").rstrip("/")
-        if not url.startswith("http"):
+        if not url.startswith("http") or x["source"].startswith("profil:sken-"):
             continue
-        if x.get("dist_km") is None or x["dist_km"] > config.GEO_RADIUS_KM:
+        d = x.get("dist_km")
+        if d is None:
+            mimo[url] = mimo.get(url, 0) + 1
             continue
+        if d <= config.GEO_RADIUS_KM:
+            v_okruhu[url] = v_okruhu.get(url, 0) + 1
+            vzor.setdefault(url, {
+                "nazev": x.get("authority", ""),
+                "ico": x.get("authority_ico", ""),
+                "profile_url": url,
+            })
+        else:
+            mimo[url] = mimo.get(url, 0) + 1
+    kat = []
+    for url, n in v_okruhu.items():
         host = urlparse(url).netloc.removeprefix("www.")
         if url in konfig or any(h in host for h in VYNECHAT_HOSTY):
             continue
-        kat.setdefault(url, {
-            "nazev": x.get("authority", ""),
-            "ico": x.get("authority_ico", ""),
-            "profile_url": url,
-        })
-    return sorted(kat.values(), key=lambda m: m["profile_url"])
+        if n < mimo.get(url, 0):          # neurčené převažují ⇒ celostátní
+            continue
+        nn = _norm_nazev(vzor[url]["nazev"])
+        if any(v in nn for v in _CELOSTATNI_VZORY):
+            continue
+        kat.append(vzor[url])
+    return sorted(kat, key=lambda m: m["profile_url"])
 
 
 def _okno_dnu() -> int:
@@ -105,7 +154,10 @@ def fetch() -> tuple[list[dict], list[str]]:
         if i % 100 == 0:
             print(f"sken profilů: {i}/{len(katalog)}, "
                   f"zakázek {len(tenders)}, chyb {chyb}")
-        time.sleep(PAUZA_S)
+        # Tender arena po dávce požadavků vrací 429 (a chvíli blokuje
+        # i následné běhy) — výrazně delší rozestup
+        host = urlparse(meta["profile_url"]).netloc
+        time.sleep(3.0 if "tenderarena" in host else PAUZA_S)
     OUT_META.parent.mkdir(parents=True, exist_ok=True)
     OUT_META.write_text(json.dumps({
         "updated": dt.datetime.now(dt.timezone.utc)

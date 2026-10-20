@@ -48,7 +48,10 @@ neobsahuje žádná firemní data, proto smí běžet v public GitHub repozitá�
    pokyn 19. 10. 2026): VZMR NEkonfigurovaných zadavatelů mimo systémy
    agregované v ISVZ (E-ZAK, Gordion, e-zakazky…). Katalog ~550 profilů
    se buduje automaticky z archivu (authority_profile záznamů ≤50 km,
-   bez NEN a konfigurovaných) a roste sám. Workflow update-profily-sken:
+   bez NEN a konfigurovaných) a roste sám; celostátní zadavatelé (ŘSD,
+   Správa železnic, Lesy ČR, Povodí, cizí kraje, ministerstva… —
+   _CELOSTATNI_VZORY) se vylučují, jinak zaplaví výběr VZMR z celé ČR
+   s neurčenou polohou. Workflow update-profily-sken:
    DENNÍ cron + hlídka „max 1× za ≥6 dní" (docs/data/sken_meta.json) —
    díky frontě a runneru startujícímu s přihlášením běží sken okamžikem
    prvního zapnutí PC v týdnu. Záznamy `profil:sken-<ičo>` benevolenci
