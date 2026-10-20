@@ -25954,7 +25954,7 @@
  },
  {
   "id": "rvz:RVZ2600069670",
-  "source": "profil:sken-00268810",
+  "source": "profil:hradec-kralove",
   "title": "Rekonstrukce větrání sociálních zařízení ZŠ Bezručova",
   "authority": "Statutární město Hradec Králové",
   "authority_ico": "00268810",
@@ -25970,7 +25970,7 @@
   "cpv": [],
   "kind": "VZMR",
   "kw_match": true,
-  "url": "https://tenderarena.cz/profily/hradeckralove",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
   "bidders": [
    {
     "nazev": "EVOSTA s.r.o.",
@@ -27750,7 +27750,7 @@
  },
  {
   "id": "rvz:RVZ2600072721",
-  "source": "profil:sken-00268810",
+  "source": "profil:hradec-kralove",
   "title": "Modernizace osvětlení areálu Farářství pozemního hokeje – Hradec Králové",
   "authority": "Statutární město Hradec Králové",
   "authority_ico": "00268810",
@@ -27766,7 +27766,7 @@
   "cpv": [],
   "kind": "VZMR",
   "kw_match": true,
-  "url": "https://tenderarena.cz/profily/hradeckralove",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
   "bidders": [
    {
     "nazev": "EXX s.r.o.",
@@ -37037,9 +37037,9 @@
  },
  {
   "id": "rvz:RVZ2600050637",
-  "source": "profil:sken-00278386",
+  "source": "profil:upice",
   "title": "Rekonstrukce ulice Ludvíka Středy v Úpici",
-  "authority": "MĚSTO ÚPICE",
+  "authority": "Město Úpice",
   "authority_ico": "00278386",
   "winner": "SWIETELSKY stavební s.r.o.",
   "winner_ico": "48035599",
@@ -37055,7 +37055,7 @@
   ],
   "kind": "VZ",
   "kw_match": true,
-  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0005011",
+  "url": "https://tenderarena.cz/profily/00278386",
   "bidders": [
    {
     "nazev": "STRABAG a.s.",
@@ -37894,7 +37894,7 @@
  },
  {
   "id": "rvz:RVZ2500222635",
-  "source": "profil:sken-00272876",
+  "source": "profil:nove-mesto-nm",
   "title": "„Revitalizace veřejných prostranství a zeleně v areálu bývalých kasáren v Novém Městě nad Metují“",
   "authority": "Město Nové Město nad Metují",
   "authority_ico": "00272876",
@@ -37912,7 +37912,7 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0001512",
+  "url": "https://www.egordion.cz/nabidkaGORDION/profilNmnm",
   "bidders": [
    {
     "nazev": "Gardenline s.r.o.",

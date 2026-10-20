@@ -1,19 +1,15 @@
 {
  "meta": {
-  "updated": "2026-10-19T19:17:09+00:00",
+  "updated": "2026-10-20T11:24:24+00:00",
   "model": "claude-opus-5",
-  "posouzeno_nyni": 0,
-  "celkem": 505,
+  "posouzeno_nyni": 68,
+  "celkem": 573,
   "counts": {
-   "ano": 235,
-   "ne": 179,
-   "nejisto": 91
+   "ano": 252,
+   "ne": 222,
+   "nejisto": 99
   },
-  "errors": [
-   "AI dávka 0: Connection error.",
-   "AI dávka 1: Connection error.",
-   "AI dávka 2: Connection error."
-  ]
+  "errors": []
  },
  "verdikty": {
   "rvz:RVZ2600078991": {
@@ -2035,6 +2031,278 @@
   "profil:pvu:00831590:P26V00006228": {
    "verdikt": "nejisto",
    "duvod": "Stezka s rekreačními prvky, nejasný rozsah stavebních prací"
+  },
+  "rvz:RVZ2600291250": {
+   "verdikt": "ne",
+   "duvod": "Oprava silničního povrchu, nerelevantní obor"
+  },
+  "profil:sken-70994234:VZ-18351": {
+   "verdikt": "ne",
+   "duvod": "Údržba drážního zabezpečovacího zařízení"
+  },
+  "profil:sken-00236195:VZ-627": {
+   "verdikt": "ano",
+   "duvod": "Výměna oken bytových domů, pozemní stavitelství"
+  },
+  "profil:sken-70890005:VZ-22030": {
+   "verdikt": "ne",
+   "duvod": "Obnova vodního díla"
+  },
+  "rvz:RVZ2600289802": {
+   "verdikt": "ano",
+   "duvod": "Rekonstrukce prostor nemocnice, pozemní stavby"
+  },
+  "rvz:RVZ2600289892": {
+   "verdikt": "ano",
+   "duvod": "Zateplení budov občanské vybavenosti"
+  },
+  "profil:sken-42196451:60186": {
+   "verdikt": "ne",
+   "duvod": "Úprava vodního toku"
+  },
+  "profil:sken-70890005:VZ-22027": {
+   "verdikt": "ne",
+   "duvod": "Odstranění sedimentů z vodního toku"
+  },
+  "profil:sken-00066001:VZ-18219": {
+   "verdikt": "ano",
+   "duvod": "Výstavba parkovacího domu, pozemní stavba"
+  },
+  "rvz:RVZ2600289360": {
+   "verdikt": "ano",
+   "duvod": "Realizace garáže a myčky, pozemní stavba"
+  },
+  "profil:sken-00274101:VZ-284": {
+   "verdikt": "ano",
+   "duvod": "Stavební úpravy školních budov"
+  },
+  "profil:kr-kralovehradecky:VZ-13194": {
+   "verdikt": "ano",
+   "duvod": "Stavební úpravy kuchyně gymnázia"
+  },
+  "profil:sken-70994234:VZ-18311": {
+   "verdikt": "ne",
+   "duvod": "Údržba drážního zabezpečovacího zařízení"
+  },
+  "profil:sken-42196451:60152": {
+   "verdikt": "ne",
+   "duvod": "Úprava vodního toku"
+  },
+  "profil:sken-70994234:VZ-18325": {
+   "verdikt": "ne",
+   "duvod": "Železniční přejezdové zabezpečovací zařízení"
+  },
+  "rvz:RVZ2600289891": {
+   "verdikt": "nejisto",
+   "duvod": "Sanace podzemí galerie i inženýrské sítě"
+  },
+  "profil:sken-42196451:60267": {
+   "verdikt": "ne",
+   "duvod": "Jez na vodním toku"
+  },
+  "profil:sken-00269760:P26V00006446": {
+   "verdikt": "ano",
+   "duvod": "Přístavba hasičské zbrojnice, pozemní stavba"
+  },
+  "profil:sken-00236195:VZ-624": {
+   "verdikt": "ne",
+   "duvod": "Projektová dokumentace veřejného osvětlení"
+  },
+  "profil:sken-70994234:VZ-18345": {
+   "verdikt": "ne",
+   "duvod": "Údržba drážní techniky"
+  },
+  "rvz:RVZ2600289564": {
+   "verdikt": "ano",
+   "duvod": "Výměna oken budovy, pozemní stavitelství"
+  },
+  "profil:sken-00000205:60236": {
+   "verdikt": "ne",
+   "duvod": "Oprava lesní cesty"
+  },
+  "rvz:RVZ2600290026": {
+   "verdikt": "ne",
+   "duvod": "Rekonstrukce trafostanice, energetické zařízení"
+  },
+  "profil:sken-00066001:VZ-19325": {
+   "verdikt": "ne",
+   "duvod": "Servis motorových vozidel"
+  },
+  "profil:sken-42196451:60255": {
+   "verdikt": "ne",
+   "duvod": "Úprava vodního toku"
+  },
+  "rvz:RVZ2600292754": {
+   "verdikt": "ne",
+   "duvod": "Kabelové vedení u dálnic, nikoli pozemní stavba"
+  },
+  "rvz:RVZ2600292235": {
+   "verdikt": "ne",
+   "duvod": "Oprava tlumiče nárazu na dálnici"
+  },
+  "profil:sken-70994234:VZ-18099": {
+   "verdikt": "ne",
+   "duvod": "Železniční zabezpečovací a sdělovací zařízení"
+  },
+  "profil:sken-42196451:60221": {
+   "verdikt": "ne",
+   "duvod": "Odstranění nánosů ve vodním toku"
+  },
+  "rvz:RVZ2600290585": {
+   "verdikt": "ne",
+   "duvod": "Oprava vozíku, dodávka techniky"
+  },
+  "rvz:RVZ2600292257": {
+   "verdikt": "ne",
+   "duvod": "Oprava skla na dálničním mostě"
+  },
+  "profil:sken-42196451:60201": {
+   "verdikt": "ne",
+   "duvod": "Úprava vodního toku"
+  },
+  "profil:sken-42196451:60172": {
+   "verdikt": "ne",
+   "duvod": "Lesní cesta, komunikace"
+  },
+  "rvz:RVZ2600288671": {
+   "verdikt": "ne",
+   "duvod": "Oprava vozovky silnic"
+  },
+  "rvz:RVZ2600288003": {
+   "verdikt": "nejisto",
+   "duvod": "Výměna oken, možná objekt u silnice"
+  },
+  "rvz:RVZ2600292198": {
+   "verdikt": "ne",
+   "duvod": "Telefonní ústředna, telematika"
+  },
+  "profil:sken-27520536:VZ-6494": {
+   "verdikt": "nejisto",
+   "duvod": "Chlazení v nemocnici se stavebními úpravami"
+  },
+  "profil:sken-27520536:VZ-6495": {
+   "verdikt": "ne",
+   "duvod": "Dodávka technologie zvlhčovačů a úpravny vody"
+  },
+  "rvz:RVZ2600290372": {
+   "verdikt": "ne",
+   "duvod": "Dopravní značení na dálnicích"
+  },
+  "rvz:RVZ2600287826": {
+   "verdikt": "ne",
+   "duvod": "Opravy spár vozovek"
+  },
+  "profil:sken-70994234:VZ-18098": {
+   "verdikt": "ne",
+   "duvod": "Železniční energetika"
+  },
+  "profil:sken-42196451:60194": {
+   "verdikt": "ne",
+   "duvod": "Opravy lesních cest"
+  },
+  "profil:sken-70890005:VZ-21988": {
+   "verdikt": "ne",
+   "duvod": "Oprava stupňů ve vodním toku"
+  },
+  "profil:sken-70994234:VZ-18313": {
+   "verdikt": "ne",
+   "duvod": "Údržba železničních zabezpečovacích zařízení"
+  },
+  "profil:sken-70994234:VZ-18314": {
+   "verdikt": "ne",
+   "duvod": "Údržba železničních zabezpečovacích zařízení"
+  },
+  "profil:sken-42196451:60179": {
+   "verdikt": "ne",
+   "duvod": "Lesní cesta"
+  },
+  "rvz:RVZ2600288313": {
+   "verdikt": "ano",
+   "duvod": "Protipožární dveře v budově, firma realizovala obdobné"
+  },
+  "rvz:RVZ2600287493": {
+   "verdikt": "ano",
+   "duvod": "Stavební úpravy, nástavba a přístavba budovy"
+  },
+  "rvz:RVZ2600289044": {
+   "verdikt": "ne",
+   "duvod": "Dopravní značení na silnicích"
+  },
+  "profil:sken-00278955:P26V00000009": {
+   "verdikt": "ano",
+   "duvod": "Stavební úpravy mateřské školy"
+  },
+  "rvz:RVZ2600291828": {
+   "verdikt": "ne",
+   "duvod": "Pouze projektová dokumentace"
+  },
+  "rvz:RVZ2600291375": {
+   "verdikt": "nejisto",
+   "duvod": "Oprava střechy a fasády vodojemu, zadavatel vodárny"
+  },
+  "rvz:RVZ2600287441": {
+   "verdikt": "ne",
+   "duvod": "Oprava místní komunikace"
+  },
+  "profil:sken-64809447:P26V00000082": {
+   "verdikt": "ne",
+   "duvod": "Dodávka techniky"
+  },
+  "profil:sken-00268097:P26V00000008": {
+   "verdikt": "ne",
+   "duvod": "Vodní nádrž, vodohospodářská stavba"
+  },
+  "profil:sken-00239640:P26V00000025": {
+   "verdikt": "ano",
+   "duvod": "Revitalizace budovy knihovny, pozemní stavitelství"
+  },
+  "rvz:Z2026-046187": {
+   "verdikt": "nejisto",
+   "duvod": "Technická vybavenost území, pravděpodobně inženýrské sítě"
+  },
+  "rvz:RVZ2600114726": {
+   "verdikt": "ano",
+   "duvod": "Výstavba základní školy"
+  },
+  "profil:sken-60884428:P26V00000001": {
+   "verdikt": "ano",
+   "duvod": "Energetické úspory budovy fary"
+  },
+  "profil:sken-00573621:P26V00000002": {
+   "verdikt": "ne",
+   "duvod": "Modernizace ČOV"
+  },
+  "profil:sken-00239640:P26V00000022": {
+   "verdikt": "nejisto",
+   "duvod": "Kontejnerová stání, drobné zpevněné plochy"
+  },
+  "profil:sken-64809447:P26V00000072": {
+   "verdikt": "ne",
+   "duvod": "Opravy vozidel"
+  },
+  "rvz:RVZ2600117280": {
+   "verdikt": "ne",
+   "duvod": "Dodávka vozidla"
+  },
+  "profil:sken-70994234:VZ-18031": {
+   "verdikt": "ne",
+   "duvod": "Údržba drážních vozidel"
+  },
+  "rvz:RVZ2600173781": {
+   "verdikt": "ano",
+   "duvod": "Přístavba a stavební úpravy školy"
+  },
+  "profil:sken-64809447:P26V00000068": {
+   "verdikt": "nejisto",
+   "duvod": "Oprava rampy, rozsah stavebních prací nejasný"
+  },
+  "rvz:RVZ2600117568": {
+   "verdikt": "ano",
+   "duvod": "Novostavba hasičské zbrojnice"
+  },
+  "rvz:RVZ2600215656": {
+   "verdikt": "nejisto",
+   "duvod": "Oprava kapličky spojená s nákupem techniky"
   }
  }
 }
