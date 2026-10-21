@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-10-20T15:01:03+00:00",
+  "updated": "2026-10-21T11:16:18+00:00",
   "model": "claude-opus-5",
-  "posouzeno_nyni": 7,
-  "celkem": 529,
+  "posouzeno_nyni": 2,
+  "celkem": 531,
   "counts": {
-   "ano": 248,
+   "ano": 249,
    "ne": 182,
-   "nejisto": 99
+   "nejisto": 100
   },
   "errors": []
  },
@@ -2127,6 +2127,14 @@
   "profil:sken-70891095:VZ-19257": {
    "verdikt": "nejisto",
    "duvod": "EPC energetické služby, nejasný podíl stavebních prací"
+  },
+  "profil:pvu:00271071:P26V00006541": {
+   "verdikt": "ano",
+   "duvod": "Zpevněné plochy a parkoviště – obor firmy"
+  },
+  "profil:kr-pardubicky:VZ-6453": {
+   "verdikt": "nejisto",
+   "duvod": "EPC energetické služby, stavební část nejasná"
   }
  }
 }

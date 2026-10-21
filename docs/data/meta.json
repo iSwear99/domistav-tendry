@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-20T15:00:36+00:00",
+ "updated": "2026-10-21T11:16:03+00:00",
  "counts": {
-  "total": 8249,
-  "vz": 5178,
+  "total": 8251,
+  "vz": 5180,
   "vzmr": 3071,
-  "active": 82,
+  "active": 78,
   "changed": 116,
   "competition": 1502,
-  "previous": 8246
+  "previous": 8249
  },
  "errors": [
-  "pvu: /externi-zakazka/uceeb-notebooky-a-it-dily-10-2026: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/uceeb-notebooky-a-it-dily-10-2026: HTTP Error 401: Unauthorized",
   "proklik nen.nipez.cz: The read operation timed out"
  ]
 }

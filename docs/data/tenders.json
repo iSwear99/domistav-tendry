@@ -103,7 +103,7 @@
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "dist_km": 24,
   "loc_unknown": false,
-  "url_dead": 2,
+  "url_dead": 3,
   "link_dead": true
  },
  {
@@ -131,6 +131,34 @@
   "expired": false,
   "dist_km": null,
   "loc_unknown": true
+ },
+ {
+  "id": "profil:pvu:00271071:P26V00006541",
+  "source": "profil:pvu:00271071",
+  "title": "Parkoviště pro návštěvníky Hradu Lichnice",
+  "authority": "Město Třemošnice",
+  "authority_ico": "00271071",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-21",
+  "deadline": "2026-11-16T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/zakazka/parkoviste-pro-navstevniky-hradu-lichnice",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 39,
+  "loc_unknown": false,
+  "profile_url": "https://www.vhodne-uverejneni.cz/profil/00271071"
  },
  {
   "id": "profil:pvu:42937736:P26V00006480",
@@ -325,7 +353,7 @@
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
-  "kw_match": true,
+  "kw_match": false,
   "no_nuts": true,
   "no_value": false,
   "expired": false,
@@ -451,7 +479,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-10-20",
+  "nen_detail": "2026-10-21",
   "predmet": "Předmětem plnění veřejné zakázky je provedení díla spočívajícího v rekonstrukci podlahy, výrobě nábytku sestávajícího z výškově stavitelných stolů pro operační pracoviště a úložných skříněk. v místnosti č. 205 (operační místnost) budovy Pernerova 443, 530 02 Pardubice (ve vlastnictví společnosti SK – EKO Pardubice s.r.o.), DÍLO bude provedeno v souladu se zadávací dokumentací, technickou specifikací (příloha č. 1), výkazem výměr (příloha č. 2), výše uvedeným vizuálním návrhem (příloha č. 6), příslušnými právními předpisy, technickými požadavky na výstavbu, závaznými technickými normami a příslušnými ČSN, není-li v zadávací dokumentaci stanoveno jinak. Příloha č. 6 – Půdorys a vizualizace stanoví zejména požadované prostorové uspořádání, vzhled a základní koncepci pracoviště. Technické vlastnosti jednotlivých výrobků a prvků jsou závazně stanoveny v příloze č. 1 – Technická specifikace. V případě rozporu mezi vizualizací a technickou specifikací má přednost technická specifikace. Veřejná zakázka je zadávána jako veřejná zakázka malého rozsahu mimo zadávací řízení podle § 31 ZZVZ, při dodržení zásad podle § 6 ZZVZ. Vizuální návrh byl vypracovaný v 08\\u002F26 společností Epixo BW s.r."
  },
  {
@@ -860,7 +888,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-10-20",
+  "nen_detail": "2026-10-21",
   "predmet": "Předmětem plnění veřejné zakázky je projektová příprava, inženýring a samotná stavební realizace volnočasového areálu s názvem „Nový skatepark a pumptrack - ul. Langiewiczova“."
  },
  {
@@ -1044,7 +1072,7 @@
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "dist_km": 30,
   "loc_unknown": false,
-  "url_dead": 2,
+  "url_dead": 3,
   "link_dead": true
  },
  {
@@ -1394,7 +1422,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-10-20",
+  "nen_detail": "2026-10-21",
   "predmet": "Předmětem plnění této zakázky je výměna výkladců včetně souvisejících stavebních a montážních prací v prostorách Střediska volného času Beta, na adrese Jana Zajíce 983, Pardubice. Součástí prací bude demontáž okenních rámů, parapetů a dřevěných obkladů. Dále bude provedeno vybourání vnitřních i vnějších oken. V meziprostoru dojde k demontáži parapetu a bočních obkladů a k odpojení nevyužívaných svítidel. Kovové konzole, na které je bodovými svary připevněn vnitřní okenní rám, budou zachovány. Konzole slouží jako nosná konstrukce pro parapetní desky a zároveň chrání radiátory, do kterých nebude nijak zasahováno. Po dokončení prací budou konzole znovu využity pro osazení nového parapetu řešeného jako schůdek ve dvou úrovních. U výkladce u baru (v patře vpravo od vstupu) bude nutné demontovat také venkovní parapet, protože okno je zde osazeno s odsazením od vnějšího líce zdiva. U ostatních oken bude řešen pouze parapet vnitřní."
  },
  {
@@ -1422,7 +1450,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-10-20",
+  "nen_detail": "2026-10-21",
   "predmet": "Předmětem veřejné zakázky je odstranění stávajícího oplocení včetně podezdívky a brány na pozemcích parc. č. 102\\u002F1 a 103\\u002F19 v k. ú. Pardubice, v prostoru přilehlém k Aquacentru Pardubice.  Součástí prací bude zejména prověření, zda v místě podezdívky nebo v její bezprostřední blízkosti nevedou inženýrské sítě (elektřina, plyn, voda, optické kabely), demontáž výplní oplocení, odstranění plotových sloupků a brány, vybourání nadzemní části podezdívky a odstranění jejích základů. Práce dále zahrnují oplocení pracoviště, bude-li to nezbytné pro zajištění bezpečnosti kolemjdoucích, přípravu manipulačního prostoru pro techniku a kontejnery, třídění vzniklého materiálu, odvoz a likvidaci odpadu a následné zemní práce a zarovnání dotčeného pozemku."
  },
  {
@@ -1553,14 +1581,14 @@
   "deadline": "2026-10-21T10:00:00",
   "url": "https://www.tenderarena.cz/profily/hradeckralove",
   "place": "",
-  "state": "zahájen",
+  "state": "zrušen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 4,
   "loc_unknown": false
  },
@@ -1587,7 +1615,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true,
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/sprava-bytovych-objektu-praha-modrany-prispevkova-organizace"
@@ -1617,7 +1645,7 @@
   "kw_match": true,
   "no_nuts": true,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -1643,11 +1671,9 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
-  "loc_unknown": false,
-  "nen_detail": "2026-10-20",
-  "predmet": "Předmětem plnění této zakázky je rekonstrukce zasedací místnosti a navazujících prostor v 2. NP budovy U Divadla 828, Pardubice. V objektu vzniknou nově 4 kancelářská pracoviště, jednací zóna, denní místnost a dětský koutek. Objekt bude rozdělen polopříčkami ze sádrokartonu, částečně zakončenými boxy s květinami. V rámci rekonstrukce bude provedena výměna venkovních i vnitřních vstupních dveří, dveří do prostoru kuchyňky a do dvora, oprava omítek, odstranění a umístění nových keramických obkladů, výměna podlahové krytiny, provedení akustických podhledů, instalace polopříček, nové rozvody elektroinstalace, osazení kyvných dveří do jednotlivých kancelářských kójí a instalace klimatizace. V prostoru kuchyňky bude nová kuchyňská sestava a proveden nový nátěr otopného tělesa."
+  "loc_unknown": false
  },
  {
   "id": "rvz:RVZ2600107595",
@@ -16887,19 +16913,19 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600099419",
+  "id": "rvz:RVZ2600099375",
   "source": "profil:pardubice",
-  "title": "Dostihové závodiště – oprava překážek č. 26 a 31",
+  "title": "Areál Skatepark – obnova překážek",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
   "cpv": [
-   "45212200"
+   "45212290"
   ],
   "nuts": [],
   "value": null,
   "published": "2026-06-04",
   "deadline": "2026-06-16T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017305",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017282",
   "place": "",
   "state": "dokončen",
   "site_visit": "",
@@ -16907,15 +16933,9 @@
   "kind": "VZMR",
   "bidders": [
    {
-    "nazev": "RONING spol. s r.o.",
-    "ico": "62028405",
-    "cena": 402848.34,
-    "vyloucen": false
-   },
-   {
-    "nazev": "TERESTAV s.r.o.",
-    "ico": "17757002",
-    "cena": 411499.57,
+    "nazev": "Zdeněk Kotyza",
+    "ico": "73582107",
+    "cena": null,
     "vyloucen": false
    }
   ],
@@ -16979,19 +16999,19 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600099375",
+  "id": "rvz:RVZ2600099419",
   "source": "profil:pardubice",
-  "title": "Areál Skatepark – obnova překážek",
+  "title": "Dostihové závodiště – oprava překážek č. 26 a 31",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
   "cpv": [
-   "45212290"
+   "45212200"
   ],
   "nuts": [],
   "value": null,
   "published": "2026-06-04",
   "deadline": "2026-06-16T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017282",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017305",
   "place": "",
   "state": "dokončen",
   "site_visit": "",
@@ -16999,9 +17019,15 @@
   "kind": "VZMR",
   "bidders": [
    {
-    "nazev": "Zdeněk Kotyza",
-    "ico": "73582107",
-    "cena": null,
+    "nazev": "RONING spol. s r.o.",
+    "ico": "62028405",
+    "cena": 402848.34,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TERESTAV s.r.o.",
+    "ico": "17757002",
+    "cena": 411499.57,
     "vyloucen": false
    }
   ],
@@ -18283,52 +18309,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600096694",
-  "source": "profil:pardubice",
-  "title": "MŠ Grusova – venkovní markýza",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45421144"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-05-25",
-  "deadline": "2026-06-08T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00015828",
-  "place": "",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "bidders": [
-   {
-    "nazev": "ARCO INTERIER, s.r.o.",
-    "ico": "26140918",
-    "cena": 249500.0,
-    "vyloucen": false
-   },
-   {
-    "nazev": "Miroslav Sys",
-    "ico": "47872489",
-    "cena": 274978.0,
-    "vyloucen": false
-   },
-   {
-    "nazev": "Roman Doboš",
-    "ico": "06023151",
-    "cena": 180660.0,
-    "vyloucen": false
-   }
-  ],
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600096708",
   "source": "profil:pardubice",
   "title": "Seniorcentrum, Pospíšilovo nám. 1693 – oprava zázemí",
@@ -18400,6 +18380,52 @@
     "nazev": "Brickwork s.r.o.",
     "ico": "04049217",
     "cena": 950000.0,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600096694",
+  "source": "profil:pardubice",
+  "title": "MŠ Grusova – venkovní markýza",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45421144"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-05-25",
+  "deadline": "2026-06-08T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00015828",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "ARCO INTERIER, s.r.o.",
+    "ico": "26140918",
+    "cena": 249500.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Miroslav Sys",
+    "ico": "47872489",
+    "cena": 274978.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Roman Doboš",
+    "ico": "06023151",
+    "cena": 180660.0,
     "vyloucen": false
    }
   ],
@@ -172413,11 +172439,39 @@
   "kw_match": true,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true,
   "profile_url": "https://zakazky.cuni.cz/profile_display_29.html",
-  "url_dead": 1
+  "url_dead": 2,
+  "link_dead": true
+ },
+ {
+  "id": "profil:kr-pardubicky:VZ-6453",
+  "source": "profil:kr-pardubicky",
+  "title": "Energetické úspory metodou EPC  ve vybraných objektech  Nemocnice Pardubice a Nemocnice Chrudim",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "71314000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-29",
+  "deadline": "",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html/contract_display_6453.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "profile_url": "https://zakazky.pardubickykraj.cz/profile_display_2.html"
  },
  {
   "id": "profil:sken-70891095:VZ-19257",
@@ -172441,11 +172495,12 @@
   "kw_match": true,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true,
   "profile_url": "https://zakazky.kr-stredocesky.cz/profile_display_2.html",
-  "url_dead": 1
+  "url_dead": 2,
+  "link_dead": true
  },
  {
   "id": "rvz:RVZ2600287072",

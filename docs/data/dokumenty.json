@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "2026-10-20T15:00:50+00:00",
-  "zd": 587,
+  "updated": "2026-10-21T11:16:12+00:00",
+  "zd": 589,
   "zpravy": 1502,
   "novych": 1,
   "errors": []
@@ -1815,6 +1815,12 @@
   },
   "profil:sken-70891095:VZ-19257": {
    "nenalezeno": true
+  },
+  "profil:pvu:00271071:P26V00006541": {
+   "nenalezeno": true
+  },
+  "profil:kr-pardubicky:VZ-6453": {
+   "doc_url": "https://zakazky.pardubickykraj.cz/document_download_62228.html"
   }
  },
  "zpravy": {
