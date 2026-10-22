@@ -27866,7 +27866,7 @@
  },
  {
   "id": "rvz:RVZ2500168237",
-  "source": "isvz",
+  "source": "profil:nove-mesto-nm",
   "title": "Revitalizace parku Jiráskovy sady Nové Město nad Metují - etapa I. - opakované zadávací řízení",
   "authority": "Město Nové Město nad Metují",
   "authority_ico": "00272876",
@@ -27882,7 +27882,22 @@
   "cpv": [],
   "kind": "VZ",
   "kw_match": true,
-  "url": "https://tenderarena.cz/dodavatel/zakazka/830876"
+  "url": "https://www.egordion.cz/nabidkaGORDION/profilNmnm",
+  "bidders": [
+   {
+    "nazev": "KVIS Pardubice a.s.",
+    "ico": "46506934",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ŠPELDA s.r.o.",
+    "ico": "28800125",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/36275289"
  },
  {
   "id": "rvz:RVZ2500132037",

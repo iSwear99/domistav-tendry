@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "2026-10-21T11:16:12+00:00",
-  "zd": 589,
+  "updated": "2026-10-22T11:15:43+00:00",
+  "zd": 590,
   "zpravy": 1502,
   "novych": 1,
   "errors": []
@@ -1821,6 +1821,9 @@
   },
   "profil:kr-pardubicky:VZ-6453": {
    "doc_url": "https://zakazky.pardubickykraj.cz/document_download_62228.html"
+  },
+  "profil:hronov:P26V00006523": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3935297"
   }
  },
  "zpravy": {
