@@ -1,5 +1,65 @@
 [
  {
+  "id": "rvz:RVZ2600098095",
+  "source": "profil:hradec-kralove",
+  "title": "Propojení dopravních a technických vazeb infrastruktury ve Svobodných Dvorech",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "winner": "M - SILNICE a.s.",
+  "winner_ico": "42196868",
+  "awarded": "2026-10-19",
+  "price_contracted": 29682484.26,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "cpv": [
+   "45200000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "bidders": [
+   {
+    "nazev": "KVIS Pardubice a.s.",
+    "ico": "46506934",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PDV Stavby s.r.o.",
+    "ico": "03717721",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SWIETELSKY stavební s.r.o.",
+    "ico": "48035599",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PP-GROUP stavby TJ s.r.o.",
+    "ico": "21771111",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ŠTĚPÁNEK, spol. s r.o.",
+    "ico": "45535124",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "M - SILNICE a.s.",
+    "ico": "42196868",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2600120379",
   "source": "profil:sken-25702556",
   "title": "BHD – oprava ocelových konstrukcí vertikální zahrady",

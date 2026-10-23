@@ -40,6 +40,32 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:hradec-kralove:MMHKTA202600000086",
+  "source": "profil:hradec-kralove",
+  "title": "Singletrail „LES“ Central park Hradec Králové – DESIGN & BUILD",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [
+   "45212200"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-23",
+  "deadline": "2026-11-27T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600107250",
   "source": "isvz",
   "nen_id": "",
@@ -99,6 +125,61 @@
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/00272680"
  },
  {
+  "id": "profil:pvu:48169188:P26V00006578",
+  "source": "profil:pvu:48169188",
+  "title": "MODERNIZACE VÝROBY ZAHUŠTĚNÝCH MLÉK - TECHNOLOGIE",
+  "authority": "Mlékárna Hlinsko, a.s.",
+  "authority_ico": "48169188",
+  "cpv": [
+   "42221000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-22",
+  "deadline": "2026-11-24T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/mlekarna-hlinsko-a-s",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": true,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": null,
+  "loc_unknown": true
+ },
+ {
+  "id": "profil:pvu:45193363:P26V00006577",
+  "source": "profil:pvu:45193363",
+  "title": "BRANO a.s. SBU TL/sklad 144200 energeticky úsporná opatření",
+  "authority": "BRANO a.s.",
+  "authority_ico": "45193363",
+  "cpv": [
+   "45223220"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-22",
+  "deadline": "2026-11-23T09:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/zakazka/brano-a-s-sbu-tl-sklad-144200-energeticky-usporna-opatreni",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": null,
+  "loc_unknown": true,
+  "profile_url": "https://www.vhodne-uverejneni.cz/profil/brano-a-s"
+ },
+ {
   "id": "rvz:RVZ2600285558",
   "source": "isvz",
   "nen_id": "",
@@ -130,7 +211,7 @@
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "dist_km": 24,
   "loc_unknown": false,
-  "url_dead": 4,
+  "url_dead": 5,
   "link_dead": true
  },
  {
@@ -246,6 +327,46 @@
   "link_dead": true
  },
  {
+  "id": "rvz:RVZ2600113956",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Útulek pro psy a služebna městské policie  - lokalita Popkovice",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45000000",
+   "45200000",
+   "45311000",
+   "45331000",
+   "45332000",
+   "45351000",
+   "45261000",
+   "09331200",
+   "45233100"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 107000000.0,
+  "published": "2026-07-31",
+  "deadline": "2026-11-12T10:00:00",
+  "url": "https://www.nen.nipez.cz/profil/pardubice",
+  "place": "",
+  "authority_seat": "Pernštýnské náměstí 1, Pardubice 53002",
+  "authority_profile": "https://www.nen.nipez.cz/profil/pardubice",
+  "state": "Aktivní/Neukončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": false,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00024210"
+ },
+ {
   "id": "profil:pvu:00234591:P26V00006515",
   "source": "profil:pvu:00234591",
   "title": "Výstavba fotovoltaické elektrárny v obci Ledce",
@@ -332,6 +453,33 @@
   "profile_url": "https://zakazky.spravazeleznic.cz",
   "dist_km": 22,
   "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:48169188:P26V00006245",
+  "source": "profil:pvu:48169188",
+  "title": "MODERNIZACE VÝROBY ZAHUŠTĚNÝCH MLÉK - TECHNOLOGIE",
+  "authority": "Mlékárna Hlinsko, a.s.",
+  "authority_ico": "48169188",
+  "cpv": [
+   "42211000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-05",
+  "deadline": "2026-11-09T12:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/mlekarna-hlinsko-a-s",
+  "place": "",
+  "state": "zrušen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": true,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true
  },
  {
   "id": "profil:sken-00274101:VZ-284",
@@ -529,7 +677,9 @@
   "no_value": true,
   "expired": false,
   "dist_km": 19,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "nen_detail": "2026-10-23",
+  "predmet": "Předmětem plnění veřejné zakázky je provedení díla spočívajícího v rekonstrukci podlahy, výrobě nábytku sestávajícího z výškově stavitelných stolů pro operační pracoviště a úložných skříněk. v místnosti č. 205 (operační místnost) budovy Pernerova 443, 530 02 Pardubice (ve vlastnictví společnosti SK – EKO Pardubice s.r.o.), DÍLO bude provedeno v souladu se zadávací dokumentací, technickou specifikací (příloha č. 1), výkazem výměr (příloha č. 2), výše uvedeným vizuálním návrhem (příloha č. 6), příslušnými právními předpisy, technickými požadavky na výstavbu, závaznými technickými normami a příslušnými ČSN, není-li v zadávací dokumentaci stanoveno jinak. Příloha č. 6 – Půdorys a vizualizace stanoví zejména požadované prostorové uspořádání, vzhled a základní koncepci pracoviště. Technické vlastnosti jednotlivých výrobků a prvků jsou závazně stanoveny v příloze č. 1 – Technická specifikace. V případě rozporu mezi vizualizací a technickou specifikací má přednost technická specifikace. Veřejná zakázka je zadávána jako veřejná zakázka malého rozsahu mimo zadávací řízení podle § 31 ZZVZ, při dodržení zásad podle § 6 ZZVZ. Vizuální návrh byl vypracovaný v 08\\u002F26 společností Epixo BW s.r."
  },
  {
   "id": "profil:pvu:27801454:P26V00006182",
@@ -936,7 +1086,9 @@
   "no_value": true,
   "expired": false,
   "dist_km": 19,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "nen_detail": "2026-10-23",
+  "predmet": "Předmětem plnění veřejné zakázky je projektová příprava, inženýring a samotná stavební realizace volnočasového areálu s názvem „Nový skatepark a pumptrack - ul. Langiewiczova“."
  },
  {
   "id": "rvz:RVZ2600284815",
@@ -1016,46 +1168,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600113956",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Útulek pro psy a služebna městské policie  - lokalita Popkovice",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45000000",
-   "45200000",
-   "45311000",
-   "45331000",
-   "45332000",
-   "45351000",
-   "45261000",
-   "09331200",
-   "45233100"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": 107000000.0,
-  "published": "2026-07-31",
-  "deadline": "2026-10-27T14:50:00",
-  "url": "https://www.nen.nipez.cz/profil/pardubice",
-  "place": "",
-  "authority_seat": "Pernštýnské náměstí 1, Pardubice 53002",
-  "authority_profile": "https://www.nen.nipez.cz/profil/pardubice",
-  "state": "Aktivní/Neukončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": false,
-  "dist_km": 19,
-  "loc_unknown": false,
-  "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00024210"
- },
- {
   "id": "rvz:RVZ2600286223",
   "source": "isvz",
   "nen_id": "",
@@ -1119,7 +1231,7 @@
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "dist_km": 30,
   "loc_unknown": false,
-  "url_dead": 4,
+  "url_dead": 5,
   "link_dead": true
  },
  {
@@ -1445,7 +1557,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-10-22",
+  "nen_detail": "2026-10-23",
   "predmet": "Předmětem plnění této zakázky je výměna výkladců včetně souvisejících stavebních a montážních prací v prostorách Střediska volného času Beta, na adrese Jana Zajíce 983, Pardubice. Součástí prací bude demontáž okenních rámů, parapetů a dřevěných obkladů. Dále bude provedeno vybourání vnitřních i vnějších oken. V meziprostoru dojde k demontáži parapetu a bočních obkladů a k odpojení nevyužívaných svítidel. Kovové konzole, na které je bodovými svary připevněn vnitřní okenní rám, budou zachovány. Konzole slouží jako nosná konstrukce pro parapetní desky a zároveň chrání radiátory, do kterých nebude nijak zasahováno. Po dokončení prací budou konzole znovu využity pro osazení nového parapetu řešeného jako schůdek ve dvou úrovních. U výkladce u baru (v patře vpravo od vstupu) bude nutné demontovat také venkovní parapet, protože okno je zde osazeno s odsazením od vnějšího líce zdiva. U ostatních oken bude řešen pouze parapet vnitřní."
  },
  {
@@ -1473,7 +1585,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-10-22",
+  "nen_detail": "2026-10-23",
   "predmet": "Předmětem veřejné zakázky je odstranění stávajícího oplocení včetně podezdívky a brány na pozemcích parc. č. 102\\u002F1 a 103\\u002F19 v k. ú. Pardubice, v prostoru přilehlém k Aquacentru Pardubice.  Součástí prací bude zejména prověření, zda v místě podezdívky nebo v její bezprostřední blízkosti nevedou inženýrské sítě (elektřina, plyn, voda, optické kabely), demontáž výplní oplocení, odstranění plotových sloupků a brány, vybourání nadzemní části podezdívky a odstranění jejích základů. Práce dále zahrnují oplocení pracoviště, bude-li to nezbytné pro zajištění bezpečnosti kolemjdoucích, přípravu manipulačního prostoru pro techniku a kontejnery, třídění vzniklého materiálu, odvoz a likvidaci odpadu a následné zemní práce a zarovnání dotčeného pozemku."
  },
  {
@@ -1520,7 +1632,7 @@
   "kw_match": true,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 36,
   "loc_unknown": false
  },
@@ -1554,7 +1666,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": 22,
   "loc_unknown": false
  },
@@ -1585,7 +1697,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 43,
   "loc_unknown": false,
   "nen_detail": "2026-10-19",
@@ -6288,8 +6400,8 @@
   "loc_unknown": false
  },
  {
-  "id": "profil:sken-00270920:P26V00005527",
-  "source": "profil:sken-00270920",
+  "id": "profil:pvu:00270920:P26V00005527",
+  "source": "profil:pvu:00270920",
   "title": "Stavební úpravy v bytě č. 1 v DPS Farská 765, Slatiňany",
   "authority": "Město Slatiňany",
   "authority_ico": "00270920",
@@ -6306,12 +6418,14 @@
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "authority_seat": "",
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
   "expired": true,
   "dist_km": 33,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "profile_url": "https://www.vhodne-uverejneni.cz/profil/mesto-slatinany"
  },
  {
   "id": "rvz:RVZ2600120528",
@@ -14376,10 +14490,48 @@
   "deadline": "2026-07-03T10:00:00",
   "url": "https://www.tenderarena.cz/profily/hradeckralove",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZ",
+  "bidders": [
+   {
+    "nazev": "KVIS Pardubice a.s.",
+    "ico": "46506934",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PDV Stavby s.r.o.",
+    "ico": "03717721",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SWIETELSKY stavební s.r.o.",
+    "ico": "48035599",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PP-GROUP stavby TJ s.r.o.",
+    "ico": "21771111",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ŠTĚPÁNEK, spol. s r.o.",
+    "ico": "45535124",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "M - SILNICE a.s.",
+    "ico": "42196868",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -27131,7 +27283,7 @@
   "place": "Stavba bude realizována na pozemcích p. č. 1, 2, 93/1, 93/2, 119, 345/7, 345/10, 345/12, 884, 885/1, vše v k. ú. 621684 Česká Skalice",
   "authority_seat": "",
   "authority_profile": "",
-  "state": "",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZ",
@@ -27140,7 +27292,34 @@
   "no_value": false,
   "expired": true,
   "dist_km": 30,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "bidders": [
+   {
+    "nazev": "Alprim CZ s.r.o.",
+    "ico": "28811470",
+    "cena": 15561700.37,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ŠPELDA s.r.o.",
+    "ico": "28800125",
+    "cena": 16280004.09,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Dlažba Vysoké Mýto, s.r.o.",
+    "ico": "25953818",
+    "cena": 14297832.7,
+    "vyloucen": false
+   },
+   {
+    "nazev": "M - STAV CZ s.r.o.",
+    "ico": "27557235",
+    "cena": 15979891.25,
+    "vyloucen": false
+   }
+  ],
+  "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00003691"
  },
  {
   "id": "rvz:RVZ2600051588",
@@ -178958,30 +179137,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2500149066",
-  "source": "profil:hradec-kralove",
-  "title": "Malšovická 779 – koupaliště Flošna – novostavba hygienického zázemí – technický dozor stavebníka",
-  "authority": "Statutární město Hradec Králové",
-  "authority_ico": "00268810",
-  "cpv": [],
-  "nuts": [],
-  "value": null,
-  "published": "2025-08-20",
-  "deadline": "",
-  "url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "place": "",
-  "state": "ukončeno plnění",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 4,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2500149070",
   "source": "profil:hradec-kralove",
   "title": "Malšovická 779 – koupaliště Flošna – novostavba hygienického zázemí – činnost koordinátora BOZP",
@@ -178999,6 +179154,30 @@
   "clarifications": 0,
   "kind": "VZMR",
   "kw_match": true,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2500149066",
+  "source": "profil:hradec-kralove",
+  "title": "Malšovická 779 – koupaliště Flošna – novostavba hygienického zázemí – technický dozor stavebníka",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2025-08-20",
+  "deadline": "",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
   "no_nuts": false,
   "no_value": true,
   "expired": true,
@@ -202098,45 +202277,6 @@
   "no_activity": true
  },
  {
-  "id": "rvz:RVZ2500060894",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Brněnská 1462 – bezbariérový vstup a zateplení objektu",
-  "authority": "Statutární město Hradec Králové",
-  "authority_ico": "00268810",
-  "cpv": [
-   "45000000",
-   "45300000",
-   "45321000",
-   "45421100",
-   "09332000",
-   "51110000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 16500000.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "ukončeno plnění",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "profile_url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "dist_km": 4,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
   "id": "rvz:RVZ2600096679",
   "source": "isvz",
   "nen_id": "",
@@ -210564,6 +210704,45 @@
   "no_value": false,
   "expired": true,
   "dist_km": 20,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500060894",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Brněnská 1462 – bezbariérový vstup a zateplení objektu",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [
+   "45000000",
+   "45300000",
+   "45321000",
+   "45421100",
+   "09332000",
+   "51110000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 16500000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "profile_url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "dist_km": 4,
   "loc_unknown": false,
   "auto_expired": "2026-07-31",
   "no_activity": true
