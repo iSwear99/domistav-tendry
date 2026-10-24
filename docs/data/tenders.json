@@ -40,7 +40,7 @@
   "loc_unknown": false
  },
  {
-  "id": "profil:hradec-kralove:MMHKTA202600000086",
+  "id": "rvz:RVZ2600294546",
   "source": "profil:hradec-kralove",
   "title": "Singletrail „LES“ Central park Hradec Králové – DESIGN & BUILD",
   "authority": "Statutární město Hradec Králové",
@@ -63,7 +63,8 @@
   "no_value": true,
   "expired": false,
   "dist_km": 4,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "profile_url": "https://www.tenderarena.cz/profily/hradeckralove"
  },
  {
   "id": "rvz:RVZ2600107250",
@@ -211,7 +212,7 @@
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "dist_km": 24,
   "loc_unknown": false,
-  "url_dead": 5,
+  "url_dead": 6,
   "link_dead": true
  },
  {
@@ -678,7 +679,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-10-23",
+  "nen_detail": "2026-10-24",
   "predmet": "Předmětem plnění veřejné zakázky je provedení díla spočívajícího v rekonstrukci podlahy, výrobě nábytku sestávajícího z výškově stavitelných stolů pro operační pracoviště a úložných skříněk. v místnosti č. 205 (operační místnost) budovy Pernerova 443, 530 02 Pardubice (ve vlastnictví společnosti SK – EKO Pardubice s.r.o.), DÍLO bude provedeno v souladu se zadávací dokumentací, technickou specifikací (příloha č. 1), výkazem výměr (příloha č. 2), výše uvedeným vizuálním návrhem (příloha č. 6), příslušnými právními předpisy, technickými požadavky na výstavbu, závaznými technickými normami a příslušnými ČSN, není-li v zadávací dokumentaci stanoveno jinak. Příloha č. 6 – Půdorys a vizualizace stanoví zejména požadované prostorové uspořádání, vzhled a základní koncepci pracoviště. Technické vlastnosti jednotlivých výrobků a prvků jsou závazně stanoveny v příloze č. 1 – Technická specifikace. V případě rozporu mezi vizualizací a technickou specifikací má přednost technická specifikace. Veřejná zakázka je zadávána jako veřejná zakázka malého rozsahu mimo zadávací řízení podle § 31 ZZVZ, při dodržení zásad podle § 6 ZZVZ. Vizuální návrh byl vypracovaný v 08\\u002F26 společností Epixo BW s.r."
  },
  {
@@ -1087,7 +1088,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-10-23",
+  "nen_detail": "2026-10-24",
   "predmet": "Předmětem plnění veřejné zakázky je projektová příprava, inženýring a samotná stavební realizace volnočasového areálu s názvem „Nový skatepark a pumptrack - ul. Langiewiczova“."
  },
  {
@@ -1231,7 +1232,7 @@
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "dist_km": 30,
   "loc_unknown": false,
-  "url_dead": 5,
+  "url_dead": 6,
   "link_dead": true
  },
  {
@@ -1493,7 +1494,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 43,
   "loc_unknown": false,
   "nen_detail": "2026-10-19",
@@ -1528,7 +1529,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": 43,
   "loc_unknown": false
  },
@@ -1554,11 +1555,9 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
-  "loc_unknown": false,
-  "nen_detail": "2026-10-23",
-  "predmet": "Předmětem plnění této zakázky je výměna výkladců včetně souvisejících stavebních a montážních prací v prostorách Střediska volného času Beta, na adrese Jana Zajíce 983, Pardubice. Součástí prací bude demontáž okenních rámů, parapetů a dřevěných obkladů. Dále bude provedeno vybourání vnitřních i vnějších oken. V meziprostoru dojde k demontáži parapetu a bočních obkladů a k odpojení nevyužívaných svítidel. Kovové konzole, na které je bodovými svary připevněn vnitřní okenní rám, budou zachovány. Konzole slouží jako nosná konstrukce pro parapetní desky a zároveň chrání radiátory, do kterých nebude nijak zasahováno. Po dokončení prací budou konzole znovu využity pro osazení nového parapetu řešeného jako schůdek ve dvou úrovních. U výkladce u baru (v patře vpravo od vstupu) bude nutné demontovat také venkovní parapet, protože okno je zde osazeno s odsazením od vnějšího líce zdiva. U ostatních oken bude řešen pouze parapet vnitřní."
+  "loc_unknown": false
  },
  {
   "id": "rvz:RVZ2600291331",
@@ -1582,11 +1581,9 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
-  "loc_unknown": false,
-  "nen_detail": "2026-10-23",
-  "predmet": "Předmětem veřejné zakázky je odstranění stávajícího oplocení včetně podezdívky a brány na pozemcích parc. č. 102\\u002F1 a 103\\u002F19 v k. ú. Pardubice, v prostoru přilehlém k Aquacentru Pardubice.  Součástí prací bude zejména prověření, zda v místě podezdívky nebo v její bezprostřední blízkosti nevedou inženýrské sítě (elektřina, plyn, voda, optické kabely), demontáž výplní oplocení, odstranění plotových sloupků a brány, vybourání nadzemní části podezdívky a odstranění jejích základů. Práce dále zahrnují oplocení pracoviště, bude-li to nezbytné pro zajištění bezpečnosti kolemjdoucích, přípravu manipulačního prostoru pro techniku a kontejnery, třídění vzniklého materiálu, odvoz a likvidaci odpadu a následné zemní práce a zarovnání dotčeného pozemku."
+  "loc_unknown": false
  },
  {
   "id": "rvz:RVZ2600289521",
@@ -1608,7 +1605,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 4,
   "loc_unknown": false
  },
@@ -2182,10 +2179,24 @@
   "deadline": "2026-10-14T10:00:00",
   "url": "https://www.tenderarena.cz/profily/hradeckralove",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "CSF, s.r.o.",
+    "ico": "25289462",
+    "cena": 581244.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Aricoma Systems a.s.",
+    "ico": "04308697",
+    "cena": 599800.0,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -6424,8 +6435,7 @@
   "no_value": true,
   "expired": true,
   "dist_km": 33,
-  "loc_unknown": false,
-  "profile_url": "https://www.vhodne-uverejneni.cz/profil/mesto-slatinany"
+  "loc_unknown": false
  },
  {
   "id": "rvz:RVZ2600120528",

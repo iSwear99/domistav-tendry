@@ -1,5 +1,39 @@
 [
  {
+  "id": "rvz:RVZ2600285266",
+  "source": "profil:hradec-kralove",
+  "title": "Dodávka UPS",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "winner": "CSF, s.r.o.",
+  "winner_ico": "25289462",
+  "awarded": "2026-10-23",
+  "price_contracted": 581244.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "bidders": [
+   {
+    "nazev": "CSF, s.r.o.",
+    "ico": "25289462",
+    "cena": 581244.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Aricoma Systems a.s.",
+    "ico": "04308697",
+    "cena": 599800.0,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2600098095",
   "source": "profil:hradec-kralove",
   "title": "Propojení dopravních a technických vazeb infrastruktury ve Svobodných Dvorech",

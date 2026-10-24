@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-10-23T11:09:39+00:00",
+  "updated": "2026-10-24T10:23:03+00:00",
   "zd": 593,
-  "zpravy": 1503,
-  "novych": 3,
+  "zpravy": 1504,
+  "novych": 0,
   "errors": []
  },
  "zd": {
@@ -1825,13 +1825,13 @@
   "profil:hronov:P26V00006523": {
    "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3935297"
   },
-  "profil:hradec-kralove:MMHKTA202600000086": {
-   "doc_url": "https://api.tenderarena.cz/ta/profil/stahovani-dokumentu/dokument/6602253"
-  },
   "profil:pvu:48169188:P26V00006578": {
    "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3936350"
   },
   "profil:pvu:45193363:P26V00006577": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600294546": {
    "nenalezeno": true
   }
  },
@@ -6381,6 +6381,9 @@
   },
   "rvz:RVZ2600098095": {
    "doc_url": "https://api.tenderarena.cz/ta/profil/stahovani-dokumentu/dokument/6596596"
+  },
+  "rvz:RVZ2600285266": {
+   "nenalezeno": true
   }
  }
 }
