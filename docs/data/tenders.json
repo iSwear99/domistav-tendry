@@ -63,8 +63,7 @@
   "no_value": true,
   "expired": false,
   "dist_km": 4,
-  "loc_unknown": false,
-  "profile_url": "https://www.tenderarena.cz/profily/hradeckralove"
+  "loc_unknown": false
  },
  {
   "id": "rvz:RVZ2600107250",
@@ -679,7 +678,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-10-24",
+  "nen_detail": "2026-10-25",
   "predmet": "Předmětem plnění veřejné zakázky je provedení díla spočívajícího v rekonstrukci podlahy, výrobě nábytku sestávajícího z výškově stavitelných stolů pro operační pracoviště a úložných skříněk. v místnosti č. 205 (operační místnost) budovy Pernerova 443, 530 02 Pardubice (ve vlastnictví společnosti SK – EKO Pardubice s.r.o.), DÍLO bude provedeno v souladu se zadávací dokumentací, technickou specifikací (příloha č. 1), výkazem výměr (příloha č. 2), výše uvedeným vizuálním návrhem (příloha č. 6), příslušnými právními předpisy, technickými požadavky na výstavbu, závaznými technickými normami a příslušnými ČSN, není-li v zadávací dokumentaci stanoveno jinak. Příloha č. 6 – Půdorys a vizualizace stanoví zejména požadované prostorové uspořádání, vzhled a základní koncepci pracoviště. Technické vlastnosti jednotlivých výrobků a prvků jsou závazně stanoveny v příloze č. 1 – Technická specifikace. V případě rozporu mezi vizualizací a technickou specifikací má přednost technická specifikace. Veřejná zakázka je zadávána jako veřejná zakázka malého rozsahu mimo zadávací řízení podle § 31 ZZVZ, při dodržení zásad podle § 6 ZZVZ. Vizuální návrh byl vypracovaný v 08\\u002F26 společností Epixo BW s.r."
  },
  {
@@ -1087,9 +1086,7 @@
   "no_value": true,
   "expired": false,
   "dist_km": 19,
-  "loc_unknown": false,
-  "nen_detail": "2026-10-24",
-  "predmet": "Předmětem plnění veřejné zakázky je projektová příprava, inženýring a samotná stavební realizace volnočasového areálu s názvem „Nový skatepark a pumptrack - ul. Langiewiczova“."
+  "loc_unknown": false
  },
  {
   "id": "rvz:RVZ2600284815",
@@ -1401,7 +1398,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -202074,326 +202071,6 @@
   "no_activity": true
  },
  {
-  "id": "rvz:RVZ2500090320",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "„Rozvoj centrální průmyslové zóny a dopravní infrastruktury, Solnice jih“ v rámci projektu „Rozšíření strategické průmyslové zóny Solnice – Kvasiny a zlepšení veřejné infrastruktury v Královéhradeckém regionu“",
-  "authority": "Královéhradecký kraj",
-  "authority_ico": "70889546",
-  "cpv": [
-   "45000000",
-   "45110000",
-   "45300000",
-   "45221110",
-   "45233000",
-   "45234100",
-   "71000000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": null,
-  "published": "",
-  "deadline": "",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "place": "Zájmové území se nachází jihovýchodně od hranice města Solnice v těsné blízkosti závodu Škoda Auto a.s. Bližší informace o místě plnění viz zadávací podmínky a návrh smlouvy o dílo.",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 33,
-  "loc_unknown": false,
-  "auto_expired": "2026-10-19",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500089854",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Rozvoj komunitních sociálních služeb DOZP v lokalitě Jičín – stavební práce",
-  "authority": "Královéhradecký kraj",
-  "authority_ico": "70889546",
-  "cpv": [
-   "45000000",
-   "45110000",
-   "45233000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 116235443.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "place": "Obecným místem plnění je Královéhradecký kraj. Místem plnění veřejné zakázky je ul. Revoluční, Jičín, na pozemcích p.č.1628, 1629, 1630, 1631/1, 1889.",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 38,
-  "loc_unknown": false,
-  "auto_expired": "2026-10-19",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500090481",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Nemocnice Rychnov nad Kněžnou – rekonstrukce gastro provozu – stavební práce – ZD/18/425",
-  "authority": "Královéhradecký kraj",
-  "authority_ico": "70889546",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 17649013.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "place": "Nemocnice Rychnov nad Kněžnou, Jiráskova 506, 516 23 Rychnov nad Kněžnou",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 36,
-  "loc_unknown": false,
-  "auto_expired": "2026-10-19",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500090477",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Rekonstrukce sociálního zařízení na DM – Gymnázium a SOŠPg Nová Paka",
-  "authority": "Královéhradecký kraj",
-  "authority_ico": "70889546",
-  "cpv": [
-   "45000000",
-   "45110000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 12208704.29,
-  "published": "",
-  "deadline": "",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "place": "Domov mládeže, Kumburská 1028, 509 01 Nová Paka",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 36,
-  "loc_unknown": false,
-  "auto_expired": "2026-10-19",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2600119036",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Rekonstrukce stávajícího výtahu - Domov důchodců Pilníkov",
-  "authority": "Královéhradecký kraj",
-  "authority_ico": "70889546",
-  "cpv": [
-   "42416100",
-   "42419510",
-   "42400000",
-   "43612700",
-   "45313100",
-   "42419500"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 2353000.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "place": "Domov důchodců Pilníkov, Trutnovská 176, 542 42 Pilníkov",
-  "authority_seat": "",
-  "authority_profile": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 37,
-  "loc_unknown": false,
-  "auto_expired": "2026-10-19",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500060367",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Zámek Pardubice – vybudování reprezentativního sálu a foyer se zázemím pro společenský trakt zámeckého paláce",
-  "authority": "Pardubický kraj",
-  "authority_ico": "70892822",
-  "cpv": [
-   "45000000",
-   "45212350"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": null,
-  "published": "",
-  "deadline": "",
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false,
-  "auto_expired": "2026-10-19",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2600096679",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Úpravy otopné soustavy v objektech ZŠ, Trutnov 2, Mládežnická 536 - II. etapa",
-  "authority": "MĚSTO TRUTNOV",
-  "authority_ico": "00278360",
-  "cpv": [
-   "45331100"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 2600000.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://zakazky.trutnov.cz/",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://zakazky.trutnov.cz/",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 43,
-  "loc_unknown": false,
-  "auto_expired": "2026-08-15",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2600113727",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Sanace a stabilizace svahu nad fotbalovým a zimním stadionem",
-  "authority": "MĚSTO TRUTNOV",
-  "authority_ico": "00278360",
-  "cpv": [
-   "45111230",
-   "45111212",
-   "45112000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 19687613.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://zakazky.trutnov.cz/profile_display_2.html",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://zakazky.trutnov.cz/profile_display_2.html",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 43,
-  "loc_unknown": false,
-  "auto_expired": "2026-10-19",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2600117812",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Rekonstrukce ulice Tovární, Trutnov",
-  "authority": "MĚSTO TRUTNOV",
-  "authority_ico": "00278360",
-  "cpv": [
-   "45233140",
-   "45233160",
-   "45233252",
-   "45223300",
-   "45232452",
-   "45112710",
-   "45112000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 13232614.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://zakazky.trutnov.cz/profile_display_2.html",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://zakazky.trutnov.cz/profile_display_2.html",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 43,
-  "loc_unknown": false,
-  "auto_expired": "2026-10-19",
-  "no_activity": true
- },
- {
   "id": "rvz:RVZ2500082916",
   "source": "isvz",
   "nen_id": "",
@@ -203007,6 +202684,45 @@
   "no_activity": true
  },
  {
+  "id": "rvz:RVZ2600117812",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Rekonstrukce ulice Tovární, Trutnov",
+  "authority": "MĚSTO TRUTNOV",
+  "authority_ico": "00278360",
+  "cpv": [
+   "45233140",
+   "45233160",
+   "45233252",
+   "45223300",
+   "45232452",
+   "45112710",
+   "45112000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 13232614.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.trutnov.cz/profile_display_2.html",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://zakazky.trutnov.cz/profile_display_2.html",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "auto_expired": "2026-10-19",
+  "no_activity": true
+ },
+ {
   "id": "rvz:RVZ2600107037",
   "source": "isvz",
   "nen_id": "",
@@ -203185,6 +202901,41 @@
   "no_activity": true
  },
  {
+  "id": "rvz:RVZ2600113727",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Sanace a stabilizace svahu nad fotbalovým a zimním stadionem",
+  "authority": "MĚSTO TRUTNOV",
+  "authority_ico": "00278360",
+  "cpv": [
+   "45111230",
+   "45111212",
+   "45112000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 19687613.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.trutnov.cz/profile_display_2.html",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://zakazky.trutnov.cz/profile_display_2.html",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "auto_expired": "2026-10-19",
+  "no_activity": true
+ },
+ {
   "id": "rvz:RVZ2600113669",
   "source": "isvz",
   "nen_id": "",
@@ -203214,6 +202965,44 @@
   "expired": true,
   "dist_km": 31,
   "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600119036",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Rekonstrukce stávajícího výtahu - Domov důchodců Pilníkov",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "42416100",
+   "42419510",
+   "42400000",
+   "43612700",
+   "45313100",
+   "42419500"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 2353000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "Domov důchodců Pilníkov, Trutnovská 176, 542 42 Pilníkov",
+  "authority_seat": "",
+  "authority_profile": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 37,
+  "loc_unknown": false,
+  "auto_expired": "2026-10-19",
+  "no_activity": true
  },
  {
   "id": "rvz:RVZ2600108673",
@@ -203518,6 +203307,39 @@
   "dist_km": 37,
   "loc_unknown": false,
   "auto_expired": "2026-10-19",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600096679",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Úpravy otopné soustavy v objektech ZŠ, Trutnov 2, Mládežnická 536 - II. etapa",
+  "authority": "MĚSTO TRUTNOV",
+  "authority_ico": "00278360",
+  "cpv": [
+   "45331100"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 2600000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.trutnov.cz/",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://zakazky.trutnov.cz/",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "auto_expired": "2026-08-15",
   "no_activity": true
  },
  {
@@ -206678,6 +206500,40 @@
   "no_activity": true
  },
  {
+  "id": "rvz:RVZ2500090477",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Rekonstrukce sociálního zařízení na DM – Gymnázium a SOŠPg Nová Paka",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000",
+   "45110000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 12208704.29,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "Domov mládeže, Kumburská 1028, 509 01 Nová Paka",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "auto_expired": "2026-10-19",
+  "no_activity": true
+ },
+ {
   "id": "rvz:RVZ2500085384",
   "source": "isvz",
   "nen_id": "",
@@ -206741,6 +206597,39 @@
   "dist_km": null,
   "loc_unknown": true,
   "auto_expired": "2026-07-31",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500090481",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Nemocnice Rychnov nad Kněžnou – rekonstrukce gastro provozu – stavební práce – ZD/18/425",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 17649013.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "Nemocnice Rychnov nad Kněžnou, Jiráskova 506, 516 23 Rychnov nad Kněžnou",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "auto_expired": "2026-10-19",
   "no_activity": true
  },
  {
@@ -210789,6 +210678,75 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2500089854",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Rozvoj komunitních sociálních služeb DOZP v lokalitě Jičín – stavební práce",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000",
+   "45110000",
+   "45233000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 116235443.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "Obecným místem plnění je Královéhradecký kraj. Místem plnění veřejné zakázky je ul. Revoluční, Jičín, na pozemcích p.č.1628, 1629, 1630, 1631/1, 1889.",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 38,
+  "loc_unknown": false,
+  "auto_expired": "2026-10-19",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500060367",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Zámek Pardubice – vybudování reprezentativního sálu a foyer se zázemím pro společenský trakt zámeckého paláce",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "45000000",
+   "45212350"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": null,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "auto_expired": "2026-10-19",
+  "no_activity": true
+ },
+ {
   "id": "rvz:RVZ2500071765",
   "source": "isvz",
   "nen_id": "",
@@ -211581,6 +211539,45 @@
   "dist_km": 27,
   "loc_unknown": false,
   "auto_expired": "2026-07-31",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500090320",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "„Rozvoj centrální průmyslové zóny a dopravní infrastruktury, Solnice jih“ v rámci projektu „Rozšíření strategické průmyslové zóny Solnice – Kvasiny a zlepšení veřejné infrastruktury v Královéhradeckém regionu“",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000",
+   "45110000",
+   "45300000",
+   "45221110",
+   "45233000",
+   "45234100",
+   "71000000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": null,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "Zájmové území se nachází jihovýchodně od hranice města Solnice v těsné blízkosti závodu Škoda Auto a.s. Bližší informace o místě plnění viz zadávací podmínky a návrh smlouvy o dílo.",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 33,
+  "loc_unknown": false,
+  "auto_expired": "2026-10-19",
   "no_activity": true
  },
  {
