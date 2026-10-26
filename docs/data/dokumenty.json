@@ -1,8 +1,8 @@
 {
  "meta": {
-  "updated": "2026-10-25T16:31:53+00:00",
-  "zd": 593,
-  "zpravy": 1504,
+  "updated": "2026-10-26T13:56:23+00:00",
+  "zd": 594,
+  "zpravy": 1505,
   "novych": 0,
   "errors": []
  },
@@ -1832,6 +1832,9 @@
    "nenalezeno": true
   },
   "rvz:RVZ2600294546": {
+   "nenalezeno": true
+  },
+  "profil:pvu:00234591:P26V00006600": {
    "nenalezeno": true
   }
  },
@@ -6383,6 +6386,9 @@
    "doc_url": "https://api.tenderarena.cz/ta/profil/stahovani-dokumentu/dokument/6596596"
   },
   "rvz:RVZ2600285266": {
+   "nenalezeno": true
+  },
+  "profil:kr-kralovehradecky:VZ-13061": {
    "nenalezeno": true
   }
  }

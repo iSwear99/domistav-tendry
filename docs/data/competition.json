@@ -34,6 +34,43 @@
   ]
  },
  {
+  "id": "profil:kr-kralovehradecky:VZ-13061",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Vybudování protipovodňové zábrany areálu organizace Domečky Rychnov nad Kněžnou - stavební práce",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "winner": "REVIST s.r.o.",
+  "winner_ico": "24815756",
+  "awarded": "2026-10-23",
+  "price_contracted": 3356769.44,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "REVIST s.r.o.",
+    "ico": "24815756",
+    "cena": 3356769.44,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STATING s.r.o.",
+    "ico": "25963864",
+    "cena": 4403347.38,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/40085141"
+ },
+ {
   "id": "rvz:RVZ2600098095",
   "source": "profil:hradec-kralove",
   "title": "Propojení dopravních a technických vazeb infrastruktury ve Svobodných Dvorech",

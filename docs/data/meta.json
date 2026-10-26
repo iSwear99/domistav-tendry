@@ -1,37 +1,17 @@
 {
- "updated": "2026-10-25T16:31:52+00:00",
+ "updated": "2026-10-26T13:56:02+00:00",
  "counts": {
-  "total": 8257,
-  "vz": 5185,
-  "vzmr": 3072,
-  "active": 73,
-  "changed": 116,
-  "competition": 1504,
+  "total": 8259,
+  "vz": 5186,
+  "vzmr": 3073,
+  "active": 74,
+  "changed": 117,
+  "competition": 1505,
   "previous": 8257
  },
  "errors": [
-  "profil:kr-kralovehradecky: Stažení selhalo: https://zakazky.cenakhk.cz/profile_display_2.html/XMLdataVZ?od=27072026&do=25102026: <urlopen error timed out>",
-  "profil:kr-pardubicky: Stažení selhalo: https://zakazky.pardubickykraj.cz/profile_display_2.html/XMLdataVZ?od=27072026&do=25102026: <urlopen error timed out>",
-  "profil:trutnov: Stažení selhalo: https://zakazky.trutnov.cz/profile_display_2.html/XMLdataVZ?od=27072026&do=25102026: <urlopen error timed out>",
-  "profil:rychnov-nk: Stažení selhalo: https://zakazky.rychnov-city.cz/profile_display_2.html/XMLdataVZ?od=27072026&do=25102026: <urlopen error timed out>",
-  "profil:chrudim: Stažení selhalo: https://zakazky.chrudim-city.cz/profile_display_2.html/XMLdataVZ?od=27072026&do=25102026: <urlopen error timed out>",
-  "profil:usti-no: Stažení selhalo: https://zakazky.muuo.cz/profile_display_2.html/XMLdataVZ?od=27072026&do=25102026: <urlopen error timed out>",
-  "profil:dvur-kralove: Stažení selhalo: https://zakazky.mudk.cz/profile_display_2.html/XMLdataVZ?od=27072026&do=25102026: <urlopen error timed out>",
-  "profil:dobruska: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274879/XMLdataVZ?od=27072026&do=25102026: <urlopen error timed out>",
-  "profil:vrchlabi: Stažení selhalo: https://zakazky.muvrchlabi.cz/profile_display_2.html/XMLdataVZ?od=27072026&do=25102026: <urlopen error timed out>",
-  "profil:holice: Stažení selhalo: https://zakazky.mestoholice.cz/XMLdataVZ?od=27072026&do=25102026&profil=2: <urlopen error timed out>",
-  "profil:prelouc: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274101/XMLdataVZ?od=27072026&do=25102026: <urlopen error timed out>",
-  "profil:hronov: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00272680/XMLdataVZ?od=27072026&do=25102026: <urlopen error timed out>",
-  "profil:vamberk: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00275492/XMLdataVZ?od=27072026&do=25102026: <urlopen error timed out>",
-  "profil:john-nell-baby: Stažení selhalo: https://zakazky.navigaassistance.cz/XMLdataVZ?od=27072026&do=25102026: <urlopen error timed out>",
-  "profil:lodin: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/obec-lodin/XMLdataVZ?od=27072026&do=25102026: <urlopen error timed out>",
-  "pvu: RSS nedostupné: Stažení selhalo: https://www.vhodne-uverejneni.cz/rss/zakazky: <urlopen error timed out>",
-  "proklik vhodne-uverejneni.cz: <urlopen error timed out>",
-  "proklik vhodne-uverejneni.cz: <urlopen error timed out>",
-  "proklik zakazky.cenakhk.cz: <urlopen error timed out>",
-  "proklik nen.nipez.cz: The read operation timed out",
-  "proklik zakazky.cenakhk.cz: <urlopen error timed out>",
-  "proklik vhodne-uverejneni.cz: <urlopen error timed out>",
-  "proklik vhodne-uverejneni.cz: <urlopen error timed out>"
+  "pvu: /externi-zakazka/sazava-uklidove-sluzby-na-rok-2027: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/sazava-uklidove-sluzby-na-rok-2027: HTTP Error 401: Unauthorized",
+  "pvu: /externi-zakazka/plzen-uklidove-sluzby-na-rok-2027: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/plzen-uklidove-sluzby-na-rok-2027: HTTP Error 401: Unauthorized",
+  "proklik nen.nipez.cz: The read operation timed out"
  ]
 }
