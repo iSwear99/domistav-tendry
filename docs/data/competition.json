@@ -71,6 +71,133 @@
   "registr_url": "https://smlouvy.gov.cz/smlouva/40085141"
  },
  {
+  "id": "profil:trutnov:VZ-1837",
+  "source": "profil:trutnov",
+  "title": "ZŠ Trutnov, snížení energetické náročnosti budov - objekt ZŠ R. Frimla",
+  "authority": "Město Trutnov",
+  "authority_ico": "00278360",
+  "winner": "TOMIreko a.s.",
+  "winner_ico": "28359216",
+  "awarded": "2026-10-23",
+  "price_contracted": 34370995.09,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://zakazky.trutnov.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "ANTON A SYN s.r.o.",
+    "ico": "04881681",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Broumovské stavební sdružení s.r.o.",
+    "ico": "46504303",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STAFI FINALIZACE STAVEB s.r.o.",
+    "ico": "25968203",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TOMIreko a.s.",
+    "ico": "28359216",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
+  "id": "rvz:RVZ2600113108",
+  "source": "profil:pardubice",
+  "title": "Areál K Dolíčku – oprava šaten",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "MONTFIX s.r.o.",
+  "winner_ico": "21515174",
+  "awarded": "2026-10-22",
+  "price_contracted": 441710.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00023885",
+  "bidders": [
+   {
+    "nazev": "IngPro Litoměřice, s.r.o.",
+    "ico": "27301176",
+    "cena": 494171.77,
+    "vyloucen": false
+   },
+   {
+    "nazev": "AKVITSTAV s.r.o.",
+    "ico": "07904967",
+    "cena": 597077.04,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MONTFIX s.r.o.",
+    "ico": "21515174",
+    "cena": 441710.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Concrete Pardubice s.r.o.",
+    "ico": "27461068",
+    "cena": 566031.41,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MP Bau s.r.o.",
+    "ico": "24722065",
+    "cena": 681281.51,
+    "vyloucen": false
+   },
+   {
+    "nazev": "EVOSTA s.r.o.",
+    "ico": "03054225",
+    "cena": 904513.67,
+    "vyloucen": false
+   },
+   {
+    "nazev": "RWX, s.r.o.",
+    "ico": "14235111",
+    "cena": 650676.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PS HOME STAR s.r.o.",
+    "ico": "03221466",
+    "cena": 649733.7,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Holding Construction s.r.o.",
+    "ico": "24628051",
+    "cena": 441485.62,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/40046985"
+ },
+ {
   "id": "rvz:RVZ2600098095",
   "source": "profil:hradec-kralove",
   "title": "Propojení dopravních a technických vazeb infrastruktury ve Svobodných Dvorech",

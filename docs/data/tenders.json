@@ -211,7 +211,7 @@
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "dist_km": 24,
   "loc_unknown": false,
-  "url_dead": 7,
+  "url_dead": 8,
   "link_dead": true
  },
  {
@@ -445,6 +445,39 @@
   "no_nuts": true,
   "no_value": true,
   "expired": false,
+  "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600287590",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Svatojánská 682 a 683 – zateplení fasád včetně souvisejících prací",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [
+   "45453000",
+   "45321000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 10400000.0,
+  "published": "2026-09-30",
+  "deadline": "2026-11-11T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://www.tenderarena.cz/profily/hradeckralove",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": false,
+  "profile_url": "https://tenderarena.cz/profily/hradeckralove",
   "dist_km": 4,
   "loc_unknown": false
  },
@@ -765,7 +798,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-10-26",
+  "nen_detail": "2026-10-27",
   "predmet": "Předmětem plnění veřejné zakázky je provedení díla spočívajícího v rekonstrukci podlahy, výrobě nábytku sestávajícího z výškově stavitelných stolů pro operační pracoviště a úložných skříněk. v místnosti č. 205 (operační místnost) budovy Pernerova 443, 530 02 Pardubice (ve vlastnictví společnosti SK – EKO Pardubice s.r.o.), DÍLO bude provedeno v souladu se zadávací dokumentací, technickou specifikací (příloha č. 1), výkazem výměr (příloha č. 2), výše uvedeným vizuálním návrhem (příloha č. 6), příslušnými právními předpisy, technickými požadavky na výstavbu, závaznými technickými normami a příslušnými ČSN, není-li v zadávací dokumentaci stanoveno jinak. Příloha č. 6 – Půdorys a vizualizace stanoví zejména požadované prostorové uspořádání, vzhled a základní koncepci pracoviště. Technické vlastnosti jednotlivých výrobků a prvků jsou závazně stanoveny v příloze č. 1 – Technická specifikace. V případě rozporu mezi vizualizací a technickou specifikací má přednost technická specifikace. Veřejná zakázka je zadávána jako veřejná zakázka malého rozsahu mimo zadávací řízení podle § 31 ZZVZ, při dodržení zásad podle § 6 ZZVZ. Vizuální návrh byl vypracovaný v 08\\u002F26 společností Epixo BW s.r."
  },
  {
@@ -970,39 +1003,6 @@
   "loc_unknown": true
  },
  {
-  "id": "rvz:RVZ2600287590",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Svatojánská 682 a 683 – zateplení fasád včetně souvisejících prací",
-  "authority": "Statutární město Hradec Králové",
-  "authority_ico": "00268810",
-  "cpv": [
-   "45453000",
-   "45321000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 10400000.0,
-  "published": "2026-09-30",
-  "deadline": "2026-11-02T10:00:00",
-  "url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://www.tenderarena.cz/profily/hradeckralove",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": false,
-  "profile_url": "https://tenderarena.cz/profily/hradeckralove",
-  "dist_km": 4,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600287059",
   "source": "isvz",
   "nen_id": "N006/26/V00031335",
@@ -1114,7 +1114,9 @@
   "no_value": true,
   "expired": false,
   "dist_km": 19,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "nen_detail": "2026-10-27",
+  "predmet": "Předmětem plnění veřejné zakázky je projektová příprava, inženýring a samotná stavební realizace volnočasového areálu s názvem „Nový skatepark a pumptrack - ul. Langiewiczova“."
  },
  {
   "id": "rvz:RVZ2600284815",
@@ -1257,7 +1259,7 @@
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "dist_km": 30,
   "loc_unknown": false,
-  "url_dead": 7,
+  "url_dead": 8,
   "link_dead": true
  },
  {
@@ -1291,7 +1293,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "dist_km": 26,
   "loc_unknown": false
@@ -1319,7 +1321,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true,
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/00532304"
@@ -1351,7 +1353,7 @@
   "kw_match": true,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 42,
   "loc_unknown": false,
   "nen_detail": "2026-10-19",
@@ -1872,6 +1874,33 @@
   "expired": true,
   "dist_km": 19,
   "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:44992785:P26V00006401",
+  "source": "profil:pvu:44992785",
+  "title": "Rekonstrukce obecního bytu Rerychova 14, byt č. 1",
+  "authority": "Statutární město Brno, městská část Brno-Bystrc",
+  "authority_ico": "44992785",
+  "cpv": [
+   "45211000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-13",
+  "deadline": "2026-10-19T12:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/statutarni-mesto-brno-mestska-cast-brno-bystrc",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true
  },
  {
   "id": "rvz:RVZ2600107595",
@@ -3295,6 +3324,33 @@
   "expired": true,
   "dist_km": 49,
   "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:05258031:P26V00006027",
+  "source": "profil:pvu:05258031",
+  "title": "REKONSTRUKCE 4 KOUPELEN  V DOMĚ S PEČOVATELSKOU SLUŽBOU",
+  "authority": "Sociální služby Praha 9, z.ú.",
+  "authority_ico": "05258031",
+  "cpv": [
+   "45211310"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-22",
+  "deadline": "2026-10-06T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/socialni-sluzby-praha-9-z-u",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true
  },
  {
   "id": "rvz:RVZ2600121203",
@@ -5841,7 +5897,33 @@
   "expired": true,
   "profile_url": "https://zakazky.trutnov.cz/profile_display_2.html",
   "dist_km": 43,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "bidders": [
+   {
+    "nazev": "ANTON A SYN s.r.o.",
+    "ico": "04881681",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Broumovské stavební sdružení s.r.o.",
+    "ico": "46504303",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STAFI FINALIZACE STAVEB s.r.o.",
+    "ico": "25968203",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TOMIreko a.s.",
+    "ico": "28359216",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600121535",
@@ -9576,10 +9658,66 @@
   "deadline": "2026-08-18T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00023885",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "IngPro Litoměřice, s.r.o.",
+    "ico": "27301176",
+    "cena": 494171.77,
+    "vyloucen": false
+   },
+   {
+    "nazev": "AKVITSTAV s.r.o.",
+    "ico": "07904967",
+    "cena": 597077.04,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MONTFIX s.r.o.",
+    "ico": "21515174",
+    "cena": 441710.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Concrete Pardubice s.r.o.",
+    "ico": "27461068",
+    "cena": 566031.41,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MP Bau s.r.o.",
+    "ico": "24722065",
+    "cena": 681281.51,
+    "vyloucen": false
+   },
+   {
+    "nazev": "EVOSTA s.r.o.",
+    "ico": "03054225",
+    "cena": 904513.67,
+    "vyloucen": false
+   },
+   {
+    "nazev": "RWX, s.r.o.",
+    "ico": "14235111",
+    "cena": 650676.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PS HOME STAR s.r.o.",
+    "ico": "03221466",
+    "cena": 649733.7,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Holding Construction s.r.o.",
+    "ico": "24628051",
+    "cena": 441485.62,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -172883,6 +173021,32 @@
   "predmet": "Jedná se o uzavření rámcové dohody za účelem provedení pozáručních servisních úkonů stanovených výrobcem vozidla, podle daných technických podmínek ČSN a obecně platných právních předpisů v platném znění, běžné opravy osobních, dodávkových vozidel, transportérů, mikrobusů, a zabezpečení odtahu vozidel pro CZO Lázně Bohdaneč  Další informace viz. přílohy - návrh rámcové dohody, obecné informace pro dodavatele, tabulka cenové kalkulace k vyplnění a vložení zpět do VZ.  Nabídky hodnotit podle ekonomické výhodnosti, hodnotící kriteria: cena hodinové práce, automechanika, autoklempíře, autoelektrikáře, autolakýrníka a jiné mechanické práce-tab. cenové kalkulace č.1-červená buňka \\u002Fváha - 50%\\u002F, nacenění cenové kalkulace č.2 - na vybrané pozáruční servisní úkony, běžné opravy a odtah vozidel-červená buňka \\u002Fváha - 40%\\u002F, nejkratší vzdálenost provozovny zhotovitele od VZ 5512Lázně Bohdaneč, Na Lužci, 533 41 Lázně Bohdaneč \\u002Fváha 10%\\u002F k zjištění vzdálenosti, bude použity vyhledavač www.mapy.cz-nejkratší cesta.  Požadované kvalifikační předpoklady: Dodavatel doloží Profesní způsobilost dle §77, ZVZ č.134\\u002F2016. Při opravách nebo servisu vozidla, požadujeme pouze"
  },
  {
+  "id": "profil:kr-kralovehradecky:VZ-13177",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Léčebna zrakových vad Dvůr Králové nad Labem - Design & Build",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-25",
+  "deadline": "",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 26,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600286470",
   "source": "isvz",
   "nen_id": "N006/26/V00030995",
@@ -202227,6 +202391,44 @@
   "no_activity": true
  },
  {
+  "id": "rvz:RVZ2500090448",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Požárně bezpečnostní řešení objektů ozn. B, D v areálu nemocnice v Novém Bydžově – stavební úpravy",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000",
+   "45110000",
+   "45300000",
+   "45215100",
+   "45215140",
+   "45233000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 21700000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "Nový Bydžov",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 24,
+  "loc_unknown": false,
+  "auto_expired": "2026-10-19",
+  "no_activity": true
+ },
+ {
   "id": "rvz:RVZ2500090481",
   "source": "isvz",
   "nen_id": "",
@@ -208104,44 +208306,6 @@
   "dist_km": 27,
   "loc_unknown": false,
   "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500090448",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Požárně bezpečnostní řešení objektů ozn. B, D v areálu nemocnice v Novém Bydžově – stavební úpravy",
-  "authority": "Královéhradecký kraj",
-  "authority_ico": "70889546",
-  "cpv": [
-   "45000000",
-   "45110000",
-   "45300000",
-   "45215100",
-   "45215140",
-   "45233000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 21700000.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "place": "Nový Bydžov",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 24,
-  "loc_unknown": false,
-  "auto_expired": "2026-10-19",
   "no_activity": true
  },
  {
@@ -214291,7 +214455,7 @@
   "place": "Místem plnění je objekt ČLA Trutnov ve Svobodě nad Úpou čp. 134, na pozemku st. p. č. 158 v katastrálním území Svoboda nad Úpou.",
   "authority_seat": "",
   "authority_profile": "",
-  "state": "",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZ",

@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-10-26T13:56:23+00:00",
-  "zd": 594,
-  "zpravy": 1505,
-  "novych": 0,
+  "updated": "2026-10-27T13:06:18+00:00",
+  "zd": 595,
+  "zpravy": 1507,
+  "novych": 2,
   "errors": []
  },
  "zd": {
@@ -1836,6 +1836,9 @@
   },
   "profil:pvu:00234591:P26V00006600": {
    "nenalezeno": true
+  },
+  "profil:kr-kralovehradecky:VZ-13177": {
+   "doc_url": "https://zakazky.cenakhk.cz/document_download_148509.html"
   }
  },
  "zpravy": {
@@ -6389,6 +6392,12 @@
    "nenalezeno": true
   },
   "profil:kr-kralovehradecky:VZ-13061": {
+   "nenalezeno": true
+  },
+  "profil:trutnov:VZ-1837": {
+   "doc_url": "https://zakazky.trutnov.cz/document_download_8938.html"
+  },
+  "rvz:RVZ2600113108": {
    "nenalezeno": true
   }
  }
