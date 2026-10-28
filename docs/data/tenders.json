@@ -211,7 +211,7 @@
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "dist_km": 24,
   "loc_unknown": false,
-  "url_dead": 8,
+  "url_dead": 9,
   "link_dead": true
  },
  {
@@ -241,6 +241,34 @@
   "dist_km": 19,
   "loc_unknown": false,
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/00234591"
+ },
+ {
+  "id": "rvz:RVZ2600291445",
+  "source": "profil:jaromer",
+  "title": "Nový skatepark a pumptrack - ul. Langiewiczova",
+  "authority": "Město Jaroměř",
+  "authority_ico": "00272728",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-13",
+  "deadline": "2026-11-18T12:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00032714",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "nen_detail": "2026-10-28",
+  "predmet": "Předmětem plnění veřejné zakázky je projektová příprava, inženýring a samotná stavební realizace volnočasového areálu s názvem „Nový skatepark a pumptrack - ul. Langiewiczova“."
  },
  {
   "id": "rvz:RVZ2600292178",
@@ -798,7 +826,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-10-27",
+  "nen_detail": "2026-10-28",
   "predmet": "Předmětem plnění veřejné zakázky je provedení díla spočívajícího v rekonstrukci podlahy, výrobě nábytku sestávajícího z výškově stavitelných stolů pro operační pracoviště a úložných skříněk. v místnosti č. 205 (operační místnost) budovy Pernerova 443, 530 02 Pardubice (ve vlastnictví společnosti SK – EKO Pardubice s.r.o.), DÍLO bude provedeno v souladu se zadávací dokumentací, technickou specifikací (příloha č. 1), výkazem výměr (příloha č. 2), výše uvedeným vizuálním návrhem (příloha č. 6), příslušnými právními předpisy, technickými požadavky na výstavbu, závaznými technickými normami a příslušnými ČSN, není-li v zadávací dokumentaci stanoveno jinak. Příloha č. 6 – Půdorys a vizualizace stanoví zejména požadované prostorové uspořádání, vzhled a základní koncepci pracoviště. Technické vlastnosti jednotlivých výrobků a prvků jsou závazně stanoveny v příloze č. 1 – Technická specifikace. V případě rozporu mezi vizualizací a technickou specifikací má přednost technická specifikace. Veřejná zakázka je zadávána jako veřejná zakázka malého rozsahu mimo zadávací řízení podle § 31 ZZVZ, při dodržení zásad podle § 6 ZZVZ. Vizuální návrh byl vypracovaný v 08\\u002F26 společností Epixo BW s.r."
  },
  {
@@ -1091,34 +1119,6 @@
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/obec-vsestary"
  },
  {
-  "id": "rvz:RVZ2600291445",
-  "source": "profil:jaromer",
-  "title": "Nový skatepark a pumptrack - ul. Langiewiczova",
-  "authority": "Město Jaroměř",
-  "authority_ico": "00272728",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-10-13",
-  "deadline": "2026-10-30T11:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00032714",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 19,
-  "loc_unknown": false,
-  "nen_detail": "2026-10-27",
-  "predmet": "Předmětem plnění veřejné zakázky je projektová příprava, inženýring a samotná stavební realizace volnočasového areálu s názvem „Nový skatepark a pumptrack - ul. Langiewiczova“."
- },
- {
   "id": "rvz:RVZ2600284815",
   "source": "isvz",
   "nen_id": "",
@@ -1223,7 +1223,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
   "loc_unknown": false
  },
@@ -2282,6 +2282,33 @@
   "no_value": true,
   "expired": true,
   "dist_km": 23,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00269191:P26V00006622",
+  "source": "profil:pvu:00269191",
+  "title": "Sadbové úpravy na hřbitovech v Lubně, Suchá a Nechanicích",
+  "authority": "Město Nechanice",
+  "authority_ico": "00269191",
+  "cpv": [
+   "45112714"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-27",
+  "deadline": "2026-10-13T12:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00269191",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 12,
   "loc_unknown": false
  },
  {
@@ -17194,6 +17221,92 @@
   "loc_unknown": true
  },
  {
+  "id": "rvz:RVZ2600099375",
+  "source": "profil:pardubice",
+  "title": "Areál Skatepark – obnova překážek",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45212290"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-04",
+  "deadline": "2026-06-16T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017282",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Zdeněk Kotyza",
+    "ico": "73582107",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600099359",
+  "source": "profil:pardubice",
+  "title": "ZŠ Kyjevská – výměna plynových kotlů",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45331110"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-06-04",
+  "deadline": "2026-06-16T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017271",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "VK INVESTING s.r.o.",
+    "ico": "49287851",
+    "cena": 1199496.4,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
+    "ico": "46504621",
+    "cena": 890000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MONTFIX s.r.o.",
+    "ico": "21515174",
+    "cena": 786091.23,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TERMOMONT s.r.o.",
+    "ico": "45538875",
+    "cena": 819955.98,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600099414",
   "source": "profil:pardubice",
   "title": "MŠ Raisova – výměna plynových kotlů",
@@ -17305,92 +17418,6 @@
     "nazev": "DUX staving s.r.o.",
     "ico": "25702408",
     "cena": 4280560.46,
-    "vyloucen": false
-   }
-  ],
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2600099375",
-  "source": "profil:pardubice",
-  "title": "Areál Skatepark – obnova překážek",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45212290"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-06-04",
-  "deadline": "2026-06-16T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017282",
-  "place": "",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "bidders": [
-   {
-    "nazev": "Zdeněk Kotyza",
-    "ico": "73582107",
-    "cena": null,
-    "vyloucen": false
-   }
-  ],
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2600099359",
-  "source": "profil:pardubice",
-  "title": "ZŠ Kyjevská – výměna plynových kotlů",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45331110"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-06-04",
-  "deadline": "2026-06-16T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017271",
-  "place": "",
-  "state": "ukončeno plnění",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "bidders": [
-   {
-    "nazev": "VK INVESTING s.r.o.",
-    "ico": "49287851",
-    "cena": 1199496.4,
-    "vyloucen": false
-   },
-   {
-    "nazev": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
-    "ico": "46504621",
-    "cena": 890000.0,
-    "vyloucen": false
-   },
-   {
-    "nazev": "MONTFIX s.r.o.",
-    "ico": "21515174",
-    "cena": 786091.23,
-    "vyloucen": false
-   },
-   {
-    "nazev": "TERMOMONT s.r.o.",
-    "ico": "45538875",
-    "cena": 819955.98,
     "vyloucen": false
    }
   ],
