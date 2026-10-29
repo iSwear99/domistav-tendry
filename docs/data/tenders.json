@@ -211,7 +211,7 @@
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "dist_km": 24,
   "loc_unknown": false,
-  "url_dead": 9,
+  "url_dead": 10,
   "link_dead": true
  },
  {
@@ -267,7 +267,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-10-28",
+  "nen_detail": "2026-10-29",
   "predmet": "Předmětem plnění veřejné zakázky je projektová příprava, inženýring a samotná stavební realizace volnočasového areálu s názvem „Nový skatepark a pumptrack - ul. Langiewiczova“."
  },
  {
@@ -295,6 +295,33 @@
   "expired": false,
   "dist_km": null,
   "loc_unknown": true
+ },
+ {
+  "id": "profil:trutnov:VZ-1872",
+  "source": "profil:trutnov",
+  "title": "Trutnov Lnářská ulice, rozšíření parkoviště osobních vozidel",
+  "authority": "Město Trutnov",
+  "authority_ico": "00278360",
+  "cpv": [
+   "45111240"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-29",
+  "deadline": "2026-11-16T13:00:00",
+  "url": "https://zakazky.trutnov.cz/profile_display_2.html/contract_display_1872.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "profile_url": "https://zakazky.trutnov.cz/profile_display_2.html"
  },
  {
   "id": "profil:pvu:00271071:P26V00006541",
@@ -826,7 +853,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-10-28",
+  "nen_detail": "2026-10-29",
   "predmet": "Předmětem plnění veřejné zakázky je provedení díla spočívajícího v rekonstrukci podlahy, výrobě nábytku sestávajícího z výškově stavitelných stolů pro operační pracoviště a úložných skříněk. v místnosti č. 205 (operační místnost) budovy Pernerova 443, 530 02 Pardubice (ve vlastnictví společnosti SK – EKO Pardubice s.r.o.), DÍLO bude provedeno v souladu se zadávací dokumentací, technickou specifikací (příloha č. 1), výkazem výměr (příloha č. 2), výše uvedeným vizuálním návrhem (příloha č. 6), příslušnými právními předpisy, technickými požadavky na výstavbu, závaznými technickými normami a příslušnými ČSN, není-li v zadávací dokumentaci stanoveno jinak. Příloha č. 6 – Půdorys a vizualizace stanoví zejména požadované prostorové uspořádání, vzhled a základní koncepci pracoviště. Technické vlastnosti jednotlivých výrobků a prvků jsou závazně stanoveny v příloze č. 1 – Technická specifikace. V případě rozporu mezi vizualizací a technickou specifikací má přednost technická specifikace. Veřejná zakázka je zadávána jako veřejná zakázka malého rozsahu mimo zadávací řízení podle § 31 ZZVZ, při dodržení zásad podle § 6 ZZVZ. Vizuální návrh byl vypracovaný v 08\\u002F26 společností Epixo BW s.r."
  },
  {
@@ -2772,6 +2799,33 @@
   "no_value": true,
   "expired": true,
   "dist_km": 36,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:pvu:00269191:P26V00006639",
+  "source": "profil:pvu:00269191",
+  "title": "Vybudování hřišť s umělým povrchem v místních částech města Nechanice",
+  "authority": "Město Nechanice",
+  "authority_ico": "00269191",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-29",
+  "deadline": "2026-10-08T09:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/00269191",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 12,
   "loc_unknown": false
  },
  {

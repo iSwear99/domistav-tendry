@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-10-28T13:54:15+00:00",
-  "zd": 595,
+  "updated": "2026-10-29T14:03:19+00:00",
+  "zd": 596,
   "zpravy": 1507,
-  "novych": 0,
+  "novych": 1,
   "errors": []
  },
  "zd": {
@@ -1839,6 +1839,9 @@
   },
   "profil:kr-kralovehradecky:VZ-13177": {
    "doc_url": "https://zakazky.cenakhk.cz/document_download_148509.html"
+  },
+  "profil:trutnov:VZ-1872": {
+   "doc_url": "https://zakazky.trutnov.cz/document_download_8977.html"
   }
  },
  "zpravy": {
