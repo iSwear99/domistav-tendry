@@ -1,15 +1,13 @@
 {
- "updated": "2026-10-30T13:57:03+00:00",
+ "updated": "2026-10-31T13:20:17+00:00",
  "counts": {
-  "total": 8266,
-  "vz": 5187,
+  "total": 8268,
+  "vz": 5189,
   "vzmr": 3079,
-  "active": 71,
+  "active": 72,
   "changed": 119,
   "competition": 1507,
-  "previous": 8265
+  "previous": 8266
  },
- "errors": [
-  "proklik nen.nipez.cz: The read operation timed out"
- ]
+ "errors": []
 }

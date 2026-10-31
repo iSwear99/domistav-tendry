@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "2026-10-30T13:57:09+00:00",
-  "zd": 597,
+  "updated": "2026-10-31T13:20:26+00:00",
+  "zd": 599,
   "zpravy": 1507,
   "novych": 0,
   "errors": []
@@ -1844,6 +1844,12 @@
    "doc_url": "https://zakazky.trutnov.cz/document_download_8977.html"
   },
   "profil:pvu:45192944:P26V00006609": {
+   "nenalezeno": true
+  },
+  "profil:pvu:17577713:P26V00006665": {
+   "nenalezeno": true
+  },
+  "profil:pvu:17577713:P26V00006664": {
    "nenalezeno": true
   }
  },
