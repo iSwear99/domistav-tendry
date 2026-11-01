@@ -295,7 +295,7 @@
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "dist_km": 24,
   "loc_unknown": false,
-  "url_dead": 12,
+  "url_dead": 13,
   "link_dead": true
  },
  {
@@ -351,7 +351,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-10-31",
+  "nen_detail": "2026-11-01",
   "predmet": "Předmětem plnění veřejné zakázky je projektová příprava, inženýring a samotná stavební realizace volnočasového areálu s názvem „Nový skatepark a pumptrack - ul. Langiewiczova“."
  },
  {
@@ -20709,6 +20709,40 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2600085103",
+  "source": "profil:pardubice",
+  "title": "Rekonstrukce zastávky MHD – Sukova, směr do města – realizace",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45233100"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-05-07",
+  "deadline": "2026-05-25T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00013638",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "MIROS Pardubice a.s.",
+    "ico": "27523934",
+    "cena": 1524031.46,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600085098",
   "source": "profil:pardubice",
   "title": "ZŠ Gorkého (Waldorfská) rekonstrukce kuchyně – vybavení interiéru",
@@ -20744,40 +20778,6 @@
     "nazev": "KANONA a.s.",
     "ico": "04163664",
     "cena": 1036360.0,
-    "vyloucen": false
-   }
-  ],
-  "kw_match": true,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2600085103",
-  "source": "profil:pardubice",
-  "title": "Rekonstrukce zastávky MHD – Sukova, směr do města – realizace",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45233100"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-05-07",
-  "deadline": "2026-05-25T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00013638",
-  "place": "",
-  "state": "ukončeno plnění",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "bidders": [
-   {
-    "nazev": "MIROS Pardubice a.s.",
-    "ico": "27523934",
-    "cena": 1524031.46,
     "vyloucen": false
    }
   ],
