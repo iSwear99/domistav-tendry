@@ -68,6 +68,33 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:trutnov:VZ-1877",
+  "source": "profil:trutnov",
+  "title": "Zpracování dokumentace pro odstranění stavby - rekreační chata č. ev. 68, k. ú. Oblanov",
+  "authority": "Město Trutnov",
+  "authority_ico": "00278360",
+  "cpv": [
+   "71242000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-11-02",
+  "deadline": "2026-12-01T00:00:00",
+  "url": "https://zakazky.trutnov.cz/profile_display_2.html/contract_display_1877.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "profile_url": "https://zakazky.trutnov.cz/profile_display_2.html"
+ },
+ {
   "id": "rvz:RVZ2600294546",
   "source": "profil:hradec-kralove",
   "title": "Singletrail „LES“ Central park Hradec Králové – DESIGN & BUILD",
@@ -208,6 +235,38 @@
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/serafinit-s-r-o"
  },
  {
+  "id": "rvz:RVZ2600120866",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "BD Hajnice – výstavba a rekonstrukce administrativní a správní budovy",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45215213"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 89000000.0,
+  "published": "2026-09-01",
+  "deadline": "2026-11-23T10:00:00",
+  "url": "https://zakazky.cenakhk.cz/",
+  "place": "Barevné domky Hajnice, příspěvková organizace, Hajnice 46, 544 66 Hajnice.",
+  "authority_seat": "",
+  "authority_profile": "https://zakazky.cenakhk.cz/",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": false,
+  "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "dist_km": 33,
+  "loc_unknown": false
+ },
+ {
   "id": "profil:pvu:17577713:P26V00006664",
   "source": "profil:pvu:17577713",
   "title": "„Energetické úspory v objektu  na parc. č. 1231/20 – SERAFINIT“ Část A – Střecha",
@@ -295,7 +354,7 @@
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "dist_km": 24,
   "loc_unknown": false,
-  "url_dead": 13,
+  "url_dead": 14,
   "link_dead": true
  },
  {
@@ -351,7 +410,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-11-01",
+  "nen_detail": "2026-11-02",
   "predmet": "Předmětem plnění veřejné zakázky je projektová příprava, inženýring a samotná stavební realizace volnočasového areálu s názvem „Nový skatepark a pumptrack - ul. Langiewiczova“."
  },
  {
@@ -406,6 +465,34 @@
   "dist_km": 43,
   "loc_unknown": false,
   "profile_url": "https://zakazky.trutnov.cz/profile_display_2.html"
+ },
+ {
+  "id": "profil:pvu:61882976:P26V00006686",
+  "source": "profil:pvu:61882976",
+  "title": "HYDROGEOLOGICKÝ PRŮZKUM II– VYHLOUBENÍ NOVÉHO PRŮZKUMNÉHO VRTU VHS-2",
+  "authority": "Vodohospodářské sdružení Kolín",
+  "authority_ico": "61882976",
+  "cpv": [
+   "45120000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-11-02",
+  "deadline": "2026-11-16T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/zakazka/hydrogeologicky-pruzkum-ii-vyhloubeni-noveho-pruzkumneho-vrtu-vhs-2",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": null,
+  "loc_unknown": true,
+  "profile_url": "https://www.vhodne-uverejneni.cz/profil/vodohospodarske-sdruzeni-kolin"
  },
  {
   "id": "profil:pvu:00271071:P26V00006541",
@@ -848,38 +935,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600120866",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "BD Hajnice – výstavba a rekonstrukce administrativní a správní budovy",
-  "authority": "Královéhradecký kraj",
-  "authority_ico": "70889546",
-  "cpv": [
-   "45215213"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 89000000.0,
-  "published": "2026-09-01",
-  "deadline": "2026-11-06T10:00:00",
-  "url": "https://zakazky.cenakhk.cz/",
-  "place": "Barevné domky Hajnice, příspěvková organizace, Hajnice 46, 544 66 Hajnice.",
-  "authority_seat": "",
-  "authority_profile": "https://zakazky.cenakhk.cz/",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": false,
-  "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "dist_km": 33,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600286630",
   "source": "isvz",
   "nen_id": "N006/26/V00031297",
@@ -936,7 +991,9 @@
   "no_value": true,
   "expired": false,
   "dist_km": 19,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "nen_detail": "2026-11-02",
+  "predmet": "Předmětem plnění veřejné zakázky je provedení díla spočívajícího v rekonstrukci podlahy, výrobě nábytku sestávajícího z výškově stavitelných stolů pro operační pracoviště a úložných skříněk. v místnosti č. 205 (operační místnost) budovy Pernerova 443, 530 02 Pardubice (ve vlastnictví společnosti SK – EKO Pardubice s.r.o.), DÍLO bude provedeno v souladu se zadávací dokumentací, technickou specifikací (příloha č. 1), výkazem výměr (příloha č. 2), výše uvedeným vizuálním návrhem (příloha č. 6), příslušnými právními předpisy, technickými požadavky na výstavbu, závaznými technickými normami a příslušnými ČSN, není-li v zadávací dokumentaci stanoveno jinak. Příloha č. 6 – Půdorys a vizualizace stanoví zejména požadované prostorové uspořádání, vzhled a základní koncepci pracoviště. Technické vlastnosti jednotlivých výrobků a prvků jsou závazně stanoveny v příloze č. 1 – Technická specifikace. V případě rozporu mezi vizualizací a technickou specifikací má přednost technická specifikace. Veřejná zakázka je zadávána jako veřejná zakázka malého rozsahu mimo zadávací řízení podle § 31 ZZVZ, při dodržení zásad podle § 6 ZZVZ. Vizuální návrh byl vypracovaný v 08\\u002F26 společností Epixo BW s.r."
  },
  {
   "id": "profil:pvu:27801454:P26V00006182",
@@ -9851,6 +9908,12 @@
     "vyloucen": false
    },
    {
+    "nazev": "PS HOME STAR s.r.o.",
+    "ico": "03221466",
+    "cena": 649733.7,
+    "vyloucen": false
+   },
+   {
     "nazev": "MP Bau s.r.o.",
     "ico": "24722065",
     "cena": 681281.51,
@@ -9866,12 +9929,6 @@
     "nazev": "RWX, s.r.o.",
     "ico": "14235111",
     "cena": 650676.0,
-    "vyloucen": false
-   },
-   {
-    "nazev": "PS HOME STAR s.r.o.",
-    "ico": "03221466",
-    "cena": 649733.7,
     "vyloucen": false
    },
    {
@@ -83423,6 +83480,44 @@
   "no_value": true,
   "expired": true,
   "dist_km": 15,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:kr-pardubicky:VZ-4645",
+  "source": "profil:kr-pardubicky",
+  "title": "NPK, a.s., Litomyšlská nemocnice, správní budova, zasklení venkovní terasy, zateplení jídelny a rekonstrukce VZT",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2024-01-12",
+  "deadline": "2024-01-30T10:00:00",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "bidders": [
+   {
+    "nazev": "DS INTEX s.r.o.",
+    "ico": "27498492",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STAVER Luže s.r.o.",
+    "ico": "03564240",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 18,
   "loc_unknown": false
  },
  {
@@ -202659,44 +202754,6 @@
   "no_activity": true
  },
  {
-  "id": "rvz:RVZ2600119036",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Rekonstrukce stávajícího výtahu - Domov důchodců Pilníkov",
-  "authority": "Královéhradecký kraj",
-  "authority_ico": "70889546",
-  "cpv": [
-   "42416100",
-   "42419510",
-   "42400000",
-   "43612700",
-   "45313100",
-   "42419500"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 2353000.0,
-  "published": "",
-  "deadline": "",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "place": "Domov důchodců Pilníkov, Trutnovská 176, 542 42 Pilníkov",
-  "authority_seat": "",
-  "authority_profile": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 37,
-  "loc_unknown": false,
-  "auto_expired": "2026-10-19",
-  "no_activity": true
- },
- {
   "id": "rvz:RVZ2500060367",
   "source": "isvz",
   "nen_id": "",
@@ -202728,6 +202785,39 @@
   "dist_km": 19,
   "loc_unknown": false,
   "auto_expired": "2026-10-19",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500059929",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "NPK, a.s., Litomyšlská nemocnice, správní budova, zasklení venkovní terasy, zateplení jídelny a rekonstrukce VZT",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "45215100"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": null,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true,
+  "auto_expired": "2026-07-31",
   "no_activity": true
  },
  {
@@ -203658,6 +203748,44 @@
   "expired": true,
   "dist_km": 31,
   "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600119036",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Rekonstrukce stávajícího výtahu - Domov důchodců Pilníkov",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "42416100",
+   "42419510",
+   "42400000",
+   "43612700",
+   "45313100",
+   "42419500"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 2353000.0,
+  "published": "",
+  "deadline": "",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "Domov důchodců Pilníkov, Trutnovská 176, 542 42 Pilníkov",
+  "authority_seat": "",
+  "authority_profile": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 37,
+  "loc_unknown": false,
+  "auto_expired": "2026-10-19",
+  "no_activity": true
  },
  {
   "id": "rvz:RVZ2600108673",
@@ -231328,39 +231456,6 @@
   "expired": true,
   "dist_km": 42,
   "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2500059929",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "NPK, a.s., Litomyšlská nemocnice, správní budova, zasklení venkovní terasy, zateplení jídelny a rekonstrukce VZT",
-  "authority": "Pardubický kraj",
-  "authority_ico": "70892822",
-  "cpv": [
-   "45215100"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": null,
-  "published": "",
-  "deadline": "",
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": null,
-  "loc_unknown": true,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
  },
  {
   "id": "rvz:RVZ2500064141",

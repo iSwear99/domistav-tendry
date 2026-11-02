@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-11-01T14:03:02+00:00",
-  "zd": 599,
+  "updated": "2026-11-02T17:00:56+00:00",
+  "zd": 601,
   "zpravy": 1507,
-  "novych": 0,
+  "novych": 1,
   "errors": []
  },
  "zd": {
@@ -1850,6 +1850,12 @@
    "nenalezeno": true
   },
   "profil:pvu:17577713:P26V00006664": {
+   "nenalezeno": true
+  },
+  "profil:trutnov:VZ-1877": {
+   "doc_url": "https://zakazky.trutnov.cz/document_download_8995.html"
+  },
+  "profil:pvu:61882976:P26V00006686": {
    "nenalezeno": true
   }
  },
