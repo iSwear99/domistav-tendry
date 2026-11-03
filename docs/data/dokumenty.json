@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-11-02T17:00:56+00:00",
-  "zd": 601,
-  "zpravy": 1507,
-  "novych": 1,
+  "updated": "2026-11-03T14:53:06+00:00",
+  "zd": 603,
+  "zpravy": 1508,
+  "novych": 0,
   "errors": []
  },
  "zd": {
@@ -1856,6 +1856,12 @@
    "doc_url": "https://zakazky.trutnov.cz/document_download_8995.html"
   },
   "profil:pvu:61882976:P26V00006686": {
+   "nenalezeno": true
+  },
+  "profil:pvu:00545503:P26V00006705": {
+   "nenalezeno": true
+  },
+  "profil:pvu:00240028:P26V00006681": {
    "nenalezeno": true
   }
  },
@@ -6416,6 +6422,9 @@
    "doc_url": "https://zakazky.trutnov.cz/document_download_8938.html"
   },
   "rvz:RVZ2600113108": {
+   "nenalezeno": true
+  },
+  "profil:kr-pardubicky:VZ-6572": {
    "nenalezeno": true
   }
  }

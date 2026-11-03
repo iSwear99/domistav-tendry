@@ -1,15 +1,13 @@
 {
- "updated": "2026-11-02T17:00:48+00:00",
+ "updated": "2026-11-03T14:52:53+00:00",
  "counts": {
-  "total": 8271,
-  "vz": 5190,
-  "vzmr": 3081,
-  "active": 74,
-  "changed": 119,
-  "competition": 1507,
-  "previous": 8268
+  "total": 8274,
+  "vz": 5191,
+  "vzmr": 3083,
+  "active": 72,
+  "changed": 120,
+  "competition": 1508,
+  "previous": 8271
  },
- "errors": [
-  "profil:pvu:26871068: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/vsetinska-nemocnice-a-s/XMLdataVZ?od=04082026&do=02112026: <urlopen error timed out>"
- ]
+ "errors": []
 }

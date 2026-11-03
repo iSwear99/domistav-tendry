@@ -68,6 +68,34 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:00545503:P26V00006705",
+  "source": "profil:pvu:00545503",
+  "title": "Modernizace kamerového systému",
+  "authority": "DF Partner s. r. o.",
+  "authority_ico": "00545503",
+  "cpv": [
+   "35125300"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-11-02",
+  "deadline": "2026-12-04T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/zakazka/modernizace-kameroveho-systemu-2",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": true,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": null,
+  "loc_unknown": true,
+  "profile_url": "https://www.vhodne-uverejneni.cz/profil/df-partner-s-r-o"
+ },
+ {
   "id": "profil:trutnov:VZ-1877",
   "source": "profil:trutnov",
   "title": "Zpracování dokumentace pro odstranění stavby - rekreační chata č. ev. 68, k. ú. Oblanov",
@@ -205,6 +233,34 @@
   "expired": false,
   "dist_km": null,
   "loc_unknown": true
+ },
+ {
+  "id": "profil:pvu:00240028:P26V00006681",
+  "source": "profil:pvu:00240028",
+  "title": "Výstavba  fotovoltaických elektráren na budově obecního úřadu, mateřské školy a sportovního areálu v obci Babice",
+  "authority": "Obec Babice",
+  "authority_ico": "00240028",
+  "cpv": [
+   "09331200"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-11-03",
+  "deadline": "2026-11-24T09:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/zakazka/vystavba-fotovoltaickych-elektraren-na-budove-obecniho-uradu-materske-skoly-a-sportovniho-arealu-v-obci-babice",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": true,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 14,
+  "loc_unknown": false,
+  "profile_url": "https://www.vhodne-uverejneni.cz/profil/obec-babice"
  },
  {
   "id": "profil:pvu:17577713:P26V00006665",
@@ -354,7 +410,7 @@
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "dist_km": 24,
   "loc_unknown": false,
-  "url_dead": 14,
+  "url_dead": 15,
   "link_dead": true
  },
  {
@@ -410,7 +466,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-11-02",
+  "nen_detail": "2026-11-03",
   "predmet": "Předmětem plnění veřejné zakázky je projektová příprava, inženýring a samotná stavební realizace volnočasového areálu s názvem „Nový skatepark a pumptrack - ul. Langiewiczova“."
  },
  {
@@ -521,6 +577,34 @@
   "dist_km": 39,
   "loc_unknown": false,
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/00271071"
+ },
+ {
+  "id": "profil:sken-70889546:P26V00000784",
+  "source": "profil:sken-70889546",
+  "title": "24/310 Stavební úpravy kuchyně - Gymnázium, Dobruška – stavební práce",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": 11331000.0,
+  "published": "2026-10-20",
+  "deadline": "2026-11-16T10:00:00",
+  "url": "https://zakazky.cenakhk.cz/contract_display_13194.html",
+  "place": "Královéhradecký kraj",
+  "authority_seat": "Pivovarské náměstí 1245/2 50003 Hradec Králové",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": false,
+  "expired": false,
+  "dist_km": 30,
+  "loc_unknown": false,
+  "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html"
  },
  {
   "id": "profil:pvu:42937736:P26V00006480",
@@ -823,34 +907,6 @@
   "profile_url": "https://zakazky.mestoprelouc.cz"
  },
  {
-  "id": "profil:sken-70889546:P26V00000784",
-  "source": "profil:sken-70889546",
-  "title": "24/310 Stavební úpravy kuchyně - Gymnázium, Dobruška – stavební práce",
-  "authority": "Královéhradecký kraj",
-  "authority_ico": "70889546",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [],
-  "value": 11331000.0,
-  "published": "2026-10-20",
-  "deadline": "2026-11-09T10:00:00",
-  "url": "https://zakazky.cenakhk.cz/contract_display_13194.html",
-  "place": "Královéhradecký kraj",
-  "authority_seat": "Pivovarské náměstí 1245/2 50003 Hradec Králové",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "kw_match": false,
-  "no_nuts": true,
-  "no_value": false,
-  "expired": false,
-  "dist_km": 30,
-  "loc_unknown": false,
-  "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html"
- },
- {
   "id": "profil:kr-kralovehradecky:VZ-13159",
   "source": "profil:kr-kralovehradecky",
   "title": "Oblastní nemocnice Jičín – rekonstrukce stravovacího provozu v Novém Bydžově – stavební práce – ZD/20/415",
@@ -992,7 +1048,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-11-02",
+  "nen_detail": "2026-11-03",
   "predmet": "Předmětem plnění veřejné zakázky je provedení díla spočívajícího v rekonstrukci podlahy, výrobě nábytku sestávajícího z výškově stavitelných stolů pro operační pracoviště a úložných skříněk. v místnosti č. 205 (operační místnost) budovy Pernerova 443, 530 02 Pardubice (ve vlastnictví společnosti SK – EKO Pardubice s.r.o.), DÍLO bude provedeno v souladu se zadávací dokumentací, technickou specifikací (příloha č. 1), výkazem výměr (příloha č. 2), výše uvedeným vizuálním návrhem (příloha č. 6), příslušnými právními předpisy, technickými požadavky na výstavbu, závaznými technickými normami a příslušnými ČSN, není-li v zadávací dokumentaci stanoveno jinak. Příloha č. 6 – Půdorys a vizualizace stanoví zejména požadované prostorové uspořádání, vzhled a základní koncepci pracoviště. Technické vlastnosti jednotlivých výrobků a prvků jsou závazně stanoveny v příloze č. 1 – Technická specifikace. V případě rozporu mezi vizualizací a technickou specifikací má přednost technická specifikace. Veřejná zakázka je zadávána jako veřejná zakázka malého rozsahu mimo zadávací řízení podle § 31 ZZVZ, při dodržení zásad podle § 6 ZZVZ. Vizuální návrh byl vypracovaný v 08\\u002F26 společností Epixo BW s.r."
  },
  {
@@ -1192,7 +1248,7 @@
   "kw_match": true,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true
  },
@@ -1223,7 +1279,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 43,
   "loc_unknown": false,
   "nen_detail": "2026-10-19",
@@ -1252,7 +1308,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true,
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/promabyt-a-s"
@@ -1279,7 +1335,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 7,
   "loc_unknown": false,
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/obec-vsestary"
@@ -9908,12 +9964,6 @@
     "vyloucen": false
    },
    {
-    "nazev": "PS HOME STAR s.r.o.",
-    "ico": "03221466",
-    "cena": 649733.7,
-    "vyloucen": false
-   },
-   {
     "nazev": "MP Bau s.r.o.",
     "ico": "24722065",
     "cena": 681281.51,
@@ -9929,6 +9979,12 @@
     "nazev": "RWX, s.r.o.",
     "ico": "14235111",
     "cena": 650676.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PS HOME STAR s.r.o.",
+    "ico": "03221466",
+    "cena": 649733.7,
     "vyloucen": false
    },
    {
@@ -20766,40 +20822,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600085103",
-  "source": "profil:pardubice",
-  "title": "Rekonstrukce zastávky MHD – Sukova, směr do města – realizace",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45233100"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-05-07",
-  "deadline": "2026-05-25T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00013638",
-  "place": "",
-  "state": "ukončeno plnění",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "bidders": [
-   {
-    "nazev": "MIROS Pardubice a.s.",
-    "ico": "27523934",
-    "cena": 1524031.46,
-    "vyloucen": false
-   }
-  ],
-  "kw_match": true,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600085098",
   "source": "profil:pardubice",
   "title": "ZŠ Gorkého (Waldorfská) rekonstrukce kuchyně – vybavení interiéru",
@@ -20835,6 +20857,40 @@
     "nazev": "KANONA a.s.",
     "ico": "04163664",
     "cena": 1036360.0,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600085103",
+  "source": "profil:pardubice",
+  "title": "Rekonstrukce zastávky MHD – Sukova, směr do města – realizace",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45233100"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-05-07",
+  "deadline": "2026-05-25T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00013638",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "MIROS Pardubice a.s.",
+    "ico": "27523934",
+    "cena": 1524031.46,
     "vyloucen": false
    }
   ],
@@ -173020,6 +173076,40 @@
   "no_value": true,
   "expired": true,
   "dist_km": 46,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:kr-pardubicky:VZ-6572",
+  "source": "profil:kr-pardubicky",
+  "title": "Poskytování služeb dozoru projektanta při realizaci stavby „Rehabilitační ústav Brandýs nad Orlicí, výstavba nové budovy, KRANIOPROGRAM“",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "71248000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-11-03",
+  "deadline": "",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Energy Benefit Centre a.s.",
+    "ico": "29029210",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 43,
   "loc_unknown": false
  },
  {

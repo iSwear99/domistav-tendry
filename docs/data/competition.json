@@ -165,12 +165,6 @@
     "vyloucen": false
    },
    {
-    "nazev": "PS HOME STAR s.r.o.",
-    "ico": "03221466",
-    "cena": 649733.7,
-    "vyloucen": false
-   },
-   {
     "nazev": "MP Bau s.r.o.",
     "ico": "24722065",
     "cena": 681281.51,
@@ -186,6 +180,12 @@
     "nazev": "RWX, s.r.o.",
     "ico": "14235111",
     "cena": 650676.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PS HOME STAR s.r.o.",
+    "ico": "03221466",
+    "cena": 649733.7,
     "vyloucen": false
    },
    {
@@ -256,6 +256,37 @@
     "vyloucen": false
    }
   ]
+ },
+ {
+  "id": "profil:kr-pardubicky:VZ-6572",
+  "source": "profil:kr-pardubicky",
+  "title": "Poskytování služeb dozoru projektanta při realizaci stavby „Rehabilitační ústav Brandýs nad Orlicí, výstavba nové budovy, KRANIOPROGRAM“",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "winner": "Energy Benefit Centre a.s.",
+  "winner_ico": "29029210",
+  "awarded": "2026-10-13",
+  "price_contracted": 1424800.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "cpv": [
+   "71248000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "Energy Benefit Centre a.s.",
+    "ico": "29029210",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39913621"
  },
  {
   "id": "rvz:RVZ2600120379",
