@@ -1,5 +1,87 @@
 [
  {
+  "id": "profil:trutnov:VZ-1864",
+  "source": "profil:trutnov",
+  "title": "Zhotovení modelů, licích forem a sady fasádních odlitků pro historickou budovu ZUŠ Trutnov, Školní 13 - opakovaná zakázka",
+  "authority": "Město Trutnov",
+  "authority_ico": "00278360",
+  "winner": "Radek Nivnický",
+  "winner_ico": "03100171",
+  "awarded": "2026-11-04",
+  "price_contracted": 1396000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "cpv": [
+   "92312230"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://zakazky.trutnov.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "Josef Staněk",
+    "ico": "01475711",
+    "cena": 1910000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Kamenická huť sv. Rocha",
+    "ico": "47119896",
+    "cena": 1820000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Radek Nivnický",
+    "ico": "03100171",
+    "cena": 1396000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ŠTUKO ARS s.r.o.",
+    "ico": "25215884",
+    "cena": 1643000.0,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
+  "id": "rvz:RVZ2600120888",
+  "source": "profil:hradec-kralove",
+  "title": "Lesní hospodářské osnovy \"Hořice",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "winner": "ING-FOREST s.r.o.",
+  "winner_ico": "24170852",
+  "awarded": "2026-11-02",
+  "price_contracted": 199360.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "bidders": [
+   {
+    "nazev": "NATURIA s.r.o.",
+    "ico": "25946650",
+    "cena": 1200.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ING-FOREST s.r.o.",
+    "ico": "24170852",
+    "cena": 199360.0,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2600285266",
   "source": "profil:hradec-kralove",
   "title": "Dodávka UPS",
@@ -15128,7 +15210,7 @@
  },
  {
   "id": "rvz:RVZ2600074641",
-  "source": "isvz",
+  "source": "profil:jicin",
   "title": "Jičín 1. ZŠ 17. listopadu – Stavební úpravy a výměna oken západního průčelí – 2. etapa",
   "authority": "Město Jičín",
   "authority_ico": "00271632",
@@ -15146,7 +15228,45 @@
   ],
   "kind": "VZ",
   "kw_match": true,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00008555"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00008555",
+  "bidders": [
+   {
+    "nazev": "STAFI FINALIZACE STAVEB s.r.o.",
+    "ico": "25968203",
+    "cena": 4617910.44,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KEST s.r.o.",
+    "ico": "25915185",
+    "cena": 3518899.89,
+    "vyloucen": false
+   },
+   {
+    "nazev": "RT stavební s.r.o.",
+    "ico": "27597211",
+    "cena": 3544999.92,
+    "vyloucen": false
+   },
+   {
+    "nazev": "OKNA-DVEŘE JAVORNÍK, s.r.o.",
+    "ico": "14048914",
+    "cena": 4637777.76,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PYRHURA s.r.o.",
+    "ico": "05936381",
+    "cena": 3266044.98,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Truhlářství Urban, s.r.o.",
+    "ico": "27501701",
+    "cena": 4002844.89,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600064343",
@@ -17693,7 +17813,7 @@
  },
  {
   "id": "rvz:RVZ2600085216",
-  "source": "isvz",
+  "source": "profil:pardubice",
   "title": "OBJ/00795/26",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
@@ -17711,7 +17831,16 @@
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00013262"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00013262",
+  "bidders": [
+   {
+    "nazev": "Služby města Pardubic a.s.",
+    "ico": "25262572",
+    "cena": 951459.69,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/37840021"
  },
  {
   "id": "rvz:RVZ2600037295",
@@ -22398,6 +22527,49 @@
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00042422"
  },
  {
+  "id": "profil:kr-kralovehradecky:VZ-12379",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Digitální technologie, polytechnika a jazykové vzdělání pro 21. století v Jiráskově gymnáziu Náchod – stavební práce",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "winner": "PS - STAV Náchod s.r.o.",
+  "winner_ico": "28858531",
+  "awarded": "2026-03-20",
+  "price_contracted": 16953991.02,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 37,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "Průmstav Náchod s.r.o.",
+    "ico": "25275062",
+    "cena": 17290114.21,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PS - STAV Náchod s.r.o.",
+    "ico": "28858531",
+    "cena": 16953991.02,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stavrecon Pardubice s.r.o.",
+    "ico": "05925801",
+    "cena": 18356503.78,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/37266741"
+ },
+ {
   "id": "rvz:RVZ2600077429",
   "source": "isvz",
   "title": "25-061 SED - přestavba budov B, C a R1, realizace",
@@ -22914,7 +23086,7 @@
  },
  {
   "id": "rvz:RVZ2600003134",
-  "source": "isvz",
+  "source": "profil:jicin",
   "title": "Využití části stávajících prostor ve 2. NP Polyfunkčního domu 17. listopadu 1074, Jičín pro učebny Montessori – 3. etapa",
   "authority": "Město Jičín",
   "authority_ico": "00271632",
@@ -22932,7 +23104,45 @@
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00001148"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00001148",
+  "bidders": [
+   {
+    "nazev": "ELEKTRO MOSEV spol. s r.o.",
+    "ico": "42228573",
+    "cena": 3824217.64,
+    "vyloucen": false
+   },
+   {
+    "nazev": "JIPA s.r.o.",
+    "ico": "21313270",
+    "cena": 3095148.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Solution Construction s.r.o.",
+    "ico": "17708095",
+    "cena": 2946674.1,
+    "vyloucen": true
+   },
+   {
+    "nazev": "MESSA Invest s.r.o.",
+    "ico": "25319540",
+    "cena": 2593243.23,
+    "vyloucen": true
+   },
+   {
+    "nazev": "Stavrecon Pardubice s.r.o.",
+    "ico": "05925801",
+    "cena": 3222222.31,
+    "vyloucen": false
+   },
+   {
+    "nazev": "BFK service a.s.",
+    "ico": "27155153",
+    "cena": 3669429.45,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600079526",

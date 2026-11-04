@@ -1,13 +1,24 @@
 {
- "updated": "2026-11-03T14:52:53+00:00",
+ "updated": "2026-11-04T15:16:14+00:00",
  "counts": {
-  "total": 8274,
-  "vz": 5191,
+  "total": 8276,
+  "vz": 5193,
   "vzmr": 3083,
-  "active": 72,
+  "active": 70,
   "changed": 120,
-  "competition": 1508,
-  "previous": 8271
+  "competition": 1511,
+  "previous": 8274
  },
- "errors": []
+ "errors": [
+  "pvu: /externi-zakazka/fjfi-kf-2026-28-minipc: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/fjfi-kf-2026-28-minipc: HTTP Error 401: Unauthorized",
+  "proklik e-zakazky.cz: <urlopen error timed out>",
+  "proklik e-zakazky.cz: <urlopen error timed out>",
+  "proklik e-zakazky.cz: HTTP Error 404: Not Found",
+  "proklik sluzby.e-zakazky.cz: HTTP Error 404: Not Found",
+  "proklik e-zakazky.cz: HTTP Error 404: Not Found",
+  "proklik e-zakazky.cz: HTTP Error 404: Not Found",
+  "proklik e-zakazky.cz: HTTP Error 404: Not Found",
+  "proklik e-zakazky.cz: HTTP Error 404: Not Found",
+  "proklik e-zakazky.cz: HTTP Error 404: Not Found"
+ ]
 }

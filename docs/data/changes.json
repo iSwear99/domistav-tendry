@@ -1337,6 +1337,13 @@
    "label": "vysvětlení ZD",
    "old": "0",
    "new": "1"
+  },
+  {
+   "date": "2026-11-04",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "1",
+   "new": "0"
   }
  ],
  "rvz:RVZ2600085140": [
@@ -3828,15 +3835,6 @@
    "new": "2026-11-10 10:00"
   }
  ],
- "profil:pvu:00257125:P26V00005560": [
-  {
-   "date": "2026-10-07",
-   "field": "deadline",
-   "label": "lhůta",
-   "old": "2026-09-29 09:00",
-   "new": "2026-10-09 09:00"
-  }
- ],
  "profil:kr-pardubicky:VZ-6426": [
   {
    "date": "2026-10-07",
@@ -4161,6 +4159,13 @@
    "label": "lhůta",
    "old": "2026-10-23 10:00",
    "new": "2026-11-06 10:00"
+  },
+  {
+   "date": "2026-11-04",
+   "field": "deadline",
+   "label": "lhůta",
+   "old": "2026-11-06 10:00",
+   "new": "2026-11-11 10:00"
   }
  ],
  "rvz:RVZ2600158869": [
@@ -4339,6 +4344,15 @@
    "label": "lhůta",
    "old": "2026-11-09 10:00",
    "new": "2026-11-16 10:00"
+  }
+ ],
+ "rvz:RVZ2600003134": [
+  {
+   "date": "2026-11-04",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "4",
+   "new": "0"
   }
  ]
 }
