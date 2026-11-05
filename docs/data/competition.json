@@ -48,6 +48,59 @@
   ]
  },
  {
+  "id": "rvz:RVZ2600284560",
+  "source": "profil:pardubice",
+  "title": "Aquacentrum – oprava skokanského prkna",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "BAZENSERVIS, s.r.o.",
+  "winner_ico": "64791661",
+  "awarded": "2026-11-04",
+  "price_contracted": 299254.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "43324100"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00030293",
+  "bidders": [
+   {
+    "nazev": "BAZENSERVIS, s.r.o.",
+    "ico": "64791661",
+    "cena": 299254.0,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/40230781"
+ },
+ {
+  "id": "rvz:RVZ2600297190",
+  "source": "profil:pardubice",
+  "title": "OBJ/01856/26",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "Služby města Pardubic a.s.",
+  "winner_ico": "25262572",
+  "awarded": "2026-11-04",
+  "price_contracted": 143524.95,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00036221"
+ },
+ {
   "id": "rvz:RVZ2600120888",
   "source": "profil:hradec-kralove",
   "title": "Lesní hospodářské osnovy \"Hořice",
@@ -80,6 +133,67 @@
     "vyloucen": false
    }
   ]
+ },
+ {
+  "id": "rvz:RVZ2600165614",
+  "source": "profil:pardubice",
+  "title": "Dostihové závodiště – výměna koberců",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "KMD PLUS s.r.o.",
+  "winner_ico": "25121553",
+  "awarded": "2026-11-02",
+  "price_contracted": 379500.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45432130"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00029074",
+  "bidders": [
+   {
+    "nazev": "Daniel Dobš",
+    "ico": "07248377",
+    "cena": 499570.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "H-FLOOR s.r.o.",
+    "ico": "26948494",
+    "cena": 439800.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KOBERCE BRENO, spol. s r.o.",
+    "ico": "25609866",
+    "cena": 510789.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PODLAHY PLOTZ s.r.o.",
+    "ico": "06899722",
+    "cena": 387474.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KMD PLUS s.r.o.",
+    "ico": "25121553",
+    "cena": 379500.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "EVOSTA s.r.o.",
+    "ico": "03054225",
+    "cena": 694320.0,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/40180253"
  },
  {
   "id": "rvz:RVZ2600285266",
@@ -278,6 +392,79 @@
    }
   ],
   "registr_url": "https://smlouvy.gov.cz/smlouva/40046985"
+ },
+ {
+  "id": "rvz:RVZ2600284574",
+  "source": "profil:pardubice",
+  "title": "ZŠ Josefa Ressla – oprava sociálního zařízení chlapci – III.NP",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "D-R 91 spol. s r.o.",
+  "winner_ico": "05939011",
+  "awarded": "2026-10-21",
+  "price_contracted": 355218.61,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45330000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00030300",
+  "bidders": [
+   {
+    "nazev": "MONTFIX s.r.o.",
+    "ico": "21515174",
+    "cena": 367475.87,
+    "vyloucen": false
+   },
+   {
+    "nazev": "AKVITSTAV s.r.o.",
+    "ico": "07904967",
+    "cena": 476598.72,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PS HOME STAR s.r.o.",
+    "ico": "03221466",
+    "cena": 436693.27,
+    "vyloucen": false
+   },
+   {
+    "nazev": "EVOSTA s.r.o.",
+    "ico": "03054225",
+    "cena": 554036.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "BUILDGENER s.r.o.",
+    "ico": "22184562",
+    "cena": 517619.06,
+    "vyloucen": false
+   },
+   {
+    "nazev": "IVEXI s.r.o.",
+    "ico": "25298968",
+    "cena": 363009.37,
+    "vyloucen": false
+   },
+   {
+    "nazev": "OTISTAV s.r.o.",
+    "ico": "24832898",
+    "cena": 588888.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "D-R 91 spol. s r.o.",
+    "ico": "05939011",
+    "cena": 355218.61,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/40032965"
  },
  {
   "id": "rvz:RVZ2600098095",

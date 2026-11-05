@@ -464,7 +464,7 @@
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "dist_km": 24,
   "loc_unknown": false,
-  "url_dead": 16,
+  "url_dead": 17,
   "link_dead": true
  },
  {
@@ -520,7 +520,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-11-04",
+  "nen_detail": "2026-11-05",
   "predmet": "Předmětem plnění veřejné zakázky je projektová příprava, inženýring a samotná stavební realizace volnočasového areálu s názvem „Nový skatepark a pumptrack - ul. Langiewiczova“."
  },
  {
@@ -1099,11 +1099,9 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
-  "loc_unknown": false,
-  "nen_detail": "2026-11-04",
-  "predmet": "Předmětem plnění veřejné zakázky je provedení díla spočívajícího v rekonstrukci podlahy, výrobě nábytku sestávajícího z výškově stavitelných stolů pro operační pracoviště a úložných skříněk. v místnosti č. 205 (operační místnost) budovy Pernerova 443, 530 02 Pardubice (ve vlastnictví společnosti SK – EKO Pardubice s.r.o.), DÍLO bude provedeno v souladu se zadávací dokumentací, technickou specifikací (příloha č. 1), výkazem výměr (příloha č. 2), výše uvedeným vizuálním návrhem (příloha č. 6), příslušnými právními předpisy, technickými požadavky na výstavbu, závaznými technickými normami a příslušnými ČSN, není-li v zadávací dokumentaci stanoveno jinak. Příloha č. 6 – Půdorys a vizualizace stanoví zejména požadované prostorové uspořádání, vzhled a základní koncepci pracoviště. Technické vlastnosti jednotlivých výrobků a prvků jsou závazně stanoveny v příloze č. 1 – Technická specifikace. V případě rozporu mezi vizualizací a technickou specifikací má přednost technická specifikace. Veřejná zakázka je zadávána jako veřejná zakázka malého rozsahu mimo zadávací řízení podle § 31 ZZVZ, při dodržení zásad podle § 6 ZZVZ. Vizuální návrh byl vypracovaný v 08\\u002F26 společností Epixo BW s.r."
+  "loc_unknown": false
  },
  {
   "id": "profil:pvu:27801454:P26V00006182",
@@ -1128,7 +1126,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true,
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/27801454"
@@ -1153,7 +1151,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 4,
   "loc_unknown": false
  },
@@ -4535,10 +4533,18 @@
   "deadline": "2026-09-29T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00030293",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "BAZENSERVIS, s.r.o.",
+    "ico": "64791661",
+    "cena": 299254.0,
+    "vyloucen": false
+   }
+  ],
   "kw_match": true,
   "no_nuts": false,
   "no_value": true,
@@ -4561,10 +4567,60 @@
   "deadline": "2026-09-29T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00030300",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "MONTFIX s.r.o.",
+    "ico": "21515174",
+    "cena": 367475.87,
+    "vyloucen": false
+   },
+   {
+    "nazev": "AKVITSTAV s.r.o.",
+    "ico": "07904967",
+    "cena": 476598.72,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PS HOME STAR s.r.o.",
+    "ico": "03221466",
+    "cena": 436693.27,
+    "vyloucen": false
+   },
+   {
+    "nazev": "EVOSTA s.r.o.",
+    "ico": "03054225",
+    "cena": 554036.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "BUILDGENER s.r.o.",
+    "ico": "22184562",
+    "cena": 517619.06,
+    "vyloucen": false
+   },
+   {
+    "nazev": "IVEXI s.r.o.",
+    "ico": "25298968",
+    "cena": 363009.37,
+    "vyloucen": false
+   },
+   {
+    "nazev": "OTISTAV s.r.o.",
+    "ico": "24832898",
+    "cena": 588888.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "D-R 91 spol. s r.o.",
+    "ico": "05939011",
+    "cena": 355218.61,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -5592,10 +5648,48 @@
   "deadline": "2026-09-21T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00029074",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "Daniel Dobš",
+    "ico": "07248377",
+    "cena": 499570.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "H-FLOOR s.r.o.",
+    "ico": "26948494",
+    "cena": 439800.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KOBERCE BRENO, spol. s r.o.",
+    "ico": "25609866",
+    "cena": 510789.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PODLAHY PLOTZ s.r.o.",
+    "ico": "06899722",
+    "cena": 387474.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KMD PLUS s.r.o.",
+    "ico": "25121553",
+    "cena": 379500.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "EVOSTA s.r.o.",
+    "ico": "03054225",
+    "cena": 694320.0,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -20888,40 +20982,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600085103",
-  "source": "profil:pardubice",
-  "title": "Rekonstrukce zastávky MHD – Sukova, směr do města – realizace",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45233100"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-05-07",
-  "deadline": "2026-05-25T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00013638",
-  "place": "",
-  "state": "ukončeno plnění",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "bidders": [
-   {
-    "nazev": "MIROS Pardubice a.s.",
-    "ico": "27523934",
-    "cena": 1524031.46,
-    "vyloucen": false
-   }
-  ],
-  "kw_match": true,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600085098",
   "source": "profil:pardubice",
   "title": "ZŠ Gorkého (Waldorfská) rekonstrukce kuchyně – vybavení interiéru",
@@ -20957,6 +21017,40 @@
     "nazev": "KANONA a.s.",
     "ico": "04163664",
     "cena": 1036360.0,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600085103",
+  "source": "profil:pardubice",
+  "title": "Rekonstrukce zastávky MHD – Sukova, směr do města – realizace",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45233100"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-05-07",
+  "deadline": "2026-05-25T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00013638",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "MIROS Pardubice a.s.",
+    "ico": "27523934",
+    "cena": 1524031.46,
     "vyloucen": false
    }
   ],
@@ -173254,6 +173348,32 @@
   "no_value": true,
   "expired": true,
   "dist_km": 46,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600297190",
+  "source": "profil:pardubice",
+  "title": "OBJ/01856/26",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-11-05",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00036221",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
   "loc_unknown": false
  },
  {

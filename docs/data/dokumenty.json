@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-11-04T15:16:39+00:00",
+  "updated": "2026-11-05T17:07:20+00:00",
   "zd": 604,
-  "zpravy": 1511,
-  "novych": 1,
+  "zpravy": 1515,
+  "novych": 0,
   "errors": []
  },
  "zd": {
@@ -6438,6 +6438,18 @@
   },
   "profil:kr-kralovehradecky:VZ-12379": {
    "doc_url": "https://zakazky.cenakhk.cz/document_download_140705.html"
+  },
+  "rvz:RVZ2600284560": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600297190": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600165614": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600284574": {
+   "nenalezeno": true
   }
  }
 }

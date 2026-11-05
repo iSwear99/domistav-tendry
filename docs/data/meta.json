@@ -1,24 +1,23 @@
 {
- "updated": "2026-11-04T15:16:14+00:00",
+ "updated": "2026-11-05T17:06:01+00:00",
  "counts": {
-  "total": 8276,
+  "total": 8277,
   "vz": 5193,
-  "vzmr": 3083,
-  "active": 70,
+  "vzmr": 3084,
+  "active": 67,
   "changed": 120,
-  "competition": 1511,
-  "previous": 8274
+  "competition": 1515,
+  "previous": 8276
  },
  "errors": [
-  "pvu: /externi-zakazka/fjfi-kf-2026-28-minipc: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/fjfi-kf-2026-28-minipc: HTTP Error 401: Unauthorized",
-  "proklik e-zakazky.cz: <urlopen error timed out>",
-  "proklik e-zakazky.cz: <urlopen error timed out>",
-  "proklik e-zakazky.cz: HTTP Error 404: Not Found",
-  "proklik sluzby.e-zakazky.cz: HTTP Error 404: Not Found",
-  "proklik e-zakazky.cz: HTTP Error 404: Not Found",
-  "proklik e-zakazky.cz: HTTP Error 404: Not Found",
-  "proklik e-zakazky.cz: HTTP Error 404: Not Found",
-  "proklik e-zakazky.cz: HTTP Error 404: Not Found",
-  "proklik e-zakazky.cz: HTTP Error 404: Not Found"
+  "profil:dobruska: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274879/XMLdataVZ?od=07082026&do=05112026: <urlopen error timed out>",
+  "profil:prelouc: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274101/XMLdataVZ?od=07082026&do=05112026: <urlopen error timed out>",
+  "profil:hronov: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00272680/XMLdataVZ?od=07082026&do=05112026: <urlopen error timed out>",
+  "profil:vamberk: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00275492/XMLdataVZ?od=07082026&do=05112026: <urlopen error timed out>",
+  "profil:lodin: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/obec-lodin/XMLdataVZ?od=07082026&do=05112026: <urlopen error timed out>",
+  "pvu: RSS nedostupné: Stažení selhalo: https://www.vhodne-uverejneni.cz/rss/zakazky: <urlopen error timed out>",
+  "proklik vhodne-uverejneni.cz: <urlopen error timed out>",
+  "proklik vhodne-uverejneni.cz: <urlopen error timed out>",
+  "proklik vhodne-uverejneni.cz: <urlopen error timed out>"
  ]
 }
