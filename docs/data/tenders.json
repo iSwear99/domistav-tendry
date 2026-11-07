@@ -464,7 +464,7 @@
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "dist_km": 24,
   "loc_unknown": false,
-  "url_dead": 18,
+  "url_dead": 19,
   "link_dead": true
  },
  {
@@ -520,7 +520,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-11-06",
+  "nen_detail": "2026-11-07",
   "predmet": "Předmětem plnění veřejné zakázky je projektová příprava, inženýring a samotná stavební realizace volnočasového areálu s názvem „Nový skatepark a pumptrack - ul. Langiewiczova“."
  },
  {
@@ -1039,7 +1039,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "profile_url": "https://www.e-zakazky.cz/Profil-Zadavatele/9efb23ac-d9c4-4349-b453-2462359b0cba",
   "dist_km": 4,
   "loc_unknown": false
