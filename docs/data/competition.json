@@ -1029,6 +1029,52 @@
   ]
  },
  {
+  "id": "rvz:RVZ2600117451",
+  "source": "profil:horice",
+  "title": "Dodávka zemního plynu 2027 – společné zadávání pro sdružené zadavatele",
+  "authority": "Město Hořice",
+  "authority_ico": "00271560",
+  "winner": "Pražská plynárenská, a.s.",
+  "winner_ico": "60193492",
+  "awarded": "2026-09-29",
+  "price_contracted": 38.42,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 22,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0000671",
+  "bidders": [
+   {
+    "nazev": "ČEZ ESCO, a.s.",
+    "ico": "03592880",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Pražská plynárenská, a.s.",
+    "ico": "60193492",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "VIRTEGA a.s.",
+    "ico": "09387901",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "IN ENERGIE s.r.o.",
+    "ico": "05082013",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "profil:sken-70891095:VZ-18647",
   "source": "profil:sken-70891095",
   "title": "Dokončení modernizace bezpečnostních systémů a technologií v budově Krajského úřadu Středočeského kraje",
@@ -19686,6 +19732,67 @@
    }
   ],
   "registr_url": "https://smlouvy.gov.cz/smlouva/37682593"
+ },
+ {
+  "id": "profil:kr-kralovehradecky:VZ-12607",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Orientační průzkum znečištění geologického prostředí a horizontálních stavebních konstrukcí spojených s podložím – bývalá textilní továrna v Hronově",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "winner": "Vodní zdroje Ekomonitor spol. s r.o.",
+  "winner_ico": "15053695",
+  "awarded": "2026-04-22",
+  "price_contracted": 378175.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 42,
+  "loc_unknown": false,
+  "cpv": [
+   "45111250"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "2G geolog s.r.o.",
+    "ico": "27529517",
+    "cena": 489000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "EPS biotechnology, s.r.o.",
+    "ico": "26295059",
+    "cena": 455540.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "G-servis Praha  spol. s r.o.",
+    "ico": "49680226",
+    "cena": 540000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Projekce iGEO, s.r.o.",
+    "ico": "06190499",
+    "cena": 530000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SAFETY PRO s.r.o.",
+    "ico": "28571690",
+    "cena": 527900.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Vodní zdroje Ekomonitor spol. s r.o.",
+    "ico": "15053695",
+    "cena": 378175.0,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/37725237"
  },
  {
   "id": "rvz:RVZ2600080921",

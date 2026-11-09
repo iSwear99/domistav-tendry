@@ -151,6 +151,33 @@
   "profile_url": "https://zakazky.trutnov.cz/profile_display_2.html"
  },
  {
+  "id": "profil:trutnov:VZ-1872",
+  "source": "profil:trutnov",
+  "title": "Trutnov Lnářská ulice, rozšíření parkoviště osobních vozidel",
+  "authority": "Město Trutnov",
+  "authority_ico": "00278360",
+  "cpv": [
+   "45111240"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-29",
+  "deadline": "2026-11-30T13:00:00",
+  "url": "https://zakazky.trutnov.cz/profile_display_2.html/contract_display_1872.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "profile_url": "https://zakazky.trutnov.cz/profile_display_2.html"
+ },
+ {
   "id": "rvz:RVZ2600294546",
   "source": "profil:hradec-kralove",
   "title": "Singletrail „LES“ Central park Hradec Králové – DESIGN & BUILD",
@@ -464,7 +491,7 @@
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "dist_km": 24,
   "loc_unknown": false,
-  "url_dead": 20,
+  "url_dead": 21,
   "link_dead": true
  },
  {
@@ -520,8 +547,35 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-11-08",
+  "nen_detail": "2026-11-09",
   "predmet": "Předmětem plnění veřejné zakázky je projektová příprava, inženýring a samotná stavební realizace volnočasového areálu s názvem „Nový skatepark a pumptrack - ul. Langiewiczova“."
+ },
+ {
+  "id": "profil:kr-pardubicky:VZ-6516",
+  "source": "profil:kr-pardubicky",
+  "title": "Dodávka a montáž klimatizačních jednotek v objektu A Krajského úřadu Pardubického kraje",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "45331000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-11-09",
+  "deadline": "2026-11-18T10:00:00",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html/contract_display_6516.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 18,
+  "loc_unknown": false,
+  "profile_url": "https://zakazky.pardubickykraj.cz/profile_display_2.html"
  },
  {
   "id": "rvz:RVZ2600292178",
@@ -548,33 +602,6 @@
   "expired": false,
   "dist_km": null,
   "loc_unknown": true
- },
- {
-  "id": "profil:trutnov:VZ-1872",
-  "source": "profil:trutnov",
-  "title": "Trutnov Lnářská ulice, rozšíření parkoviště osobních vozidel",
-  "authority": "Město Trutnov",
-  "authority_ico": "00278360",
-  "cpv": [
-   "45111240"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-10-29",
-  "deadline": "2026-11-16T13:00:00",
-  "url": "https://zakazky.trutnov.cz/profile_display_2.html/contract_display_1872.html",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 43,
-  "loc_unknown": false,
-  "profile_url": "https://zakazky.trutnov.cz/profile_display_2.html"
  },
  {
   "id": "profil:pvu:61882976:P26V00006686",
@@ -4088,10 +4115,24 @@
   "deadline": "2026-10-02T10:00:00",
   "url": "https://www.tenderarena.cz/profily/hradeckralove",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "KANONA a.s.",
+    "ico": "04163664",
+    "cena": 382970.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Vaněk - výroba nábytku, spol. s r.o.",
+    "ico": "26076721",
+    "cena": 183285.65,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -8255,10 +8296,36 @@
   "deadline": "2026-08-31T12:00:00",
   "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0000671",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "ČEZ ESCO, a.s.",
+    "ico": "03592880",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Pražská plynárenská, a.s.",
+    "ico": "60193492",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "VIRTEGA a.s.",
+    "ico": "09387901",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "IN ENERGIE s.r.o.",
+    "ico": "05082013",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -13199,10 +13266,30 @@
   "deadline": "2026-07-21T10:00:00",
   "url": "https://www.tenderarena.cz/profily/hradeckralove",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "QM-4C, s.r.o.",
+    "ico": "09686380",
+    "cena": 521000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "INGENIRING KRKONOŠE PRO s.r.o.",
+    "ico": "24901458",
+    "cena": 187000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Dopravně inženýrská kancelář, s.r.o.",
+    "ico": "27466868",
+    "cena": 93500.0,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -19680,7 +19767,7 @@
   "deadline": "2026-06-04T11:00:00",
   "url": "https://zakazky.trutnov.cz/profile_display_2.html",
   "place": "",
-  "state": "dokončen",
+  "state": "ukončeno plnění",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
@@ -24454,7 +24541,7 @@
   "place": "",
   "authority_seat": "",
   "authority_profile": "https://www.tenderarena.cz/profily/hradeckralove",
-  "state": "",
+  "state": "zrušen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZ",
@@ -24463,7 +24550,76 @@
   "no_value": false,
   "expired": true,
   "dist_km": 4,
-  "loc_unknown": false
+  "loc_unknown": false,
+  "bidders": [
+   {
+    "nazev": "Martin Kryš",
+    "ico": "60976021",
+    "cena": null,
+    "vyloucen": true
+   },
+   {
+    "nazev": "Lerson CZ s.r.o.",
+    "ico": "14267837",
+    "cena": 6708560.89,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SEADON s.r.o.",
+    "ico": "28601505",
+    "cena": 6130986.79,
+    "vyloucen": false
+   },
+   {
+    "nazev": "EVOSTA s.r.o.",
+    "ico": "03054225",
+    "cena": 5921415.8,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Sunsmart Construction a.s.",
+    "ico": "28203135",
+    "cena": 8597839.41,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Solution Construction s.r.o.",
+    "ico": "17708095",
+    "cena": 6957717.05,
+    "vyloucen": false
+   },
+   {
+    "nazev": "S E L E C T A , s.r.o.",
+    "ico": "63217481",
+    "cena": 6166810.24,
+    "vyloucen": false
+   },
+   {
+    "nazev": "W.H.A. system, spol. s r. o.",
+    "ico": "61945251",
+    "cena": 5190000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "P-PLAST Lom s.r.o.",
+    "ico": "01600397",
+    "cena": 6622401.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "FAST střechy s.r.o.",
+    "ico": "27537676",
+    "cena": 5121905.55,
+    "vyloucen": false
+   },
+   {
+    "nazev": "VESTAV group s.r.o.",
+    "ico": "27675912",
+    "cena": 6952516.33,
+    "vyloucen": false
+   }
+  ],
+  "profile_url": "https://www.tenderarena.cz/profily/hradeckralove"
  },
  {
   "id": "profil:pvu:00246018:P26V00005710",
@@ -27793,6 +27949,70 @@
   "no_value": true,
   "expired": true,
   "dist_km": 33,
+  "loc_unknown": false
+ },
+ {
+  "id": "profil:kr-kralovehradecky:VZ-12607",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Orientační průzkum znečištění geologického prostředí a horizontálních stavebních konstrukcí spojených s podložím – bývalá textilní továrna v Hronově",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45111250"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-03-06",
+  "deadline": "2026-03-18T11:00:00",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "2G geolog s.r.o.",
+    "ico": "27529517",
+    "cena": 489000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "EPS biotechnology, s.r.o.",
+    "ico": "26295059",
+    "cena": 455540.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "G-servis Praha  spol. s r.o.",
+    "ico": "49680226",
+    "cena": 540000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Projekce iGEO, s.r.o.",
+    "ico": "06190499",
+    "cena": 530000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SAFETY PRO s.r.o.",
+    "ico": "28571690",
+    "cena": 527900.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Vodní zdroje Ekomonitor spol. s r.o.",
+    "ico": "15053695",
+    "cena": 378175.0,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 42,
   "loc_unknown": false
  },
  {
