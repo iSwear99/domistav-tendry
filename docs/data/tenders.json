@@ -68,6 +68,46 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2600113956",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Útulek pro psy a služebna městské policie  - lokalita Popkovice",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45000000",
+   "45200000",
+   "45311000",
+   "45331000",
+   "45332000",
+   "45351000",
+   "45261000",
+   "09331200",
+   "45233100"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 107000000.0,
+  "published": "2026-07-31",
+  "deadline": "2026-12-10T10:20:00",
+  "url": "https://www.nen.nipez.cz/profil/pardubice",
+  "place": "",
+  "authority_seat": "Pernštýnské náměstí 1, Pardubice 53002",
+  "authority_profile": "https://www.nen.nipez.cz/profil/pardubice",
+  "state": "Aktivní/Neukončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": false,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00024210"
+ },
+ {
   "id": "profil:pvu:66181127:P26V00006709",
   "source": "profil:pvu:66181127",
   "title": "Výstavba dostupného bydlení ve Vesničce soužití",
@@ -491,7 +531,7 @@
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "dist_km": 24,
   "loc_unknown": false,
-  "url_dead": 21,
+  "url_dead": 22,
   "link_dead": true
  },
  {
@@ -523,6 +563,30 @@
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/00234591"
  },
  {
+  "id": "rvz:RVZ2600288257",
+  "source": "profil:hradec-kralove",
+  "title": "Podchod Karla IV. – dodávka LCD panelů",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2026-10-02",
+  "deadline": "2026-11-19T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600291445",
   "source": "profil:jaromer",
   "title": "Nový skatepark a pumptrack - ul. Langiewiczova",
@@ -547,7 +611,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-11-09",
+  "nen_detail": "2026-11-10",
   "predmet": "Předmětem plnění veřejné zakázky je projektová příprava, inženýring a samotná stavební realizace volnočasového areálu s názvem „Nový skatepark a pumptrack - ul. Langiewiczova“."
  },
  {
@@ -746,46 +810,6 @@
   "link_dead": true
  },
  {
-  "id": "rvz:RVZ2600113956",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Útulek pro psy a služebna městské policie  - lokalita Popkovice",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45000000",
-   "45200000",
-   "45311000",
-   "45331000",
-   "45332000",
-   "45351000",
-   "45261000",
-   "09331200",
-   "45233100"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": 107000000.0,
-  "published": "2026-07-31",
-  "deadline": "2026-11-12T10:00:00",
-  "url": "https://www.nen.nipez.cz/profil/pardubice",
-  "place": "",
-  "authority_seat": "Pernštýnské náměstí 1, Pardubice 53002",
-  "authority_profile": "https://www.nen.nipez.cz/profil/pardubice",
-  "state": "Aktivní/Neukončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": false,
-  "dist_km": 19,
-  "loc_unknown": false,
-  "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00024210"
- },
- {
   "id": "profil:pvu:00234591:P26V00006515",
   "source": "profil:pvu:00234591",
   "title": "Výstavba fotovoltaické elektrárny v obci Ledce",
@@ -834,30 +858,6 @@
   "kind": "VZ",
   "kw_match": false,
   "no_nuts": true,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 4,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2600288257",
-  "source": "profil:hradec-kralove",
-  "title": "Podchod Karla IV. – dodávka LCD panelů",
-  "authority": "Statutární město Hradec Králové",
-  "authority_ico": "00268810",
-  "cpv": [],
-  "nuts": [],
-  "value": null,
-  "published": "2026-10-02",
-  "deadline": "2026-11-11T10:00:00",
-  "url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "kw_match": false,
-  "no_nuts": false,
   "no_value": true,
   "expired": false,
   "dist_km": 4,
@@ -1006,7 +1006,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 24,
   "loc_unknown": false,
   "profile_url": "https://zakazky.mestoprelouc.cz"
@@ -1024,7 +1024,7 @@
   "value": null,
   "published": "2026-09-21",
   "deadline": "2026-11-09T09:00:00",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html/contract_display_13159.html",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -1033,10 +1033,9 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 38,
-  "loc_unknown": false,
-  "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html"
+  "loc_unknown": false
  },
  {
   "id": "rvz:RVZ2600287593",
@@ -6946,7 +6945,7 @@
   "deadline": "2026-09-09T12:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00018992",
   "place": "",
-  "state": "zahájen",
+  "state": "zrušen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZ",
@@ -10191,12 +10190,6 @@
     "vyloucen": false
    },
    {
-    "nazev": "PS HOME STAR s.r.o.",
-    "ico": "03221466",
-    "cena": 649733.7,
-    "vyloucen": false
-   },
-   {
     "nazev": "MP Bau s.r.o.",
     "ico": "24722065",
     "cena": 681281.51,
@@ -10212,6 +10205,12 @@
     "nazev": "RWX, s.r.o.",
     "ico": "14235111",
     "cena": 650676.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PS HOME STAR s.r.o.",
+    "ico": "03221466",
+    "cena": 649733.7,
     "vyloucen": false
    },
    {
@@ -17731,7 +17730,7 @@
   "deadline": "2026-06-16T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017282",
   "place": "",
-  "state": "dokončen",
+  "state": "ukončeno plnění",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
@@ -29065,28 +29064,91 @@
  },
  {
   "id": "rvz:RVZ2600066926",
-  "source": "isvz",
-  "nen_id": "N006/26/V00004940",
+  "source": "profil:pardubice",
   "title": "MŠ Rosická – rekonstrukce elektroinstalace",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
   "cpv": [
    "45310000"
   ],
-  "nuts": [
-   "CZ053"
-  ],
+  "nuts": [],
   "value": null,
   "published": "2026-02-25",
   "deadline": "2026-03-09T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00004940",
   "place": "",
-  "authority_seat": "Pernštýnské náměstí 1, Pardubice 53002",
-  "authority_profile": "https://nen.nipez.cz/profil/pardubice",
-  "state": "Dokončen/Zadán",
+  "state": "ukončeno plnění",
   "site_visit": "",
-  "clarifications": 1,
+  "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
+    "ico": "46504621",
+    "cena": 3945537.21,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ELMON spol. s r.o.",
+    "ico": "47452161",
+    "cena": 3803285.17,
+    "vyloucen": false
+   },
+   {
+    "nazev": "JM - Elektro s.r.o.",
+    "ico": "27557766",
+    "cena": 3914660.67,
+    "vyloucen": false
+   },
+   {
+    "nazev": "DIKOS, s.r.o.",
+    "ico": "46966331",
+    "cena": 4605092.07,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Šetři světlem s.r.o.",
+    "ico": "29208041",
+    "cena": 3142586.85,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stavrecon Pardubice s.r.o.",
+    "ico": "05925801",
+    "cena": 3337737.02,
+    "vyloucen": false
+   },
+   {
+    "nazev": "pr-energo s.r.o.",
+    "ico": "18036481",
+    "cena": 3189943.12,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TECHNOLOGIE BUDOV s.r.o.",
+    "ico": "28442369",
+    "cena": 3971455.52,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ADAS spol. s r.o.",
+    "ico": "15054039",
+    "cena": 2626738.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "UCHYTIL s.r.o.",
+    "ico": "60734078",
+    "cena": 4160000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "VIXEL Group s.r.o.",
+    "ico": "09603115",
+    "cena": 4427125.82,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -76786,37 +76848,6 @@
   "no_value": true,
   "expired": true,
   "dist_km": 31,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2400191417",
-  "source": "isvz",
-  "nen_id": "N006/24/V00015678",
-  "title": "VČD Pardubice - průzkum vlhkosti zdiva a statické poruchy SV nároží",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "71353000"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": null,
-  "published": "2024-05-27",
-  "deadline": "2024-05-28T10:00:00",
-  "url": "https://nen.nipez.cz/Zadavaci_postup/N006-24-V00015678",
-  "place": "",
-  "authority_seat": "Pernštýnské náměstí 1, Pardubice 53002",
-  "authority_profile": "https://nen.nipez.cz/profil/pardubice",
-  "state": "Dokončen/Zadán",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "kw_match": true,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
   "loc_unknown": false
  },
  {
@@ -183260,6 +183291,40 @@
   "no_value": true,
   "expired": true,
   "dist_km": 33,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2400191417",
+  "source": "profil:pardubice",
+  "title": "VČD Pardubice - průzkum vlhkosti zdiva a statické poruchy SV nároží",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "71353000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2024-11-21",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-24-V00015678",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "INRECO , s. r. o.",
+    "ico": "48155586",
+    "cena": 357000.0,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
   "loc_unknown": false
  },
  {

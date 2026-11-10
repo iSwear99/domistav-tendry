@@ -361,12 +361,6 @@
     "vyloucen": false
    },
    {
-    "nazev": "PS HOME STAR s.r.o.",
-    "ico": "03221466",
-    "cena": 649733.7,
-    "vyloucen": false
-   },
-   {
     "nazev": "MP Bau s.r.o.",
     "ico": "24722065",
     "cena": 681281.51,
@@ -382,6 +376,12 @@
     "nazev": "RWX, s.r.o.",
     "ico": "14235111",
     "cena": 650676.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PS HOME STAR s.r.o.",
+    "ico": "03221466",
+    "cena": 649733.7,
     "vyloucen": false
    },
    {
@@ -19209,7 +19209,7 @@
  },
  {
   "id": "rvz:RVZ2600066926",
-  "source": "isvz",
+  "source": "profil:pardubice",
   "title": "MŠ Rosická – rekonstrukce elektroinstalace",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
@@ -19227,7 +19227,76 @@
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00004940"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00004940",
+  "bidders": [
+   {
+    "nazev": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
+    "ico": "46504621",
+    "cena": 3945537.21,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ELMON spol. s r.o.",
+    "ico": "47452161",
+    "cena": 3803285.17,
+    "vyloucen": false
+   },
+   {
+    "nazev": "JM - Elektro s.r.o.",
+    "ico": "27557766",
+    "cena": 3914660.67,
+    "vyloucen": false
+   },
+   {
+    "nazev": "DIKOS, s.r.o.",
+    "ico": "46966331",
+    "cena": 4605092.07,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Šetři světlem s.r.o.",
+    "ico": "29208041",
+    "cena": 3142586.85,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stavrecon Pardubice s.r.o.",
+    "ico": "05925801",
+    "cena": 3337737.02,
+    "vyloucen": false
+   },
+   {
+    "nazev": "pr-energo s.r.o.",
+    "ico": "18036481",
+    "cena": 3189943.12,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TECHNOLOGIE BUDOV s.r.o.",
+    "ico": "28442369",
+    "cena": 3971455.52,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ADAS spol. s r.o.",
+    "ico": "15054039",
+    "cena": 2626738.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "UCHYTIL s.r.o.",
+    "ico": "60734078",
+    "cena": 4160000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "VIXEL Group s.r.o.",
+    "ico": "09603115",
+    "cena": 4427125.82,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/37249677"
  },
  {
   "id": "rvz:RVZ2500070944",
