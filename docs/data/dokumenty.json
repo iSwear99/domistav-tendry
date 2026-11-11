@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-11-10T15:57:44+00:00",
-  "zd": 605,
+  "updated": "2026-11-11T15:28:17+00:00",
+  "zd": 607,
   "zpravy": 1517,
-  "novych": 0,
+  "novych": 2,
   "errors": []
  },
  "zd": {
@@ -1869,6 +1869,12 @@
   },
   "profil:kr-pardubicky:VZ-6516": {
    "doc_url": "https://zakazky.pardubickykraj.cz/document_download_63483.html"
+  },
+  "profil:kr-kralovehradecky:VZ-13272": {
+   "doc_url": "https://zakazky.cenakhk.cz/document_download_150467.html"
+  },
+  "profil:kr-kralovehradecky:VZ-13299": {
+   "doc_url": "https://zakazky.cenakhk.cz/document_download_150494.html"
   }
  },
  "zpravy": {

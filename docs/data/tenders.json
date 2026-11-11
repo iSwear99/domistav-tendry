@@ -28,6 +28,33 @@
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/model-obaly-a-s"
  },
  {
+  "id": "profil:kr-kralovehradecky:VZ-13272",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Výstavba objektu učeben školy – Truhlářská ul., Hradec Králové – bourací a stavební práce",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-11-11",
+  "deadline": "2026-12-15T09:00:00",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html/contract_display_13272.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html"
+ },
+ {
   "id": "rvz:RVZ2600118626",
   "source": "isvz",
   "nen_id": "",
@@ -162,6 +189,33 @@
   "dist_km": null,
   "loc_unknown": true,
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/df-partner-s-r-o"
+ },
+ {
+  "id": "profil:kr-kralovehradecky:VZ-13299",
+  "source": "profil:kr-kralovehradecky",
+  "title": "ZD/23/403 – Bleskosvody v areálu nemocnice Rychnov nad Kněžnou",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-11-11",
+  "deadline": "2026-12-03T10:00:00",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html/contract_display_13299.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html"
  },
  {
   "id": "profil:trutnov:VZ-1877",
@@ -531,7 +585,7 @@
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "dist_km": 24,
   "loc_unknown": false,
-  "url_dead": 22,
+  "url_dead": 23,
   "link_dead": true
  },
  {
@@ -611,7 +665,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-11-10",
+  "nen_detail": "2026-11-11",
   "predmet": "Předmětem plnění veřejné zakázky je projektová příprava, inženýring a samotná stavební realizace volnočasového areálu s názvem „Nový skatepark a pumptrack - ul. Langiewiczova“."
  },
  {
@@ -909,7 +963,7 @@
   "value": null,
   "published": "2026-07-20",
   "deadline": "2026-11-10T10:00:00",
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html/contract_display_6172.html",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -918,10 +972,9 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 43,
-  "loc_unknown": false,
-  "profile_url": "https://zakazky.pardubickykraj.cz/profile_display_2.html"
+  "loc_unknown": false
  },
  {
   "id": "rvz:RVZ2600158869",
@@ -952,7 +1005,7 @@
   "kw_match": true,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "profile_url": "https://zakazky.spravazeleznic.cz",
   "dist_km": 22,
   "loc_unknown": false
@@ -22038,7 +22091,7 @@
   "deadline": "2026-05-12T10:00:00",
   "url": "https://www.tenderarena.cz/profily/hradeckralove",
   "place": "",
-  "state": "dokončen",
+  "state": "ukončeno plnění",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
