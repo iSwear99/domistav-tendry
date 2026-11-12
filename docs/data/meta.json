@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-11T15:28:03+00:00",
+ "updated": "2026-11-12T16:19:52+00:00",
  "counts": {
-  "total": 8281,
-  "vz": 5195,
-  "vzmr": 3086,
+  "total": 8284,
+  "vz": 5197,
+  "vzmr": 3087,
   "active": 64,
-  "changed": 123,
-  "competition": 1517,
-  "previous": 8279
+  "changed": 124,
+  "competition": 1518,
+  "previous": 8281
  },
  "errors": [
-  "profil:dobruska: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274879/XMLdataVZ?od=13082026&do=11112026: <urlopen error timed out>",
-  "profil:prelouc: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274101/XMLdataVZ?od=13082026&do=11112026: <urlopen error timed out>",
-  "profil:hronov: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00272680/XMLdataVZ?od=13082026&do=11112026: <urlopen error timed out>",
-  "profil:vamberk: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00275492/XMLdataVZ?od=13082026&do=11112026: <urlopen error timed out>",
-  "profil:lodin: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/obec-lodin/XMLdataVZ?od=13082026&do=11112026: <urlopen error timed out>",
+  "profil:dobruska: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274879/XMLdataVZ?od=14082026&do=12112026: <urlopen error timed out>",
+  "profil:prelouc: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274101/XMLdataVZ?od=14082026&do=12112026: <urlopen error timed out>",
+  "profil:hronov: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00272680/XMLdataVZ?od=14082026&do=12112026: <urlopen error timed out>",
+  "profil:vamberk: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00275492/XMLdataVZ?od=14082026&do=12112026: <urlopen error timed out>",
+  "profil:lodin: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/obec-lodin/XMLdataVZ?od=14082026&do=12112026: <urlopen error timed out>",
   "pvu: RSS nedostupné: Stažení selhalo: https://www.vhodne-uverejneni.cz/rss/zakazky: <urlopen error timed out>",
   "proklik vhodne-uverejneni.cz: <urlopen error timed out>",
   "proklik vhodne-uverejneni.cz: <urlopen error timed out>",

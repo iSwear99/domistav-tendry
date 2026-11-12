@@ -1,5 +1,60 @@
 [
  {
+  "id": "rvz:RVZ2600288327",
+  "source": "profil:pardubice",
+  "title": "ZŠ Ohrazenice – oprava střechy nad přístavbou",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "winner": "Stami CZ s.r.o.",
+  "winner_ico": "19196377",
+  "awarded": "2026-11-09",
+  "price_contracted": 651962.45,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45261910"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00031992",
+  "bidders": [
+   {
+    "nazev": "EVOSTA s.r.o.",
+    "ico": "03054225",
+    "cena": 1165003.17,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Hozijiv s.r.o.",
+    "ico": "06111092",
+    "cena": 1103667.32,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ELAR Capital s.r.o.",
+    "ico": "21688770",
+    "cena": 890989.91,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PETRAlaan s.r.o.",
+    "ico": "04157010",
+    "cena": 1227413.69,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stami CZ s.r.o.",
+    "ico": "19196377",
+    "cena": 651962.45,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/40317437"
+ },
+ {
   "id": "profil:trutnov:VZ-1864",
   "source": "profil:trutnov",
   "title": "Zhotovení modelů, licích forem a sady fasádních odlitků pro historickou budovu ZUŠ Trutnov, Školní 13 - opakovaná zakázka",

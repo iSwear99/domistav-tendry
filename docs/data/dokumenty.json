@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-11-11T15:28:17+00:00",
-  "zd": 607,
-  "zpravy": 1517,
-  "novych": 2,
+  "updated": "2026-11-12T16:21:03+00:00",
+  "zd": 610,
+  "zpravy": 1518,
+  "novych": 3,
   "errors": []
  },
  "zd": {
@@ -1875,6 +1875,15 @@
   },
   "profil:kr-kralovehradecky:VZ-13299": {
    "doc_url": "https://zakazky.cenakhk.cz/document_download_150494.html"
+  },
+  "profil:kr-pardubicky:VZ-6519": {
+   "doc_url": "https://zakazky.pardubickykraj.cz/document_download_63573.html"
+  },
+  "profil:trutnov:VZ-1876": {
+   "doc_url": "https://zakazky.trutnov.cz/document_download_9033.html"
+  },
+  "profil:kr-kralovehradecky:VZ-13160": {
+   "doc_url": "https://zakazky.cenakhk.cz/document_download_148437.html"
   }
  },
  "zpravy": {
@@ -6464,6 +6473,9 @@
    "doc_url": "https://api.tenderarena.cz/ta/profil/stahovani-dokumentu/dokument/6451284"
   },
   "profil:kr-kralovehradecky:VZ-12607": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600288327": {
    "nenalezeno": true
   }
  }

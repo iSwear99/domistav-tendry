@@ -135,6 +135,38 @@
   "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00024210"
  },
  {
+  "id": "rvz:RVZ2600120866",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "BD Hajnice – výstavba a rekonstrukce administrativní a správní budovy",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45215213"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 89000000.0,
+  "published": "2026-09-01",
+  "deadline": "2026-12-07T10:00:00",
+  "url": "https://zakazky.cenakhk.cz/",
+  "place": "Barevné domky Hajnice, příspěvková organizace, Hajnice 46, 544 66 Hajnice.",
+  "authority_seat": "",
+  "authority_profile": "https://zakazky.cenakhk.cz/",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": false,
+  "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "dist_km": 33,
+  "loc_unknown": false
+ },
+ {
   "id": "profil:pvu:66181127:P26V00006709",
   "source": "profil:pvu:66181127",
   "title": "Výstavba dostupného bydlení ve Vesničce soužití",
@@ -191,6 +223,33 @@
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/df-partner-s-r-o"
  },
  {
+  "id": "profil:kr-pardubicky:VZ-6519",
+  "source": "profil:kr-pardubicky",
+  "title": "Gymnázium Vysoké Mýto – rekonstrukce střechy",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "45453000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-11-12",
+  "deadline": "2026-12-03T10:00:00",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html/contract_display_6519.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 39,
+  "loc_unknown": false,
+  "profile_url": "https://zakazky.pardubickykraj.cz/profile_display_2.html"
+ },
+ {
   "id": "profil:kr-kralovehradecky:VZ-13299",
   "source": "profil:kr-kralovehradecky",
   "title": "ZD/23/403 – Bleskosvody v areálu nemocnice Rychnov nad Kněžnou",
@@ -216,6 +275,33 @@
   "dist_km": 36,
   "loc_unknown": false,
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html"
+ },
+ {
+  "id": "profil:trutnov:VZ-1876",
+  "source": "profil:trutnov",
+  "title": "Hřiště U Motýla - revitalizace a úpravy zeleně",
+  "authority": "Město Trutnov",
+  "authority_ico": "00278360",
+  "cpv": [
+   "45112723"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-11-12",
+  "deadline": "2026-12-01T13:00:00",
+  "url": "https://zakazky.trutnov.cz/profile_display_2.html/contract_display_1876.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "profile_url": "https://zakazky.trutnov.cz/profile_display_2.html"
  },
  {
   "id": "profil:trutnov:VZ-1877",
@@ -357,6 +443,33 @@
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/00272680"
  },
  {
+  "id": "profil:kr-kralovehradecky:VZ-13160",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Oblastní nemocnice Jičín – rekonstrukce stravovacího provozu v Novém Bydžově – gastro vybavení – ZD/20/415",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "45421151"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-23",
+  "deadline": "2026-11-25T09:00:00",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html/contract_display_13160.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 38,
+  "loc_unknown": false,
+  "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html"
+ },
+ {
   "id": "profil:pvu:48169188:P26V00006578",
   "source": "profil:pvu:48169188",
   "title": "MODERNIZACE VÝROBY ZAHUŠTĚNÝCH MLÉK - TECHNOLOGIE",
@@ -466,38 +579,6 @@
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/serafinit-s-r-o"
  },
  {
-  "id": "rvz:RVZ2600120866",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "BD Hajnice – výstavba a rekonstrukce administrativní a správní budovy",
-  "authority": "Královéhradecký kraj",
-  "authority_ico": "70889546",
-  "cpv": [
-   "45215213"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 89000000.0,
-  "published": "2026-09-01",
-  "deadline": "2026-11-23T10:00:00",
-  "url": "https://zakazky.cenakhk.cz/",
-  "place": "Barevné domky Hajnice, příspěvková organizace, Hajnice 46, 544 66 Hajnice.",
-  "authority_seat": "",
-  "authority_profile": "https://zakazky.cenakhk.cz/",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": false,
-  "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
-  "dist_km": 33,
-  "loc_unknown": false
- },
- {
   "id": "profil:pvu:17577713:P26V00006664",
   "source": "profil:pvu:17577713",
   "title": "„Energetické úspory v objektu  na parc. č. 1231/20 – SERAFINIT“ Část A – Střecha",
@@ -589,6 +670,33 @@
   "link_dead": true
  },
  {
+  "id": "profil:kr-pardubicky:VZ-6516",
+  "source": "profil:kr-pardubicky",
+  "title": "Dodávka a montáž klimatizačních jednotek v objektu A Krajského úřadu Pardubického kraje",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "cpv": [
+   "45331000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-11-09",
+  "deadline": "2026-11-20T13:00:00",
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html/contract_display_6516.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 18,
+  "loc_unknown": false,
+  "profile_url": "https://zakazky.pardubickykraj.cz/profile_display_2.html"
+ },
+ {
   "id": "profil:pvu:00234591:P26V00006600",
   "source": "profil:pvu:00234591",
   "title": "Renovace střešního pláště a fasády objektu bývalé hasičárny Ledce čp. 79",
@@ -665,35 +773,8 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-11-11",
+  "nen_detail": "2026-11-12",
   "predmet": "Předmětem plnění veřejné zakázky je projektová příprava, inženýring a samotná stavební realizace volnočasového areálu s názvem „Nový skatepark a pumptrack - ul. Langiewiczova“."
- },
- {
-  "id": "profil:kr-pardubicky:VZ-6516",
-  "source": "profil:kr-pardubicky",
-  "title": "Dodávka a montáž klimatizačních jednotek v objektu A Krajského úřadu Pardubického kraje",
-  "authority": "Pardubický kraj",
-  "authority_ico": "70892822",
-  "cpv": [
-   "45331000"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-11-09",
-  "deadline": "2026-11-18T10:00:00",
-  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html/contract_display_6516.html",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 18,
-  "loc_unknown": false,
-  "profile_url": "https://zakazky.pardubickykraj.cz/profile_display_2.html"
  },
  {
   "id": "rvz:RVZ2600292178",
@@ -886,7 +967,7 @@
   "kw_match": true,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 19,
   "loc_unknown": false,
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/00234591"
@@ -913,7 +994,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 4,
   "loc_unknown": false
  },
@@ -945,7 +1026,7 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "profile_url": "https://tenderarena.cz/profily/hradeckralove",
   "dist_km": 4,
   "loc_unknown": false
@@ -2773,10 +2854,42 @@
   "deadline": "2026-10-13T09:00:00",
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00031992",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "EVOSTA s.r.o.",
+    "ico": "03054225",
+    "cena": 1165003.17,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Hozijiv s.r.o.",
+    "ico": "06111092",
+    "cena": 1103667.32,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ELAR Capital s.r.o.",
+    "ico": "21688770",
+    "cena": 890989.91,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PETRAlaan s.r.o.",
+    "ico": "04157010",
+    "cena": 1227413.69,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stami CZ s.r.o.",
+    "ico": "19196377",
+    "cena": 651962.45,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -19287,6 +19400,52 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2600096694",
+  "source": "profil:pardubice",
+  "title": "MŠ Grusova – venkovní markýza",
+  "authority": "Statutární město Pardubice",
+  "authority_ico": "00274046",
+  "cpv": [
+   "45421144"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-05-25",
+  "deadline": "2026-06-08T09:00:00",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00015828",
+  "place": "",
+  "state": "ukončeno plnění",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "ARCO INTERIER, s.r.o.",
+    "ico": "26140918",
+    "cena": 249500.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Miroslav Sys",
+    "ico": "47872489",
+    "cena": 274978.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Roman Doboš",
+    "ico": "06023151",
+    "cena": 180660.0,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 19,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600096708",
   "source": "profil:pardubice",
   "title": "Seniorcentrum, Pospíšilovo nám. 1693 – oprava zázemí",
@@ -19358,52 +19517,6 @@
     "nazev": "Brickwork s.r.o.",
     "ico": "04049217",
     "cena": 950000.0,
-    "vyloucen": false
-   }
-  ],
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 19,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2600096694",
-  "source": "profil:pardubice",
-  "title": "MŠ Grusova – venkovní markýza",
-  "authority": "Statutární město Pardubice",
-  "authority_ico": "00274046",
-  "cpv": [
-   "45421144"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-05-25",
-  "deadline": "2026-06-08T09:00:00",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00015828",
-  "place": "",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "bidders": [
-   {
-    "nazev": "ARCO INTERIER, s.r.o.",
-    "ico": "26140918",
-    "cena": 249500.0,
-    "vyloucen": false
-   },
-   {
-    "nazev": "Miroslav Sys",
-    "ico": "47872489",
-    "cena": 274978.0,
-    "vyloucen": false
-   },
-   {
-    "nazev": "Roman Doboš",
-    "ico": "06023151",
-    "cena": 180660.0,
     "vyloucen": false
    }
   ],
