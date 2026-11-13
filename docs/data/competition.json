@@ -10321,14 +10321,14 @@
  },
  {
   "id": "rvz:RVZ2600096709",
-  "source": "isvz",
+  "source": "profil:pardubice",
   "title": "Areál Dostihového závodiště – zpevněná plocha",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
   "winner": "RONING spol. s r.o.",
   "winner_ico": "62028405",
   "awarded": "2026-07-02",
-  "price_contracted": 494500.0,
+  "price_contracted": null,
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
@@ -10339,7 +10339,22 @@
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00015838"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00015838",
+  "bidders": [
+   {
+    "nazev": "TERESTAV s.r.o.",
+    "ico": "17757002",
+    "cena": 528735.63,
+    "vyloucen": false
+   },
+   {
+    "nazev": "RONING spol. s r.o.",
+    "ico": "62028405",
+    "cena": 494500.0,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/38647576"
  },
  {
   "id": "rvz:RVZ2600096708",
@@ -11653,14 +11668,14 @@
  },
  {
   "id": "rvz:RVZ2600100099",
-  "source": "isvz",
+  "source": "profil:pardubice",
   "title": "ZŠ npor. Eliáše – oprava hřiště",
   "authority": "Statutární město Pardubice",
   "authority_ico": "00274046",
   "winner": "Služby města Pardubic a.s.",
   "winner_ico": "25262572",
   "awarded": "2026-06-24",
-  "price_contracted": 1774480.0,
+  "price_contracted": null,
   "estimated": false,
   "price_paid": null,
   "growth_pct": null,
@@ -11671,7 +11686,16 @@
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017699"
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00017699",
+  "bidders": [
+   {
+    "nazev": "Služby města Pardubic a.s.",
+    "ico": "25262572",
+    "cena": 1774480.0,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/38572592"
  },
  {
   "id": "profil:pvu:00244686:P26V00003410",

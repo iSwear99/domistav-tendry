@@ -1883,6 +1883,13 @@
    "label": "vysvětlení ZD",
    "old": "0",
    "new": "1"
+  },
+  {
+   "date": "2026-11-13",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "1",
+   "new": "0"
   }
  ],
  "rvz:RVZ2600099168": [
@@ -2118,6 +2125,13 @@
    "label": "lhůta",
    "old": "—",
    "new": "2026-06-09 12:00"
+  },
+  {
+   "date": "2026-11-13",
+   "field": "deadline",
+   "label": "lhůta",
+   "old": "2026-06-09 12:00",
+   "new": "—"
   }
  ],
  "rvz:RVZ2600070002": [
