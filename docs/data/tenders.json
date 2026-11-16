@@ -135,6 +135,62 @@
   "profile_url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00024210"
  },
  {
+  "id": "profil:pvu:64811069:P26V00006878",
+  "source": "profil:pvu:64811069",
+  "title": "Dlouhá 98 – Klicperovo divadlo – oprava terasy",
+  "authority": "Správa nemovitostí Hradec Králové, příspěvková organizace",
+  "authority_ico": "64811069",
+  "cpv": [
+   "45261420"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-11-16",
+  "deadline": "2026-12-09T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/zakazka/dlouha-98-klicperovo-divadlo-oprava-terasy",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": null,
+  "loc_unknown": true,
+  "profile_url": "https://www.vhodne-uverejneni.cz/profil/64811069"
+ },
+ {
+  "id": "profil:pvu:28343115:P26V00006867",
+  "source": "profil:pvu:28343115",
+  "title": "Centrum života Kožichovic – nájemní bydlení  DESIGN & BUILD",
+  "authority": "KOINVEST CZ, s.r.o.",
+  "authority_ico": "28343115",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-11-15",
+  "deadline": "2026-12-07T13:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/zakazka/centrum-zivota-kozichovic-najemni-bydleni-design-build",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": null,
+  "loc_unknown": true,
+  "profile_url": "https://www.vhodne-uverejneni.cz/profil/koinvest-cz-s-r-o"
+ },
+ {
   "id": "rvz:RVZ2600120866",
   "source": "isvz",
   "nen_id": "",
@@ -193,6 +249,35 @@
   "dist_km": null,
   "loc_unknown": true,
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/diecezni-charita-ostravsko-opavska"
+ },
+ {
+  "id": "profil:pvu:24814644:P26V00006872",
+  "source": "profil:pvu:24814644",
+  "title": "„Snížení energetické náročnosti objektu – Tržiště Masná“",
+  "authority": "S&V. I.C. s.r.o.",
+  "authority_ico": "24814644",
+  "cpv": [
+   "45000000",
+   "45331100"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-11-16",
+  "deadline": "2026-12-04T10:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/zakazka/snizeni-energeticke-narocnosti-objektu-trziste-masna",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": false,
+  "dist_km": null,
+  "loc_unknown": true,
+  "profile_url": "https://www.vhodne-uverejneni.cz/profil/s-v-i-c-s-r-o"
  },
  {
   "id": "profil:pvu:00545503:P26V00006705",
@@ -773,7 +858,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-11-15",
+  "nen_detail": "2026-11-16",
   "predmet": "Předmětem plnění veřejné zakázky je projektová příprava, inženýring a samotná stavební realizace volnočasového areálu s názvem „Nový skatepark a pumptrack - ul. Langiewiczova“."
  },
  {
@@ -176270,6 +176355,32 @@
   "loc_unknown": false
  },
  {
+  "id": "rvz:RVZ2600110691",
+  "source": "profil:tyniste-no",
+  "title": "Modernizace odborné učebny fyziky a kabinetu fyziky, Základní škola Týniště nad Orlicí",
+  "authority": "Město Týniště nad Orlicí",
+  "authority_ico": "00275468",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-07-16",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00022588",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 22,
+  "loc_unknown": false
+ },
+ {
   "id": "rvz:RVZ2600118526",
   "source": "isvz",
   "nen_id": "N006/26/V00022469",
@@ -177353,37 +177464,6 @@
   "no_value": true,
   "expired": true,
   "dist_km": 36,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2600110691",
-  "source": "isvz",
-  "nen_id": "N006/26/V00022588",
-  "title": "Modernizace odborné učebny fyziky a kabinetu fyziky, Základní škola Týniště nad Orlicí",
-  "authority": "Město Týniště nad Orlicí",
-  "authority_ico": "00275468",
-  "cpv": [
-   "45000000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": null,
-  "published": "2026-06-03",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00022588",
-  "place": "",
-  "authority_seat": "Mírové nám. 90, Týniště nad Orlicí 51721",
-  "authority_profile": "https://nen.nipez.cz/profil/tynistenadorlici",
-  "state": "Dokončen/Zadán",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 22,
   "loc_unknown": false
  },
  {
@@ -203881,42 +203961,6 @@
   "no_activity": true
  },
  {
-  "id": "rvz:RVZ2600117290",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Realizace rekonstrukce ulice Komenského (úsek mezi ulicemi Lidická a Nerudova) v České Skalici",
-  "authority": "MĚSTO ČESKÁ SKALICE",
-  "authority_ico": "00272591",
-  "cpv": [
-   "45000000",
-   "45233000",
-   "45233160",
-   "45316100"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 8520263.99,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/profil/CeskaSkalice",
-  "place": "k. ú. Česká Skalice, pozemky: viz PD, Kraj: CZ 052 Královéhradecký kraj",
-  "authority_seat": "",
-  "authority_profile": "https://nen.nipez.cz/profil/CeskaSkalice",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 30,
-  "loc_unknown": false,
-  "auto_expired": "2026-10-19",
-  "no_activity": true
- },
- {
   "id": "rvz:RVZ2600071624",
   "source": "isvz",
   "nen_id": "",
@@ -204361,6 +204405,42 @@
   "no_value": false,
   "expired": true,
   "dist_km": 35,
+  "loc_unknown": false,
+  "auto_expired": "2026-10-19",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600117290",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Realizace rekonstrukce ulice Komenského (úsek mezi ulicemi Lidická a Nerudova) v České Skalici",
+  "authority": "MĚSTO ČESKÁ SKALICE",
+  "authority_ico": "00272591",
+  "cpv": [
+   "45000000",
+   "45233000",
+   "45233160",
+   "45316100"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 8520263.99,
+  "published": "",
+  "deadline": "",
+  "url": "https://nen.nipez.cz/profil/CeskaSkalice",
+  "place": "k. ú. Česká Skalice, pozemky: viz PD, Kraj: CZ 052 Královéhradecký kraj",
+  "authority_seat": "",
+  "authority_profile": "https://nen.nipez.cz/profil/CeskaSkalice",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 30,
   "loc_unknown": false,
   "auto_expired": "2026-10-19",
   "no_activity": true
