@@ -262,6 +262,12 @@ COMPETITION_WINDOW_DAYS = 365
 # retence (archiv jen roste). Identita firmy výhradně dle IČO (Domistav HK
 # vs. Domistav CZ). Ruční označení „podal jsem" drží jen prohlížeč/Gist.
 FIRMA_ICO = "26007177"
+# NEN registrace firmy: záznamy z NEN nesou v ISVZ místo IČO jen
+# nipez_id_subjektu (stálé id subjektu v NEN, přežije i přejmenování).
+# Ověřeno 17. 11. 2026 na exportech 2–10/2026: jediné NEN id se jménem
+# DOMISTAV HK s.r.o. (DOMISTAV CZ a.s. má jiné: 9f481d03-…); bez něj
+# unikala zhruba polovina účastí (např. Centrum domácí hospicové péče Hořice).
+FIRMA_NIPEZ_IDS = ("d2a936f7-5dc2-4f70-99bf-fbac8905afb6",)
 
 # ── Zdroj 3: PVU RSS — čerství zadavatelé mimo konfigurované profily ────────
 # OVĚŘENO 2026-07-29: veřejné RSS nových zakázek celé ČR (~25 položek/den,

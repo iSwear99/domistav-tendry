@@ -518,25 +518,72 @@ function rowHTML(t) {
 
 // Nabídky účastníků řízení (z XML profilů zadavatelů) — kdo podává
 // nabídky a za kolik; funguje v Zakázkách, AI výběru i Konkurenci.
-function biddersHTML(x, open) {
+// Tabulka: pořadí · účastník · nabídka bez DPH · koeficient k předpokládané
+// hodnotě · o kolik % byla nabídka dražší než vítězná · stav (vyloučen /
+// odstoupil s důvodem). Řazení: hodnocení účastníci dle pořadí (pak ceny),
+// vyloučení a odstoupivší na konec. nase = ručně zadaná naše cena (📨).
+function biddersHTML(x, open, nase) {
   if (!x.bidders || !x.bidders.length) return "";
-  // řazení: známé pořadí, pak cena; vlastní firma (dle IČO) zvýrazněná
-  const bs = x.bidders.slice().sort((a, b) =>
-    (a.poradi ?? 1e9) - (b.poradi ?? 1e9) || (a.cena ?? 1e18) - (b.cena ?? 1e18));
-  const radky = bs.map((b) =>
-    `<li${jeMoje(b) ? ' class="moje"' : ""}>`
-    + (b.poradi != null ? `<small>${b.poradi}.</small> ` : "")
-    + `${esc(b.nazev)}${b.ico ? ` <small>IČO ${esc(b.ico)}</small>` : ""}`
-    + (b.cena != null ? ` — <b>${fmtKc.format(b.cena)} Kč</b>` : "")
-    + (b.vybran ? " 🏆" : "")
-    + (b.vyloucen ? ' <small>(vyloučen)</small>' : "") + "</li>").join("");
-  return `<details class="hist"${open ? " open" : ""}><summary>Nabídky účastníků (${x.bidders.length})</summary><ul>${radky}</ul></details>`;
+  const bs = x.bidders.map((b) =>
+    (jeMoje(b) && b.cena == null && nase != null)
+      ? { ...b, cena: nase, cena_zdroj: "rucne" } : b);
+  // řazení dle nabídkové ceny od nejnižší VČETNĚ vyloučených (pokyn
+  // uživatele: vyloučená nejlevnější firma patří nahoru, s jasným
+  // označením u ceny); bez ceny na konec dle pořadí
+  const mimo = (b) => !!(b.vyloucen || b.odstoupil);
+  bs.sort((a, b) => (a.cena ?? 1e18) - (b.cena ?? 1e18)
+    || (a.poradi ?? 1e9) - (b.poradi ?? 1e9));
+  // vítěz: příznak vybrán, jinak IČO vítěze z výsledku (profily vybran nenesou)
+  const winIcos = (x.winner_ico || "").split(";").map((s) => s.trim()).filter(Boolean);
+  const jeVitez = (b) => !!b.vybran || (!!b.ico && winIcos.includes(b.ico));
+  const vit = bs.find((b) => jeVitez(b) && b.cena != null);
+  const vitCena = vit ? vit.cena
+    : (x.winner_cena ?? (x.estimated ? null : x.price_contracted));
+  // pořadí jen když ho zadavatel uvedl aspoň u dvou účastníků (osamocené
+  // číslo z ISVZ bývá pořadí v jiné části / nesmysl — „7." u jediné firmy)
+  const sPoradim = bs.filter((b) => b.poradi != null).length >= 2;
+  const pct = (v) => (v > 0 ? "+" : v < 0 ? "−" : "±")
+    + Math.abs(v).toLocaleString("cs-CZ", { maximumFractionDigits: 1 }) + " %";
+  const radky = bs.map((b) => {
+    const koef = b.cena != null && x.value
+      ? (b.cena / x.value).toLocaleString("cs-CZ", { minimumFractionDigits: 3, maximumFractionDigits: 3 }) : "";
+    let rozdil = "";
+    if (jeVitez(b)) rozdil = "vítěz";
+    else if (b.cena != null && vitCena) {
+      const r = Math.round((b.cena / vitCena - 1) * 1000) / 10;
+      rozdil = `<span class="${r >= 0 ? "dr" : "lev"}">${pct(r)}</span>`;
+    }
+    const stav = b.odstoupil ? ` <span class="mimo-st" title="${esc(b.duvod || "")}">odstoupila</span>`
+      : b.vyloucen ? ` <span class="mimo-st" title="${esc(b.duvod || "")}">vyloučena</span>` : "";
+    const zdroj = b.cena_zdroj === "dokument" ? ' title="Cena vytěžena z dokumentu řízení (písemná zpráva / oznámení o výběru) — ověřte v dokumentu"'
+      : b.cena_zdroj === "rucne" ? ' title="Naše cena zadaná ručně (📨)"' : "";
+    return `<tr class="${jeMoje(b) ? "moje" : ""}${mimo(b) ? " mimo" : ""}${jeVitez(b) ? " vitez" : ""}">`
+      + `<td class="num" title="pořadí dle hodnocení zadavatele">${sPoradim && b.poradi != null ? b.poradi + "." : ""}</td>`
+      + `<td>${esc(b.nazev)}${jeVitez(b) ? " 🏆" : ""}${b.ico ? ` <small>IČO ${esc(b.ico)}</small>` : ""}${jeMoje(b) ? ' <small class="my">(my)</small>' : ""}`
+      + (mimo(b) && b.duvod ? `<div class="duvod">${esc(b.duvod)}</div>` : "") + "</td>"
+      + `<td class="num"${zdroj}>${b.cena != null ? fmtKc.format(b.cena) + (b.cena_zdroj ? "*" : "") : "—"}${stav}</td>`
+      + `<td class="num">${koef}</td><td class="num">${rozdil}</td></tr>`;
+  }).join("");
+  const sCenou = bs.filter((b) => b.cena != null).length;
+  const zDok = bs.some((b) => b.cena_zdroj === "dokument");
+  const vylouc = bs.filter(mimo).length;
+  const pozn = [
+    zDok ? `* ceny vytěženy z${x.ceny_dok ? ` <a href="${esc(x.ceny_dok)}" target="_blank" rel="noopener">dokumentu řízení</a>` : " dokumentu řízení"} — orientační, ověřte` : "",
+    sCenou < bs.length ? "ceny, které zadavatel nezveřejnil, chybí" : "",
+    !x.value ? "koeficient nelze — předpokládaná hodnota neuvedena" : "",
+  ].filter(Boolean).join(" · ");
+  return `<details class="hist nabidky"${open ? " open" : ""}><summary>Nabídky účastníků (${bs.length}${sCenou ? `, s cenou ${sCenou}` : ""}${vylouc ? `, vyloučeno/odstoupilo ${vylouc}` : ""})</summary>
+    <div class="tw"><table class="bids"><thead><tr><th>#</th><th>Účastník</th><th>Nabídka<br><small>Kč bez DPH</small></th><th title="Nabídková cena / předpokládaná hodnota">Koef.<br><small>k předpokl. h.</small></th><th title="O kolik % byla nabídka dražší (+) či levnější (−) než vítězná">vs. vítěz</th></tr></thead><tbody>${radky}</tbody></table></div>
+    ${pozn ? `<small class="pozn">${pozn}</small>` : ""}</details>`;
 }
 
 // identita firmy VÝHRADNĚ dle IČO (Domistav HK vs. Domistav CZ)
 const FIRMA_ICO = "26007177";
+// NEN záznamy nesou místo IČO jen id subjektu v NEN (viz config.py)
+const FIRMA_NIPEZ_IDS = ["d2a936f7-5dc2-4f70-99bf-fbac8905afb6"];
 function jeMoje(b) {
-  return b.ico === FIRMA_ICO || (b.icos || []).includes(FIRMA_ICO);
+  return b.ico === FIRMA_ICO || (b.icos || []).includes(FIRMA_ICO)
+    || FIRMA_NIPEZ_IDS.includes(b.nid);
 }
 
 // Smlouva k OBLÍBENÉ ★ zakázce dohledaná v Registru smluv (párování
@@ -610,7 +657,9 @@ function render() {
 
 // Vazba na Registr smluv (data/smlouvy.json) — dodatky a verifikace cen.
 function linkOf(c) {
-  return (state.smlouvy || {})[c.id];
+  const s = state.smlouvy || {};
+  // sloučená duplicita: vazba může viset na id sloučeného záznamu
+  return s[c.id] || (c.slouceno || []).map((i) => s[i]).find(Boolean);
 }
 
 // Poměr ceny k předpokládané hodnotě (vítězná / naše nabídka) — tag.
@@ -627,7 +676,7 @@ function pomerHTML(cena, hodnota, co) {
 // vítěze). Pravděpodobné rozpočty dle názvu souboru jsou zvýrazněné;
 // rozpočet bývá i uvnitř jediného PDF smlouvy — proto vždy všechny.
 function prilohyHTML(x) {
-  const l = (state.smlouvy || {})[x.id];
+  const l = linkOf(x);
   const page = (l && l.url) || x.registr_url || "";
   if (!page) return "";
   const pr = (state.prilohy || {})[page];
@@ -872,10 +921,14 @@ function ucastiEntries() {
     out.set(u.id, { ...u, auto: true });
   }
   const dleKlice = new Map();
-  for (const u of out.values()) if (u.authority_ico) dleKlice.set(klic(u), u);
+  const dleSlouc = new Map();
+  for (const u of out.values()) {
+    if (u.authority_ico) dleKlice.set(klic(u), u);
+    for (const s of u.slouceno || []) dleSlouc.set(s, u);
+  }
   for (const [id, e] of Object.entries(state.mojeRucne || {})) {
     const t = state.tenders.find((x) => x.id === id) || e.t || { title: "?" };
-    let u = out.get(id) || (t.authority_ico && dleKlice.get(klic(t)));
+    let u = out.get(id) || dleSlouc.get(id) || (t.authority_ico && dleKlice.get(klic(t)));
     if (!u) {
       const c = (state.comp || []).find((x) => x.id === id
         || (t.authority_ico && x.authority_ico && klic(x) === klic(t)));
@@ -931,8 +984,14 @@ function ucastRowHTML(u) {
   }
   const pocet = (u.bidders || []).length;
   // pořadí jen u víc účastníků — ISVZ občas uvádí nesmysl (4. z 1)
-  const poradi = u.my && u.my.poradi != null && pocet > 1
+  const sPoradim = (u.bidders || []).filter((b) => b.poradi != null).length >= 2;
+  // bez pořadí od zadavatele: naše pořadí dle ceny mezi hodnocenými
+  const hodn = (u.bidders || []).filter((b) => b.cena != null && !b.vyloucen && !b.odstoupil);
+  const dleCeny = nase != null && hodn.length > 1
+    ? hodn.filter((b) => b.cena < nase - 0.5).length + 1 : null;
+  const poradi = u.my && u.my.poradi != null && pocet > 1 && sPoradim
     ? `<span class="tag">pořadí ${u.my.poradi} z ${pocet}</span>`
+    : dleCeny ? `<span class="tag" title="Pořadí podle nabídkové ceny mezi hodnocenými nabídkami (zadavatel mohl hodnotit i jiná kritéria)">${dleCeny}. nejnižší cena z ${hodn.length}</span>`
     : (pocet > 1 ? `<span class="tag">${pocet} účastníků</span>` : "");
   const puvod = u.rucne
     ? '<span class="tag rucne" title="Označeno tlačítkem 📨 — uloženo jen v prohlížeči/soukromém Gistu">📨 označeno ručně</span>' : "";
@@ -956,7 +1015,7 @@ function ucastRowHTML(u) {
         ${u.vysledek !== "vyhra" ? pomerHTML(nase, u.value, "naše nabídka") : ""}
       </div>
       ${nase != null ? `<div class="zd">naše nabídka: <b>${fmtKc.format(nase)} Kč</b> bez DPH</div>` : ""}
-      ${biddersHTML(u)}
+      ${biddersHTML(u, (u.bidders || []).length > 1, nase)}
       ${prilohyHTML(u)}
     </div>
     ${val}

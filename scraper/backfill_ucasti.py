@@ -14,6 +14,7 @@ from __future__ import annotations
 import datetime as dt
 import io
 import json
+import os
 import pathlib
 import sys
 import zipfile
@@ -54,9 +55,11 @@ def _oprav_konkurenci(comp: dict[str, dict], recs: list[dict]) -> int:
         if not c.get("winner") and aw.get("winner"):
             c["winner"], c["winner_ico"] = aw["winner"], aw.get("winner_ico") or ""
             zmena = True
-        if not c.get("bidders") and t.get("bidders"):
-            c["bidders"] = t["bidders"]
-            zmena = True
+        if t.get("bidders"):     # doplní i vyloučení/odstoupení a důvody
+            b = ucasti.slouc_bidders(c.get("bidders") or [], t["bidders"])
+            if b != (c.get("bidders") or []):
+                c["bidders"] = b
+                zmena = True
         if c.get("value") is None and t.get("value") is not None:
             c["value"] = t["value"]          # poměr vítězná cena / předpokl.
             zmena = True
@@ -78,8 +81,11 @@ def main(od: str) -> int:
     print(f"archivy repozitáře: {len(nalezeno)} účastí", flush=True)
     while (y, m) <= (today.year, today.month):
         url = config.ISVZ_DOWNLOAD_URLS[0].format(year=y, month=m)
+        # BACKFILL_CACHE=<složka>: už stažené VZ-MM-RRRR.zip (mimo repozitář)
+        cached = pathlib.Path(os.environ.get("BACKFILL_CACHE", "-"),
+                              f"VZ-{m:02d}-{y}.zip")
         try:
-            raw = fetch_isvz._get(url)
+            raw = cached.read_bytes() if cached.is_file() else fetch_isvz._get(url)
             if raw is None:
                 print(f"{y}-{m:02d}: export neexistuje", flush=True)
             else:
@@ -104,6 +110,9 @@ def main(od: str) -> int:
             y, m = y + 1, 1
     meta = ucasti.merge_save(nalezeno)
     if opraveno:
+        import main as hlavni           # slučování duplicit Konkurence
+        comp_list = sorted(hlavni._dedup_competition(comp_list),
+                           key=lambda c: c["awarded"], reverse=True)
         comp_path.write_text(json.dumps(comp_list, ensure_ascii=False,
                                         indent=1), "utf-8")
     print(f"Konkurence: doplněno u {opraveno} záznamů "

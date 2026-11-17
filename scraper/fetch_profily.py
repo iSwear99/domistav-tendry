@@ -80,6 +80,25 @@ def _first(el: ET.Element, tag: str) -> str:
     return vals[0] if vals else ""
 
 
+def xml_ucastnik(u: ET.Element) -> dict:
+    """<ucastnik> z XML profilu → bidder (stejný tvar jako z ISVZ)."""
+    cena = _first(u, "nabidkova_cena_bez_dph")
+    try:
+        cena_f = float(cena) if cena else None
+    except ValueError:
+        cena_f = None
+    odstoupil = _first(u, "ucastnik_odstoupil") == "1"
+    duvod = " ".join(_first(u, "duvod_vylouceni").split())[:300]
+    return {
+        "nazev": _first(u, "nazev_subjektu"),
+        "ico": _first(u, "ico"),
+        "cena": cena_f,
+        "vyloucen": _first(u, "ucastnik_vyloucen") == "1" and not odstoupil,
+        **({"odstoupil": True} if odstoupil else {}),
+        **({"duvod": duvod} if duvod else {}),
+    }
+
+
 def _deadline(el: ET.Element) -> str:
     """Konec lhůty podání (před)nabídky; při více částech nejpozdější."""
     ends: list[str] = []
@@ -238,13 +257,7 @@ def _fetch_profile(key: str, meta: dict,
         for u in el.iter():
             if _strip_ns(u.tag) != "ucastnik":
                 continue
-            cena = _first(u, "nabidkova_cena_bez_dph")
-            bidders.append({
-                "nazev": _first(u, "nazev_subjektu"),
-                "ico": _first(u, "ico"),
-                "cena": float(cena) if cena else None,
-                "vyloucen": _first(u, "ucastnik_vyloucen") == "1",
-            })
+            bidders.append(xml_ucastnik(u))
         # vybraný dodavatel + smluvní cena + metadata smlouvy → výsledek
         # ve stejném tvaru jako ISVZ (build_competition jej převezme,
         # čímž se do Konkurence dostanou i VZMR, které ISVZ nemá)

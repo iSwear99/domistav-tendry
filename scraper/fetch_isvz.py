@@ -14,7 +14,9 @@ from __future__ import annotations
 import datetime as dt
 import io
 import json
+import re
 import time
+import unicodedata
 import urllib.error
 import urllib.request
 import zipfile
@@ -145,12 +147,21 @@ def _ucastnici_map(zps: list[dict]) -> dict[str, tuple[list[str], list[str]]]:
             for d in u.get("dodavatele") or []:
                 s = d.get("subjekt") or {}
                 n = str(s.get("nazev_subjektu") or "").strip()
-                i = str(s.get("ico") or "").strip()
+                i = _ico(s)
                 if n and n not in names:
                     names.append(n)
                 if i and i not in icos:
                     icos.append(i)
     return out
+
+
+def _ico(subjekt: dict) -> str:
+    """IČO subjektu; vlastní firmu pozná i podle NEN registrace
+    (NEN záznamy v ISVZ IČO nenesou, jen nipez_id_subjektu)."""
+    i = str(subjekt.get("ico") or "").strip()
+    if not i and str(subjekt.get("nipez_id_subjektu") or "") in config.FIRMA_NIPEZ_IDS:
+        return config.FIRMA_ICO
+    return i
 
 
 def _bidders(zps: list[dict]) -> list[dict]:
@@ -170,18 +181,23 @@ def _bidders(zps: list[dict]) -> list[dict]:
             for dd in s.get("dodavatele_se_kterymi_byla_uzavrena_smlouva") or []:
                 if dd.get("identifikace"):
                     vybrani.add(str(dd["identifikace"]))
-        zanikli = {str(z.get("identifikace") or "")
+        # zánik účasti: typ je v datech téměř vždy „Vyloučení…", skutečný
+        # důvod (vč. odstoupení vybraného dodavatele) nese jen volný text
+        zanikli = {str(z.get("identifikace") or ""): _zanik(z)
                    for z in zp.get("ucastnici_jimz_zanikla_ucast_v_zadavacim_postupu") or []}
         for u in zp.get("ucastnici") or []:
-            names, icos = [], []
+            names, icos, nids = [], [], []
             for d in u.get("dodavatele") or []:
                 sub = d.get("subjekt") or {}
                 n = str(sub.get("nazev_subjektu") or "").strip()
-                i = str(sub.get("ico") or "").strip()
+                i = _ico(sub)
+                nid = str(sub.get("nipez_id_subjektu") or "").strip()
                 if n and n not in names:
                     names.append(n)
                 if i and i not in icos:
                     icos.append(i)
+                if nid and not i and nid not in nids:
+                    nids.append(nid)    # NEN: místo IČO jen id subjektu
             if not names and not icos:
                 continue
             cena = poradi = None
@@ -200,16 +216,39 @@ def _bidders(zps: list[dict]) -> list[dict]:
             if key in seen:            # tentýž účastník ve více částech
                 continue
             seen.add(key)
+            zanik = zanikli.get(ident) if ident else None
+            # zpětvzetí nabídky — čte se JEN fakt, ne osoba, která ho provedla
+            zpet = any(p.get("zpetvzeti_podani") for p in u.get("podani") or [])
+            odstoupil = zpet or bool(zanik and zanik["odstoupil"])
             out.append({
                 "nazev": " + ".join(names),
                 "ico": icos[0] if icos else "",
                 **({"icos": icos} if len(icos) > 1 else {}),
+                **({"nid": nids[0]} if nids and not icos else {}),
                 "cena": cena,
                 "poradi": poradi,
                 "vybran": bool(ident) and ident in vybrani,
-                "vyloucen": bool(ident) and ident in zanikli,
+                "vyloucen": bool(zanik) and not odstoupil,
+                **({"odstoupil": True} if odstoupil else {}),
+                **({"duvod": zanik["duvod"]} if zanik and zanik["duvod"] else {}),
             })
     return out
+
+
+_ODSTOUP_RE = re.compile(r"odstoup|zpet\w*\s*vz|vzal[aiy]?\s+zpet|vzat[aáy]?\s+zpet"
+                         r"|nepodepsal|odmitl\w*\s+(uzavrit|podepsat)")
+
+
+def _zanik(z: dict) -> dict:
+    """Zánik účasti → {odstoupil, duvod}. Důvod je text zadavatele
+    (zkrácený); jména osob z podání se nečtou."""
+    duvod = " ".join(str(z.get("jine_oduvodneni") or "").split())
+    typ = str(z.get("typ_zaniku_ucasti") or "")
+    if len(duvod) > 300:
+        duvod = duvod[:297].rstrip() + "…"
+    norm = unicodedata.normalize("NFKD", f"{typ} {duvod}".lower())
+    norm = "".join(c for c in norm if not unicodedata.combining(c))
+    return {"odstoupil": bool(_ODSTOUP_RE.search(norm)), "duvod": duvod or typ}
 
 
 def _pridej_dodavatele(dd: dict, ucast: dict, winners: list[str],
@@ -217,7 +256,7 @@ def _pridej_dodavatele(dd: dict, ucast: dict, winners: list[str],
     """Vítěz ze subjektu, jinak z odkazu na účastníka (identifikace)."""
     subj = dd.get("subjekt") or {}
     names = [str(subj.get("nazev_subjektu") or "").strip()]
-    ids = [str(subj.get("ico") or "").strip()]
+    ids = [_ico(subj)]
     if not any(names) and not any(ids):
         ref = (str(dd.get("identifikace") or "")
                or str(dd.get("identifikator_ucastnika_zadavaciho_postupu") or ""))

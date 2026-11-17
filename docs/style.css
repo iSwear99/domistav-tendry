@@ -342,3 +342,29 @@ body {
 
 .tag.dist { background: var(--steel); border-color: var(--steel); color: #fff;
   text-transform: none; font-variant-numeric: tabular-nums; }
+
+/* tabulka nabídek účastníků (pořadí, koeficient k PH, rozdíl vs. vítěz) */
+.nabidky .tw { overflow-x: auto; margin: 6px 0 2px; }
+table.bids { border-collapse: collapse; width: 100%; font-size: 12.5px; }
+table.bids th { text-align: left; font-weight: 600; color: var(--muted);
+  border-bottom: 1px solid var(--line); padding: 3px 6px; vertical-align: bottom; }
+table.bids th small { font-weight: 400; }
+table.bids td { padding: 3px 6px; border-bottom: 1px solid var(--line);
+  vertical-align: top; }
+table.bids td.num, table.bids th:nth-child(n+3) { text-align: right;
+  white-space: nowrap; font-variant-numeric: tabular-nums; }
+table.bids td:first-child { color: var(--muted); width: 1%; }
+table.bids tr.moje td { background: #fdf3ec; }
+table.bids small.my { color: var(--accent-ink); font-weight: 600; }
+/* tučně JEN skutečně vybraná firma */
+table.bids tr.vitez td { font-weight: 700; }
+table.bids tr.mimo td { color: var(--muted); }
+table.bids .mimo-st { display: inline-block; margin-left: 6px; padding: 0 5px;
+  border: 1px solid #e0a58c; border-radius: 3px; color: #b34a1f;
+  font-size: 11px; font-weight: 600; }
+table.bids .dr { color: #b34a1f; }
+table.bids .lev { color: var(--ok); }
+table.bids .duvod { font-size: 11.5px; color: var(--muted); font-weight: 400;
+  margin-top: 2px; white-space: normal; }
+.nabidky .pozn { display: block; color: var(--muted); font-size: 11.5px; }
+.nabidky .pozn a { color: var(--accent); }

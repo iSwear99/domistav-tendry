@@ -685,8 +685,85 @@ def build_competition(all_t: list[dict], today: str) -> list[dict]:
     merged = {c["id"]: c for c in _load_json(config.OUT_COMPETITION, [])
               if _sector_ok(c)}
     for t in located:
-        merged[t["id"]] = flat(t)
-    return sorted(merged.values(), key=lambda c: c["awarded"], reverse=True)
+        new = flat(t)
+        old = merged.get(t["id"])
+        if old:     # údaje dotěžené dřív (sloučené duplicity) se neztratí
+            new["bidders"] = ucasti.slouc_bidders(new.get("bidders") or [],
+                                                  old.get("bidders") or [])
+            if not new["bidders"]:
+                del new["bidders"]
+            if old.get("slouceno"):
+                new["slouceno"] = old["slouceno"]
+        merged[t["id"]] = new
+    out = _dedup_competition(list(merged.values()))
+    return sorted(out, key=lambda c: c["awarded"], reverse=True)
+
+
+def _comp_tataz(a: dict, b: dict) -> bool:
+    """Táž zadaná zakázka v Konkurenci (ISVZ × profil, dvě registrová id):
+    stejný zadavatel, datum smlouvy ±3 dny, shodný (příp. useknutý) název
+    a tentýž vítěz nebo shodná cena. Různí vítězové = různé zakázky."""
+    if not a.get("authority_ico") or a["authority_ico"] != b.get("authority_ico"):
+        return False
+    da, db = ucasti._datum(a.get("awarded")), ucasti._datum(b.get("awarded"))
+    if not da or not db or abs((da - db).days) > 3:
+        return False
+    if not ucasti._nazvy_shodne(a["title"], b["title"]):
+        ta = set(ucasti._norm(a["title"]).split())
+        tb = set(ucasti._norm(b["title"]).split())
+        kratsi, delsi = sorted((ta, tb), key=len)
+        if not (len(kratsi) >= 5 and kratsi <= delsi):
+            return False
+    # různé smluvní ceny = různé zakázky (opakované objednávky téhož
+    # názvu u téhož dodavatele týž den — svoz odpadu apod.)
+    pa, pb = a.get("price_contracted"), b.get("price_contracted")
+    if pa and pb and not a.get("estimated") and not b.get("estimated") \
+            and abs(pa - pb) > 0.005 * max(pa, pb):
+        return False
+    wa = {i.strip() for i in (a.get("winner_ico") or "").split(";") if i.strip()}
+    wb = {i.strip() for i in (b.get("winner_ico") or "").split(";") if i.strip()}
+    if wa and wb:
+        return bool(wa & wb)
+    na, nb = ucasti._norm(a.get("winner") or ""), ucasti._norm(b.get("winner") or "")
+    return not na or not nb or na[:12] == nb[:12]
+
+
+_COMP_DOPLNIT = ("winner", "winner_ico", "value", "price_paid", "growth_pct",
+                 "registr_url", "dist_km", "url")
+
+
+def _dedup_competition(recs: list[dict]) -> list[dict]:
+    """Duplicity Konkurence (pokyn 17. 11. 2026): sloučit, ale nic neztratit.
+    Ponechá se ISVZ id (stabilní klíč vazeb Registru smluv a dokumentů),
+    pole a účastníci (ceny z profilu!) se doplní ze sloučených, jejich id
+    zůstávají v `slouceno` pro dohledání vazeb."""
+    def skore(c: dict) -> tuple:
+        b = c.get("bidders") or []
+        return (c.get("source") == "isvz", not c.get("estimated"),
+                sum(1 for x in b if x.get("cena") is not None), len(b), c["id"])
+    groups: list[list[dict]] = []
+    for c in sorted(recs, key=skore, reverse=True):
+        g = next((g for g in groups if all(_comp_tataz(c, o) for o in g)), None)
+        (groups.append([c]) if g is None else g.append(c))
+    out = []
+    for g in groups:
+        win = dict(g[0])
+        sl = set(win.get("slouceno") or [])
+        for o in g[1:]:
+            for k in _COMP_DOPLNIT:
+                if win.get(k) in (None, "") and o.get(k) not in (None, ""):
+                    win[k] = o[k]
+            if win.get("estimated") and not o.get("estimated") and o.get("price_contracted"):
+                win["price_contracted"], win["estimated"] = o["price_contracted"], False
+            b = ucasti.slouc_bidders(win.get("bidders") or [], o.get("bidders") or [])
+            if b:
+                win["bidders"] = b
+            sl |= {o["id"], *(o.get("slouceno") or [])}
+        sl.discard(win["id"])
+        if sl:
+            win["slouceno"] = sorted(sl)
+        out.append(win)
+    return out
 
 
 def _prev_count() -> int:

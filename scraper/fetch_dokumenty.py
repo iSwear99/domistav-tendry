@@ -310,6 +310,12 @@ def run() -> int:
     }, ensure_ascii=False, indent=1), "utf-8")
     print(f"dokumenty: ZD {len(zd)} (+{n1}), zprávy {len(zpravy)} (+{n2}), "
           f"chyb {len(errors)}")
+    # Moje účasti: ceny ostatních nabídek z písemných zpráv (nesmí shodit krok)
+    try:
+        import ucasti_ceny
+        print(ucasti_ceny.run())
+    except Exception as exc:  # noqa: BLE001
+        print(f"ucasti_ceny: chyba {exc}")
     return 0
 
 

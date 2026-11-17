@@ -315,6 +315,29 @@ ji překládá (dříve 39 % Konkurence „vítěz neuveden"); `bidders` nyní
 nesou i ISVZ záznamy (Konkurence ukazuje všechny nabídky).
 Konkurence nese i `value` (předpokládaná hodnota) ⇒ UI ukazuje poměr
 vítězné ceny k ní (tag + medián v TOP firmách; u odhadnutých cen ne).
+**Doplněno 17. 11. 2026 večer:**
+- Identita firmy i dle `config.FIRMA_NIPEZ_IDS`: NEN záznamy nesou
+  v ISVZ místo IČO jen `nipez_id_subjektu` (bez toho unikala ~½ účastí,
+  např. hospic Hořice). Jiné firmy NEN id → `nid` v bidders.
+- Bidders: `odstoupil`, `duvod` (ISVZ `ucastnici_jimz_zanikla_ucast…`
+  — typ je skoro vždy „Vyloučení", odstoupení se pozná z textu důvodu;
+  `zpetvzeti_podani` = jen fakt, osoby se nečtou; XML profilů
+  `ucastnik_odstoupil`, `duvod_vylouceni`).
+- **Ceny ostatních nabídek z dokumentů** (`scraper/ucasti_ceny.py`, volá
+  ho fetch_dokumenty.py): ISVZ i XML profilů ceny většinou NEMAJÍ, písemná
+  zpráva (§ 217) / oznámení o výběru ano. Jen Moje účasti s výsledkem;
+  XML profilu v okně řízení → účastníci + dokumenty → ceny ZNÁMÝCH
+  účastníků z řádku se jménem/IČO; pojistky věrohodnosti, ověření vítěze
+  proti smluvní ceně (s DPH ⇒ ÷1,21), min. 2 ceny, nic se nepřepisuje.
+  `cena_zdroj: "dokument"`, `ceny_dok`, `ceny_kontrola` (retry 30 dní).
+- **Duplicity** (pokyn: „žádné duplicity, ale nic nesmí chybět"):
+  ucasti.extract_merged i main._dedup_competition slučují tutéž zakázku
+  (ISVZ × profil, dvě RVZ id): IČO zadavatele + název shodný/useknutý
+  (příp. podmnožina slov při shodné lhůtě) + žádný rozlišující údaj
+  (různé lhůty, vítězové, smluvní ceny, data smluv). Skupina přijme člen
+  jen když je kompatibilní se VŠEMI (žádné řetězení přes torzo). Údaje
+  i účastníci se slučují (`slouc_bidders`), sloučená id v `slouceno`
+  (UI podle nich dohledá vazbu Registru smluv a ruční 📨).
 
 **Přílohy smluv / položkový rozpočet vítěze** (pokyn 17. 11. 2026,
 fetch_smlouvy.py): `smlouvy.json → prilohy: {stránka smlouvy: [{nazev,
