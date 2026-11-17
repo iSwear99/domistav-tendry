@@ -63,4 +63,5 @@ jobs:
       - name: Commit data
         if: env.SKIP != '1'
         # společný skript s PC workflow (záložní cesta + opakovaný push)
-        run: python -X utf8 scraper/commit_data.py "data: $(date -u +%F) (cloud)" docs/data/
+        run: |
+          python -X utf8 scraper/commit_data.py "data: $(date -u +%F) (cloud)" docs/data/
