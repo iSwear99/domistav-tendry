@@ -23,6 +23,7 @@ nic neuložil. Skript proto:
 """
 from __future__ import annotations
 
+import os
 import subprocess
 import sys
 
@@ -116,8 +117,11 @@ def _sjednot(changed: list[str], msg: str) -> None:
 
 def main(msg: str, paths: list[str]) -> int:
     _zapomen_rozpracovane()
-    git("config", "user.name", "domistav-tendry-bot")
-    git("config", "user.email", "actions@users.noreply.github.com")
+    # identita bota jen pro tento proces — `git config` by ji natrvalo
+    # zapsal do repa a při ručním spuštění přepsal autora uživatele
+    for kdo in ("AUTHOR", "COMMITTER"):
+        os.environ[f"GIT_{kdo}_NAME"] = "domistav-tendry-bot"
+        os.environ[f"GIT_{kdo}_EMAIL"] = "actions@users.noreply.github.com"
     git("add", "-A", "--", *paths)
     if git("diff", "--cached", "--quiet", check=False).returncode == 0:
         print("Beze změn.")
