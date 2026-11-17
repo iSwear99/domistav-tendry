@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-11-17T13:15:16+00:00",
-  "zd": 625,
-  "zpravy": 1673,
-  "novych": 3,
+  "updated": "2026-11-17T14:44:56+00:00",
+  "zd": 641,
+  "zpravy": 1693,
+  "novych": 6,
   "errors": []
  },
  "zd": {
@@ -1716,9 +1716,6 @@
   "profil:pvu:42937736:P26V00006480": {
    "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3932571"
   },
-  "profil:pvu:00234591:P26V00006515": {
-   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3933629"
-  },
   "rvz:RVZ2600293050": {
    "nenalezeno": true
   },
@@ -1825,12 +1822,6 @@
   "profil:pvu:45193363:P26V00006577": {
    "nenalezeno": true
   },
-  "profil:pvu:00234591:P26V00006600": {
-   "nenalezeno": true
-  },
-  "profil:trutnov:VZ-1872": {
-   "doc_url": "https://zakazky.trutnov.cz/document_download_8977.html"
-  },
   "profil:pvu:45192944:P26V00006609": {
    "nenalezeno": true
   },
@@ -1849,9 +1840,6 @@
   "profil:pvu:00545503:P26V00006705": {
    "nenalezeno": true
   },
-  "profil:pvu:00240028:P26V00006681": {
-   "nenalezeno": true
-  },
   "profil:pvu:66181127:P26V00006709": {
    "nenalezeno": true
   },
@@ -1860,9 +1848,6 @@
   },
   "profil:kr-pardubicky:VZ-6516": {
    "doc_url": "https://zakazky.pardubickykraj.cz/document_download_63483.html"
-  },
-  "profil:kr-kralovehradecky:VZ-13272": {
-   "doc_url": "https://zakazky.cenakhk.cz/document_download_150467.html"
   },
   "profil:kr-kralovehradecky:VZ-13299": {
    "doc_url": "https://zakazky.cenakhk.cz/document_download_150494.html"
@@ -1929,6 +1914,81 @@
    "nenalezeno": true
   },
   "rvz:RVZ2600293591": {
+   "nenalezeno": true
+  },
+  "profil:sken-00274101:VZ-291": {
+   "doc_url": "https://zakazky.mestoprelouc.cz/contract_display_291.html?open=doc_zad",
+   "hodnota": 4193000.0,
+   "misto": "pardubicky kraj"
+  },
+  "profil:sken-70889546:P26V00000862": {
+   "doc_url": "https://zakazky.cenakhk.cz/contract_display_13272.html?open=doc_zad",
+   "hodnota": 127742000.0,
+   "misto": "kralovehradecky kraj"
+  },
+  "profil:sken-00236195:VZ-623": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600298059": {
+   "nenalezeno": true
+  },
+  "profil:sken-70889546:P26V00000885": {
+   "doc_url": "https://zakazky.cenakhk.cz/contract_display_13294.html?open=doc_zad",
+   "hodnota": 35000000.0,
+   "misto": "jicin"
+  },
+  "profil:sken-00274101:VZ-289": {
+   "doc_url": "https://zakazky.mestoprelouc.cz/contract_display_289.html?open=doc_zad",
+   "hodnota": 6573000.0,
+   "misto": "pardubicky kraj"
+  },
+  "profil:sken-03630919:VZ-4244": {
+   "nenalezeno": true
+  },
+  "profil:sken-00278360:P26V00000114": {
+   "doc_url": "https://zakazky.trutnov.cz/contract_display_1872.html?open=doc_zad",
+   "hodnota": 4851559.0,
+   "misto": "trutnov"
+  },
+  "profil:sken-00234591:P26V00006600": {
+   "nenalezeno": true
+  },
+  "profil:sken-00240028:P26V00006681": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600299104": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600299127": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600299139": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600299151": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600299167": {
+   "nenalezeno": true
+  },
+  "profil:sken-48161110:VZ-6540": {
+   "nenalezeno": true
+  },
+  "profil:sken-00274101:VZ-285": {
+   "doc_url": "https://zakazky.mestoprelouc.cz/contract_display_285.html?open=doc_zad",
+   "hodnota": 11400000.0,
+   "misto": "pardubicky kraj"
+  },
+  "profil:sken-00271071:P26V00006541": {
+   "nenalezeno": true
+  },
+  "profil:sken-00278955:P26V00000011": {
+   "nenalezeno": true
+  },
+  "profil:sken-64809447:P26V00000090": {
+   "nenalezeno": true
+  },
+  "profil:sken-00278955:P26V00000010": {
    "nenalezeno": true
   }
  },
@@ -6988,6 +7048,66 @@
    "nenalezeno": true
   },
   "rvz:RVZ2500198027": {
+   "nenalezeno": true
+  },
+  "profil:sken-48136450:VZ-1304": {
+   "nenalezeno": true
+  },
+  "profil:sken-00085031:VZ-1611": {
+   "nenalezeno": true
+  },
+  "profil:sken-27520536:VZ-6439": {
+   "nenalezeno": true
+  },
+  "profil:sken-70891095:VZ-19303": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600287102": {
+   "nenalezeno": true
+  },
+  "profil:sken-00236195:VZ-625": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600112812": {
+   "nenalezeno": true
+  },
+  "profil:sken-00275301:P26V00006756": {
+   "nenalezeno": true
+  },
+  "profil:sken-27520536:VZ-6308": {
+   "nenalezeno": true
+  },
+  "profil:sken-27520536:VZ-6309": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600111895": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600096848": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600085706": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600080127": {
+   "nenalezeno": true
+  },
+  "profil:sken-00085031:VZ-1481": {
+   "nenalezeno": true
+  },
+  "profil:sken-00087815:VZ-12560": {
+   "nenalezeno": true
+  },
+  "profil:sken-00085031:VZ-1455": {
+   "nenalezeno": true
+  },
+  "profil:sken-60153296:VZ-12278": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500148711": {
+   "nenalezeno": true
+  },
+  "profil:sken-00183024:VZ0227289": {
    "nenalezeno": true
   }
  }

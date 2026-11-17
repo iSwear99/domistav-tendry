@@ -1,19 +1,15 @@
 {
  "meta": {
-  "updated": "2026-11-17T14:20:16+00:00",
+  "updated": "2026-11-17T14:45:43+00:00",
   "model": "claude-opus-5",
-  "posouzeno_nyni": 0,
-  "celkem": 532,
+  "posouzeno_nyni": 54,
+  "celkem": 586,
   "counts": {
-   "ano": 250,
-   "ne": 182,
-   "nejisto": 100
+   "ano": 268,
+   "ne": 211,
+   "nejisto": 107
   },
-  "errors": [
-   "AI dávka 0: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Ch8eWGXMZVTasw8WjT9Sj'}",
-   "AI dávka 1: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Ch8eWHEWhqX8TPKTs7f5Z'}",
-   "AI dávka 2: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Ch8eWHzARMnNF3cNR6tnR'}"
-  ]
+  "errors": []
  },
  "verdikty": {
   "rvz:RVZ2600078991": {
@@ -2143,6 +2139,222 @@
   "profil:pvu:45193363:P26V00006577": {
    "verdikt": "ano",
    "duvod": "Energeticky úsporná opatření budovy skladu"
+  },
+  "profil:pvu:45192944:P26V00006609": {
+   "verdikt": "nejisto",
+   "duvod": "Topenářská technologie, nejasný rozsah stavebních prací"
+  },
+  "profil:sken-00274101:VZ-291": {
+   "verdikt": "ne",
+   "duvod": "Rekonstrukce ulice – dopravní infrastruktura"
+  },
+  "profil:sken-70889546:P26V00000862": {
+   "verdikt": "ano",
+   "duvod": "Novostavba učeben školy, bourací a stavební práce"
+  },
+  "profil:sken-00236195:VZ-623": {
+   "verdikt": "ano",
+   "duvod": "Rekonstrukce bytového domu"
+  },
+  "rvz:RVZ2600298059": {
+   "verdikt": "nejisto",
+   "duvod": "Strojovna a rozvody, nejasný stavební rozsah"
+  },
+  "profil:sken-70889546:P26V00000885": {
+   "verdikt": "nejisto",
+   "duvod": "Modernizace prádelny, možná převaha technologie"
+  },
+  "profil:sken-00274101:VZ-289": {
+   "verdikt": "ne",
+   "duvod": "Veřejné osvětlení a sítě podél silnice"
+  },
+  "rvz:RVZ2600286627": {
+   "verdikt": "ano",
+   "duvod": "Stavební úpravy objektu – pozemní stavitelství"
+  },
+  "profil:pvu:64811069:P26V00006878": {
+   "verdikt": "ano",
+   "duvod": "Oprava terasy budovy divadla"
+  },
+  "profil:pvu:28343115:P26V00006867": {
+   "verdikt": "ano",
+   "duvod": "Výstavba nájemního bydlení"
+  },
+  "profil:sken-03630919:VZ-4244": {
+   "verdikt": "ne",
+   "duvod": "Oprava bateriových modulů, nikoli stavba"
+  },
+  "profil:kr-kralovehradecky:VZ-13103": {
+   "verdikt": "ano",
+   "duvod": "Výstavba a rekonstrukce administrativní budovy"
+  },
+  "rvz:RVZ2600294014": {
+   "verdikt": "ne",
+   "duvod": "Železniční trať – drážní stavba"
+  },
+  "profil:pvu:66181127:P26V00006709": {
+   "verdikt": "ano",
+   "duvod": "Výstavba bytových objektů"
+  },
+  "profil:pvu:24814644:P26V00006872": {
+   "verdikt": "ano",
+   "duvod": "Snížení energetické náročnosti objektu"
+  },
+  "profil:pvu:00545503:P26V00006705": {
+   "verdikt": "ne",
+   "duvod": "Dodávka kamerového systému"
+  },
+  "profil:kr-pardubicky:VZ-6519": {
+   "verdikt": "ano",
+   "duvod": "Rekonstrukce střechy školní budovy"
+  },
+  "profil:kr-kralovehradecky:VZ-13299": {
+   "verdikt": "nejisto",
+   "duvod": "Bleskosvody – převážně elektroinstalační práce"
+  },
+  "rvz:RVZ2600295139": {
+   "verdikt": "ne",
+   "duvod": "Opravy spalovacích motorů"
+  },
+  "rvz:RVZ2600120756": {
+   "verdikt": "ne",
+   "duvod": "Silniční stavba a napojení na dálnici"
+  },
+  "profil:trutnov:VZ-1876": {
+   "verdikt": "nejisto",
+   "duvod": "Hřiště a zeleň, nejasný podíl stavby"
+  },
+  "rvz:RVZ2600294351": {
+   "verdikt": "ne",
+   "duvod": "Varovný systém, technologie a IT"
+  },
+  "profil:trutnov:VZ-1877": {
+   "verdikt": "ne",
+   "duvod": "Zpracování projektové dokumentace"
+  },
+  "profil:sken-00278360:P26V00000114": {
+   "verdikt": "ano",
+   "duvod": "Rozšíření parkoviště – zpevněné plochy"
+  },
+  "rvz:RVZ2600295115": {
+   "verdikt": "ne",
+   "duvod": "Interiérové vybavení a nábytek"
+  },
+  "profil:sken-00234591:P26V00006600": {
+   "verdikt": "ano",
+   "duvod": "Renovace střechy a fasády budovy"
+  },
+  "rvz:RVZ2600294503": {
+   "verdikt": "ne",
+   "duvod": "Singletrail, terénní cyklotrasa, nikoli pozemní stavba"
+  },
+  "rvz:RVZ2600294003": {
+   "verdikt": "ne",
+   "duvod": "Oprava silnice I/35"
+  },
+  "rvz:RVZ2600293864": {
+   "verdikt": "ano",
+   "duvod": "Komplexní rekonstrukce školy"
+  },
+  "rvz:RVZ2600294370": {
+   "verdikt": "ne",
+   "duvod": "Výzkum a vývoj materiálů"
+  },
+  "rvz:RVZ2600297027": {
+   "verdikt": "ano",
+   "duvod": "Demolice objektů v areálu"
+  },
+  "profil:sken-00240028:P26V00006681": {
+   "verdikt": "nejisto",
+   "duvod": "Fotovoltaika na budovách, převážně technologie"
+  },
+  "rvz:RVZ2600299104": {
+   "verdikt": "ne",
+   "duvod": "Opravy gastro technologie"
+  },
+  "rvz:RVZ2600299127": {
+   "verdikt": "ne",
+   "duvod": "Opravy gastro technologie"
+  },
+  "rvz:RVZ2600299139": {
+   "verdikt": "ne",
+   "duvod": "Opravy gastro technologie"
+  },
+  "rvz:RVZ2600299151": {
+   "verdikt": "ne",
+   "duvod": "Opravy gastro technologie"
+  },
+  "rvz:RVZ2600299167": {
+   "verdikt": "ne",
+   "duvod": "Opravy gastro zařízení"
+  },
+  "profil:pvu:17577713:P26V00006665": {
+   "verdikt": "ano",
+   "duvod": "Energetické úspory, střecha objektu"
+  },
+  "profil:pvu:17577713:P26V00006664": {
+   "verdikt": "ano",
+   "duvod": "Energetické úspory, střecha objektu"
+  },
+  "profil:kr-pardubicky:VZ-6516": {
+   "verdikt": "ne",
+   "duvod": "Dodávka a montáž klimatizace"
+  },
+  "profil:sken-48161110:VZ-6540": {
+   "verdikt": "ano",
+   "duvod": "Stavební úpravy dispozic suterénu budovy"
+  },
+  "profil:sken-00274101:VZ-285": {
+   "verdikt": "ne",
+   "duvod": "Rekonstrukce ulic, dopravní stavba"
+  },
+  "profil:sken-00271071:P26V00006541": {
+   "verdikt": "ano",
+   "duvod": "Výstavba parkoviště, zpevněné plochy"
+  },
+  "rvz:RVZ2600290590": {
+   "verdikt": "ne",
+   "duvod": "Obnova vodního díla"
+  },
+  "rvz:RVZ2600289287": {
+   "verdikt": "ne",
+   "duvod": "Projektová dokumentace"
+  },
+  "profil:sken-00278955:P26V00000011": {
+   "verdikt": "ne",
+   "duvod": "Cyklostezka, dopravní stavba"
+  },
+  "profil:sken-64809447:P26V00000090": {
+   "verdikt": "ne",
+   "duvod": "Veřejné osvětlení bez stavební části"
+  },
+  "profil:sken-00278955:P26V00000010": {
+   "verdikt": "ne",
+   "duvod": "Dodávka promítací techniky"
+  },
+  "rvz:RVZ2600118322": {
+   "verdikt": "ne",
+   "duvod": "IT portál"
+  },
+  "rvz:RVZ2600159196": {
+   "verdikt": "ano",
+   "duvod": "Rekonstrukce objektu a novostavba garáže"
+  },
+  "rvz:RVZ2600292649": {
+   "verdikt": "ne",
+   "duvod": "Servis výpočetní techniky, nikoli stavební práce"
+  },
+  "rvz:RVZ2600159049": {
+   "verdikt": "nejisto",
+   "duvod": "Modernizace vytápění budov, nejasný rozsah stavebních prací"
+  },
+  "rvz:RVZ2600294407": {
+   "verdikt": "ne",
+   "duvod": "Dopravní a technická infrastruktura, nikoli pozemní stavby"
+  },
+  "rvz:RVZ2600293591": {
+   "verdikt": "ne",
+   "duvod": "Opravy přístrojů, nikoli stavební práce"
   }
  }
 }
