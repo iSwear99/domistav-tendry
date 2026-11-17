@@ -722,15 +722,10 @@ def _zdravi(last_isvz: str, today: str) -> list[str]:
         except ValueError:
             return None
 
-    ai_err = " ".join(_load_json("docs/data/ai_filter.json", {})
-                      .get("meta", {}).get("errors", []))
-    if "401" in ai_err or "authentication" in ai_err:
-        out.append("⚠ AI filtr nefunguje: neplatný API klíč — vytvořte nový "
-                   "na platform.claude.com a vložte ho do GitHub secretu "
-                   "ANTHROPIC_API_KEY.")
-    elif "credit balance" in ai_err:
-        out.append("⚠ AI filtr nefunguje: došel kredit Anthropic API — "
-                   "dobijte na platform.claude.com.")
+    # stav z minulého běhu; fetch_ai ho po vlastních dávkách přepíše
+    from fetch_ai import ai_varovani
+    out += ai_varovani(_load_json("docs/data/ai_filter.json", {})
+                       .get("meta", {}).get("errors", []))
     n = stari(last_isvz)
     if n is None or n > 10:
         kdy = f"{n} dní" if n is not None else "dlouho"

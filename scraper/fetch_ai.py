@@ -102,6 +102,38 @@ def _load(path: pathlib.Path, default):
         return default
 
 
+AI_VAROVANI = "⚠ AI filtr nefunguje"
+
+
+def ai_varovani(errors: list[str]) -> list[str]:
+    """Varování pro lištu webu z chyb AI dávek (sdílí main._zdravi)."""
+    txt = " ".join(errors)
+    if "401" in txt or "authentication" in txt:
+        return [f"{AI_VAROVANI}: neplatný API klíč — vytvořte nový na "
+                "platform.claude.com a vložte ho do GitHub secretu "
+                "ANTHROPIC_API_KEY."]
+    if "credit balance" in txt:
+        return [f"{AI_VAROVANI}: došel kredit Anthropic API — dobijte "
+                "na platform.claude.com."]
+    return []
+
+
+def _obnov_listu(errors: list[str]) -> None:
+    """main._zdravi běží PŘED tímto krokem a vidí stav AI z minulého
+    běhu — po výměně klíče by lišta strašila ještě den. Proto se AI
+    varování v meta.json přepíše výsledkem právě proběhlých dávek."""
+    p = ROOT / config.OUT_META
+    meta = _load(p, None)
+    if not isinstance(meta, dict):
+        return
+    stare = meta.get("errors") or []
+    nove = ai_varovani(errors) + [e for e in stare
+                                  if not str(e).startswith(AI_VAROVANI)]
+    if nove != stare:
+        meta["errors"] = nove
+        p.write_text(json.dumps(meta, ensure_ascii=False, indent=1), "utf-8")
+
+
 def run() -> int:
     if Anthropic is None:
         print("AI filtr: SDK anthropic není nainstalováno — přeskakuji.")
@@ -165,6 +197,7 @@ def run() -> int:
     }, ensure_ascii=False, indent=1), "utf-8")
     print(f"AI filtr: +{done} verdiktů (celkem {len(verdikty)}: "
           f"{counts}), chyb {len(errors)}")
+    _obnov_listu(errors)
     return 0
 
 
