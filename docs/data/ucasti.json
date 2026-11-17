@@ -1,0 +1,1713 @@
+{
+ "meta": {
+  "updated": "2026-11-17T15:28:25+00:00",
+  "count": 29,
+  "vyhra": 16,
+  "prohra": 11,
+  "ceka": 2
+ },
+ "ucasti": {
+  "rvz:RVZ2600285163": {
+   "id": "rvz:RVZ2600285163",
+   "source": "isvz",
+   "title": "Energetické úspory objektu Kalendova č.p. 747",
+   "authority": "John Nell baby s.r.o.",
+   "authority_ico": "28776941",
+   "url": "https://www.vhodne-uverejneni.cz/profil/john-nell-baby-s-r-o",
+   "kind": "VZ",
+   "published": "",
+   "deadline": "",
+   "value": 11720000.0,
+   "my": {
+    "cena": null,
+    "poradi": 4,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "poradi": 4,
+     "vybran": true,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "vyhra",
+   "winner": "DOMISTAV HK s.r.o.",
+   "winner_ico": "26007177",
+   "winner_cena": null,
+   "price_contracted": 13606975.12,
+   "awarded": "2026-09-17"
+  },
+  "rvz:RVZ2600000191": {
+   "id": "rvz:RVZ2600000191",
+   "source": "isvz",
+   "title": "ČSA 439 - rekonstrukce domu",
+   "authority": "Statutární město Hradec Králové",
+   "authority_ico": "00268810",
+   "url": "https://tenderarena.cz/dodavatel/zakazka/843320",
+   "kind": "VZ",
+   "published": "2026-01-05",
+   "deadline": "2026-02-11T10:00:00",
+   "value": null,
+   "my": {
+    "cena": null,
+    "poradi": null,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "REDOMO a.s.",
+     "ico": "25937499",
+     "cena": null,
+     "poradi": null,
+     "vybran": true,
+     "vyloucen": false
+    },
+    {
+     "nazev": "MESSA Invest, s.r.o.",
+     "ico": "25319540",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "VALC, s.r.o.",
+     "ico": "45537151",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "REKOP s.r.o.",
+     "ico": "27499499",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "ANARKADA s.r.o.",
+     "ico": "05291411",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "prohra",
+   "winner": "REDOMO a.s.",
+   "winner_ico": "25937499",
+   "winner_cena": null,
+   "price_contracted": 37495941.68,
+   "awarded": "2026-06-10"
+  },
+  "profil:sken-00175790:VZ-12398": {
+   "id": "profil:sken-00175790:VZ-12398",
+   "source": "profil:sken-00175790",
+   "title": "Snížení energetické náročnosti školní kuchyně SOŠ a SOU, Hradec Králové Vocelova 1338 – stavební práce",
+   "authority": "Střední odborná škola a Střední odborné učiliště, Hradec Králové, Vocelova 1338",
+   "authority_ico": "00175790",
+   "url": "https://zakazky.cenakhk.cz/profile_display_133.html",
+   "kind": "VZ",
+   "published": "",
+   "deadline": "",
+   "value": null,
+   "my": {
+    "cena": null,
+    "poradi": null,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "vyloucen": false
+    },
+    {
+     "nazev": "ELEKTRO MOSEV spol. s r.o.",
+     "ico": "42228573",
+     "cena": null,
+     "vyloucen": false
+    },
+    {
+     "nazev": "MESSA Invest, s.r.o.",
+     "ico": "25319540",
+     "cena": null,
+     "vyloucen": false
+    },
+    {
+     "nazev": "PS - STAV Náchod s.r.o.",
+     "ico": "28858531",
+     "cena": null,
+     "vyloucen": false
+    },
+    {
+     "nazev": "REDOMO a.s.",
+     "ico": "25937499",
+     "cena": null,
+     "vyloucen": false
+    },
+    {
+     "nazev": "Solution Construction s.r.o.",
+     "ico": "17708095",
+     "cena": null,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "prohra",
+   "winner": "ELEKTRO MOSEV spol. s r.o.",
+   "winner_ico": "42228573",
+   "winner_cena": null,
+   "price_contracted": 4815920.72,
+   "awarded": "2026-05-11"
+  },
+  "profil:kr-kralovehradecky:VZ-12233": {
+   "id": "profil:kr-kralovehradecky:VZ-12233",
+   "source": "profil:kr-kralovehradecky",
+   "title": "MK/22/904 stavební úpravy v budově č.p. 1371, ul. Na Okrouhlíku, Hradec Králové – stavební úpravy",
+   "authority": "Královéhradecký kraj",
+   "authority_ico": "70889546",
+   "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+   "kind": "VZ",
+   "published": "2025-10-02",
+   "deadline": "2026-01-23T10:00:00",
+   "value": null,
+   "my": {
+    "cena": 49713530.48,
+    "poradi": null,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "DCI Czech a.s.",
+     "ico": "04501624",
+     "cena": 58249206.69,
+     "vyloucen": false
+    },
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": 49713530.48,
+     "vyloucen": false
+    },
+    {
+     "nazev": "ELEKTRO MOSEV spol. s r.o.",
+     "ico": "42228573",
+     "cena": 51744023.05,
+     "vyloucen": false
+    },
+    {
+     "nazev": "INGBAU CZ s.r.o.",
+     "ico": "25941127",
+     "cena": 50538379.53,
+     "vyloucen": false
+    },
+    {
+     "nazev": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
+     "ico": "46504621",
+     "cena": 53300000.0,
+     "vyloucen": false
+    },
+    {
+     "nazev": "REDOMO a.s.",
+     "ico": "25937499",
+     "cena": 52896417.88,
+     "vyloucen": false
+    },
+    {
+     "nazev": "RONELI Construction a.s.",
+     "ico": "22365877",
+     "cena": 48944459.77,
+     "vyloucen": true
+    },
+    {
+     "nazev": "S T A K O společnost s ručením omezeným",
+     "ico": "42228468",
+     "cena": 53244044.28,
+     "vyloucen": false
+    },
+    {
+     "nazev": "STYLBAU, s.r.o.",
+     "ico": "25957481",
+     "cena": 55444196.49,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "vyhra",
+   "winner": "DOMISTAV HK s.r.o.",
+   "winner_ico": "26007177",
+   "winner_cena": null,
+   "price_contracted": 49713530.48,
+   "awarded": "2026-04-30"
+  },
+  "rvz:RVZ2500132634": {
+   "id": "rvz:RVZ2500132634",
+   "source": "isvz",
+   "title": "MK/22/904 stavební úpravy v budově č.p. 1371, ul. Na Okrouhlíku, Hradec Králové – stavební úprav",
+   "authority": "Královéhradecký kraj",
+   "authority_ico": "70889546",
+   "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+   "kind": "VZ",
+   "published": "2025-10-02",
+   "deadline": "2026-01-23T10:00:00",
+   "value": 65973833.0,
+   "my": {
+    "cena": null,
+    "poradi": 2,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "poradi": 2,
+     "vybran": true,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "vyhra",
+   "winner": "DOMISTAV HK s.r.o.",
+   "winner_ico": "26007177",
+   "winner_cena": null,
+   "price_contracted": 49713530.48,
+   "awarded": "2026-04-30"
+  },
+  "rvz:RVZ2500203001": {
+   "id": "rvz:RVZ2500203001",
+   "source": "isvz",
+   "title": "Komenského 1214 - zimní stadion – 3. část rekonstrukce sociálního zařízení a rekonstrukce šaten číslo 3  a  4",
+   "authority": "Statutární město Hradec Králové",
+   "authority_ico": "00268810",
+   "url": "https://tenderarena.cz/dodavatel/zakazka/842947",
+   "kind": "VZ",
+   "published": "2025-11-14",
+   "deadline": "2025-12-17T10:00:00",
+   "value": null,
+   "my": {
+    "cena": null,
+    "poradi": null,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "MESSA Invest, s.r.o.",
+     "ico": "25319540",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "V.P.N., spol. s r.o.",
+     "ico": "25947281",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "Hanč CONSTRUCTION s.r.o.",
+     "ico": "23209593",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "STAVER Luže s.r.o.",
+     "ico": "03564240",
+     "cena": null,
+     "poradi": null,
+     "vybran": true,
+     "vyloucen": false
+    },
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "ELEKTRO MOSEV spol. s r.o.",
+     "ico": "42228573",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "prohra",
+   "winner": "STAVER Luže s.r.o.",
+   "winner_ico": "03564240",
+   "winner_cena": null,
+   "price_contracted": 5505727.95,
+   "awarded": "2026-02-19"
+  },
+  "rvz:RVZ2500225520": {
+   "id": "rvz:RVZ2500225520",
+   "source": "isvz",
+   "title": "ČSA 439 - rekonstrukce domu",
+   "authority": "Statutární město Hradec Králové",
+   "authority_ico": "00268810",
+   "url": "https://www.tenderarena.cz/profily/hradeckralove",
+   "kind": "VZ",
+   "published": "2025-12-12",
+   "deadline": "2026-02-11T10:00:00",
+   "value": 39850000.0,
+   "my": {
+    "cena": null,
+    "poradi": null,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "REDOMO a.s.",
+     "ico": "25937499",
+     "cena": null,
+     "vyloucen": false
+    },
+    {
+     "nazev": "MESSA Invest s.r.o.",
+     "ico": "25319540",
+     "cena": null,
+     "vyloucen": false
+    },
+    {
+     "nazev": "VALC, s.r.o.",
+     "ico": "45537151",
+     "cena": null,
+     "vyloucen": false
+    },
+    {
+     "nazev": "REKOP s.r.o.",
+     "ico": "27499499",
+     "cena": null,
+     "vyloucen": false
+    },
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "vyloucen": false
+    },
+    {
+     "nazev": "ANARKADA s.r.o.",
+     "ico": "05291411",
+     "cena": null,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "ceka",
+   "winner": "",
+   "winner_ico": "",
+   "winner_cena": null,
+   "price_contracted": null,
+   "awarded": ""
+  },
+  "rvz:RVZ2500139956": {
+   "id": "rvz:RVZ2500139956",
+   "source": "isvz",
+   "title": "Snížení energetické náročnosti školní kuchyně SPŠ, SOŠ a SOU, Hradec Králové – stavební práce",
+   "authority": "Střední průmyslová škola, Střední odborná škola a Střední odborné učiliště, Hradec Králové",
+   "authority_ico": "15062848",
+   "url": "https://zakazky.cenakhk.cz/profile_display_70.html",
+   "kind": "VZ",
+   "published": "2025-10-16",
+   "deadline": "2025-11-18T10:00:00",
+   "value": 3865495.0,
+   "my": {
+    "cena": null,
+    "poradi": 1,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "poradi": 1,
+     "vybran": true,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "vyhra",
+   "winner": "DOMISTAV HK s.r.o.",
+   "winner_ico": "26007177",
+   "winner_cena": null,
+   "price_contracted": 3420058.59,
+   "awarded": "2026-02-09"
+  },
+  "profil:sken-49335499:VZ-12267": {
+   "id": "profil:sken-49335499:VZ-12267",
+   "source": "profil:sken-49335499",
+   "title": "Snížení náročnosti kuchyně Školní jídelny Hradec Králové – stavební práce II",
+   "authority": "Školní jídelna, Hradec Králové, Hradecká 1219",
+   "authority_ico": "49335499",
+   "url": "https://zakazky.cenakhk.cz/profile_display_113.html",
+   "kind": "VZ",
+   "published": "2025-10-17",
+   "deadline": "2025-11-18T10:00:00",
+   "value": null,
+   "my": {
+    "cena": null,
+    "poradi": null,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "vyloucen": false
+    },
+    {
+     "nazev": "ELEKTRO MOSEV spol. s r.o.",
+     "ico": "42228573",
+     "cena": null,
+     "vyloucen": false
+    },
+    {
+     "nazev": "REVIST s.r.o.",
+     "ico": "24815756",
+     "cena": null,
+     "vyloucen": false
+    },
+    {
+     "nazev": "Stavrecon Pardubice s.r.o.",
+     "ico": "05925801",
+     "cena": null,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "vyhra",
+   "winner": "DOMISTAV HK s.r.o.",
+   "winner_ico": "26007177",
+   "winner_cena": null,
+   "price_contracted": 5088936.48,
+   "awarded": "2026-01-23"
+  },
+  "rvz:RVZ2500139972": {
+   "id": "rvz:RVZ2500139972",
+   "source": "isvz",
+   "title": "Snížení energetické náročnosti kuchyně Školní jídelny Hradec Králové – stavební práce II",
+   "authority": "Školní jídelna, Hradec Králové, Hradecká 1219",
+   "authority_ico": "49335499",
+   "url": "https://zakazky.cenakhk.cz/profile_display_113.html",
+   "kind": "VZ",
+   "published": "2025-10-16",
+   "deadline": "2025-11-18T10:00:00",
+   "value": 5863755.0,
+   "my": {
+    "cena": null,
+    "poradi": 1,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "poradi": 1,
+     "vybran": true,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "vyhra",
+   "winner": "DOMISTAV HK s.r.o.",
+   "winner_ico": "26007177",
+   "winner_cena": null,
+   "price_contracted": 5088936.48,
+   "awarded": "2026-01-23",
+   "registr_url": "https://smlouvy.gov.cz/smlouva/36535049"
+  },
+  "rvz:RVZ2500129774": {
+   "id": "rvz:RVZ2500129774",
+   "source": "isvz",
+   "title": "Přístavba SOkA Hradec Králové",
+   "authority": "Státní oblastní archiv v Hradci Králové",
+   "authority_ico": "70979201",
+   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00024368",
+   "kind": "VZ",
+   "published": "2025-07-21",
+   "deadline": "2025-08-15T09:00:00",
+   "value": null,
+   "my": {
+    "cena": null,
+    "poradi": null,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "ASJ s.r.o.",
+     "ico": "25281861",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "ELEKTRO MOSEV spol. s r.o.",
+     "ico": "42228573",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "poradi": null,
+     "vybran": true,
+     "vyloucen": false
+    },
+    {
+     "nazev": "Stavrecon Pardubice s.r.o.",
+     "ico": "05925801",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "vyhra",
+   "winner": "DOMISTAV HK s.r.o.",
+   "winner_ico": "26007177",
+   "winner_cena": null,
+   "price_contracted": 15793436.59,
+   "awarded": "2025-09-24",
+   "registr_url": "https://smlouvy.gov.cz/smlouva/34943609"
+  },
+  "rvz:RVZ2500129570": {
+   "id": "rvz:RVZ2500129570",
+   "source": "isvz",
+   "title": "Přístavba SOkA Hradec Králové",
+   "authority": "Státní oblastní archiv v Hradci Králové",
+   "authority_ico": "70979201",
+   "url": "https://nen.nipez.cz/profil/zam",
+   "kind": "VZ",
+   "published": "",
+   "deadline": "",
+   "value": null,
+   "my": {
+    "cena": null,
+    "poradi": 1,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "poradi": 1,
+     "vybran": true,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "vyhra",
+   "winner": "DOMISTAV HK s.r.o.",
+   "winner_ico": "26007177",
+   "winner_cena": null,
+   "price_contracted": 15793436.59,
+   "awarded": "2025-09-24"
+  },
+  "rvz:RVZ2500108020": {
+   "id": "rvz:RVZ2500108020",
+   "source": "isvz",
+   "title": "Rekonstrukce stropů, oprava omítek a výmalba budovy ZŠ Praskačka",
+   "authority": "OBEC PRASKAČKA",
+   "authority_ico": "00269352",
+   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00025944",
+   "kind": "VZMR",
+   "published": "2025-05-27",
+   "deadline": "",
+   "value": null,
+   "my": null,
+   "bidders": [
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "",
+     "cena": null,
+     "poradi": null,
+     "vybran": true,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "vyhra",
+   "winner": "DOMISTAV HK s.r.o.",
+   "winner_ico": "26007177",
+   "winner_cena": null,
+   "price_contracted": 747426.53,
+   "awarded": "2025-06-09"
+  },
+  "rvz:RVZ2500046097": {
+   "id": "rvz:RVZ2500046097",
+   "source": "isvz",
+   "title": "DĚTSKÁ SKUPINA PRASKAČKA",
+   "authority": "OBEC PRASKAČKA",
+   "authority_ico": "00269352",
+   "url": "https://nen.nipez.cz/Zadavaci_postup/N006-25-V00003472",
+   "kind": "VZ",
+   "published": "2025-02-05",
+   "deadline": "2025-03-11T09:00:00",
+   "value": null,
+   "my": {
+    "cena": null,
+    "poradi": null,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "BW - Stavitelství, s.r.o.",
+     "ico": "15049752",
+     "cena": null,
+     "poradi": null,
+     "vybran": true,
+     "vyloucen": false
+    },
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "REDOMO a.s.",
+     "ico": "25937499",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "METRODIS s.r.o.",
+     "ico": "25269844",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "KERSON spol. s r.o.",
+     "ico": "45536040",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "prohra",
+   "winner": "BW - Stavitelství, s.r.o.",
+   "winner_ico": "15049752",
+   "winner_cena": null,
+   "price_contracted": 22499055.66,
+   "awarded": "2025-04-11"
+  },
+  "rvz:RVZ2500226513": {
+   "id": "rvz:RVZ2500226513",
+   "source": "isvz",
+   "title": "STAVEBNÍ ÚPRAVY VE 3NP ZŠ Č.P. 326 VE SMIDARECH - část A, stavební úpravy",
+   "authority": "Obec Smidary",
+   "authority_ico": "00269549",
+   "url": "https://www.e-zakazky.cz",
+   "kind": "VZ",
+   "published": "",
+   "deadline": "",
+   "value": 9319770.0,
+   "my": {
+    "cena": null,
+    "poradi": 1,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "poradi": 1,
+     "vybran": true,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "vyhra",
+   "winner": "DOMISTAV HK s.r.o.",
+   "winner_ico": "26007177",
+   "winner_cena": null,
+   "price_contracted": 9248477.43,
+   "awarded": "2025-04-04"
+  },
+  "rvz:RVZ2500052657": {
+   "id": "rvz:RVZ2500052657",
+   "source": "isvz",
+   "title": "Stavební úpravy pro potřeby provozu a zařízení pro vytápění staveb ZŠ Praskačka",
+   "authority": "OBEC PRASKAČKA",
+   "authority_ico": "00269352",
+   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00018459",
+   "kind": "VZMR",
+   "published": "2024-12-04",
+   "deadline": "2025-06-06T23:59:59",
+   "value": null,
+   "my": {
+    "cena": null,
+    "poradi": null,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "Domistav HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "poradi": null,
+     "vybran": true,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "vyhra",
+   "winner": "Domistav HK s.r.o.",
+   "winner_ico": "26007177",
+   "winner_cena": null,
+   "price_contracted": 4875891.91,
+   "awarded": "2025-03-07"
+  },
+  "rvz:RVZ2500077446": {
+   "id": "rvz:RVZ2500077446",
+   "source": "isvz",
+   "title": "Snížení energetické náročnosti prádelenského provozu Domova U Biřičky – stavební práce",
+   "authority": "Domov U Biřičky",
+   "authority_ico": "00579033",
+   "url": "https://zakazky.cenakhk.cz/profile_display_131.html",
+   "kind": "VZ",
+   "published": "2024-09-10",
+   "deadline": "2024-10-14T14:00:00",
+   "value": 2413793.0,
+   "my": {
+    "cena": null,
+    "poradi": 1,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "poradi": 1,
+     "vybran": true,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "vyhra",
+   "winner": "DOMISTAV HK s.r.o.",
+   "winner_ico": "26007177",
+   "winner_cena": null,
+   "price_contracted": 2098542.0,
+   "awarded": "2024-12-19"
+  },
+  "rvz:RVZ2400192270": {
+   "id": "rvz:RVZ2400192270",
+   "source": "isvz",
+   "title": "Hradec Králové - stavební úpravy",
+   "authority": "Generální finanční ředitelství",
+   "authority_ico": "72080043",
+   "url": "https://nen.nipez.cz/Zadavaci_postup/N006-24-V00014825",
+   "kind": "VZ",
+   "published": "2024-07-31",
+   "deadline": "2024-09-12T10:00:00",
+   "value": null,
+   "my": {
+    "cena": 53478340.29,
+    "poradi": 2,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": 53478340.29,
+     "poradi": 2,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "MARHOLD a.s.",
+     "ico": "15050050",
+     "cena": 51575380.51,
+     "poradi": 1,
+     "vybran": true,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "prohra",
+   "winner": "MARHOLD a.s.",
+   "winner_ico": "15050050",
+   "winner_cena": 51575380.51,
+   "price_contracted": 42624281.41,
+   "awarded": "2024-11-05",
+   "registr_url": "https://smlouvy.gov.cz/smlouva/30911028"
+  },
+  "rvz:RVZ2500073711": {
+   "id": "rvz:RVZ2500073711",
+   "source": "isvz",
+   "title": "Stavební úpravy objektu spojené s vestavbou do podkroví VOŠZ A SZŠ Hradec Králové - stavební práce",
+   "authority": "Královéhradecký kraj",
+   "authority_ico": "70889546",
+   "url": "",
+   "kind": "VZ",
+   "published": "",
+   "deadline": "",
+   "value": 32530115.0,
+   "my": {
+    "cena": null,
+    "poradi": 1,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "poradi": 1,
+     "vybran": true,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "vyhra",
+   "winner": "DOMISTAV HK s.r.o.",
+   "winner_ico": "26007177",
+   "winner_cena": null,
+   "price_contracted": 36881411.69,
+   "awarded": "2024-10-29"
+  },
+  "rvz:RVZ2400148430": {
+   "id": "rvz:RVZ2400148430",
+   "source": "isvz",
+   "title": "KŘP-H Nerudova HK - stavební úpravy objektu",
+   "authority": "Krajské ředitelství policie Královéhradeckého kraje",
+   "authority_ico": "75151545",
+   "url": "https://nen.nipez.cz/Zadavaci_postup/N006-24-V00027500",
+   "kind": "VZMR",
+   "published": "2024-09-11",
+   "deadline": "2024-09-24T09:00:00",
+   "value": null,
+   "my": null,
+   "bidders": [
+    {
+     "nazev": "ZOOM INVEST s.r.o.",
+     "ico": "",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "WN service s.r.o.",
+     "ico": "",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "",
+     "cena": null,
+     "poradi": null,
+     "vybran": true,
+     "vyloucen": false
+    },
+    {
+     "nazev": "ROTANA s. r. o.",
+     "ico": "",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": true
+    }
+   ],
+   "vysledek": "vyhra",
+   "winner": "DOMISTAV HK s.r.o.",
+   "winner_ico": "26007177",
+   "winner_cena": null,
+   "price_contracted": 1346453.01,
+   "awarded": "2024-10-10",
+   "registr_url": "https://smlouvy.gov.cz/smlouva/30498980"
+  },
+  "rvz:RVZ2400129105": {
+   "id": "rvz:RVZ2400129105",
+   "source": "isvz",
+   "title": "STAVEBNÍ ÚPRAVY A PŘÍSTAVBA MŠ CHUDEŘICE",
+   "authority": "OBEC CHUDEŘICE",
+   "authority_ico": "00268887",
+   "url": "https://nen.nipez.cz/Zadavaci_postup/N006-23-V00026055",
+   "kind": "VZ",
+   "published": "2023-10-03",
+   "deadline": "2023-11-21T13:00:00",
+   "value": null,
+   "my": {
+    "cena": null,
+    "poradi": null,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "REDOMO a.s.",
+     "ico": "25937499",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "STAFI FINALIZACE STAVEB s.r.o.",
+     "ico": "25968203",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "BW - Stavitelství, s.r.o.",
+     "ico": "15049752",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "BVS HK s.r.o.",
+     "ico": "25923579",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "BFK service a.s.",
+     "ico": "27155153",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
+     "ico": "46504621",
+     "cena": null,
+     "poradi": null,
+     "vybran": true,
+     "vyloucen": false
+    },
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "VALC, s.r.o.",
+     "ico": "45537151",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "Stavoka Kosice, a.s.",
+     "ico": "25275119",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "PAMA Poděbrady s.r.o.",
+     "ico": "27148301",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "prohra",
+   "winner": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
+   "winner_ico": "46504621",
+   "winner_cena": null,
+   "price_contracted": 26865081.3,
+   "awarded": "2024-01-08"
+  },
+  "rvz:RVZ2400125103": {
+   "id": "rvz:RVZ2400125103",
+   "source": "isvz",
+   "title": "KŘP-H Ulrichovo nám. 810 - pracoviště chemie, stavební úpravy",
+   "authority": "Krajské ředitelství policie Královéhradeckého kraje",
+   "authority_ico": "75151545",
+   "url": "https://nen.nipez.cz/Zadavaci_postup/N006-23-V00019235",
+   "kind": "VZMR",
+   "published": "2023-09-22",
+   "deadline": "2023-10-11T10:00:00",
+   "value": null,
+   "my": null,
+   "bidders": [
+    {
+     "nazev": "ZOOM INVEST s.r.o.",
+     "ico": "",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "ELMON spol. s r.o.",
+     "ico": "",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "David Antoš",
+     "ico": "09979417",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "ELEKTRO MOSEV spol. s r.o.",
+     "ico": "",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "Kurštejn stavební a obchodní firma s.r.o.",
+     "ico": "",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "",
+     "cena": null,
+     "poradi": null,
+     "vybran": true,
+     "vyloucen": false
+    },
+    {
+     "nazev": "Stavrecon Pardubice s.r.o.",
+     "ico": "",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "vyhra",
+   "winner": "DOMISTAV HK s.r.o.",
+   "winner_ico": "26007177",
+   "winner_cena": null,
+   "price_contracted": 1700393.42,
+   "awarded": "2023-10-26",
+   "registr_url": "https://smlouvy.gov.cz/smlouva/26276611"
+  },
+  "rvz:RVZ2400125325": {
+   "id": "rvz:RVZ2400125325",
+   "source": "isvz",
+   "title": "Novostavba požární zbrojnice v obci Klešice",
+   "authority": "Obec Klešice",
+   "authority_ico": "15054195",
+   "url": "https://nen.nipez.cz/Zadavaci_postup/N006-23-V00018639",
+   "kind": "VZ",
+   "published": "2023-08-03",
+   "deadline": "2023-08-30T10:00:00",
+   "value": 10798405.06,
+   "my": {
+    "cena": null,
+    "poradi": null,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "TSM design s.r.o.",
+     "ico": "06544754",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "APOLO CZ s.r.o.",
+     "ico": "27492851",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "SKOS s.r.o.",
+     "ico": "62027077",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "Kurštejn stavební a obchodní firma s.r.o.",
+     "ico": "28762576",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "PWB stavby s.r.o.",
+     "ico": "01434837",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "STAVER Luže s.r.o.",
+     "ico": "03564240",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "Stavrecon Pardubice s.r.o.",
+     "ico": "05925801",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "INSTAV Hlinsko a.s.",
+     "ico": "25284959",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "VIKTORSTAV s.r.o.",
+     "ico": "25618091",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
+     "ico": "46504621",
+     "cena": null,
+     "poradi": null,
+     "vybran": true,
+     "vyloucen": false
+    },
+    {
+     "nazev": "MITOL, s.r.o.",
+     "ico": "26477025",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "Stavby-Eda s.r.o.",
+     "ico": "08600813",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "prohra",
+   "winner": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
+   "winner_ico": "46504621",
+   "winner_cena": null,
+   "price_contracted": 7768921.59,
+   "awarded": "2023-10-09"
+  },
+  "rvz:RVZ2600082923": {
+   "id": "rvz:RVZ2600082923",
+   "source": "isvz",
+   "title": "ITI - ZŠ Svobodné Dvory - přístavba a rekonstrukce odborných učeben – dokončení rozestavěné stavby",
+   "authority": "Statutární město Hradec Králové",
+   "authority_ico": "00268810",
+   "url": "https://tenderarena.cz/dodavatel/zakazka/511558",
+   "kind": "VZ",
+   "published": "2022-04-04",
+   "deadline": "2022-06-03T10:00:00",
+   "value": null,
+   "my": {
+    "cena": null,
+    "poradi": null,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "ELEKTRO MOSEV spol. s r.o.",
+     "ico": "42228573",
+     "cena": null,
+     "poradi": null,
+     "vybran": true,
+     "vyloucen": false
+    },
+    {
+     "nazev": "REDOMO a.s.",
+     "ico": "25937499",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "VALC, s.r.o.",
+     "ico": "45537151",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "prohra",
+   "winner": "ELEKTRO MOSEV spol. s r.o.",
+   "winner_ico": "42228573",
+   "winner_cena": null,
+   "price_contracted": 19958884.24,
+   "awarded": "2022-06-29"
+  },
+  "rvz:RVZ2600236175": {
+   "id": "rvz:RVZ2600236175",
+   "source": "isvz",
+   "title": "Kanoistická loděnice na Orlici v Hradci Králové",
+   "authority": "Statutární město Hradec Králové",
+   "authority_ico": "00268810",
+   "url": "https://tenderarena.cz/dodavatel/zakazka/469658",
+   "kind": "VZ",
+   "published": "2021-11-10",
+   "deadline": "2022-01-19T10:00:00",
+   "value": null,
+   "my": {
+    "cena": null,
+    "poradi": null,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "VALC, s.r.o.",
+     "ico": "45537151",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "ELEKTRO MOSEV spol. s r.o.",
+     "ico": "42228573",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "TIMRA s.r.o.",
+     "ico": "04806859",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "REDOMO a.s.",
+     "ico": "25937499",
+     "cena": null,
+     "poradi": null,
+     "vybran": true,
+     "vyloucen": false
+    },
+    {
+     "nazev": "MEGAS s.r.o.",
+     "ico": "25989421",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "REKOP s.r.o.",
+     "ico": "27499499",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "prohra",
+   "winner": "REDOMO a.s.",
+   "winner_ico": "25937499",
+   "winner_cena": null,
+   "price_contracted": 19932295.2,
+   "awarded": "2022-04-20",
+   "registr_url": "https://smlouvy.gov.cz/smlouva/20053863"
+  },
+  "rvz:RVZ2600206545": {
+   "id": "rvz:RVZ2600206545",
+   "source": "isvz",
+   "title": "Stavební úpravy MŠ Třebechovická – zateplení a rekuperace - III",
+   "authority": "Statutární město Hradec Králové",
+   "authority_ico": "00268810",
+   "url": "https://tenderarena.cz/dodavatel/zakazka/499622",
+   "kind": "VZ",
+   "published": "2022-02-24",
+   "deadline": "2022-03-30T10:00:00",
+   "value": null,
+   "my": {
+    "cena": null,
+    "poradi": null,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "BBP Stavby s.r.o.",
+     "ico": "03875199",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "ISOTEP s.r.o.",
+     "ico": "25263498",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "MARHOLD a.s.",
+     "ico": "15050050",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "ELEKTRO MOSEV spol. s r.o.",
+     "ico": "42228573",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "IRBOS s.r.o.",
+     "ico": "25933094",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "ceka",
+   "winner": "",
+   "winner_ico": "",
+   "winner_cena": null,
+   "price_contracted": null,
+   "awarded": ""
+  },
+  "rvz:RVZ2400077313": {
+   "id": "rvz:RVZ2400077313",
+   "source": "isvz",
+   "title": "EVAKUAČNÍ VÝTAH č.p. 780, ulice J. ŠÍMY, JAROMĚŘ – požárně bezpečnostní řešení",
+   "authority": "Město Jaroměř",
+   "authority_ico": "00272728",
+   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-20-V00029934",
+   "kind": "VZ",
+   "published": "2020-11-06",
+   "deadline": "2020-11-30T10:00:00",
+   "value": null,
+   "my": {
+    "cena": null,
+    "poradi": null,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "GREEN FOR YOU s.r.o.",
+     "ico": "27301460",
+     "cena": null,
+     "poradi": null,
+     "vybran": true,
+     "vyloucen": false
+    },
+    {
+     "nazev": "V H L, s.r.o.",
+     "ico": "63677521",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": true
+    },
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "RP výtahy s.r.o.",
+     "ico": "28935934",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "ELEKTRO MOSEV spol. s r.o.",
+     "ico": "42228573",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "prohra",
+   "winner": "GREEN FOR YOU s.r.o.",
+   "winner_ico": "27301460",
+   "winner_cena": null,
+   "price_contracted": 5670826.48,
+   "awarded": "2021-06-03",
+   "registr_url": "https://smlouvy.gov.cz/smlouva/16898307"
+  },
+  "rvz:RVZ2600131265": {
+   "id": "rvz:RVZ2600131265",
+   "source": "isvz",
+   "title": "Zateplení objektu Jazykového centra",
+   "authority": "Univerzita Pardubice",
+   "authority_ico": "00216275",
+   "url": "https://tenderarena.cz/dodavatel/zakazka/76605",
+   "kind": "VZ",
+   "published": "",
+   "deadline": "2015-04-15T09:00:00",
+   "value": null,
+   "my": {
+    "cena": null,
+    "poradi": null,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "ASJ s.r.o.",
+     "ico": "25281861",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "Alba servis s.r.o.",
+     "ico": "24295400",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "Experior s.r.o.",
+     "ico": "28577132",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "SHS 2 - Ing. Havrda a synové s.r.o.",
+     "ico": "25253751",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "poradi": null,
+     "vybran": true,
+     "vyloucen": false
+    },
+    {
+     "nazev": "DOMEC s.r.o.",
+     "ico": "46507230",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "MARHOLD a.s.",
+     "ico": "15050050",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "vyhra",
+   "winner": "DOMISTAV HK s.r.o.",
+   "winner_ico": "26007177",
+   "winner_cena": null,
+   "price_contracted": null,
+   "awarded": "2015-05-19"
+  },
+  "rvz:RVZ2600184036": {
+   "id": "rvz:RVZ2600184036",
+   "source": "isvz",
+   "title": "Zateplení Technologického pavilonu Doubravice",
+   "authority": "Univerzita Pardubice",
+   "authority_ico": "00216275",
+   "url": "https://tenderarena.cz/dodavatel/zakazka/76517",
+   "kind": "VZ",
+   "published": "",
+   "deadline": "2014-06-04T09:00:00",
+   "value": null,
+   "my": {
+    "cena": null,
+    "poradi": null,
+    "vyloucen": false
+   },
+   "bidders": [
+    {
+     "nazev": "STAFI FINALIZACE STAVEB s.r.o.",
+     "ico": "25968203",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "DOMISTAV HK s.r.o.",
+     "ico": "26007177",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "MARHOLD a.s.",
+     "ico": "15050050",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "Stavební firma Ječmínek, spol. s r. o.",
+     "ico": "25925768",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "Vanderlaan s.r.o.",
+     "ico": "45537305",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "AVENZO VICE a.s.",
+     "ico": "27686680",
+     "cena": null,
+     "poradi": null,
+     "vybran": true,
+     "vyloucen": false
+    },
+    {
+     "nazev": "PRIMA spol. s r.o.",
+     "ico": "00486361",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    },
+    {
+     "nazev": "MIKOSTAV s.r.o.",
+     "ico": "27464300",
+     "cena": null,
+     "poradi": null,
+     "vybran": false,
+     "vyloucen": false
+    }
+   ],
+   "vysledek": "prohra",
+   "winner": "AVENZO VICE a.s.",
+   "winner_ico": "27686680",
+   "winner_cena": null,
+   "price_contracted": 5695987.0,
+   "awarded": "2014-07-22"
+  }
+ }
+}
