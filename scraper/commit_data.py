@@ -62,6 +62,53 @@ def _poloz_na_main(mine: str, changed: list[str], msg: str) -> None:
         git("commit", "-q", "-m", msg)
 
 
+# Kumulativní archivy: souběžné běhy (cloud × PC v 8:00) si je jinak
+# přepisují celé — -X theirs vezme verzi pozdějšího běhu a verdikty
+# posouzené souběžným během zmizí (17. 11.: 555 → 532, znovu by se
+# platily tokeny). Klíče z origin/main, které tento běh nemá, se proto
+# doplní. Jen tam, kde přidání nemůže porušit pravidlo souboru
+# (dokumenty.json ne — dokument smí patřit jen jedné zakázce).
+_SJEDNOTIT = {"docs/data/ai_filter.json": "verdikty"}
+
+
+def _sjednot(changed: list[str], msg: str) -> None:
+    import json
+    from pathlib import Path
+    zmena = False
+    for path, sekce in _SJEDNOTIT.items():
+        if path not in changed or not Path(path).exists():
+            continue
+        r = git("show", f"origin/main:{path}", check=False)
+        if r.returncode != 0:
+            continue
+        try:
+            jejich = json.loads(r.stdout).get(sekce) or {}
+            data = json.loads(Path(path).read_text("utf-8"))
+        except (ValueError, AttributeError):
+            continue
+        moje = data.setdefault(sekce, {})
+        chybi = {k: v for k, v in jejich.items() if k not in moje}
+        if not chybi:
+            continue
+        moje.update(chybi)
+        meta = data.get("meta")
+        if isinstance(meta, dict) and sekce == "verdikty":
+            counts: dict = {"ano": 0, "ne": 0, "nejisto": 0}
+            for v in moje.values():
+                counts[v.get("verdikt")] = counts.get(v.get("verdikt"), 0) + 1
+            meta["celkem"], meta["counts"] = len(moje), counts
+        Path(path).write_text(json.dumps(data, ensure_ascii=False, indent=1),
+                              "utf-8")
+        git("add", "--", path)
+        zmena = True
+        print(f"{path}: doplněno {len(chybi)} záznamů ze souběžného běhu")
+    if zmena and git("diff", "--cached", "--quiet", check=False).returncode:
+        vlastni = (git("rev-parse", "HEAD").stdout
+                   != git("rev-parse", "origin/main").stdout)
+        git("commit", "-q", *(["--amend", "--no-edit"] if vlastni
+                              else ["-m", msg]))
+
+
 def main(msg: str, paths: list[str]) -> int:
     _zapomen_rozpracovane()
     git("config", "user.name", "domistav-tendry-bot")
@@ -82,6 +129,7 @@ def main(msg: str, paths: list[str]) -> int:
             print(f"pokus {pokus}: rebase selhal — záložní cesta "
                   f"({len(changed)} souborů nad origin/main)")
             _poloz_na_main(mine, changed, msg)
+        _sjednot(changed, msg)
         if git("push", "origin", "HEAD:main", check=False).returncode == 0:
             print(f"Pushnuto (pokus {pokus}): {msg}")
             return 0
