@@ -1,17 +1,18 @@
 {
  "meta": {
-  "updated": "2026-11-17T13:15:18+00:00",
+  "updated": "2026-11-17T14:20:16+00:00",
   "model": "claude-opus-5",
   "posouzeno_nyni": 0,
-  "celkem": 534,
+  "celkem": 532,
   "counts": {
-   "ano": 251,
-   "ne": 183,
+   "ano": 250,
+   "ne": 182,
    "nejisto": 100
   },
   "errors": [
-   "AI dávka 0: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Ch8ZYu8FHaiWEECN7xpPt'}",
-   "AI dávka 1: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Ch8ZYuqtugmbH9KnUPA15'}"
+   "AI dávka 0: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Ch8eWGXMZVTasw8WjT9Sj'}",
+   "AI dávka 1: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Ch8eWHEWhqX8TPKTs7f5Z'}",
+   "AI dávka 2: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Ch8eWHzARMnNF3cNR6tnR'}"
   ]
  },
  "verdikty": {
@@ -1819,10 +1820,6 @@
    "verdikt": "ano",
    "duvod": "Energetické úspory budov, zateplení"
   },
-  "profil:pvu:00234591:P26V00006515": {
-   "verdikt": "ne",
-   "duvod": "Fotovoltaická elektrárna, energetické dílo"
-  },
   "rvz:RVZ2600287593": {
    "verdikt": "ano",
    "duvod": "Rekonstrukce administrativní budovy"
@@ -2146,10 +2143,6 @@
   "profil:pvu:45193363:P26V00006577": {
    "verdikt": "ano",
    "duvod": "Energeticky úsporná opatření budovy skladu"
-  },
-  "profil:pvu:00234591:P26V00006600": {
-   "verdikt": "ano",
-   "duvod": "Rekonstrukce střechy a fasády budovy – pozemní stavitelství"
   }
  }
 }

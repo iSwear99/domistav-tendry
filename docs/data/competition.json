@@ -1,5 +1,71 @@
 [
  {
+  "id": "profil:sken-48136450:VZ-1304",
+  "source": "profil:sken-48136450",
+  "title": "Servis a opravy manipulační techniky",
+  "authority": "Česká národní banka",
+  "authority_ico": "48136450",
+  "winner": "Jaroslav Brestovanský",
+  "winner_ico": "60178523",
+  "awarded": "2026-11-13",
+  "price_contracted": 440120.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [
+   "42410000"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://ezak.cnb.cz",
+  "bidders": [
+   {
+    "nazev": "Belet a.s.",
+    "ico": "47780321",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Jaroslav Brestovanský",
+    "ico": "60178523",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
+  "id": "profil:sken-00085031:VZ-1611",
+  "source": "profil:sken-00085031",
+  "title": "Pronájem technologie mikrovlnného ohřevu asfaltových směsí v Pardubickém kraji",
+  "authority": "Správa a údržba silnic Pardubického kraje",
+  "authority_ico": "00085031",
+  "winner": "FUTTEC MACHINERY a.s.",
+  "winner_ico": "27144461",
+  "awarded": "2026-11-11",
+  "price_contracted": 1350000.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [
+   "45500000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://ezak.suspk.cz",
+  "bidders": [
+   {
+    "nazev": "FUTTEC MACHINERY a.s.",
+    "ico": "27144461",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2600288327",
   "source": "profil:pardubice",
   "title": "ZŠ Ohrazenice – oprava střechy nad přístavbou",
@@ -53,6 +119,60 @@
    }
   ],
   "registr_url": "https://smlouvy.gov.cz/smlouva/40317437"
+ },
+ {
+  "id": "profil:sken-27520536:VZ-6439",
+  "source": "profil:sken-27520536",
+  "title": "NPK, a.s., Chrudimská nemocnice – stavební úpravy pro umístění učebny SZŠ",
+  "authority": "Nemocnice Pardubického kraje, a.s.",
+  "authority_ico": "27520536",
+  "winner": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
+  "winner_ico": "46504621",
+  "awarded": "2026-11-09",
+  "price_contracted": 584911.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [
+   "45215100"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_1965.html",
+  "bidders": [
+   {
+    "nazev": "EVOSTA s.r.o.",
+    "ico": "03054225",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
+    "ico": "46504621",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "RWX, s.r.o.",
+    "ico": "14235111",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stavrecon Pardubice s.r.o.",
+    "ico": "05925801",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "VIKTORSTAV s.r.o.",
+    "ico": "25618091",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "profil:trutnov:VZ-1864",
@@ -156,6 +276,37 @@
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00036221"
  },
  {
+  "id": "profil:sken-70891095:VZ-19303",
+  "source": "profil:sken-70891095",
+  "title": "Dodávka a instalace kabeláže v budově Krajského úřadu Středočeského kraje",
+  "authority": "Středočeský kraj",
+  "authority_ico": "70891095",
+  "winner": "CompuNet s.r.o.",
+  "winner_ico": "27608514",
+  "awarded": "2026-11-03",
+  "price_contracted": 293300.4,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [
+   "45314300"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://zakazky.kr-stredocesky.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "CompuNet s.r.o.",
+    "ico": "27608514",
+    "cena": 293300.4,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/40189681"
+ },
+ {
   "id": "rvz:RVZ2600120888",
   "source": "profil:hradec-kralove",
   "title": "Lesní hospodářské osnovy \"Hořice",
@@ -249,6 +400,40 @@
    }
   ],
   "registr_url": "https://smlouvy.gov.cz/smlouva/40180253"
+ },
+ {
+  "id": "rvz:RVZ2600287102",
+  "source": "profil:sken-00027383",
+  "title": "Modernizace a rozšíření stávajícího systému MaR 2026",
+  "authority": "ČESKÁ TELEVIZE",
+  "authority_ico": "00027383",
+  "winner": "IDEA BUILDING s.r.o.",
+  "winner_ico": "25615181",
+  "awarded": "2026-11-02",
+  "price_contracted": 3878631.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://www.egordion.cz/nabidkaGORDION/profilCt",
+  "bidders": [
+   {
+    "nazev": "IDEA BUILDING s.r.o.",
+    "ico": "25615181",
+    "cena": 3878631.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Synett s.r.o.",
+    "ico": "25306553",
+    "cena": 4026763.0,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600295068",
@@ -381,6 +566,42 @@
   "kind": "VZMR",
   "kw_match": false,
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00035466"
+ },
+ {
+  "id": "profil:sken-00236195:VZ-625",
+  "source": "profil:sken-00236195",
+  "title": "Výměna oken - ubytovna Lorec, U Lorce 57, 28401 Kutná Hora",
+  "authority": "Město Kutná Hora",
+  "authority_ico": "00236195",
+  "winner": "OKNA HM s.r.o.",
+  "winner_ico": "09234993",
+  "awarded": "2026-10-27",
+  "price_contracted": 361116.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 46,
+  "loc_unknown": false,
+  "cpv": [
+   "45421132"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://zakazky.kutnahora.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "OKNA HM s.r.o.",
+    "ico": "09234993",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "WH Develop s.r.o.",
+    "ico": "28116992",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600293873",
@@ -562,6 +783,34 @@
    {
     "nazev": "TOMIreko a.s.",
     "ico": "28359216",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
+  "id": "rvz:RVZ2600112812",
+  "source": "profil:sken-28196678",
+  "title": "Dodávka dílů pro opravy nárazníků 105 A 30kJ KR 2750",
+  "authority": "ČD Cargo, a.s.",
+  "authority_ico": "28196678",
+  "winner": "THOMAS s.r.o.",
+  "winner_ico": "25911180",
+  "awarded": "2026-10-23",
+  "price_contracted": null,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://www.tenderarena.cz/profily/CDCargo",
+  "bidders": [
+   {
+    "nazev": "THOMAS s.r.o.",
+    "ico": "25911180",
     "cena": null,
     "vyloucen": false
    }
@@ -973,7 +1222,7 @@
  },
  {
   "id": "rvz:RVZ2600098095",
-  "source": "profil:hradec-kralove",
+  "source": "profil:sken-00268810",
   "title": "Propojení dopravních a technických vazeb infrastruktury ve Svobodných Dvorech",
   "authority": "Statutární město Hradec Králové",
   "authority_ico": "00268810",
@@ -991,7 +1240,7 @@
   ],
   "kind": "VZ",
   "kw_match": false,
-  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0003027",
   "bidders": [
    {
     "nazev": "KVIS Pardubice a.s.",
@@ -1930,6 +2179,36 @@
   "kind": "VZ",
   "kw_match": true,
   "url": "https://nen.nipez.cz/profil/MO"
+ },
+ {
+  "id": "profil:sken-00275301:P26V00006756",
+  "source": "profil:sken-00275301",
+  "title": "Energeticky úsporná opatření v objektu ZS Rokytnice v Orlických horách",
+  "authority": "Město Rokytnice v Orlických horách",
+  "authority_ico": "00275301",
+  "winner": "ISOTEP s.r.o.",
+  "winner_ico": "25263498",
+  "awarded": "2026-10-07",
+  "price_contracted": null,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 48,
+  "loc_unknown": false,
+  "cpv": [
+   "45211100"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.vhodne-uverejneni.cz/profil/00275301",
+  "bidders": [
+   {
+    "nazev": "ISOTEP s.r.o.",
+    "ico": "25263498",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600173777",
@@ -3573,6 +3852,90 @@
   "kind": "VZ",
   "kw_match": false,
   "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html"
+ },
+ {
+  "id": "profil:sken-27520536:VZ-6308",
+  "source": "profil:sken-27520536",
+  "title": "NPK, a.s., Pardubická nemocnice – Stavební úpravy pro výměnu rozvodů vody včetně souvisejících stavebních úprav objektu Trojpavilon – Budova č. 5, 6 a 7 znovuvyhlášení",
+  "authority": "Nemocnice Pardubického kraje, a.s.",
+  "authority_ico": "27520536",
+  "winner": "MESSA Invest, s.r.o.",
+  "winner_ico": "25319540",
+  "awarded": "2026-09-22",
+  "price_contracted": 7977618.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_1965.html",
+  "bidders": [
+   {
+    "nazev": "BOMI interier s.r.o.",
+    "ico": "27535177",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Instal Hanousek s.r.o.",
+    "ico": "06671918",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MESSA Invest, s.r.o.",
+    "ico": "25319540",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
+    "ico": "46504621",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
+  "id": "profil:sken-27520536:VZ-6309",
+  "source": "profil:sken-27520536",
+  "title": "NPK, a.s., Chrudimská nemocnice – instalace a výměna koncových prvků včetně souvisejících stavebních úprav",
+  "authority": "Nemocnice Pardubického kraje, a.s.",
+  "authority_ico": "27520536",
+  "winner": "Stavrecon Pardubice s.r.o.",
+  "winner_ico": "05925801",
+  "awarded": "2026-09-22",
+  "price_contracted": 4777992.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_1965.html",
+  "bidders": [
+   {
+    "nazev": "IVEXI s.r.o.",
+    "ico": "25298968",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stavrecon Pardubice s.r.o.",
+    "ico": "05925801",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "profil:kr-kralovehradecky:VZ-12404",
@@ -6519,6 +6882,61 @@
   ]
  },
  {
+  "id": "rvz:RVZ2600111895",
+  "source": "profil:sken-68407700",
+  "title": "FEL – Stavební úprava místností v objektu A3 – FOTOSTUDIO",
+  "authority": "České vysoké učení technické v Praze",
+  "authority_ico": "68407700",
+  "winner": "DOMISTAV CZ a.s.",
+  "winner_ico": "27481107",
+  "awarded": "2026-08-27",
+  "price_contracted": 4889999.64,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [
+   "45214300"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://www.egordion.cz/nabidkaGORDION/profilCVUT",
+  "bidders": [
+   {
+    "nazev": "WANDEL CZECH s.r.o.",
+    "ico": "28977955",
+    "cena": 5440008.98,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ELITT stavební s.r.o.",
+    "ico": "06408991",
+    "cena": 5273250.43,
+    "vyloucen": false
+   },
+   {
+    "nazev": "DOMISTAV CZ a.s.",
+    "ico": "27481107",
+    "cena": 4889999.64,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ELIZZA s.r.o.",
+    "ico": "00334561",
+    "cena": 5399769.91,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Pražská stavební s.r.o.",
+    "ico": "08290351",
+    "cena": 5449641.04,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39316575"
+ },
+ {
   "id": "rvz:RVZ2600120582",
   "source": "isvz",
   "title": "ZÚ Buenos Aires - oprava bytu Arribenos - výběr zhotovitele",
@@ -8746,6 +9164,28 @@
   "kind": "VZ",
   "kw_match": true,
   "url": "https://tenderarena.cz/dodavatel/zakazka/907728"
+ },
+ {
+  "id": "rvz:RVZ2600108833",
+  "source": "isvz",
+  "title": "SPS 0503 – Stavební opravy (podlahy, obklady, ZTI, omítky, el. instalace, malby, nátěry)",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "V.P.N., spol. s r. o.",
+  "winner_ico": "25947281",
+  "awarded": "2026-08-07",
+  "price_contracted": 2880704.05,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00021458"
  },
  {
   "id": "rvz:RVZ2600108833",
@@ -12408,6 +12848,46 @@
   "url": "https://zakazky.cenakhk.cz/profile_display_127.html"
  },
  {
+  "id": "rvz:RVZ2600096848",
+  "source": "profil:sken-00027383",
+  "title": "Zateplení a výměna oken na chodbě objektu SPB 2.NP režie",
+  "authority": "ČESKÁ TELEVIZE",
+  "authority_ico": "00027383",
+  "winner": "TIMO profistavby s.r.o.",
+  "winner_ico": "28591801",
+  "awarded": "2026-07-08",
+  "price_contracted": 1501000.21,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://www.egordion.cz/nabidkaGORDION/profilCt",
+  "bidders": [
+   {
+    "nazev": "David Polách",
+    "ico": "74137611",
+    "cena": 2012922.11,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SATON s.r.o.",
+    "ico": "42767113",
+    "cena": 1597020.93,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TIMO profistavby s.r.o.",
+    "ico": "28591801",
+    "cena": 1501000.21,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "profil:trutnov:VZ-1807",
   "source": "profil:trutnov",
   "title": "Oprava hrobky Czerny na hřbitově v Trutnově - I.etapa",
@@ -13593,6 +14073,46 @@
   "url": "https://zakazky.mestoprelouc.cz/"
  },
  {
+  "id": "rvz:RVZ2600085706",
+  "source": "profil:sken-00027383",
+  "title": "Rekonstrukce střech objektů D1 a 202",
+  "authority": "ČESKÁ TELEVIZE",
+  "authority_ico": "00027383",
+  "winner": "Bohemia Structio s.r.o.",
+  "winner_ico": "19423900",
+  "awarded": "2026-07-01",
+  "price_contracted": 5537497.42,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://www.egordion.cz/nabidkaGORDION/profilCt",
+  "bidders": [
+   {
+    "nazev": "Střechy Construct s.r.o.",
+    "ico": "01484729",
+    "cena": 7678811.1,
+    "vyloucen": true
+   },
+   {
+    "nazev": "MONTÉRA & Energy s.r.o.",
+    "ico": "19471173",
+    "cena": 4992268.17,
+    "vyloucen": true
+   },
+   {
+    "nazev": "Bohemia Structio s.r.o.",
+    "ico": "19423900",
+    "cena": 5537497.42,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2600083956",
   "source": "isvz",
   "title": "Šafaříkova 764 - stavební úpravy 1. NP pro dětskou skupinu",
@@ -14510,6 +15030,40 @@
     "nazev": "Zdeněk Kotyza",
     "ico": "73582107",
     "cena": 1599300.0,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
+  "id": "rvz:RVZ2600080127",
+  "source": "profil:sken-00027383",
+  "title": "Modernizace nákladního výtahu KHZ - ev. č. 36",
+  "authority": "ČESKÁ TELEVIZE",
+  "authority_ico": "00027383",
+  "winner": "VHL, s.r.o.",
+  "winner_ico": "63677521",
+  "awarded": "2026-06-24",
+  "price_contracted": 1858700.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://www.egordion.cz/nabidkaGORDION/profilCt",
+  "bidders": [
+   {
+    "nazev": "VHL, s.r.o.",
+    "ico": "63677521",
+    "cena": 1858700.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "BREMA, spol. s r.o.",
+    "ico": "44264321",
+    "cena": 1893691.0,
     "vyloucen": false
    }
   ]
@@ -15622,7 +16176,7 @@
  },
  {
   "id": "rvz:RVZ2600109049",
-  "source": "isvz",
+  "source": "profil:sken-00274241",
   "title": "Rekonstrukce ulice Spálená",
   "authority": "Město Sezemice",
   "authority_ico": "00274241",
@@ -15636,9 +16190,9 @@
   "dist_km": 16,
   "loc_unknown": false,
   "cpv": [],
-  "kind": "VZ",
+  "kind": "VZMR",
   "kw_match": true,
-  "url": "https://tenderarena.cz/dodavatel/zakazka/901983"
+  "url": "https://www.tenderarena.cz/profily/Sezemice"
  },
  {
   "id": "rvz:RVZ2600080592",
@@ -17076,6 +17630,94 @@
   "kind": "VZMR",
   "kw_match": false,
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00011736"
+ },
+ {
+  "id": "rvz:RVZ2600082257",
+  "source": "isvz",
+  "title": "SPS 0444 - Oprava podlah v hledišti",
+  "authority": "Ministerstvo obrany",
+  "authority_ico": "60162694",
+  "winner": "Miroslav Dočekal",
+  "winner_ico": "72858125",
+  "awarded": "2026-06-03",
+  "price_contracted": 264123.8,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [
+   "45210000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00011736"
+ },
+ {
+  "id": "profil:sken-00085031:VZ-1481",
+  "source": "profil:sken-00085031",
+  "title": "Výstavba skladu na posypový materiál a skladu mechanizace na cestmistrovství Luže",
+  "authority": "Správa a údržba silnic Pardubického kraje",
+  "authority_ico": "00085031",
+  "winner": "VALC, s.r.o.",
+  "winner_ico": "45537151",
+  "awarded": "2026-06-03",
+  "price_contracted": 13825997.41,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 39,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://ezak.suspk.cz",
+  "bidders": [
+   {
+    "nazev": "ELEKTRO MOSEV spol. s r.o.",
+    "ico": "42228573",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ELITSTAV s.r.o.",
+    "ico": "06552226",
+    "cena": null,
+    "vyloucen": true
+   },
+   {
+    "nazev": "PKD, a.s.",
+    "ico": "62522523",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PP-GROUP stavební s.r.o.",
+    "ico": "21771120",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
+    "ico": "46504621",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ŠTĚPÁNEK, spol. s r.o.",
+    "ico": "45535124",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "VALC, s.r.o.",
+    "ico": "45537151",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600104098",
@@ -20634,28 +21276,6 @@
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00004433"
  },
  {
-  "id": "rvz:RVZ2600068255",
-  "source": "isvz",
-  "title": "Modernizace pavilonu M – přístrojové vybavení  – 09 léčebné přístroje",
-  "authority": "Hamzova odborná léčebna pro děti a dospělé",
-  "authority_ico": "00183024",
-  "winner": "BTL zdravotnická technika, a.s.; Kardio - Line  spol. s r.o.",
-  "winner_ico": "26884143; 46994769",
-  "awarded": "2026-05-05",
-  "price_contracted": 2083690.0,
-  "estimated": false,
-  "price_paid": 1744450.0,
-  "growth_pct": -16.3,
-  "dist_km": 39,
-  "loc_unknown": false,
-  "cpv": [
-   "33100000"
-  ],
-  "kind": "VZ",
-  "kw_match": true,
-  "url": "https://tenderarena.cz/dodavatel/zakazka/869005"
- },
- {
   "id": "rvz:RVZ2600067888",
   "source": "isvz",
   "title": "Modernizace pavilonu M – přístrojové vybavení – 09 léčebné přístroje",
@@ -22242,6 +22862,97 @@
    }
   ],
   "registr_url": "https://smlouvy.gov.cz/smlouva/37249677"
+ },
+ {
+  "id": "profil:sken-00087815:VZ-12560",
+  "source": "profil:sken-00087815",
+  "title": "Rekonstrukce sociálního zařízení na DM SŠŘ Jaroměř",
+  "authority": "Střední škola řemeslná, Jaroměř, Studničkova 260",
+  "authority_ico": "00087815",
+  "winner": "MESSA Invest, s.r.o.",
+  "winner_ico": "25319540",
+  "awarded": "2026-04-27",
+  "price_contracted": 11553318.1,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://zakazky.cenakhk.cz/profile_display_136.html",
+  "bidders": [
+   {
+    "nazev": "ABRATHERM s.r.o.",
+    "ico": "17258944",
+    "cena": 11617724.59,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ELEKTRO MOSEV spol. s r.o.",
+    "ico": "42228573",
+    "cena": 12721412.96,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ELITSTAV s.r.o.",
+    "ico": "06552226",
+    "cena": 13400500.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "HAS STAVBY s.r.o.",
+    "ico": "28786556",
+    "cena": 19142212.15,
+    "vyloucen": false
+   },
+   {
+    "nazev": "HOME WEST CZ s.r.o.",
+    "ico": "08668175",
+    "cena": 13914490.72,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Hozijiv s.r.o.",
+    "ico": "06111092",
+    "cena": 13379913.23,
+    "vyloucen": false
+   },
+   {
+    "nazev": "JIPA s.r.o.",
+    "ico": "21313270",
+    "cena": 13496095.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MESSA Invest, s.r.o.",
+    "ico": "25319540",
+    "cena": 11553318.1,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Solution Construction s.r.o.",
+    "ico": "17708095",
+    "cena": 14184702.88,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stavhaus s.r.o.",
+    "ico": "04469739",
+    "cena": 13792409.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stavrecon Pardubice s.r.o.",
+    "ico": "05925801",
+    "cena": 14200646.28,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/37779641"
  },
  {
   "id": "rvz:RVZ2500070944",
@@ -24038,6 +24749,54 @@
   "url": "https://zakazky.eagri.cz/profile_display_1804.html"
  },
  {
+  "id": "rvz:RVZ2600068255",
+  "source": "profil:sken-00183024",
+  "title": "Modernizace pavilonu M – přístrojové vybavení  – 09 léčebné přístroje",
+  "authority": "Hamzova odborná léčebna pro děti a dospělé",
+  "authority_ico": "00183024",
+  "winner": "Kardio - Line  spol. s r.o.",
+  "winner_ico": "46994769",
+  "awarded": "2026-04-08",
+  "price_contracted": 733840.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [
+   "33100000"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0001187",
+  "bidders": [
+   {
+    "nazev": "Kardio - Line  spol. s r.o.",
+    "ico": "46994769",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "BTL zdravotnická technika, a.s.",
+    "ico": "26884143",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "VR medical s.r.o.",
+    "ico": "09784128",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "BTL zdravotnická technika, a.s.",
+    "ico": "26884143",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2600077166",
   "source": "isvz",
   "title": "Výstavba technického objektu pro správu obce Babice",
@@ -25649,25 +26408,51 @@
  },
  {
   "id": "rvz:RVZ2500226125",
-  "source": "isvz",
+  "source": "profil:sken-00183024",
   "title": "Modernizace pavilonu M - přístrojové vybavení - hygienické přístroje",
   "authority": "Hamzova odborná léčebna pro děti a dospělé",
   "authority_ico": "00183024",
-  "winner": "SIVAK medical technology s.r.o.; PROMA REHA, s.r.o.",
-  "winner_ico": "28807065; 63219107",
+  "winner": "SIVAK medical technology s.r.o.",
+  "winner_ico": "28807065",
   "awarded": "2026-03-24",
-  "price_contracted": 581643.31,
+  "price_contracted": 338166.61,
   "estimated": false,
-  "price_paid": 278251.32,
-  "growth_pct": -52.2,
-  "dist_km": 39,
-  "loc_unknown": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
   "cpv": [
    "33192000"
   ],
   "kind": "VZ",
   "kw_match": true,
-  "url": "https://tenderarena.cz/dodavatel/zakazka/851118"
+  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0001187",
+  "bidders": [
+   {
+    "nazev": "SIVAK medical technology s.r.o.",
+    "ico": "28807065",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MADISSON, s.r.o.",
+    "ico": "26124637",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SIVAK medical technology s.r.o.",
+    "ico": "28807065",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PROMA REHA, s.r.o.",
+    "ico": "63219107",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2500226081",
@@ -26092,7 +26877,7 @@
  },
  {
   "id": "rvz:RVZ2600002188",
-  "source": "isvz",
+  "source": "profil:sken-00183024",
   "title": "Modernizace pavilonu M – přístrojové vybavení – 06 vyšetřovací přístroje",
   "authority": "Hamzova odborná léčebna pro děti a dospělé",
   "authority_ico": "00183024",
@@ -26101,16 +26886,24 @@
   "awarded": "2026-03-19",
   "price_contracted": 1019600.0,
   "estimated": false,
-  "price_paid": 910000.0,
-  "growth_pct": -10.7,
-  "dist_km": 39,
-  "loc_unknown": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
   "cpv": [
    "33120000"
   ],
   "kind": "VZ",
   "kw_match": true,
-  "url": "https://tenderarena.cz/dodavatel/zakazka/856252"
+  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0001187",
+  "bidders": [
+   {
+    "nazev": "BTL zdravotnická technika, a.s.",
+    "ico": "26884143",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600000948",
@@ -26563,7 +27356,7 @@
  },
  {
   "id": "rvz:RVZ2600071573",
-  "source": "isvz",
+  "source": "profil:sken-00272175",
   "title": "Nadslav, areál kostela sv. Prokopa - oprava zvonice",
   "authority": "Obec Střevač",
   "authority_ico": "00272175",
@@ -26577,9 +27370,9 @@
   "dist_km": 44,
   "loc_unknown": false,
   "cpv": [],
-  "kind": "VZ",
+  "kind": "VZMR",
   "kw_match": true,
-  "url": "https://tenderarena.cz/dodavatel/zakazka/872878"
+  "url": "https://tenderarena.cz/profily/Strevac"
  },
  {
   "id": "rvz:RVZ2600003134",
@@ -26870,25 +27663,57 @@
  },
  {
   "id": "rvz:RVZ2500227844",
-  "source": "isvz",
+  "source": "profil:sken-00183024",
   "title": "Modernizace pavilonu M – ostatní vybavení – lůžka vč. příslušenství",
   "authority": "Hamzova odborná léčebna pro děti a dospělé",
   "authority_ico": "00183024",
-  "winner": "PROMA REHA, s.r.o.; Hilding Anders Česká republika a.s.",
-  "winner_ico": "63219107; 26173212",
+  "winner": "PROMA REHA, s.r.o.",
+  "winner_ico": "63219107",
   "awarded": "2026-03-11",
-  "price_contracted": 3645480.0,
+  "price_contracted": 3118680.0,
   "estimated": false,
-  "price_paid": 2456136.0,
-  "growth_pct": -32.6,
-  "dist_km": 39,
-  "loc_unknown": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
   "cpv": [
    "33192000"
   ],
   "kind": "VZ",
   "kw_match": true,
-  "url": "https://tenderarena.cz/dodavatel/zakazka/852958"
+  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0001187",
+  "bidders": [
+   {
+    "nazev": "PROMA REHA, s.r.o.",
+    "ico": "63219107",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Hilding Anders Česká republika a.s.",
+    "ico": "26173212",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PROMA REHA, s.r.o.",
+    "ico": "63219107",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "HTT GROUP s.r.o.",
+    "ico": "49686062",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PROMA REHA, s.r.o.",
+    "ico": "63219107",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2500227385",
@@ -27497,28 +28322,6 @@
   "kind": "VZ",
   "kw_match": false,
   "url": "https://www.vhodne-uverejneni.cz/profil/obec-pobezovice-u-holic"
- },
- {
-  "id": "rvz:RVZ2600002189",
-  "source": "isvz",
-  "title": "Modernizace pavilonu M – přístrojové vybavení  – 08 mechanické přístroje",
-  "authority": "Hamzova odborná léčebna pro děti a dospělé",
-  "authority_ico": "00183024",
-  "winner": "Ahama s.r.o.; MEDESA care s.r.o.; Proormedent s.r.o.",
-  "winner_ico": "27491579; 63323818; 28223951",
-  "awarded": "2026-03-06",
-  "price_contracted": 2611550.09,
-  "estimated": false,
-  "price_paid": 2183516.98,
-  "growth_pct": -16.4,
-  "dist_km": 39,
-  "loc_unknown": false,
-  "cpv": [
-   "33155000"
-  ],
-  "kind": "VZ",
-  "kw_match": true,
-  "url": "https://tenderarena.cz/dodavatel/zakazka/856255"
  },
  {
   "id": "rvz:RVZ2600001918",
@@ -28301,6 +29104,66 @@
   "kind": "VZ",
   "kw_match": false,
   "url": "https://zakazky.kr-stredocesky.cz/company_detail_46.html"
+ },
+ {
+  "id": "rvz:RVZ2600002189",
+  "source": "profil:sken-00183024",
+  "title": "Modernizace pavilonu M – přístrojové vybavení  – 08 mechanické přístroje",
+  "authority": "Hamzova odborná léčebna pro děti a dospělé",
+  "authority_ico": "00183024",
+  "winner": "Ahama s.r.o.",
+  "winner_ico": "27491579",
+  "awarded": "2026-02-24",
+  "price_contracted": 1380300.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [
+   "33155000"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0001187",
+  "bidders": [
+   {
+    "nazev": "Ahama s.r.o.",
+    "ico": "27491579",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MEDESA care s.r.o.",
+    "ico": "63323818",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MGVIVA a.s.",
+    "ico": "17321611",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "DARTIN spol.s r.o.",
+    "ico": "40763781",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "AUDY s.r.o.",
+    "ico": "00544426",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Proormedent s.r.o.",
+    "ico": "28223951",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600067472",
@@ -29374,6 +30237,66 @@
   ]
  },
  {
+  "id": "profil:sken-00085031:VZ-1455",
+  "source": "profil:sken-00085031",
+  "title": "Hala na posypový materiál cestmistrovství Běstovice",
+  "authority": "Správa a údržba silnic Pardubického kraje",
+  "authority_ico": "00085031",
+  "winner": "PP-GROUP stavební s.r.o.",
+  "winner_ico": "21771120",
+  "awarded": "2026-02-11",
+  "price_contracted": 11040272.07,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 37,
+  "loc_unknown": false,
+  "cpv": [
+   "45454100"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://ezak.suspk.cz",
+  "bidders": [
+   {
+    "nazev": "GOLDBECK Prefabeton s.r.o.",
+    "ico": "49823329",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PKD Build s.r.o.",
+    "ico": "19649843",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PP-GROUP stavební s.r.o.",
+    "ico": "21771120",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
+    "ico": "46504621",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ŠTĚPÁNEK, spol. s r.o.",
+    "ico": "45535124",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "TT - STAVBY CZ s.r.o.",
+    "ico": "03559378",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2600000330",
   "source": "profil:pardubice",
   "title": "Rekonstrukce zastávky MHD – Svítkov park – realizace",
@@ -30310,7 +31233,7 @@
  },
  {
   "id": "rvz:RVZ2500225999",
-  "source": "isvz",
+  "source": "profil:sken-00183024",
   "title": "Modernizace pavilonu M – přístrojové vybavení – hybridní robotický trénink chůze",
   "authority": "Hamzova odborná léčebna pro děti a dospělé",
   "authority_ico": "00183024",
@@ -30319,16 +31242,24 @@
   "awarded": "2026-01-23",
   "price_contracted": 4226272.0,
   "estimated": false,
-  "price_paid": 3990000.0,
-  "growth_pct": -5.6,
-  "dist_km": 39,
-  "loc_unknown": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
   "cpv": [
    "33150000"
   ],
   "kind": "VZ",
   "kw_match": true,
-  "url": "https://tenderarena.cz/dodavatel/zakazka/850971"
+  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0001187",
+  "bidders": [
+   {
+    "nazev": "Kardio - Line  spol. s r.o.",
+    "ico": "46994769",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2500225049",
@@ -31498,6 +32429,49 @@
   "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html"
  },
  {
+  "id": "profil:sken-60153296:VZ-12278",
+  "source": "profil:sken-60153296",
+  "title": "Snížení energetické náročnosti ČLA Trutnov – pracoviště Svoboda n. Úpou (garáže) – stavební práce",
+  "authority": "Česká lesnická akademie Trutnov - střední škola a vyšší odborná škola",
+  "authority_ico": "60153296",
+  "winner": "PS - STAV Náchod s.r.o.",
+  "winner_ico": "28858531",
+  "awarded": "2026-01-12",
+  "price_contracted": 10824169.89,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://zakazky.cenakhk.cz/profile_display_82.html",
+  "bidders": [
+   {
+    "nazev": "ANTON A SYN s.r.o.",
+    "ico": "04881681",
+    "cena": 11199243.04,
+    "vyloucen": false
+   },
+   {
+    "nazev": "J. Pišta a spol., společnost s r.o.",
+    "ico": "00578894",
+    "cena": 12292548.49,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PS - STAV Náchod s.r.o.",
+    "ico": "28858531",
+    "cena": 10824169.89,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/36363229"
+ },
+ {
   "id": "rvz:RVZ2500087540",
   "source": "isvz",
   "title": "Multifunkční sportovní aréna – nasvětlení arény",
@@ -31723,6 +32697,46 @@
   "kind": "VZ",
   "kw_match": false,
   "url": "https://nen.nipez.cz/Profil/LURA"
+ },
+ {
+  "id": "rvz:RVZ2500148711",
+  "source": "profil:sken-00027383",
+  "title": "Rekonstrukce indukčních jednotek v objektu TP",
+  "authority": "ČESKÁ TELEVIZE",
+  "authority_ico": "00027383",
+  "winner": "SAFECLIMA s.r.o.",
+  "winner_ico": "17867690",
+  "awarded": "2026-01-07",
+  "price_contracted": 42497888.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://www.egordion.cz/nabidkaGORDION/profilCt",
+  "bidders": [
+   {
+    "nazev": "Luwex, a.s.",
+    "ico": "00138207",
+    "cena": 52537550.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PULSKLIMA, spol. s r.o.",
+    "ico": "63144409",
+    "cena": 44387668.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SAFECLIMA s.r.o.",
+    "ico": "17867690",
+    "cena": 42497888.0,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2600000910",
@@ -34088,7 +35102,33 @@
   ],
   "kind": "VZ",
   "kw_match": true,
-  "url": "https://tenderarena.cz/dodavatel/zakazka/821218"
+  "url": "https://tenderarena.cz/dodavatel/zakazka/821218",
+  "bidders": [
+   {
+    "nazev": "MADISSON, s.r.o.",
+    "ico": "26124637",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MADISSON, s.r.o.",
+    "ico": "26124637",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MADISSON, s.r.o.",
+    "ico": "26124637",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MADISSON, s.r.o.",
+    "ico": "26124637",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2500114133",
@@ -34161,6 +35201,54 @@
   "kind": "VZ",
   "kw_match": false,
   "url": "https://zakazky.trutnov.cz/profile_display_2.html"
+ },
+ {
+  "id": "profil:sken-00183024:VZ0227289",
+  "source": "profil:sken-00183024",
+  "title": "Modernizace pavilonu M – přístrojové vybavení - vany",
+  "authority": "Hamzova odborná léčebna pro děti a dospělé",
+  "authority_ico": "00183024",
+  "winner": "MADISSON, s.r.o.",
+  "winner_ico": "26124637",
+  "awarded": "2025-11-27",
+  "price_contracted": 904200.0,
+  "estimated": false,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [
+   "33155000"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0001187",
+  "bidders": [
+   {
+    "nazev": "MADISSON, s.r.o.",
+    "ico": "26124637",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MADISSON, s.r.o.",
+    "ico": "26124637",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MADISSON, s.r.o.",
+    "ico": "26124637",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MADISSON, s.r.o.",
+    "ico": "26124637",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
  },
  {
   "id": "rvz:RVZ2500150163",
