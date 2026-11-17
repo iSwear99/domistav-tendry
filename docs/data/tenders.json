@@ -857,9 +857,7 @@
   "no_value": true,
   "expired": false,
   "dist_km": 19,
-  "loc_unknown": false,
-  "nen_detail": "2026-11-16",
-  "predmet": "Předmětem plnění veřejné zakázky je projektová příprava, inženýring a samotná stavební realizace volnočasového areálu s názvem „Nový skatepark a pumptrack - ul. Langiewiczova“."
+  "loc_unknown": false
  },
  {
   "id": "rvz:RVZ2600292178",
@@ -910,7 +908,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true,
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/vodohospodarske-sdruzeni-kolin"
@@ -938,7 +936,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 39,
   "loc_unknown": false,
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/00271071"
@@ -966,7 +964,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": false,
-  "expired": false,
+  "expired": true,
   "dist_km": 30,
   "loc_unknown": false,
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html"
@@ -994,7 +992,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true,
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/tom-service-s-r-o-1"
@@ -5758,6 +5756,53 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:pvu:25911368:P26V00005802",
+  "source": "profil:pvu:25911368",
+  "title": "Uzavřená výzva k podání nabídek na retoping",
+  "authority": "VÍTKOVICE ARÉNA, a.s.",
+  "authority_ico": "25911368",
+  "cpv": [
+   "45212200"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-09-09",
+  "deadline": "2026-09-21T12:00:00",
+  "url": "https://www.vhodne-uverejneni.cz/profil/vitkovice-arena-a-s",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "TUBEKO SPORT, spol. s r.o.",
+    "ico": "49825020",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Sport-Technik Bohemia s.r.o.",
+    "ico": "49618555",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SPORT Construction a.s.",
+    "ico": "27752771",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "authority_seat": "",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": true,
+  "expired": true,
+  "dist_km": null,
+  "loc_unknown": true
+ },
+ {
   "id": "profil:sken-00275301:P26V00005834",
   "source": "profil:sken-00275301",
   "title": "Sportovní hala – tělocvična, ZŠ Rokytnice v Orlických horách, rekonstrukce osvětlení",
@@ -5987,33 +6032,6 @@
   "expired": true,
   "dist_km": 19,
   "loc_unknown": false
- },
- {
-  "id": "profil:pvu:25911368:P26V00005802",
-  "source": "profil:pvu:25911368",
-  "title": "Uzavřená výzva k podání nabídek na retoping",
-  "authority": "VÍTKOVICE ARÉNA, a.s.",
-  "authority_ico": "25911368",
-  "cpv": [
-   "45212200"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-09-09",
-  "deadline": "2026-09-21T09:00:00",
-  "url": "https://www.vhodne-uverejneni.cz/profil/vitkovice-arena-a-s",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "authority_seat": "",
-  "kw_match": false,
-  "no_nuts": true,
-  "no_value": true,
-  "expired": true,
-  "dist_km": null,
-  "loc_unknown": true
  },
  {
   "id": "rvz:RVZ2600165514",
@@ -203961,39 +203979,6 @@
   "no_activity": true
  },
  {
-  "id": "rvz:RVZ2600071624",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Rekonstrukce ulice Ludvíka Středy v Úpici",
-  "authority": "MĚSTO ÚPICE",
-  "authority_ico": "00278386",
-  "cpv": [
-   "45233160"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 12780326.86,
-  "published": "",
-  "deadline": "",
-  "url": "https://tenderarena.cz/profily/00278386",
-  "place": "Úpice",
-  "authority_seat": "",
-  "authority_profile": "",
-  "state": "dokončen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": true,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 37,
-  "loc_unknown": false,
-  "auto_expired": "2026-10-19",
-  "no_activity": true
- },
- {
   "id": "rvz:RVZ2500093417",
   "source": "isvz",
   "nen_id": "",
@@ -205496,6 +205481,39 @@
   "no_value": false,
   "expired": true,
   "dist_km": 19,
+  "loc_unknown": false,
+  "auto_expired": "2026-10-19",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600071624",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Rekonstrukce ulice Ludvíka Středy v Úpici",
+  "authority": "MĚSTO ÚPICE",
+  "authority_ico": "00278386",
+  "cpv": [
+   "45233160"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 12780326.86,
+  "published": "",
+  "deadline": "",
+  "url": "https://tenderarena.cz/profily/00278386",
+  "place": "Úpice",
+  "authority_seat": "",
+  "authority_profile": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 37,
   "loc_unknown": false,
   "auto_expired": "2026-10-19",
   "no_activity": true

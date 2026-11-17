@@ -1,17 +1,18 @@
 {
- "updated": "2026-11-16T17:00:25+00:00",
+ "last_isvz": "",
+ "updated": "2026-11-17T13:01:28+00:00",
  "counts": {
   "total": 8287,
   "vz": 5199,
   "vzmr": 3088,
-  "active": 67,
-  "changed": 124,
+  "active": 63,
+  "changed": 125,
   "competition": 1518,
-  "previous": 8284
+  "previous": 8287
  },
  "errors": [
-  "profil:dobruska: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274879/XMLdataVZ?od=18082026&do=16112026: <urlopen error timed out>",
-  "profil:prelouc: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00274101/XMLdataVZ?od=18082026&do=16112026: <urlopen error timed out>",
-  "profil:hronov: Stažení selhalo: https://www.vhodne-uverejneni.cz/profil/00272680/XMLdataVZ?od=18082026&do=16112026: <urlopen error timed out>"
+  "⚠ AI filtr nefunguje: neplatný API klíč — vytvořte nový na platform.claude.com a vložte ho do GitHub secretu ANTHROPIC_API_KEY.",
+  "⚠ Plný běh na PC (ISVZ, PVU) neproběhl dlouho — zapněte PC, případně zkontrolujte runner a Actions.",
+  "⚠ Týdenní sken profilů neproběhl 28 dní."
  ]
 }
