@@ -27,6 +27,7 @@ import fetch_nen         # noqa: E402
 import fetch_profily     # noqa: E402
 import fetch_profily_sken  # noqa: E402
 import geo               # noqa: E402
+import ucasti            # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
@@ -665,6 +666,8 @@ def build_competition(all_t: list[dict], today: str) -> list[dict]:
             "winner_ico": aw.get("winner_ico") or "",
             "awarded": aw["date"],
             "price_contracted": contracted, "estimated": estimated,
+            # předpokládaná hodnota — poměr vítězné ceny k ní (UI)
+            "value": t.get("value"),
             "price_paid": paid, "growth_pct": growth,
             "dist_km": t.get("dist_km"), "loc_unknown": t.get("loc_unknown"),
             "cpv": t.get("cpv") or [], "kind": t["kind"],
@@ -950,6 +953,9 @@ def run(dry_run: bool = False) -> int:
     changes = compute_changes(result, today)
     # Konkurence: z KOMPLETNÍHO all_t (bez cenového stropu), vlastní archiv
     competition = build_competition(all_t, today)
+    # Moje účasti: firma mezi účastníky/vítězi (dle IČO), celá ČR bez
+    # filtrů — z all_t PŘED odstraněním award (tytéž objekty jako result)
+    moje_ucasti = ucasti.extract(all_t)
     # award patří do competition.json — v tenders.json by jen duplikoval
     for t in result:
         t.pop("award", None)
@@ -1009,6 +1015,10 @@ def run(dry_run: bool = False) -> int:
     (ROOT / config.OUT_META).write_text(
         json.dumps(meta, ensure_ascii=False, indent=1), "utf-8"
     )
+    um = ucasti.merge_save(moje_ucasti)
+    print(f"Moje účasti: +{len(moje_ucasti)} v tomto běhu, archiv "
+          f"{um['count']} (výher {um['vyhra']}, proher {um['prohra']}, "
+          f"čeká {um['ceka']})")
     return 0
 
 

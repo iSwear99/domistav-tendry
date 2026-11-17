@@ -256,6 +256,13 @@ NEN_MAX_DETAILS_PER_RUN = 50     # šetrnost: obohacuje se max. N aktivních VZ/
 # přibývají průběžně); mimo okno se záznamy odmazávají.
 COMPETITION_WINDOW_DAYS = 365
 
+# ── Moje účasti (pokyn 17. 11. 2026) ────────────────────────────────────────
+# Řízení, kde je firma mezi účastníky (ISVZ ucastnici, XML profily) nebo
+# vítězem — z VEŘEJNÝCH dat RVZ, celá ČR bez oborového/geo filtru, trvalá
+# retence (archiv jen roste). Identita firmy výhradně dle IČO (Domistav HK
+# vs. Domistav CZ). Ruční označení „podal jsem" drží jen prohlížeč/Gist.
+FIRMA_ICO = "26007177"
+
 # ── Zdroj 3: PVU RSS — čerství zadavatelé mimo konfigurované profily ────────
 # OVĚŘENO 2026-07-29: veřejné RSS nových zakázek celé ČR (~25 položek/den,
 # TTL 15 min). Z detailu se čte IČO + profil + sídlo, data pak přes
@@ -281,6 +288,8 @@ SMLOUVY_DATE_BEFORE_DAYS = 30    # smlouva smí předcházet datu zadání (evid
 SMLOUVY_DATE_AFTER_DAYS = 120    # …nebo následovat (podpis po rozhodnutí)
 SMLOUVY_PRICE_TOLERANCE = 0.15   # ±15 % vůči vysoutěžené ceně ⇒ "high"
 SMLOUVY_MAX_AMENDMENTS = 30      # strop uložených dodatků na smlouvu
+SMLOUVY_MAX_STRANEK = 400        # strop dočtených stránek smluv (přílohy) na běh
+SMLOUVY_MAX_PDF = 60             # strop PDF příloh prohledaných na rozpočet na běh
 
 # ── Zdroj 5: AI filtr relevance (Claude API, pokyn 29. 7. 2026) ─────────────
 # Denně po scraperu posoudí Claude NOVÉ zakázky nad rámec strojového CPV
@@ -318,5 +327,6 @@ OUT_TENDERS = f"{OUT_DIR}/tenders.json"
 OUT_CHANGES = f"{OUT_DIR}/changes.json"
 OUT_COMPETITION = f"{OUT_DIR}/competition.json"
 OUT_SMLOUVY = f"{OUT_DIR}/smlouvy.json"
+OUT_UCASTI = f"{OUT_DIR}/ucasti.json"
 OUT_META = f"{OUT_DIR}/meta.json"
 MIN_RESULT_RATIO = 0.2   # nový výsledek < 20 % předchozího ⇒ selhat, nepřepisovat

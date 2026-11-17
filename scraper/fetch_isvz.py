@@ -129,12 +129,114 @@ def _part_zps(vz: dict) -> list[dict]:
     return out
 
 
+def _ucastnici_map(zps: list[dict]) -> dict[str, tuple[list[str], list[str]]]:
+    """identifikace účastníka → (názvy, IČO) jeho dodavatelů.
+
+    Výsledek (vybraní dodavatelé, strany smlouvy) na účastníka často
+    odkazuje JEN identifikací bez subjektu — bez tohoto překladu měla
+    Konkurence u 39 % ISVZ záznamů „vítěz neuveden" (17. 11. 2026)."""
+    out: dict[str, tuple[list[str], list[str]]] = {}
+    for zp in zps:
+        for u in zp.get("ucastnici") or []:
+            ident = str(u.get("identifikace") or "")
+            if not ident:
+                continue
+            names, icos = out.setdefault(ident, ([], []))
+            for d in u.get("dodavatele") or []:
+                s = d.get("subjekt") or {}
+                n = str(s.get("nazev_subjektu") or "").strip()
+                i = str(s.get("ico") or "").strip()
+                if n and n not in names:
+                    names.append(n)
+                if i and i not in icos:
+                    icos.append(i)
+    return out
+
+
+def _bidders(zps: list[dict]) -> list[dict]:
+    """Účastníci řízení s nabídkovou cenou a výsledkem (veřejná data RVZ).
+
+    Stejný tvar jako bidders z XML profilů (nazev, ico, cena, vyloucen)
+    + pořadí nabídky a příznak vybrán. Osoby, které podání provedly,
+    se záměrně NEČTOU (osobní údaje). Konsorcium = jeden účastník,
+    názvy spojené „ + ", všechna IČO v `icos`."""
+    out: list[dict] = []
+    seen: set[tuple] = set()
+    for zp in zps:
+        vysl = zp.get("vysledek") or {}
+        vybrani = {str(v.get("identifikator_ucastnika_zadavaciho_postupu") or "")
+                   for v in vysl.get("vybrani_dodavatele_zadavaciho_postupu") or []}
+        for s in vysl.get("smlouva") or []:
+            for dd in s.get("dodavatele_se_kterymi_byla_uzavrena_smlouva") or []:
+                if dd.get("identifikace"):
+                    vybrani.add(str(dd["identifikace"]))
+        zanikli = {str(z.get("identifikace") or "")
+                   for z in zp.get("ucastnici_jimz_zanikla_ucast_v_zadavacim_postupu") or []}
+        for u in zp.get("ucastnici") or []:
+            names, icos = [], []
+            for d in u.get("dodavatele") or []:
+                sub = d.get("subjekt") or {}
+                n = str(sub.get("nazev_subjektu") or "").strip()
+                i = str(sub.get("ico") or "").strip()
+                if n and n not in names:
+                    names.append(n)
+                if i and i not in icos:
+                    icos.append(i)
+            if not names and not icos:
+                continue
+            cena = poradi = None
+            for p in u.get("podani") or []:
+                if p.get("poradi_nabidky") is not None and poradi is None:
+                    poradi = p["poradi_nabidky"]
+                for h in p.get("nabidkove_hodnoty") or []:
+                    druh = h.get("druh_nabidkove_hodnoty_odpovidajici_"
+                                  "ciselne_vyjadritelnym_kriteriem_hodnoceni")
+                    if (druh == "Nabídková cena bez DPH" and cena is None
+                            and h.get("mena") in (None, "CZK")
+                            and h.get("hodnota") is not None):
+                        cena = float(h["hodnota"])
+            ident = str(u.get("identifikace") or "")
+            key = (tuple(icos) or tuple(names), cena)
+            if key in seen:            # tentýž účastník ve více částech
+                continue
+            seen.add(key)
+            out.append({
+                "nazev": " + ".join(names),
+                "ico": icos[0] if icos else "",
+                **({"icos": icos} if len(icos) > 1 else {}),
+                "cena": cena,
+                "poradi": poradi,
+                "vybran": bool(ident) and ident in vybrani,
+                "vyloucen": bool(ident) and ident in zanikli,
+            })
+    return out
+
+
+def _pridej_dodavatele(dd: dict, ucast: dict, winners: list[str],
+                       icos: list[str]) -> None:
+    """Vítěz ze subjektu, jinak z odkazu na účastníka (identifikace)."""
+    subj = dd.get("subjekt") or {}
+    names = [str(subj.get("nazev_subjektu") or "").strip()]
+    ids = [str(subj.get("ico") or "").strip()]
+    if not any(names) and not any(ids):
+        ref = (str(dd.get("identifikace") or "")
+               or str(dd.get("identifikator_ucastnika_zadavaciho_postupu") or ""))
+        names, ids = ucast.get(ref, ([], []))
+    for n in names:
+        if n and n not in winners:
+            winners.append(n)
+    for i in ids:
+        if i and i not in icos:
+            icos.append(i)
+
+
 def _award(zps: list[dict]) -> dict | None:
     """Výsledek řízení ze smluv všech částí → podklad pro Konkurenci.
 
     Ceny se sčítají přes smlouvy (části VZ), uhrazená cena přes kalendářní
     roky plnění (skutecne_uhrazene_ceny). Jiná měna než CZK se přeskakuje.
     """
+    ucast = _ucastnici_map(zps)
     vysledky = [zp.get("vysledek") or {} for zp in zps]
     smlouvy = [s for v in vysledky for s in v.get("smlouva") or []]
     # vítěz může být uveden i jen v rozhodnutí o výběru (před podpisem)
@@ -164,23 +266,16 @@ def _award(zps: list[dict]) -> dict | None:
         if d:
             dates.append(d)
         for dd in s.get("dodavatele_se_kterymi_byla_uzavrena_smlouva") or []:
-            subj = dd.get("subjekt") or {}
-            n = str(subj.get("nazev_subjektu") or "").strip()
-            i = str(subj.get("ico") or "").strip()
-            if n and n not in winners:
-                winners.append(n)
-            if i and i not in icos:
-                icos.append(i)
+            _pridej_dodavatele(dd, ucast, winners, icos)
     if not winners:
         for dd in vybrani:
-            subj = dd.get("subjekt") or {}
-            n = str(subj.get("nazev_subjektu") or "").strip()
-            i = str(subj.get("ico") or "").strip()
-            if n and n not in winners:
-                winners.append(n)
-            if i and i not in icos:
-                icos.append(i)
+            _pridej_dodavatele(dd, ucast, winners, icos)
+    # stránka smlouvy v Registru smluv (přílohy: SoD, položkový rozpočet)
+    registr = next((str(s["odkaz_na_umisteni_smlouvy"]) for s in smlouvy
+                    if "smlouvy.gov.cz" in str(s.get("odkaz_na_umisteni_smlouvy")
+                                               or "")), "")
     return {
+        **({"registr_url": registr} if registr else {}),
         "date": max(dates) if dates else "",
         "winner": "; ".join(winners),
         "winner_ico": "; ".join(icos),
@@ -283,6 +378,8 @@ def normalize(rec: dict) -> dict | None:
         "clarifications": clar,
         "kind": "VZMR" if vzmr else "VZ",
         "award": _award(zps),   # výsledek řízení (Konkurence); None = nezadáno
+        # účastníci s nabídkami — Konkurence, Moje účasti (vlastní IČO)
+        **({"bidders": b} if (b := _bidders(zps)) else {}),
     }
 
 

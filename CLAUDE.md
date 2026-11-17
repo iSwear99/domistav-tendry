@@ -295,6 +295,39 @@ s předchozím během; mimo okno se maže (jediné povolené mazání).
 Frontend počítá cenu vč. dodatků z Registru smluv (slidery, TOP firmy);
 % nárůstu s prioritou: uhrazeno, jinak vysoutěženo + dodatky.
 
+**Moje účasti** (`docs/data/ucasti.json`, pokyn 17. 11. 2026, modul
+`scraper/ucasti.py`): řízení, kde je DOMISTAV mezi účastníky nebo
+vítězi — VÝHRADNĚ dle IČO `config.FIRMA_ICO`, z veřejných dat (ISVZ
+`ucastnici` se jménem, IČO, nabídkovou cenou bez DPH, pořadím a příznakem
+vybrán; XML profilů `bidders`), celá ČR BEZ oborového/geo filtru,
+trvalá retence (známý výsledek se nikdy nesníží na „ceka"). Výstup
+`{"meta": {updated, count, vyhra, prohra, ceka}, "ucasti": {id: {…,
+my: {cena, poradi, vyloucen}, bidders, vysledek, winner, winner_ico,
+winner_cena, price_contracted, awarded}}}`. Historie jednorázově
+`scraper/backfill_ucasti.py` (RVZ exporty existují od 10/2024, obsahují
+ale i starší řízení — zpětně až 2014). Osoby, které podání provedly
+(jména, e-maily v ISVZ), se NEČTOU. Ruční 📨 „podal jsem nabídku"
+(+ naše cena) je zájem uživatele ⇒ jen `syncDoc.ucast` v prohlížeči /
+soukromém Gistu, NIKDY do repozitáře; UI ho dopáruje na výsledek dle id,
+jinak IČO zadavatele + názvu. Vedlejší oprava: vítěz v ISVZ výsledku
+často odkazuje jen `identifikace` účastníka — `_ucastnici_map`
+ji překládá (dříve 39 % Konkurence „vítěz neuveden"); `bidders` nyní
+nesou i ISVZ záznamy (Konkurence ukazuje všechny nabídky).
+Konkurence nese i `value` (předpokládaná hodnota) ⇒ UI ukazuje poměr
+vítězné ceny k ní (tag + medián v TOP firmách; u odhadnutých cen ne).
+
+**Přílohy smluv / položkový rozpočet vítěze** (pokyn 17. 11. 2026,
+fetch_smlouvy.py): `smlouvy.json → prilohy: {stránka smlouvy: [{nazev,
+url, rozpocet?, rozpocet_strany?}]}`. Zdroje stránek: napárované vazby
+(Konkurence + Moje účasti) a `registr_url` z ISVZ (odkaz_na_umisteni_
+smlouvy). Přílohy z dumpu (`prilohy/priloha`), u starších vazeb ze
+stránky smlouvy (strop SMLOUVY_MAX_STRANEK/běh). Rozpočet se pozná
+z názvu souboru (rozpočet, výkaz, soupis, .xlsx…) nebo z TEXTU PDF
+(záhlaví soupisu prací/výkazu výměr + měrné jednotky, strop
+SMLOUVY_MAX_PDF/běh; skeny nelze posoudit). Soubory se NIKDY
+neukládají — jen název a veřejný odkaz registru. Zadavatelé rozpočet
+často nezveřejňují (obchodní tajemství) — chybějící příloha není chyba.
+
 **Známé omezení lhůt:** záznamy ze zdroje VVZ nemají v ISVZ open datech
 lhůty, stav ani odkaz (ověřeno na dokumentaci 2.9.0 i datech — pole jsou
 null, historie_lhut prázdná). Lhůty se dotahují z profilů zadavatelů

@@ -43,8 +43,9 @@ function daysTo(deadline) {
 
 const syncDoc = (() => {
   const d = JSON.parse(localStorage.getItem(LS_DOC) || "null")
-    || { watch: {}, dislikes: {}, hidden: {} };
+    || { watch: {}, dislikes: {}, hidden: {}, ucast: {} };
   d.hidden = d.hidden || {};   // migrace dokumentů z doby před 🚫
+  d.ucast = d.ucast || {};     // 📨 podal jsem nabídku (od 17. 11. 2026)
   // migrace starších úložišť bez časových značek
   const now = Date.now();
   for (const id of JSON.parse(localStorage.getItem(LS_WATCH) || "[]")) {
@@ -68,6 +69,12 @@ function deriveFromDoc() {
   // 🚫 nemám zájem: skrytí konkrétní zakázky bez učení (na rozdíl od 👎)
   state.noInterest = new Set(
     Object.keys(syncDoc.hidden).filter((id) => syncDoc.hidden[id].on));
+  // 📨 ruční účasti: id → {cena, t: otisk zakázky} — přežije i zmizení
+  // zakázky z dat; NIKDY se nezapisuje do veřejného repozitáře
+  state.mojeRucne = {};
+  for (const [id, e] of Object.entries(syncDoc.ucast || {})) {
+    if (e.on) state.mojeRucne[id] = e;
+  }
 }
 
 function persistDoc() {
@@ -79,7 +86,7 @@ function persistDoc() {
 
 function mergeDocs(remote) {
   let changed = false, localNewer = false;
-  for (const kind of ["watch", "dislikes", "hidden"]) {
+  for (const kind of ["watch", "dislikes", "hidden", "ucast"]) {
     syncDoc[kind] = syncDoc[kind] || {};
     const loc = syncDoc[kind], rem = (remote || {})[kind] || {};
     for (const [id, e] of Object.entries(rem)) {
@@ -153,9 +160,7 @@ async function syncPull() {
       deriveFromDoc();
       localStorage.setItem(LS_DOC, JSON.stringify(syncDoc));
       buildModel();
-      render();
-      renderAI();
-      renderComp();
+      renderAll();
     }
     if (localNewer) schedulePush();
     setSyncStatus("✓ synchronizováno");
@@ -301,7 +306,7 @@ async function load() {
     // no-cache = vždy revalidace přes ETag (na Pages levné 304); bez ní
     // prohlížeč heuristicky drží starý JSON i po denní aktualizaci
     const j = (url) => fetch(url, { cache: "no-cache" }).then((r) => r.json());
-    const [tenders, meta, changes, comp, smlouvy, dok, ai] = await Promise.all([
+    const [tenders, meta, changes, comp, smlouvy, dok, ai, uc] = await Promise.all([
       j("data/tenders.json"),
       j("data/meta.json"),
       j("data/changes.json").catch(() => ({})),
@@ -309,11 +314,14 @@ async function load() {
       j("data/smlouvy.json").catch(() => ({})),
       j("data/dokumenty.json").catch(() => ({})),
       j("data/ai_filter.json").catch(() => ({})),
+      j("data/ucasti.json").catch(() => ({})),
     ]);
+    state.ucasti = (uc && uc.ucasti) || {};
     state.tenders = tenders;
     state.changes = changes || {};
     state.comp = comp || [];
     state.smlouvy = (smlouvy && smlouvy.links) || {};
+    state.prilohy = (smlouvy && smlouvy.prilohy) || {};
     state.zd = (dok && dok.zd) || {};
     state.zpravy = (dok && dok.zpravy) || {};
     state.oblibene = (smlouvy && smlouvy.oblibene) || {};
@@ -326,10 +334,15 @@ async function load() {
     showError(["Chyba načtení dat: " + e.message]);
     return;
   }
+  renderAll();
+  localStorage.setItem(LS_SEEN, todayISO); // až po vykreslení badge „nové"
+}
+
+function renderAll() {
   render();
   renderAI();
   renderComp();
-  localStorage.setItem(LS_SEEN, todayISO); // až po vykreslení badge „nové"
+  renderUcasti();
 }
 
 function renderMeta(meta) {
@@ -496,6 +509,7 @@ function rowHTML(t) {
     ${due}
     <span class="acts">
       <button class="${star}" title="Sledovat" aria-pressed="${state.watch.has(t.id)}">★</button>
+      <button class="podano${state.mojeRucne[t.id] ? " on" : ""}" title="Podal jsem nabídku — zařadí zakázku do záložky Moje účasti (výsledek se dopáruje sám; jen v prohlížeči/soukromém Gistu)" aria-pressed="${!!state.mojeRucne[t.id]}">📨</button>
       <button class="nozajem${state.noInterest.has(t.id) ? " on" : ""}" title="Nemám zájem — skrýt tuto konkrétní zakázku (bez vlivu na učení; synchronizuje se mezi zařízeními)" aria-pressed="${state.noInterest.has(t.id)}">🚫</button>
       <button class="thumb${disliked ? " on" : ""}" title="Označit jako nerelevantní — podobné zakázky se přestanou zobrazovat" aria-pressed="${disliked}">👎</button>
     </span>
@@ -504,13 +518,25 @@ function rowHTML(t) {
 
 // Nabídky účastníků řízení (z XML profilů zadavatelů) — kdo podává
 // nabídky a za kolik; funguje v Zakázkách, AI výběru i Konkurenci.
-function biddersHTML(x) {
+function biddersHTML(x, open) {
   if (!x.bidders || !x.bidders.length) return "";
-  const radky = x.bidders.map((b) =>
-    `<li>${esc(b.nazev)}${b.ico ? ` <small>IČO ${esc(b.ico)}</small>` : ""}`
+  // řazení: známé pořadí, pak cena; vlastní firma (dle IČO) zvýrazněná
+  const bs = x.bidders.slice().sort((a, b) =>
+    (a.poradi ?? 1e9) - (b.poradi ?? 1e9) || (a.cena ?? 1e18) - (b.cena ?? 1e18));
+  const radky = bs.map((b) =>
+    `<li${jeMoje(b) ? ' class="moje"' : ""}>`
+    + (b.poradi != null ? `<small>${b.poradi}.</small> ` : "")
+    + `${esc(b.nazev)}${b.ico ? ` <small>IČO ${esc(b.ico)}</small>` : ""}`
     + (b.cena != null ? ` — <b>${fmtKc.format(b.cena)} Kč</b>` : "")
+    + (b.vybran ? " 🏆" : "")
     + (b.vyloucen ? ' <small>(vyloučen)</small>' : "") + "</li>").join("");
-  return `<details class="hist"><summary>Nabídky účastníků (${x.bidders.length})</summary><ul>${radky}</ul></details>`;
+  return `<details class="hist"${open ? " open" : ""}><summary>Nabídky účastníků (${x.bidders.length})</summary><ul>${radky}</ul></details>`;
+}
+
+// identita firmy VÝHRADNĚ dle IČO (Domistav HK vs. Domistav CZ)
+const FIRMA_ICO = "26007177";
+function jeMoje(b) {
+  return b.ico === FIRMA_ICO || (b.icos || []).includes(FIRMA_ICO);
 }
 
 // Smlouva k OBLÍBENÉ ★ zakázce dohledaná v Registru smluv (párování
@@ -585,6 +611,33 @@ function render() {
 // Vazba na Registr smluv (data/smlouvy.json) — dodatky a verifikace cen.
 function linkOf(c) {
   return (state.smlouvy || {})[c.id];
+}
+
+// Poměr ceny k předpokládané hodnotě (vítězná / naše nabídka) — tag.
+function pomer(cena, hodnota) {
+  return cena && hodnota ? Math.round(cena / hodnota * 1000) / 10 : null;
+}
+function pomerHTML(cena, hodnota, co) {
+  const p = pomer(cena, hodnota);
+  if (p == null) return "";
+  return `<span class="tag pomer${p < 100 ? " down" : " up"}" title="${esc(co)} / předpokládaná hodnota ${fmtKc.format(hodnota)} Kč bez DPH">${esc(co)}: ${p.toLocaleString("cs-CZ")} % předpokl. hodnoty</span>`;
+}
+
+// Přílohy smlouvy z Registru smluv (SoD, často i oceněný výkaz výměr
+// vítěze). Pravděpodobné rozpočty dle názvu souboru jsou zvýrazněné;
+// rozpočet bývá i uvnitř jediného PDF smlouvy — proto vždy všechny.
+function prilohyHTML(x) {
+  const l = (state.smlouvy || {})[x.id];
+  const page = (l && l.url) || x.registr_url || "";
+  if (!page) return "";
+  const pr = (state.prilohy || {})[page];
+  if (!pr || !pr.length) {
+    return `<div class="zd"><a href="${esc(page)}" target="_blank" rel="noopener">📄 smlouva v registru smluv</a></div>`;
+  }
+  const rozp = pr.filter((p) => p.rozpocet).length;
+  const items = pr.slice().sort((a, b) => !!b.rozpocet - !!a.rozpocet).map((p) =>
+    `<li>${p.rozpocet ? "📊 " : ""}<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.nazev)}</a></li>`).join("");
+  return `<details class="hist"${rozp ? " open" : ""}><summary>📎 Přílohy smlouvy (${pr.length})${rozp ? ` · 📊 pravděpodobně rozpočet / výkaz výměr: ${rozp}` : ""}</summary><ul>${items}<li><small>Položkový rozpočet bývá i součástí PDF smlouvy · <a href="${esc(page)}" target="_blank" rel="noopener">stránka smlouvy</a></small></li></ul></details>`;
 }
 
 // Cena včetně dodatků — používají ji slidery i agregace TOP firem.
@@ -699,10 +752,12 @@ function compRowHTML(c) {
         ${c.loc_unknown ? '<span class="tag">poloha neurčena</span>' : ""}
         ${(c.cpv || []).slice(0, 1).map((x) => `<span class="tag">CPV ${esc(x)}</span>`).join("")}
         ${c.kw_match ? '<span class="tag kw">dle názvu</span>' : ""}
+        ${c.estimated ? "" : pomerHTML(c.price_contracted, c.value, "vítěz")}
         ${irrBadge}
       </div>
       ${paid}
       ${biddersHTML(c)}
+      ${prilohyHTML(c)}
     </div>
     ${price}
     <span class="due">${esc((c.awarded || "").split("-").reverse().join("."))}<small>zadáno</small></span>
@@ -728,9 +783,17 @@ function renderTopFirms(shown) {
   }
   const top = [...agg.values()].sort((a, b) => b.sum - a.sum).slice(0, 10);
   const maxSum = top.length ? top[0].sum : 1;
-  $("c-top-total").textContent = total
+  // medián poměru vítězná cena / předpokládaná hodnota — odolný vůči
+  // chybně zadaným hodnotám (řádové překlepy zadavatelů)
+  const pomery = shown.filter((c) => !c.estimated)
+    .map((c) => pomer(c.price_contracted, c.value)).filter((p) => p != null)
+    .sort((a, b) => a - b);
+  const median = pomery.length ? pomery[Math.floor(pomery.length / 2)] : null;
+  $("c-top-total").textContent = (total
     ? `— celkový objem vyhraných zakázek v aktuálním filtru: ${fmtKc.format(total)} Kč bez DPH`
-    : "";
+    : "") + (median != null
+    ? ` · vítězná cena v mediánu ${median.toLocaleString("cs-CZ")} % předpokládané hodnoty (${pomery.length} zakázek)`
+    : "");
   $("c-top-list").innerHTML = top.map((a, i) =>
     `<li data-filtr="${esc(a.ico || a.name)}" title="Kliknutím vyfiltrovat zakázky této firmy (dle IČO)">
       <span class="tf-name"><b>${i + 1}.</b> ${esc(a.name)}${a.ico ? ` <small>IČO ${esc(a.ico)}</small>` : ""}</span>
@@ -794,8 +857,170 @@ function renderAI() {
     : "";
 }
 
+/* ── Moje účasti (pokyn 17. 11. 2026) ─────────────────────────────────────
+   Sjednocení dvou zdrojů: automaticky z veřejných dat (data/ucasti.json —
+   účastníci ISVZ a profilů dle IČO) + ruční 📨 „podal jsem nabídku"
+   (syncDoc.ucast, jen prohlížeč/soukromý Gist). Ruční účast se dopáruje
+   na výsledek podle id, jinak podle IČO zadavatele + názvu (tatáž
+   zakázka z profilu × ISVZ má jiné id). */
+
+const klic = (x) => (x.authority_ico || "") + "|" + norm(x.title);
+
+function ucastiEntries() {
+  const out = new Map();
+  for (const u of Object.values(state.ucasti || {})) {
+    out.set(u.id, { ...u, auto: true });
+  }
+  const dleKlice = new Map();
+  for (const u of out.values()) if (u.authority_ico) dleKlice.set(klic(u), u);
+  for (const [id, e] of Object.entries(state.mojeRucne || {})) {
+    const t = state.tenders.find((x) => x.id === id) || e.t || { title: "?" };
+    let u = out.get(id) || (t.authority_ico && dleKlice.get(klic(t)));
+    if (!u) {
+      const c = (state.comp || []).find((x) => x.id === id
+        || (t.authority_ico && x.authority_ico && klic(x) === klic(t)));
+      const winIcos = c ? (c.winner_ico || "").split(";").map((s) => s.trim()) : [];
+      u = {
+        id, source: t.source || "", title: t.title, authority: t.authority,
+        authority_ico: t.authority_ico, url: t.url, kind: t.kind,
+        published: t.published, deadline: t.deadline, value: t.value,
+        bidders: (c && c.bidders) || t.bidders || [], my: null,
+        vysledek: !c ? "ceka" : winIcos.includes(FIRMA_ICO) ? "vyhra" : "prohra",
+        winner: c ? c.winner : "", winner_ico: c ? c.winner_ico : "",
+        price_contracted: c && !c.estimated ? c.price_contracted : null,
+        awarded: c ? c.awarded : "",
+      };
+      out.set(id, u);
+    }
+    u.rucne = e;
+  }
+  return [...out.values()];
+}
+
+function ucastDatum(u) {
+  return u.awarded || (u.deadline || "").slice(0, 10) || u.published || "";
+}
+
+function ucastPasses(u) {
+  const q = $("u-q").value.trim().toLowerCase();
+  if (q && !(u.title + " " + u.authority + " " + (u.winner || ""))
+    .toLowerCase().includes(q)) return false;
+  const v = $("u-vysledek").value;
+  if (v && u.vysledek !== v) return false;
+  const od = $("u-from").value;
+  if (od && ucastDatum(u) < od) return false;
+  return true;
+}
+
+function ucastRowHTML(u) {
+  const nase = (u.my && u.my.cena != null) ? u.my.cena
+    : (u.rucne && u.rucne.cena != null ? u.rucne.cena : null);
+  const vitezCena = u.winner_cena ?? u.price_contracted;
+  const dn = daysTo(u.deadline);
+  let stav;
+  if (u.vysledek === "vyhra") {
+    stav = `<div class="vysl vyhra">🏆 Vyhráno${u.price_contracted ? ` — smlouva <b>${fmtKc.format(u.price_contracted)} Kč</b> bez DPH` : ""}</div>`;
+  } else if (u.vysledek === "prohra") {
+    const rozdil = nase && vitezCena
+      ? ` <small>(naše nabídka ${nase > vitezCena ? "+" : ""}${Math.round((nase / vitezCena - 1) * 1000) / 10} % vs. vítěz)</small>` : "";
+    stav = `<div class="vysl prohra">Nevyhráno${u.my && u.my.vyloucen ? " (vyloučeni)" : ""} — vítěz ${esc(u.winner || "?")}${u.winner_ico ? ` <small>IČO ${esc(u.winner_ico)}</small>` : ""}${vitezCena ? ` za <b>${fmtKc.format(vitezCena)} Kč</b>` : ""}${rozdil}</div>`;
+  } else if (dn != null && dn >= 0) {
+    stav = `<div class="vysl ceka">⏳ Lhůta běží — podání do ${esc(fmtDate(u.deadline))}</div>`;
+  } else {
+    stav = `<div class="vysl ceka">⌛ Výsledek zatím nezveřejněn <small>(ISVZ jej doplní zpětně)</small></div>`;
+  }
+  const pocet = (u.bidders || []).length;
+  // pořadí jen u víc účastníků — ISVZ občas uvádí nesmysl (4. z 1)
+  const poradi = u.my && u.my.poradi != null && pocet > 1
+    ? `<span class="tag">pořadí ${u.my.poradi} z ${pocet}</span>`
+    : (pocet > 1 ? `<span class="tag">${pocet} účastníků</span>` : "");
+  const puvod = u.rucne
+    ? '<span class="tag rucne" title="Označeno tlačítkem 📨 — uloženo jen v prohlížeči/soukromém Gistu">📨 označeno ručně</span>' : "";
+  const verejne = u.auto
+    ?'<span class="tag rucne" title="Účast dohledána ve veřejných datech (ISVZ / profil zadavatele) dle IČO">z veřejných dat</span>' : "";
+  const title = u.url
+    ? `<a href="${esc(u.url)}" target="_blank" rel="noopener">${esc(u.title)}</a>` : esc(u.title);
+  const val = u.value != null
+    ? `<span class="val">${fmtKc.format(u.value)}<small>předpokl. Kč bez DPH</small></span>`
+    : `<span class="val">—<small>hodnota neuvedena</small></span>`;
+  const d = ucastDatum(u);
+  return `<li class="row" data-id="${esc(u.id)}">
+    <div class="head">
+      <h2>${title}</h2>
+      <div class="auth">${esc(u.authority)}</div>
+      ${stav}
+      <div class="tags">
+        ${u.kind ? `<span class="tag ${u.kind === "VZ" ? "vz" : "vzmr"}">${esc(u.kind)}</span>` : ""}
+        ${poradi}${puvod}${verejne}
+        ${u.vysledek !== "ceka" ? pomerHTML(vitezCena, u.value, u.vysledek === "vyhra" ? "naše smlouva" : "vítěz") : ""}
+        ${u.vysledek !== "vyhra" ? pomerHTML(nase, u.value, "naše nabídka") : ""}
+      </div>
+      ${nase != null ? `<div class="zd">naše nabídka: <b>${fmtKc.format(nase)} Kč</b> bez DPH</div>` : ""}
+      ${biddersHTML(u)}
+      ${prilohyHTML(u)}
+    </div>
+    ${val}
+    <span class="due${u.vysledek === "ceka" && dn != null && dn >= 0 ? "" : " gone"}">${esc(d.split("-").reverse().join("."))}<small>${u.awarded ? "zadáno" : "lhůta"}</small></span>
+    <span class="acts"><button class="podano${u.rucne ? " on" : ""}" title="${u.rucne ? "Zrušit ruční označení účasti" : "Označit ručně a zadat naši nabídkovou cenu"}" aria-pressed="${!!u.rucne}">📨</button></span>
+  </li>`;
+}
+
+function renderUcasti() {
+  if (!$("ucasti-list")) return;
+  const all = ucastiEntries();
+  const shown = all.filter(ucastPasses)
+    .sort((a, b) => ucastDatum(b).localeCompare(ucastDatum(a)));
+  $("ucasti-list").innerHTML = shown.map(ucastRowHTML).join("");
+  $("ucasti-empty").hidden = shown.length > 0;
+  $("u-count").textContent = `${shown.length} z ${all.length}`;
+  $("u-tabcount").textContent = all.length ? `(${all.length})` : "";
+  const vyhry = all.filter((u) => u.vysledek === "vyhra");
+  const prohry = all.filter((u) => u.vysledek === "prohra");
+  $("us-total").textContent = all.length;
+  $("us-vyhra").textContent = vyhry.length;
+  $("us-rate").textContent = vyhry.length + prohry.length
+    ? Math.round(vyhry.length / (vyhry.length + prohry.length) * 100) + " %" : "–";
+  const objem = vyhry.reduce((s, u) => s + (u.price_contracted || 0), 0);
+  $("us-objem").textContent = objem
+    ? (Math.round(objem / 1e5) / 10).toLocaleString("cs-CZ") : "–";
+  $("us-ceka").textContent = all.filter((u) => u.vysledek === "ceka").length;
+  $("us-stat-vyhra").classList.toggle("on", $("u-vysledek").value === "vyhra");
+  $("us-stat-ceka").classList.toggle("on", $("u-vysledek").value === "ceka");
+}
+
+// 📨 ruční účast: zapnutí se ptá na naši nabídkovou cenu (nepovinná)
+document.addEventListener("click", (e) => {
+  const btn = e.target.closest(".podano");
+  if (!btn) return;
+  const id = btn.closest(".row").dataset.id;
+  const now = Date.now();
+  const cur = syncDoc.ucast[id];
+  if (cur && cur.on) {
+    syncDoc.ucast[id] = { ...cur, ts: now, on: false };   // historie zůstává
+  } else {
+    const vstup = prompt("Podali jste nabídku. Vaše nabídková cena bez DPH v Kč "
+      + "(nepovinné — zůstane jen ve vašem prohlížeči / soukromém Gistu):", "");
+    if (vstup === null) return;                            // zrušeno
+    const cena = parseFloat(vstup.replace(/\s|Kč/g, "").replace(",", "."));
+    const t = state.tenders.find((x) => x.id === id)
+      || (state.ucasti || {})[id] || (state.comp || []).find((x) => x.id === id)
+      || {};
+    syncDoc.ucast[id] = {
+      ts: now, on: true, cena: Number.isFinite(cena) ? cena : null,
+      // otisk pro případ, že zakázka z dat zmizí (retence, sloučení)
+      t: { title: t.title, authority: t.authority,
+           authority_ico: t.authority_ico, url: t.url, kind: t.kind,
+           deadline: t.deadline, published: t.published, value: t.value,
+           source: t.source },
+    };
+  }
+  persistDoc();
+  deriveFromDoc();
+  renderAll();
+});
+
 function switchTab(name) {
-  for (const p of ["tenders", "ai", "comp"]) {
+  for (const p of ["tenders", "ai", "comp", "ucasti"]) {
     $("panel-" + p).hidden = p !== name;
     $("tab-" + p).classList.toggle("on", p === name);
     $("tab-" + p).setAttribute("aria-selected", String(p === name));
@@ -804,6 +1029,17 @@ function switchTab(name) {
 $("tab-tenders").addEventListener("click", () => switchTab("tenders"));
 $("tab-ai").addEventListener("click", () => switchTab("ai"));
 $("tab-comp").addEventListener("click", () => switchTab("comp"));
+$("tab-ucasti").addEventListener("click", () => switchTab("ucasti"));
+["u-q", "u-vysledek", "u-from"].forEach((id) =>
+  $(id).addEventListener("input", renderUcasti));
+$("us-stat-vyhra").addEventListener("click", () => {
+  $("u-vysledek").value = $("u-vysledek").value === "vyhra" ? "" : "vyhra";
+  renderUcasti();
+});
+$("us-stat-ceka").addEventListener("click", () => {
+  $("u-vysledek").value = $("u-vysledek").value === "ceka" ? "" : "ceka";
+  renderUcasti();
+});
 $("a-nejisto").addEventListener("input", renderAI);
 $("a-nodeadline").addEventListener("input", renderAI);
 $("c-min").addEventListener("input", (e) =>

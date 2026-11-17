@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <!-- ?v= při každé změně assetů zvýšit — GitHub Pages cachuje 10 minut
      a mix nového HTML se starým CSS/JS rozbíjí vzhled i funkce -->
-<link rel="stylesheet" href="style.css?v=20260731b">
+<link rel="stylesheet" href="style.css?v=20261117a">
 </head>
 <body>
 
@@ -31,7 +31,7 @@
 
 <dialog id="sync-dlg">
   <form method="dialog">
-    <h3>Synchronizace ★/🚫/👎 mezi zařízeními</h3>
+    <h3>Synchronizace ★/🚫/👎/📨 mezi zařízeními</h3>
     <p id="sync-info"></p>
     <p>Data se ukládají do <b>soukromého GitHub Gistu</b> na vašem účtu —
       do veřejného repozitáře aplikace se nikdy nezapisují. Vytvořte si
@@ -55,6 +55,7 @@
   <button class="tab on" id="tab-tenders" aria-selected="true">Zakázky</button>
   <button class="tab" id="tab-ai" aria-selected="false">AI výběr</button>
   <button class="tab" id="tab-comp" aria-selected="false">Konkurence</button>
+  <button class="tab" id="tab-ucasti" aria-selected="false">Moje účasti <small id="u-tabcount"></small></button>
 </nav>
 
 <div id="panel-tenders">
@@ -144,11 +145,44 @@
 </main>
 </div>
 
+<div id="panel-ucasti" hidden>
+<section class="wrap stats" aria-label="Souhrn účastí">
+  <div class="stat"><b id="us-total">–</b><span>účastí</span></div>
+  <div class="stat clickable" id="us-stat-vyhra" title="Kliknutím vyfiltrovat vyhrané"><b id="us-vyhra">–</b><span>vyhraných</span></div>
+  <div class="stat"><b id="us-rate">–</b><span>úspěšnost (z rozhodnutých)</span></div>
+  <div class="stat"><b id="us-objem">–</b><span>objem vyhraných (mil. Kč)</span></div>
+  <div class="stat clickable" id="us-stat-ceka" title="Kliknutím vyfiltrovat čekající na výsledek"><b id="us-ceka">–</b><span>čeká na výsledek</span></div>
+</section>
+<section class="wrap filters" aria-label="Filtry účastí">
+  <input type="search" id="u-q" placeholder="Hledat zakázku / zadavatele / vítěze…" autocomplete="off">
+  <select id="u-vysledek">
+    <option value="">Výsledek: vše</option>
+    <option value="vyhra">🏆 vyhrané</option>
+    <option value="prohra">nevyhrané</option>
+    <option value="ceka">čeká / nezveřejněno</option>
+  </select>
+  <label class="chk" title="Datum (zadání, jinak lhůta) od">od
+    <input type="date" id="u-from"></label>
+  <span class="comp-count" id="u-count"></span>
+</section>
+<main class="wrap">
+  <ol class="list" id="ucasti-list"></ol>
+  <p class="empty" id="ucasti-empty" hidden>Žádná účast neodpovídá filtrům.
+    Zakázku, do které jste podali nabídku, označte v Zakázkách tlačítkem 📨.</p>
+  <p class="foot-note">Účasti se dohledávají automaticky z veřejných dat (účastníci
+  řízení v ISVZ a na profilech zadavatelů, výhradně dle IČO 26007177, celá ČR).
+  ISVZ je zveřejňuje se zpožděním (měsíční export, často až po uzavření smlouvy) —
+  čerstvou nabídku proto označte ručně tlačítkem 📨; výsledek se k ní dopáruje sám.
+  Ruční označení a vaše nabídková cena se ukládají jen v prohlížeči
+  (a v soukromém Gistu při synchronizaci ⇅), nikdy do veřejného repozitáře.</p>
+</main>
+</div>
+
 <footer class="wrap foot">
   <p>Zdroje: ISVZ Open Data (Registr veřejných zakázek, MMR), XML profily zadavatelů a NEN.
   Interní nástroj DOMISTAV HK s.r.o. — poznámky a sledování se ukládají pouze ve vašem prohlížeči.</p>
 </footer>
 
-<script src="app.js?v=20260731b"></script>
+<script src="app.js?v=20261117a"></script>
 </body>
 </html>

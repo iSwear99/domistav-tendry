@@ -68,7 +68,8 @@ def _poloz_na_main(mine: str, changed: list[str], msg: str) -> None:
 # platily tokeny). Klíče z origin/main, které tento běh nemá, se proto
 # doplní. Jen tam, kde přidání nemůže porušit pravidlo souboru
 # (dokumenty.json ne — dokument smí patřit jen jedné zakázce).
-_SJEDNOTIT = {"docs/data/ai_filter.json": "verdikty"}
+_SJEDNOTIT = {"docs/data/ai_filter.json": "verdikty",
+              "docs/data/ucasti.json": "ucasti"}
 
 
 def _sjednot(changed: list[str], msg: str) -> None:
@@ -97,6 +98,10 @@ def _sjednot(changed: list[str], msg: str) -> None:
             for v in moje.values():
                 counts[v.get("verdikt")] = counts.get(v.get("verdikt"), 0) + 1
             meta["celkem"], meta["counts"] = len(moje), counts
+        elif isinstance(meta, dict) and sekce == "ucasti":
+            meta["count"] = len(moje)
+            for k in ("vyhra", "prohra", "ceka"):
+                meta[k] = sum(1 for v in moje.values() if v.get("vysledek") == k)
         Path(path).write_text(json.dumps(data, ensure_ascii=False, indent=1),
                               "utf-8")
         git("add", "--", path)

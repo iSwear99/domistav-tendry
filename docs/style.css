@@ -306,6 +306,20 @@ body {
   filter: grayscale(1); opacity: .45;
 }
 .thumb.on, .thumb:hover { filter: none; opacity: 1; }
+.podano { background: none; border: none; cursor: pointer; font-size: 15px;
+  padding: 4px; filter: grayscale(1); opacity: .45; }
+.podano.on, .podano:hover { filter: none; opacity: 1; }
+/* Moje účasti */
+.hist li.moje { font-weight: 600; color: var(--accent-ink); }
+.vysl { font-size: 14px; margin-top: 2px; font-weight: 600; }
+.vysl.vyhra { color: var(--ok); }
+.vysl.prohra { color: #a33; }
+.vysl.ceka { color: var(--muted); }
+.vysl small { font-weight: 400; color: var(--muted); }
+.tag.rucne { text-transform: none; }
+.tag.pomer { text-transform: none; }
+.tag.pomer.down { background: #eef6ee; border-color: #bcd9bf; color: var(--ok); }
+.tag.pomer.up { background: #fdeeea; border-color: #f0c4b5; color: #b34a1f; }
 .tag.irr { background: #fbeeee; border-color: #e3bcbc; color: #a33;
   text-transform: none; }
 

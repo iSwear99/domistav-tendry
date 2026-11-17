@@ -35,10 +35,12 @@ import datetime as dt
 import json
 import os
 import pathlib
+import re
 import sys
 import tempfile
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 
@@ -106,8 +108,124 @@ def iter_zaznamy(path: pathlib.Path):
                 "datum": _text(sml, "datumUzavreni"),
                 "hodnota": None if hodnota != hodnota else hodnota,
                 "parent": _text(sml, "navazanyZaznam"),
+                "prilohy": [
+                    {"nazev": _text(p, "nazevSouboru"), "url": _text(p, "odkaz")}
+                    for p in el.iter(NS + "priloha") if _text(p, "odkaz")],
             }
             el.clear()
+
+
+# ── přílohy smluv: SoD, položkový rozpočet / výkaz výměr (pokyn 17. 11.) ────
+# Zadavatelé k SoD v registru často nahrávají i oceněný výkaz výměr
+# vítěze (příloha SoD). Název souboru rozpočet prozradí jen někdy —
+# často je součástí jediného PDF smlouvy; UI proto ukazuje VŠECHNY
+# přílohy a pravděpodobné rozpočty zvýrazní. Soubory se NEstahují,
+# ukládá se jen název + veřejný odkaz registru.
+_ROZPOCET_RE = re.compile(
+    r"rozpo[cč]|v[yý]kaz|soupis|polo[zž]k|kros|cenov|nab[ií]d|"
+    r"\.(?:xlsx?|xc4|esox?|unixml)$", re.I)
+_SOUBOR_RE = re.compile(r'/smlouva/soubor/\d+/[^"<>\s]+')
+
+
+def _priloha(nazev: str, url: str) -> dict:
+    nazev = nazev or urllib.parse.unquote(url.rsplit("/", 1)[-1])
+    return {"nazev": nazev, "url": url,
+            **({"rozpocet": True} if _ROZPOCET_RE.search(nazev) else {})}
+
+
+def _prilohy_ze_stranky(page_url: str) -> list[dict] | None:
+    """Přílohy z veřejné stránky smlouvy (pro vazby z doby před čtením
+    příloh z dumpu a pro odkazy registr_url z ISVZ). None = chyba sítě
+    (zkusí se příští běh), [] = smlouva bez příloh."""
+    req = urllib.request.Request(page_url,
+                                 headers={"User-Agent": config.USER_AGENT})
+    try:
+        html = urllib.request.urlopen(req, timeout=60).read().decode(
+            "utf-8", "replace")
+    except Exception:  # noqa: BLE001
+        return None
+    out, seen = [], set()
+    for path in _SOUBOR_RE.findall(html):
+        if path in seen:
+            continue
+        seen.add(path)
+        out.append(_priloha("", "https://smlouvy.gov.cz" + path))
+    return out
+
+
+# Rozpočet UVNITŘ PDF smlouvy: stránky se záhlavím soupisu prací / výkazu
+# výměr a sloupci měrných jednotek. Skeny bez textové vrstvy nelze poznat
+# (zůstanou bez příznaku). Soubor se čte v paměti a zahazuje.
+_VV_HLAVA = re.compile(r"v[yý]kaz\s+v[yý]m[eě]r|soupis\s+(?:prac|stavebn)|"
+                       r"polo[zž]kov[yý]\s+rozpo[cč]et|rozpo[cč]et\s+stavby|"
+                       r"rekapitulace\s+(?:stavby|objekt|rozpo)", re.I)
+_VV_MJ = re.compile(r"\b(?:m2|m3|m²|m³|kus|ks|kpl|bm|t)\b")
+PDF_MAX_BYTES = 30 * 1024 * 1024
+
+
+def _rozpocet_v_pdf(url: str) -> list[int] | None:
+    """Čísla stran (1-based) s položkovým rozpočtem; [] = nenalezen,
+    None = nelze posoudit (chyba, sken, není PDF)."""
+    try:
+        from pypdf import PdfReader
+    except ImportError:
+        return None
+    import io
+    req = urllib.request.Request(url, headers={"User-Agent": config.USER_AGENT})
+    try:
+        with urllib.request.urlopen(req, timeout=120) as r:
+            data = r.read(PDF_MAX_BYTES + 1)
+        if len(data) > PDF_MAX_BYTES or not data.startswith(b"%PDF"):
+            return None
+        reader = PdfReader(io.BytesIO(data))
+        strany, text_celkem = [], 0
+        for i, page in enumerate(reader.pages[:400]):
+            t = page.extract_text() or ""
+            text_celkem += len(t)
+            if _VV_HLAVA.search(t) and len(_VV_MJ.findall(t)) >= 5:
+                strany.append(i + 1)
+    except Exception:  # noqa: BLE001
+        return None
+    if not strany and text_celkem < 200 * max(1, len(reader.pages)):
+        return None          # sken bez textové vrstvy — neposouzeno
+    return strany
+
+
+def doplnit_rozpocty_v_pdf(cache: dict, cap: int) -> int:
+    """U smluv bez souboru s rozpočtem v názvu projde PDF přílohy;
+    výsledek se uloží k příloze (rozpocet_strany / rozpocet_zkontrolovano)."""
+    n = 0
+    for prilohy in cache.values():
+        if any(p.get("rozpocet") for p in prilohy):
+            continue
+        for p in prilohy:
+            if n >= cap:
+                return n
+            if "rozpocet_zkontrolovano" in p \
+                    or not p["url"].lower().split("?")[0].endswith(".pdf"):
+                continue
+            strany = _rozpocet_v_pdf(p["url"])
+            n += 1
+            p["rozpocet_zkontrolovano"] = strany is not None
+            if strany:
+                p["rozpocet"] = True
+                p["rozpocet_strany"] = [strany[0], strany[-1]]
+                break
+    return n
+
+
+def doplnit_prilohy(cache: dict, page_urls: list[str], cap: int) -> int:
+    """Doplní cache {stránka smlouvy: [přílohy]} o chybějící stránky."""
+    n = 0
+    for u in page_urls:
+        if u in cache or n >= cap:
+            continue
+        p = _prilohy_ze_stranky(u)
+        n += 1
+        if p is not None:
+            cache[u] = p
+        time.sleep(0.4)
+    return n
 
 
 # ── párování (čistá, testovatelná logika) ───────────────────────────────────
@@ -204,6 +322,8 @@ def process(competition: list[dict], zaznamy, prev_links: dict) -> dict:
             "price": best["hodnota"],
             "confidence": confidence,
             "amendments": (prev or {}).get("amendments", []),
+            "prilohy": [_priloha(p["nazev"], p["url"])
+                        for p in best.get("prilohy") or []],
         }
         parent_to_comp[best["id"]] = cid
 
@@ -381,6 +501,17 @@ def run() -> int:
         print("Konkurence je prázdná — nic k párování, končím (exit 0).")
         return 0
 
+    # Moje účasti mimo okruh/obor Konkurence se párují také (vítěz, cena,
+    # dodatky a přílohy SoD k řízením, kterých se firma účastnila)
+    ucasti = _load(config.OUT_UCASTI, {}).get("ucasti", {})
+    comp_ids = {c["id"] for c in competition}
+    competition = competition + [
+        {"id": u["id"], "authority_ico": u.get("authority_ico") or "",
+         "winner_ico": u.get("winner_ico") or "",
+         "awarded": u.get("awarded") or "",
+         "price_contracted": u.get("price_contracted")}
+        for u in ucasti.values() if u["id"] not in comp_ids]
+
     state = _load(config.OUT_SMLOUVY, {})
     prev_links = state.get("links", {})
     backfill = not prev_links and not state.get("meta")
@@ -422,6 +553,26 @@ def run() -> int:
               file=sys.stderr)
         return 1
 
+    # přílohy: z dumpu (nové vazby) přesunout do cache dle stránky smlouvy,
+    # chybějící (starší vazby, registr_url z ISVZ) dočíst ze stránek
+    prilohy: dict = state.get("prilohy", {})
+    for link in links.values():
+        if "prilohy" in link:
+            p = link.pop("prilohy")
+            if p:
+                prilohy[link["url"]] = p
+    stranky = [lk["url"] for lk in links.values() if lk.get("url")] + [
+        r for r in ([c.get("registr_url") for c in competition]
+                    + [u.get("registr_url") for u in ucasti.values()])
+        if r and "smlouvy.gov.cz/smlouva/" in r]
+    nove = doplnit_prilohy(prilohy, list(dict.fromkeys(stranky)),
+                           cap=config.SMLOUVY_MAX_STRANEK)
+    pdf = doplnit_rozpocty_v_pdf(prilohy, cap=config.SMLOUVY_MAX_PDF)
+    print(f"přílohy: prohledáno {pdf} PDF na položkový rozpočet")
+    rozp = sum(1 for p in prilohy.values() if any(x.get("rozpocet") for x in p))
+    print(f"přílohy: {len(prilohy)} smluv (+{nove} stránek), "
+          f"s pravděpodobným rozpočtem {rozp}")
+
     high = sum(1 for v in links.values() if v["confidence"] == "high")
     out = {
         "meta": {
@@ -435,6 +586,7 @@ def run() -> int:
         },
         "links": links,
         "oblibene": oblibene,
+        "prilohy": prilohy,
     }
     (ROOT / config.OUT_SMLOUVY).write_text(
         json.dumps(out, ensure_ascii=False, indent=1), "utf-8"
