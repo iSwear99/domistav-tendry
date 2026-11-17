@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-11-17T13:01:29+00:00",
-  "zd": 613,
-  "zpravy": 1518,
-  "novych": 0,
+  "updated": "2026-11-17T13:15:16+00:00",
+  "zd": 625,
+  "zpravy": 1673,
+  "novych": 3,
   "errors": []
  },
  "zd": {
@@ -1819,23 +1819,14 @@
   "profil:kr-pardubicky:VZ-6453": {
    "doc_url": "https://zakazky.pardubickykraj.cz/document_download_62228.html"
   },
-  "profil:hronov:P26V00006523": {
-   "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3935297"
-  },
   "profil:pvu:48169188:P26V00006578": {
    "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3936350"
   },
   "profil:pvu:45193363:P26V00006577": {
    "nenalezeno": true
   },
-  "rvz:RVZ2600294546": {
-   "nenalezeno": true
-  },
   "profil:pvu:00234591:P26V00006600": {
    "nenalezeno": true
-  },
-  "profil:kr-kralovehradecky:VZ-13177": {
-   "doc_url": "https://zakazky.cenakhk.cz/document_download_148509.html"
   },
   "profil:trutnov:VZ-1872": {
    "doc_url": "https://zakazky.trutnov.cz/document_download_8977.html"
@@ -1882,9 +1873,6 @@
   "profil:trutnov:VZ-1876": {
    "doc_url": "https://zakazky.trutnov.cz/document_download_9033.html"
   },
-  "profil:kr-kralovehradecky:VZ-13160": {
-   "doc_url": "https://zakazky.cenakhk.cz/document_download_148437.html"
-  },
   "profil:pvu:64811069:P26V00006878": {
    "nenalezeno": true
   },
@@ -1892,6 +1880,55 @@
    "nenalezeno": true
   },
   "profil:pvu:24814644:P26V00006872": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600286627": {
+   "nenalezeno": true
+  },
+  "profil:kr-kralovehradecky:VZ-13103": {
+   "doc_url": "https://zakazky.cenakhk.cz/document_download_147853.html"
+  },
+  "rvz:RVZ2600294014": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600295139": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600120756": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600294351": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600295115": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600294503": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600294003": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600293864": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600294370": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600290590": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600289287": {
+   "doc_url": "https://zakazky.kr-stredocesky.cz/contract_display_19208.html?open=doc_zad",
+   "misto": "stredocesky kraj"
+  },
+  "rvz:RVZ2600292649": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600294407": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600293591": {
    "nenalezeno": true
   }
  },
@@ -6485,6 +6522,472 @@
    "nenalezeno": true
   },
   "rvz:RVZ2600288327": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600295068": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600295336": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600114619": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600285851": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600294257": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600295798": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600293873": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600286549": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600287076": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600286162": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600295061": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600284304": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600295937": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600284666": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600292887": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600288819": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600049723": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600111966": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600292890": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600105512": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600292891": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600292967": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600291833": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600293034": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600286110": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600294407": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600286937": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600292980": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600284968": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600120394": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600284177": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600245590": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600286253": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600120178": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600290244": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600071995": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600173778": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600184599": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600283997": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600290242": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600121437": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600121610": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600100788": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600111067": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600289653": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600288359": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600165474": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600114305": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600262562": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600293591": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600173777": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600288140": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600289031": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600287072": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600103225": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600116696": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600245608": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500227395": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600112485": {
+   "doc_url": "https://nen.nipez.cz/file?id=4793048028",
+   "cena": 11235527.94
+  },
+  "rvz:RVZ2600292857": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500228172": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600077752": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600112280": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600114626": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600287885": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600289111": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600106985": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600107554": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600119891": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600294788": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600288456": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500221644": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600119626": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600114886": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600117539": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600117575": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600119693": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600293583": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600293592": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600287941": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600113595": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600115662": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600291327": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600112423": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600118561": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600289161": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600096733": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600110721": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600114852": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600290475": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500228732": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600097498": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600101465": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600290098": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600285078": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600096373": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600112755": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600116104": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600115227": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600116004": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600112796": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600112847": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600112851": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600110047": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600291305": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600110655": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600100997": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600112774": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600110725": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600112358": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108458": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600291872": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600111508": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108834": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600109025": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600109615": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108436": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600107854": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600117546": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600103546": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600108833": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600294919": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600084425": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600294156": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600101860": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600100878": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600099471": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600099323": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600096731": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600294449": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600098964": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600099286": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600085947": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600294125": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600292299": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600081828": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600075693": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600081676": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600082257": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600082000": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600289469": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600289489": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600078959": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600076656": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600071967": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600068422": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600117525": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600069154": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600066047": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600066052": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600051387": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600071573": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600065529": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600037754": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2500198027": {
    "nenalezeno": true
   }
  }

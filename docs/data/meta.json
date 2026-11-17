@@ -1,18 +1,19 @@
 {
- "last_isvz": "",
- "updated": "2026-11-17T13:01:28+00:00",
+ "last_isvz": "2026-11-17",
+ "updated": "2026-11-17T13:09:01+00:00",
  "counts": {
-  "total": 8287,
-  "vz": 5199,
-  "vzmr": 3088,
-  "active": 63,
-  "changed": 125,
-  "competition": 1518,
+  "total": 8399,
+  "vz": 5253,
+  "vzmr": 3146,
+  "active": 77,
+  "changed": 142,
+  "competition": 1673,
   "previous": 8287
  },
  "errors": [
   "⚠ AI filtr nefunguje: neplatný API klíč — vytvořte nový na platform.claude.com a vložte ho do GitHub secretu ANTHROPIC_API_KEY.",
-  "⚠ Plný běh na PC (ISVZ, PVU) neproběhl dlouho — zapněte PC, případně zkontrolujte runner a Actions.",
-  "⚠ Týdenní sken profilů neproběhl 28 dní."
+  "⚠ Týdenní sken profilů neproběhl 28 dní.",
+  "proklik ezak.susupk.cz: <urlopen error [Errno 11001] getaddrinfo failed>",
+  "proklik e-zakazky.cz: <urlopen error [WinError 10060] Pokus o připojení selhal, protože připojená strana v časovém intervalu řádně neodpověděla, nebo vytvořené připojení selhalo, protože neodpověděl připojený hostitel>"
  ]
 }

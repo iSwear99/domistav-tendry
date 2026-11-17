@@ -1,15 +1,18 @@
 {
  "meta": {
-  "updated": "2026-11-17T13:01:51+00:00",
+  "updated": "2026-11-17T13:15:18+00:00",
   "model": "claude-opus-5",
-  "posouzeno_nyni": 18,
-  "celkem": 555,
+  "posouzeno_nyni": 0,
+  "celkem": 534,
   "counts": {
-   "ano": 263,
-   "ne": 186,
-   "nejisto": 106
+   "ano": 251,
+   "ne": 183,
+   "nejisto": 100
   },
-  "errors": []
+  "errors": [
+   "AI dávka 0: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Ch8ZYu8FHaiWEECN7xpPt'}",
+   "AI dávka 1: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Ch8ZYuqtugmbH9KnUPA15'}"
+  ]
  },
  "verdikty": {
   "rvz:RVZ2600078991": {
@@ -2136,10 +2139,6 @@
    "verdikt": "nejisto",
    "duvod": "EPC energetické služby, stavební část nejasná"
   },
-  "profil:hronov:P26V00006523": {
-   "verdikt": "ano",
-   "duvod": "Rekonstrukce základní školy – pozemní stavitelství, hlavní obor firmy"
-  },
   "profil:pvu:48169188:P26V00006578": {
    "verdikt": "ne",
    "duvod": "Dodávka výrobní technologie, nikoli stavební práce"
@@ -2148,89 +2147,9 @@
    "verdikt": "ano",
    "duvod": "Energeticky úsporná opatření budovy skladu"
   },
-  "rvz:RVZ2600294546": {
-   "verdikt": "nejisto",
-   "duvod": "Terénní cyklostezky, ne pozemní stavba, ale sportovní zařízení"
-  },
   "profil:pvu:00234591:P26V00006600": {
    "verdikt": "ano",
    "duvod": "Rekonstrukce střechy a fasády budovy – pozemní stavitelství"
-  },
-  "profil:kr-kralovehradecky:VZ-13177": {
-   "verdikt": "ano",
-   "duvod": "Stavební práce na zdravotnickém objektu, pozemní stavitelství"
-  },
-  "profil:pvu:45192944:P26V00006609": {
-   "verdikt": "nejisto",
-   "duvod": "Topenářská technologie, nejasný rozsah stavebních prací"
-  },
-  "profil:kr-kralovehradecky:VZ-13272": {
-   "verdikt": "ano",
-   "duvod": "Novostavba učeben školy, bourací a stavební práce"
-  },
-  "profil:pvu:64811069:P26V00006878": {
-   "verdikt": "ano",
-   "duvod": "Oprava terasy divadla, obdobné realizace v historii"
-  },
-  "profil:pvu:28343115:P26V00006867": {
-   "verdikt": "ano",
-   "duvod": "Výstavba objektu nájemního bydlení"
-  },
-  "profil:pvu:66181127:P26V00006709": {
-   "verdikt": "ano",
-   "duvod": "Výstavba bytových objektů, pozemní stavitelství"
-  },
-  "profil:pvu:24814644:P26V00006872": {
-   "verdikt": "ano",
-   "duvod": "Snížení energetické náročnosti budovy"
-  },
-  "profil:pvu:00545503:P26V00006705": {
-   "verdikt": "ne",
-   "duvod": "Dodávka kamerového systému, nikoli stavební práce"
-  },
-  "profil:kr-pardubicky:VZ-6519": {
-   "verdikt": "ano",
-   "duvod": "Rekonstrukce střechy školní budovy"
-  },
-  "profil:kr-kralovehradecky:VZ-13299": {
-   "verdikt": "nejisto",
-   "duvod": "Bleskosvody, převážně elektroinstalace na budovách"
-  },
-  "profil:trutnov:VZ-1876": {
-   "verdikt": "nejisto",
-   "duvod": "Revitalizace hřiště se zelení, nejasná stavební část"
-  },
-  "profil:trutnov:VZ-1877": {
-   "verdikt": "ne",
-   "duvod": "Zpracování projektové dokumentace"
-  },
-  "profil:trutnov:VZ-1872": {
-   "verdikt": "ano",
-   "duvod": "Rozšíření parkoviště, zpevněné plochy"
-  },
-  "profil:kr-kralovehradecky:VZ-13160": {
-   "verdikt": "ne",
-   "duvod": "Dodávka gastro vybavení"
-  },
-  "rvz:RVZ2600297027": {
-   "verdikt": "ano",
-   "duvod": "Demolice objektů, firma provádí bourací práce"
-  },
-  "profil:pvu:00240028:P26V00006681": {
-   "verdikt": "nejisto",
-   "duvod": "Fotovoltaika, převážně dodávka technologie"
-  },
-  "profil:pvu:17577713:P26V00006665": {
-   "verdikt": "ano",
-   "duvod": "Energetické úspory budovy, střecha"
-  },
-  "profil:pvu:17577713:P26V00006664": {
-   "verdikt": "ano",
-   "duvod": "Energetické úspory budovy, střecha"
-  },
-  "profil:kr-pardubicky:VZ-6516": {
-   "verdikt": "nejisto",
-   "duvod": "Dodávka a montáž klimatizace, nestavební plnění"
   }
  }
 }
