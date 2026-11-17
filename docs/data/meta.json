@@ -1,17 +1,16 @@
 {
  "last_isvz": "2026-11-17",
- "updated": "2026-11-17T14:44:30+00:00",
+ "updated": "2026-11-17T16:56:27+00:00",
  "counts": {
   "total": 8459,
   "vz": 5283,
   "vzmr": 3176,
-  "active": 96,
+  "active": 89,
   "changed": 142,
   "competition": 1693,
-  "previous": 8472
+  "previous": 8459
  },
  "errors": [
-  "⚠ AI filtr nefunguje: neplatný API klíč — vytvořte nový na platform.claude.com a vložte ho do GitHub secretu ANTHROPIC_API_KEY.",
   "proklik ezak.susupk.cz: <urlopen error [Errno 11001] getaddrinfo failed>"
  ]
 }

@@ -76,6 +76,7 @@
   "awarded": "2026-11-09",
   "price_contracted": 651962.45,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -185,6 +186,7 @@
   "awarded": "2026-11-04",
   "price_contracted": 1396000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 43,
@@ -233,6 +235,7 @@
   "awarded": "2026-11-04",
   "price_contracted": 299254.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -264,6 +267,7 @@
   "awarded": "2026-11-04",
   "price_contracted": 143524.95,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -317,6 +321,7 @@
   "awarded": "2026-11-02",
   "price_contracted": 199360.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -351,6 +356,7 @@
   "awarded": "2026-11-02",
   "price_contracted": 379500.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -446,6 +452,7 @@
   "awarded": "2026-10-29",
   "price_contracted": 76190.0,
   "estimated": false,
+  "value": 76190.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -466,7 +473,6 @@
     "vyloucen": false
    }
   ],
-  "value": 76190.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/40134225"
  },
  {
@@ -480,6 +486,7 @@
   "awarded": "2026-10-29",
   "price_contracted": 58870.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -513,6 +520,7 @@
   "awarded": "2026-10-27",
   "price_contracted": 7851909.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 46,
@@ -554,6 +562,7 @@
   "awarded": "2026-10-27",
   "price_contracted": 48400.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -586,6 +595,7 @@
   "awarded": "2026-10-27",
   "price_contracted": 45570.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -618,6 +628,7 @@
   "awarded": "2026-10-27",
   "price_contracted": 3879066.05,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 33,
@@ -686,6 +697,7 @@
   "awarded": "2026-10-26",
   "price_contracted": 1088030.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -719,6 +731,7 @@
   "awarded": "2026-10-26",
   "price_contracted": 499919.83999999997,
   "estimated": false,
+  "value": 690000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 44,
@@ -803,7 +816,6 @@
     "vyloucen": false
    }
   ],
-  "value": 690000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/40105161"
  },
  {
@@ -817,6 +829,7 @@
   "awarded": "2026-10-26",
   "price_contracted": 82045.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -865,6 +878,7 @@
   "awarded": "2026-10-23",
   "price_contracted": 581244.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -886,8 +900,7 @@
     "cena": 599800.0,
     "vyloucen": false
    }
-  ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/40068693"
+  ]
  },
  {
   "id": "profil:kr-kralovehradecky:VZ-13061",
@@ -900,6 +913,7 @@
   "awarded": "2026-10-23",
   "price_contracted": 3356769.44,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -937,6 +951,7 @@
   "awarded": "2026-10-23",
   "price_contracted": 34370995.09,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 43,
@@ -1013,6 +1028,7 @@
   "awarded": "2026-10-23",
   "price_contracted": 42000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -1053,6 +1069,7 @@
   "awarded": "2026-10-23",
   "price_contracted": 34370995.09,
   "estimated": false,
+  "value": 35770000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 43,
@@ -1076,8 +1093,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 35770000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600284304",
@@ -1086,10 +1102,11 @@
   "authority": "České dráhy",
   "authority_ico": "70994226",
   "winner": "W.H.A. system, spol. s r. o.",
-  "winner_ico": "61945251",
+  "winner_ico": "",
   "awarded": "2026-10-23",
   "price_contracted": 2887148.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -1136,6 +1153,7 @@
   "awarded": "2026-10-23",
   "price_contracted": 569140.61,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 37,
@@ -1169,6 +1187,7 @@
   "awarded": "2026-10-22",
   "price_contracted": 441710.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -1205,12 +1224,6 @@
     "vyloucen": false
    },
    {
-    "nazev": "PS HOME STAR s.r.o.",
-    "ico": "03221466",
-    "cena": 649733.7,
-    "vyloucen": false
-   },
-   {
     "nazev": "MP Bau s.r.o.",
     "ico": "24722065",
     "cena": 681281.51,
@@ -1226,6 +1239,12 @@
     "nazev": "RWX, s.r.o.",
     "ico": "14235111",
     "cena": 650676.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "PS HOME STAR s.r.o.",
+    "ico": "03221466",
+    "cena": 649733.7,
     "vyloucen": false
    },
    {
@@ -1248,6 +1267,7 @@
   "awarded": "2026-10-22",
   "price_contracted": 179175.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -1288,6 +1308,7 @@
   "awarded": "2026-10-22",
   "price_contracted": 44290.09,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -1320,6 +1341,7 @@
   "awarded": "2026-10-22",
   "price_contracted": 750000.0,
   "estimated": false,
+  "value": 750000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 29,
@@ -1348,7 +1370,6 @@
     "vyloucen": false
    }
   ],
-  "value": 750000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/40048102"
  },
  {
@@ -1362,6 +1383,7 @@
   "awarded": "2026-10-21",
   "price_contracted": 355218.61,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -1435,6 +1457,7 @@
   "awarded": "2026-10-21",
   "price_contracted": 37776233.52,
   "estimated": false,
+  "value": 40000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -1454,8 +1477,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 40000000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600111966",
@@ -1468,6 +1490,7 @@
   "awarded": "2026-10-21",
   "price_contracted": 53421072.0,
   "estimated": false,
+  "value": 53000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -1489,8 +1512,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 53000000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600292890",
@@ -1503,6 +1525,7 @@
   "awarded": "2026-10-21",
   "price_contracted": 15415.14,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -1535,6 +1558,7 @@
   "awarded": "2026-10-20",
   "price_contracted": 78441562.75,
   "estimated": false,
+  "value": 100000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 45,
@@ -1564,8 +1588,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 100000000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600098095",
@@ -1578,6 +1601,7 @@
   "awarded": "2026-10-19",
   "price_contracted": 29682484.26,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -1638,6 +1662,7 @@
   "awarded": "2026-10-19",
   "price_contracted": 6320.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -1670,6 +1695,7 @@
   "awarded": "2026-10-19",
   "price_contracted": 17048.5,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -1702,6 +1728,7 @@
   "awarded": "2026-10-19",
   "price_contracted": 25000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -1734,6 +1761,7 @@
   "awarded": "2026-10-19",
   "price_contracted": 1600.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -1766,6 +1794,7 @@
   "awarded": "2026-10-19",
   "price_contracted": 1652892.56,
   "estimated": false,
+  "value": 1652892.56,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -1786,7 +1815,6 @@
     "vyloucen": false
    }
   ],
-  "value": 1652892.56,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39990865"
  },
  {
@@ -1800,6 +1828,7 @@
   "awarded": "2026-10-19",
   "price_contracted": 29682484.26,
   "estimated": false,
+  "value": 34000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -1821,7 +1850,6 @@
     "vyloucen": false
    }
   ],
-  "value": 34000000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/40009517"
  },
  {
@@ -1835,6 +1863,7 @@
   "awarded": "2026-10-19",
   "price_contracted": 2342487.0,
   "estimated": false,
+  "value": 2482942.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 49,
@@ -1854,8 +1883,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 2482942.0
+  ]
  },
  {
   "id": "rvz:RVZ2600292980",
@@ -1868,6 +1896,7 @@
   "awarded": "2026-10-16",
   "price_contracted": 65950.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -1901,6 +1930,7 @@
   "awarded": "2026-10-16",
   "price_contracted": 2892561.98,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -1942,6 +1972,7 @@
   "awarded": "2026-10-15",
   "price_contracted": 784652.0,
   "estimated": false,
+  "value": 784652.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -1961,8 +1992,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 46661981.0
+  ]
  },
  {
   "id": "rvz:RVZ2600120394",
@@ -1975,6 +2005,7 @@
   "awarded": "2026-10-15",
   "price_contracted": 54300.5,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -1990,15 +2021,15 @@
     "nazev": "PROFIS Frýdlant s.r.o.",
     "ico": "",
     "cena": null,
-    "poradi": 2,
-    "vybran": false,
+    "poradi": 1,
+    "vybran": true,
     "vyloucen": false
    },
    {
     "nazev": "TRIDEX, a.s.",
     "ico": "",
     "cena": null,
-    "poradi": 3,
+    "poradi": 2,
     "vybran": false,
     "vyloucen": false
    },
@@ -2006,15 +2037,15 @@
     "nazev": "foj-elektro s.r.o.",
     "ico": "",
     "cena": null,
-    "poradi": 1,
-    "vybran": true,
-    "vyloucen": false
+    "poradi": null,
+    "vybran": false,
+    "vyloucen": true
    },
    {
     "nazev": "JMK elektro, s.r.o.",
     "ico": "",
     "cena": null,
-    "poradi": 4,
+    "poradi": 3,
     "vybran": false,
     "vyloucen": false
    }
@@ -2028,10 +2059,11 @@
   "authority": "České dráhy",
   "authority_ico": "70994226",
   "winner": "PS HOME STAR s.r.o.",
-  "winner_ico": "03221466",
+  "winner_ico": "",
   "awarded": "2026-10-15",
   "price_contracted": 1193279.99,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -2070,6 +2102,7 @@
   "awarded": "2026-10-14",
   "price_contracted": 205279.6,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -2111,6 +2144,7 @@
   "awarded": "2026-10-14",
   "price_contracted": 3286719.02,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -2200,6 +2234,7 @@
   "awarded": "2026-10-13",
   "price_contracted": 1424800.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 43,
@@ -2267,6 +2302,7 @@
   "awarded": "2026-10-12",
   "price_contracted": 522156.12,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 43,
@@ -2313,6 +2349,7 @@
   "awarded": "2026-10-12",
   "price_contracted": 115962.07,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -2382,6 +2419,7 @@
   "awarded": "2026-10-09",
   "price_contracted": 76300000.0,
   "estimated": false,
+  "value": 72717948.39,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 40,
@@ -2407,8 +2445,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 72717948.39
+  ]
  },
  {
   "id": "rvz:RVZ2600173778",
@@ -2421,6 +2458,7 @@
   "awarded": "2026-10-09",
   "price_contracted": 99716.56,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -2462,6 +2500,7 @@
   "awarded": "2026-10-09",
   "price_contracted": 1892627.52,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -2507,7 +2546,7 @@
    },
    {
     "nazev": "Jiří Vaněk",
-    "ico": "62709941",
+    "ico": "",
     "cena": null,
     "poradi": 1,
     "vybran": true,
@@ -2527,6 +2566,7 @@
   "awarded": "2026-10-09",
   "price_contracted": 579501.6,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -2576,6 +2616,7 @@
   "awarded": "2026-10-09",
   "price_contracted": 9330.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -2608,6 +2649,7 @@
   "awarded": "2026-10-08",
   "price_contracted": 218500.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 43,
@@ -2692,6 +2734,7 @@
   "awarded": "2026-10-08",
   "price_contracted": 3847479.3,
   "estimated": false,
+  "value": 22572480.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -2711,8 +2754,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 22572480.0
+  ]
  },
  {
   "id": "rvz:RVZ2600121437",
@@ -2725,6 +2767,7 @@
   "awarded": "2026-10-08",
   "price_contracted": 3000000.0,
   "estimated": false,
+  "value": 3000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -2769,7 +2812,6 @@
     "vyloucen": false
    }
   ],
-  "value": 3000000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39844629"
  },
  {
@@ -2783,6 +2825,7 @@
   "awarded": "2026-10-08",
   "price_contracted": 1390134.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 44,
@@ -2798,15 +2841,15 @@
     "nazev": "FKM s.r.o.",
     "ico": "",
     "cena": null,
-    "poradi": null,
-    "vybran": false,
+    "poradi": 1,
+    "vybran": true,
     "vyloucen": false
    },
    {
     "nazev": "K-service technology s.r.o.",
     "ico": "",
     "cena": null,
-    "poradi": null,
+    "poradi": 2,
     "vybran": false,
     "vyloucen": false
    }
@@ -2824,6 +2867,7 @@
   "awarded": "2026-10-08",
   "price_contracted": 30337188.9,
   "estimated": false,
+  "value": 36115701.49,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 15,
@@ -2844,8 +2888,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 36115701.49
+  ]
  },
  {
   "id": "rvz:RVZ2600111067",
@@ -2858,6 +2901,7 @@
   "awarded": "2026-10-08",
   "price_contracted": 6231240.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 42,
@@ -2896,6 +2940,7 @@
   "awarded": "2026-10-08",
   "price_contracted": 10840.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -2928,6 +2973,7 @@
   "awarded": "2026-10-08",
   "price_contracted": 24758.9,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -2960,6 +3006,7 @@
   "awarded": "2026-10-07",
   "price_contracted": 2542321.0,
   "estimated": false,
+  "value": 2622133.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -2973,7 +3020,7 @@
   "bidders": [
    {
     "nazev": "Poličská stavební s.r.o.",
-    "ico": "27760014",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": false,
@@ -2984,7 +3031,7 @@
     "ico": "28796322",
     "cena": null,
     "poradi": null,
-    "vybran": false,
+    "vybran": true,
     "vyloucen": false
    },
    {
@@ -2995,8 +3042,7 @@
     "vybran": false,
     "vyloucen": false
    }
-  ],
-  "value": 2622133.0
+  ]
  },
  {
   "id": "rvz:RVZ2600114305",
@@ -3009,6 +3055,7 @@
   "awarded": "2026-10-07",
   "price_contracted": 2034145.0,
   "estimated": false,
+  "value": 2037310.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 24,
@@ -3036,8 +3083,7 @@
     "vybran": false,
     "vyloucen": false
    }
-  ],
-  "value": 2037310.0
+  ]
  },
  {
   "id": "rvz:RVZ2600262562",
@@ -3050,6 +3096,7 @@
   "awarded": "2026-10-07",
   "price_contracted": 2653360.61,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 22,
@@ -3114,6 +3161,7 @@
   "awarded": "2026-10-07",
   "price_contracted": 13223140.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -3176,6 +3224,7 @@
   "awarded": "2026-10-06",
   "price_contracted": 880088.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -3241,6 +3290,7 @@
   "awarded": "2026-10-06",
   "price_contracted": 8830.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -3273,6 +3323,7 @@
   "awarded": "2026-10-06",
   "price_contracted": 1893604.55,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 33,
@@ -3305,6 +3356,7 @@
   "awarded": "2026-10-06",
   "price_contracted": 31023.14,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -3337,6 +3389,7 @@
   "awarded": "2026-10-05",
   "price_contracted": 6697176.0,
   "estimated": false,
+  "value": 7190000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 32,
@@ -3366,7 +3419,6 @@
     "vyloucen": false
    }
   ],
-  "value": 7190000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39862145"
  },
  {
@@ -3380,6 +3432,7 @@
   "awarded": "2026-10-02",
   "price_contracted": 396437.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -3453,6 +3506,7 @@
   "awarded": "2026-10-02",
   "price_contracted": 121940.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -3486,6 +3540,7 @@
   "awarded": "2026-10-01",
   "price_contracted": 17342102.71,
   "estimated": false,
+  "value": 35653334.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 11,
@@ -3505,8 +3560,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 35653334.0
+  ]
  },
  {
   "id": "rvz:RVZ2500227395",
@@ -3519,6 +3573,7 @@
   "awarded": "2026-10-01",
   "price_contracted": 22860000.0,
   "estimated": false,
+  "value": 1.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -3538,8 +3593,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 1.0
+  ]
  },
  {
   "id": "rvz:RVZ2600112485",
@@ -3552,6 +3606,7 @@
   "awarded": "2026-10-01",
   "price_contracted": 11235527.94,
   "estimated": false,
+  "value": 10659325.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 29,
@@ -3568,11 +3623,10 @@
     "ico": "",
     "cena": 11235527.94,
     "poradi": null,
-    "vybran": false,
+    "vybran": true,
     "vyloucen": false
    }
   ],
-  "value": 10659325.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39750457"
  },
  {
@@ -3586,6 +3640,7 @@
   "awarded": "2026-10-01",
   "price_contracted": 11235527.94,
   "estimated": false,
+  "value": 10659325.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -3606,7 +3661,6 @@
     "vyloucen": false
    }
   ],
-  "value": 10659325.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39750457"
  },
  {
@@ -3620,6 +3674,7 @@
   "awarded": "2026-09-30",
   "price_contracted": 88793848.06,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -3679,8 +3734,7 @@
     "cena": 88793848.06,
     "vyloucen": false
    }
-  ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/39731913"
+  ]
  },
  {
   "id": "rvz:RVZ2600286470",
@@ -3693,6 +3747,7 @@
   "awarded": "2026-09-30",
   "price_contracted": 30350.5,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -3725,6 +3780,7 @@
   "awarded": "2026-09-30",
   "price_contracted": 51500000.0,
   "estimated": false,
+  "value": 49602366.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 47,
@@ -3746,8 +3802,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 49602366.0
+  ]
  },
  {
   "id": "rvz:RVZ2600077752",
@@ -3760,6 +3815,7 @@
   "awarded": "2026-09-30",
   "price_contracted": 88793848.06,
   "estimated": false,
+  "value": 109527000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -3789,7 +3845,6 @@
     "vyloucen": false
    }
   ],
-  "value": 109527000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39731913"
  },
  {
@@ -3803,6 +3858,7 @@
   "awarded": "2026-09-30",
   "price_contracted": 18044484.72,
   "estimated": false,
+  "value": 21000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -3825,8 +3881,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 21000000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600114626",
@@ -3835,10 +3890,11 @@
   "authority": "České dráhy",
   "authority_ico": "70994226",
   "winner": "PS HOME STAR s.r.o.",
-  "winner_ico": "03221466",
+  "winner_ico": "",
   "awarded": "2026-09-30",
   "price_contracted": 2750790.77,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -3893,6 +3949,7 @@
   "awarded": "2026-09-30",
   "price_contracted": 10250800.0,
   "estimated": false,
+  "value": 14513171.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 42,
@@ -3913,7 +3970,6 @@
     "vyloucen": false
    }
   ],
-  "value": 14513171.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39744565"
  },
  {
@@ -3927,6 +3983,7 @@
   "awarded": "2026-09-30",
   "price_contracted": 4200000.0,
   "estimated": false,
+  "value": 0.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 33,
@@ -3946,8 +4003,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 0.0
+  ]
  },
  {
   "id": "profil:trutnov:VZ-1853",
@@ -3960,6 +4016,7 @@
   "awarded": "2026-09-29",
   "price_contracted": 4820369.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 43,
@@ -4038,6 +4095,7 @@
   "awarded": "2026-09-29",
   "price_contracted": 36932790.5,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 28,
@@ -4111,6 +4169,7 @@
   "awarded": "2026-09-29",
   "price_contracted": 49979.9,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -4191,6 +4250,7 @@
   "awarded": "2026-09-29",
   "price_contracted": 38.42,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 22,
@@ -4237,6 +4297,7 @@
   "awarded": "2026-09-29",
   "price_contracted": 36932790.5,
   "estimated": false,
+  "value": 41273265.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 28,
@@ -4253,55 +4314,14 @@
   "url": "https://zakazky.chrudim-city.cz/profile_display_2.html",
   "bidders": [
    {
-    "nazev": "ANARKADA s.r.o.",
-    "ico": "05291411",
-    "cena": null,
-    "vyloucen": false
-   },
-   {
-    "nazev": "Kurštejn stavební a obchodní firma s.r.o.",
-    "ico": "28762576",
-    "cena": null,
-    "vyloucen": false
-   },
-   {
     "nazev": "NATUR HOUSE s.r.o.",
     "ico": "28776585",
     "cena": null,
-    "vyloucen": false
-   },
-   {
-    "nazev": "Nema Dřevostavby s.r.o.",
-    "ico": "04627687",
-    "cena": null,
-    "vyloucen": false
-   },
-   {
-    "nazev": "SL HOLDING CZ s.r.o.",
-    "ico": "28823001",
-    "cena": null,
-    "vyloucen": false
-   },
-   {
-    "nazev": "STATING s.r.o.",
-    "ico": "25963864",
-    "cena": null,
-    "vyloucen": false
-   },
-   {
-    "nazev": "TSM design s.r.o.",
-    "ico": "06544754",
-    "cena": null,
-    "vyloucen": false
-   },
-   {
-    "nazev": "VIKTORSTAV s.r.o.",
-    "ico": "25618091",
-    "cena": null,
+    "poradi": 1,
+    "vybran": true,
     "vyloucen": false
    }
   ],
-  "value": 41273265.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39764429?backlink=nb7d5"
  },
  {
@@ -4315,6 +4335,7 @@
   "awarded": "2026-09-29",
   "price_contracted": 4532121.69,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 35,
@@ -4355,6 +4376,7 @@
   "awarded": "2026-09-29",
   "price_contracted": 233804.41,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -4412,6 +4434,7 @@
   "awarded": "2026-09-29",
   "price_contracted": 4532121.69,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 35,
@@ -4486,6 +4509,7 @@
   "awarded": "2026-09-25",
   "price_contracted": 3402575.577,
   "estimated": false,
+  "value": 4464922.29,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -4505,8 +4529,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 1590448.42
+  ]
  },
  {
   "id": "rvz:RVZ2600121204",
@@ -4519,6 +4542,7 @@
   "awarded": "2026-09-24",
   "price_contracted": 2897400.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 47,
@@ -4552,6 +4576,7 @@
   "awarded": "2026-09-24",
   "price_contracted": 2495.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -4584,6 +4609,7 @@
   "awarded": "2026-09-24",
   "price_contracted": 2251668.51,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 25,
@@ -4616,6 +4642,7 @@
   "awarded": "2026-09-23",
   "price_contracted": 429457318.66,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 38,
@@ -4701,6 +4728,7 @@
   "awarded": "2026-09-23",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -4804,6 +4832,7 @@
   "awarded": "2026-09-23",
   "price_contracted": 2872000.0,
   "estimated": false,
+  "value": 16000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -4828,7 +4857,6 @@
     "vyloucen": false
    }
   ],
-  "value": 16000000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39644753"
  },
  {
@@ -4842,6 +4870,7 @@
   "awarded": "2026-09-23",
   "price_contracted": 636650.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -4925,6 +4954,7 @@
   "awarded": "2026-09-23",
   "price_contracted": 429457318.66,
   "estimated": false,
+  "value": 439161000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 38,
@@ -4943,67 +4973,14 @@
   "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "bidders": [
    {
-    "nazev": "BAK stavební společnost, a.s.",
-    "ico": "28402758",
-    "cena": 525000000.21,
-    "vyloucen": true
-   },
-   {
-    "nazev": "BBP Stavby s.r.o.",
-    "ico": "03875199",
-    "cena": 438934709.51,
+    "nazev": "KAMI PROFIT, s.r.o., podnikající na území ČR prostřednictvím KAMI PROFIT, s.r.o., odštěpný závod",
+    "ico": "35943301",
+    "cena": null,
+    "poradi": 1,
+    "vybran": true,
     "vyloucen": false
-   },
-   {
-    "nazev": "CL-EVANS s.r.o.",
-    "ico": "26768607",
-    "cena": 505906414.34,
-    "vyloucen": true
-   },
-   {
-    "nazev": "ESOX, spol. s r.o.",
-    "ico": "00558010",
-    "cena": 409127580.05,
-    "vyloucen": true
-   },
-   {
-    "nazev": "KAMI PROFIT, s.r.o., odštěpný závod",
-    "ico": "05264758",
-    "cena": 429457318.66,
-    "vyloucen": false
-   },
-   {
-    "nazev": "MBQ s.r.o.",
-    "ico": "24247677",
-    "cena": 559944444.15,
-    "vyloucen": true
-   },
-   {
-    "nazev": "ODU - trade s. r. o.",
-    "ico": "50350421",
-    "cena": 436536876.2,
-    "vyloucen": true
-   },
-   {
-    "nazev": "OHLA ŽS, a.s.",
-    "ico": "46342796",
-    "cena": 520109931.0,
-    "vyloucen": true
-   },
-   {
-    "nazev": "PSG Construction a.s.",
-    "ico": "05042020",
-    "cena": 463132077.0,
-    "vyloucen": true
-   },
-   {
-    "nazev": "VW WACHAL a.s.",
-    "ico": "25567225",
-    "cena": 482347579.42,
-    "vyloucen": true
    }
-  ],
-  "value": 439161000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600119626",
@@ -5016,6 +4993,7 @@
   "awarded": "2026-09-23",
   "price_contracted": 825681.24,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -5112,6 +5090,7 @@
   "awarded": "2026-09-22",
   "price_contracted": 114000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -5145,6 +5124,7 @@
   "awarded": "2026-09-22",
   "price_contracted": 409136.98,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -5178,6 +5158,7 @@
   "awarded": "2026-09-22",
   "price_contracted": 47000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -5210,6 +5191,7 @@
   "awarded": "2026-09-22",
   "price_contracted": 417336.6,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -5225,16 +5207,16 @@
     "nazev": "MP Bau s.r.o.",
     "ico": "",
     "cena": null,
-    "poradi": 1,
-    "vybran": true,
-    "vyloucen": false
+    "poradi": null,
+    "vybran": false,
+    "vyloucen": true
    },
    {
     "nazev": "JMK elektro, s.r.o.",
     "ico": "",
     "cena": null,
-    "poradi": 2,
-    "vybran": false,
+    "poradi": 1,
+    "vybran": true,
     "vyloucen": false
    }
   ],
@@ -5251,6 +5233,7 @@
   "awarded": "2026-09-22",
   "price_contracted": 111500.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -5280,7 +5263,7 @@
    },
    {
     "nazev": "Technical Project, s.r.o.",
-    "ico": "07737173",
+    "ico": "",
     "cena": null,
     "poradi": 3,
     "vybran": false,
@@ -5300,6 +5283,7 @@
   "awarded": "2026-09-22",
   "price_contracted": 266562.91,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -5349,6 +5333,7 @@
   "awarded": "2026-09-22",
   "price_contracted": 890490.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 40,
@@ -5373,7 +5358,7 @@
     "ico": "",
     "cena": null,
     "poradi": null,
-    "vybran": false,
+    "vybran": true,
     "vyloucen": false
    },
    {
@@ -5414,6 +5399,7 @@
   "awarded": "2026-09-22",
   "price_contracted": 4777992.0,
   "estimated": false,
+  "value": 5200000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 28,
@@ -5436,7 +5422,6 @@
     "vyloucen": false
    }
   ],
-  "value": 5200000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39654913"
  },
  {
@@ -5450,6 +5435,7 @@
   "awarded": "2026-09-22",
   "price_contracted": 7977618.0,
   "estimated": false,
+  "value": 9000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -5472,7 +5458,6 @@
     "vyloucen": false
    }
   ],
-  "value": 9000000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39655457"
  },
  {
@@ -5486,6 +5471,7 @@
   "awarded": "2026-09-22",
   "price_contracted": 4148278.17,
   "estimated": false,
+  "value": 71623554.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -5506,8 +5492,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 71623554.0
+  ]
  },
  {
   "id": "profil:sken-27520536:VZ-6308",
@@ -5604,6 +5589,7 @@
   "awarded": "2026-09-21",
   "price_contracted": 9600000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 37,
@@ -5659,6 +5645,7 @@
   "awarded": "2026-09-21",
   "price_contracted": 10156144.1,
   "estimated": false,
+  "value": 41156430.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 38,
@@ -5678,8 +5665,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 41156430.0
+  ]
  },
  {
   "id": "rvz:RVZ2600065425",
@@ -5692,6 +5678,7 @@
   "awarded": "2026-09-21",
   "price_contracted": 9600000.0,
   "estimated": false,
+  "value": 19500000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 37,
@@ -5706,37 +5693,14 @@
   "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "bidders": [
    {
-    "nazev": "Building management solutions s.r.o.",
-    "ico": "28812999",
-    "cena": 9800000.0,
-    "vyloucen": false
-   },
-   {
-    "nazev": "construction supervisor s.r.o.",
-    "ico": "24553531",
-    "cena": 9807200.0,
-    "vyloucen": false
-   },
-   {
-    "nazev": "FETTERS Management, s.r.o.",
-    "ico": "01405471",
-    "cena": 12900000.0,
-    "vyloucen": false
-   },
-   {
     "nazev": "IRBOS s.r.o.",
     "ico": "25933094",
-    "cena": 9600000.0,
-    "vyloucen": false
-   },
-   {
-    "nazev": "SAFETY PRO s.r.o.",
-    "ico": "28571690",
-    "cena": 11234000.0,
+    "cena": null,
+    "poradi": 1,
+    "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 19500000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600119978",
@@ -5745,10 +5709,11 @@
   "authority": "Ředitelství silnic a dálnic s. p.",
   "authority_ico": "65993390",
   "winner": "M - SILNICE a.s.",
-  "winner_ico": "42196868",
+  "winner_ico": "",
   "awarded": "2026-09-21",
   "price_contracted": 4292072.01,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 44,
@@ -5822,6 +5787,7 @@
   "awarded": "2026-09-21",
   "price_contracted": 23685.95,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -5854,6 +5820,7 @@
   "awarded": "2026-09-21",
   "price_contracted": 17048.5,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -5886,6 +5853,7 @@
   "awarded": "2026-09-21",
   "price_contracted": 1281973.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 10,
@@ -5918,6 +5886,7 @@
   "awarded": "2026-09-21",
   "price_contracted": 6446995.84,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -5942,7 +5911,7 @@
     "ico": "",
     "cena": 6446995.84,
     "poradi": 1,
-    "vybran": false,
+    "vybran": true,
     "vyloucen": false
    }
   ],
@@ -5959,6 +5928,7 @@
   "awarded": "2026-09-21",
   "price_contracted": 1157054.08,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -6064,6 +6034,7 @@
   "awarded": "2026-09-21",
   "price_contracted": 1645824.58,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -6105,6 +6076,7 @@
   "awarded": "2026-09-18",
   "price_contracted": 29324417.72,
   "estimated": false,
+  "value": 34947498.7,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -6125,8 +6097,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 34947498.7
+  ]
  },
  {
   "id": "rvz:RVZ2600284006",
@@ -6139,6 +6110,7 @@
   "awarded": "2026-09-18",
   "price_contracted": 16910.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -6171,6 +6143,7 @@
   "awarded": "2026-09-17",
   "price_contracted": 284000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -6204,8 +6177,7 @@
     "cena": 339500.0,
     "vyloucen": false
    }
-  ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/39567773"
+  ]
  },
  {
   "id": "rvz:RVZ2600118022",
@@ -6218,6 +6190,7 @@
   "awarded": "2026-09-17",
   "price_contracted": 439900.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 46,
@@ -6290,6 +6263,7 @@
   "awarded": "2026-09-17",
   "price_contracted": 13606975.12,
   "estimated": false,
+  "value": 11720000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -6313,8 +6287,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 11720000.0
+  ]
  },
  {
   "id": "profil:kr-kralovehradecky:VZ-12808",
@@ -6327,6 +6300,7 @@
   "awarded": "2026-09-16",
   "price_contracted": 177821970.4,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 41,
@@ -6376,6 +6350,7 @@
   "awarded": "2026-09-16",
   "price_contracted": 4820500.0,
   "estimated": false,
+  "value": 76453604.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -6395,8 +6370,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 76453604.0
+  ]
  },
  {
   "id": "rvz:RVZ2600083708",
@@ -6409,6 +6383,7 @@
   "awarded": "2026-09-16",
   "price_contracted": 177821970.4,
   "estimated": false,
+  "value": 186000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 41,
@@ -6422,31 +6397,14 @@
   "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "bidders": [
    {
-    "nazev": "CE-ING s.r.o.",
-    "ico": "04475631",
-    "cena": null,
-    "vyloucen": true
-   },
-   {
-    "nazev": "GEOSAN GROUP a.s.",
+    "nazev": "GEOSAN GROUP, a.s.",
     "ico": "28169522",
-    "cena": 177821970.4,
-    "vyloucen": false
-   },
-   {
-    "nazev": "MBQ s.r.o.",
-    "ico": "24247677",
     "cena": null,
-    "vyloucen": true
-   },
-   {
-    "nazev": "S T A K O společnost s ručením omezeným",
-    "ico": "42228468",
-    "cena": 180468854.99,
+    "poradi": 1,
+    "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 186000000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600120528",
@@ -6459,6 +6417,7 @@
   "awarded": "2026-09-16",
   "price_contracted": 43598.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -6499,6 +6458,7 @@
   "awarded": "2026-09-16",
   "price_contracted": 15888777.26,
   "estimated": false,
+  "value": 16800000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -6520,7 +6480,6 @@
     "vyloucen": false
    }
   ],
-  "value": 16800000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39544709"
  },
  {
@@ -6534,6 +6493,7 @@
   "awarded": "2026-09-16",
   "price_contracted": 45000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -6590,6 +6550,7 @@
   "awarded": "2026-09-16",
   "price_contracted": 9330.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -6618,10 +6579,11 @@
   "authority": "Univerzita Pardubice",
   "authority_ico": "00216275",
   "winner": "Stavrecon Pardubice s.r.o.",
-  "winner_ico": "05925801",
+  "winner_ico": "",
   "awarded": "2026-09-16",
   "price_contracted": 15888777.26,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -6679,6 +6641,7 @@
   "awarded": "2026-09-15",
   "price_contracted": 46460.64,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -6711,6 +6674,7 @@
   "awarded": "2026-09-15",
   "price_contracted": 7646913.01,
   "estimated": false,
+  "value": 8865000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -6730,8 +6694,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 8865000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600285469",
@@ -6744,6 +6707,7 @@
   "awarded": "2026-09-15",
   "price_contracted": 40099000.0,
   "estimated": false,
+  "value": 40147486.88,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -6764,8 +6728,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 40147486.88
+  ]
  },
  {
   "id": "rvz:RVZ2600284792",
@@ -6778,6 +6741,7 @@
   "awarded": "2026-09-15",
   "price_contracted": 330000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 5,
@@ -6834,6 +6798,7 @@
   "awarded": "2026-09-15",
   "price_contracted": 130660.95,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -6904,6 +6869,7 @@
   "awarded": "2026-09-15",
   "price_contracted": 80764.41,
   "estimated": false,
+  "value": 75420000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -6927,8 +6893,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 75420000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600106793",
@@ -6941,6 +6906,7 @@
   "awarded": "2026-09-14",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -6984,6 +6950,7 @@
   "awarded": "2026-09-14",
   "price_contracted": 929409.0,
   "estimated": false,
+  "value": 800000.0,
   "price_paid": 929408.48,
   "growth_pct": -0.0,
   "dist_km": 19,
@@ -7004,7 +6971,6 @@
     "vyloucen": false
    }
   ],
-  "value": 800000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/38492402"
  },
  {
@@ -7018,6 +6984,7 @@
   "awarded": "2026-09-14",
   "price_contracted": 26811304.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -7050,6 +7017,7 @@
   "awarded": "2026-09-14",
   "price_contracted": 93375.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -7091,6 +7059,7 @@
   "awarded": "2026-09-14",
   "price_contracted": 70526.45,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -7160,6 +7129,7 @@
   "awarded": "2026-09-14",
   "price_contracted": 2094131.08,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -7175,7 +7145,7 @@
     "nazev": "ZOOM INVEST s.r.o.",
     "ico": "",
     "cena": null,
-    "poradi": 3,
+    "poradi": 2,
     "vybran": false,
     "vyloucen": false
    },
@@ -7183,16 +7153,16 @@
     "nazev": "JMK elektro, s.r.o.",
     "ico": "",
     "cena": null,
-    "poradi": 1,
-    "vybran": true,
-    "vyloucen": false
+    "poradi": null,
+    "vybran": false,
+    "vyloucen": true
    },
    {
     "nazev": "DTomsaci s.r.o.",
     "ico": "",
     "cena": null,
-    "poradi": 2,
-    "vybran": false,
+    "poradi": 1,
+    "vybran": true,
     "vyloucen": false
    }
   ],
@@ -7209,6 +7179,7 @@
   "awarded": "2026-09-14",
   "price_contracted": 1744913.07,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -7258,6 +7229,7 @@
   "awarded": "2026-09-14",
   "price_contracted": 1499139.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 49,
@@ -7290,6 +7262,7 @@
   "awarded": "2026-09-11",
   "price_contracted": 1294000000.0,
   "estimated": false,
+  "value": 1310000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 47,
@@ -7318,8 +7291,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 1310000000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600120676",
@@ -7332,6 +7304,7 @@
   "awarded": "2026-09-11",
   "price_contracted": 72941.0,
   "estimated": false,
+  "value": 72941.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -7352,7 +7325,6 @@
     "vyloucen": false
    }
   ],
-  "value": 72941.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39483201"
  },
  {
@@ -7438,6 +7410,7 @@
   "awarded": "2026-09-11",
   "price_contracted": 457500.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -7451,7 +7424,7 @@
   "bidders": [
    {
     "nazev": "H-FLOOR s.r.o.",
-    "ico": "26948494",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": false,
@@ -7459,62 +7432,6 @@
    },
    {
     "nazev": "Jan Plačko",
-    "ico": "09737278",
-    "cena": null,
-    "poradi": 6,
-    "vybran": false,
-    "vyloucen": false
-   },
-   {
-    "nazev": "JITOZ s.r.o.",
-    "ico": "",
-    "cena": null,
-    "poradi": 3,
-    "vybran": false,
-    "vyloucen": false
-   },
-   {
-    "nazev": "Martin Kalivoda",
-    "ico": "",
-    "cena": null,
-    "poradi": 7,
-    "vybran": false,
-    "vyloucen": false
-   },
-   {
-    "nazev": "Martin Žeravík",
-    "ico": "",
-    "cena": null,
-    "poradi": 1,
-    "vybran": true,
-    "vyloucen": false
-   },
-   {
-    "nazev": "JMK elektro, s.r.o.",
-    "ico": "",
-    "cena": null,
-    "poradi": 8,
-    "vybran": false,
-    "vyloucen": false
-   },
-   {
-    "nazev": "Marek Hodaň",
-    "ico": "",
-    "cena": null,
-    "poradi": 4,
-    "vybran": false,
-    "vyloucen": false
-   },
-   {
-    "nazev": "Standpro s.r.o.",
-    "ico": "",
-    "cena": null,
-    "poradi": 2,
-    "vybran": false,
-    "vyloucen": false
-   },
-   {
-    "nazev": "VPS trade s.r.o.",
     "ico": "",
     "cena": null,
     "poradi": 5,
@@ -7522,10 +7439,66 @@
     "vyloucen": false
    },
    {
-    "nazev": "DTomsaci s.r.o.",
-    "ico": "22443169",
+    "nazev": "JITOZ s.r.o.",
+    "ico": "",
     "cena": null,
-    "poradi": 9,
+    "poradi": 2,
+    "vybran": false,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Martin Kalivoda",
+    "ico": "",
+    "cena": null,
+    "poradi": 6,
+    "vybran": false,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Martin Žeravík",
+    "ico": "",
+    "cena": null,
+    "poradi": null,
+    "vybran": false,
+    "vyloucen": true
+   },
+   {
+    "nazev": "JMK elektro, s.r.o.",
+    "ico": "",
+    "cena": null,
+    "poradi": 7,
+    "vybran": false,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Marek Hodaň",
+    "ico": "",
+    "cena": null,
+    "poradi": 3,
+    "vybran": false,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Standpro s.r.o.",
+    "ico": "",
+    "cena": null,
+    "poradi": 1,
+    "vybran": true,
+    "vyloucen": false
+   },
+   {
+    "nazev": "VPS trade s.r.o.",
+    "ico": "",
+    "cena": null,
+    "poradi": 4,
+    "vybran": false,
+    "vyloucen": false
+   },
+   {
+    "nazev": "DTomsaci s.r.o.",
+    "ico": "",
+    "cena": null,
+    "poradi": 8,
     "vybran": false,
     "vyloucen": false
    }
@@ -7543,6 +7516,7 @@
   "awarded": "2026-09-11",
   "price_contracted": 796652.16,
   "estimated": false,
+  "value": 947211.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -7627,7 +7601,6 @@
     "vyloucen": false
    }
   ],
-  "value": 947211.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39571289"
  },
  {
@@ -7641,6 +7614,7 @@
   "awarded": "2026-09-11",
   "price_contracted": 990000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 42,
@@ -7722,6 +7696,7 @@
   "awarded": "2026-09-11",
   "price_contracted": 19889148.35,
   "estimated": false,
+  "value": 18500000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -7744,7 +7719,6 @@
     "vyloucen": false
    }
   ],
-  "value": 18500000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39489273"
  },
  {
@@ -7758,6 +7732,7 @@
   "awarded": "2026-09-10",
   "price_contracted": 1173212.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -7788,6 +7763,7 @@
   "awarded": "2026-09-10",
   "price_contracted": 17385707.02,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -7805,8 +7781,7 @@
     "cena": 17385707.02,
     "vyloucen": false
    }
-  ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/39531945"
+  ]
  },
  {
   "id": "rvz:RVZ2600110608",
@@ -7819,6 +7794,7 @@
   "awarded": "2026-09-10",
   "price_contracted": 49906509.0,
   "estimated": false,
+  "value": 49584248.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 47,
@@ -7844,8 +7820,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 49584248.0
+  ]
  },
  {
   "id": "rvz:RVZ2600173781",
@@ -7858,6 +7833,7 @@
   "awarded": "2026-09-10",
   "price_contracted": 8393393.0,
   "estimated": false,
+  "value": 10500000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 48,
@@ -7879,8 +7855,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 10500000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600106801",
@@ -7893,6 +7868,7 @@
   "awarded": "2026-09-10",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -7972,6 +7948,7 @@
   "awarded": "2026-09-10",
   "price_contracted": 18250000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 37,
@@ -8004,6 +7981,7 @@
   "awarded": "2026-09-10",
   "price_contracted": 17385707.02,
   "estimated": false,
+  "value": 15967000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -8031,7 +8009,6 @@
     "vyloucen": false
    }
   ],
-  "value": 15967000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39531945"
  },
  {
@@ -8045,6 +8022,7 @@
   "awarded": "2026-09-09",
   "price_contracted": 9742900.42,
   "estimated": false,
+  "value": 12343612.14,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 23,
@@ -8105,7 +8083,6 @@
     "vyloucen": false
    }
   ],
-  "value": 12343612.14,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39614693"
  },
  {
@@ -8119,6 +8096,7 @@
   "awarded": "2026-09-09",
   "price_contracted": 9742900.42,
   "estimated": false,
+  "value": 12343612.14,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 23,
@@ -8141,7 +8119,6 @@
     "vyloucen": false
    }
   ],
-  "value": 12343612.14,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39614693"
  },
  {
@@ -8155,6 +8132,7 @@
   "awarded": "2026-09-09",
   "price_contracted": 405100.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 33,
@@ -8188,6 +8166,7 @@
   "awarded": "2026-09-09",
   "price_contracted": 10995329.8,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -8217,10 +8196,11 @@
   "authority": "Hamzova odborná léčebna pro děti a dospělé",
   "authority_ico": "00183024",
   "winner": "Křenek, s.r.o.",
-  "winner_ico": "26013002",
+  "winner_ico": "",
   "awarded": "2026-09-09",
   "price_contracted": 10995329.8,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 39,
@@ -8318,6 +8298,7 @@
   "awarded": "2026-09-08",
   "price_contracted": 3701462.8,
   "estimated": false,
+  "value": 41324800.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -8337,8 +8318,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 41324800.0
+  ]
  },
  {
   "id": "rvz:RVZ2600108835",
@@ -8351,6 +8331,7 @@
   "awarded": "2026-09-08",
   "price_contracted": 2282735.5,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 45,
@@ -8469,6 +8450,7 @@
   "awarded": "2026-09-08",
   "price_contracted": 3884107.0,
   "estimated": false,
+  "value": 4428704.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 41,
@@ -8489,8 +8471,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 4428704.0
+  ]
  },
  {
   "id": "rvz:RVZ2600116631",
@@ -8503,6 +8484,7 @@
   "awarded": "2026-09-07",
   "price_contracted": 1000000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -8536,6 +8518,7 @@
   "awarded": "2026-09-07",
   "price_contracted": 11873157.14,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 33,
@@ -8590,6 +8573,7 @@
   "awarded": "2026-09-07",
   "price_contracted": 122624.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -8623,6 +8607,7 @@
   "awarded": "2026-09-07",
   "price_contracted": 11873157.14,
   "estimated": false,
+  "value": 11290000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 33,
@@ -8648,8 +8633,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 11290000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600285154",
@@ -8662,6 +8646,7 @@
   "awarded": "2026-09-07",
   "price_contracted": 1138144.35,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 22,
@@ -8710,6 +8695,7 @@
   "awarded": "2026-09-07",
   "price_contracted": 19500.0,
   "estimated": false,
+  "value": null,
   "price_paid": 19500.0,
   "growth_pct": 0.0,
   "dist_km": 36,
@@ -8742,6 +8728,7 @@
   "awarded": "2026-09-04",
   "price_contracted": 2571140.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 43,
@@ -8785,6 +8772,7 @@
   "awarded": "2026-09-04",
   "price_contracted": 25767980.0,
   "estimated": false,
+  "value": 35261797.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -8804,8 +8792,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 35261797.0
+  ]
  },
  {
   "id": "profil:sken-00236195:VZ-606",
@@ -8878,6 +8865,7 @@
   "awarded": "2026-09-03",
   "price_contracted": 4545383.15,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 43,
@@ -8909,6 +8897,7 @@
   "awarded": "2026-09-03",
   "price_contracted": 1652700.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -8939,6 +8928,7 @@
   "awarded": "2026-09-03",
   "price_contracted": 3998799.49,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -8962,8 +8952,7 @@
     "cena": 3998799.49,
     "vyloucen": false
    }
-  ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/39411249"
+  ]
  },
  {
   "id": "rvz:RVZ2500081605",
@@ -8976,6 +8965,7 @@
   "awarded": "2026-09-03",
   "price_contracted": 4000000.0,
   "estimated": false,
+  "value": 7153541.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 17,
@@ -8995,8 +8985,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 7153541.0
+  ]
  },
  {
   "id": "rvz:RVZ2600111152",
@@ -9005,10 +8994,11 @@
   "authority": "České dráhy",
   "authority_ico": "70994226",
   "winner": "Wohnstav s.r.o.",
-  "winner_ico": "22634321",
+  "winner_ico": "",
   "awarded": "2026-09-03",
   "price_contracted": 372507.67,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 43,
@@ -9047,6 +9037,7 @@
   "awarded": "2026-09-03",
   "price_contracted": 83693.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -9080,6 +9071,7 @@
   "awarded": "2026-09-03",
   "price_contracted": 21845.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -9112,6 +9104,7 @@
   "awarded": "2026-09-03",
   "price_contracted": 210743.8,
   "estimated": false,
+  "value": 210743.8,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -9131,8 +9124,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 210743.8
+  ]
  },
  {
   "id": "rvz:RVZ2600096373",
@@ -9145,6 +9137,7 @@
   "awarded": "2026-09-03",
   "price_contracted": 3998799.49,
   "estimated": false,
+  "value": 5680000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -9166,7 +9159,6 @@
     "vyloucen": false
    }
   ],
-  "value": 5680000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39411249"
  },
  {
@@ -9180,6 +9172,7 @@
   "awarded": "2026-09-03",
   "price_contracted": 206135.1,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -9229,6 +9222,7 @@
   "awarded": "2026-09-03",
   "price_contracted": 165112.65,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -9286,6 +9280,7 @@
   "awarded": "2026-09-03",
   "price_contracted": 525000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -9327,6 +9322,7 @@
   "awarded": "2026-09-02",
   "price_contracted": 1399788.75,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 18,
@@ -9364,6 +9360,7 @@
   "awarded": "2026-09-02",
   "price_contracted": 488592.0,
   "estimated": false,
+  "value": 1785000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 28,
@@ -9408,7 +9405,6 @@
     "vyloucen": false
    }
   ],
-  "value": 1785000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39429965"
  },
  {
@@ -9422,6 +9418,7 @@
   "awarded": "2026-09-02",
   "price_contracted": 691507.43,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 18,
@@ -9438,7 +9435,7 @@
     "ico": "",
     "cena": 691507.43,
     "poradi": null,
-    "vybran": false,
+    "vybran": true,
     "vyloucen": false
    }
   ],
@@ -9455,6 +9452,7 @@
   "awarded": "2026-09-02",
   "price_contracted": 84400.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -9488,6 +9486,7 @@
   "awarded": "2026-09-02",
   "price_contracted": 17028.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -9550,6 +9549,7 @@
   "awarded": "2026-09-01",
   "price_contracted": 1276020.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -9557,18 +9557,7 @@
   "cpv": [],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "bidders": [
-   {
-    "nazev": "ARCDATA PRAHA, s.r.o.",
-    "ico": "14889749",
-    "cena": null,
-    "poradi": null,
-    "vybran": true,
-    "vyloucen": false
-   }
-  ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/39355129"
+  "url": "https://www.tenderarena.cz/profily/hradeckralove"
  },
  {
   "id": "profil:pvu:00272132:P26V00006123",
@@ -9611,6 +9600,7 @@
   "awarded": "2026-09-01",
   "price_contracted": 82432.45,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -9644,6 +9634,7 @@
   "awarded": "2026-09-01",
   "price_contracted": 271227.2,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -9677,6 +9668,7 @@
   "awarded": "2026-09-01",
   "price_contracted": 65505.48,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -9748,6 +9740,7 @@
   "awarded": "2026-08-31",
   "price_contracted": 326896.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -9782,6 +9775,7 @@
   "awarded": "2026-08-31",
   "price_contracted": 13877777.1,
   "estimated": false,
+  "value": 14200000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 28,
@@ -9802,8 +9796,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 14200000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600116004",
@@ -9812,10 +9805,11 @@
   "authority": "Ředitelství silnic a dálnic s. p.",
   "authority_ico": "65993390",
   "winner": "HBH Projekt spol. s r.o.",
-  "winner_ico": "44961944",
+  "winner_ico": "",
   "awarded": "2026-08-31",
   "price_contracted": 9605400.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 17,
@@ -9881,6 +9875,7 @@
   "awarded": "2026-08-31",
   "price_contracted": 1257306.02,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -9946,6 +9941,7 @@
   "awarded": "2026-08-31",
   "price_contracted": 320975.84,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -9995,6 +9991,7 @@
   "awarded": "2026-08-28",
   "price_contracted": 388000.0,
   "estimated": false,
+  "value": 425000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 33,
@@ -10015,7 +10012,6 @@
     "vyloucen": false
    }
   ],
-  "value": 425000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39318027"
  },
  {
@@ -10029,6 +10025,7 @@
   "awarded": "2026-08-28",
   "price_contracted": 9530503.0,
   "estimated": false,
+  "value": 13400000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -10051,7 +10048,6 @@
     "vyloucen": false
    }
   ],
-  "value": 13400000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39323647"
  },
  {
@@ -10065,6 +10061,7 @@
   "awarded": "2026-08-28",
   "price_contracted": 1060930.37,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 48,
@@ -10133,6 +10130,7 @@
   "awarded": "2026-08-28",
   "price_contracted": 209644.4,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -10174,6 +10172,7 @@
   "awarded": "2026-08-28",
   "price_contracted": 349245.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -10207,6 +10206,7 @@
   "awarded": "2026-08-27",
   "price_contracted": 9306.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -10239,6 +10239,7 @@
   "awarded": "2026-08-27",
   "price_contracted": 1244.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -10271,6 +10272,7 @@
   "awarded": "2026-08-27",
   "price_contracted": 144140000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 39,
@@ -10310,6 +10312,7 @@
   "awarded": "2026-08-27",
   "price_contracted": 1486581.69,
   "estimated": false,
+  "value": null,
   "price_paid": 1486581.69,
   "growth_pct": 0.0,
   "dist_km": 24,
@@ -10425,6 +10428,7 @@
   "awarded": "2026-08-26",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -10541,6 +10545,7 @@
   "awarded": "2026-08-25",
   "price_contracted": 1439605.39,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 29,
@@ -10556,8 +10561,8 @@
     "nazev": "APRIS s.r.o.",
     "ico": "",
     "cena": 1439605.39,
-    "poradi": null,
-    "vybran": false,
+    "poradi": 2,
+    "vybran": true,
     "vyloucen": false
    },
    {
@@ -10566,7 +10571,7 @@
     "cena": 1302874.48,
     "poradi": null,
     "vybran": false,
-    "vyloucen": false
+    "vyloucen": true
    }
   ],
   "registr_url": "https://smlouvy.gov.cz/smlouva/39253726"
@@ -10582,6 +10587,7 @@
   "awarded": "2026-08-25",
   "price_contracted": 17048.5,
   "estimated": false,
+  "value": null,
   "price_paid": 12193.25,
   "growth_pct": -28.5,
   "dist_km": 36,
@@ -10614,6 +10620,7 @@
   "awarded": "2026-08-25",
   "price_contracted": 26699856.99,
   "estimated": false,
+  "value": 30629281.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 49,
@@ -10636,7 +10643,6 @@
     "vyloucen": false
    }
   ],
-  "value": 30629281.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39270666"
  },
  {
@@ -10650,6 +10656,7 @@
   "awarded": "2026-08-25",
   "price_contracted": 1014916.93,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -10683,6 +10690,7 @@
   "awarded": "2026-08-24",
   "price_contracted": 1074380.17,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -10724,6 +10732,7 @@
   "awarded": "2026-08-24",
   "price_contracted": 14383977.99,
   "estimated": false,
+  "value": 14477000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 48,
@@ -10743,8 +10752,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 14477000.0
+  ]
  },
  {
   "id": "profil:sken-00216208:VZ-12269",
@@ -10795,10 +10803,11 @@
   "authority": "DIAMO, státní podnik, odštěpný závod Příbram",
   "authority_ico": "2739",
   "winner": "Petr Pacanda",
-  "winner_ico": "62658603",
+  "winner_ico": "",
   "awarded": "2026-08-24",
   "price_contracted": 231628.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 46,
@@ -10904,6 +10913,7 @@
   "awarded": "2026-08-24",
   "price_contracted": 37169.9,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -10925,7 +10935,7 @@
    },
    {
     "nazev": "Petr Bořek",
-    "ico": "03294943",
+    "ico": "",
     "cena": null,
     "poradi": 1,
     "vybran": true,
@@ -10952,6 +10962,7 @@
   "awarded": "2026-08-24",
   "price_contracted": 152447.73,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -10985,6 +10996,7 @@
   "awarded": "2026-08-21",
   "price_contracted": 2949000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 37,
@@ -10992,17 +11004,7 @@
   "cpv": [],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://tenderarena.cz/profily/00278386",
-  "bidders": [
-   {
-    "nazev": "SWIETELSKY stavební s.r.o.",
-    "ico": "48035599",
-    "cena": null,
-    "poradi": null,
-    "vybran": true,
-    "vyloucen": false
-   }
-  ]
+  "url": "https://tenderarena.cz/profily/00278386"
  },
  {
   "id": "profil:kr-kralovehradecky:VZ-12790",
@@ -11015,6 +11017,7 @@
   "awarded": "2026-08-21",
   "price_contracted": 86015316.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -11052,6 +11055,7 @@
   "awarded": "2026-08-21",
   "price_contracted": 5572646.0,
   "estimated": false,
+  "value": 72104043.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 28,
@@ -11071,8 +11075,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 72104043.0
+  ]
  },
  {
   "id": "rvz:RVZ2600085239",
@@ -11085,6 +11088,7 @@
   "awarded": "2026-08-21",
   "price_contracted": 300000000.0,
   "estimated": true,
+  "value": 300000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -11112,8 +11116,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 300000000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600082079",
@@ -11126,6 +11129,7 @@
   "awarded": "2026-08-21",
   "price_contracted": 581983.53,
   "estimated": false,
+  "value": 1780000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -11145,8 +11149,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 1780000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600082121",
@@ -11159,6 +11162,7 @@
   "awarded": "2026-08-21",
   "price_contracted": 86015316.0,
   "estimated": false,
+  "value": 96067488.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -11173,19 +11177,14 @@
   "url": "https://zakazky.cenakhk.cz/",
   "bidders": [
    {
-    "nazev": "AVT Group a.s.",
-    "ico": "01691988",
-    "cena": 89840008.0,
-    "vyloucen": false
-   },
-   {
-    "nazev": "\" M plus \" spol. s r.o.",
+    "nazev": "„M plus“ spol. s r.o. - vedoucí společník oprávněný zastupovat sdružení; druhý společník \"Capacity Expo s.r.o.: IČO 02088843, sídlem Podolské Nábřeží 30, 1470 00, Praha 4 (smlouva o spolupráci ze dne 23.6.2026)",
     "ico": "43001432",
-    "cena": 86015316.0,
+    "cena": null,
+    "poradi": 1,
+    "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 96067488.0
+  ]
  },
  {
   "id": "rvz:RVZ2600110445",
@@ -11198,6 +11197,7 @@
   "awarded": "2026-08-21",
   "price_contracted": 43000.0,
   "estimated": false,
+  "value": 49547.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -11225,8 +11225,7 @@
     "vybran": false,
     "vyloucen": false
    }
-  ],
-  "value": 49547.0
+  ]
  },
  {
   "id": "rvz:RVZ2600104930",
@@ -11239,6 +11238,7 @@
   "awarded": "2026-08-21",
   "price_contracted": 2289811.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 49,
@@ -11325,6 +11325,7 @@
   "awarded": "2026-08-21",
   "price_contracted": 50517.1,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -11358,6 +11359,7 @@
   "awarded": "2026-08-21",
   "price_contracted": 34825.28,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -11414,6 +11416,7 @@
   "awarded": "2026-08-21",
   "price_contracted": 1364088.52,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -11495,6 +11498,7 @@
   "awarded": "2026-08-21",
   "price_contracted": 1198081.0,
   "estimated": false,
+  "value": null,
   "price_paid": 1198081.0,
   "growth_pct": 0.0,
   "dist_km": 30,
@@ -11528,6 +11532,7 @@
   "awarded": "2026-08-20",
   "price_contracted": 24450538.400000002,
   "estimated": false,
+  "value": 24450807.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 42,
@@ -11555,8 +11560,7 @@
     "vybran": false,
     "vyloucen": true
    }
-  ],
-  "value": 24450807.0
+  ]
  },
  {
   "id": "rvz:RVZ2600065429",
@@ -11569,6 +11573,7 @@
   "awarded": "2026-08-20",
   "price_contracted": 24450538.400000002,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 42,
@@ -11588,8 +11593,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 24450810.0
+  ]
  },
  {
   "id": "rvz:RVZ2600099532",
@@ -11602,6 +11606,7 @@
   "awarded": "2026-08-20",
   "price_contracted": 132000000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 30,
@@ -11613,6 +11618,14 @@
   "kw_match": false,
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00016771",
   "bidders": [
+   {
+    "nazev": "Pontera s.r.o.",
+    "ico": "",
+    "cena": 132000000.0,
+    "poradi": 1,
+    "vybran": true,
+    "vyloucen": false
+   },
    {
     "nazev": "Řemeslné stavby s.r.o.",
     "ico": "",
@@ -11626,14 +11639,6 @@
     "ico": "",
     "cena": 187923000.0,
     "poradi": 2,
-    "vybran": false,
-    "vyloucen": false
-   },
-   {
-    "nazev": "Pontera s.r.o.",
-    "ico": "",
-    "cena": 132000000.0,
-    "poradi": 1,
     "vybran": false,
     "vyloucen": false
    }
@@ -11650,6 +11655,7 @@
   "awarded": "2026-08-20",
   "price_contracted": 23811481.17,
   "estimated": false,
+  "value": 31654000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -11686,7 +11692,6 @@
     "vyloucen": false
    }
   ],
-  "value": 31654000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/38921402"
  },
  {
@@ -11700,6 +11705,7 @@
   "awarded": "2026-08-20",
   "price_contracted": 124828115.06,
   "estimated": false,
+  "value": 145000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -11719,8 +11725,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 145000000.0
+  ]
  },
  {
   "id": "profil:dvur-kralove:VZ-495",
@@ -11733,6 +11738,7 @@
   "awarded": "2026-08-20",
   "price_contracted": 39840673.46,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 26,
@@ -11787,6 +11793,7 @@
   "awarded": "2026-08-20",
   "price_contracted": 39840673.46,
   "estimated": false,
+  "value": 35000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 26,
@@ -11800,37 +11807,14 @@
   "url": "https://zakazky.mudk.cz/",
   "bidders": [
    {
-    "nazev": "ENVI-PUR, s.r.o.",
-    "ico": "25166077",
-    "cena": null,
-    "vyloucen": false
-   },
-   {
-    "nazev": "HST Hydrosystémy s.r.o.",
-    "ico": "26212706",
-    "cena": null,
-    "vyloucen": false
-   },
-   {
-    "nazev": "KUNST,  spol.  s  r.o.",
-    "ico": "19010591",
-    "cena": null,
-    "vyloucen": false
-   },
-   {
     "nazev": "VHS stavby a.s.",
     "ico": "25183052",
     "cena": null,
-    "vyloucen": false
-   },
-   {
-    "nazev": "VPK Suchý s.r.o.",
-    "ico": "27085201",
-    "cena": null,
+    "poradi": 1,
+    "vybran": true,
     "vyloucen": false
    }
   ],
-  "value": 35000000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39543649?backlink=gre2p"
  },
  {
@@ -11844,6 +11828,7 @@
   "awarded": "2026-08-20",
   "price_contracted": 132000000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 30,
@@ -11885,6 +11870,7 @@
   "awarded": "2026-08-20",
   "price_contracted": 8693901.68,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 16,
@@ -11994,6 +11980,7 @@
   "awarded": "2026-08-19",
   "price_contracted": 25579147.28,
   "estimated": false,
+  "value": 23450360.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 37,
@@ -12015,8 +12002,7 @@
     "vyloucen": false
    }
   ],
-  "value": 23450360.0,
-  "registr_url": "https://smlouvy.gov.cz/smlouva/37920625?backlink=t8qiw"
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39189854?backlink=gi2wp"
  },
  {
   "id": "rvz:RVZ2600108889",
@@ -12029,6 +12015,7 @@
   "awarded": "2026-08-19",
   "price_contracted": 54390.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 42,
@@ -12062,6 +12049,7 @@
   "awarded": "2026-08-19",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -12094,6 +12082,7 @@
   "awarded": "2026-08-19",
   "price_contracted": 84893599.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 39,
@@ -12176,6 +12165,7 @@
   "awarded": "2026-08-19",
   "price_contracted": 2307014.0,
   "estimated": false,
+  "value": null,
   "price_paid": 2259764.0,
   "growth_pct": -2.0,
   "dist_km": 45,
@@ -12206,6 +12196,7 @@
   "awarded": "2026-08-18",
   "price_contracted": 3520630.08,
   "estimated": false,
+  "value": 3600000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -12225,8 +12216,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 3600000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600121683",
@@ -12239,6 +12229,7 @@
   "awarded": "2026-08-18",
   "price_contracted": 13403608.0,
   "estimated": false,
+  "value": 10200000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 45,
@@ -12261,8 +12252,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 10200000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600111508",
@@ -12275,6 +12265,7 @@
   "awarded": "2026-08-18",
   "price_contracted": 280522.65,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 46,
@@ -12308,6 +12299,7 @@
   "awarded": "2026-08-18",
   "price_contracted": 468382.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -12377,6 +12369,7 @@
   "awarded": "2026-08-17",
   "price_contracted": 38561960.15,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 42,
@@ -12410,6 +12403,7 @@
   "awarded": "2026-08-17",
   "price_contracted": 20466.79,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -12442,6 +12436,7 @@
   "awarded": "2026-08-17",
   "price_contracted": 1673355.46,
   "estimated": false,
+  "value": 1400000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -12461,8 +12456,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 1400000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600117812",
@@ -12475,6 +12469,7 @@
   "awarded": "2026-08-17",
   "price_contracted": 13963614.86,
   "estimated": false,
+  "value": 13232614.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 43,
@@ -12501,7 +12496,6 @@
     "vyloucen": false
    }
   ],
-  "value": 13232614.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39152326"
  },
  {
@@ -12515,6 +12509,7 @@
   "awarded": "2026-08-17",
   "price_contracted": 36732.3,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -12547,6 +12542,7 @@
   "awarded": "2026-08-17",
   "price_contracted": 11324474.75,
   "estimated": false,
+  "value": 11824000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 44,
@@ -12569,8 +12565,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 11824000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600109025",
@@ -12583,6 +12578,7 @@
   "awarded": "2026-08-17",
   "price_contracted": 1596000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -12664,6 +12660,7 @@
   "awarded": "2026-08-17",
   "price_contracted": 120177.46,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -12721,6 +12718,7 @@
   "awarded": "2026-08-14",
   "price_contracted": 15518955.62,
   "estimated": false,
+  "value": 18261064.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 15,
@@ -12740,8 +12738,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 18261064.0
+  ]
  },
  {
   "id": "rvz:RVZ2600165629",
@@ -12754,6 +12751,7 @@
   "awarded": "2026-08-14",
   "price_contracted": 388136.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 43,
@@ -12787,6 +12785,7 @@
   "awarded": "2026-08-13",
   "price_contracted": 4096000.0,
   "estimated": false,
+  "value": 4130000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -12808,8 +12807,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 4130000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600108436",
@@ -12822,6 +12820,7 @@
   "awarded": "2026-08-13",
   "price_contracted": 771549.94,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -12903,6 +12902,7 @@
   "awarded": "2026-08-13",
   "price_contracted": 474930.68,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -12968,6 +12968,7 @@
   "awarded": "2026-08-12",
   "price_contracted": 92880723.3,
   "estimated": false,
+  "value": 96045926.38,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 32,
@@ -12994,8 +12995,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 96045926.38
+  ]
  },
  {
   "id": "rvz:RVZ2600116326",
@@ -13008,6 +13008,7 @@
   "awarded": "2026-08-12",
   "price_contracted": 13030.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -13040,6 +13041,7 @@
   "awarded": "2026-08-12",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 47,
@@ -13070,6 +13072,7 @@
   "awarded": "2026-08-11",
   "price_contracted": 5846.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -13102,6 +13105,7 @@
   "awarded": "2026-08-11",
   "price_contracted": 4410000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 15,
@@ -13303,6 +13307,7 @@
   "awarded": "2026-08-10",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -13346,6 +13351,7 @@
   "awarded": "2026-08-10",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -13377,6 +13383,7 @@
   "awarded": "2026-08-10",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -13438,6 +13445,7 @@
   "awarded": "2026-08-10",
   "price_contracted": 111488644.0,
   "estimated": false,
+  "value": 159117528.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 23,
@@ -13509,8 +13517,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 159117528.0
+  ]
  },
  {
   "id": "rvz:RVZ2600103913",
@@ -13523,6 +13530,7 @@
   "awarded": "2026-08-10",
   "price_contracted": 9131096.0,
   "estimated": false,
+  "value": 9133000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -13543,8 +13551,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 9133000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600115999",
@@ -13557,6 +13564,7 @@
   "awarded": "2026-08-10",
   "price_contracted": 13334570.17,
   "estimated": false,
+  "value": 16132500.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 24,
@@ -13578,8 +13586,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 16132500.0
+  ]
  },
  {
   "id": "rvz:RVZ2600115758",
@@ -13592,6 +13599,7 @@
   "awarded": "2026-08-10",
   "price_contracted": 31598.1,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -13624,6 +13632,7 @@
   "awarded": "2026-08-10",
   "price_contracted": 1091277.4,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -13672,6 +13681,7 @@
   "awarded": "2026-08-10",
   "price_contracted": 32000000.0,
   "estimated": true,
+  "value": 32000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -13691,8 +13701,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 32000000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600120904",
@@ -13705,6 +13714,7 @@
   "awarded": "2026-08-08",
   "price_contracted": 2360000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 31,
@@ -13809,6 +13819,7 @@
   "awarded": "2026-08-07",
   "price_contracted": 28733100.0,
   "estimated": false,
+  "value": 29961000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -13828,8 +13839,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 29961000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600099487",
@@ -13842,6 +13852,7 @@
   "awarded": "2026-08-07",
   "price_contracted": 2020410.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -13891,6 +13902,7 @@
   "awarded": "2026-08-07",
   "price_contracted": 1730262.0,
   "estimated": false,
+  "value": null,
   "price_paid": 1699298.0,
   "growth_pct": -1.8,
   "dist_km": 45,
@@ -13921,6 +13933,7 @@
   "awarded": "2026-08-07",
   "price_contracted": 2880704.05,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -13978,6 +13991,7 @@
   "awarded": "2026-08-06",
   "price_contracted": 75809.5,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 45,
@@ -14010,6 +14024,7 @@
   "awarded": "2026-08-06",
   "price_contracted": 768022.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -14127,6 +14142,7 @@
   "awarded": "2026-08-05",
   "price_contracted": 13963614.86,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 43,
@@ -14176,6 +14192,7 @@
   "awarded": "2026-08-05",
   "price_contracted": 15672400.32,
   "estimated": false,
+  "value": 13833593.5,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 38,
@@ -14200,8 +14217,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 13833593.5
+  ]
  },
  {
   "id": "rvz:RVZ2600115913",
@@ -14214,6 +14230,7 @@
   "awarded": "2026-08-05",
   "price_contracted": 4487400.0,
   "estimated": false,
+  "value": 4800000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -14234,8 +14251,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 4800000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600099456",
@@ -14248,6 +14264,7 @@
   "awarded": "2026-08-05",
   "price_contracted": 320253.17,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -14269,7 +14286,7 @@
    },
    {
     "nazev": "DIKOS, s.r.o.",
-    "ico": "46966331",
+    "ico": "",
     "cena": null,
     "poradi": 9,
     "vybran": false,
@@ -14353,6 +14370,7 @@
   "awarded": "2026-08-04",
   "price_contracted": 1656952966.26,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 46,
@@ -14394,6 +14412,7 @@
   "awarded": "2026-08-04",
   "price_contracted": 757314291.91,
   "estimated": false,
+  "value": 1353000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -14413,8 +14432,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 1353000000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600084502",
@@ -14427,6 +14445,7 @@
   "awarded": "2026-08-04",
   "price_contracted": 143886846.8,
   "estimated": false,
+  "value": 195000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -14450,8 +14469,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 195000000.0
+  ]
  },
  {
   "id": "profil:sken-48136450:VZ-1284",
@@ -14590,6 +14608,7 @@
   "awarded": "2026-08-03",
   "price_contracted": 52199999.01,
   "estimated": false,
+  "value": 58112112.23,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -14609,8 +14628,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 58112112.23
+  ]
  },
  {
   "id": "rvz:RVZ2600100982",
@@ -14623,6 +14641,7 @@
   "awarded": "2026-08-03",
   "price_contracted": 1864455.98,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -14652,7 +14671,7 @@
    },
    {
     "nazev": "Renostav.S.A. s.r.o.",
-    "ico": "19828101",
+    "ico": "",
     "cena": null,
     "poradi": 9,
     "vybran": false,
@@ -14728,6 +14747,7 @@
   "awarded": "2026-08-03",
   "price_contracted": 8080.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -14760,6 +14780,7 @@
   "awarded": "2026-08-03",
   "price_contracted": 8984388.01,
   "estimated": false,
+  "value": 10355261.84,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -14782,8 +14803,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 10355261.84
+  ]
  },
  {
   "id": "profil:sken-00216208:VZ-12267",
@@ -14844,6 +14864,7 @@
   "awarded": "2026-07-31",
   "price_contracted": 9246734.59,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 42,
@@ -14876,6 +14897,7 @@
   "awarded": "2026-07-31",
   "price_contracted": 220470.0,
   "estimated": false,
+  "value": null,
   "price_paid": 220470.0,
   "growth_pct": 0.0,
   "dist_km": 30,
@@ -14888,6 +14910,14 @@
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00018889",
   "bidders": [
    {
+    "nazev": "Vladimír Polák",
+    "ico": "63579928",
+    "cena": null,
+    "poradi": null,
+    "vybran": false,
+    "vyloucen": false
+   },
+   {
     "nazev": "TC servis, s.r.o.",
     "ico": "",
     "cena": null,
@@ -14898,6 +14928,14 @@
    {
     "nazev": "AVE Kolín s.r.o.",
     "ico": "",
+    "cena": null,
+    "poradi": null,
+    "vybran": true,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Petr Novák",
+    "ico": "76559114",
     "cena": null,
     "poradi": null,
     "vybran": false,
@@ -14916,6 +14954,7 @@
   "awarded": "2026-07-31",
   "price_contracted": 26249763.31,
   "estimated": false,
+  "value": 31000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 46,
@@ -14935,8 +14974,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 31000000.0
+  ]
  },
  {
   "id": "profil:pvu:00282481:P26V00006286",
@@ -15013,6 +15051,7 @@
   "awarded": "2026-07-30",
   "price_contracted": 16995.2,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -15045,6 +15084,7 @@
   "awarded": "2026-07-30",
   "price_contracted": 29408.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -15077,6 +15117,7 @@
   "awarded": "2026-07-30",
   "price_contracted": 83765.29,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -15126,6 +15167,7 @@
   "awarded": "2026-07-30",
   "price_contracted": 146883.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 44,
@@ -15266,6 +15308,7 @@
   "awarded": "2026-07-29",
   "price_contracted": 394540.0,
   "estimated": false,
+  "value": null,
   "price_paid": 394540.0,
   "growth_pct": 0.0,
   "dist_km": 4,
@@ -15380,6 +15423,7 @@
   "awarded": "2026-07-29",
   "price_contracted": 15956594.66,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -15403,8 +15447,7 @@
     "cena": 15956594.66,
     "vyloucen": false
    }
-  ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/38946766"
+  ]
  },
  {
   "id": "rvz:RVZ2600078147",
@@ -15417,6 +15460,7 @@
   "awarded": "2026-07-29",
   "price_contracted": 15956594.66,
   "estimated": false,
+  "value": 18887000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -15442,7 +15486,6 @@
     "vyloucen": false
    }
   ],
-  "value": 18887000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/38946766"
  },
  {
@@ -15456,6 +15499,7 @@
   "awarded": "2026-07-29",
   "price_contracted": 1927158.22,
   "estimated": false,
+  "value": 2353000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 37,
@@ -15480,8 +15524,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 2353000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600117526",
@@ -15494,6 +15537,7 @@
   "awarded": "2026-07-29",
   "price_contracted": 9840116.93,
   "estimated": false,
+  "value": 10500000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 45,
@@ -15515,8 +15559,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 10500000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600080195",
@@ -15608,6 +15651,7 @@
   "awarded": "2026-07-28",
   "price_contracted": 288348389.0,
   "estimated": false,
+  "value": 372171455.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -15640,8 +15684,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 372171455.0
+  ]
  },
  {
   "id": "rvz:RVZ2600067759",
@@ -15654,6 +15697,7 @@
   "awarded": "2026-07-28",
   "price_contracted": 288348389.0,
   "estimated": false,
+  "value": 372171455.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -15730,7 +15774,6 @@
     "vyloucen": false
    }
   ],
-  "value": 372171455.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39002350"
  },
  {
@@ -15744,6 +15787,7 @@
   "awarded": "2026-07-28",
   "price_contracted": 1747200.0,
   "estimated": false,
+  "value": 1998000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 42,
@@ -15766,8 +15810,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 1998000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600118526",
@@ -15780,6 +15823,7 @@
   "awarded": "2026-07-28",
   "price_contracted": 15619.1,
   "estimated": false,
+  "value": null,
   "price_paid": 15619.1,
   "growth_pct": 0.0,
   "dist_km": 36,
@@ -15812,6 +15856,7 @@
   "awarded": "2026-07-28",
   "price_contracted": 903000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 15,
@@ -15833,7 +15878,7 @@
    },
    {
     "nazev": "Hanč CONSTRUCTION s.r.o.",
-    "ico": "23209593",
+    "ico": "",
     "cena": null,
     "poradi": 2,
     "vybran": false,
@@ -15841,7 +15886,7 @@
    },
    {
     "nazev": "BaZ MACH business s.r.o.",
-    "ico": "11698161",
+    "ico": "",
     "cena": null,
     "poradi": 5,
     "vybran": false,
@@ -15885,6 +15930,7 @@
   "awarded": "2026-07-28",
   "price_contracted": 2375900.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -15929,11 +15975,12 @@
   "title": "DNS – Zajištění odstranění nepovolených reklamních zařízení na území Středočeského kraje",
   "authority": "Krajská správa a údržba silnic Středočeského kraje, příspěvková organizace",
   "authority_ico": "00066001",
-  "winner": "DEMSTAV group, s.r.o.; POZEMNÍ KOMUNIKACE BOHEMIA, a.s.; ČNES dopravní stavby, a.s.; PRAGOTRADE spol. s r.o.; B E S s.r.o.",
-  "winner_ico": "27844935; 27900096; 47781734; 16189612; 43792553",
+  "winner": "Gabostav s.r.o.",
+  "winner_ico": "08885028",
   "awarded": "2026-07-28",
   "price_contracted": 35960.0,
   "estimated": false,
+  "value": 40400000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -15948,48 +15995,15 @@
   "url": "https://zakazky.kr-stredocesky.cz/company_detail_46.html",
   "bidders": [
    {
-    "nazev": "DEMSTAV group, s.r.o.",
-    "ico": "27844935",
-    "cena": null,
-    "poradi": 1,
-    "vybran": true,
-    "vyloucen": false
-   },
-   {
-    "nazev": "POZEMNÍ KOMUNIKACE BOHEMIA, a.s.",
-    "ico": "27900096",
-    "cena": null,
-    "poradi": 1,
-    "vybran": true,
-    "vyloucen": false
-   },
-   {
-    "nazev": "ČNES dopravní stavby, a.s.",
-    "ico": "47781734",
-    "cena": null,
-    "poradi": 1,
-    "vybran": true,
-    "vyloucen": false
-   },
-   {
-    "nazev": "PRAGOTRADE spol. s r.o.",
-    "ico": "16189612",
-    "cena": null,
-    "poradi": 1,
-    "vybran": true,
-    "vyloucen": false
-   },
-   {
-    "nazev": "B E S s.r.o.",
-    "ico": "43792553",
+    "nazev": "Gabostav s.r.o.",
+    "ico": "08885028",
     "cena": null,
     "poradi": 1,
     "vybran": true,
     "vyloucen": false
    }
   ],
-  "value": 40400000.0,
-  "registr_url": "https://smlouvy.gov.cz/smlouva/35666517"
+  "registr_url": "https://smlouvy.gov.cz/smlouva/38925106"
  },
  {
   "id": "rvz:RVZ2600099414",
@@ -16084,6 +16098,7 @@
   "awarded": "2026-07-27",
   "price_contracted": 12880000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -16144,9 +16159,7 @@
     "cena": 10931481.17,
     "vyloucen": false
    }
-  ],
-  "value": 31654000.0,
-  "registr_url": "https://smlouvy.gov.cz/smlouva/38921402"
+  ]
  },
  {
   "id": "rvz:RVZ2600116059",
@@ -16159,6 +16172,7 @@
   "awarded": "2026-07-27",
   "price_contracted": 109315825.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -16399,6 +16413,7 @@
   "awarded": "2026-07-24",
   "price_contracted": 9235532.78,
   "estimated": false,
+  "value": 8215856.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 49,
@@ -16418,8 +16433,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 8215856.0
+  ]
  },
  {
   "id": "rvz:RVZ2600117290",
@@ -16432,6 +16446,7 @@
   "awarded": "2026-07-24",
   "price_contracted": 6920000.06,
   "estimated": false,
+  "value": 8520263.99,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 30,
@@ -16454,8 +16469,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 8520263.99
+  ]
  },
  {
   "id": "rvz:RVZ2600099790",
@@ -16468,6 +16482,7 @@
   "awarded": "2026-07-24",
   "price_contracted": 6920000.06,
   "estimated": false,
+  "value": 8520263.99,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 30,
@@ -16504,7 +16519,6 @@
     "vyloucen": false
    }
   ],
-  "value": 8520263.99,
   "registr_url": "https://smlouvy.gov.cz/smlouva/39023326"
  },
  {
@@ -16518,6 +16532,7 @@
   "awarded": "2026-07-24",
   "price_contracted": 989827.23,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -16615,6 +16630,7 @@
   "awarded": "2026-07-24",
   "price_contracted": 17048.5,
   "estimated": false,
+  "value": null,
   "price_paid": 9006.6,
   "growth_pct": -47.2,
   "dist_km": 36,
@@ -16751,6 +16767,7 @@
   "awarded": "2026-07-23",
   "price_contracted": 989908.26,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 17,
@@ -16783,6 +16800,7 @@
   "awarded": "2026-07-23",
   "price_contracted": 305781.62,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 37,
@@ -16934,6 +16952,7 @@
   "awarded": "2026-07-23",
   "price_contracted": 436225.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -16950,7 +16969,7 @@
     "ico": "",
     "cena": null,
     "poradi": null,
-    "vybran": false,
+    "vybran": true,
     "vyloucen": false
    },
    {
@@ -17090,6 +17109,7 @@
   "awarded": "2026-07-22",
   "price_contracted": 1162207.85,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -17178,6 +17198,7 @@
   "awarded": "2026-07-22",
   "price_contracted": 867114.2,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -17345,6 +17366,7 @@
   "awarded": "2026-07-21",
   "price_contracted": 330578.51,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -17378,6 +17400,7 @@
   "awarded": "2026-07-21",
   "price_contracted": 1194213.42,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -17451,6 +17474,7 @@
   "awarded": "2026-07-20",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -17531,6 +17555,7 @@
   "awarded": "2026-07-20",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -17562,6 +17587,7 @@
   "awarded": "2026-07-20",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -17643,6 +17669,7 @@
   "awarded": "2026-07-20",
   "price_contracted": 1830000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 33,
@@ -17727,6 +17754,7 @@
   "awarded": "2026-07-20",
   "price_contracted": 1830000.0,
   "estimated": false,
+  "value": 3021500.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 33,
@@ -17750,8 +17778,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 3021500.0
+  ]
  },
  {
   "id": "rvz:RVZ2600111519",
@@ -17764,6 +17791,7 @@
   "awarded": "2026-07-20",
   "price_contracted": 9249482.72,
   "estimated": false,
+  "value": 10055400.96,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 39,
@@ -17783,8 +17811,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 10055400.96
+  ]
  },
  {
   "id": "rvz:RVZ2600114412",
@@ -17797,6 +17824,7 @@
   "awarded": "2026-07-20",
   "price_contracted": 1626677.2,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 25,
@@ -17903,6 +17931,7 @@
   "awarded": "2026-07-17",
   "price_contracted": 927760.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 43,
@@ -17912,17 +17941,7 @@
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00022798",
-  "bidders": [
-   {
-    "nazev": "ELPO s.r.o.",
-    "ico": "",
-    "cena": null,
-    "poradi": null,
-    "vybran": true,
-    "vyloucen": false
-   }
-  ]
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00022798"
  },
  {
   "id": "rvz:RVZ2600077971",
@@ -17935,6 +17954,7 @@
   "awarded": "2026-07-17",
   "price_contracted": 3156517.63,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -18003,6 +18023,7 @@
   "awarded": "2026-07-16",
   "price_contracted": 10821341.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 43,
@@ -18064,6 +18085,7 @@
   "awarded": "2026-07-16",
   "price_contracted": 1869540.44,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 28,
@@ -18179,6 +18201,7 @@
   "awarded": "2026-07-16",
   "price_contracted": 10821341.0,
   "estimated": false,
+  "value": 19687613.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 43,
@@ -18200,8 +18223,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 19687613.0
+  ]
  },
  {
   "id": "rvz:RVZ2600096524",
@@ -18283,6 +18305,7 @@
   "awarded": "2026-07-15",
   "price_contracted": 4427139.04,
   "estimated": false,
+  "value": 5976000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 40,
@@ -18305,8 +18328,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 5976000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600104852",
@@ -18481,6 +18503,7 @@
   "awarded": "2026-07-15",
   "price_contracted": 8640.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -18494,7 +18517,7 @@
   "bidders": [
    {
     "nazev": "ZETA Chrudim, s.r.o.",
-    "ico": "45535809",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": true,
@@ -18543,6 +18566,7 @@
   "awarded": "2026-07-15",
   "price_contracted": 878657.2,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -18728,6 +18752,7 @@
   "awarded": "2026-07-14",
   "price_contracted": 53274.8,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -18969,6 +18994,7 @@
   "awarded": "2026-07-13",
   "price_contracted": 90213.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 24,
@@ -19038,6 +19064,7 @@
   "awarded": "2026-07-10",
   "price_contracted": 87410.0,
   "estimated": false,
+  "value": null,
   "price_paid": 87410.0,
   "growth_pct": 0.0,
   "dist_km": 36,
@@ -19051,7 +19078,7 @@
   "bidders": [
    {
     "nazev": "Nexilon s.r.o.",
-    "ico": "25337017",
+    "ico": "",
     "cena": 192400.0,
     "poradi": 2,
     "vybran": false,
@@ -19134,6 +19161,7 @@
   "awarded": "2026-07-09",
   "price_contracted": 1564142.5,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -19392,6 +19420,7 @@
   "awarded": "2026-07-08",
   "price_contracted": 1503719.0,
   "estimated": false,
+  "value": 1980000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -19413,8 +19442,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 1980000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600114722",
@@ -19427,6 +19455,7 @@
   "awarded": "2026-07-08",
   "price_contracted": 569000.0,
   "estimated": false,
+  "value": 561100.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 40,
@@ -19447,8 +19476,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 561100.0
+  ]
  },
  {
   "id": "rvz:RVZ2600114723",
@@ -19461,6 +19489,7 @@
   "awarded": "2026-07-08",
   "price_contracted": 609734.6,
   "estimated": false,
+  "value": 549911.76,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -19481,8 +19510,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 549911.76
+  ]
  },
  {
   "id": "rvz:RVZ2600115043",
@@ -19495,6 +19523,7 @@
   "awarded": "2026-07-08",
   "price_contracted": 528881.08,
   "estimated": false,
+  "value": 506554.45,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 26,
@@ -19515,8 +19544,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 506554.45
+  ]
  },
  {
   "id": "rvz:RVZ2600096848",
@@ -19570,6 +19598,7 @@
   "awarded": "2026-07-07",
   "price_contracted": 279800.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 43,
@@ -19747,6 +19776,7 @@
   "awarded": "2026-07-07",
   "price_contracted": 220347.0,
   "estimated": false,
+  "value": null,
   "price_paid": 182104.96,
   "growth_pct": -17.4,
   "dist_km": 36,
@@ -19780,6 +19810,7 @@
   "awarded": "2026-07-07",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -19811,6 +19842,7 @@
   "awarded": "2026-07-07",
   "price_contracted": 19376849.34,
   "estimated": false,
+  "value": 26500000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 43,
@@ -19836,8 +19868,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 26500000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600072034",
@@ -20013,6 +20044,7 @@
   "awarded": "2026-07-03",
   "price_contracted": 920000.0,
   "estimated": false,
+  "value": 1321777.38,
   "price_paid": 990233.04,
   "growth_pct": 7.6,
   "dist_km": 19,
@@ -20025,16 +20057,8 @@
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00015830",
   "bidders": [
    {
-    "nazev": "ELITSTAV s.r.o.",
-    "ico": "",
-    "cena": 920000.0,
-    "poradi": 1,
-    "vybran": true,
-    "vyloucen": false
-   },
-   {
     "nazev": "M - STAV CZ s.r.o.",
-    "ico": "27557235",
+    "ico": "",
     "cena": 1579305.68,
     "poradi": 5,
     "vybran": false,
@@ -20063,9 +20087,16 @@
     "poradi": 4,
     "vybran": false,
     "vyloucen": false
+   },
+   {
+    "nazev": "ELITSTAV s.r.o.",
+    "ico": "",
+    "cena": 920000.0,
+    "poradi": 1,
+    "vybran": true,
+    "vyloucen": false
    }
   ],
-  "value": 1321777.38,
   "registr_url": "https://smlouvy.gov.cz/smlouva/38657844"
  },
  {
@@ -20194,6 +20225,7 @@
   "awarded": "2026-07-03",
   "price_contracted": 55252.01,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -20227,6 +20259,7 @@
   "awarded": "2026-07-03",
   "price_contracted": 27690.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -20259,6 +20292,7 @@
   "awarded": "2026-07-03",
   "price_contracted": 4014384.0,
   "estimated": false,
+  "value": 5000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -20281,7 +20315,6 @@
     "vyloucen": false
    }
   ],
-  "value": 5000000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/38718984"
  },
  {
@@ -20379,6 +20412,7 @@
   "awarded": "2026-07-03",
   "price_contracted": 150000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -20520,6 +20554,7 @@
   "awarded": "2026-07-02",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -20557,6 +20592,7 @@
   "awarded": "2026-07-02",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -20636,6 +20672,7 @@
   "awarded": "2026-07-02",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -20887,6 +20924,7 @@
   "awarded": "2026-07-02",
   "price_contracted": 330578.51,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -21137,6 +21175,7 @@
   "awarded": "2026-07-01",
   "price_contracted": 1232800.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -21430,6 +21469,7 @@
   "awarded": "2026-06-30",
   "price_contracted": 2811733.25,
   "estimated": false,
+  "value": null,
   "price_paid": 3036172.05,
   "growth_pct": 8.0,
   "dist_km": 33,
@@ -21495,6 +21535,7 @@
   "awarded": "2026-06-30",
   "price_contracted": 1597631.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -21647,6 +21688,7 @@
   "awarded": "2026-06-29",
   "price_contracted": 37519.56,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -22446,6 +22488,7 @@
   "awarded": "2026-06-24",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -22651,6 +22694,7 @@
   "awarded": "2026-06-23",
   "price_contracted": 1602415.4,
   "estimated": false,
+  "value": null,
   "price_paid": 413595.0,
   "growth_pct": -74.2,
   "dist_km": 34,
@@ -22905,6 +22949,7 @@
   "awarded": "2026-06-23",
   "price_contracted": 1548100.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -23162,6 +23207,7 @@
   "awarded": "2026-06-22",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -23193,6 +23239,7 @@
   "awarded": "2026-06-22",
   "price_contracted": 17048.5,
   "estimated": false,
+  "value": null,
   "price_paid": 13490.9,
   "growth_pct": -20.9,
   "dist_km": 36,
@@ -23387,6 +23434,7 @@
   "awarded": "2026-06-19",
   "price_contracted": 1296143.86,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -23415,6 +23463,7 @@
   "awarded": "2026-06-19",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -23530,6 +23579,7 @@
   "awarded": "2026-06-18",
   "price_contracted": 1993934.04,
   "estimated": false,
+  "value": 2096719.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -23558,7 +23608,6 @@
     "vyloucen": false
    }
   ],
-  "value": 2096719.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/38454482"
  },
  {
@@ -23605,6 +23654,7 @@
   "awarded": "2026-06-18",
   "price_contracted": 5953163.28,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -23720,6 +23770,7 @@
   "awarded": "2026-06-17",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -23763,6 +23814,7 @@
   "awarded": "2026-06-17",
   "price_contracted": 1195000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -24043,6 +24095,7 @@
   "awarded": "2026-06-17",
   "price_contracted": 7947787.64,
   "estimated": false,
+  "value": 10228833.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -24062,8 +24115,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 10228833.0
+  ]
  },
  {
   "id": "rvz:RVZ2600082029",
@@ -24076,6 +24128,7 @@
   "awarded": "2026-06-16",
   "price_contracted": 2320806.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 29,
@@ -24089,7 +24142,7 @@
   "bidders": [
    {
     "nazev": "DIRICKX Bohemia spol. s r.o.",
-    "ico": "49810090",
+    "ico": "",
     "cena": 8322436.0,
     "poradi": 6,
     "vybran": false,
@@ -24121,7 +24174,7 @@
    },
    {
     "nazev": "PRAGOTRADE spol. s r.o.",
-    "ico": "16189612",
+    "ico": "",
     "cena": 4633200.0,
     "poradi": 4,
     "vybran": false,
@@ -24317,6 +24370,7 @@
   "awarded": "2026-06-16",
   "price_contracted": 4499902.94,
   "estimated": false,
+  "value": null,
   "price_paid": 4499902.94,
   "growth_pct": 0.0,
   "dist_km": 16,
@@ -24545,6 +24599,7 @@
   "awarded": "2026-06-15",
   "price_contracted": 3721717.6,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 29,
@@ -24659,6 +24714,7 @@
   "awarded": "2026-06-15",
   "price_contracted": 552754.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 29,
@@ -24691,6 +24747,7 @@
   "awarded": "2026-06-15",
   "price_contracted": 2567110.07,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -24921,6 +24978,7 @@
   "awarded": "2026-06-12",
   "price_contracted": 36270850.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 28,
@@ -24982,6 +25040,7 @@
   "awarded": "2026-06-12",
   "price_contracted": 3957630.43,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 42,
@@ -25014,6 +25073,7 @@
   "awarded": "2026-06-12",
   "price_contracted": 202500.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -25510,6 +25570,7 @@
   "awarded": "2026-06-10",
   "price_contracted": 293725.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -25547,7 +25608,7 @@
    },
    {
     "nazev": "MIGBAU s.r.o.",
-    "ico": "08742715",
+    "ico": "",
     "cena": 1082181.1,
     "poradi": 5,
     "vybran": false,
@@ -25555,7 +25616,7 @@
    },
    {
     "nazev": "RIWADER s.r.o.",
-    "ico": "22181059",
+    "ico": "",
     "cena": 565000.0,
     "poradi": 3,
     "vybran": false,
@@ -26068,6 +26129,7 @@
   "awarded": "2026-06-04",
   "price_contracted": 752915.0,
   "estimated": false,
+  "value": null,
   "price_paid": 752915.0,
   "growth_pct": 0.0,
   "dist_km": 19,
@@ -26101,6 +26163,7 @@
   "awarded": "2026-06-04",
   "price_contracted": 954710.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -26147,6 +26210,7 @@
   "awarded": "2026-06-04",
   "price_contracted": 967550.0,
   "estimated": false,
+  "value": null,
   "price_paid": 1001793.0,
   "growth_pct": 3.5,
   "dist_km": 10,
@@ -26179,6 +26243,7 @@
   "awarded": "2026-06-04",
   "price_contracted": 20175.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -26417,6 +26482,7 @@
   "awarded": "2026-06-03",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": 1639802.0,
   "growth_pct": null,
   "dist_km": 45,
@@ -26447,6 +26513,7 @@
   "awarded": "2026-06-03",
   "price_contracted": 719761.0,
   "estimated": false,
+  "value": null,
   "price_paid": 781312.0,
   "growth_pct": 8.6,
   "dist_km": 45,
@@ -26477,6 +26544,7 @@
   "awarded": "2026-06-03",
   "price_contracted": 264123.8,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -26490,7 +26558,7 @@
   "bidders": [
    {
     "nazev": "Miroslav Dočekal",
-    "ico": "72858125",
+    "ico": "",
     "cena": null,
     "poradi": 1,
     "vybran": true,
@@ -26608,6 +26676,7 @@
   "awarded": "2026-06-02",
   "price_contracted": 34167249.98,
   "estimated": false,
+  "value": 45000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 45,
@@ -26628,8 +26697,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 45000000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600099599",
@@ -26862,6 +26930,7 @@
   "awarded": "2026-06-02",
   "price_contracted": 417386.8,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -26895,6 +26964,7 @@
   "awarded": "2026-06-02",
   "price_contracted": 1324776.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -26941,6 +27011,7 @@
   "awarded": "2026-06-02",
   "price_contracted": 1563163.28,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -26982,6 +27053,7 @@
   "awarded": "2026-06-02",
   "price_contracted": 15000.0,
   "estimated": false,
+  "value": null,
   "price_paid": 8100.0,
   "growth_pct": -46.0,
   "dist_km": 36,
@@ -27112,6 +27184,7 @@
   "awarded": "2026-06-01",
   "price_contracted": 15745823.13,
   "estimated": false,
+  "value": 17500000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 32,
@@ -27132,7 +27205,6 @@
     "vyloucen": false
    }
   ],
-  "value": 17500000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/38277307?backlink=wr98w"
  },
  {
@@ -27237,10 +27309,11 @@
   "authority": "Oblastní nemocnice Kolín, a.s., nemocnice Středočeského kraje",
   "authority_ico": "27256391",
   "winner": "Výtahy Podlesný s.r.o.",
-  "winner_ico": "06873219",
+  "winner_ico": "",
   "awarded": "2026-06-01",
   "price_contracted": 877777.0,
   "estimated": false,
+  "value": null,
   "price_paid": 877777.0,
   "growth_pct": 0.0,
   "dist_km": 45,
@@ -27252,7 +27325,7 @@
   "bidders": [
    {
     "nazev": "Výtahy Podlesný s.r.o.",
-    "ico": "06873219",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": true,
@@ -27901,6 +27974,7 @@
   "awarded": "2026-05-28",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -28083,6 +28157,7 @@
   "awarded": "2026-05-27",
   "price_contracted": 403252.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -28132,6 +28207,7 @@
   "awarded": "2026-05-27",
   "price_contracted": 744444.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -28169,6 +28245,7 @@
   "awarded": "2026-05-27",
   "price_contracted": 279647.12,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -28230,6 +28307,7 @@
   "awarded": "2026-05-27",
   "price_contracted": 17048.5,
   "estimated": false,
+  "value": null,
   "price_paid": 12969.55,
   "growth_pct": -23.9,
   "dist_km": 36,
@@ -28302,6 +28380,7 @@
   "awarded": "2026-05-26",
   "price_contracted": 3973036.71,
   "estimated": false,
+  "value": null,
   "price_paid": 3973036.71,
   "growth_pct": 0.0,
   "dist_km": 48,
@@ -28511,6 +28590,7 @@
   "awarded": "2026-05-26",
   "price_contracted": 19393003.13,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -28680,6 +28760,7 @@
   "awarded": "2026-05-25",
   "price_contracted": 3266044.98,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 38,
@@ -28727,8 +28808,7 @@
     "cena": 4002844.89,
     "vyloucen": false
    }
-  ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/38112809"
+  ]
  },
  {
   "id": "rvz:RVZ2600064343",
@@ -28950,6 +29030,7 @@
   "awarded": "2026-05-25",
   "price_contracted": 23487706.99,
   "estimated": false,
+  "value": 30878640.0,
   "price_paid": 22750.0,
   "growth_pct": -99.9,
   "dist_km": 43,
@@ -28971,7 +29052,7 @@
    },
    {
     "nazev": "STAVEBNĚ DOPRAVNÍ TRUTNOV s.r.o.",
-    "ico": "64255352",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": false,
@@ -28986,7 +29067,6 @@
     "vyloucen": false
    }
   ],
-  "value": 30878640.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/38144265"
  },
  {
@@ -29100,6 +29180,7 @@
   "awarded": "2026-05-25",
   "price_contracted": 1193863.0,
   "estimated": false,
+  "value": null,
   "price_paid": 1409887.0,
   "growth_pct": 18.1,
   "dist_km": 45,
@@ -29172,6 +29253,7 @@
   "awarded": "2026-05-22",
   "price_contracted": 10789373.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 45,
@@ -29185,7 +29267,7 @@
   "bidders": [
    {
     "nazev": "A SPORT PRODUKT s.r.o.",
-    "ico": "45315868",
+    "ico": "",
     "cena": null,
     "poradi": 1,
     "vybran": false,
@@ -29201,7 +29283,7 @@
    },
    {
     "nazev": "VYSSPA Sports Technology s.r.o.",
-    "ico": "27967638",
+    "ico": "",
     "cena": null,
     "poradi": 1,
     "vybran": false,
@@ -29371,6 +29453,7 @@
   "awarded": "2026-05-21",
   "price_contracted": 1756254.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -29701,6 +29784,7 @@
   "awarded": "2026-05-19",
   "price_contracted": 7480293.7,
   "estimated": false,
+  "value": 9092973.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 28,
@@ -29724,7 +29808,6 @@
     "vyloucen": false
    }
   ],
-  "value": 9092973.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/38024625"
  },
  {
@@ -29951,6 +30034,7 @@
   "awarded": "2026-05-19",
   "price_contracted": 7480293.7,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 28,
@@ -30060,6 +30144,7 @@
   "awarded": "2026-05-18",
   "price_contracted": 9318900.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 18,
@@ -30301,6 +30386,7 @@
   "awarded": "2026-05-14",
   "price_contracted": 21448752.0,
   "estimated": false,
+  "value": 29644622.74,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 38,
@@ -30320,8 +30406,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 29644622.74
+  ]
  },
  {
   "id": "rvz:RVZ2600096679",
@@ -30367,6 +30452,7 @@
   "awarded": "2026-05-14",
   "price_contracted": 2838761.47,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 22,
@@ -30376,17 +30462,7 @@
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00014933",
-  "bidders": [
-   {
-    "nazev": "Umělky, s.r.o.",
-    "ico": "04776763",
-    "cena": null,
-    "poradi": null,
-    "vybran": true,
-    "vyloucen": false
-   }
-  ]
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00014933"
  },
  {
   "id": "rvz:RVZ2600064797",
@@ -30503,6 +30579,7 @@
   "awarded": "2026-05-14",
   "price_contracted": 2025212.04,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 43,
@@ -30577,6 +30654,7 @@
   "awarded": "2026-05-14",
   "price_contracted": 5958146.65,
   "estimated": false,
+  "value": null,
   "price_paid": 1436220.35,
   "growth_pct": -75.9,
   "dist_km": 28,
@@ -30674,6 +30752,7 @@
   "awarded": "2026-05-14",
   "price_contracted": 245692.44,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -30715,6 +30794,7 @@
   "awarded": "2026-05-13",
   "price_contracted": 2765762.77,
   "estimated": false,
+  "value": 2933097.27,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 24,
@@ -30734,8 +30814,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 2933097.27
+  ]
  },
  {
   "id": "rvz:RVZ2600086836",
@@ -30846,6 +30925,7 @@
   "awarded": "2026-05-13",
   "price_contracted": 1832285.39,
   "estimated": false,
+  "value": null,
   "price_paid": 2047810.36,
   "growth_pct": 11.8,
   "dist_km": 19,
@@ -30858,7 +30938,7 @@
   "url": "https://tenderarena.cz/dodavatel/zakazka/877004",
   "bidders": [
    {
-    "nazev": "GrandBudMarko s.r.o",
+    "nazev": "GrandBudMarko s.r.o.",
     "ico": "21705496",
     "cena": null,
     "poradi": null,
@@ -30944,6 +31024,7 @@
   "awarded": "2026-05-12",
   "price_contracted": 2659362.12,
   "estimated": false,
+  "value": 2500000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -30964,8 +31045,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 2500000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600085937",
@@ -31066,6 +31146,7 @@
   "awarded": "2026-05-11",
   "price_contracted": 4815920.72,
   "estimated": false,
+  "value": 6987388.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -31087,8 +31168,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 6987388.0
+  ]
  },
  {
   "id": "rvz:RVZ2600087661",
@@ -31714,6 +31794,7 @@
   "awarded": "2026-05-07",
   "price_contracted": 1127466.0,
   "estimated": false,
+  "value": null,
   "price_paid": 1321542.5,
   "growth_pct": 17.2,
   "dist_km": 33,
@@ -31746,6 +31827,7 @@
   "awarded": "2026-05-07",
   "price_contracted": 2580000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 26,
@@ -31912,6 +31994,7 @@
   "awarded": "2026-05-06",
   "price_contracted": 10349919.0,
   "estimated": false,
+  "value": 11700000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 45,
@@ -31932,8 +32015,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 11700000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600085014",
@@ -32904,10 +32986,11 @@
   "authority": "Hamzova odborná léčebna pro děti a dospělé",
   "authority_ico": "00183024",
   "winner": "BTL zdravotnická technika, a.s.; Kardio - Line  spol. s r.o.",
-  "winner_ico": "26884143; 46994769",
+  "winner_ico": "",
   "awarded": "2026-05-05",
   "price_contracted": 2083690.0,
   "estimated": false,
+  "value": null,
   "price_paid": 1744450.0,
   "growth_pct": -16.3,
   "dist_km": 39,
@@ -32920,23 +33003,31 @@
   "url": "https://tenderarena.cz/dodavatel/zakazka/869005",
   "bidders": [
    {
-    "nazev": "Kardio - Line  spol. s r.o.",
-    "ico": "46994769",
+    "nazev": "BTL zdravotnická technika, a.s.",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": true,
     "vyloucen": false
    },
    {
-    "nazev": "BTL zdravotnická technika, a.s.",
-    "ico": "26884143",
+    "nazev": "Kardio - Line  spol. s r.o.",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": true,
     "vyloucen": false
+   },
+   {
+    "nazev": "VR medical s.r.o.",
+    "ico": "",
+    "cena": null,
+    "poradi": null,
+    "vybran": false,
+    "vyloucen": false
    }
   ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/37474837"
+  "registr_url": "https://smlouvy.gov.cz/smlouva/37474841"
  },
  {
   "id": "rvz:RVZ2600078243",
@@ -32982,6 +33073,7 @@
   "awarded": "2026-05-04",
   "price_contracted": 951459.69,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -33281,6 +33373,7 @@
   "awarded": "2026-05-04",
   "price_contracted": 2191274.17,
   "estimated": false,
+  "value": 2172498.41,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 26,
@@ -33294,7 +33387,7 @@
   "bidders": [
    {
     "nazev": "TUBEKO SPORT,  spol. s r.o.",
-    "ico": "49825020",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": false,
@@ -33302,14 +33395,13 @@
    },
    {
     "nazev": "TEWIKO systems, s.r.o.",
-    "ico": "25472887",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 2172498.41
+  ]
  },
  {
   "id": "profil:sken-00236195:VZ-583",
@@ -33932,6 +34024,7 @@
   "awarded": "2026-04-30",
   "price_contracted": 207026.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -33953,7 +34046,7 @@
    },
    {
     "nazev": "ELEKTROBOSS s.r.o.",
-    "ico": "07673493",
+    "ico": "",
     "cena": null,
     "poradi": 5,
     "vybran": false,
@@ -33969,7 +34062,7 @@
    },
    {
     "nazev": "Bc. Vladimír Látr",
-    "ico": "19171005",
+    "ico": "",
     "cena": null,
     "poradi": 6,
     "vybran": false,
@@ -33977,7 +34070,7 @@
    },
    {
     "nazev": "JMK elektro, s.r.o.",
-    "ico": "26224216",
+    "ico": "",
     "cena": null,
     "poradi": 9,
     "vybran": false,
@@ -33993,7 +34086,7 @@
    },
    {
     "nazev": "Rozsvítíme svět s.r.o.",
-    "ico": "09747559",
+    "ico": "",
     "cena": null,
     "poradi": 4,
     "vybran": false,
@@ -34029,6 +34122,7 @@
   "awarded": "2026-04-29",
   "price_contracted": 4772804.52,
   "estimated": false,
+  "value": 6700000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -34048,8 +34142,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 6700000.0
+  ]
  },
  {
   "id": "profil:pvu:00246018:P26V00005703",
@@ -34224,6 +34317,7 @@
   "awarded": "2026-04-28",
   "price_contracted": 20020394.41,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 24,
@@ -34289,6 +34383,7 @@
   "awarded": "2026-04-28",
   "price_contracted": 20331074.15,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -34410,6 +34505,7 @@
   "awarded": "2026-04-28",
   "price_contracted": 359670.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 31,
@@ -34457,6 +34553,7 @@
   "awarded": "2026-04-27",
   "price_contracted": 2767206.6,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -34588,6 +34685,7 @@
   "awarded": "2026-04-27",
   "price_contracted": 15289802.0,
   "estimated": false,
+  "value": 15432859.57,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 49,
@@ -34609,8 +34707,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 15432859.57
+  ]
  },
  {
   "id": "rvz:RVZ2600069283",
@@ -34683,10 +34780,11 @@
   "authority": "Město Golčův Jeníkov",
   "authority_ico": "00267406",
   "winner": "TERMGAS s.r.o.",
-  "winner_ico": "26007967",
+  "winner_ico": "",
   "awarded": "2026-04-27",
   "price_contracted": 15289802.0,
   "estimated": false,
+  "value": null,
   "price_paid": 15289801.95,
   "growth_pct": -0.0,
   "dist_km": 49,
@@ -34700,7 +34798,7 @@
   "bidders": [
    {
     "nazev": "TERMGAS s.r.o.",
-    "ico": "26007967",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": true,
@@ -34708,7 +34806,7 @@
    },
    {
     "nazev": "Tost s.r.o.",
-    "ico": "11981148",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": false,
@@ -34716,7 +34814,7 @@
    },
    {
     "nazev": "Stavrecon Pardubice s.r.o.",
-    "ico": "05925801",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": false,
@@ -34724,7 +34822,7 @@
    },
    {
     "nazev": "CBRE Global Workplace Solutions s.r.o.",
-    "ico": "27157547",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": false,
@@ -34778,6 +34876,7 @@
   "awarded": "2026-04-27",
   "price_contracted": 3142586.85,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -35030,6 +35129,7 @@
   "awarded": "2026-04-24",
   "price_contracted": 521445.4,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -35048,8 +35148,7 @@
     "vyloucen": false
    }
   ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/37710869",
-  "value": 521445.4
+  "registr_url": "https://smlouvy.gov.cz/smlouva/37710869"
  },
  {
   "id": "rvz:RVZ2600084886",
@@ -35208,6 +35307,7 @@
   "awarded": "2026-04-23",
   "price_contracted": 11497313.32,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -35243,7 +35343,7 @@
    },
    {
     "nazev": "PP-GROUP stavby TJ s.r.o.",
-    "ico": "21771111",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": false,
@@ -35251,7 +35351,7 @@
    },
    {
     "nazev": "SAPA - LPJ, spol. s r.o.",
-    "ico": "62063634",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": true,
@@ -35270,6 +35370,7 @@
   "awarded": "2026-04-23",
   "price_contracted": 4391975.99,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 9,
@@ -35283,7 +35384,7 @@
   "bidders": [
    {
     "nazev": "PH-stavební, s.r.o.",
-    "ico": "04260066",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": true,
@@ -35445,6 +35546,7 @@
   "awarded": "2026-04-22",
   "price_contracted": 4438721.0,
   "estimated": false,
+  "value": 5879306.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 26,
@@ -35471,8 +35573,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 5879306.0
+  ]
  },
  {
   "id": "rvz:RVZ2600071864",
@@ -35567,6 +35668,7 @@
   "awarded": "2026-04-22",
   "price_contracted": 1398399.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 28,
@@ -35726,6 +35828,7 @@
   "awarded": "2026-04-22",
   "price_contracted": 378175.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 42,
@@ -36013,6 +36116,7 @@
   "awarded": "2026-04-20",
   "price_contracted": 4315591.15,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -36042,7 +36146,7 @@
    },
    {
     "nazev": "SDZprofin, s.r.o.",
-    "ico": "25339010",
+    "ico": "",
     "cena": null,
     "poradi": 3,
     "vybran": false,
@@ -36810,6 +36914,7 @@
   "awarded": "2026-04-15",
   "price_contracted": 13982921.16,
   "estimated": false,
+  "value": 16500000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 45,
@@ -36838,7 +36943,6 @@
     "vyloucen": false
    }
   ],
-  "value": 16500000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/37582253"
  },
  {
@@ -37170,6 +37274,7 @@
   "awarded": "2026-04-13",
   "price_contracted": 9679979.96,
   "estimated": false,
+  "value": 11346000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -37193,7 +37298,6 @@
     "vyloucen": false
    }
   ],
-  "value": 11346000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/37564465"
  },
  {
@@ -37328,6 +37432,7 @@
   "awarded": "2026-04-13",
   "price_contracted": 9679979.96,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -37375,8 +37480,7 @@
     "cena": 9679979.96,
     "vyloucen": false
    }
-  ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/37564465"
+  ]
  },
  {
   "id": "rvz:RVZ2600068422",
@@ -37389,6 +37493,7 @@
   "awarded": "2026-04-13",
   "price_contracted": 991220.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -37495,6 +37600,7 @@
   "awarded": "2026-04-11",
   "price_contracted": 7287083.12,
   "estimated": false,
+  "value": 8777814.37,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 33,
@@ -37514,8 +37620,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 8777814.37
+  ]
  },
  {
   "id": "rvz:RVZ2600080434",
@@ -37528,6 +37633,7 @@
   "awarded": "2026-04-10",
   "price_contracted": 3336467.89,
   "estimated": false,
+  "value": null,
   "price_paid": 3336467.89,
   "growth_pct": 0.0,
   "dist_km": 25,
@@ -37593,6 +37699,7 @@
   "awarded": "2026-04-10",
   "price_contracted": 978842.82,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 33,
@@ -38054,6 +38161,7 @@
   "awarded": "2026-04-08",
   "price_contracted": 2100000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 49,
@@ -38086,6 +38194,7 @@
   "awarded": "2026-04-07",
   "price_contracted": 14297832.7,
   "estimated": false,
+  "value": 15656333.07,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 30,
@@ -38098,31 +38207,14 @@
   "url": "https://nen.nipez.cz/profil/CeskaSkalice",
   "bidders": [
    {
-    "nazev": "Alprim CZ s.r.o.",
-    "ico": "28811470",
-    "cena": 15561700.37,
-    "vyloucen": false
-   },
-   {
-    "nazev": "ŠPELDA s.r.o.",
-    "ico": "28800125",
-    "cena": 16280004.09,
-    "vyloucen": false
-   },
-   {
     "nazev": "Dlažba Vysoké Mýto, s.r.o.",
     "ico": "25953818",
-    "cena": 14297832.7,
-    "vyloucen": false
-   },
-   {
-    "nazev": "M - STAV CZ s.r.o.",
-    "ico": "27557235",
-    "cena": 15979891.25,
+    "cena": null,
+    "poradi": 1,
+    "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 15656333.07
+  ]
  },
  {
   "id": "rvz:RVZ2600076553",
@@ -38264,6 +38356,7 @@
   "awarded": "2026-04-07",
   "price_contracted": 14297832.7,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 30,
@@ -38299,8 +38392,7 @@
     "cena": 15979891.25,
     "vyloucen": false
    }
-  ],
-  "value": 15656333.07
+  ]
  },
  {
   "id": "rvz:RVZ2600077756",
@@ -38345,6 +38437,7 @@
   "awarded": "2026-04-02",
   "price_contracted": 18442062.33,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 22,
@@ -39070,6 +39163,7 @@
   "awarded": "2026-04-01",
   "price_contracted": 447935913.54,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -39189,6 +39283,7 @@
   "awarded": "2026-04-01",
   "price_contracted": 64775388.24,
   "estimated": false,
+  "value": 78784255.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -39211,8 +39306,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 78784255.0
+  ]
  },
  {
   "id": "rvz:RVZ2600002704",
@@ -39338,6 +39432,7 @@
   "awarded": "2026-04-01",
   "price_contracted": 427105.65,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -39351,7 +39446,7 @@
   "bidders": [
    {
     "nazev": "Renostav.S.A. s.r.o.",
-    "ico": "19828101",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": false,
@@ -39489,6 +39584,7 @@
   "awarded": "2026-03-31",
   "price_contracted": 2842986.06,
   "estimated": false,
+  "value": null,
   "price_paid": 2842986.06,
   "growth_pct": 0.0,
   "dist_km": 42,
@@ -39521,6 +39617,7 @@
   "awarded": "2026-03-31",
   "price_contracted": 37833397.25,
   "estimated": false,
+  "value": 39000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -39547,8 +39644,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 39000000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600078678",
@@ -39628,6 +39724,7 @@
   "awarded": "2026-03-30",
   "price_contracted": 479042.23,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -39641,7 +39738,7 @@
   "bidders": [
    {
     "nazev": "Služby města Pardubic a.s.",
-    "ico": "25262572",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": true,
@@ -39924,6 +40021,7 @@
   "awarded": "2026-03-27",
   "price_contracted": 63602900.0,
   "estimated": false,
+  "value": 37187500.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -39948,7 +40046,6 @@
     "vyloucen": false
    }
   ],
-  "value": 37187500.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/37369757"
  },
  {
@@ -39962,6 +40059,7 @@
   "awarded": "2026-03-27",
   "price_contracted": 4016312.93,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 42,
@@ -39975,7 +40073,7 @@
   "bidders": [
    {
     "nazev": "Standpro s.r.o.",
-    "ico": "21152055",
+    "ico": "",
     "cena": null,
     "poradi": 3,
     "vybran": false,
@@ -39991,10 +40089,18 @@
    },
    {
     "nazev": "Jiří Vaněk",
-    "ico": "62709941",
+    "ico": "",
     "cena": null,
     "poradi": 4,
     "vybran": false,
+    "vyloucen": false
+   },
+   {
+    "nazev": "DTomsaci s.r.o.",
+    "ico": "",
+    "cena": null,
+    "poradi": 2,
+    "vybran": true,
     "vyloucen": false
    },
    {
@@ -40003,14 +40109,6 @@
     "cena": null,
     "poradi": null,
     "vybran": false,
-    "vyloucen": false
-   },
-   {
-    "nazev": "DTomsaci s.r.o.",
-    "ico": "22443169",
-    "cena": null,
-    "poradi": 2,
-    "vybran": true,
     "vyloucen": false
    }
   ],
@@ -40202,6 +40300,7 @@
   "awarded": "2026-03-26",
   "price_contracted": 168614851.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 32,
@@ -40520,6 +40619,7 @@
   "awarded": "2026-03-24",
   "price_contracted": 581643.31,
   "estimated": false,
+  "value": null,
   "price_paid": 278251.32,
   "growth_pct": -52.2,
   "dist_km": 39,
@@ -40534,6 +40634,14 @@
    {
     "nazev": "SIVAK medical technology s.r.o.",
     "ico": "28807065",
+    "cena": null,
+    "poradi": null,
+    "vybran": true,
+    "vyloucen": false
+   },
+   {
+    "nazev": "MADISSON, s.r.o.",
+    "ico": "26124637",
     "cena": null,
     "poradi": null,
     "vybran": false,
@@ -40594,6 +40702,7 @@
   "awarded": "2026-03-24",
   "price_contracted": 182000.0,
   "estimated": false,
+  "value": null,
   "price_paid": 182000.0,
   "growth_pct": 0.0,
   "dist_km": 46,
@@ -40606,8 +40715,16 @@
   "url": "https://tenderarena.cz/dodavatel/zakazka/868821",
   "bidders": [
    {
+    "nazev": "Martin Štěrba izolatérství s.r.o.",
+    "ico": "07340141",
+    "cena": null,
+    "poradi": null,
+    "vybran": true,
+    "vyloucen": false
+   },
+   {
     "nazev": "HOME WEST CZ s.r.o.",
-    "ico": "08668175",
+    "ico": "",
     "cena": 250000.0,
     "poradi": null,
     "vybran": false,
@@ -40615,18 +40732,10 @@
    },
    {
     "nazev": "StřechyIzolace HOLUB s.r.o.",
-    "ico": "28136721",
+    "ico": "",
     "cena": 220742.37,
     "poradi": null,
     "vybran": false,
-    "vyloucen": false
-   },
-   {
-    "nazev": "Martin Štěrba izolatérství s.r.o.",
-    "ico": "07340141",
-    "cena": null,
-    "poradi": null,
-    "vybran": true,
     "vyloucen": false
    }
   ],
@@ -40643,6 +40752,7 @@
   "awarded": "2026-03-24",
   "price_contracted": 2383769.92,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -40845,6 +40955,7 @@
   "awarded": "2026-03-20",
   "price_contracted": 1140000.0,
   "estimated": false,
+  "value": null,
   "price_paid": 1005400.0,
   "growth_pct": -11.8,
   "dist_km": 19,
@@ -41018,6 +41129,7 @@
   "awarded": "2026-03-20",
   "price_contracted": 8142000.0,
   "estimated": false,
+  "value": 12244936.21,
   "price_paid": 8742795.36,
   "growth_pct": 7.4,
   "dist_km": 19,
@@ -41031,7 +41143,7 @@
   "bidders": [
    {
     "nazev": "M - STAV CZ s.r.o.",
-    "ico": "27557235",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": false,
@@ -41078,7 +41190,6 @@
     "vyloucen": false
    }
   ],
-  "value": 12244936.21,
   "registr_url": "https://smlouvy.gov.cz/smlouva/37495153"
  },
  {
@@ -41092,6 +41203,7 @@
   "awarded": "2026-03-20",
   "price_contracted": 16953991.02,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 37,
@@ -41135,6 +41247,7 @@
   "awarded": "2026-03-20",
   "price_contracted": 269342.71,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -41233,6 +41346,7 @@
   "awarded": "2026-03-19",
   "price_contracted": 1012940.0,
   "estimated": false,
+  "value": null,
   "price_paid": 1012940.0,
   "growth_pct": 0.0,
   "dist_km": 27,
@@ -41261,10 +41375,11 @@
   "authority": "Hamzova odborná léčebna pro děti a dospělé",
   "authority_ico": "00183024",
   "winner": "BTL zdravotnická technika, a.s.",
-  "winner_ico": "26884143",
+  "winner_ico": "",
   "awarded": "2026-03-19",
   "price_contracted": 1019600.0,
   "estimated": false,
+  "value": null,
   "price_paid": 910000.0,
   "growth_pct": -10.7,
   "dist_km": 39,
@@ -41278,7 +41393,7 @@
   "bidders": [
    {
     "nazev": "BTL zdravotnická technika, a.s.",
-    "ico": "26884143",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": true,
@@ -41583,6 +41698,7 @@
   "awarded": "2026-03-18",
   "price_contracted": 787876451.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 45,
@@ -41632,6 +41748,7 @@
   "awarded": "2026-03-18",
   "price_contracted": 164400.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 36,
@@ -41661,7 +41778,7 @@
    },
    {
     "nazev": "Milan Novák",
-    "ico": "01745689",
+    "ico": "",
     "cena": null,
     "poradi": 3,
     "vybran": false,
@@ -41669,7 +41786,7 @@
    },
    {
     "nazev": "STAVBY PL s.r.o.",
-    "ico": "28159551",
+    "ico": "",
     "cena": null,
     "poradi": 8,
     "vybran": false,
@@ -41677,7 +41794,7 @@
    },
    {
     "nazev": "JMK elektro, s.r.o.",
-    "ico": "26224216",
+    "ico": "",
     "cena": null,
     "poradi": 7,
     "vybran": false,
@@ -41693,7 +41810,7 @@
    },
    {
     "nazev": "Standpro s.r.o.",
-    "ico": "21152055",
+    "ico": "",
     "cena": null,
     "poradi": 2,
     "vybran": true,
@@ -41701,7 +41818,7 @@
    },
    {
     "nazev": "Aklera Corp s.r.o.",
-    "ico": "22451749",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": false,
@@ -41709,7 +41826,7 @@
    },
    {
     "nazev": "FS Construction Servis s.r.o.",
-    "ico": "06883541",
+    "ico": "",
     "cena": null,
     "poradi": 4,
     "vybran": false,
@@ -42066,6 +42183,7 @@
   "awarded": "2026-03-16",
   "price_contracted": 1323333.6,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 44,
@@ -42096,6 +42214,7 @@
   "awarded": "2026-03-13",
   "price_contracted": 3095148.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 38,
@@ -42143,8 +42262,7 @@
     "cena": 3669429.45,
     "vyloucen": false
    }
-  ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/37153261"
+  ]
  },
  {
   "id": "rvz:RVZ2600079526",
@@ -42429,6 +42547,7 @@
   "awarded": "2026-03-12",
   "price_contracted": 9569000.0,
   "estimated": false,
+  "value": 12780326.86,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 37,
@@ -42448,8 +42567,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 12780326.86
+  ]
  },
  {
   "id": "rvz:RVZ2500228269",
@@ -42512,6 +42630,7 @@
   "awarded": "2026-03-12",
   "price_contracted": 9569000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 37,
@@ -42600,6 +42719,7 @@
   "awarded": "2026-03-11",
   "price_contracted": 1908883.31,
   "estimated": false,
+  "value": null,
   "price_paid": 1908883.31,
   "growth_pct": 0.0,
   "dist_km": 27,
@@ -42628,10 +42748,11 @@
   "authority": "Hamzova odborná léčebna pro děti a dospělé",
   "authority_ico": "00183024",
   "winner": "PROMA REHA, s.r.o.; Hilding Anders Česká republika a.s.",
-  "winner_ico": "63219107; 26173212",
+  "winner_ico": "",
   "awarded": "2026-03-11",
   "price_contracted": 3645480.0,
   "estimated": false,
+  "value": null,
   "price_paid": 2456136.0,
   "growth_pct": -32.6,
   "dist_km": 39,
@@ -42645,10 +42766,26 @@
   "bidders": [
    {
     "nazev": "PROMA REHA, s.r.o.",
-    "ico": "63219107",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": true,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Hilding Anders Česká republika a.s.",
+    "ico": "",
+    "cena": null,
+    "poradi": null,
+    "vybran": true,
+    "vyloucen": false
+   },
+   {
+    "nazev": "HTT GROUP s.r.o.",
+    "ico": "",
+    "cena": null,
+    "poradi": null,
+    "vybran": false,
     "vyloucen": false
    }
   ],
@@ -42881,6 +43018,7 @@
   "awarded": "2026-03-10",
   "price_contracted": 9190254.31,
   "estimated": false,
+  "value": 12000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 45,
@@ -42905,8 +43043,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 12000000.0
+  ]
  },
  {
   "id": "rvz:RVZ2500228385",
@@ -42919,6 +43056,7 @@
   "awarded": "2026-03-10",
   "price_contracted": 91601713.0,
   "estimated": false,
+  "value": 93100000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -42938,8 +43076,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 93100000.0
+  ]
  },
  {
   "id": "profil:sken-00274101:VZ-265",
@@ -43208,6 +43345,7 @@
   "awarded": "2026-03-09",
   "price_contracted": 5199655.48,
   "estimated": false,
+  "value": 7729457.0,
   "price_paid": 5199655.48,
   "growth_pct": 0.0,
   "dist_km": 19,
@@ -43221,7 +43359,7 @@
   "bidders": [
    {
     "nazev": "ŠTĚPÁNEK, spol. s r.o.",
-    "ico": "45535124",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": false,
@@ -43229,7 +43367,7 @@
    },
    {
     "nazev": "M - STAV CZ s.r.o.",
-    "ico": "27557235",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": false,
@@ -43253,14 +43391,13 @@
    },
    {
     "nazev": "ARTENDR s.r.o.",
-    "ico": "24190853",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": false,
     "vyloucen": false
    }
   ],
-  "value": 7729457.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/37132237"
  },
  {
@@ -43816,11 +43953,12 @@
   "title": "Modernizace pavilonu M – přístrojové vybavení  – 08 mechanické přístroje",
   "authority": "Hamzova odborná léčebna pro děti a dospělé",
   "authority_ico": "00183024",
-  "winner": "Ahama s.r.o.; MEDESA care s.r.o.; Proormedent s.r.o.",
-  "winner_ico": "27491579; 63323818; 28223951",
+  "winner": "Ahama s.r.o.; MEDESA care s. r. o.; Proormedent s.r.o.",
+  "winner_ico": "",
   "awarded": "2026-03-06",
   "price_contracted": 2611550.09,
   "estimated": false,
+  "value": null,
   "price_paid": 2183516.98,
   "growth_pct": -16.4,
   "dist_km": 39,
@@ -43834,7 +43972,7 @@
   "bidders": [
    {
     "nazev": "Ahama s.r.o.",
-    "ico": "27491579",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": true,
@@ -43842,7 +43980,7 @@
    },
    {
     "nazev": "MEDESA care s. r. o.",
-    "ico": "63323818",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": true,
@@ -43850,7 +43988,7 @@
    },
    {
     "nazev": "MGVIVA a.s.",
-    "ico": "17321611",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": false,
@@ -43858,7 +43996,7 @@
    },
    {
     "nazev": "DARTIN spol. s r.o.",
-    "ico": "40763781",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": false,
@@ -43866,7 +44004,7 @@
    },
    {
     "nazev": "AUDY s.r.o.",
-    "ico": "00544426",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": false,
@@ -43874,7 +44012,7 @@
    },
    {
     "nazev": "Proormedent s.r.o.",
-    "ico": "28223951",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": true,
@@ -44051,6 +44189,7 @@
   "awarded": "2026-03-05",
   "price_contracted": null,
   "estimated": false,
+  "value": null,
   "price_paid": 5365084.85,
   "growth_pct": null,
   "dist_km": 24,
@@ -44232,6 +44371,7 @@
   "awarded": "2026-03-03",
   "price_contracted": 2589800.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -44365,6 +44505,7 @@
   "awarded": "2026-03-03",
   "price_contracted": 433350.0,
   "estimated": false,
+  "value": null,
   "price_paid": 433348.0,
   "growth_pct": -0.0,
   "dist_km": 46,
@@ -44379,7 +44520,7 @@
    {
     "nazev": "ZEMPO HB s.r.o.",
     "ico": "01411365",
-    "cena": 433350.0,
+    "cena": null,
     "poradi": null,
     "vybran": true,
     "vyloucen": false
@@ -44506,6 +44647,7 @@
   "awarded": "2026-03-02",
   "price_contracted": 2837510.99,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 15,
@@ -44513,17 +44655,7 @@
   "cpv": [],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://www.tenderarena.cz/profily/LazneBohdanec",
-  "bidders": [
-   {
-    "nazev": "LZ STAVBY A DEMOLICE s.r.o.",
-    "ico": "06978754",
-    "cena": null,
-    "poradi": null,
-    "vybran": true,
-    "vyloucen": false
-   }
-  ]
+  "url": "https://www.tenderarena.cz/profily/LazneBohdanec"
  },
  {
   "id": "rvz:RVZ2600067905",
@@ -44917,6 +45049,7 @@
   "awarded": "2026-02-24",
   "price_contracted": 1300000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -45090,6 +45223,7 @@
   "awarded": "2026-02-23",
   "price_contracted": 3028000.0,
   "estimated": false,
+  "value": 3128326.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -45111,7 +45245,6 @@
     "vyloucen": false
    }
   ],
-  "value": 3865495.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/36910613"
  },
  {
@@ -45157,11 +45290,12 @@
   "title": "Minitendr 3. etapa – Kouty, Část 1 – FIX",
   "authority": "CETIN a.s.",
   "authority_ico": "04084063",
-  "winner": "ATW Brno s.r.o.; DW STAVBY BRNO s.r.o.; SITEL, spol. s r.o.; Suntel s.r.o.; SUPTel a.s.; TEMO-TELEKOMUNIKACE a.s.; Moll RTS s.r.o.; RADIOVÉ SYSTÉMY A KOMUNIKACE, spol. s r.o.; STAND BY, s.r.o.; Svoboda a syn, s.r.o.",
-  "winner_ico": "28272684; 09619801; 44797320; 25943693; 25229397; 25740253; 26259699; 47550716; 26510766; 25548531",
+  "winner": "SITEL, spol. s r.o.; Svoboda a syn, s.r.o.",
+  "winner_ico": "44797320; 25548531",
   "awarded": "2026-02-20",
   "price_contracted": 4404669.51,
   "estimated": false,
+  "value": 400000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 45,
@@ -45181,74 +45315,10 @@
   "url": "",
   "bidders": [
    {
-    "nazev": "ATW Brno s.r.o.",
-    "ico": "28272684",
-    "cena": null,
-    "poradi": 6,
-    "vybran": true,
-    "vyloucen": false
-   },
-   {
-    "nazev": "DW STAVBY BRNO s.r.o.",
-    "ico": "09619801",
-    "cena": null,
-    "poradi": 1,
-    "vybran": true,
-    "vyloucen": false
-   },
-   {
     "nazev": "SITEL, spol. s r.o.",
     "ico": "44797320",
     "cena": null,
-    "poradi": 2,
-    "vybran": true,
-    "vyloucen": false
-   },
-   {
-    "nazev": "Suntel s.r.o.",
-    "ico": "25943693",
-    "cena": null,
-    "poradi": 4,
-    "vybran": true,
-    "vyloucen": false
-   },
-   {
-    "nazev": "SUPTel a.s.",
-    "ico": "25229397",
-    "cena": null,
-    "poradi": 3,
-    "vybran": true,
-    "vyloucen": false
-   },
-   {
-    "nazev": "TEMO-TELEKOMUNIKACE a.s.",
-    "ico": "25740253",
-    "cena": null,
-    "poradi": 5,
-    "vybran": true,
-    "vyloucen": false
-   },
-   {
-    "nazev": "Moll RTS s.r.o.",
-    "ico": "26259699",
-    "cena": null,
-    "poradi": 3,
-    "vybran": true,
-    "vyloucen": false
-   },
-   {
-    "nazev": "RADIOVÉ SYSTÉMY A KOMUNIKACE, spol. s r.o.",
-    "ico": "47550716",
-    "cena": null,
-    "poradi": 5,
-    "vybran": true,
-    "vyloucen": false
-   },
-   {
-    "nazev": "STAND BY, s.r.o.",
-    "ico": "26510766",
-    "cena": null,
-    "poradi": 6,
+    "poradi": 1,
     "vybran": true,
     "vyloucen": false
    },
@@ -45260,8 +45330,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 172000000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600066073",
@@ -45414,6 +45483,7 @@
   "awarded": "2026-02-19",
   "price_contracted": 5505727.95,
   "estimated": false,
+  "value": 7000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -45435,8 +45505,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 7000000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600071900",
@@ -45511,10 +45580,11 @@
   "authority": "Ředitelství silnic a dálnic s. p.",
   "authority_ico": "65993390",
   "winner": "ROCKNET s.r.o.",
-  "winner_ico": "27357694",
+  "winner_ico": "",
   "awarded": "2026-02-19",
   "price_contracted": 2758099.12,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 43,
@@ -45528,7 +45598,7 @@
   "bidders": [
    {
     "nazev": "STRIX Chomutov, a.s.",
-    "ico": "27274535",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": false,
@@ -45536,7 +45606,7 @@
    },
    {
     "nazev": "ROCKNET s.r.o.",
-    "ico": "27357694",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": true,
@@ -45552,7 +45622,7 @@
    },
    {
     "nazev": "VERTICO, s.r.o.",
-    "ico": "27296148",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": false,
@@ -45560,7 +45630,7 @@
    },
    {
     "nazev": "UNIGEO a.s.",
-    "ico": "45192260",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": false,
@@ -45568,7 +45638,7 @@
    },
    {
     "nazev": "OSTOM s.r.o.",
-    "ico": "09055550",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": false,
@@ -45661,6 +45731,7 @@
   "awarded": "2026-02-17",
   "price_contracted": 1146688.5,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -45674,7 +45745,7 @@
   "bidders": [
    {
     "nazev": "TERESTAV s.r.o.",
-    "ico": "17757002",
+    "ico": "",
     "cena": 1597752.39,
     "poradi": 8,
     "vybran": false,
@@ -45682,7 +45753,7 @@
    },
    {
     "nazev": "PS HOME STAR s.r.o.",
-    "ico": "03221466",
+    "ico": "",
     "cena": 1586343.16,
     "poradi": 7,
     "vybran": false,
@@ -45690,7 +45761,7 @@
    },
    {
     "nazev": "ŠTĚPÁNEK, spol. s r.o.",
-    "ico": "45535124",
+    "ico": "",
     "cena": 1840489.12,
     "poradi": 10,
     "vybran": false,
@@ -45698,7 +45769,7 @@
    },
    {
     "nazev": "Venc, s.r.o.",
-    "ico": "07264712",
+    "ico": "",
     "cena": 1395783.17,
     "poradi": 3,
     "vybran": false,
@@ -45714,7 +45785,7 @@
    },
    {
     "nazev": "Hanč CONSTRUCTION s.r.o.",
-    "ico": "23209593",
+    "ico": "",
     "cena": 1656085.28,
     "poradi": 9,
     "vybran": false,
@@ -45738,7 +45809,7 @@
    },
    {
     "nazev": "ROJAR s.r.o.",
-    "ico": "02851873",
+    "ico": "",
     "cena": 1425000.0,
     "poradi": 4,
     "vybran": false,
@@ -45842,6 +45913,7 @@
   "awarded": "2026-02-17",
   "price_contracted": 3446409.97,
   "estimated": false,
+  "value": 468150.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 49,
@@ -45861,8 +45933,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 4068150.0
+  ]
  },
  {
   "id": "rvz:RVZ2500122887",
@@ -46042,6 +46113,7 @@
   "awarded": "2026-02-14",
   "price_contracted": 1889849.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 15,
@@ -46049,17 +46121,7 @@
   "cpv": [],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://www.tenderarena.cz/profily/LazneBohdanec",
-  "bidders": [
-   {
-    "nazev": "CAVATOR s.r.o.",
-    "ico": "05197775",
-    "cena": null,
-    "poradi": null,
-    "vybran": true,
-    "vyloucen": false
-   }
-  ]
+  "url": "https://www.tenderarena.cz/profily/LazneBohdanec"
  },
  {
   "id": "rvz:RVZ2600064246",
@@ -46109,6 +46171,7 @@
   "awarded": "2026-02-13",
   "price_contracted": 38457594.83,
   "estimated": false,
+  "value": 50752469.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 37,
@@ -46124,37 +46187,14 @@
   "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "bidders": [
    {
-    "nazev": "KERSON spol. s r.o.",
-    "ico": "45536040",
-    "cena": 43769394.13,
-    "vyloucen": false
-   },
-   {
-    "nazev": "OHLA ŽS, a.s.",
-    "ico": "46342796",
-    "cena": 41785066.62,
-    "vyloucen": false
-   },
-   {
-    "nazev": "PS - STAV Náchod s.r.o.",
-    "ico": "28858531",
-    "cena": 41646639.1,
-    "vyloucen": false
-   },
-   {
     "nazev": "STYLBAU, s.r.o.",
     "ico": "25957481",
-    "cena": 38457594.83,
-    "vyloucen": false
-   },
-   {
-    "nazev": "VALC, s.r.o.",
-    "ico": "45537151",
-    "cena": 49352308.54,
+    "cena": null,
+    "poradi": 1,
+    "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 50752469.0
+  ]
  },
  {
   "id": "profil:kr-kralovehradecky:VZ-12108",
@@ -46167,6 +46207,7 @@
   "awarded": "2026-02-13",
   "price_contracted": 38457594.83,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 37,
@@ -46341,6 +46382,7 @@
   "awarded": "2026-02-12",
   "price_contracted": 22421420.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -46575,6 +46617,7 @@
   "awarded": "2026-02-11",
   "price_contracted": 4515255.06,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -46735,6 +46778,7 @@
   "awarded": "2026-02-10",
   "price_contracted": 731010.51,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -46828,6 +46872,7 @@
   "awarded": "2026-02-09",
   "price_contracted": 3420058.59,
   "estimated": false,
+  "value": 3865495.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -46849,8 +46894,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 3865495.0
+  ]
  },
  {
   "id": "profil:sken-48136450:VZ-1218",
@@ -47277,6 +47321,7 @@
   "awarded": "2026-02-04",
   "price_contracted": 12849190.81,
   "estimated": false,
+  "value": 18196000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 34,
@@ -47300,8 +47345,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 18196000.0
+  ]
  },
  {
   "id": "rvz:RVZ2600065609",
@@ -47411,6 +47455,7 @@
   "awarded": "2026-02-02",
   "price_contracted": 10540563.0,
   "estimated": false,
+  "value": 13886848.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 26,
@@ -47437,8 +47482,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 13886848.0
+  ]
  },
  {
   "id": "rvz:RVZ2500219909",
@@ -47572,6 +47616,7 @@
   "awarded": "2026-01-29",
   "price_contracted": 228107870.12,
   "estimated": false,
+  "value": 220693708.31,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 33,
@@ -47597,8 +47642,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 220693708.31
+  ]
  },
  {
   "id": "rvz:RVZ2500138971",
@@ -47677,6 +47721,7 @@
   "awarded": "2026-01-27",
   "price_contracted": 2048352.39,
   "estimated": false,
+  "value": null,
   "price_paid": 2150369.6399999997,
   "growth_pct": 5.0,
   "dist_km": 30,
@@ -47690,7 +47735,7 @@
   "bidders": [
    {
     "nazev": "Šilhánek a syn, a.s.",
-    "ico": "27291278",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": true,
@@ -47816,6 +47861,7 @@
   "awarded": "2026-01-26",
   "price_contracted": 8386584.09,
   "estimated": false,
+  "value": 7000000.0,
   "price_paid": 8856974.35,
   "growth_pct": 5.6,
   "dist_km": 29,
@@ -47831,14 +47877,13 @@
   "bidders": [
    {
     "nazev": "WESTINSTAL s.r.o.",
-    "ico": "02413337",
+    "ico": "",
     "cena": 8386584.09,
     "poradi": 1,
     "vybran": true,
     "vyloucen": false
    }
   ],
-  "value": 7000000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/36627629"
  },
  {
@@ -47852,6 +47897,7 @@
   "awarded": "2026-01-26",
   "price_contracted": 38379200.0,
   "estimated": false,
+  "value": 36000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 42,
@@ -47875,8 +47921,7 @@
     "vyloucen": false
    }
   ],
-  "value": 36000000.0,
-  "registr_url": "https://smlouvy.gov.cz/smlouva/36552117?backlink=lvmbg"
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39210346?backlink=spb2a"
  },
  {
   "id": "rvz:RVZ2600050187",
@@ -47889,6 +47934,7 @@
   "awarded": "2026-01-26",
   "price_contracted": 18327973.12,
   "estimated": false,
+  "value": 18808728.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 48,
@@ -47922,7 +47968,6 @@
     "vyloucen": false
    }
   ],
-  "value": 18808728.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/36527129"
  },
  {
@@ -47936,6 +47981,7 @@
   "awarded": "2026-01-26",
   "price_contracted": 574650.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 46,
@@ -48011,6 +48057,7 @@
   "awarded": "2026-01-25",
   "price_contracted": 20399000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 41,
@@ -48112,6 +48159,7 @@
   "awarded": "2026-01-23",
   "price_contracted": 5088936.48,
   "estimated": false,
+  "value": 5863755.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,
@@ -48135,7 +48183,6 @@
     "vyloucen": false
    }
   ],
-  "value": 5863755.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/36535049"
  },
  {
@@ -48144,11 +48191,12 @@
   "title": "Modernizace pavilonu M – přístrojové vybavení – hybridní robotický trénink chůze",
   "authority": "Hamzova odborná léčebna pro děti a dospělé",
   "authority_ico": "00183024",
-  "winner": "Kardio - Line  spol. s r.o.",
-  "winner_ico": "46994769",
+  "winner": "Kardio - Line spol. s r.o.",
+  "winner_ico": "",
   "awarded": "2026-01-23",
   "price_contracted": 4226272.0,
   "estimated": false,
+  "value": null,
   "price_paid": 3990000.0,
   "growth_pct": -5.6,
   "dist_km": 39,
@@ -48162,7 +48210,7 @@
   "bidders": [
    {
     "nazev": "Kardio - Line spol. s r.o.",
-    "ico": "46994769",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": true,
@@ -49236,6 +49284,7 @@
   "awarded": "2026-01-19",
   "price_contracted": 11789505.54,
   "estimated": false,
+  "value": 11862680.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 37,
@@ -49255,19 +49304,14 @@
   "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "bidders": [
    {
-    "nazev": "Alprim CZ s.r.o.",
-    "ico": "28811470",
-    "cena": 11842241.57,
-    "vyloucen": false
-   },
-   {
     "nazev": "STAKO Červený Kostelec s.r.o.",
     "ico": "45536422",
-    "cena": 11789505.54,
+    "cena": null,
+    "poradi": 1,
+    "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 11862680.0
+  ]
  },
  {
   "id": "rvz:RVZ2600036698",
@@ -49362,6 +49406,7 @@
   "awarded": "2026-01-19",
   "price_contracted": 11789505.54,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 37,
@@ -49927,6 +49972,7 @@
   "awarded": "2026-01-14",
   "price_contracted": 8848916.38,
   "estimated": false,
+  "value": 10592150.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 37,
@@ -49941,25 +49987,14 @@
   "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "bidders": [
    {
-    "nazev": "PS - STAV Náchod s.r.o.",
-    "ico": "28858531",
-    "cena": 8961496.43,
-    "vyloucen": false
-   },
-   {
-    "nazev": "Stavrecon Pardubice s.r.o.",
-    "ico": "05925801",
-    "cena": 10000000.0,
-    "vyloucen": false
-   },
-   {
     "nazev": "STYLBAU, s.r.o.",
     "ico": "25957481",
-    "cena": 8848916.38,
+    "cena": null,
+    "poradi": 1,
+    "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 10592150.0
+  ]
  },
  {
   "id": "rvz:RVZ2600049764",
@@ -50071,6 +50106,7 @@
   "awarded": "2026-01-14",
   "price_contracted": 8848916.38,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 37,
@@ -50147,6 +50183,7 @@
   "awarded": "2026-01-12",
   "price_contracted": 14193613.04,
   "estimated": false,
+  "value": 14761232.62,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 20,
@@ -50168,8 +50205,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 14761232.62
+  ]
  },
  {
   "id": "rvz:RVZ2600002380",
@@ -50182,6 +50218,7 @@
   "awarded": "2026-01-12",
   "price_contracted": 10824169.89,
   "estimated": false,
+  "value": 12889244.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 49,
@@ -50211,8 +50248,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 12889244.0
+  ]
  },
  {
   "id": "rvz:RVZ2600037263",
@@ -50676,6 +50712,7 @@
   "awarded": "2026-01-07",
   "price_contracted": 5993370.45,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 43,
@@ -50685,17 +50722,7 @@
   ],
   "kind": "VZMR",
   "kw_match": false,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00000384",
-  "bidders": [
-   {
-    "nazev": "PP-GROUP stavební s.r.o.",
-    "ico": "21771120",
-    "cena": null,
-    "poradi": null,
-    "vybran": true,
-    "vyloucen": false
-   }
-  ]
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00000384"
  },
  {
   "id": "rvz:RVZ2500144571",
@@ -50877,6 +50904,7 @@
   "awarded": "2026-01-06",
   "price_contracted": 9059000.0,
   "estimated": false,
+  "value": 13313000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 31,
@@ -50896,8 +50924,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 13313000.0
+  ]
  },
  {
   "id": "rvz:RVZ2500223731",
@@ -51007,6 +51034,7 @@
   "awarded": "2026-01-06",
   "price_contracted": 9059000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 31,
@@ -51079,6 +51107,7 @@
   "awarded": "2026-01-05",
   "price_contracted": 20486869.37,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 31,
@@ -51702,6 +51731,7 @@
   "awarded": "2025-12-22",
   "price_contracted": 16349988.03,
   "estimated": false,
+  "value": 15474802.7,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 42,
@@ -51715,7 +51745,7 @@
   "bidders": [
    {
     "nazev": "KWEKU s.r.o.",
-    "ico": "27640477",
+    "ico": "",
     "cena": 22456955.96,
     "poradi": 3,
     "vybran": false,
@@ -51731,7 +51761,7 @@
    },
    {
     "nazev": "3COMP s.r.o.",
-    "ico": "27695557",
+    "ico": "",
     "cena": 16349988.03,
     "poradi": 1,
     "vybran": true,
@@ -51739,14 +51769,13 @@
    },
    {
     "nazev": "PKbau s.r.o.",
-    "ico": "08757127",
+    "ico": "",
     "cena": 20200000.0,
     "poradi": 2,
     "vybran": false,
     "vyloucen": false
    }
   ],
-  "value": 15474802.7,
   "registr_url": "https://smlouvy.gov.cz/smlouva/36196673"
  },
  {
@@ -52163,6 +52192,7 @@
   "awarded": "2025-12-19",
   "price_contracted": 11213416.53,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 26,
@@ -52366,6 +52396,7 @@
   "awarded": "2025-12-18",
   "price_contracted": 9877171.33,
   "estimated": false,
+  "value": 10630000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 47,
@@ -52390,8 +52421,7 @@
     "vyloucen": false
    }
   ],
-  "value": 10630000.0,
-  "registr_url": "https://smlouvy.gov.cz/smlouva/36147981"
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39472581"
  },
  {
   "id": "rvz:RVZ2500077782",
@@ -52583,6 +52613,7 @@
   "awarded": "2025-12-17",
   "price_contracted": 17999996.69,
   "estimated": false,
+  "value": 23900000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 45,
@@ -52603,8 +52634,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 23900000.0
+  ]
  },
  {
   "id": "rvz:RVZ2500219384",
@@ -52682,6 +52712,7 @@
   "awarded": "2025-12-16",
   "price_contracted": 5830835.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 46,
@@ -52695,7 +52726,7 @@
   "bidders": [
    {
     "nazev": "StavoSport s.r.o.",
-    "ico": "29278481",
+    "ico": "",
     "cena": null,
     "poradi": null,
     "vybran": true,
@@ -52778,6 +52809,7 @@
   "awarded": "2025-12-16",
   "price_contracted": 6297300.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 31,
@@ -52908,6 +52940,7 @@
   "awarded": "2025-12-12",
   "price_contracted": 950516.0,
   "estimated": false,
+  "value": null,
   "price_paid": 939855.0,
   "growth_pct": -1.1,
   "dist_km": 45,
@@ -52929,7 +52962,7 @@
    },
    {
     "nazev": "Lerson CZ s.r.o.",
-    "ico": "14267837",
+    "ico": "",
     "cena": null,
     "poradi": 1,
     "vybran": true,
@@ -53427,6 +53460,7 @@
   "awarded": "2025-12-11",
   "price_contracted": 119101000.0,
   "estimated": false,
+  "value": 139000000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 10,
@@ -53447,8 +53481,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 139000000.0
+  ]
  },
  {
   "id": "rvz:RVZ2500115483",
@@ -53959,6 +53992,7 @@
   "awarded": "2025-12-09",
   "price_contracted": 231280.0,
   "estimated": false,
+  "value": 440000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -53995,7 +54029,6 @@
     "vyloucen": false
    }
   ],
-  "value": 440000.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/36117645"
  },
  {
@@ -54150,6 +54183,7 @@
   "awarded": "2025-12-05",
   "price_contracted": 94784043.57,
   "estimated": false,
+  "value": 64542500.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -54176,7 +54210,6 @@
     "vyloucen": false
    }
   ],
-  "value": 64542500.0,
   "registr_url": "https://smlouvy.gov.cz/smlouva/35951617"
  },
  {
@@ -54260,6 +54293,7 @@
   "awarded": "2025-12-03",
   "price_contracted": 2904500.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -55010,6 +55044,7 @@
   "awarded": "2025-11-27",
   "price_contracted": 2698000.0,
   "estimated": false,
+  "value": null,
   "price_paid": 1991200.0,
   "growth_pct": -26.2,
   "dist_km": 39,
@@ -55357,6 +55392,7 @@
   "awarded": "2025-11-25",
   "price_contracted": 2722500.88,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -55498,6 +55534,7 @@
   "awarded": "2025-11-24",
   "price_contracted": 161158.0,
   "estimated": false,
+  "value": 200000.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 5,
@@ -55541,8 +55578,7 @@
     "vybran": false,
     "vyloucen": false
    }
-  ],
-  "value": 200000.0
+  ]
  },
  {
   "id": "rvz:RVZ2500224887",
@@ -55637,6 +55673,7 @@
   "awarded": "2025-11-24",
   "price_contracted": 4860349.28,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 14,
@@ -55940,6 +55977,7 @@
   "awarded": "2025-11-20",
   "price_contracted": 294000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -55957,8 +55995,7 @@
     "cena": null,
     "vyloucen": false
    }
-  ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/35719433"
+  ]
  },
  {
   "id": "rvz:RVZ2500216434",
@@ -56275,6 +56312,7 @@
   "awarded": "2025-11-19",
   "price_contracted": 9537000.63,
   "estimated": false,
+  "value": 10533710.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 20,
@@ -56294,8 +56332,7 @@
     "vybran": true,
     "vyloucen": false
    }
-  ],
-  "value": 12006893.13
+  ]
  },
  {
   "id": "rvz:RVZ2500219401",
