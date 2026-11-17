@@ -47,6 +47,12 @@ jobs:
       - uses: actions/checkout@v4
         if: env.SKIP != '1'
 
+      # self-hosted pracovní adresář přežívá mezi běhy — zaseknutý rebase
+      # z dřívějška by jinak blokoval commit (incident 19. 10.–17. 11. 2026)
+      - name: Úklid gitu
+        if: env.SKIP != '1'
+        run: python scraper/commit_data.py --uklid
+
       - name: Install deps
         if: env.SKIP != '1'
         run: python -m pip install -q -r scraper/requirements.txt
@@ -72,22 +78,9 @@ jobs:
 
       - name: Commit data
         if: env.SKIP != '1'
+        # commit_data.py: rebase -X theirs, při jakémkoli selhání záložní
+        # cesta (soubory běhu nad origin/main) a nikdy visící rebase
         run: |
-          git config user.name "domistav-tendry-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add docs/data/
-          git diff --cached --quiet
-          if ($LASTEXITCODE -ne 0) {
-            $d = [DateTime]::UtcNow.ToString("yyyy-MM-dd")
-            git commit -m "data: $d"
-            # mezitím mohl přibýt commit — rebase; při konfliktu v datových
-            # souborech vyhrává čerstvý běh (-X theirs = náš datový commit)
-            git pull --rebase -X theirs origin main
-            git push
-            if ($LASTEXITCODE -ne 0) {
-              git pull --rebase -X theirs origin main
-              git push
-            }
-          } else {
-            Write-Host "Beze zmen."
-          }
+          $d = [DateTime]::UtcNow.ToString("yyyy-MM-dd")
+          python -X utf8 scraper/commit_data.py "data: $d" docs/data/
+          if ($LASTEXITCODE -ne 0) { exit 1 }
