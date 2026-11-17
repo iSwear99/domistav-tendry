@@ -706,6 +706,46 @@ def _load_json(rel: str, default):
         return default
 
 
+def _zdravi(last_isvz: str, today: str) -> list[str]:
+    """Hlídači zdraví automatiky → začátek meta.errors (lišta na webu).
+
+    Vznik (17. 11. 2026): neplatný AI klíč (od 29. 10.) i zaseknutý
+    commit PC běhů (od 19. 10.) běžely týdny bez povšimnutí — cloud
+    dál denně aktualizoval, web vypadal zdravě. Varování mají jasnou
+    akci; prahy jsou volné, aby nestrašily při běžném vypnutém PC."""
+    out: list[str] = []
+    d_today = dt.date.fromisoformat(today)
+
+    def stari(iso: str | None) -> int | None:
+        try:
+            return (d_today - dt.date.fromisoformat((iso or "")[:10])).days
+        except ValueError:
+            return None
+
+    ai_err = " ".join(_load_json("docs/data/ai_filter.json", {})
+                      .get("meta", {}).get("errors", []))
+    if "401" in ai_err or "authentication" in ai_err:
+        out.append("⚠ AI filtr nefunguje: neplatný API klíč — vytvořte nový "
+                   "na platform.claude.com a vložte ho do GitHub secretu "
+                   "ANTHROPIC_API_KEY.")
+    elif "credit balance" in ai_err:
+        out.append("⚠ AI filtr nefunguje: došel kredit Anthropic API — "
+                   "dobijte na platform.claude.com.")
+    n = stari(last_isvz)
+    if n is None or n > 10:
+        kdy = f"{n} dní" if n is not None else "dlouho"
+        out.append(f"⚠ Plný běh na PC (ISVZ, PVU) neproběhl {kdy} — zapněte "
+                   "PC, případně zkontrolujte runner a Actions.")
+    n = stari(_load_json("docs/data/sken_meta.json", {}).get("updated"))
+    if n is not None and n > 14:
+        out.append(f"⚠ Týdenní sken profilů neproběhl {n} dní.")
+    n = stari(_load_json("docs/data/smlouvy.json", {})
+              .get("meta", {}).get("updated"))
+    if n is not None and n > 21:
+        out.append(f"⚠ Registr smluv se neaktualizoval {n} dní.")
+    return out
+
+
 def _fmt(field: str, val) -> str:
     if val in (None, "") or (val == 0 and field != "clarifications"):
         return "—"
@@ -921,7 +961,19 @@ def run(dry_run: bool = False) -> int:
 
     out_tenders = ROOT / config.OUT_TENDERS
 
+    # poslední úspěšný plný běh s ISVZ (jen PC) — přenáší se mezi běhy
+    last_isvz = _load_json(config.OUT_META, {}).get("last_isvz", "")
+    if not skip_isvz and source_counts.get("isvz"):
+        last_isvz = today
+    # cloud: PVU blokuje GitHub runnery (od 9/2026) — chyby jeho profilů
+    # jsou očekávané (data drží retence, obnoví je PC běh) a do lišty
+    # nepatří, jinak by trvalý šum přehlušil skutečná varování
+    if skip_isvz:
+        errors = [e for e in errors if "vhodne-uverejneni.cz" not in e]
+    errors = _zdravi(last_isvz, today) + errors
+
     meta = {
+        "last_isvz": last_isvz,
         "updated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         "counts": {
             "total": len(result),

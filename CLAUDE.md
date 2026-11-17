@@ -228,6 +228,19 @@ Poté v nastavení repa:
   a URL profilu se zachová v `profile_url`. Sloučená id (žijí ve vítězi)
   ani id vyřazená geo filtrem nesmí trvalá retence oživit ze snapshotu.
   Bez IČO se dedup neprovádí (riziko falešné shody).
+- **Commit dat VŽDY přes `scraper/commit_data.py`** (všechna workflow;
+  incident 19. 10.–17. 11. 2026: konflikt „smazán × změněn" nechal
+  v self-hosted pracovním adresáři viset rebase a 4 týdny se žádný PC
+  běh neuložil). Krok `--uklid` hned po checkoutu ruší zaseknutý stav;
+  commit zkouší rebase -X theirs a při selhání položí soubory běhu
+  nad origin/main (nepřemaže souběžné commity jiných souborů). Při
+  úklidu NIKDY `rebase --abort` po výpočtu dat — vrací pracovní adresář
+  a tiše zahodí spočítaná data (proto v commitu jen `--quit`).
+- **Hlídači zdraví** (`_zdravi` v main.py) přidávají na začátek
+  meta.errors (lišta webu) varování s akcí: neplatný AI klíč/došlý
+  kredit, PC běh s ISVZ starší 10 dní (`meta.last_isvz`), sken profilů
+  >14 dní, Registr smluv >21 dní. Cloudové běhy z lišty vynechávají
+  očekávané chyby PVU (blokuje GitHub runnery).
 - Scraper musí být **idempotentní**: opakované spuštění ve stejný den nesmí
   vytvořit duplicity (dedup podle stabilního ID zakázky, viz `main.py`).
 - Při chybě jednoho zdroje pokračovat s ostatními a chybu zapsat do `meta.json`
