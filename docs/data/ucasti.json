@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-17T19:32:51+00:00",
+  "updated": "2026-11-18T16:49:39+00:00",
   "count": 26,
   "vyhra": 13,
   "prohra": 12,
@@ -300,7 +300,9 @@
      "nazev": "RONELI Construction a.s.",
      "ico": "22365877",
      "cena": 48944459.77,
-     "vyloucen": true
+     "vyloucen": false,
+     "odstoupil": true,
+     "duvod": "odstoupil nebo odmítl uzavřít smlouvu nebo neposkytl potřebnou součinnost"
     },
     {
      "nazev": "S T A K O společnost s ručením omezeným",
@@ -319,6 +321,7 @@
    "winner_ico": "26007177",
    "price_contracted": 49713530.48,
    "awarded": "2026-04-30",
+   "registr_url": "https://smlouvy.gov.cz/smlouva/37812989",
    "authority_profile": "https://zakazky.cenakhk.cz/profile_display_2.html",
    "vysledek": "vyhra",
    "my": {

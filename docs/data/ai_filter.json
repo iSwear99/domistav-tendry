@@ -1,12 +1,12 @@
 {
  "meta": {
-  "updated": "2026-11-17T16:56:30+00:00",
+  "updated": "2026-11-18T16:50:49+00:00",
   "model": "claude-opus-5",
-  "posouzeno_nyni": 0,
-  "celkem": 586,
+  "posouzeno_nyni": 2,
+  "celkem": 588,
   "counts": {
-   "ano": 268,
-   "ne": 211,
+   "ano": 269,
+   "ne": 212,
    "nejisto": 107
   },
   "errors": []
@@ -2355,6 +2355,14 @@
   "rvz:RVZ2600293591": {
    "verdikt": "ne",
    "duvod": "Opravy přístrojů, nikoli stavební práce"
+  },
+  "rvz:RVZ2600113957": {
+   "verdikt": "ano",
+   "duvod": "Novostavba pozemní stavby – útulek a služebna"
+  },
+  "rvz:RVZ2600300170": {
+   "verdikt": "ne",
+   "duvod": "IT dodávka, nikoli stavební práce"
   }
  }
 }

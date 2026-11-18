@@ -1790,6 +1790,13 @@
    "label": "lhůta",
    "old": "—",
    "new": "2026-05-22 12:00"
+  },
+  {
+   "date": "2026-11-18",
+   "field": "deadline",
+   "label": "lhůta",
+   "old": "2026-05-22 12:00",
+   "new": "—"
   }
  ],
  "rvz:RVZ2600096709": [
@@ -2039,6 +2046,13 @@
    "label": "lhůta",
    "old": "—",
    "new": "2026-06-09 10:00"
+  },
+  {
+   "date": "2026-11-18",
+   "field": "deadline",
+   "label": "lhůta",
+   "old": "2026-06-09 10:00",
+   "new": "—"
   }
  ],
  "rvz:RVZ2600100099": [
@@ -2375,20 +2389,6 @@
  "rvz:RVZ2600098105": [
   {
    "date": "2026-09-16",
-   "field": "clarifications",
-   "label": "vysvětlení ZD",
-   "old": "0",
-   "new": "5"
-  },
-  {
-   "date": "2026-09-16",
-   "field": "deadline",
-   "label": "lhůta",
-   "old": "2026-09-10 10:00",
-   "new": "2026-09-16 10:00"
-  },
-  {
-   "date": "2026-09-16",
    "field": "value",
    "label": "hodnota",
    "old": "32 306 255 Kč",
@@ -2512,6 +2512,20 @@
    "label": "vysvětlení ZD",
    "old": "0",
    "new": "6"
+  },
+  {
+   "date": "2026-11-18",
+   "field": "value",
+   "label": "hodnota",
+   "old": "32 306 255 Kč",
+   "new": "—"
+  },
+  {
+   "date": "2026-11-18",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "6",
+   "new": "0"
   }
  ],
  "rvz:RVZ2500124063": [
@@ -3038,6 +3052,13 @@
    "label": "lhůta",
    "old": "—",
    "new": "2025-10-13 08:00"
+  },
+  {
+   "date": "2026-11-18",
+   "field": "deadline",
+   "label": "lhůta",
+   "old": "2025-10-13 08:00",
+   "new": "—"
   }
  ],
  "rvz:RVZ2600113714": [
@@ -3230,6 +3251,13 @@
    "label": "vysvětlení ZD",
    "old": "0",
    "new": "1"
+  },
+  {
+   "date": "2026-11-18",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "1",
+   "new": "0"
   }
  ],
  "rvz:RVZ2500071898": [
@@ -3385,6 +3413,13 @@
    "label": "vysvětlení ZD",
    "old": "0",
    "new": "1"
+  },
+  {
+   "date": "2026-11-18",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "1",
+   "new": "0"
   }
  ],
  "rvz:RVZ2600085283": [
@@ -3459,6 +3494,13 @@
    "label": "lhůta",
    "old": "—",
    "new": "2026-06-19 09:00"
+  },
+  {
+   "date": "2026-11-18",
+   "field": "deadline",
+   "label": "lhůta",
+   "old": "2026-06-19 09:00",
+   "new": "—"
   }
  ],
  "rvz:RVZ2600113595": [
@@ -3533,6 +3575,13 @@
    "label": "vysvětlení ZD",
    "old": "0",
    "new": "1"
+  },
+  {
+   "date": "2026-11-18",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "1",
+   "new": "0"
   }
  ],
  "rvz:RVZ2600103690": [
@@ -3623,6 +3672,13 @@
    "label": "vysvětlení ZD",
    "old": "0",
    "new": "1"
+  },
+  {
+   "date": "2026-11-18",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "1",
+   "new": "0"
   }
  ],
  "rvz:RVZ2600104837": [
@@ -3948,6 +4004,13 @@
    "label": "vysvětlení ZD",
    "old": "0",
    "new": "2"
+  },
+  {
+   "date": "2026-11-18",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "2",
+   "new": "0"
   }
  ],
  "profil:kr-pardubicky:VZ-6407": [
@@ -4124,6 +4187,13 @@
    "label": "vysvětlení ZD",
    "old": "0",
    "new": "1"
+  },
+  {
+   "date": "2026-11-18",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "1",
+   "new": "0"
   }
  ],
  "rvz:RVZ2600119175": [
@@ -4179,6 +4249,13 @@
    "label": "vysvětlení ZD",
    "old": "0",
    "new": "1"
+  },
+  {
+   "date": "2026-11-18",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "1",
+   "new": "0"
   }
  ],
  "rvz:RVZ2600115445": [
@@ -4241,6 +4318,13 @@
    "label": "vysvětlení ZD",
    "old": "0",
    "new": "1"
+  },
+  {
+   "date": "2026-11-18",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "1",
+   "new": "0"
   }
  ],
  "rvz:RVZ2600117000": [
@@ -4339,6 +4423,13 @@
    "label": "hodnota",
    "old": "—",
    "new": "31 654 000 Kč"
+  },
+  {
+   "date": "2026-11-18",
+   "field": "value",
+   "label": "hodnota",
+   "old": "31 654 000 Kč",
+   "new": "—"
   }
  ],
  "rvz:RVZ2600288257": [
@@ -4369,6 +4460,13 @@
    "label": "lhůta",
    "old": "2026-11-11 10:00",
    "new": "2026-11-19 10:00"
+  },
+  {
+   "date": "2026-11-18",
+   "field": "deadline",
+   "label": "lhůta",
+   "old": "2026-11-19 10:00",
+   "new": "2026-11-25 10:00"
   }
  ],
  "rvz:RVZ2600158869": [
@@ -4408,6 +4506,13 @@
    "label": "vysvětlení ZD",
    "old": "0",
    "new": "3"
+  },
+  {
+   "date": "2026-11-18",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "3",
+   "new": "0"
   }
  ],
  "rvz:RVZ2600106801": [
@@ -4431,6 +4536,13 @@
    "label": "vysvětlení ZD",
    "old": "0",
    "new": "4"
+  },
+  {
+   "date": "2026-11-18",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "4",
+   "new": "0"
   }
  ],
  "rvz:RVZ2600099790": [
@@ -4498,6 +4610,13 @@
    "label": "lhůta",
    "old": "—",
    "new": "2026-06-09 12:00"
+  },
+  {
+   "date": "2026-11-18",
+   "field": "deadline",
+   "label": "lhůta",
+   "old": "2026-06-09 12:00",
+   "new": "—"
   }
  ],
  "rvz:RVZ2600051148": [
@@ -4537,6 +4656,13 @@
    "label": "vysvětlení ZD",
    "old": "0",
    "new": "1"
+  },
+  {
+   "date": "2026-11-18",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "1",
+   "new": "0"
   }
  ],
  "rvz:RVZ2500011395": [
@@ -4560,6 +4686,13 @@
    "label": "vysvětlení ZD",
    "old": "0",
    "new": "1"
+  },
+  {
+   "date": "2026-11-18",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "1",
+   "new": "0"
   }
  ],
  "rvz:RVZ2600120866": [
@@ -4824,6 +4957,22 @@
    "label": "název",
    "old": "ZBV 2 ZL 3 I/2 Pardubice, jihovýchodní obchvat, zemní práce pro ZAV",
    "new": "ZBV 4 ZL 3  I/2 Pardubice, jihovýchodní obchvat, zemní práce pro ZAV"
+  }
+ ],
+ "rvz:RVZ2600113957": [
+  {
+   "date": "2026-11-18",
+   "field": "deadline",
+   "label": "lhůta",
+   "old": "2026-10-22 10:00",
+   "new": "2026-12-10 10:20"
+  },
+  {
+   "date": "2026-11-18",
+   "field": "clarifications",
+   "label": "vysvětlení ZD",
+   "old": "3",
+   "new": "0"
   }
  ]
 }
