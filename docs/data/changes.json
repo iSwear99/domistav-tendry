@@ -4959,20 +4959,13 @@
    "new": "ZBV 4 ZL 3  I/2 Pardubice, jihovýchodní obchvat, zemní práce pro ZAV"
   }
  ],
- "rvz:RVZ2600113957": [
+ "rvz:RVZ2600293864": [
   {
    "date": "2026-11-18",
    "field": "deadline",
    "label": "lhůta",
-   "old": "2026-10-22 10:00",
-   "new": "2026-12-10 10:20"
-  },
-  {
-   "date": "2026-11-18",
-   "field": "clarifications",
-   "label": "vysvětlení ZD",
-   "old": "3",
-   "new": "0"
+   "old": "2026-11-25 10:00",
+   "new": "2026-12-04 10:00"
   }
  ]
 }
