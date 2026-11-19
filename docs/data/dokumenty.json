@@ -1,10 +1,12 @@
 {
  "meta": {
-  "updated": "2026-11-18T18:49:28+00:00",
-  "zd": 645,
-  "zpravy": 1495,
+  "updated": "2026-11-19T17:38:42+00:00",
+  "zd": 646,
+  "zpravy": 1496,
   "novych": 1,
-  "errors": []
+  "errors": [
+   "dokumenty rvz:RVZ2600113957: v ZIPu není čitelné PDF/DOCX"
+  ]
  },
  "zd": {
   "rvz:RVZ2600078991": {
@@ -2002,6 +2004,10 @@
   },
   "rvz:RVZ2500227805": {
    "nenalezeno": true
+  },
+  "rvz:RVZ2600113957": {
+   "doc_url": "https://nen.nipez.cz/file?id=4570427901&amp;amp;typ=.zip&amp;amp;velikost=153309B",
+   "chyba": "v ZIPu není čitelné PDF/DOCX"
   }
  },
  "zpravy": {
@@ -6520,6 +6526,9 @@
   "rvz:RVZ2600085337": {
    "doc_url": "https://nen.nipez.cz/file?id=4827642545&amp;amp;typ=.pdf&amp;amp;velikost=295654B",
    "cena": 747003752.86
+  },
+  "rvz:RVZ2600076257": {
+   "nenalezeno": true
   }
  }
 }
