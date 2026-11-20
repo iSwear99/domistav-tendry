@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-11-19T17:38:53+00:00",
+  "updated": "2026-11-20T17:20:11+00:00",
   "model": "claude-opus-5",
-  "posouzeno_nyni": 0,
-  "celkem": 591,
+  "posouzeno_nyni": 1,
+  "celkem": 592,
   "counts": {
    "ano": 270,
    "ne": 213,
-   "nejisto": 108
+   "nejisto": 109
   },
   "errors": []
  },
@@ -2375,6 +2375,10 @@
   "rvz:RVZ2600113957": {
    "verdikt": "ano",
    "duvod": "Novostavba pozemní stavby – útulek a služebna"
+  },
+  "rvz:RVZ2600300939": {
+   "verdikt": "nejisto",
+   "duvod": "Zpevněné plochy ano, ale odvodnění připomíná dešťovou kanalizaci"
   }
  }
 }

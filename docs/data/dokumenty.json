@@ -1,12 +1,10 @@
 {
  "meta": {
-  "updated": "2026-11-19T17:38:42+00:00",
-  "zd": 646,
-  "zpravy": 1496,
-  "novych": 1,
-  "errors": [
-   "dokumenty rvz:RVZ2600113957: v ZIPu není čitelné PDF/DOCX"
-  ]
+  "updated": "2026-11-20T17:19:53+00:00",
+  "zd": 647,
+  "zpravy": 1497,
+  "novych": 0,
+  "errors": []
  },
  "zd": {
   "rvz:RVZ2600078991": {
@@ -2008,6 +2006,9 @@
   "rvz:RVZ2600113957": {
    "doc_url": "https://nen.nipez.cz/file?id=4570427901&amp;amp;typ=.zip&amp;amp;velikost=153309B",
    "chyba": "v ZIPu není čitelné PDF/DOCX"
+  },
+  "rvz:RVZ2600300939": {
+   "nenalezeno": true
   }
  },
  "zpravy": {
@@ -6528,6 +6529,9 @@
    "cena": 747003752.86
   },
   "rvz:RVZ2600076257": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600100917": {
    "nenalezeno": true
   }
  }

@@ -28,6 +28,46 @@
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/model-obaly-a-s"
  },
  {
+  "id": "rvz:RVZ2600118626",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "ZŠ a ZUŠ Habrmanova – nová tělocvična, modernizace a nástavba odborných učeben, bezbariérový výtah",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [
+   "45214200",
+   "45110000",
+   "45223220",
+   "45261000",
+   "45313100",
+   "45331000",
+   "45430000",
+   "42416100",
+   "50750000"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": 223000000.0,
+  "published": "2026-08-20",
+  "deadline": "2026-12-16T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://www.tenderarena.cz/profily/hradeckralove",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": false,
+  "profile_url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
   "id": "profil:sken-00274101:VZ-291",
   "source": "profil:sken-00274101",
   "title": "Rekonstrukce ulice Hálkova",
@@ -166,46 +206,6 @@
   "loc_unknown": false
  },
  {
-  "id": "rvz:RVZ2600118626",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "ZŠ a ZUŠ Habrmanova – nová tělocvična, modernizace a nástavba odborných učeben, bezbariérový výtah",
-  "authority": "Statutární město Hradec Králové",
-  "authority_ico": "00268810",
-  "cpv": [
-   "45214200",
-   "45110000",
-   "45223220",
-   "45261000",
-   "45313100",
-   "45331000",
-   "45430000",
-   "42416100",
-   "50750000"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": 223000000.0,
-  "published": "2026-08-20",
-  "deadline": "2026-12-11T10:00:00",
-  "url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://www.tenderarena.cz/profily/hradeckralove",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": false,
-  "profile_url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "dist_km": 4,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600113957",
   "source": "profil:pardubice",
   "title": "Útulek pro psy a služebna městské policie - lokalita Popkovice",
@@ -230,7 +230,7 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-11-19",
+  "nen_detail": "2026-11-20",
   "predmet": "stavba útulku pro psy a služebny Městské policie Pardubice v k.ú. Popkovice, která je navržena jako jednopodlažní, nepodsklepená a zastřešená plochou střechou. Půdorysné řešení objektu je ve tvaru mnohoúhelníku s prostorovým řešením ve tvaru několika kvádrů k sobě spojených. Sestava objektu vytváří ze třech stran krytý, částečně oplocený vnitřní dvůr.  Útulek bude doplněn oplocenými plochami se čtyřmi výběhovými loukami a drobným objektem pro umístění zahradní techniky."
  },
  {
@@ -344,6 +344,30 @@
   "dist_km": null,
   "loc_unknown": true,
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/64811069"
+ },
+ {
+  "id": "rvz:RVZ2600300939",
+  "source": "profil:hradec-kralove",
+  "title": "Fotbalová aréna –  Odvodnění zpevněných ploch",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2026-11-20",
+  "deadline": "2026-12-08T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 4,
+  "loc_unknown": false
  },
  {
   "id": "profil:pvu:28343115:P26V00006867",
@@ -1131,7 +1155,7 @@
   "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "dist_km": 24,
   "loc_unknown": false,
-  "url_dead": 2,
+  "url_dead": 3,
   "link_dead": true
  },
  {
@@ -1511,7 +1535,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 24,
   "loc_unknown": false,
   "profile_url": "https://zakazky.mestoprelouc.cz"
@@ -1538,7 +1562,7 @@
   "kw_match": false,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 39,
   "loc_unknown": false,
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/00271071"
@@ -22462,10 +22486,18 @@
   "deadline": "2026-06-29T10:00:00",
   "url": "https://www.tenderarena.cz/profily/hradeckralove",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",
+  "bidders": [
+   {
+    "nazev": "CityTraffic, s.r.o.",
+    "ico": "46345761",
+    "cena": 801900.0,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,

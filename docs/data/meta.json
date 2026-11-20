@@ -1,14 +1,14 @@
 {
  "last_isvz": "2026-11-18",
- "updated": "2026-11-19T17:37:56+00:00",
+ "updated": "2026-11-20T17:19:49+00:00",
  "counts": {
-  "total": 8782,
+  "total": 8783,
   "vz": 5596,
-  "vzmr": 3186,
-  "active": 80,
+  "vzmr": 3187,
+  "active": 79,
   "changed": 144,
-  "competition": 1496,
-  "previous": 8795
+  "competition": 1497,
+  "previous": 8782
  },
  "errors": [
   "proklik ezak.susupk.cz: <urlopen error [Errno -2] Name or service not known>"

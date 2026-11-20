@@ -1,5 +1,34 @@
 [
  {
+  "id": "rvz:RVZ2600100917",
+  "source": "profil:hradec-kralove",
+  "title": "Cyklostezka Kamenný most Plácky – Skleníky Třebeš – I. etapa - PD",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "winner": "CityTraffic, s.r.o.",
+  "winner_ico": "46345761",
+  "awarded": "2026-11-18",
+  "price_contracted": 801900.0,
+  "estimated": false,
+  "value": null,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "bidders": [
+   {
+    "nazev": "CityTraffic, s.r.o.",
+    "ico": "46345761",
+    "cena": 801900.0,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "profil:sken-48136450:VZ-1304",
   "source": "profil:sken-48136450",
   "title": "Servis a opravy manipulační techniky",
@@ -21121,47 +21150,24 @@
     "cena": 8179127.97,
     "poradi": 1,
     "vybran": true,
-    "vyloucen": false
+    "vyloucen": false,
+    "nid": "c63c351d-0eee-4c7f-85c9-c5b5ccddc284"
    },
    {
     "nazev": "MARHOLD a.s.",
     "ico": "15050050",
     "cena": 11648978.73,
-    "vyloucen": false
+    "vyloucen": false,
+    "nid": "11f363e5-0c27-4125-a75a-db2547146331"
    },
    {
     "nazev": "EVOSTA s.r.o.",
     "ico": "03054225",
     "cena": 6466186.35,
-    "vyloucen": true
-   },
-   {
-    "nazev": "Stavby-Eda s.r.o.",
-    "ico": "",
-    "nid": "c63c351d-0eee-4c7f-85c9-c5b5ccddc284",
-    "cena": null,
-    "poradi": null,
-    "vybran": true,
-    "vyloucen": false
-   },
-   {
-    "nazev": "EVOSTA s.r.o.",
-    "ico": "",
+    "vyloucen": false,
+    "duvod": "V souladu s §48 odst. 2 písm. b) ZZVZ zadavatel vyloučil dodavatele EVOSTA s.r.o., IČO: 0054426, z účasti v zadávacím řízení, neboť na základě žádosti dle § 46 odst. 1 ZZVZ požadované doklady v rámci zadávacího řízení nebyly tímto účastníkem zadávacího řízení doplněny.",
     "nid": "81bc35fd-51af-4102-9ed5-1b564781938e",
-    "cena": null,
-    "poradi": null,
-    "vybran": false,
-    "vyloucen": true,
-    "duvod": "V souladu s §48 odst. 2 písm. b) ZZVZ zadavatel vyloučil dodavatele EVOSTA s.r.o., IČO: 0054426, z účasti v zadávacím řízení, neboť na základě žádosti dle § 46 odst. 1 ZZVZ požadované doklady v rámci zadávacího řízení nebyly tímto účastníkem zadávacího řízení doplněny."
-   },
-   {
-    "nazev": "MARHOLD a.s.",
-    "ico": "",
-    "nid": "11f363e5-0c27-4125-a75a-db2547146331",
-    "cena": null,
-    "poradi": null,
-    "vybran": false,
-    "vyloucen": false
+    "odstoupil": true
    }
   ],
   "value": 8410000.0,
