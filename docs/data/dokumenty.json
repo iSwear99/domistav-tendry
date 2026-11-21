@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-11-20T17:19:53+00:00",
-  "zd": 647,
-  "zpravy": 1497,
-  "novych": 0,
+  "updated": "2026-11-21T08:36:44+00:00",
+  "zd": 653,
+  "zpravy": 1498,
+  "novych": 1,
   "errors": []
  },
  "zd": {
@@ -2008,6 +2008,24 @@
    "chyba": "v ZIPu není čitelné PDF/DOCX"
   },
   "rvz:RVZ2600300939": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600071624": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600116964": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600284530": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600294788": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600290098": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600292974": {
    "nenalezeno": true
   }
  },
@@ -6533,6 +6551,9 @@
   },
   "rvz:RVZ2600100917": {
    "nenalezeno": true
+  },
+  "profil:pvu:00236691:P26V00006916": {
+   "doc_url": "https://www.vhodne-uverejneni.cz/zakazka/pisemna-zprava-modernizace-vo"
   }
  }
 }

@@ -5827,9 +5827,9 @@
     "nazev": "IRBOS s.r.o.",
     "ico": "25933094",
     "cena": 9600000.0,
-    "vyloucen": false,
     "poradi": 1,
-    "vybran": true
+    "vybran": true,
+    "vyloucen": false
    },
    {
     "nazev": "SAFETY PRO s.r.o.",
@@ -5856,10 +5856,10 @@
     "vyloucen": false
    }
   ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/39611741",
   "slouceno": [
    "profil:kr-kralovehradecky:VZ-12404"
-  ]
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39611741"
  },
  {
   "id": "rvz:RVZ2600113595",
@@ -6544,9 +6544,9 @@
     "nazev": "GEOSAN GROUP, a.s.",
     "ico": "28169522",
     "cena": 177821970.4,
-    "vyloucen": false,
     "poradi": 1,
-    "vybran": true
+    "vybran": true,
+    "vyloucen": false
    },
    {
     "nazev": "MBQ s.r.o.",
@@ -6571,10 +6571,10 @@
     "vyloucen": false
    }
   ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/39627177",
   "slouceno": [
    "profil:kr-kralovehradecky:VZ-12808"
-  ]
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/39627177"
  },
  {
   "id": "rvz:RVZ2600120528",
@@ -34595,7 +34595,7 @@
   "awarded": "2026-04-23",
   "price_contracted": 11497313.32,
   "estimated": false,
-  "value": 10816000.0,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 19,
@@ -43492,6 +43492,37 @@
   "registr_url": "https://smlouvy.gov.cz/smlouva/37056309"
  },
  {
+  "id": "profil:pvu:00236691:P26V00006916",
+  "source": "profil:pvu:00236691",
+  "title": "Venkovní odborná učebna u ZŠ Žleby",
+  "authority": "Obec Žleby",
+  "authority_ico": "00236691",
+  "winner": "EduVision s.r.o.",
+  "winner_ico": "17803039",
+  "awarded": "2026-03-04",
+  "price_contracted": 3439083.0,
+  "estimated": false,
+  "value": null,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 42,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://www.vhodne-uverejneni.cz/profil/obec-zleby",
+  "bidders": [
+   {
+    "nazev": "EduVision s.r.o.",
+    "ico": "17803039",
+    "cena": 3439083.0,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2600065529",
   "source": "isvz",
   "title": "Hutní materiál – Stavební úpravy ČDV Kutná Hora",
@@ -44297,7 +44328,7 @@
   "awarded": "2026-02-23",
   "price_contracted": 3028000.0,
   "estimated": false,
-  "value": 3865495.0,
+  "value": 3128326.0,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 4,

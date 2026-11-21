@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-11-20T17:20:11+00:00",
+  "updated": "2026-11-21T08:37:02+00:00",
   "model": "claude-opus-5",
-  "posouzeno_nyni": 1,
-  "celkem": 592,
+  "posouzeno_nyni": 7,
+  "celkem": 598,
   "counts": {
-   "ano": 270,
-   "ne": 213,
-   "nejisto": 109
+   "ano": 273,
+   "ne": 215,
+   "nejisto": 110
   },
   "errors": []
  },
@@ -2378,7 +2378,31 @@
   },
   "rvz:RVZ2600300939": {
    "verdikt": "nejisto",
-   "duvod": "Zpevněné plochy ano, ale odvodnění připomíná dešťovou kanalizaci"
+   "duvod": "Odvodnění zpevněných ploch, může jít o inženýrské sítě"
+  },
+  "rvz:RVZ2600071624": {
+   "verdikt": "ne",
+   "duvod": "Rekonstrukce ulice, silniční stavba"
+  },
+  "rvz:RVZ2600116964": {
+   "verdikt": "ne",
+   "duvod": "Technický dozor a BOZP"
+  },
+  "rvz:RVZ2600284530": {
+   "verdikt": "ano",
+   "duvod": "Oprava střechy budovy pavilonu"
+  },
+  "rvz:RVZ2600294788": {
+   "verdikt": "ano",
+   "duvod": "Obnova střechy budovy kostela"
+  },
+  "rvz:RVZ2600290098": {
+   "verdikt": "ano",
+   "duvod": "Obnova fasády budovy kostela"
+  },
+  "rvz:RVZ2600292974": {
+   "verdikt": "nejisto",
+   "duvod": "Řídicí systém kotelny, spíše technologie a projekce"
   }
  }
 }
