@@ -1,17 +1,16 @@
 {
  "last_isvz": "2026-11-21",
- "updated": "2026-11-21T08:36:30+00:00",
+ "updated": "2026-11-21T16:28:03+00:00",
  "counts": {
   "total": 8737,
-  "vz": 5552,
-  "vzmr": 3185,
-  "active": 91,
+  "vz": 5548,
+  "vzmr": 3189,
+  "active": 79,
   "changed": 145,
   "competition": 1498,
-  "previous": 8782
+  "previous": 8737
  },
  "errors": [
-  "profil:upice: Stažení selhalo: https://tenderarena.cz/profily/00278386/XMLdataVZ?od=23082026&do=21112026: HTTP Error 429: Too Many Requests",
-  "proklik ezak.susupk.cz: <urlopen error [Errno 11001] getaddrinfo failed>"
+  "proklik ezak.susupk.cz: <urlopen error [Errno -2] Name or service not known>"
  ]
 }

@@ -21120,6 +21120,59 @@
   ]
  },
  {
+  "id": "rvz:RVZ2600097416",
+  "source": "isvz",
+  "title": "ÚP ČR – Pardubice – výstavba administrativní budovy – zajištění výkonu činnosti TDS a koordinátora BOZP",
+  "authority": "Úřad práce České republiky",
+  "authority_ico": "72496991",
+  "winner": "Building management solutions s.r.o.",
+  "winner_ico": "28812999",
+  "awarded": "2026-07-01",
+  "price_contracted": 1232800.0,
+  "estimated": false,
+  "value": null,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 19,
+  "loc_unknown": false,
+  "cpv": [
+   "71000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00015913",
+  "bidders": [
+   {
+    "nazev": "Building management solutions s.r.o.",
+    "ico": "",
+    "nid": "982c16ed-cd19-4e60-b335-5bd7c5bc0743",
+    "cena": 1232800.0,
+    "poradi": 1,
+    "vybran": true,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SAFETY PRO s.r.o.",
+    "ico": "",
+    "nid": "5c6ed481-8cbd-4987-aca8-b63498c8a8b8",
+    "cena": 1814400.0,
+    "poradi": 3,
+    "vybran": false,
+    "vyloucen": false
+   },
+   {
+    "nazev": "INGENIRING KRKONOŠE PRO s.r.o.",
+    "ico": "",
+    "nid": "682b4626-c350-403a-8a87-722941ba713e",
+    "cena": 1386900.0,
+    "poradi": 2,
+    "vybran": false,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/38642200"
+ },
+ {
   "id": "rvz:RVZ2600072608",
   "source": "isvz",
   "title": "Aquacentrum - oprava rekreačního a skokanského bazénu",
@@ -21175,59 +21228,6 @@
   "slouceno": [
    "rvz:RVZ2600072613"
   ]
- },
- {
-  "id": "rvz:RVZ2600097416",
-  "source": "isvz",
-  "title": "ÚP ČR – Pardubice – výstavba administrativní budovy – zajištění výkonu činnosti TDS a koordinátora BOZP",
-  "authority": "Úřad práce České republiky",
-  "authority_ico": "72496991",
-  "winner": "Building management solutions s.r.o.",
-  "winner_ico": "28812999",
-  "awarded": "2026-07-01",
-  "price_contracted": 1232800.0,
-  "estimated": false,
-  "value": null,
-  "price_paid": null,
-  "growth_pct": null,
-  "dist_km": 19,
-  "loc_unknown": false,
-  "cpv": [
-   "71000000"
-  ],
-  "kind": "VZMR",
-  "kw_match": true,
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00015913",
-  "bidders": [
-   {
-    "nazev": "Building management solutions s.r.o.",
-    "ico": "",
-    "nid": "982c16ed-cd19-4e60-b335-5bd7c5bc0743",
-    "cena": 1232800.0,
-    "poradi": 1,
-    "vybran": true,
-    "vyloucen": false
-   },
-   {
-    "nazev": "SAFETY PRO s.r.o.",
-    "ico": "",
-    "nid": "5c6ed481-8cbd-4987-aca8-b63498c8a8b8",
-    "cena": 1814400.0,
-    "poradi": 3,
-    "vybran": false,
-    "vyloucen": false
-   },
-   {
-    "nazev": "INGENIRING KRKONOŠE PRO s.r.o.",
-    "ico": "",
-    "nid": "682b4626-c350-403a-8a87-722941ba713e",
-    "cena": 1386900.0,
-    "poradi": 2,
-    "vybran": false,
-    "vyloucen": false
-   }
-  ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/38642200"
  },
  {
   "id": "rvz:RVZ2600100989",
