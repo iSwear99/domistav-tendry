@@ -1,16 +1,18 @@
 {
- "last_isvz": "2026-11-21",
- "updated": "2026-11-22T16:25:52+00:00",
+ "last_isvz": "2026-11-23",
+ "updated": "2026-11-23T15:23:08+00:00",
  "counts": {
-  "total": 8737,
-  "vz": 5548,
-  "vzmr": 3189,
-  "active": 78,
+  "total": 8738,
+  "vz": 5552,
+  "vzmr": 3186,
+  "active": 87,
   "changed": 145,
-  "competition": 1498,
+  "competition": 1499,
   "previous": 8737
  },
  "errors": [
-  "proklik ezak.susupk.cz: <urlopen error [Errno -2] Name or service not known>"
+  "pvu: /externi-zakazka/fjfi-kf-2026-30-notebook-16: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/fjfi-kf-2026-30-notebook-16: HTTP Error 401: Unauthorized",
+  "proklik ezak.susupk.cz: <urlopen error [Errno 11001] getaddrinfo failed>",
+  "proklik e-zakazky.cz: <urlopen error [WinError 10060] Pokus o připojení selhal, protože připojená strana v časovém intervalu řádně neodpověděla, nebo vytvořené připojení selhalo, protože neodpověděl připojený hostitel>"
  ]
 }

@@ -1,8 +1,8 @@
 {
  "meta": {
-  "updated": "2026-11-22T16:25:53+00:00",
+  "updated": "2026-11-23T15:23:12+00:00",
   "zd": 653,
-  "zpravy": 1498,
+  "zpravy": 1499,
   "novych": 0,
   "errors": []
  },
@@ -6554,6 +6554,9 @@
   },
   "profil:pvu:00236691:P26V00006916": {
    "doc_url": "https://www.vhodne-uverejneni.cz/zakazka/pisemna-zprava-modernizace-vo"
+  },
+  "rvz:RVZ2600301140": {
+   "nenalezeno": true
   }
  }
 }

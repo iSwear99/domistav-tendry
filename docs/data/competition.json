@@ -65,6 +65,29 @@
   ]
  },
  {
+  "id": "rvz:RVZ2600301140",
+  "source": "profil:tyniste-no",
+  "title": "Pumptrack Týniště nad Orlicí",
+  "authority": "Město Týniště nad Orlicí",
+  "authority_ico": "00275468",
+  "winner": "GERGEL, s.r.o.",
+  "winner_ico": "25508580",
+  "awarded": "2026-11-12",
+  "price_contracted": 4642500.0,
+  "estimated": false,
+  "value": null,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 22,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00037444"
+ },
+ {
   "id": "rvz:RVZ2600289521",
   "source": "profil:hradec-kralove",
   "title": "AV vybavení – ZŠ a MŠ Malšova Lhota",
@@ -1439,6 +1462,13 @@
     "nid": "068f26ab-0b9e-4b14-8c86-d6af0d492669"
    },
    {
+    "nazev": "PS HOME STAR s.r.o.",
+    "ico": "03221466",
+    "cena": 649733.7,
+    "vyloucen": false,
+    "nid": "e03e7a49-1174-4fe5-815e-3ef4dd557b4e"
+   },
+   {
     "nazev": "MP Bau s.r.o.",
     "ico": "24722065",
     "cena": 681281.51,
@@ -1458,13 +1488,6 @@
     "cena": 650676.0,
     "vyloucen": false,
     "nid": "02673ba6-8463-4db2-998b-d41e925b05b7"
-   },
-   {
-    "nazev": "PS HOME STAR s.r.o.",
-    "ico": "03221466",
-    "cena": 649733.7,
-    "vyloucen": false,
-    "nid": "e03e7a49-1174-4fe5-815e-3ef4dd557b4e"
    },
    {
     "nazev": "Holding Construction s.r.o.",
