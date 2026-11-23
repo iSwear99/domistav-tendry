@@ -392,6 +392,41 @@
   "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-26-V00036221"
  },
  {
+  "id": "rvz:RVZ2600117842",
+  "source": "profil:hradec-kralove",
+  "title": "Výstavba MŠ Podzámčí II v Hradci Králové  – TDS + BOZP",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "winner": "SAFETY PRO s.r.o.",
+  "winner_ico": "28571690",
+  "awarded": "2026-11-03",
+  "price_contracted": 1648000.0,
+  "estimated": false,
+  "value": null,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "bidders": [
+   {
+    "nazev": "SAFETY PRO s.r.o.",
+    "ico": "28571690",
+    "cena": 1648000.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "IRBOS s.r.o.",
+    "ico": "25933094",
+    "cena": 1680000.0,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "profil:sken-70891095:VZ-19303",
   "source": "profil:sken-70891095",
   "title": "Dodávka a instalace kabeláže v budově Krajského úřadu Středočeského kraje",
@@ -1462,13 +1497,6 @@
     "nid": "068f26ab-0b9e-4b14-8c86-d6af0d492669"
    },
    {
-    "nazev": "PS HOME STAR s.r.o.",
-    "ico": "03221466",
-    "cena": 649733.7,
-    "vyloucen": false,
-    "nid": "e03e7a49-1174-4fe5-815e-3ef4dd557b4e"
-   },
-   {
     "nazev": "MP Bau s.r.o.",
     "ico": "24722065",
     "cena": 681281.51,
@@ -1488,6 +1516,13 @@
     "cena": 650676.0,
     "vyloucen": false,
     "nid": "02673ba6-8463-4db2-998b-d41e925b05b7"
+   },
+   {
+    "nazev": "PS HOME STAR s.r.o.",
+    "ico": "03221466",
+    "cena": 649733.7,
+    "vyloucen": false,
+    "nid": "e03e7a49-1174-4fe5-815e-3ef4dd557b4e"
    },
    {
     "nazev": "Holding Construction s.r.o.",
@@ -19413,7 +19448,8 @@
     "nazev": "PS HOME STAR s.r.o.",
     "ico": "03221466",
     "cena": 8326546.82,
-    "vyloucen": false
+    "vyloucen": false,
+    "nid": "e03e7a49-1174-4fe5-815e-3ef4dd557b4e"
    },
    {
     "nazev": "Hanč CONSTRUCTION s.r.o.",
@@ -19426,25 +19462,8 @@
     "nazev": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
     "ico": "46504621",
     "cena": 7880000.0,
-    "vyloucen": false
-   },
-   {
-    "nazev": "PS HOME STAR s.r.o.",
-    "ico": "",
-    "nid": "e03e7a49-1174-4fe5-815e-3ef4dd557b4e",
-    "cena": null,
-    "poradi": null,
-    "vybran": false,
-    "vyloucen": false
-   },
-   {
-    "nazev": "PRVNÍ STAVEBNÍ CHRUDIM a.s.",
-    "ico": "",
-    "nid": "bdef91e5-aea2-4aca-ba21-efe04829e70a",
-    "cena": null,
-    "poradi": null,
-    "vybran": false,
-    "vyloucen": false
+    "vyloucen": false,
+    "nid": "bdef91e5-aea2-4aca-ba21-efe04829e70a"
    }
   ],
   "value": 9057000.0,
