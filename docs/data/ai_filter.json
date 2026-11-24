@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-11-24T19:25:48+00:00",
+  "updated": "2026-11-24T19:58:03+00:00",
   "model": "claude-opus-5",
-  "posouzeno_nyni": 5,
-  "celkem": 607,
+  "posouzeno_nyni": 0,
+  "celkem": 602,
   "counts": {
    "ano": 275,
    "ne": 221,

@@ -240861,47 +240861,6 @@
   "no_activity": true
  },
  {
-  "id": "rvz:RVZ2600286934",
-  "source": "isvz",
-  "nen_id": "N006/23/V00029828",
-  "title": "Stavební úpravy vnitřní č.p.26 parc. č. 1 v k.ú. Předhradí",
-  "authority": "Obec Pňov-Předhradí",
-  "authority_ico": "00239631",
-  "cpv": [
-   "45200000"
-  ],
-  "nuts": [
-   "CZ020"
-  ],
-  "value": null,
-  "published": "",
-  "deadline": "",
-  "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-23-V00029828",
-  "place": "",
-  "authority_seat": "Husova 37, Pňov-Předhradí 28941",
-  "authority_profile": "https://nen.nipez.cz/profil/obecpnov",
-  "state": "Dokončen/Zadán",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "bidders": [
-   {
-    "nazev": "Florud stavební s.r.o.",
-    "ico": "09081348",
-    "cena": null,
-    "poradi": null,
-    "vybran": true,
-    "vyloucen": false
-   }
-  ],
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 48,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2500088102",
   "source": "isvz",
   "nen_id": "",
@@ -245987,11 +245946,9 @@
   "kw_match": true,
   "no_nuts": false,
   "no_value": false,
-  "expired": true,
+  "expired": false,
   "dist_km": 4,
-  "loc_unknown": false,
-  "auto_expired": "2026-11-24",
-  "no_activity": true
+  "loc_unknown": false
  },
  {
   "id": "rvz:RVZ2600111347",
@@ -257895,142 +257852,6 @@
   "no_activity": true
  },
  {
-  "id": "rvz:RVZ2600099605",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Výstavba skladu na posypový materiál a skladu mechanizace na cestmistrovství Luže",
-  "authority": "Správa a údržba silnic Pardubického kraje",
-  "authority_ico": "00085031",
-  "cpv": [
-   "45000000",
-   "45223210"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": 17090860.9,
-  "published": "",
-  "deadline": "",
-  "url": "https://ezak.suspk.cz/",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://ezak.suspk.cz/",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 39,
-  "loc_unknown": false,
-  "auto_expired": "2026-09-19",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2600099605",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Výstavba skladu na posypový materiál a skladu mechanizace na cestmistrovství Luže",
-  "authority": "Správa a údržba silnic Pardubického kraje",
-  "authority_ico": "00085031",
-  "cpv": [
-   "45000000",
-   "45223210"
-  ],
-  "nuts": [
-   "CZ053"
-  ],
-  "value": 17090860.9,
-  "published": "",
-  "deadline": "",
-  "url": "https://ezak.suspk.cz/",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://ezak.suspk.cz/",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": false,
-  "expired": true,
-  "dist_km": 39,
-  "loc_unknown": false,
-  "auto_expired": "2026-09-19",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500139001",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Bytový dům na faře v Jasenné",
-  "authority": "OBEC JASENNÁ",
-  "authority_ico": "00272736",
-  "cpv": [
-   "45211000",
-   "45454100"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": null,
-  "published": "",
-  "deadline": "",
-  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0001713",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0001713",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 20,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
-  "id": "rvz:RVZ2500139001",
-  "source": "isvz",
-  "nen_id": "",
-  "title": "Bytový dům na faře v Jasenné",
-  "authority": "OBEC JASENNÁ",
-  "authority_ico": "00272736",
-  "cpv": [
-   "45211000",
-   "45454100"
-  ],
-  "nuts": [
-   "CZ052"
-  ],
-  "value": null,
-  "published": "",
-  "deadline": "",
-  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0001713",
-  "place": "",
-  "authority_seat": "",
-  "authority_profile": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0001713",
-  "state": "",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": true,
-  "dist_km": 20,
-  "loc_unknown": false,
-  "auto_expired": "2026-07-31",
-  "no_activity": true
- },
- {
   "id": "rvz:RVZ2600110751",
   "source": "isvz",
   "nen_id": "",
@@ -259118,6 +258939,74 @@
   "dist_km": 30,
   "loc_unknown": false,
   "auto_expired": "2026-10-19",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600099605",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Výstavba skladu na posypový materiál a skladu mechanizace na cestmistrovství Luže",
+  "authority": "Správa a údržba silnic Pardubického kraje",
+  "authority_ico": "00085031",
+  "cpv": [
+   "45000000",
+   "45223210"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 17090860.9,
+  "published": "",
+  "deadline": "",
+  "url": "https://ezak.suspk.cz/",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://ezak.suspk.cz/",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 39,
+  "loc_unknown": false,
+  "auto_expired": "2026-09-19",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2600099605",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Výstavba skladu na posypový materiál a skladu mechanizace na cestmistrovství Luže",
+  "authority": "Správa a údržba silnic Pardubického kraje",
+  "authority_ico": "00085031",
+  "cpv": [
+   "45000000",
+   "45223210"
+  ],
+  "nuts": [
+   "CZ053"
+  ],
+  "value": 17090860.9,
+  "published": "",
+  "deadline": "",
+  "url": "https://ezak.suspk.cz/",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://ezak.suspk.cz/",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": false,
+  "expired": true,
+  "dist_km": 39,
+  "loc_unknown": false,
+  "auto_expired": "2026-09-19",
   "no_activity": true
  },
  {
@@ -261014,6 +260903,74 @@
   "expired": true,
   "dist_km": 42,
   "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2500139001",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Bytový dům na faře v Jasenné",
+  "authority": "OBEC JASENNÁ",
+  "authority_ico": "00272736",
+  "cpv": [
+   "45211000",
+   "45454100"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": null,
+  "published": "",
+  "deadline": "",
+  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0001713",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0001713",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 20,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
+  "no_activity": true
+ },
+ {
+  "id": "rvz:RVZ2500139001",
+  "source": "isvz",
+  "nen_id": "",
+  "title": "Bytový dům na faře v Jasenné",
+  "authority": "OBEC JASENNÁ",
+  "authority_ico": "00272736",
+  "cpv": [
+   "45211000",
+   "45454100"
+  ],
+  "nuts": [
+   "CZ052"
+  ],
+  "value": null,
+  "published": "",
+  "deadline": "",
+  "url": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0001713",
+  "place": "",
+  "authority_seat": "",
+  "authority_profile": "https://tenderarena.cz/dodavatel/seznam-profilu-zadavatelu/detail/Z0001713",
+  "state": "",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 20,
+  "loc_unknown": false,
+  "auto_expired": "2026-07-31",
+  "no_activity": true
  },
  {
   "id": "rvz:RVZ2500142964",
