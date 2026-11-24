@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-11-23T19:35:35+00:00",
+  "updated": "2026-11-24T15:23:46+00:00",
   "model": "claude-opus-5",
-  "posouzeno_nyni": 1,
-  "celkem": 599,
+  "posouzeno_nyni": 4,
+  "celkem": 602,
   "counts": {
-   "ano": 274,
-   "ne": 215,
-   "nejisto": 110
+   "ano": 275,
+   "ne": 216,
+   "nejisto": 111
   },
   "errors": []
  },
@@ -2404,9 +2404,21 @@
    "verdikt": "nejisto",
    "duvod": "Řídicí systém kotelny, spíše technologie a projekce"
   },
+  "profil:pvu:00256552:P26V00006737": {
+   "verdikt": "ano",
+   "duvod": "Novostavba knihovny – pozemní stavitelství"
+  },
   "profil:pvu:24198820:P26V00006958": {
    "verdikt": "ano",
-   "duvod": "Energetické úspory administrativní budovy, pozemní stavitelství"
+   "duvod": "Energetické úspory administrativní budovy"
+  },
+  "profil:pvu:00273767:P26V00006971": {
+   "verdikt": "ne",
+   "duvod": "Chodníky – dopravní stavby, nerelevantní"
+  },
+  "profil:kr-kralovehradecky:VZ-13160": {
+   "verdikt": "nejisto",
+   "duvod": "Gastro vybavení, podíl stavebních prací nejasný"
   }
  }
 }

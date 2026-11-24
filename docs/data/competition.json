@@ -29,6 +29,43 @@
   ]
  },
  {
+  "id": "profil:pvu:00256552:P26V00006100",
+  "source": "profil:pvu:00256552",
+  "title": "Kulturní a kreativní centrum WOLFRAM Dobřany - prostorová akustika",
+  "authority": "Město Dobřany",
+  "authority_ico": "00256552",
+  "winner": "AVETON s.r.o.",
+  "winner_ico": "02436647",
+  "awarded": "2026-11-16",
+  "price_contracted": 11353534.92,
+  "estimated": false,
+  "value": null,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 39,
+  "loc_unknown": false,
+  "cpv": [
+   "45323000"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://www.vhodne-uverejneni.cz/profil/mesto-dobrany",
+  "bidders": [
+   {
+    "nazev": "GRADIOR, spol. s r.o.",
+    "ico": "43389406",
+    "cena": 11544085.05,
+    "vyloucen": false
+   },
+   {
+    "nazev": "AVETON s.r.o.",
+    "ico": "02436647",
+    "cena": 11353534.92,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "profil:sken-48136450:VZ-1304",
   "source": "profil:sken-48136450",
   "title": "Servis a opravy manipulační techniky",
