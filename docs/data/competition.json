@@ -1,5 +1,98 @@
 [
  {
+  "id": "profil:sken-27520536:VZ-6445",
+  "source": "profil:sken-27520536",
+  "title": "NPK, a.s., Litomyšlská nemocnice – stavební úpravy části 2NP pavilonu „I“, spojení sesteren",
+  "authority": "Nemocnice Pardubického kraje, a.s.",
+  "authority_ico": "27520536",
+  "winner": "Stavitelství - Háněl s.r.o.",
+  "winner_ico": "01732838",
+  "awarded": "2026-11-24",
+  "price_contracted": 1377777.22,
+  "estimated": false,
+  "value": null,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [
+   "45215100"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_1965.html",
+  "bidders": [
+   {
+    "nazev": "DS INTEX s.r.o.",
+    "ico": "27498492",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Hozijiv s.r.o.",
+    "ico": "06111092",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "RWX, s.r.o.",
+    "ico": "14235111",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SKOS s.r.o.",
+    "ico": "62027077",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Stavitelství - Háněl s.r.o.",
+    "ico": "01732838",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
+  "id": "rvz:RVZ2600294093",
+  "source": "profil:sken-68407700",
+  "title": "EduInfra_02_23_023_192_Modernizace WiFi sítě",
+  "authority": "České vysoké učení technické v Praze",
+  "authority_ico": "68407700",
+  "winner": "SOITRON s.r.o.",
+  "winner_ico": "27270599",
+  "awarded": "2026-11-19",
+  "price_contracted": 2064223.16,
+  "estimated": false,
+  "value": null,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": null,
+  "loc_unknown": true,
+  "cpv": [
+   "32420000"
+  ],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://www.egordion.cz/nabidkaGORDION/profilCVUT",
+  "bidders": [
+   {
+    "nazev": "FLAME System s.r.o.",
+    "ico": "26846888",
+    "cena": 1992625.0,
+    "vyloucen": false
+   },
+   {
+    "nazev": "SOITRON s.r.o.",
+    "ico": "27270599",
+    "cena": 2064223.16,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/40451997"
+ },
+ {
   "id": "rvz:RVZ2600100917",
   "source": "profil:hradec-kralove",
   "title": "Cyklostezka Kamenný most Plácky – Skleníky Třebeš – I. etapa - PD",
@@ -76,6 +169,7 @@
   "awarded": "2026-11-13",
   "price_contracted": 440120.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -194,6 +288,7 @@
   "awarded": "2026-11-11",
   "price_contracted": 1350000.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -212,6 +307,27 @@
     "vyloucen": false
    }
   ]
+ },
+ {
+  "id": "rvz:RVZ2600290378",
+  "source": "profil:sken-41197518",
+  "title": "Rychnov nad Kněžnou - Oprava podlah a maleb po havárii ÚT II",
+  "authority": "VŠEOBECNÁ ZDRAVOTNÍ POJIŠŤOVNA ČESKÉ REPUBLIKY",
+  "authority_ico": "41197518",
+  "winner": "VIXEL Group s.r.o.",
+  "winner_ico": "09603115",
+  "awarded": "2026-11-11",
+  "price_contracted": 186695.0,
+  "estimated": false,
+  "value": null,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 36,
+  "loc_unknown": false,
+  "cpv": [],
+  "kind": "VZMR",
+  "kw_match": true,
+  "url": "https://www.tenderarena.cz/profily/vzp"
  },
  {
   "id": "rvz:RVZ2600288327",
@@ -280,6 +396,7 @@
   "awarded": "2026-11-09",
   "price_contracted": 584911.0,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -430,7 +547,7 @@
  },
  {
   "id": "rvz:RVZ2600117842",
-  "source": "profil:hradec-kralove",
+  "source": "profil:sken-00268810",
   "title": "Výstavba MŠ Podzámčí II v Hradci Králové  – TDS + BOZP",
   "authority": "Statutární město Hradec Králové",
   "authority_ico": "00268810",
@@ -447,7 +564,7 @@
   "cpv": [],
   "kind": "VZMR",
   "kw_match": true,
-  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "url": "https://tenderarena.cz/profily/hradeckralove",
   "bidders": [
    {
     "nazev": "SAFETY PRO s.r.o.",
@@ -10566,6 +10683,7 @@
   "awarded": "2026-08-27",
   "price_contracted": 4889999.64,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -10581,76 +10699,37 @@
     "nazev": "WANDEL CZECH s.r.o.",
     "ico": "28977955",
     "cena": 5440008.98,
-    "vyloucen": false
+    "vyloucen": false,
+    "nid": "c7141906-0faa-43c3-b201-d642d72b9d9d"
    },
    {
     "nazev": "ELITT stavební s.r.o.",
     "ico": "06408991",
     "cena": 5273250.43,
-    "vyloucen": false
+    "vyloucen": false,
+    "nid": "12422514-22ec-4fee-91fb-d325ecef67d7"
    },
    {
     "nazev": "DOMISTAV CZ a.s.",
     "ico": "27481107",
     "cena": 4889999.64,
-    "vyloucen": false
+    "vyloucen": false,
+    "nid": "9f481d03-c047-49db-9855-9b8a5576dfaf",
+    "vybran": true
    },
    {
     "nazev": "ELIZZA s.r.o.",
     "ico": "00334561",
     "cena": 5399769.91,
-    "vyloucen": false
+    "vyloucen": false,
+    "nid": "e191d130-0e7f-4d55-b8be-d5a6ac43b7e7"
    },
    {
     "nazev": "Pražská stavební s.r.o.",
     "ico": "08290351",
     "cena": 5449641.04,
-    "vyloucen": false
-   },
-   {
-    "nazev": "WANDEL CZECH s.r.o.",
-    "ico": "",
-    "nid": "c7141906-0faa-43c3-b201-d642d72b9d9d",
-    "cena": null,
-    "poradi": null,
-    "vybran": false,
-    "vyloucen": false
-   },
-   {
-    "nazev": "ELITT stavební s.r.o.",
-    "ico": "",
-    "nid": "12422514-22ec-4fee-91fb-d325ecef67d7",
-    "cena": null,
-    "poradi": null,
-    "vybran": false,
-    "vyloucen": false
-   },
-   {
-    "nazev": "DOMISTAV CZ a.s.",
-    "ico": "",
-    "nid": "9f481d03-c047-49db-9855-9b8a5576dfaf",
-    "cena": null,
-    "poradi": null,
-    "vybran": true,
-    "vyloucen": false
-   },
-   {
-    "nazev": "ELIZZA s.r.o.",
-    "ico": "",
-    "nid": "e191d130-0e7f-4d55-b8be-d5a6ac43b7e7",
-    "cena": null,
-    "poradi": null,
-    "vybran": false,
-    "vyloucen": false
-   },
-   {
-    "nazev": "Pražská stavební s.r.o.",
-    "ico": "",
-    "nid": "95d72325-78d5-4270-b574-c704be7afea9",
-    "cena": null,
-    "poradi": null,
-    "vybran": false,
-    "vyloucen": false
+    "vyloucen": false,
+    "nid": "95d72325-78d5-4270-b574-c704be7afea9"
    }
   ],
   "registr_url": "https://smlouvy.gov.cz/smlouva/39316575"
@@ -18536,6 +18615,37 @@
   ]
  },
  {
+  "id": "profil:sken-00236195:VZ-609",
+  "source": "profil:sken-00236195",
+  "title": "Modernizace slavnostního osvětlení Hrádku",
+  "authority": "Město Kutná Hora",
+  "authority_ico": "00236195",
+  "winner": "Tomáš Lenc elektro práce s.r.o.",
+  "winner_ico": "05643601",
+  "awarded": "2026-07-16",
+  "price_contracted": 829871.4,
+  "estimated": false,
+  "value": null,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 46,
+  "loc_unknown": false,
+  "cpv": [
+   "45316100"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://zakazky.kutnahora.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "Tomáš Lenc elektro práce s.r.o.",
+    "ico": "05643601",
+    "cena": null,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
   "id": "rvz:RVZ2600104852",
   "source": "isvz",
   "title": "ZATEPLENÍ FASÁDY A VÝMĚNA OKEN ZDRAVOTNÍHO STŘEDISKA V RADVANICÍCH II.",
@@ -21427,6 +21537,7 @@
   "awarded": "2026-07-01",
   "price_contracted": 5537497.42,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -21440,13 +21551,15 @@
     "nazev": "Střechy Construct s.r.o.",
     "ico": "01484729",
     "cena": 7678811.1,
-    "vyloucen": true
+    "vyloucen": true,
+    "duvod": "Údaje, doklady, vzorky nebo modely předložené účastníkem zadávacího řízení nebyly řádně objasněny či doplněny"
    },
    {
     "nazev": "MONTÉRA & Energy s.r.o.",
     "ico": "19471173",
     "cena": 4992268.17,
-    "vyloucen": true
+    "vyloucen": true,
+    "duvod": "Údaje, doklady, vzorky nebo modely předložené účastníkem zadávacího řízení nebyly řádně objasněny či doplněny"
    },
    {
     "nazev": "Bohemia Structio s.r.o.",
@@ -21455,8 +21568,7 @@
     "vyloucen": false,
     "vybran": true
    }
-  ],
-  "registr_url": "https://smlouvy.gov.cz/smlouva/38618848?backlink=l1gcl"
+  ]
  },
  {
   "id": "rvz:RVZ2600083956",
@@ -22404,6 +22516,7 @@
   "awarded": "2026-06-25",
   "price_contracted": 599671.24,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": 46,
@@ -26347,7 +26460,8 @@
     "nazev": "ELITSTAV s.r.o.",
     "ico": "06552226",
     "cena": null,
-    "vyloucen": true
+    "vyloucen": true,
+    "duvod": "neprokázal kvalifikaci"
    },
    {
     "nazev": "PKD, a.s.",
@@ -26377,7 +26491,8 @@
   "value": 17090860.9,
   "slouceno": [
    "profil:sken-00085031:VZ-1481"
-  ]
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/40391797"
  },
  {
   "id": "rvz:RVZ2600082257",
@@ -30945,6 +31060,7 @@
   "awarded": "2026-05-11",
   "price_contracted": 22819803.96,
   "estimated": false,
+  "value": null,
   "price_paid": null,
   "growth_pct": null,
   "dist_km": null,
@@ -43571,8 +43687,8 @@
   "registr_url": "https://smlouvy.gov.cz/smlouva/37056309"
  },
  {
-  "id": "profil:pvu:00236691:P26V00006916",
-  "source": "profil:pvu:00236691",
+  "id": "profil:sken-00236691:P26V00006916",
+  "source": "profil:sken-00236691",
   "title": "Venkovní odborná učebna u ZŠ Žleby",
   "authority": "Obec Žleby",
   "authority_ico": "00236691",
@@ -43599,6 +43715,9 @@
     "cena": 3439083.0,
     "vyloucen": false
    }
+  ],
+  "slouceno": [
+   "profil:pvu:00236691:P26V00006916"
   ]
  },
  {

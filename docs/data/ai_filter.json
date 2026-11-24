@@ -1,12 +1,12 @@
 {
  "meta": {
-  "updated": "2026-11-24T18:50:47+00:00",
+  "updated": "2026-11-24T19:25:48+00:00",
   "model": "claude-opus-5",
-  "posouzeno_nyni": 0,
-  "celkem": 602,
+  "posouzeno_nyni": 5,
+  "celkem": 607,
   "counts": {
    "ano": 275,
-   "ne": 216,
+   "ne": 221,
    "nejisto": 111
   },
   "errors": []
@@ -2419,6 +2419,26 @@
   "profil:kr-kralovehradecky:VZ-13160": {
    "verdikt": "nejisto",
    "duvod": "Gastro vybavení, podíl stavebních prací nejasný"
+  },
+  "profil:sken-48136450:VZ-1329": {
+   "verdikt": "ne",
+   "duvod": "Servis manipulační techniky, nikoli stavba"
+  },
+  "rvz:RVZ2600300761": {
+   "verdikt": "ne",
+   "duvod": "IT infrastruktura, nikoli stavební práce"
+  },
+  "rvz:RVZ2600297155": {
+   "verdikt": "ne",
+   "duvod": "Dodávka měřicích zařízení, energetika"
+  },
+  "rvz:RVZ2600300638": {
+   "verdikt": "ne",
+   "duvod": "Dodávka serverů, IT"
+  },
+  "profil:sken-00268097:P26V00000010": {
+   "verdikt": "ne",
+   "duvod": "Rybníky a vodní díla nejsou relevantní"
   }
  }
 }
