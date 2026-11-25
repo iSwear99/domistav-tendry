@@ -1,11 +1,11 @@
 {
  "meta": {
-  "updated": "2026-11-24T19:58:03+00:00",
+  "updated": "2026-11-25T17:55:54+00:00",
   "model": "claude-opus-5",
-  "posouzeno_nyni": 0,
-  "celkem": 602,
+  "posouzeno_nyni": 1,
+  "celkem": 608,
   "counts": {
-   "ano": 275,
+   "ano": 276,
    "ne": 221,
    "nejisto": 111
   },
@@ -304,10 +304,6 @@
    "verdikt": "ano",
    "duvod": "Podkrovní vestavba školy, typová zakázka firmy"
   },
-  "rvz:RVZ2600086089": {
-   "verdikt": "ano",
-   "duvod": "Rekonstrukce zdravotnického objektu"
-  },
   "rvz:RVZ2600086518": {
    "verdikt": "ne",
    "duvod": "Rekonstrukce ulice, silniční stavba"
@@ -343,14 +339,6 @@
   "rvz:RVZ2600086466": {
    "verdikt": "ne",
    "duvod": "Vodní nádrž, vodohospodářské dílo"
-  },
-  "rvz:RVZ2600085422": {
-   "verdikt": "ano",
-   "duvod": "Stavební úpravy školního gastroprovozu"
-  },
-  "rvz:RVZ2600088661": {
-   "verdikt": "ano",
-   "duvod": "Rekonstrukce školní kuchyně, obdoba realizovaných zakázek"
   },
   "rvz:RVZ2500101228": {
    "verdikt": "ano",
@@ -403,10 +391,6 @@
   "rvz:RVZ2600088814": {
    "verdikt": "ne",
    "duvod": "Opěrná zeď u silnice"
-  },
-  "rvz:RVZ2600084832": {
-   "verdikt": "ano",
-   "duvod": "Rekonstrukce střech a sanace školy"
   },
   "rvz:RVZ2600086836": {
    "verdikt": "ne",
@@ -679,10 +663,6 @@
   "rvz:RVZ2600082815": {
    "verdikt": "ano",
    "duvod": "Kanalizace – inženýrské sítě v oboru"
-  },
-  "rvz:RVZ2500090320": {
-   "verdikt": "ne",
-   "duvod": "Dopravní infrastruktura, komunikace a železnice"
   },
   "rvz:RVZ2600077314": {
    "verdikt": "nejisto",
@@ -2380,25 +2360,9 @@
    "verdikt": "nejisto",
    "duvod": "Odvodnění zpevněných ploch, může jít o inženýrské sítě"
   },
-  "rvz:RVZ2600071624": {
-   "verdikt": "ne",
-   "duvod": "Rekonstrukce ulice, silniční stavba"
-  },
   "rvz:RVZ2600116964": {
    "verdikt": "ne",
    "duvod": "Technický dozor a BOZP"
-  },
-  "rvz:RVZ2600284530": {
-   "verdikt": "ano",
-   "duvod": "Oprava střechy budovy pavilonu"
-  },
-  "rvz:RVZ2600294788": {
-   "verdikt": "ano",
-   "duvod": "Obnova střechy budovy kostela"
-  },
-  "rvz:RVZ2600290098": {
-   "verdikt": "ano",
-   "duvod": "Obnova fasády budovy kostela"
   },
   "rvz:RVZ2600292974": {
    "verdikt": "nejisto",
@@ -2439,6 +2403,46 @@
   "profil:sken-00268097:P26V00000010": {
    "verdikt": "ne",
    "duvod": "Rybníky a vodní díla nejsou relevantní"
+  },
+  "rvz:RVZ2600301724": {
+   "verdikt": "ano",
+   "duvod": "Rekonstrukce bytových jednotek, pozemní stavitelství v HK"
+  },
+  "rvz:RVZ2600086089": {
+   "verdikt": "ano",
+   "duvod": "Rekonstrukce zdravotnického objektu"
+  },
+  "rvz:RVZ2600085422": {
+   "verdikt": "ano",
+   "duvod": "Stavební úpravy školního gastroprovozu"
+  },
+  "rvz:RVZ2600088661": {
+   "verdikt": "ano",
+   "duvod": "Rekonstrukce školní kuchyně, obdoba realizovaných zakázek"
+  },
+  "rvz:RVZ2600084832": {
+   "verdikt": "ano",
+   "duvod": "Rekonstrukce střech a sanace školy"
+  },
+  "rvz:RVZ2500090320": {
+   "verdikt": "ne",
+   "duvod": "Dopravní infrastruktura, komunikace a železnice"
+  },
+  "rvz:RVZ2600071624": {
+   "verdikt": "ne",
+   "duvod": "Rekonstrukce ulice, silniční stavba"
+  },
+  "rvz:RVZ2600284530": {
+   "verdikt": "ano",
+   "duvod": "Oprava střechy budovy pavilonu"
+  },
+  "rvz:RVZ2600294788": {
+   "verdikt": "ano",
+   "duvod": "Obnova střechy budovy kostela"
+  },
+  "rvz:RVZ2600290098": {
+   "verdikt": "ano",
+   "duvod": "Obnova fasády budovy kostela"
   }
  }
 }

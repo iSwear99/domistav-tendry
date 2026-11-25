@@ -55,6 +55,57 @@
   ]
  },
  {
+  "id": "profil:kr-pardubicky:VZ-6407",
+  "source": "profil:kr-pardubicky",
+  "title": "Centrum následné péče Rybitví – přístavba evakuačního výtahu",
+  "authority": "Pardubický kraj",
+  "authority_ico": "70892822",
+  "winner": "VIKTORSTAV s.r.o.",
+  "winner_ico": "25618091",
+  "awarded": "2026-11-24",
+  "price_contracted": 7813568.47,
+  "estimated": false,
+  "value": null,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 17,
+  "loc_unknown": false,
+  "cpv": [
+   "45000000"
+  ],
+  "kind": "VZMR",
+  "kw_match": false,
+  "url": "https://zakazky.pardubickykraj.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "PS HOME STAR s.r.o.",
+    "ico": "03221466",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Solution Construction s.r.o.",
+    "ico": "17708095",
+    "cena": null,
+    "vyloucen": true,
+    "duvod": "neprokázal kvalifikaci"
+   },
+   {
+    "nazev": "STAVER Luže s.r.o.",
+    "ico": "03564240",
+    "cena": null,
+    "vyloucen": false
+   },
+   {
+    "nazev": "VIKTORSTAV s.r.o.",
+    "ico": "25618091",
+    "cena": null,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/40476165"
+ },
+ {
   "id": "rvz:RVZ2600294093",
   "source": "profil:sken-68407700",
   "title": "EduInfra_02_23_023_192_Modernizace WiFi sítě",
@@ -547,7 +598,7 @@
  },
  {
   "id": "rvz:RVZ2600117842",
-  "source": "profil:sken-00268810",
+  "source": "profil:hradec-kralove",
   "title": "Výstavba MŠ Podzámčí II v Hradci Králové  – TDS + BOZP",
   "authority": "Statutární město Hradec Králové",
   "authority_ico": "00268810",
@@ -564,7 +615,7 @@
   "cpv": [],
   "kind": "VZMR",
   "kw_match": true,
-  "url": "https://tenderarena.cz/profily/hradeckralove",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
   "bidders": [
    {
     "nazev": "SAFETY PRO s.r.o.",

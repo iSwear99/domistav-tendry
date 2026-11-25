@@ -1,9 +1,9 @@
 {
  "meta": {
-  "updated": "2026-11-24T19:57:53+00:00",
-  "zd": 657,
-  "zpravy": 1501,
-  "novych": 0,
+  "updated": "2026-11-25T17:55:40+00:00",
+  "zd": 654,
+  "zpravy": 1506,
+  "novych": 2,
   "errors": []
  },
  "zd": {
@@ -114,9 +114,6 @@
    "nenalezeno": true
   },
   "rvz:RVZ2600076622": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2500090320": {
    "nenalezeno": true
   },
   "rvz:RVZ2600076553": {
@@ -302,9 +299,6 @@
   "rvz:RVZ2500070545": {
    "nenalezeno": true
   },
-  "rvz:RVZ2600086089": {
-   "nenalezeno": true
-  },
   "rvz:RVZ2600086518": {
    "nenalezeno": true
   },
@@ -337,16 +331,10 @@
   "rvz:RVZ2600086466": {
    "nenalezeno": true
   },
-  "rvz:RVZ2600085422": {
-   "nenalezeno": true
-  },
   "rvz:RVZ2600096679": {
    "nenalezeno": true
   },
   "rvz:RVZ2600097273": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2600088661": {
    "nenalezeno": true
   },
   "rvz:RVZ2500101228": {
@@ -389,9 +377,6 @@
    "nenalezeno": true
   },
   "rvz:RVZ2600088814": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2600084832": {
    "nenalezeno": true
   },
   "rvz:RVZ2600086836": {
@@ -2010,19 +1995,7 @@
   "rvz:RVZ2600300939": {
    "nenalezeno": true
   },
-  "rvz:RVZ2600071624": {
-   "nenalezeno": true
-  },
   "rvz:RVZ2600116964": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2600284530": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2600294788": {
-   "nenalezeno": true
-  },
-  "rvz:RVZ2600290098": {
    "nenalezeno": true
   },
   "rvz:RVZ2600292974": {
@@ -2039,6 +2012,25 @@
   },
   "profil:kr-kralovehradecky:VZ-13160": {
    "doc_url": "https://zakazky.cenakhk.cz/document_download_148437.html"
+  },
+  "profil:sken-48136450:VZ-1329": {
+   "doc_url": "https://ezak.cnb.cz/contract_display_1329.html?open=doc_zad",
+   "misto": "ceske budejovice"
+  },
+  "rvz:RVZ2600300761": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600297155": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600301724": {
+   "doc_url": "https://api.tenderarena.cz/ta/profil/stahovani-dokumentu/dokument/6724139"
+  },
+  "rvz:RVZ2600300638": {
+   "nenalezeno": true
+  },
+  "profil:sken-00268097:P26V00000010": {
+   "nenalezeno": true
   }
  },
  "zpravy": {
@@ -6564,9 +6556,6 @@
   "rvz:RVZ2600100917": {
    "nenalezeno": true
   },
-  "profil:pvu:00236691:P26V00006916": {
-   "doc_url": "https://www.vhodne-uverejneni.cz/zakazka/pisemna-zprava-modernizace-vo"
-  },
   "rvz:RVZ2600301140": {
    "nenalezeno": true
   },
@@ -6574,6 +6563,24 @@
    "doc_url": "https://www.vhodne-uverejneni.cz/index.php?m=xenorders&h=orderdocument&a=detail&document=3949513"
   },
   "rvz:RVZ2600117842": {
+   "nenalezeno": true
+  },
+  "profil:sken-27520536:VZ-6445": {
+   "nenalezeno": true
+  },
+  "profil:kr-pardubicky:VZ-6407": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600294093": {
+   "nenalezeno": true
+  },
+  "rvz:RVZ2600290378": {
+   "nenalezeno": true
+  },
+  "profil:sken-00236195:VZ-609": {
+   "nenalezeno": true
+  },
+  "profil:sken-00236691:P26V00006916": {
    "nenalezeno": true
   }
  }

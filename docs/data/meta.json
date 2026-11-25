@@ -1,18 +1,16 @@
 {
  "last_isvz": "2026-11-24",
- "updated": "2026-11-24T19:57:52+00:00",
+ "updated": "2026-11-25T17:55:18+00:00",
  "counts": {
-  "total": 8769,
-  "vz": 5583,
-  "vzmr": 3186,
-  "active": 82,
-  "changed": 145,
-  "competition": 1501,
-  "previous": 8817
+  "total": 8741,
+  "vz": 5548,
+  "vzmr": 3193,
+  "active": 80,
+  "changed": 149,
+  "competition": 1506,
+  "previous": 8739
  },
  "errors": [
-  "pvu: /externi-zakazka/fjfi-kf-2026-30-notebook-16: Stažení selhalo: https://www.vhodne-uverejneni.cz/externi-zakazka/fjfi-kf-2026-30-notebook-16: HTTP Error 401: Unauthorized",
-  "proklik ezak.susupk.cz: <urlopen error [Errno 11001] getaddrinfo failed>",
-  "proklik nen.nipez.cz: HTTP Error 503: Service Unavailable"
+  "proklik ezak.susupk.cz: <urlopen error [Errno -2] Name or service not known>"
  ]
 }
