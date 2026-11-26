@@ -130,11 +130,12 @@
   "kw_match": true,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true,
   "profile_url": "https://zakazky.kr-stredocesky.cz/profile_display_2.html",
-  "url_dead": 1
+  "url_dead": 2,
+  "link_dead": true
  },
  {
   "id": "rvz:RVZ2600297155",
@@ -231,6 +232,34 @@
   "loc_unknown": false
  },
  {
+  "id": "profil:sken-00278360:P26V00000114",
+  "source": "profil:sken-00278360",
+  "title": "Trutnov Lnářská ulice, rozšíření parkoviště osobních vozidel",
+  "authority": "MĚSTO TRUTNOV",
+  "authority_ico": "00278360",
+  "cpv": [
+   "45111240"
+  ],
+  "nuts": [],
+  "value": 4851559.0,
+  "published": "2026-10-29",
+  "deadline": "2026-12-15T13:00:00",
+  "url": "https://zakazky.trutnov.cz/contract_display_1872.html",
+  "place": "Trutnov",
+  "authority_seat": "Slovanské náměstí 165 54101 Trutnov",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": true,
+  "no_value": false,
+  "expired": false,
+  "profile_url": "https://zakazky.trutnov.cz/profile_display_2.html",
+  "dist_km": 43,
+  "loc_unknown": false
+ },
+ {
   "id": "profil:sken-00274101:VZ-291",
   "source": "profil:sken-00274101",
   "title": "Rekonstrukce ulice Hálkova",
@@ -279,11 +308,12 @@
   "kw_match": true,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 46,
   "loc_unknown": false,
   "profile_url": "https://zakazky.kutnahora.cz/profile_display_2.html",
-  "url_dead": 1
+  "url_dead": 2,
+  "link_dead": true
  },
  {
   "id": "rvz:RVZ2600298059",
@@ -381,6 +411,30 @@
   "clarifications": 0,
   "kind": "VZMR",
   "kw_match": true,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 4,
+  "loc_unknown": false
+ },
+ {
+  "id": "rvz:RVZ2600302173",
+  "source": "profil:hradec-kralove",
+  "title": "Tisk materiálů města Hradec Králové - předběžné tržní konzultace",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [],
+  "nuts": [],
+  "value": null,
+  "published": "2026-11-26",
+  "deadline": "2026-12-11T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
   "no_nuts": false,
   "no_value": true,
   "expired": false,
@@ -496,8 +550,35 @@
   "expired": false,
   "dist_km": 19,
   "loc_unknown": false,
-  "nen_detail": "2026-11-25",
+  "nen_detail": "2026-11-26",
   "predmet": "stavba útulku pro psy a služebny Městské policie Pardubice v k.ú. Popkovice, která je navržena jako jednopodlažní, nepodsklepená a zastřešená plochou střechou. Půdorysné řešení objektu je ve tvaru mnohoúhelníku s prostorovým řešením ve tvaru několika kvádrů k sobě spojených. Sestava objektu vytváří ze třech stran krytý, částečně oplocený vnitřní dvůr.  Útulek bude doplněn oplocenými plochami se čtyřmi výběhovými loukami a drobným objektem pro umístění zahradní techniky."
+ },
+ {
+  "id": "profil:trutnov:VZ-1871",
+  "source": "profil:trutnov",
+  "title": "Nájem a servis zařízení pro měření úsekové rychlosti – Trutnov, část Babí",
+  "authority": "Město Trutnov",
+  "authority_ico": "00278360",
+  "cpv": [
+   "45316210"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-11-26",
+  "deadline": "2026-12-10T10:00:00",
+  "url": "https://zakazky.trutnov.cz/profile_display_2.html/contract_display_1871.html",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZMR",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 43,
+  "loc_unknown": false,
+  "profile_url": "https://zakazky.trutnov.cz/profile_display_2.html"
  },
  {
   "id": "profil:sken-00274101:VZ-289",
@@ -685,11 +766,12 @@
   "kw_match": true,
   "no_nuts": true,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": null,
   "loc_unknown": true,
   "profile_url": "https://mfcr.ezak.cz/profile_display_58.html",
-  "url_dead": 1
+  "url_dead": 2,
+  "link_dead": true
  },
  {
   "id": "profil:kr-kralovehradecky:VZ-13103",
@@ -808,6 +890,32 @@
   "dist_km": null,
   "loc_unknown": true,
   "profile_url": "https://www.vhodne-uverejneni.cz/profil/s-v-i-c-s-r-o"
+ },
+ {
+  "id": "rvz:RVZ2600297027",
+  "source": "profil:hradec-kralove",
+  "title": "Denní stacionář pro osoby se zdravotním postižením – část odstranění stávajících objektů v areálu bývalých Technických služeb",
+  "authority": "Statutární město Hradec Králové",
+  "authority_ico": "00268810",
+  "cpv": [
+   "45110000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-11-04",
+  "deadline": "2026-12-04T10:00:00",
+  "url": "https://www.tenderarena.cz/profily/hradeckralove",
+  "place": "",
+  "state": "zahájen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "kw_match": false,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": false,
+  "dist_km": 4,
+  "loc_unknown": false
  },
  {
   "id": "profil:pvu:00545503:P26V00006705",
@@ -1142,60 +1250,6 @@
   "profile_url": "https://zakazky.trutnov.cz/profile_display_2.html"
  },
  {
-  "id": "profil:sken-00278360:P26V00000114",
-  "source": "profil:sken-00278360",
-  "title": "Trutnov Lnářská ulice, rozšíření parkoviště osobních vozidel",
-  "authority": "MĚSTO TRUTNOV",
-  "authority_ico": "00278360",
-  "cpv": [
-   "45111240"
-  ],
-  "nuts": [],
-  "value": 4851559.0,
-  "published": "2026-10-29",
-  "deadline": "2026-11-30T13:00:00",
-  "url": "https://zakazky.trutnov.cz/contract_display_1872.html",
-  "place": "Trutnov",
-  "authority_seat": "Slovanské náměstí 165 54101 Trutnov",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZMR",
-  "kw_match": false,
-  "no_nuts": true,
-  "no_value": false,
-  "expired": false,
-  "profile_url": "https://zakazky.trutnov.cz/profile_display_2.html",
-  "dist_km": 43,
-  "loc_unknown": false
- },
- {
-  "id": "rvz:RVZ2600297027",
-  "source": "profil:hradec-kralove",
-  "title": "Denní stacionář pro osoby se zdravotním postižením – část odstranění stávajících objektů v areálu bývalých Technických služeb",
-  "authority": "Statutární město Hradec Králové",
-  "authority_ico": "00268810",
-  "cpv": [
-   "45110000"
-  ],
-  "nuts": [],
-  "value": null,
-  "published": "2026-11-04",
-  "deadline": "2026-11-30T10:00:00",
-  "url": "https://www.tenderarena.cz/profily/hradeckralove",
-  "place": "",
-  "state": "zahájen",
-  "site_visit": "",
-  "clarifications": 0,
-  "kind": "VZ",
-  "kw_match": false,
-  "no_nuts": false,
-  "no_value": true,
-  "expired": false,
-  "dist_km": 4,
-  "loc_unknown": false
- },
- {
   "id": "rvz:RVZ2600295115",
   "source": "isvz",
   "nen_id": "",
@@ -1448,7 +1502,7 @@
   "value": null,
   "published": "2026-09-23",
   "deadline": "2026-11-25T09:00:00",
-  "url": "https://zakazky.cenakhk.cz/profile_display_2.html/contract_display_13160.html",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "place": "",
   "state": "zahájen",
   "site_visit": "",
@@ -1457,10 +1511,9 @@
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
-  "expired": false,
+  "expired": true,
   "dist_km": 38,
-  "loc_unknown": false,
-  "profile_url": "https://zakazky.cenakhk.cz/profile_display_2.html"
+  "loc_unknown": false
  },
  {
   "id": "rvz:RVZ2600294370",
@@ -4806,6 +4859,40 @@
   "expired": true,
   "dist_km": null,
   "loc_unknown": true
+ },
+ {
+  "id": "profil:kr-kralovehradecky:VZ-13195",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Oprava informační tabule v lokalitě PR Peklo",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "cpv": [
+   "44220000"
+  ],
+  "nuts": [],
+  "value": null,
+  "published": "2026-11-26",
+  "deadline": "2026-10-14T10:00:00",
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "place": "",
+  "state": "dokončen",
+  "site_visit": "",
+  "clarifications": 0,
+  "kind": "VZ",
+  "bidders": [
+   {
+    "nazev": "AMKOST s.r.o.",
+    "ico": "07964269",
+    "cena": 24200.0,
+    "vyloucen": false
+   }
+  ],
+  "kw_match": true,
+  "no_nuts": false,
+  "no_value": true,
+  "expired": true,
+  "dist_km": 4,
+  "loc_unknown": false
  },
  {
   "id": "profil:kr-kralovehradecky:VZ-13193",
@@ -9110,10 +9197,78 @@
   "deadline": "2026-09-18T09:00:00",
   "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
   "place": "",
-  "state": "zahájen",
+  "state": "dokončen",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZ",
+  "bidders": [
+   {
+    "nazev": "CE-ING s.r.o.",
+    "ico": "04475631",
+    "cena": 15321862.86,
+    "vyloucen": false
+   },
+   {
+    "nazev": "DOMIVO s.r.o.",
+    "ico": "03771351",
+    "cena": 14985774.73,
+    "vyloucen": false
+   },
+   {
+    "nazev": "IRBOS s.r.o.",
+    "ico": "25933094",
+    "cena": 15503606.49,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Kantora s.r.o.",
+    "ico": "21972320",
+    "cena": 13603960.43,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KERSON spol. s r.o.",
+    "ico": "45536040",
+    "cena": 15952625.23,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Pavel Kočí",
+    "ico": "87964261",
+    "cena": 14449207.34,
+    "vyloucen": false
+   },
+   {
+    "nazev": "REDOMO a.s.",
+    "ico": "25937499",
+    "cena": 18638339.89,
+    "vyloucen": false
+   },
+   {
+    "nazev": "REVIST s.r.o.",
+    "ico": "24815756",
+    "cena": 14813502.97,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STATING s.r.o.",
+    "ico": "25963864",
+    "cena": 15697295.16,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ŠTĚPÁNEK, spol. s r.o.",
+    "ico": "45535124",
+    "cena": 14961279.07,
+    "vyloucen": false
+   },
+   {
+    "nazev": "V-work s.r.o.",
+    "ico": "03768961",
+    "cena": 18782117.01,
+    "vyloucen": false
+   }
+  ],
   "kw_match": false,
   "no_nuts": false,
   "no_value": true,
@@ -214851,7 +215006,7 @@
   "deadline": "",
   "url": "https://www.tenderarena.cz/profily/LazneBohdanec",
   "place": "",
-  "state": "dokončen",
+  "state": "ukončeno plnění",
   "site_visit": "",
   "clarifications": 0,
   "kind": "VZMR",

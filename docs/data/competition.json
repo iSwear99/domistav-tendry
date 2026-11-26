@@ -1,5 +1,97 @@
 [
  {
+  "id": "profil:kr-kralovehradecky:VZ-12963",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Rekonstrukce internátu v Opočně – 1. NP – dva byty a zázemí pro ředitelství DD Sedloňov – stavební práce",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "winner": "Kantora s.r.o.",
+  "winner_ico": "21972320",
+  "awarded": "2026-11-25",
+  "price_contracted": 13603960.43,
+  "estimated": false,
+  "value": null,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 42,
+  "loc_unknown": false,
+  "cpv": [
+   "45454100"
+  ],
+  "kind": "VZ",
+  "kw_match": false,
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "CE-ING s.r.o.",
+    "ico": "04475631",
+    "cena": 15321862.86,
+    "vyloucen": false
+   },
+   {
+    "nazev": "DOMIVO s.r.o.",
+    "ico": "03771351",
+    "cena": 14985774.73,
+    "vyloucen": false
+   },
+   {
+    "nazev": "IRBOS s.r.o.",
+    "ico": "25933094",
+    "cena": 15503606.49,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Kantora s.r.o.",
+    "ico": "21972320",
+    "cena": 13603960.43,
+    "vyloucen": false
+   },
+   {
+    "nazev": "KERSON spol. s r.o.",
+    "ico": "45536040",
+    "cena": 15952625.23,
+    "vyloucen": false
+   },
+   {
+    "nazev": "Pavel Kočí",
+    "ico": "87964261",
+    "cena": 14449207.34,
+    "vyloucen": false
+   },
+   {
+    "nazev": "REDOMO a.s.",
+    "ico": "25937499",
+    "cena": 18638339.89,
+    "vyloucen": false
+   },
+   {
+    "nazev": "REVIST s.r.o.",
+    "ico": "24815756",
+    "cena": 14813502.97,
+    "vyloucen": false
+   },
+   {
+    "nazev": "STATING s.r.o.",
+    "ico": "25963864",
+    "cena": 15697295.16,
+    "vyloucen": false
+   },
+   {
+    "nazev": "ŠTĚPÁNEK, spol. s r.o.",
+    "ico": "45535124",
+    "cena": 14961279.07,
+    "vyloucen": false
+   },
+   {
+    "nazev": "V-work s.r.o.",
+    "ico": "03768961",
+    "cena": 18782117.01,
+    "vyloucen": false
+   }
+  ],
+  "registr_url": "https://smlouvy.gov.cz/smlouva/40499626"
+ },
+ {
   "id": "profil:sken-27520536:VZ-6445",
   "source": "profil:sken-27520536",
   "title": "NPK, a.s., Litomyšlská nemocnice – stavební úpravy části 2NP pavilonu „I“, spojení sesteren",
@@ -1010,6 +1102,37 @@
     "cena": null,
     "poradi": null,
     "vybran": true,
+    "vyloucen": false
+   }
+  ]
+ },
+ {
+  "id": "profil:kr-kralovehradecky:VZ-13195",
+  "source": "profil:kr-kralovehradecky",
+  "title": "Oprava informační tabule v lokalitě PR Peklo",
+  "authority": "Královéhradecký kraj",
+  "authority_ico": "70889546",
+  "winner": "AMKOST s.r.o.",
+  "winner_ico": "07964269",
+  "awarded": "2026-10-27",
+  "price_contracted": 24200.0,
+  "estimated": false,
+  "value": null,
+  "price_paid": null,
+  "growth_pct": null,
+  "dist_km": 4,
+  "loc_unknown": false,
+  "cpv": [
+   "44220000"
+  ],
+  "kind": "VZ",
+  "kw_match": true,
+  "url": "https://zakazky.cenakhk.cz/profile_display_2.html",
+  "bidders": [
+   {
+    "nazev": "AMKOST s.r.o.",
+    "ico": "07964269",
+    "cena": 24200.0,
     "vyloucen": false
    }
   ]

@@ -1,12 +1,12 @@
 {
  "meta": {
-  "updated": "2026-11-25T17:55:54+00:00",
+  "updated": "2026-11-26T17:51:29+00:00",
   "model": "claude-opus-5",
-  "posouzeno_nyni": 1,
-  "celkem": 608,
+  "posouzeno_nyni": 2,
+  "celkem": 610,
   "counts": {
    "ano": 276,
-   "ne": 221,
+   "ne": 223,
    "nejisto": 111
   },
   "errors": []
@@ -2407,6 +2407,14 @@
   "rvz:RVZ2600301724": {
    "verdikt": "ano",
    "duvod": "Rekonstrukce bytových jednotek, pozemní stavitelství v HK"
+  },
+  "rvz:RVZ2600302173": {
+   "verdikt": "ne",
+   "duvod": "Tiskové služby, nikoli stavební práce"
+  },
+  "profil:trutnov:VZ-1871": {
+   "verdikt": "ne",
+   "duvod": "Nájem a servis měřicího zařízení, ne stavba"
   },
   "rvz:RVZ2600086089": {
    "verdikt": "ano",
