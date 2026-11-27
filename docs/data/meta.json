@@ -1,16 +1,27 @@
 {
  "last_isvz": "2026-11-24",
- "updated": "2026-11-26T17:50:53+00:00",
+ "updated": "2026-11-27T20:19:36+00:00",
  "counts": {
   "total": 8744,
   "vz": 5550,
   "vzmr": 3194,
-  "active": 78,
+  "active": 77,
   "changed": 150,
   "competition": 1508,
-  "previous": 8741
+  "previous": 8744
  },
  "errors": [
-  "proklik ezak.susupk.cz: <urlopen error [Errno -2] Name or service not known>"
+  "profil:kr-kralovehradecky: Stažení selhalo: https://zakazky.cenakhk.cz/profile_display_2.html/XMLdataVZ?od=29082026&do=27112026: <urlopen error timed out>",
+  "profil:kr-pardubicky: Stažení selhalo: https://zakazky.pardubickykraj.cz/profile_display_2.html/XMLdataVZ?od=29082026&do=27112026: <urlopen error timed out>",
+  "profil:trutnov: Stažení selhalo: https://zakazky.trutnov.cz/profile_display_2.html/XMLdataVZ?od=29082026&do=27112026: <urlopen error timed out>",
+  "profil:rychnov-nk: Stažení selhalo: https://zakazky.rychnov-city.cz/profile_display_2.html/XMLdataVZ?od=29082026&do=27112026: <urlopen error timed out>",
+  "profil:chrudim: Stažení selhalo: https://zakazky.chrudim-city.cz/profile_display_2.html/XMLdataVZ?od=29082026&do=27112026: <urlopen error timed out>",
+  "profil:usti-no: Stažení selhalo: https://zakazky.muuo.cz/profile_display_2.html/XMLdataVZ?od=29082026&do=27112026: <urlopen error timed out>",
+  "profil:dvur-kralove: Stažení selhalo: https://zakazky.mudk.cz/profile_display_2.html/XMLdataVZ?od=29082026&do=27112026: <urlopen error timed out>",
+  "profil:vrchlabi: Stažení selhalo: https://zakazky.muvrchlabi.cz/profile_display_2.html/XMLdataVZ?od=29082026&do=27112026: <urlopen error timed out>",
+  "profil:holice: Stažení selhalo: https://zakazky.mestoholice.cz/XMLdataVZ?od=29082026&do=27112026&profil=2: <urlopen error timed out>",
+  "profil:john-nell-baby: Stažení selhalo: https://zakazky.navigaassistance.cz/XMLdataVZ?od=29082026&do=27112026: <urlopen error timed out>",
+  "proklik ezak.susupk.cz: <urlopen error [Errno -2] Name or service not known>",
+  "proklik zakazky.cenakhk.cz: <urlopen error timed out>"
  ]
 }
